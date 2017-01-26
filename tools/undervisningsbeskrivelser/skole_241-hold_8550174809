@@ -1,0 +1,1099 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet gh Bi1 -  - Lectio - Grenaa Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Grenaa Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/241/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=8550174809" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="3AAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQVZUKH9AQAAAGsEZwNrBX0EWFCh/QEAAABrBnFrB2UNSG9sZGV0IGdoIEJpMWRsAmhpZGwCZwJpbAJrCGUDb2ZmbAJnA2lkbAJnBWlkbAKBaWRsAoFpaWwCawltZGwCZwVpbAJrCoFkcgFlHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfX2wBZSZzJG0kQ29udGVudCRDb250ZW50JGhvbGR1dmIkU2hvd0NlbmN1cgsAAAAGSG9sZElEDUhvbGRFbGVtZW50SUQTVmFsaWRhdGVSZXF1ZXN0TW9kZQhsZWN0aW9pZAVtdHlwZQ5tYXN0ZXJsZWN0aW9pZBZWaWV3c3RhdGVJc0luaXRpYWxpemVkCkVudGl0eU5hbWUMYXV0b2NvbXBsZXRlBkhvbGRJZAtfIUl0ZW1Db3VudAEAAQAAAP////8BAAAAAAAAAAQBAAAAf1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQIAAAADAAAAAwAAABACAAAABAAAAAkDAAAACQQAAAAJBQAAAAoMBgAAAEpNYWNvbS5MZWN0aW8uQ29tbW9uLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUDAAAAE01hY29tLkxlY3Rpby5Ib2xkSUQBAAAABl92YWx1ZQAJBgAAAFhQof0BAAAABQQAAAAaTWFjb20uTGVjdGlvLkhvbGRFbGVtZW50SUQBAAAABl92YWx1ZQAJBgAAAFlQof0BAAAAAQUAAAADAAAAWFCh/QEAAAALs8e8ndH0ANhhjCdNS6dumlPtudM=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="5iBc6EogO/e6BVAz9y+F2ivyRuQDtQkNu/Pyx4gErd31nV75FWjKEfXLEW12/0qoF7Vto3ePOT5Yt4bqfBN4pIVD4zWfmjv0icnNBhoGWlOytRCtmHgWtOgGEwO8Fw3TIGoIBvq59CKlw0T6w88XeQuKThRu+ZqsCkC+YaFdEigXwwsQl6b86I1EJaNAx9zZ7iq+mU4B00UtsXrvPrd4Dx8W1Y6t2QZkuqzZdWl9svflRlXs6RTfxRXMd5e3gxtksJ8Ku9CmnBnVmThUFDTPgx/rOAeZV8e90i9cQ7xwQ4Fiq8LvkgtyKiOQbF/VRWV17b20uLjMJGmujzKAUsgNGQPiJefwCeVAwgyn9hrZ1l61K71Mxzah054ntXvyMpUD" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Grenaa Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/241/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/241/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/241/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/241/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/241/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809" 
+		onclick="toggleTip('/lectio/241/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE8550174809">Holdet gh Bi1 - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/241/SkemaNy.aspx?type=holdelement&amp;holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/SkemaNy.aspx?type=holdelement&amp;holdelementid=8550174809&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/241/studieplan.aspx?holdelementid=8550174809&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/MaterialOverview.aspx?holdelement_id=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/subnav/modulregnskab.aspx?holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/aktivitet/AktivitetListe.aspx?holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/subnav/members.aspx?holdelementid=8550174809&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/aktivitet/AktivitetLinks.aspx?holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/DokumentOversigt.aspx?holdid=8550174808&amp;holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/241/studieplan.aspx?holdelementid=8550174809&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/studieplan.aspx?holdelementid=8550174809&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/studieplan.aspx?holdelementid=8550174809&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/241/studieplan.aspx?holdelementid=8550174809&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/241/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=8550174809" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">Grenaa Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi B</span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl">Kasper Severinsen</span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2014 Bi/gh1 (gh Bi1)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9659498296'>celler og organeller</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 2</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9659545459'>genetik og evolution</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 3</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9659550457'>Nervesystemet</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 4</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9659570724'>Hormoner og kulhydrater</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 5</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11116454904'>videnskabsteori</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 6</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11116456402'>fedt</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 7</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11116458322'>økologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 8</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11116463672'>bioteknologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 9</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11529337884'>repitetion</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph9659498296">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=9659498296&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">celler og organeller</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal">vi skelner mellem prokaryote og eukaryote celler<br />
+vi skelner mellem plante og dyre celler<br />
+virus og dets livscyklus<br />
+opbygning af proteiner<br />
+opbygning af DNA/RNA<br />
+enzymer</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologi i fokus; sider: 7-15, 69-93<br />Virus - løsark; sider: 1</span><br /><br /><i>Dokumenter:</i><br />
+						Eukaryote celle, prokaryote celle og plante celle.docx
+					<br />
+						1_Cellemembranen.docx
+					<br />
+						2_Transportprocesser over cellemembranen.docx
+					<br />
+						VIRUS.docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">12 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9659545459">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleLabel">2</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=9659545459&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">genetik og evolution</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_FagligeMaal">fagligt indhold:<br />
+-meiose<br />
+-kromosom, gen, allel<br />
+-nedarvning og arvelige sygdomme<br />
+-evolution</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologi i fokus; sider: 15-17, 107-114, 121-127</span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_ActualLessons">12 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Lærerstyret undervisning
+						</li>
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Individuelt arbejde
+						</li>
+					
+						<li>
+							
+							Pararbejde
+						</li>
+					
+						<li>
+							
+							Forelæsninger
+						</li>
+					
+						<li>
+							
+							Projektarbejde
+						</li>
+					
+						<li>
+							
+							Eksperimentelt arbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9659550457">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleLabel">3</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=9659550457&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">Nervesystemet</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_FagligeMaal">fagligt indhold:<br />
+-signalstoffer og signalsystemer<br />
+-opbygning og funktion af neuron og synapse<br />
+-funktionen af antidepressiv medicin</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologi i fokus; sider: 43-54</span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_ActualLessons">6 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Lærerstyret undervisning
+						</li>
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Individuelt arbejde
+						</li>
+					
+						<li>
+							
+							Pararbejde
+						</li>
+					
+						<li>
+							
+							Forelæsninger
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9659570724">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleLabel">4</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=9659570724&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">Hormoner og kulhydrater</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_FagligeMaal">-kulhydraters opbygning og funktion<br />
+-hormonregulering (insulin og glukagon)<br />
+-diabetes<br />
+-blodglukosebestemmelse</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_IndholdLbl"><i>Kernestof:</i><br />diabetes og insulin; sider: 4-10</span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_ActualLessons">4 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Lærerstyret undervisning
+						</li>
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Individuelt arbejde
+						</li>
+					
+						<li>
+							
+							Forelæsninger
+						</li>
+					
+						<li>
+							
+							Eksperimentelt arbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11116454904">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleLabel">5</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=11116454904&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">videnskabsteori</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_FagligeMaal">-falsificering<br />
+-korrelation og kausalitet</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_IndholdLbl"></span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_ActualLessons">0 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11116456402">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleLabel">6</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=11116456402&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">fedt</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_FagligeMaal">- opbygning og funktion af fedt</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_IndholdLbl"></span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_ActualLessons">2 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11116458322">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleLabel">7</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=11116458322&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">økologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologi i fokus; sider: 30-35, 131-135, 148-151</span><br /><br /><i>Dokumenter:</i><br />
+						fedt og carnitin.docx
+					<br />
+						fedt og carnitin.docx
+					<br />
+						Fordøjelsen som repetition.docx
+					<br />
+						Film til øko.docx
+					<br />
+						Laksen, Bjørnen og Skoven.pdf
+					<br />
+						Film til øko.docx
+					<br />
+						Laksen, Bjørnen og Skoven.pdf
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_ActualLessons">14 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11116463672">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleLabel">8</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=11116463672&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">bioteknologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologi i fokus; sider: 98-106, 144-148</span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_ActualLessons">8 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11529337884">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleLabel">9</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleHlink" href="/lectio/241/studieplan/forloeb_vis.aspx?phaseid=11529337884&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">repitetion</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_IndholdLbl"></span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_ActualLessons">4 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/241/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d8550174809">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:01</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/241", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=8550174809");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

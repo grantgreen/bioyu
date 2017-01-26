@@ -1,0 +1,45 @@
+<!-- GRANT ALL -->
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+    <script type="text/javascript" src="../../js/b/content_data.js"></script>
+
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+        initializeTOC("!!chapter!".match(/(\d+)\.?(\d+)?\.?(\d+)?/), "!!topic!");
+      });      
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+	<div class="col-md-12" style="text-align: center">
+	  <a href="javascript:history.back()" class="linkbox linkbox_small up" onmousedown="tileDown(event, this)" onmouseup="tileUp(this)" ontouchstart="tileDown(event, this)" ontouchend="tileUp(this)"  style="background-image: url('images/icons/yubio_back_icon.svg');" data-ajax="false">
+	  </a>
+	  <a href="?topic=!!topic!" class="linkbox linkbox_small up" onmousedown="tileDown(event, this)" onmouseup="tileUp(this)" ontouchstart="tileDown(event, this)" ontouchend="tileUp(this)"  style="background-image: url('images/icons/yubio_!!topic!_icon.svg');" data-ajax="false">
+	  </a>
+	  <a href="index_tiles.html" class="linkbox linkbox_small up" onmousedown="tileDown(event, this)" onmouseup="tileUp(this)" ontouchstart="tileDown(event, this)" ontouchend="tileUp(this)"  style="background-image: url('images/yubio_logo_pure.svg');" data-ajax="false">
+	  </a>
+	</div>
+      </div>
+      <div class="row" style="text-align: center">
+	<div class="col-md-12" id="column1">
+	</div>
+      </div>
+    </div>
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

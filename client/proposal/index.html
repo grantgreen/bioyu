@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+
+<!-- Dependencies -->
+<script src="http://yui.yahooapis.com/2.9.0/build/yahoo/yahoo-min.js"></script>
+
+<!-- Source file -->
+<script src="http://yui.yahooapis.com/2.9.0/build/dom/dom-min.js"></script>
+
+
+<!-- Event source file -->
+<script src="http://yui.yahooapis.com/2.9.0/build/event/event-min.js" ></script>
+
+<style>
+body {
+  background: #346295;
+  background-image: url('images/yubio_back.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-shadow: 8px 8px 6px #000;
+  font-family: sans-serif;
+
+}
+
+</style>
+</head>
+
+<body class="yui-skin-sam">
+
+  <!--  div id="treeDiv1" style="margin-top: 50px; margin-left: 20px"></div -->
+  
+<div id="games">Spil</div>
+<div id="mind_maps">Mind maps</div>
+<div id="information">Information</div>
+<div id="listen">Hør</div>
+<div id="figures">Figurer</div>
+<div id="more">Mere viden</div>
+
+<script type="text/javascript">
+var positionLinks = function() { 
+   var width = YAHOO.util.Dom.getViewportWidth();
+   var height = YAHOO.util.Dom.getViewportHeight();
+
+   var centerX = width / 2;
+   var centerY = width / 2;
+
+
+    YAHOO.util.Dom.setX('games', centerX - 179); 
+    YAHOO.util.Dom.setY('games', 230); 
+
+    YAHOO.util.Dom.setX('mind_maps', centerX - 239); 
+    YAHOO.util.Dom.setY('mind_maps', 290); 
+
+    YAHOO.util.Dom.setX('information', centerX - 239); 
+    YAHOO.util.Dom.setY('information', 350); 
+
+    YAHOO.util.Dom.setX('listen', centerX + 159); 
+    YAHOO.util.Dom.setY('listen', 230); 
+
+    YAHOO.util.Dom.setX('figures', centerX + 179); 
+    YAHOO.util.Dom.setY('figures', 290); 
+
+    YAHOO.util.Dom.setX('more', centerX + 179); 
+    YAHOO.util.Dom.setY('more', 350); 
+}
+
+YAHOO.util.Event.onDOMReady(positionLinks); 
+YAHOO.util.Event.addListener(window, "resize", positionLinks);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <title>Interaktiv ebog i biologi</title>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/info.css" />
+    <script src="../../js/tiles.js"></script>
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+        var mainYubio = imgButton("mainYubio", "index.html", 'images/yubio_logo_viewbox.svg');
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container" style="height: 100%">
+      <div class="row">
+	<div class="col-md-12" style="text-align: center; padding-bottom: 60px">
+	  <span id="mainYubio" />
+	</div>
+      </div>
+      <div class="row" style="text-align: center">
+	<div class="col-md-12">
+	  <a class="yubioBtn" href="pdfs/prisliste.pdf">Priser</a>
+	  <br />
+	  <a class="yubioBtn" href="pdfs/vilkaar.pdf">Vilkår</a>
+	</div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

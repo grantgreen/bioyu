@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Yubio - Interaktiv ebog i biologi</title>
+<!-- Bootstrap -->
+<link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<!--link rel="stylesheet" media="all and (orientation:portrait)" href="../styles/yubio_portrait.css" /> 
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="../styles/yubio_landscape.css" / -->
+<link rel="stylesheet" type="text/css"
+	href="../styles/yubio_responsive.css" />
+<link rel="stylesheet" type="text/css" href="../styles/yubio.css" />
+<!--  script type="text/javascript" src="../js/tiles.js"></script> -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1">
+</head>
+<body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#container').fadeOut(4000, function() {
+    window.location.href = "/preview.html";    
+  });
+/*
+  setTimeout(function() {
+    window.location.href = "/preview.html";
+    }, 2000);
+    */
+  });
+
+</script>
+
+	<div class="container" id="container">
+    <div class="row">
+		  <div class="col-md-12">
+			 <a href="preview.html">
+				<img src="images/reklame_yubio_pure.png" id="major_logo"
+					style="display: block; margin: 100px auto 0px auto; border-color: white; border-style: solid; border-width: 1px;" />
+			 </a>
+			</div>
+		</div>
+<!--		<div class="row">
+			<div class="col-md-12">
+
+				<a href="index_tiles.html" class="linkbox up" id="button"
+					onmousedown="tileDown(event, this)" onmouseup="tileUp(this)"
+					ontouchstart="tileDown(event, this)" ontouchend="tileUp(this)">
+				</a>
+			</div>
+		</div> -->
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!-- !DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      canvas {
+        //border: 1px solid #9C9898;
+      }
+    </style>
+
+    <script src="../js/kinetic-v3.10.0.js"></script>
+    <script src="../js/tiles_game_data.js"></script>
+    <script src="../js/front_page.js"></script>
+  </head>
+  <body style="background: #2e3144">
+    <!-- div id="container_container" style="text-align: center; width: 100%; height: 100%" -->
+<div id="container" style="margin: 50px auto; width: 800px"></div>
+<!-- /div -->
+</body>
+</html-->

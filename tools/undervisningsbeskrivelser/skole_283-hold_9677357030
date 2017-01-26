@@ -1,0 +1,1678 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet IB2 bi-labHL -  - Lectio - Hasseris Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Hasseris Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/283/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=9677357030" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="4gAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQXmv9BAAgAAAGsEZwNrBX0Ec3H0mwEAAABrBnFrB2UTSG9sZGV0IElCMiBiaS1sYWJITGRsAmhpZGwCZwJpbAJrCGUDb2ZmbAJnA2lkbAJnBWlkbAKBaWRsAoFpaWwCawltZGwCZwVpbAJrCoFkcgFlHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfX2wBZSZzJG0kQ29udGVudCRDb250ZW50JGhvbGR1dmIkU2hvd0NlbmN1cgsAAAAGSG9sZElEDUhvbGRFbGVtZW50SUQTVmFsaWRhdGVSZXF1ZXN0TW9kZQhsZWN0aW9pZAVtdHlwZQ5tYXN0ZXJsZWN0aW9pZBZWaWV3c3RhdGVJc0luaXRpYWxpemVkCkVudGl0eU5hbWUMYXV0b2NvbXBsZXRlBkhvbGRJZAtfIUl0ZW1Db3VudAEAAQAAAP////8BAAAAAAAAAAQBAAAAf1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQIAAAADAAAAAwAAABACAAAABAAAAAkDAAAACQQAAAAJBQAAAAoMBgAAAEpNYWNvbS5MZWN0aW8uQ29tbW9uLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUDAAAAE01hY29tLkxlY3Rpby5Ib2xkSUQBAAAABl92YWx1ZQAJBgAAAHNx9JsBAAAABQQAAAAaTWFjb20uTGVjdGlvLkhvbGRFbGVtZW50SUQBAAAABl92YWx1ZQAJBgAAAOa/0EACAAAAAQUAAAADAAAAc3H0mwEAAAALE5Ns1tGjyg85XaNMcmGVTWFGXIo=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="zxYU2MooR/+pusUAIOSrV2SSkujfNJ5G0oagmK77XkxZ3ZTVvMwP84H2BBZGAjpKLPiCmhJNu6PXQjX65/9RgeYq0Wppvq+5zsitKJ7THBmsfO0k6xifsmU3RZZvDZQ2imxVTBLyq36wj0PIZRZq1ADcQTljwLHiLQwJlJ7cesscZoVHxjkGnZpXzSU4fg2dBVq8XEQvOiobi3YAb7Zdlju2J642bbz9DJ6aBbDf5tqAkDb7yH2Kszmaca0bIGJZZ6DZ2agRfo/mJ4T9m8FpgQkKNtdD7lDv9jm/+DrDPyfPS6x5paUU2WsCYu9znhfx+MKEjsFstxz05ZEKMOZtHf2aydjupuQoy5yMjwNCTNAMEj4SssyQMfXQ1+YzcRwtHn9MULH0xNTY8iK1A71kbg==" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Hasseris Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2004">2004/05</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/283/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/283/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/283/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/283/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/283/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030" 
+		onclick="toggleTip('/lectio/283/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE9677357030">Holdet IB2 bi-labHL - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/283/SkemaNy.aspx?type=holdelement&amp;holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/SkemaNy.aspx?type=holdelement&amp;holdelementid=9677357030&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/283/studieplan.aspx?holdelementid=9677357030&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/MaterialOverview.aspx?holdelement_id=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/subnav/modulregnskab.aspx?holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/aktivitet/AktivitetListe.aspx?holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/subnav/members.aspx?holdelementid=9677357030&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/aktivitet/AktivitetLinks.aspx?holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/DokumentOversigt.aspx?holdid=6911455603&amp;holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/283/studieplan.aspx?holdelementid=9677357030&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/studieplan.aspx?holdelementid=9677357030&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/studieplan.aspx?holdelementid=9677357030&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/283/studieplan.aspx?holdelementid=9677357030&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/283/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9677357030" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2013/14 - 2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">Hasseris Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi </span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl">Melis Öztürk Andersen</span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2013 biHL (IB1 biHL, IB2 biHL)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10304773890'>biology plan</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 2</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10304787756'>biology course&nbsp;&nbsp;plan 2013-2015</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph10304773890">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/283/studieplan/forloeb_vis.aspx?phaseid=10304773890&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030">biology plan</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal">1.1.1	State that error bars are a graphical representation of the variability of data.<br />
+1.1.2	Calculate the mean and standard deviation of a set of values.<br />
+1.1.3	State that the term standard deviation is used to summarize the spread of values around the mean, and that 68% of the values fall within one standard deviation of the mean.<br />
+1.1.4	Explain how the standard deviation is useful for comparing the means and the spread of data between two or more samples.<br />
+1.1.5	Deduce the significance of the difference between two sets of data using calculated values for t and the appropriate tables.<br />
+1.1.6	Explain that the existence of a correlation does not establish that there is a causal relationship between two variables.<br />
+<br />
+Topic 2: Cells (12 hours2.1 Cell theory<br />
+2.1.1	Outline the cell theory.<br />
+2.1.2	Discuss the evidence for the cell theory.<br />
+2.1.3	State that unicellular organisms carry out all the functions of life.<br />
+2.1.4	Compare the relative sizes of molecules, cell membrane thickness, viruses, bacteria, organelles and cells, using the appropriate SI unit.<br />
+2.1.5	Calculate the linear magnification of drawings and the actual size of specimens in images of known magnification.<br />
+2.1.6	Explain the importance of the surface area to volume ratio as a factor limiting cell size.<br />
+2.1.7	State that multicellular organisms show emergent properties.<br />
+2.1.8	Explain that cells in multicellular organisms differentiate to carry out specialized functions by expressing some of their genes but not others.<br />
+2.1.9	State that stem cells retain the capacity to divide and have the ability to differentiate along different pathways.<br />
+2.1.10	Outline one therapeutic use of stem cells.<br />
+2.2 Prokaryotic cells)<br />
+2.2.1	Draw and label a diagram of the ultrastructure of Escherichia coli (E. coli) as an example of a prokaryote.<br />
+2.2.2	Annotate the diagram from 2.2.1 with the functions of each named structure.<br />
+2.2.3	Identify structures from 2.2.1 in electron micrographs of E. coli.<br />
+2.2.4	State that prokaryotic cells divide by binary fission.<br />
+2.3 Eukaryotic cells<br />
+2.3.1	Draw and label a diagram of the ultrastructure of a liver cell as an example of an animal cell.<br />
+2.3.2 	Annotate the diagram from 2.3.1 with the functions of each named structure.<br />
+2.3.3	Identify structures from 2.3.1 in electron micrographs of liver cells.<br />
+2.3.4	Compare prokaryotic and eukaryotic cells.<br />
+2.3.5	State three differences between plant and animal cells.<br />
+2.3.6	Outline two roles of extracellular components.<br />
+2.4 Membranes<br />
+2.4.1	Draw and label a diagram to show the structure of membranes.<br />
+2.4.2	Explain how the hydrophobic and hydrophilic properties of phospholipids help to maintain the structure of cell membranes.<br />
+2.4.3	List the functions of membrane proteins.<br />
+2.4.4	Define diffusion and osmosis.<br />
+2.4.5	Explain passive transport across membranes by simple diffusion and facilitated diffusion.<br />
+2.4.6	Explain the role of protein pumps and ATP in active transport across membranes.<br />
+2.4.7	Explain how vesicles are used to transport materials within a cell between the rough endoplasmic reticulum, Golgi apparatus and plasma membrane.<br />
+2.4.8	Describe how the fluidity of the membrane allows it to change shape, break and re-form during endocytosis and exocytosis.<br />
+2.5 Cell division<br />
+2.5.1	Outline the stages in the cell cycle, including interphase (G1, S, G2), mitosis and cytokinesis.<br />
+2.5.2	State that tumours (cancers) are the result of uncontrolled cell division and that these can occur in any organ or tissue.<br />
+2.5.3	State that interphase is an active period in the life of a cell when many metabolic reactions occur, including protein synthesis, DNA replication and an increase in the number of mitochondria and/or chloroplasts.<br />
+2.5.4	Describe the events that occur in the four phases of mitosis (prophase, metaphase, anaphase and telophase).<br />
+2.5.5	Explain how mitosis produces two genetically identical nuclei.<br />
+2.5.6	State that growth, embryonic development, tissue repair and asexual reproduction involve mitosis.<br />
+<br />
+Topic 3: The chemistry of life (15 hours)<br />
+3.1 Chemical elements and water<br />
+3.1.1	State that the most frequently occurring chemical elements in living things are carbon, hydrogen, oxygen and nitrogen.<br />
+3.1.2	State that a variety of other elements are needed by living organisms, including sulfur, calcium, phosphorus, iron and sodium.<br />
+3.1.3	State one role for each of the elements mentioned in 3.1.2.<br />
+3.1.4	Draw and label a diagram showing the structure of water molecules to show their polarity and hydrogen bond formation.<br />
+3.1.5	Outline the thermal, cohesive and solvent properties of water.<br />
+3.1.6	Explain the relationship between the properties of water and its uses in living organisms as a coolant, medium for metabolic reactions and transport medium.<br />
+3.2 Carbohydrates, lipids and proteins<br />
+3.2.1	Distinguish between organic and inorganic compounds.<br />
+3.2.2	Identify amino acids, glucose, ribose and fatty acids from diagrams showing their structure.<br />
+3.2.3	List three examples each of monosaccharides, disaccharides and polysaccharides.<br />
+3.2.4	State one function of glucose, lactose and glycogen in animals, and of fructose, sucrose and cellulose in plants.<br />
+3.2.5	Outline the role of condensation and hydrolysis in the relationships between monosaccharides, disaccharides and polysaccharides; between fatty acids, glycerol and triglycerides; and between amino acids and polypeptides.<br />
+3.2.6	State three functions of lipids.<br />
+3.2.7	Compare the use of carbohydrates and lipids in energy storage.<br />
+3.3 DNA structure<br />
+3.3.1	Outline DNA nucleotide structure in terms of sugar (deoxyribose), base and phosphate.<br />
+3.3.2	State the names of the four bases in DNA.<br />
+3.3.3	Outline how DNA nucleotides are linked together by covalent bonds into a single strand.<br />
+3.3.4	Explain how a DNA double helix is formed using complementary base pairing and hydrogen bonds.<br />
+3.3.5	Draw and label a simple diagram of the molecular structure of DNA.<br />
+3.4 DNA replication<br />
+3.4.1	Explain DNA replication in terms of unwinding the double helix and separation of the strands by helicase, followed by formation of the new complementary strands by DNA polymerase.<br />
+3.4.2	Explain the significance of complementary base pairing in the conservation of the base sequence of DNA.<br />
+3.4.3	State that DNA replication is semi-conservative.<br />
+3.5 Transcription and translation <br />
+3.5.1	Compare the structure of RNA and DNA.<br />
+3.5.2	Outline DNA transcription in terms of the formation of an RNA strand complementary to the DNA strand by RNA polymerase.<br />
+3.5.3	Describe the genetic code in terms of codons composed of triplets of bases.<br />
+3.5.4	Explain the process of translation, leading to polypeptide formation.<br />
+3.5.5	Discuss the relationship between one gene and one polypeptide.<br />
+3.6 Enzymes( .)<br />
+3.6.1	Define enzyme and active site.<br />
+3.6.2	Explain enzyme–substrate specificity.<br />
+3.6.3	Explain the effects of temperature, pH and substrate concentration on enzyme activity.<br />
+3.6.4	Define denaturation.<br />
+3.6.5	Explain the use of lactase in the production of lactose-free milk.<br />
+<br />
+3.7 Cell respiration<br />
+<br />
+3.7.1	Define cell respiration.<br />
+3.7.2	State that, in cell respiration, glucose in the cytoplasm is broken down by glycolysis into pyruvate, with a small yield of ATP.<br />
+3.7.3	Explain that, during anaerobic cell respiration, pyruvate can be converted in the cytoplasm into lactate, or ethanol and carbon dioxide, with no further yield of ATP.<br />
+3.7.4	Explain that, during aerobic cell respiration, pyruvate can be broken down in the mitochondrion into carbon dioxide and water with a large yield of ATP.<br />
+3.8 Photosynthesis<br />
+<br />
+3.8.1	State that photosynthesis involves the conversion of light energy into chemical energy.<br />
+3.8.2	State that light from the Sun is composed of a range of wavelengths (colours).<br />
+3.8.3	State that chlorophyll is the main photosynthetic pigment.<br />
+3.8.4	Outline the differences in absorption of red, blue and green light by chlorophyll.<br />
+3.8.5	State that light energy is used to produce ATP, and to split water molecules (photolysis) to form oxygen and hydrogen.<br />
+3.8.6	State that ATP and hydrogen (derived from the photolysis of water) are used to fix carbon dioxide to make organic molecules.<br />
+3.8.7	Explain that the rate of photosynthesis can be measured directly by the production of oxygen or the uptake of carbon dioxide, or indirectly by an increase in biomass.<br />
+3.8.8	Outline the effects of temperature, light intensity and carbon dioxide concentration on the rate of photosynthesis.<br />
+<br />
+Topic 4: Genetics (15 hours)<br />
+4.1 Chromosomes, genes, alleles and mutations ( .)<br />
+4.1.1	State that eukaryote chromosomes are made of DNA and proteins.<br />
+4.1.2	Define gene, allele and genome.<br />
+4.1.3	Define gene mutation.<br />
+4.1.4	Explain the consequence of a base substitution mutation in relation to the processes of transcription and translation, using the example of sickle-cell anemia.<br />
+<br />
+4.2 Meiosis(&nbsp;&nbsp;.)<br />
+4.2.1	State that meiosis is a reduction division of a diploid nucleus to form haploid nuclei.<br />
+4.2.2	Define homologous chromosomes.<br />
+4.2.3	Outline the process of meiosis, including pairing of homologous chromosomes and crossing over, followed by two divisions, which results in four haploid cells.<br />
+4.2.4	Explain that non-disjunction can lead to changes in chromosome number, illustrated by reference to Down syndrome (trisomy 21).<br />
+4.2.5	State that, in karyotyping, chromosomes are arranged in pairs according to their size and structure.<br />
+4.2.6	State that karyotyping is performed using cells collected by chorionic villus sampling or amniocentesis, for pre-natal diagnosis of chromosome abnormalities.<br />
+4.2.7	Analyse a human karyotype to determine gender and whether non-disjunction has occurred.<br />
+<br />
+4.3 Theoretical genetics&nbsp;&nbsp;(.)<br />
+4.3.1	Define genotype, phenotype, dominant allele, recessive allele, codominant alleles, locus, homozygous, heterozygous, carrier and test cross.<br />
+4.3.2	Determine the genotypes and phenotypes of the offspring of a monohybrid cross using a Punnett grid.<br />
+4.3.3	State that some genes have more than two alleles (multiple alleles).<br />
+4.3.4	Describe ABO blood groups as an example of codominance and multiple alleles.<br />
+4.3.5	Explain how the sex chromosomes control gender by referring to the inheritance of X and Y chromosomes in humans.<br />
+4.3.6	State that some genes are present on the X chromosome and absent from the shorter Y chromosome in humans.<br />
+4.3.7	Define sex linkage.<br />
+4.3.8	Describe the inheritance of colour blindness and hemophilia as examples of sex linkage.<br />
+4.3.9	State that a human female can be homozygous or heterozygous with respect to sex-linked genes.<br />
+4.3.10	Explain that female carriers are heterozygous for X-linked recessive alleles.<br />
+4.3.11	Predict the genotypic and phenotypic ratios of offspring of monohybrid crosses involving any of the above patterns of inheritance.<br />
+4.3.12	Deduce the genotypes and phenotypes of individuals in pedigree charts.<br />
+4.4 Genetic engineering and biotechnology <br />
+4.4.1	Outline the use of polymerase chain reaction (PCR) to copy and amplify minute quantities of DNA.<br />
+4.4.2	State that, in gel electrophoresis, fragments of DNA move in an electric field and are separated according to their size.<br />
+4.4.3	State that gel electrophoresis of DNA is used in DNA profiling.<br />
+4.4.4	Describe the application of DNA profiling to determine paternity and also in forensic investigations.<br />
+4.4.5	Analyse DNA profiles to draw conclusions about paternity or forensic investigations.<br />
+4.4.6	Outline three outcomes of the sequencing of the complete human genome.<br />
+4.4.7	State that, when genes are transferred between species, the amino acid sequence of polypeptides translated from them is unchanged because the genetic code is universal.<br />
+4.4.8	Outline a basic technique used for gene transfer involving plasmids, a host cell (bacterium, yeast or other cell), restriction enzymes (endonucleases) and DNA ligase.<br />
+4.4.9	State two examples of the current uses of genetically modified crops or animals.<br />
+4.4.10	Discuss the potential benefits and possible harmful effects of one example of genetic modification.<br />
+4.4.11	Define clone.<br />
+4.4.12	Outline a technique for cloning using differentiated animal cells.<br />
+4.4.13	Discuss the ethical issues of therapeutic cloning in humans.<br />
+<br />
+<br />
+<br />
+Topic 5: Ecology and evolution (16 hours)<br />
+5.1Communities and ecosystems ( .)<br />
+5.1.1	Define species, habitat, population, community, ecosystem and ecology.<br />
+5.1.2	Distinguish between autotroph and heterotroph.<br />
+5.1.3	Distinguish between consumers, detritivores and saprotrophs.<br />
+5.1.4	Describe what is meant by a food chain, giving three examples, each with at least three linkages (four organisms).<br />
+5.1.5	Describe what is meant by a food web.<br />
+5.1.6	Define trophic level.<br />
+5.1.7	Deduce the trophic level of organisms in a food chain and a food web.<br />
+5.1.8	Construct a food web containing up to 10 organisms, using appropriate information.<br />
+5.1.9	State that light is the initial energy source for almost all communities.<br />
+5.1.10	Explain the energy flow in a food chain.<br />
+5.1.11	State that energy transformations are never 100% efficient.<br />
+5.1.12	Explain reasons for the shape of pyramids of energy.<br />
+5.1.13	Explain that energy enters and leaves ecosystems, but nutrients must be recycled.<br />
+5.1.14	State that saprotrophic bacteria and fungi (decomposers) recycle nutrients.<br />
+5.2 The greenhouse effect (.) <br />
+5.2.1	Draw and label a diagram of the carbon cycle to show the processes involved.<br />
+5.2.2	Analyse the changes in concentration of atmospheric carbon dioxide using historical records.<br />
+5.2.3	Explain the relationship between rises in concentrations of atmospheric carbon dioxide, methane and oxides of nitrogen and the enhanced greenhouse effect.<br />
+5.2.4	Outline the precautionary principle.<br />
+5.2.5	Evaluate the precautionary principle as a justification for strong action in response to the threats posed by the enhanced greenhouse effect.<br />
+5.2.6	Outline the consequences of a global temperature rise on arctic ecosystems.<br />
+5.3 Populations (.)<br />
+5.3.1	Outline how population size is affected by natality, immigration, mortality and emigration.<br />
+5.3.2	Draw and label a graph showing a sigmoid (S-shaped) population growth curve.<br />
+5.3.3	Explain the reasons for the exponential growth phase, the plateau phase and the transitional phase between these two phases.<br />
+5.3.4	List three factors that set limits to population increase.<br />
+5.4 Evolution<br />
+5.4.1	Define evolution.<br />
+5.4.2	Outline the evidence for evolution provided by the fossil record, selective breeding of domesticated animals and homologous structures.<br />
+5.4.3	State that populations tend to produce more offspring than the environment can support.<br />
+5.4.4	Explain that the consequence of the potential overproduction of offspring is a struggle for survival.<br />
+5.4.5	State that the members of a species show variation.<br />
+5.4.6	Explain how sexual reproduction promotes variation in a species.<br />
+5.4.7	Explain how natural selection leads to evolution.<br />
+5.4.8	Explain two examples of evolution in response to environmental change; one must be antibiotic resistance in bacteria.<br />
+5.5 Classification <br />
+5.5.1	Outline the binomial system of nomenclature.<br />
+5.5.2	List seven levels in the hierarchy of taxa—kingdom, phylum, class, order, family, genus and species—using an example from two different kingdoms for each level.<br />
+5.5.3	Distinguish between the following phyla of plants, using simple external recognition features: bryophyta, filicinophyta, coniferophyta and angiospermophyta.<br />
+5.5.4	Distinguish between the following phyla of animals, using simple external recognition features: porifera, cnidaria, platyhelminthes, annelida, mollusca and arthropoda.<br />
+5.5.5	Apply and design a key for a group of up to eight organisms.<br />
+<br />
+Topic 6: Human health and physiology (20 hours)( .)<br />
+6.1 Digestion<br />
+6.1.1	Explain why digestion of large food molecules is essential.<br />
+6.1.2	Explain the need for enzymes in digestion.<br />
+6.1.3	State the source, substrate, products and optimum pH conditions for one amylase, one protease and one lipase.<br />
+6.1.4	Draw and label a diagram of the digestive system.<br />
+6.1.5	Outline the function of the stomach, small intestine and large intestine.<br />
+6.1.6	Distinguish between absorption and assimilation.<br />
+6.1.7	Explain how the structure of the villus is related to its role in absorption and transport of the products of digestion.<br />
+6.2 The transport system (.)<br />
+6.2.1	Draw and label a diagram of the heart showing the four chambers, associated blood vessels, valves and the route of blood through the heart.<br />
+6.2.2	State that the coronary arteries supply heart muscle with oxygen and nutrients.<br />
+6.2.3	Explain the action of the heart in terms of collecting blood, pumping blood, and opening and closing of valves.<br />
+6.2.4	Outline the control of the heartbeat in terms of myogenic muscle contraction, the role of the pacemaker, nerves, the medulla of the brain and epinephrine (adrenaline).<br />
+6.2.5	Explain the relationship between the structure and function of arteries, capillaries and veins.<br />
+6.2.6	State that blood is composed of plasma, erythrocytes, leucocytes (phagocytes and lymphocytes) and platelets.<br />
+6.2.7	State that the following are transported by the blood: nutrients, oxygen, carbon dioxide, hormones, antibodies, urea and heat.<br />
+<br />
+6.3 Defence against infectious disease <br />
+6.3.1	Define pathogen.<br />
+6.3.2	Explain why antibiotics are effective against bacteria but not against viruses.<br />
+6.3.3	Outline the role of skin and mucous membranes in defence against pathogens.<br />
+6.3.4	Outline how phagocytic leucocytes ingest pathogens in the blood and in body tissues.<br />
+6.3.5	Distinguish between antigens and antibodies.<br />
+6.3.6	Explain antibody production.<br />
+6.3.7	Outline the effects of HIV on the immune system.<br />
+6.3.8	Discuss the cause, transmission and social implications of AIDS.<br />
+6.4 Gas exchange<br />
+6.4.1	Distinguish between ventilation, gas exchange and cell respiration.<br />
+6.4.2	Explain the need for a ventilation system.<br />
+6.4.3	Describe the features of alveoli that adapt them to gas exchange.<br />
+6.4.4	Draw and label a diagram of the ventilation system, including trachea, lungs, bronchi, bronchioles and alveoli.<br />
+6.4.5	Explain the mechanism of ventilation of the lungs in terms of volume and pressure changes caused by the internal and external intercostal muscles, the diaphragm and abdominal muscles.<br />
+6.5 Nerves, hormones and homeostasis<br />
+<br />
+6.5.1	State that the nervous system consists of the central nervous system (CNS) and peripheral nerves, and is composed of cells called neurons that can carry rapid electrical impulses.<br />
+6.5.2	Draw and label a diagram of the structure of a motor neuron.<br />
+6.5.3	State that nerve impulses are conducted from receptors to the CNS by sensory neurons, within the CNS by relay neurons, and from the CNS to effectors by motor neurons.<br />
+6.5.4	Define resting potential and action potential (depolarization and repolarization).<br />
+6.5.5	Explain how a nerve impulse passes along a non-myelinated neuron.<br />
+6.5.6	Explain the principles of synaptic transmission.<br />
+6.5.7	State that the endocrine system consists of glands that release hormones that are transported in the blood.<br />
+6.5.8	State that homeostasis involves maintaining the internal environment between limits, including blood pH, carbon dioxide concentration, blood glucose concentration, body temperature and water balance.<br />
+6.5.9	Explain that homeostasis involves monitoring levels of variables and correcting changes in levels by negative feedback mechanisms.<br />
+6.5.10	Explain the control of body temperature, including the transfer of heat in blood, and the roles of the hypothalamus, sweat glands, skin arterioles and shivering.<br />
+6.5.11	Explain the control of blood glucose concentration, including the roles of glucagon, insulin and α and β cells in the pancreatic islets.<br />
+6.5.12	Distinguish between type I and type II diabetes.<br />
+<br />
+6.6 Reproduction( .)<br />
+<br />
+6.6.1	Draw and label diagrams of the adult male and female reproductive systems.<br />
+6.6.2	Outline the role of hormones in the menstrual cycle, including FSH (follicle stimulating hormone), LH (luteinizing hormone), estrogen and progesterone.<br />
+6.6.3	Annotate a graph showing hormone levels in the menstrual cycle, illustrating the relationship between changes in hormone levels and ovulation, menstruation and thickening of the endometrium.<br />
+6.6.4	List three roles of testosterone in males.<br />
+6.6.5	Outline the process of in vitro fertilization (IVF).<br />
+6.6.6	Discuss the ethical issues associated with IVF.<br />
+<br />
+AHL<br />
+Topic 7: Nucleic acids and proteins (11 hours)<br />
+7.1 DNA structure (<br />
+7.1.1	Describe the structure of DNA, including the antiparallel strands, 3’–5’ linkages and hydrogen bonding between purines and pyrimidines.<br />
+7.1.2	Outline the structure of nucleosomes.<br />
+7.1.3	State that nucleosomes help to supercoil chromosomes and help to regulate transcription.<br />
+7.1.4	Distinguish between unique or single-copy genes and highly repetitive sequences in nuclear DNA.<br />
+7.1.5	State that eukaryotic genes can contain exons and introns.<br />
+7.2 DNA replication(<br />
+7.2.1	State that DNA replication occurs in a&nbsp;&nbsp;direction. <br />
+<br />
+7.2.2	Explain the process of DNA replication in prokaryotes, including the role of enzymes (helicase, DNA polymerase, RNA primase and DNA ligase), Okazaki fragments and deoxynucleoside triphosphates.<br />
+7.2.3	State that DNA replication is initiated at many points in eukaryotic chromosomes.<br />
+7.3 Transcription(<br />
+7.3.1	State that transcription is carried out in a&nbsp;&nbsp;direction. <br />
+<br />
+7.3.2	Distinguish between the sense and antisense strands of DNA.<br />
+7.3.3	Explain the process of transcription in prokaryotes, including the role of the promoter region, RNA polymerase, nucleoside triphosphates and the terminator.<br />
+7.3.4	State that eukaryotic RNA needs the removal of introns to form mature mRNA.<br />
+7.4 Translation(<br />
+7.4.1	Explain that each tRNA molecule is recognized by a tRNA-activating enzyme that binds a specific amino acid to the tRNA, using ATP for energy.<br />
+7.4.2	Outline the structure of ribosomes, including protein and RNA composition, large and small subunits, three tRNA binding sites and mRNA binding sites.<br />
+7.4.3	State that translation consists of initiation, elongation, translocation and termination.<br />
+7.4.4	State that translation occurs in a&nbsp;&nbsp;direction. <br />
+<br />
+7.4.5	Draw and label a diagram showing the structure of a peptide bond between two amino acids.<br />
+7.4.6	Explain the process of translation, including ribosomes, polysomes, start codons and stop codons.<br />
+7.4.7	State that free ribosomes synthesize proteins for use primarily within the cell, and that bound ribosomes synthesize proteins primarily for secretion or for lysosomes.<br />
+7.5 Proteins(<br />
+7.5.1	Explain the four levels of protein structure, indicating the significance of each level.<br />
+7.5.2	Outline the difference between fibrous and globular proteins, with reference to two examples of each protein type.<br />
+7.5.3	Explain the significance of polar and non-polar amino acids.<br />
+7.5.4	State four functions of proteins, giving a named example of each.<br />
+7.6 Enzymes (<br />
+7.6.1	State that metabolic pathways consist of chains and cycles of enzyme-catalysed reactions.<br />
+7.6.2	Describe the induced-fit model.<br />
+7.6.3	Explain that enzymes lower the activation energy of the chemical reactions that they catalyse.<br />
+7.6.4	Explain the difference between competitive and non-competitive inhibition, with reference to one example of each.<br />
+7.6.5	Explain the control of metabolic pathways by end-product inhibition, including the role of allosteric sites.<br />
+<br />
+Topic 8: Cell respiration and photosynthesis (10 hours)<br />
+8.1 Cell respiration<br />
+8.1.1	State that oxidation involves the loss of electrons from an element, whereas reduction involves a gain of electrons; and that oxidation frequently involves gaining oxygen or losing hydrogen, whereas reduction frequently involves losing oxygen or gaining hydrogen.<br />
+8.1.2	Outline the process of glycolysis, including phosphorylation, lysis, oxidation and ATP formation.<br />
+8.1.3	Draw and label a diagram showing the structure of a mitochondrion as seen in electron micrographs.<br />
+8.1.4	Explain aerobic respiration, including the link reaction, the Krebs cycle, the role of NADH + H+, the electron transport chain and the role of oxygen.<br />
+8.1.5	Explain oxidative phosphorylation in terms of chemiosmosis.<br />
+8.1.6	Explain the relationship between the structure of the mitochondrion and its function.<br />
+8.2 Photosynthesis(<br />
+8.2.1	Draw and label a diagram showing the structure of a chloroplast as seen in electron micrographs.<br />
+8.2.2	State that photosynthesis consists of light-dependent and light-independent reactions.<br />
+8.2.3	Explain the light-dependent reactions.<br />
+8.2.4	Explain photophosphorylation in terms of chemiosmosis.<br />
+8.2.5	Explain the light-independent reactions.<br />
+8.2.6	Explain the relationship between the structure of the chloroplast and its function.<br />
+8.2.7	Explain the relationship between the action spectrum and the absorption spectrum of photosynthetic pigments in green plants.<br />
+8.2.8	Explain the concept of limiting factors in photosynthesis, with reference to light intensity, temperature and concentration of carbon dioxide.<br />
+<br />
+Topic 9: Plant science (11 hours)<br />
+9.1 Plant structure and growth<br />
+9.1.1	Draw and label plan diagrams to show the distribution of tissues in the stem and leaf of a dicotyledonous plant.<br />
+9.1.2	Outline three differences between the structures of dicotyledonous and monocotyledonous plants.<br />
+9.1.3	Explain the relationship between the distribution of tissues in the leaf and the functions of these tissues.<br />
+9.1.4	Identify modifications of roots, stems and leaves for different functions: bulbs, stem tubers, storage roots and tendrils.<br />
+9.1.5	State that dicotyledonous plants have apical and lateral meristems.<br />
+9.1.6	Compare growth due to apical and lateral meristems in dicotyledonous plants.<br />
+9.1.7	Explain the role of auxin in phototropism as an example of the control of plant growth.<br />
+9.2 Transport in angiospermophytes<br />
+9.2.1	Outline how the root system provides a large surface area for mineral ion and water uptake by means of branching and root hairs.<br />
+9.2.2	List ways in which mineral ions in the soil move to the root.<br />
+9.2.3	Explain the process of mineral ion absorption from the soil into roots by active transport.<br />
+9.2.4	State that terrestrial plants support themselves by means of thickened cellulose, cell turgor and lignified xylem.<br />
+9.2.5	Define transpiration.<br />
+9.2.6	Explain how water is carried by the transpiration stream, including the structure of xylem vessels, transpiration pull, cohesion, adhesion and evaporation.<br />
+9.2.7	State that guard cells can regulate transpiration by opening and closing stomata.<br />
+9.2.8	State that the plant hormone abscisic acid causes the closing of stomata.<br />
+9.2.9	Explain how the abiotic factors light, temperature, wind and humidity, affect the rate of transpiration in a typical terrestrial plant.<br />
+9.2.10	Outline four adaptations of xerophytes that help to reduce transpiration.<br />
+9.2.11	Outline the role of phloem in active translocation of sugars (sucrose) and amino acids from source (photosynthetic tissue and storage organs) to sink (fruits, seeds, roots).<br />
+9.3 Reproduction in angiospermophytes<br />
+9.3.1	Draw and label a diagram showing the structure of a dicotyledonous animal-pollinated flower.<br />
+9.3.2	Distinguish between pollination, fertilization and seed dispersal.<br />
+9.3.3	Draw and label a diagram showing the external and internal structure of a named dicotyledonous seed.<br />
+9.3.4	Explain the conditions needed for the germination of a typical seed.<br />
+9.3.5	Outline the metabolic processes during germination of a starchy seed.<br />
+9.3.6	Explain how flowering is controlled in long-day and short-day plants, including the role of phytochrome.<br />
+<br />
+Topic 10: Genetics (6 hours)<br />
+10.1 Meiosis(<br />
+10.1.1	Describe the behaviour of the chromosomes in the phases of meiosis.<br />
+10.1.2	Outline the formation of chiasmata in the process of crossing over.<br />
+10.1.3	Explain how meiosis results in an effectively infinite genetic variety in gametes through crossing over in prophase I and random orientation in metaphase I.<br />
+10.1.4	State Mendel’s law of independent assortment.<br />
+10.1.5	Explain the relationship between Mendel’s law of independent assortment and meiosis.<br />
+10.2 Dihybrid crosses and gene linkage<br />
+10.2.1	Calculate and predict the genotypic and phenotypic ratio of offspring of dihybrid crosses involving unlinked autosomal genes.<br />
+10.2.2	Distinguish between autosomes and sex chromosomes.<br />
+10.2.3	Explain how crossing over between non-sister chromatids of a homologous pair in prophase I can result in an exchange of alleles.<br />
+10.2.4	Define linkage group.<br />
+10.2.5	Explain an example of a cross between two linked genes.<br />
+10.2.6	Identify which of the offspring are recombinants in a dihybrid cross involving linked genes.<br />
+10.3 Polygenic inheritance( ..)<br />
+10.3.1	Define polygenic inheritance.<br />
+10.3.2	Explain that polygenic inheritance can contribute to continuous variation using two examples, one of which must be human skin colour.<br />
+<br />
+Topic 11: Human health and physiology (17 hours)<br />
+11.1 Defence against infectious disease( ..)<br />
+11.1.1	Describe the process of blood clotting.<br />
+11.1.2	Outline the principle of challenge and response, clonal selection and memory cells as the basis of immunity.<br />
+11.1.3	Define active and passive immunity.<br />
+11.1.4	Explain antibody production.<br />
+11.1.5	Describe the production of monoclonal antibodies and their use in diagnosis and in treatment.<br />
+11.1.6	Explain the principle of vaccination.<br />
+11.1.7	Discuss the benefits and dangers of vaccination.<br />
+<br />
+11.2 Muscles and movement( ..)<br />
+11.2.1	State the roles of bones, ligaments, muscles, tendons and nerves in human movement.<br />
+11.2.2	Label a diagram of the human elbow joint, including cartilage, synovial fluid, joint capsule, named bones and antagonistic muscles (biceps and triceps).<br />
+11.2.3	Outline the functions of the structures in the human elbow joint named in 11.2.2.<br />
+11.2.4	Compare the movements of the hip joint and the knee joint.<br />
+11.2.5	Describe the structure of striated muscle fibres, including the myofibrils with light and dark bands, mitochondria, the sarcoplasmic reticulum, nuclei and the sarcolemma.<br />
+11.2.6	Draw and label a diagram to show the structure of a sarcomere, including Z lines, actin filaments, myosin filaments with heads, and the resultant light and dark bands.<br />
+11.2.7	Explain how skeletal muscle contracts, including the release of calcium ions from the sarcoplasmic reticulum, the formation of cross-bridges, the sliding of actin and myosin filaments, and the use of ATP to break cross-bridges and re-set myosin heads.<br />
+11.2.8	Analyse electron micrographs to find the state of contraction of muscle fibres.<br />
+11.3 The kidney( ..)<br />
+11.3.1	Define excretion.<br />
+11.3.2	Draw and label a diagram of the kidney.<br />
+11.3.3	Annotate a diagram of a glomerulus and associated nephron to show the function of each part.<br />
+11.3.4	Explain the process of ultrafiltration, including blood pressure, fenestrated blood capillaries and basement membrane.<br />
+11.3.5	Define osmoregulation.<br />
+11.3.6	Explain the reabsorption of glucose, water and salts in the proximal convoluted tubule, including the roles of microvilli, osmosis and active transport.<br />
+11.3.7	Explain the roles of the loop of Henle, medulla, collecting duct and ADH (vasopressin) in maintaining the water balance of the blood.<br />
+11.3.8	Explain the differences in the concentration of proteins, glucose and urea between blood plasma, glomerular filtrate and urine.<br />
+11.3.9	Explain the presence of glucose in the urine of untreated diabetic patients.<br />
+11.4 Reproduction( ..)<br />
+11.4.1	Annotate a light micrograph of testis tissue to show the location and function of interstitial cells (Leydig cells), germinal epithelium cells, developing spermatozoa and Sertoli cells.<br />
+11.4.2	Outline the processes involved in spermatogenesis within the testis, including mitosis, cell growth, the two divisions of meiosis and cell differentiation.<br />
+11.4.3	State the role of LH, testosterone and FSH in spermatogenesis.<br />
+11.4.4	Annotate a diagram of the ovary to show the location and function of germinal epithelium, primary follicles, mature follicle and secondary oocyte.<br />
+11.4.5	Outline the processes involved in oogenesis within the ovary, including mitosis, cell growth, the two divisions of meiosis, the unequal division of cytoplasm and the degeneration of polar body.<br />
+11.4.6	Draw and label a diagram of a mature sperm and egg.<br />
+11.4.7	Outline the role of the epididymis, seminal vesicle and prostate gland in the production of semen.<br />
+11.4.8	Compare the processes of spermatogenesis and oogenesis, including the number of gametes and the timing of the formation and release of gametes.<br />
+11.4.9	Describe the process of fertilization, including the acrosome reaction, penetration of the egg membrane by a sperm and the cortical reaction.<br />
+11.4.10	Outline the role of HCG in early pregnancy.<br />
+11.4.11	Outline early embryo development up to the implantation of the blastocyst.<br />
+11.4.12	Explain how the structure and functions of the placenta, including its hormonal role in secretion of estrogen and progesterone, maintain pregnancy.<br />
+11.4.13	State that the fetus is supported and protected by the amniotic sac and amniotic fluid.<br />
+11.4.14	State that materials are exchanged between the maternal and fetal blood in the placenta.<br />
+11.4.15	Outline the process of birth and its hormonal control, including the changes in progesterone and oxytocin levels and positive feedback.<br />
+</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"></span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">0 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph10304787756">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleLabel">2</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleHlink" href="/lectio/283/studieplan/forloeb_vis.aspx?phaseid=10304787756&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030">biology course  plan 2013-2015</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_FagligeMaal">1.1.1	State that error bars are a graphical representation of the variability of data.<br />
+1.1.2	Calculate the mean and standard deviation of a set of values.<br />
+1.1.3	State that the term standard deviation is used to summarize the spread of values around the mean, and that 68% of the values fall within one standard deviation of the mean.<br />
+1.1.4	Explain how the standard deviation is useful for comparing the means and the spread of data between two or more samples.<br />
+1.1.5	Deduce the significance of the difference between two sets of data using calculated values for t and the appropriate tables.<br />
+1.1.6	Explain that the existence of a correlation does not establish that there is a causal relationship between two variables.<br />
+<br />
+Topic 2: Cells (12 hours2.1 Cell theory<br />
+2.1.1	Outline the cell theory.<br />
+2.1.2	Discuss the evidence for the cell theory.<br />
+2.1.3	State that unicellular organisms carry out all the functions of life.<br />
+2.1.4	Compare the relative sizes of molecules, cell membrane thickness, viruses, bacteria, organelles and cells, using the appropriate SI unit.<br />
+2.1.5	Calculate the linear magnification of drawings and the actual size of specimens in images of known magnification.<br />
+2.1.6	Explain the importance of the surface area to volume ratio as a factor limiting cell size.<br />
+2.1.7	State that multicellular organisms show emergent properties.<br />
+2.1.8	Explain that cells in multicellular organisms differentiate to carry out specialized functions by expressing some of their genes but not others.<br />
+2.1.9	State that stem cells retain the capacity to divide and have the ability to differentiate along different pathways.<br />
+2.1.10	Outline one therapeutic use of stem cells.<br />
+2.2 Prokaryotic cells)<br />
+2.2.1	Draw and label a diagram of the ultrastructure of Escherichia coli (E. coli) as an example of a prokaryote.<br />
+2.2.2	Annotate the diagram from 2.2.1 with the functions of each named structure.<br />
+2.2.3	Identify structures from 2.2.1 in electron micrographs of E. coli.<br />
+2.2.4	State that prokaryotic cells divide by binary fission.<br />
+2.3 Eukaryotic cells<br />
+2.3.1	Draw and label a diagram of the ultrastructure of a liver cell as an example of an animal cell.<br />
+2.3.2 	Annotate the diagram from 2.3.1 with the functions of each named structure.<br />
+2.3.3	Identify structures from 2.3.1 in electron micrographs of liver cells.<br />
+2.3.4	Compare prokaryotic and eukaryotic cells.<br />
+2.3.5	State three differences between plant and animal cells.<br />
+2.3.6	Outline two roles of extracellular components.<br />
+2.4 Membranes<br />
+2.4.1	Draw and label a diagram to show the structure of membranes.<br />
+2.4.2	Explain how the hydrophobic and hydrophilic properties of phospholipids help to maintain the structure of cell membranes.<br />
+2.4.3	List the functions of membrane proteins.<br />
+2.4.4	Define diffusion and osmosis.<br />
+2.4.5	Explain passive transport across membranes by simple diffusion and facilitated diffusion.<br />
+2.4.6	Explain the role of protein pumps and ATP in active transport across membranes.<br />
+2.4.7	Explain how vesicles are used to transport materials within a cell between the rough endoplasmic reticulum, Golgi apparatus and plasma membrane.<br />
+2.4.8	Describe how the fluidity of the membrane allows it to change shape, break and re-form during endocytosis and exocytosis.<br />
+2.5 Cell division<br />
+2.5.1	Outline the stages in the cell cycle, including interphase (G1, S, G2), mitosis and cytokinesis.<br />
+2.5.2	State that tumours (cancers) are the result of uncontrolled cell division and that these can occur in any organ or tissue.<br />
+2.5.3	State that interphase is an active period in the life of a cell when many metabolic reactions occur, including protein synthesis, DNA replication and an increase in the number of mitochondria and/or chloroplasts.<br />
+2.5.4	Describe the events that occur in the four phases of mitosis (prophase, metaphase, anaphase and telophase).<br />
+2.5.5	Explain how mitosis produces two genetically identical nuclei.<br />
+2.5.6	State that growth, embryonic development, tissue repair and asexual reproduction involve mitosis.<br />
+<br />
+Topic 3: The chemistry of life (15 hours)<br />
+3.1 Chemical elements and water<br />
+3.1.1	State that the most frequently occurring chemical elements in living things are carbon, hydrogen, oxygen and nitrogen.<br />
+3.1.2	State that a variety of other elements are needed by living organisms, including sulfur, calcium, phosphorus, iron and sodium.<br />
+3.1.3	State one role for each of the elements mentioned in 3.1.2.<br />
+3.1.4	Draw and label a diagram showing the structure of water molecules to show their polarity and hydrogen bond formation.<br />
+3.1.5	Outline the thermal, cohesive and solvent properties of water.<br />
+3.1.6	Explain the relationship between the properties of water and its uses in living organisms as a coolant, medium for metabolic reactions and transport medium.<br />
+3.2 Carbohydrates, lipids and proteins<br />
+3.2.1	Distinguish between organic and inorganic compounds.<br />
+3.2.2	Identify amino acids, glucose, ribose and fatty acids from diagrams showing their structure.<br />
+3.2.3	List three examples each of monosaccharides, disaccharides and polysaccharides.<br />
+3.2.4	State one function of glucose, lactose and glycogen in animals, and of fructose, sucrose and cellulose in plants.<br />
+3.2.5	Outline the role of condensation and hydrolysis in the relationships between monosaccharides, disaccharides and polysaccharides; between fatty acids, glycerol and triglycerides; and between amino acids and polypeptides.<br />
+3.2.6	State three functions of lipids.<br />
+3.2.7	Compare the use of carbohydrates and lipids in energy storage.<br />
+3.3 DNA structure<br />
+3.3.1	Outline DNA nucleotide structure in terms of sugar (deoxyribose), base and phosphate.<br />
+3.3.2	State the names of the four bases in DNA.<br />
+3.3.3	Outline how DNA nucleotides are linked together by covalent bonds into a single strand.<br />
+3.3.4	Explain how a DNA double helix is formed using complementary base pairing and hydrogen bonds.<br />
+3.3.5	Draw and label a simple diagram of the molecular structure of DNA.<br />
+3.4 DNA replication<br />
+3.4.1	Explain DNA replication in terms of unwinding the double helix and separation of the strands by helicase, followed by formation of the new complementary strands by DNA polymerase.<br />
+3.4.2	Explain the significance of complementary base pairing in the conservation of the base sequence of DNA.<br />
+3.4.3	State that DNA replication is semi-conservative.<br />
+3.5 Transcription and translation <br />
+3.5.1	Compare the structure of RNA and DNA.<br />
+3.5.2	Outline DNA transcription in terms of the formation of an RNA strand complementary to the DNA strand by RNA polymerase.<br />
+3.5.3	Describe the genetic code in terms of codons composed of triplets of bases.<br />
+3.5.4	Explain the process of translation, leading to polypeptide formation.<br />
+3.5.5	Discuss the relationship between one gene and one polypeptide.<br />
+3.6 Enzymes( .)<br />
+3.6.1	Define enzyme and active site.<br />
+3.6.2	Explain enzyme–substrate specificity.<br />
+3.6.3	Explain the effects of temperature, pH and substrate concentration on enzyme activity.<br />
+3.6.4	Define denaturation.<br />
+3.6.5	Explain the use of lactase in the production of lactose-free milk.<br />
+<br />
+3.7 Cell respiration<br />
+<br />
+3.7.1	Define cell respiration.<br />
+3.7.2	State that, in cell respiration, glucose in the cytoplasm is broken down by glycolysis into pyruvate, with a small yield of ATP.<br />
+3.7.3	Explain that, during anaerobic cell respiration, pyruvate can be converted in the cytoplasm into lactate, or ethanol and carbon dioxide, with no further yield of ATP.<br />
+3.7.4	Explain that, during aerobic cell respiration, pyruvate can be broken down in the mitochondrion into carbon dioxide and water with a large yield of ATP.<br />
+3.8 Photosynthesis<br />
+<br />
+3.8.1	State that photosynthesis involves the conversion of light energy into chemical energy.<br />
+3.8.2	State that light from the Sun is composed of a range of wavelengths (colours).<br />
+3.8.3	State that chlorophyll is the main photosynthetic pigment.<br />
+3.8.4	Outline the differences in absorption of red, blue and green light by chlorophyll.<br />
+3.8.5	State that light energy is used to produce ATP, and to split water molecules (photolysis) to form oxygen and hydrogen.<br />
+3.8.6	State that ATP and hydrogen (derived from the photolysis of water) are used to fix carbon dioxide to make organic molecules.<br />
+3.8.7	Explain that the rate of photosynthesis can be measured directly by the production of oxygen or the uptake of carbon dioxide, or indirectly by an increase in biomass.<br />
+3.8.8	Outline the effects of temperature, light intensity and carbon dioxide concentration on the rate of photosynthesis.<br />
+<br />
+Topic 4: Genetics (15 hours)<br />
+4.1 Chromosomes, genes, alleles and mutations ( .)<br />
+4.1.1	State that eukaryote chromosomes are made of DNA and proteins.<br />
+4.1.2	Define gene, allele and genome.<br />
+4.1.3	Define gene mutation.<br />
+4.1.4	Explain the consequence of a base substitution mutation in relation to the processes of transcription and translation, using the example of sickle-cell anemia.<br />
+<br />
+4.2 Meiosis(&nbsp;&nbsp;.)<br />
+4.2.1	State that meiosis is a reduction division of a diploid nucleus to form haploid nuclei.<br />
+4.2.2	Define homologous chromosomes.<br />
+4.2.3	Outline the process of meiosis, including pairing of homologous chromosomes and crossing over, followed by two divisions, which results in four haploid cells.<br />
+4.2.4	Explain that non-disjunction can lead to changes in chromosome number, illustrated by reference to Down syndrome (trisomy 21).<br />
+4.2.5	State that, in karyotyping, chromosomes are arranged in pairs according to their size and structure.<br />
+4.2.6	State that karyotyping is performed using cells collected by chorionic villus sampling or amniocentesis, for pre-natal diagnosis of chromosome abnormalities.<br />
+4.2.7	Analyse a human karyotype to determine gender and whether non-disjunction has occurred.<br />
+<br />
+4.3 Theoretical genetics&nbsp;&nbsp;(.)<br />
+4.3.1	Define genotype, phenotype, dominant allele, recessive allele, codominant alleles, locus, homozygous, heterozygous, carrier and test cross.<br />
+4.3.2	Determine the genotypes and phenotypes of the offspring of a monohybrid cross using a Punnett grid.<br />
+4.3.3	State that some genes have more than two alleles (multiple alleles).<br />
+4.3.4	Describe ABO blood groups as an example of codominance and multiple alleles.<br />
+4.3.5	Explain how the sex chromosomes control gender by referring to the inheritance of X and Y chromosomes in humans.<br />
+4.3.6	State that some genes are present on the X chromosome and absent from the shorter Y chromosome in humans.<br />
+4.3.7	Define sex linkage.<br />
+4.3.8	Describe the inheritance of colour blindness and hemophilia as examples of sex linkage.<br />
+4.3.9	State that a human female can be homozygous or heterozygous with respect to sex-linked genes.<br />
+4.3.10	Explain that female carriers are heterozygous for X-linked recessive alleles.<br />
+4.3.11	Predict the genotypic and phenotypic ratios of offspring of monohybrid crosses involving any of the above patterns of inheritance.<br />
+4.3.12	Deduce the genotypes and phenotypes of individuals in pedigree charts.<br />
+4.4 Genetic engineering and biotechnology <br />
+4.4.1	Outline the use of polymerase chain reaction (PCR) to copy and amplify minute quantities of DNA.<br />
+4.4.2	State that, in gel electrophoresis, fragments of DNA move in an electric field and are separated according to their size.<br />
+4.4.3	State that gel electrophoresis of DNA is used in DNA profiling.<br />
+4.4.4	Describe the application of DNA profiling to determine paternity and also in forensic investigations.<br />
+4.4.5	Analyse DNA profiles to draw conclusions about paternity or forensic investigations.<br />
+4.4.6	Outline three outcomes of the sequencing of the complete human genome.<br />
+4.4.7	State that, when genes are transferred between species, the amino acid sequence of polypeptides translated from them is unchanged because the genetic code is universal.<br />
+4.4.8	Outline a basic technique used for gene transfer involving plasmids, a host cell (bacterium, yeast or other cell), restriction enzymes (endonucleases) and DNA ligase.<br />
+4.4.9	State two examples of the current uses of genetically modified crops or animals.<br />
+4.4.10	Discuss the potential benefits and possible harmful effects of one example of genetic modification.<br />
+4.4.11	Define clone.<br />
+4.4.12	Outline a technique for cloning using differentiated animal cells.<br />
+4.4.13	Discuss the ethical issues of therapeutic cloning in humans.<br />
+<br />
+<br />
+<br />
+Topic 5: Ecology and evolution (16 hours)<br />
+5.1Communities and ecosystems ( .)<br />
+5.1.1	Define species, habitat, population, community, ecosystem and ecology.<br />
+5.1.2	Distinguish between autotroph and heterotroph.<br />
+5.1.3	Distinguish between consumers, detritivores and saprotrophs.<br />
+5.1.4	Describe what is meant by a food chain, giving three examples, each with at least three linkages (four organisms).<br />
+5.1.5	Describe what is meant by a food web.<br />
+5.1.6	Define trophic level.<br />
+5.1.7	Deduce the trophic level of organisms in a food chain and a food web.<br />
+5.1.8	Construct a food web containing up to 10 organisms, using appropriate information.<br />
+5.1.9	State that light is the initial energy source for almost all communities.<br />
+5.1.10	Explain the energy flow in a food chain.<br />
+5.1.11	State that energy transformations are never 100% efficient.<br />
+5.1.12	Explain reasons for the shape of pyramids of energy.<br />
+5.1.13	Explain that energy enters and leaves ecosystems, but nutrients must be recycled.<br />
+5.1.14	State that saprotrophic bacteria and fungi (decomposers) recycle nutrients.<br />
+5.2 The greenhouse effect (.) <br />
+5.2.1	Draw and label a diagram of the carbon cycle to show the processes involved.<br />
+5.2.2	Analyse the changes in concentration of atmospheric carbon dioxide using historical records.<br />
+5.2.3	Explain the relationship between rises in concentrations of atmospheric carbon dioxide, methane and oxides of nitrogen and the enhanced greenhouse effect.<br />
+5.2.4	Outline the precautionary principle.<br />
+5.2.5	Evaluate the precautionary principle as a justification for strong action in response to the threats posed by the enhanced greenhouse effect.<br />
+5.2.6	Outline the consequences of a global temperature rise on arctic ecosystems.<br />
+5.3 Populations (.)<br />
+5.3.1	Outline how population size is affected by natality, immigration, mortality and emigration.<br />
+5.3.2	Draw and label a graph showing a sigmoid (S-shaped) population growth curve.<br />
+5.3.3	Explain the reasons for the exponential growth phase, the plateau phase and the transitional phase between these two phases.<br />
+5.3.4	List three factors that set limits to population increase.<br />
+5.4 Evolution<br />
+5.4.1	Define evolution.<br />
+5.4.2	Outline the evidence for evolution provided by the fossil record, selective breeding of domesticated animals and homologous structures.<br />
+5.4.3	State that populations tend to produce more offspring than the environment can support.<br />
+5.4.4	Explain that the consequence of the potential overproduction of offspring is a struggle for survival.<br />
+5.4.5	State that the members of a species show variation.<br />
+5.4.6	Explain how sexual reproduction promotes variation in a species.<br />
+5.4.7	Explain how natural selection leads to evolution.<br />
+5.4.8	Explain two examples of evolution in response to environmental change; one must be antibiotic resistance in bacteria.<br />
+5.5 Classification <br />
+5.5.1	Outline the binomial system of nomenclature.<br />
+5.5.2	List seven levels in the hierarchy of taxa—kingdom, phylum, class, order, family, genus and species—using an example from two different kingdoms for each level.<br />
+5.5.3	Distinguish between the following phyla of plants, using simple external recognition features: bryophyta, filicinophyta, coniferophyta and angiospermophyta.<br />
+5.5.4	Distinguish between the following phyla of animals, using simple external recognition features: porifera, cnidaria, platyhelminthes, annelida, mollusca and arthropoda.<br />
+5.5.5	Apply and design a key for a group of up to eight organisms.<br />
+<br />
+Topic 6: Human health and physiology (20 hours)( .)<br />
+6.1 Digestion<br />
+6.1.1	Explain why digestion of large food molecules is essential.<br />
+6.1.2	Explain the need for enzymes in digestion.<br />
+6.1.3	State the source, substrate, products and optimum pH conditions for one amylase, one protease and one lipase.<br />
+6.1.4	Draw and label a diagram of the digestive system.<br />
+6.1.5	Outline the function of the stomach, small intestine and large intestine.<br />
+6.1.6	Distinguish between absorption and assimilation.<br />
+6.1.7	Explain how the structure of the villus is related to its role in absorption and transport of the products of digestion.<br />
+6.2 The transport system (.)<br />
+6.2.1	Draw and label a diagram of the heart showing the four chambers, associated blood vessels, valves and the route of blood through the heart.<br />
+6.2.2	State that the coronary arteries supply heart muscle with oxygen and nutrients.<br />
+6.2.3	Explain the action of the heart in terms of collecting blood, pumping blood, and opening and closing of valves.<br />
+6.2.4	Outline the control of the heartbeat in terms of myogenic muscle contraction, the role of the pacemaker, nerves, the medulla of the brain and epinephrine (adrenaline).<br />
+6.2.5	Explain the relationship between the structure and function of arteries, capillaries and veins.<br />
+6.2.6	State that blood is composed of plasma, erythrocytes, leucocytes (phagocytes and lymphocytes) and platelets.<br />
+6.2.7	State that the following are transported by the blood: nutrients, oxygen, carbon dioxide, hormones, antibodies, urea and heat.<br />
+<br />
+6.3 Defence against infectious disease <br />
+6.3.1	Define pathogen.<br />
+6.3.2	Explain why antibiotics are effective against bacteria but not against viruses.<br />
+6.3.3	Outline the role of skin and mucous membranes in defence against pathogens.<br />
+6.3.4	Outline how phagocytic leucocytes ingest pathogens in the blood and in body tissues.<br />
+6.3.5	Distinguish between antigens and antibodies.<br />
+6.3.6	Explain antibody production.<br />
+6.3.7	Outline the effects of HIV on the immune system.<br />
+6.3.8	Discuss the cause, transmission and social implications of AIDS.<br />
+6.4 Gas exchange<br />
+6.4.1	Distinguish between ventilation, gas exchange and cell respiration.<br />
+6.4.2	Explain the need for a ventilation system.<br />
+6.4.3	Describe the features of alveoli that adapt them to gas exchange.<br />
+6.4.4	Draw and label a diagram of the ventilation system, including trachea, lungs, bronchi, bronchioles and alveoli.<br />
+6.4.5	Explain the mechanism of ventilation of the lungs in terms of volume and pressure changes caused by the internal and external intercostal muscles, the diaphragm and abdominal muscles.<br />
+6.5 Nerves, hormones and homeostasis<br />
+<br />
+6.5.1	State that the nervous system consists of the central nervous system (CNS) and peripheral nerves, and is composed of cells called neurons that can carry rapid electrical impulses.<br />
+6.5.2	Draw and label a diagram of the structure of a motor neuron.<br />
+6.5.3	State that nerve impulses are conducted from receptors to the CNS by sensory neurons, within the CNS by relay neurons, and from the CNS to effectors by motor neurons.<br />
+6.5.4	Define resting potential and action potential (depolarization and repolarization).<br />
+6.5.5	Explain how a nerve impulse passes along a non-myelinated neuron.<br />
+6.5.6	Explain the principles of synaptic transmission.<br />
+6.5.7	State that the endocrine system consists of glands that release hormones that are transported in the blood.<br />
+6.5.8	State that homeostasis involves maintaining the internal environment between limits, including blood pH, carbon dioxide concentration, blood glucose concentration, body temperature and water balance.<br />
+6.5.9	Explain that homeostasis involves monitoring levels of variables and correcting changes in levels by negative feedback mechanisms.<br />
+6.5.10	Explain the control of body temperature, including the transfer of heat in blood, and the roles of the hypothalamus, sweat glands, skin arterioles and shivering.<br />
+6.5.11	Explain the control of blood glucose concentration, including the roles of glucagon, insulin and α and β cells in the pancreatic islets.<br />
+6.5.12	Distinguish between type I and type II diabetes.<br />
+<br />
+6.6 Reproduction( .)<br />
+<br />
+6.6.1	Draw and label diagrams of the adult male and female reproductive systems.<br />
+6.6.2	Outline the role of hormones in the menstrual cycle, including FSH (follicle stimulating hormone), LH (luteinizing hormone), estrogen and progesterone.<br />
+6.6.3	Annotate a graph showing hormone levels in the menstrual cycle, illustrating the relationship between changes in hormone levels and ovulation, menstruation and thickening of the endometrium.<br />
+6.6.4	List three roles of testosterone in males.<br />
+6.6.5	Outline the process of in vitro fertilization (IVF).<br />
+6.6.6	Discuss the ethical issues associated with IVF.<br />
+<br />
+AHL<br />
+Topic 7: Nucleic acids and proteins (11 hours)<br />
+7.1 DNA structure (<br />
+7.1.1	Describe the structure of DNA, including the antiparallel strands, 3’–5’ linkages and hydrogen bonding between purines and pyrimidines.<br />
+7.1.2	Outline the structure of nucleosomes.<br />
+7.1.3	State that nucleosomes help to supercoil chromosomes and help to regulate transcription.<br />
+7.1.4	Distinguish between unique or single-copy genes and highly repetitive sequences in nuclear DNA.<br />
+7.1.5	State that eukaryotic genes can contain exons and introns.<br />
+7.2 DNA replication(<br />
+7.2.1	State that DNA replication occurs in a&nbsp;&nbsp;direction. <br />
+7.2.2	Explain the process of DNA replication in prokaryotes, including the role of enzymes (helicase, DNA polymerase, RNA primase and DNA ligase), Okazaki fragments and deoxynucleoside triphosphates.<br />
+7.2.3	State that DNA replication is initiated at many points in eukaryotic chromosomes.<br />
+7.3 Transcription(<br />
+7.3.1	State that transcription is carried out in a&nbsp;&nbsp;direction. <br />
+7.3.2	Distinguish between the sense and antisense strands of DNA.<br />
+7.3.3	Explain the process of transcription in prokaryotes, including the role of the promoter region, RNA polymerase, nucleoside triphosphates and the terminator.<br />
+7.3.4	State that eukaryotic RNA needs the removal of introns to form mature mRNA.<br />
+7.4 Translation(<br />
+7.4.1	Explain that each tRNA molecule is recognized by a tRNA-activating enzyme that binds a specific amino acid to the tRNA, using ATP for energy.<br />
+7.4.2	Outline the structure of ribosomes, including protein and RNA composition, large and small subunits, three tRNA binding sites and mRNA binding sites.<br />
+7.4.3	State that translation consists of initiation, elongation, translocation and termination.<br />
+7.4.4	State that translation occurs in a&nbsp;&nbsp;direction. <br />
+7.4.5	Draw and label a diagram showing the structure of a peptide bond between two amino acids.<br />
+7.4.6	Explain the process of translation, including ribosomes, polysomes, start codons and stop codons.<br />
+7.4.7	State that free ribosomes synthesize proteins for use primarily within the cell, and that bound ribosomes synthesize proteins primarily for secretion or for lysosomes.<br />
+7.5 Proteins(<br />
+7.5.1	Explain the four levels of protein structure, indicating the significance of each level.<br />
+7.5.2	Outline the difference between fibrous and globular proteins, with reference to two examples of each protein type.<br />
+7.5.3	Explain the significance of polar and non-polar amino acids.<br />
+7.5.4	State four functions of proteins, giving a named example of each.<br />
+7.6 Enzymes (<br />
+7.6.1	State that metabolic pathways consist of chains and cycles of enzyme-catalysed reactions.<br />
+7.6.2	Describe the induced-fit model.<br />
+7.6.3	Explain that enzymes lower the activation energy of the chemical reactions that they catalyse.<br />
+7.6.4	Explain the difference between competitive and non-competitive inhibition, with reference to one example of each.<br />
+7.6.5	Explain the control of metabolic pathways by end-product inhibition, including the role of allosteric sites.<br />
+<br />
+Topic 8: Cell respiration and photosynthesis (10 hours)<br />
+8.1 Cell respiration<br />
+8.1.1	State that oxidation involves the loss of electrons from an element, whereas reduction involves a gain of electrons; and that oxidation frequently involves gaining oxygen or losing hydrogen, whereas reduction frequently involves losing oxygen or gaining hydrogen.<br />
+8.1.2	Outline the process of glycolysis, including phosphorylation, lysis, oxidation and ATP formation.<br />
+8.1.3	Draw and label a diagram showing the structure of a mitochondrion as seen in electron micrographs.<br />
+8.1.4	Explain aerobic respiration, including the link reaction, the Krebs cycle, the role of NADH + H+, the electron transport chain and the role of oxygen.<br />
+8.1.5	Explain oxidative phosphorylation in terms of chemiosmosis.<br />
+8.1.6	Explain the relationship between the structure of the mitochondrion and its function.<br />
+8.2 Photosynthesis(<br />
+8.2.1	Draw and label a diagram showing the structure of a chloroplast as seen in electron micrographs.<br />
+8.2.2	State that photosynthesis consists of light-dependent and light-independent reactions.<br />
+8.2.3	Explain the light-dependent reactions.<br />
+8.2.4	Explain photophosphorylation in terms of chemiosmosis.<br />
+8.2.5	Explain the light-independent reactions.<br />
+8.2.6	Explain the relationship between the structure of the chloroplast and its function.<br />
+8.2.7	Explain the relationship between the action spectrum and the absorption spectrum of photosynthetic pigments in green plants.<br />
+8.2.8	Explain the concept of limiting factors in photosynthesis, with reference to light intensity, temperature and concentration of carbon dioxide.<br />
+<br />
+Topic 9: Plant science (11 hours)<br />
+9.1 Plant structure and growth<br />
+9.1.1	Draw and label plan diagrams to show the distribution of tissues in the stem and leaf of a dicotyledonous plant.<br />
+9.1.2	Outline three differences between the structures of dicotyledonous and monocotyledonous plants.<br />
+9.1.3	Explain the relationship between the distribution of tissues in the leaf and the functions of these tissues.<br />
+9.1.4	Identify modifications of roots, stems and leaves for different functions: bulbs, stem tubers, storage roots and tendrils.<br />
+9.1.5	State that dicotyledonous plants have apical and lateral meristems.<br />
+9.1.6	Compare growth due to apical and lateral meristems in dicotyledonous plants.<br />
+9.1.7	Explain the role of auxin in phototropism as an example of the control of plant growth.<br />
+9.2 Transport in angiospermophytes<br />
+9.2.1	Outline how the root system provides a large surface area for mineral ion and water uptake by means of branching and root hairs.<br />
+9.2.2	List ways in which mineral ions in the soil move to the root.<br />
+9.2.3	Explain the process of mineral ion absorption from the soil into roots by active transport.<br />
+9.2.4	State that terrestrial plants support themselves by means of thickened cellulose, cell turgor and lignified xylem.<br />
+9.2.5	Define transpiration.<br />
+9.2.6	Explain how water is carried by the transpiration stream, including the structure of xylem vessels, transpiration pull, cohesion, adhesion and evaporation.<br />
+9.2.7	State that guard cells can regulate transpiration by opening and closing stomata.<br />
+9.2.8	State that the plant hormone abscisic acid causes the closing of stomata.<br />
+9.2.9	Explain how the abiotic factors light, temperature, wind and humidity, affect the rate of transpiration in a typical terrestrial plant.<br />
+9.2.10	Outline four adaptations of xerophytes that help to reduce transpiration.<br />
+9.2.11	Outline the role of phloem in active translocation of sugars (sucrose) and amino acids from source (photosynthetic tissue and storage organs) to sink (fruits, seeds, roots).<br />
+9.3 Reproduction in angiospermophytes<br />
+9.3.1	Draw and label a diagram showing the structure of a dicotyledonous animal-pollinated flower.<br />
+9.3.2	Distinguish between pollination, fertilization and seed dispersal.<br />
+9.3.3	Draw and label a diagram showing the external and internal structure of a named dicotyledonous seed.<br />
+9.3.4	Explain the conditions needed for the germination of a typical seed.<br />
+9.3.5	Outline the metabolic processes during germination of a starchy seed.<br />
+9.3.6	Explain how flowering is controlled in long-day and short-day plants, including the role of phytochrome.<br />
+<br />
+Topic 10: Genetics (6 hours)<br />
+10.1 Meiosis(<br />
+10.1.1	Describe the behaviour of the chromosomes in the phases of meiosis.<br />
+10.1.2	Outline the formation of chiasmata in the process of crossing over.<br />
+10.1.3	Explain how meiosis results in an effectively infinite genetic variety in gametes through crossing over in prophase I and random orientation in metaphase I.<br />
+10.1.4	State Mendel’s law of independent assortment.<br />
+10.1.5	Explain the relationship between Mendel’s law of independent assortment and meiosis.<br />
+10.2 Dihybrid crosses and gene linkage<br />
+10.2.1	Calculate and predict the genotypic and phenotypic ratio of offspring of dihybrid crosses involving unlinked autosomal genes.<br />
+10.2.2	Distinguish between autosomes and sex chromosomes.<br />
+10.2.3	Explain how crossing over between non-sister chromatids of a homologous pair in prophase I can result in an exchange of alleles.<br />
+10.2.4	Define linkage group.<br />
+10.2.5	Explain an example of a cross between two linked genes.<br />
+10.2.6	Identify which of the offspring are recombinants in a dihybrid cross involving linked genes.<br />
+10.3 Polygenic inheritance( ..)<br />
+10.3.1	Define polygenic inheritance.<br />
+10.3.2	Explain that polygenic inheritance can contribute to continuous variation using two examples, one of which must be human skin colour.<br />
+<br />
+Topic 11: Human health and physiology (17 hours)<br />
+11.1 Defence against infectious disease( ..)<br />
+11.1.1	Describe the process of blood clotting.<br />
+11.1.2	Outline the principle of challenge and response, clonal selection and memory cells as the basis of immunity.<br />
+11.1.3	Define active and passive immunity.<br />
+11.1.4	Explain antibody production.<br />
+11.1.5	Describe the production of monoclonal antibodies and their use in diagnosis and in treatment.<br />
+11.1.6	Explain the principle of vaccination.<br />
+11.1.7	Discuss the benefits and dangers of vaccination.<br />
+<br />
+11.2 Muscles and movement( ..)<br />
+11.2.1	State the roles of bones, ligaments, muscles, tendons and nerves in human movement.<br />
+11.2.2	Label a diagram of the human elbow joint, including cartilage, synovial fluid, joint capsule, named bones and antagonistic muscles (biceps and triceps).<br />
+11.2.3	Outline the functions of the structures in the human elbow joint named in 11.2.2.<br />
+11.2.4	Compare the movements of the hip joint and the knee joint.<br />
+11.2.5	Describe the structure of striated muscle fibres, including the myofibrils with light and dark bands, mitochondria, the sarcoplasmic reticulum, nuclei and the sarcolemma.<br />
+11.2.6	Draw and label a diagram to show the structure of a sarcomere, including Z lines, actin filaments, myosin filaments with heads, and the resultant light and dark bands.<br />
+11.2.7	Explain how skeletal muscle contracts, including the release of calcium ions from the sarcoplasmic reticulum, the formation of cross-bridges, the sliding of actin and myosin filaments, and the use of ATP to break cross-bridges and re-set myosin heads.<br />
+11.2.8	Analyse electron micrographs to find the state of contraction of muscle fibres.<br />
+11.3 The kidney( ..)<br />
+11.3.1	Define excretion.<br />
+11.3.2	Draw and label a diagram of the kidney.<br />
+11.3.3	Annotate a diagram of a glomerulus and associated nephron to show the function of each part.<br />
+11.3.4	Explain the process of ultrafiltration, including blood pressure, fenestrated blood capillaries and basement membrane.<br />
+11.3.5	Define osmoregulation.<br />
+11.3.6	Explain the reabsorption of glucose, water and salts in the proximal convoluted tubule, including the roles of microvilli, osmosis and active transport.<br />
+11.3.7	Explain the roles of the loop of Henle, medulla, collecting duct and ADH (vasopressin) in maintaining the water balance of the blood.<br />
+11.3.8	Explain the differences in the concentration of proteins, glucose and urea between blood plasma, glomerular filtrate and urine.<br />
+11.3.9	Explain the presence of glucose in the urine of untreated diabetic patients.<br />
+11.4 Reproduction( ..)<br />
+11.4.1	Annotate a light micrograph of testis tissue to show the location and function of interstitial cells (Leydig cells), germinal epithelium cells, developing spermatozoa and Sertoli cells.<br />
+11.4.2	Outline the processes involved in spermatogenesis within the testis, including mitosis, cell growth, the two divisions of meiosis and cell differentiation.<br />
+11.4.3	State the role of LH, testosterone and FSH in spermatogenesis.<br />
+11.4.4	Annotate a diagram of the ovary to show the location and function of germinal epithelium, primary follicles, mature follicle and secondary oocyte.<br />
+11.4.5	Outline the processes involved in oogenesis within the ovary, including mitosis, cell growth, the two divisions of meiosis, the unequal division of cytoplasm and the degeneration of polar body.<br />
+11.4.6	Draw and label a diagram of a mature sperm and egg.<br />
+11.4.7	Outline the role of the epididymis, seminal vesicle and prostate gland in the production of semen.<br />
+11.4.8	Compare the processes of spermatogenesis and oogenesis, including the number of gametes and the timing of the formation and release of gametes.<br />
+11.4.9	Describe the process of fertilization, including the acrosome reaction, penetration of the egg membrane by a sperm and the cortical reaction.<br />
+11.4.10	Outline the role of HCG in early pregnancy.<br />
+11.4.11	Outline early embryo development up to the implantation of the blastocyst.<br />
+11.4.12	Explain how the structure and functions of the placenta, including its hormonal role in secretion of estrogen and progesterone, maintain pregnancy.<br />
+11.4.13	State that the fetus is supported and protected by the amniotic sac and amniotic fluid.<br />
+11.4.14	State that materials are exchanged between the maternal and fetal blood in the placenta.<br />
+11.4.15	Outline the process of birth and its hormonal control, including the changes in progesterone and oxytocin levels and positive feedback.<br />
+</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_IndholdLbl"><i>Kernestof:</i><br />C. J. Clegg: Biology for the IB diploma, Hodder Education, 2007; sider: 184-222<br />Below is a list of information for your presentation:<br />
+ 1. Ten minute presentation (this will be timed and you will have to stop at ten minutes.- all participants must speak <br />
+ 2. It is a review of your process.<br />
+ 3. Why have you chosen the project?<br />
+ 4. Describe the method.<br />
+ 5. Describe your findings/results.<br />
+ 6. Evaluation of your findings and of the process.<br />
+ 7. Reference any sources used.<br />pages 76-90</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.hhmi.org/biointeractive/e-coli-infection-strategy" target="_blank" >http://www.hhmi.org/biointeractive/e-coli-infection-strategy</a> - e coli infection
+					<br />
+						<a href="http://highered.mheducation.com/sites/0072495855/student_view0/chapter24/animation__how_the_hiv_infection_cycle_works.html" target="_blank" >http://highered.mheducation.com/sites/0072495855/student_view0/chapter24/animation__how_the_hiv_i...</a> - how the hiv infecetion cycle works
+					<br />
+						<a href="http://waynesword.palomar.edu/aniblood.htm" target="_blank" >http://waynesword.palomar.edu/aniblood.htm</a> - blood type antigen antibody
+					<br />
+						<a href="https://www.youtube.com/watch?v=MrDbiKQOtlU" target="_blank" >https://www.youtube.com/watch?v=MrDbiKQOtlU</a>
+					<br />
+						<a href="https://www.wisc-online.com/learn/natural-science/life-science/ap15104/respiratory-basics" target="_blank" >https://www.wisc-online.com/learn/natural-science/life-science/ap15104/respiratory-basics</a> - respiratory
+					<br />
+						<a href="https://www.youtube.com/watch?v=MrDbiKQOtlU" target="_blank" >https://www.youtube.com/watch?v=MrDbiKQOtlU</a> - gaseous exchange
+					<br />
+						<a href="https://www.youtube.com/watch?v=-S_vQZDH9hY" target="_blank" >https://www.youtube.com/watch?v=-S_vQZDH9hY</a> - hormones
+					<br />
+						<a href="https://www.youtube.com/watch?v=UabDiuTtU0M" target="_blank" >https://www.youtube.com/watch?v=UabDiuTtU0M</a> - nerves
+					<br />
+						<a href="http://bcs.whfreeman.com/thelifewire/content/chp44/4402s.swf" target="_blank" >http://bcs.whfreeman.com/thelifewire/content/chp44/4402s.swf</a> - 5 phases
+					<br />
+						<a href="http://highered.mheducation.com/sites/0072495855/student_view0/chapter14/animation__the_nerve_impulse.html" target="_blank" >http://highered.mheducation.com/sites/0072495855/student_view0/chapter14/animation__the_nerve_imp...</a>
+					<br />
+						<a href="http://outreach.mcb.harvard.edu/animations/synaptic.swf" target="_blank" >http://outreach.mcb.harvard.edu/animations/synaptic.swf</a> - game how we learn
+					<br />
+						<a href="http://www.think-bank.com/iwb/flash/homeostasis.swf" target="_blank" >http://www.think-bank.com/iwb/flash/homeostasis.swf</a> - homeostatis
+					<br />
+						<a href="https://www.youtube.com/watch?v=-S_vQZDH9hY" target="_blank" >https://www.youtube.com/watch?v=-S_vQZDH9hY</a> - endocrine by paul andersen
+					<br />
+						<a href="https://www.youtube.com/watch?v=QSN5gfbzgwc" target="_blank" >https://www.youtube.com/watch?v=QSN5gfbzgwc</a> - reproduction&nbsp;&nbsp;paul andersen
+					<br />
+						<a href="https://www.youtube.com/watch?v=l_wX285vrrU" target="_blank" >https://www.youtube.com/watch?v=l_wX285vrrU</a> - menstrual cycle
+					<br />
+						<a href="http://kidshealth.org/parent/general/body_basics/male_reproductive.html#" target="_blank" >http://kidshealth.org/parent/general/body_basics/male_reproductive.html#</a> - male reproductive system
+					<br />
+						<a href="http://www.abpischools.org.uk/page/modules/hormones/horm4.cfm?age=age%20range%2016-19&subject=applied%20science" target="_blank" >http://www.abpischools.org.uk/page/modules/hormones/horm4.cfm?age=age%20range%2016-19&amp;subject...</a> - menstruation cycle good one<br />
+
+					<br />
+						<a href="http://www-tc.pbs.org/wgbh/amex/pill/sfeature/sf_cycle.swf" target="_blank" >http://www-tc.pbs.org/wgbh/amex/pill/sfeature/sf_cycle.swf</a> - how the pills work
+					<br />
+						<a href="https://www.youtube.com/watch?v=QSN5gfbzgwc" target="_blank" >https://www.youtube.com/watch?v=QSN5gfbzgwc</a> - paul andersen reproduction
+					<br />
+						<a href="https://www.youtube.com/watch?v=l_wX285vrrU" target="_blank" >https://www.youtube.com/watch?v=l_wX285vrrU</a> - menstrual cycle
+					<br />
+						<a href="http://kidshealth.org/parent/general/body_basics/male_reproductive.html#" target="_blank" >http://kidshealth.org/parent/general/body_basics/male_reproductive.html#</a> - male reproductive system
+					<br />
+						<a href="http://www.abpischools.org.uk/page/modules/hormones/horm4.cfm?age=age%20range%2016-19&subject=applied%20science" target="_blank" >http://www.abpischools.org.uk/page/modules/hormones/horm4.cfm?age=age%20range%2016-19&amp;subject...</a> - menstruation
+					<br />
+						<a href="http://www-tc.pbs.org/wgbh/amex/pill/sfeature/sf_cycle.swf" target="_blank" >http://www-tc.pbs.org/wgbh/amex/pill/sfeature/sf_cycle.swf</a> - pills
+					<br />
+						<a href="https://www.khanacademy.org/science/biology/immunology" target="_blank" >https://www.khanacademy.org/science/biology/immunology</a> - all about immunology
+					<br />
+						<a href="http://www.youtube.com/watch?v=z3M0vU3Dv8E" target="_blank" >http://www.youtube.com/watch?v=z3M0vU3Dv8E</a> - immunology paul andersen
+					<br />
+						<a href="http://www.youtube.com/watch?v=--bZUeb83uU" target="_blank" >http://www.youtube.com/watch?v=--bZUeb83uU</a> - clotting<br />
+
+					<br />
+						<a href="http://www.biologymad.com/resources/kidney.swf" target="_blank" >http://www.biologymad.com/resources/kidney.swf</a> - kidney animation
+					<br />
+						<a href="https://www.youtube.com/watch?v=Xath6kOf0NE" target="_blank" >https://www.youtube.com/watch?v=Xath6kOf0NE</a> - vaginal birth
+					<br />
+						<a href="http://www.sumanasinc.com/webcontent/animations/content/pregtest.html" target="_blank" >http://www.sumanasinc.com/webcontent/animations/content/pregtest.html</a> - pregnancy test animation
+					<br />
+						<a href="http://www.thebiozone.com/weblink/ib-3169/" target="_blank" >http://www.thebiozone.com/weblink/ib-3169/</a> - link with different animations
+					<br />
+						<a href="https://www.wiziq.com/online-tests/22573-ib-biology-cell-theory" target="_blank" >https://www.wiziq.com/online-tests/22573-ib-biology-cell-theory</a> - cell theory
+					<br />
+						<a href="http://highered.mheducation.com/sites/0072347201/student_view0/virtual_labs.html" target="_blank" >http://highered.mheducation.com/sites/0072347201/student_view0/virtual_labs.html</a>
+					<br />
+						<a href="http://xmltwo.ibo.org/publications/DP/Group4/d_4_biolo_tsm_0711_1/investigation01_intro_en.html" target="_blank" >http://xmltwo.ibo.org/publications/DP/Group4/d_4_biolo_tsm_0711_1/investigation01_intro_en.html</a> - IBO
+					<br />
+						<a href="http://bigpictureeducation.com/video-chi-squared-test" target="_blank" >http://bigpictureeducation.com/video-chi-squared-test</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=WXPBoFDqNVk" target="_blank" >https://www.youtube.com/watch?v=WXPBoFDqNVk</a> - paul
+					<br />
+						<a href="http://i-biology.net/ibdpbio/02-cells/cell-theory/" target="_blank" >http://i-biology.net/ibdpbio/02-cells/cell-theory/</a>
+					<br />
+						<a href="http://www.phschool.com/science/biology_place/biocoach/translation/quiz.html?RADIO1=b&RADIO2=e&RADIO3=b&4fillIn1=lloo&5fillIn1=kkk&6fillIn1=&7fillIn1=&8fillIn1=&RADIO9=c&RADIO10=d&RADIO11=c&12fillIn1=&13fillIn1=&14f" target="_blank" >http://www.phschool.com/science/biology_place/biocoach/translation/quiz.html?RADIO1=b&amp;RADIO2=...</a>
+					<br />
+						<a href="http://www.psd150.org/cms/lib2/IL01001530/Centricity/Domain/462/Virtual%20Lab.Testing%20Macromolecules.pdf" target="_blank" >http://www.psd150.org/cms/lib2/IL01001530/Centricity/Domain/462/Virtual%20Lab.Testing%20Macromole...</a> - virtual lab
+					<br />
+						<a href="http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS04/LS04.html" target="_blank" >http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS04/LS04.html</a> - HIGHER LEVEL STUDENTS
+					<br />
+						<a href="http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS04/LS04.html" target="_blank" >http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS04/LS04.html</a> - VIRTUAL&nbsp;&nbsp;LAB ACTIVITY
+					<br />
+						<a href="http://i-biology.net/ibdpbio/02-cells/cell-division/" target="_blank" >http://i-biology.net/ibdpbio/02-cells/cell-division/</a>
+					<br />
+						<a href="http://www.stolaf.edu/people/giannini/biological%20anamations.html" target="_blank" >http://www.stolaf.edu/people/giannini/biological%20anamations.html</a> - biological animations for the higher level
+					<br />
+						<a href="http://www.contentextra.com/bacconline/OnlineResources/Biology/HLQuizzes.aspx" target="_blank" >http://www.contentextra.com/bacconline/OnlineResources/Biology/HLQuizzes.aspx</a> - hl quizzes
+					<br />
+						<a href="http://www.tokresource.org/tok_classes/biobiobio/biomenu/index.htm" target="_blank" >http://www.tokresource.org/tok_classes/biobiobio/biomenu/index.htm</a> - for the standard level
+					<br />
+						<a href="http://www.saburchill.com/IBbiology/ICT/dataprocessing/028.html" target="_blank" >http://www.saburchill.com/IBbiology/ICT/dataprocessing/028.html</a> - ICT in biology
+					<br />
+						<a href="http://www.saburchill.com/IBbiology/ICT/dataprocessing/028.html" target="_blank" >http://www.saburchill.com/IBbiology/ICT/dataprocessing/028.html</a> - ict in biology
+					<br />
+						<a href="http://www.slideshare.net/gurustip/draw-the-core?utm_source=slideshow02&utm_medium=ssemail&utm_campaign=share_slideshow_loggedout" target="_blank" >http://www.slideshare.net/gurustip/draw-the-core?utm_source=slideshow02&amp;utm_medium=ssemail&am...</a> - drawing&nbsp;&nbsp;for the standard level
+					<br />
+						<a href="http://www.wiley.com/college/pratt/0471393878/student/animations/dna_replication/index.html" target="_blank" >http://www.wiley.com/college/pratt/0471393878/student/animations/dna_replication/index.html</a> - dna replication
+					<br />
+						<a href="http://www.quia.com/quiz/1345840.html?AP_rand=1686168331" target="_blank" >http://www.quia.com/quiz/1345840.html?AP_rand=1686168331</a> - dna quiz
+					<br />
+						<a href="https://www.youtube.com/watch?v=-N_iuEvi6HA" target="_blank" >https://www.youtube.com/watch?v=-N_iuEvi6HA</a> - egg denaturation
+					<br />
+						<a href="http://www.slideshare.net/gurustip/organic-or-inorganic-presentation" target="_blank" >http://www.slideshare.net/gurustip/organic-or-inorganic-presentation</a> - organic vs inorganic
+					<br />
+						<a href="http://learn.genetics.utah.edu/content/molecules/firefly/" target="_blank" >http://learn.genetics.utah.edu/content/molecules/firefly/</a> - what makes them glow
+					<br />
+						<a href="https://www.youtube.com/watch?v=O5gN-IK6uKs" target="_blank" >https://www.youtube.com/watch?v=O5gN-IK6uKs</a> - khan academy about the protein structures
+					<br />
+						<a href="http://www.stolaf.edu/people/giannini/biological%20anamations.html" target="_blank" >http://www.stolaf.edu/people/giannini/biological%20anamations.html</a> - transcription and translation
+					<br />
+						<a href="http://www.slideshare.net/gurustip/protein-synthesis-35-transcription-translation-sl" target="_blank" >http://www.slideshare.net/gurustip/protein-synthesis-35-transcription-translation-sl</a> - protein synthesis&nbsp;&nbsp;presentation
+					<br />
+						<a href="http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS12/LS12.html" target="_blank" >http://www.glencoe.com/sites/common_assets/science/virtual_labs/LS12/LS12.html</a> - virtual lab for photosynthesis<br />
+
+					<br />
+						<a href="http://www.kscience.co.uk/animations/photolab.swf" target="_blank" >http://www.kscience.co.uk/animations/photolab.swf</a>
+					<br />
+						<a href="http://www.reading.ac.uk/virtualexperiments/ves/preloader-photosynthesis.html" target="_blank" >http://www.reading.ac.uk/virtualexperiments/ves/preloader-photosynthesis.html</a> - photosynthesis
+					<br />
+						<a href="http://www.stolaf.edu/people/giannini/flashanimat/metabolism/photosynthesis.swf" target="_blank" >http://www.stolaf.edu/people/giannini/flashanimat/metabolism/photosynthesis.swf</a>
+					<br />
+						<a href="http://www.sumanasinc.com/webcontent/animations/content/harvestinglight.html" target="_blank" >http://www.sumanasinc.com/webcontent/animations/content/harvestinglight.html</a>
+					<br />
+						<a href="http://www.science.smith.edu/departments/Biology/Bio231/calvin.html" target="_blank" >http://www.science.smith.edu/departments/Biology/Bio231/calvin.html</a>
+					<br />
+						<a href="http://ibguides.com/biology/notes/transport-in-angiosperms" target="_blank" >http://ibguides.com/biology/notes/transport-in-angiosperms</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=LExMH0XPvZQ" target="_blank" >https://www.youtube.com/watch?v=LExMH0XPvZQ</a> - plants differences
+					<br />
+						<a href="https://www.youtube.com/watch?v=tIfsHPpkSPs" target="_blank" >https://www.youtube.com/watch?v=tIfsHPpkSPs</a> - animals
+					<br />
+						<a href="https://www.youtube.com/watch?v=U_zdTmNYlRw" target="_blank" >https://www.youtube.com/watch?v=U_zdTmNYlRw</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=jsVgi8hoFFc" target="_blank" >https://www.youtube.com/watch?v=jsVgi8hoFFc</a> - everything comes to&nbsp;&nbsp;feces!!
+					<br />
+						<a href="https://www.youtube.com/watch?v=zr4onA2k_LY" target="_blank" >https://www.youtube.com/watch?v=zr4onA2k_LY</a> - digestion
+					<br />
+						<a href="https://www.youtube.com/watch?v=Arb-kHfSe4E" target="_blank" >https://www.youtube.com/watch?v=Arb-kHfSe4E</a> - for the higher level
+					<br />
+						<a href="https://www.youtube.com/watch?v=FPO_9F9BJvk" target="_blank" >https://www.youtube.com/watch?v=FPO_9F9BJvk</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=1tBOmG0QMbA" target="_blank" >https://www.youtube.com/watch?v=1tBOmG0QMbA</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=zQGOcOUBi6s" target="_blank" >https://www.youtube.com/watch?v=zQGOcOUBi6s</a> - longer one
+					<br />
+						<a href="https://gaggle.net/gaggleVideoProxy.do?op=view&v=f7b4fbec6ff5ea4344c3ae655e5b2744918462a0dadaa4c0" target="_blank" >https://gaggle.net/gaggleVideoProxy.do?op=view&amp;v=f7b4fbec6ff5ea4344c3ae655e5b2744918462a0dada...</a> - Heart structure
+					<br />
+						<a href="http://www.whitman.edu/academics/departments-and-programs/biology/virtual-pig/digestive-system" target="_blank" >http://www.whitman.edu/academics/departments-and-programs/biology/virtual-pig/digestive-system</a> - virtual pig dissection
+					<br /><br /><i>Dokumenter:</i><br />
+						Præsentation1transport.pptx
+					<br />
+						What are the functions of the following components of blood.docx
+					<br />
+						hl ch 12.pptx
+					<br />
+						new Ib group 4.ppt
+					<br />
+						new Ib group 4 (3).ppt
+					<br />
+						Order for group 4 project.docx
+					<br />
+						Photosynthesis.docx
+					<br />
+						Topic 11 AHL IB TB questions and answers.rtf
+					<br />
+						Cells Unit Test.doc
+					<br />
+						50 questions&nbsp;&nbsp;from past for core.docx
+					<br />
+						exp Osmotic pressure in potato tissue.doc
+					<br />
+						exp Osmotic pressure in potato tissue.doc
+					<br />
+						hardy weinberg 2.docx
+					<br />
+						hardy weinberg.docx
+					<br />
+						hardyweinbergfogliamodified.ppt
+					<br />
+						Simulation of Natural Selection Using Chi Square Test.docx
+					<br />
+						Chi Squared practice problem - extras (1).docx
+					<br />
+						hl Præsentation1.pptx new.pptx
+					<br />
+						IB Bio Exam Drawings.doc
+					<br />
+						IB Biology Vocabulary by&nbsp;&nbsp;topic 2, 3.docx
+					<br />
+						topic 3.1 Chemical_Elements_Water (2).ppt
+					<br />
+						winogradsky.pdf
+					<br />
+						higher level ch 7.pptx
+					<br />
+						topic 3.1 Chemical_Elements_Water (2).ppt
+					<br />
+						recap carbohydrates.pptx
+					<br />
+						ch 8 higher level.pptx
+					<br />
+						topic 3.6 Enzymes.ppt
+					<br />
+						ib2 quiz cell-photo.docx
+					<br />
+						cell respiration and photosynthsis.pptx
+					<br />
+						ib 2 chapter 4.pptx
+					<br />
+						Pedigree practice worksheet.pdf
+					<br />
+						biotechnology ib2.pptx
+					<br />
+						Cell Respiration Explained.docx
+					<br />
+						PHOTOSYNTHESIS.docx
+					<br />
+						photo ib 2 hl.pptx
+					<br />
+						ib2 hl plant physiololgy.pptx
+					<br />
+						Psow forms to be filled.docx
+					<br />
+						Types of Plant Hormones.docx
+					<br />
+						Plant Physiology.docx
+					<br />
+						ecology.pptx
+					<br />
+						IB2 ECO.pptx
+					<br />
+						ib2 digestion and population.pptx
+					<br />
+						ib2 human physiology.pptx
+					<br />
+						ib2 hl muscles and kidney.pptx
+					<br />
+						hl infection.pptx
+					<br />
+						nervous sys.pptx
+					<br />
+						immune system webquest.docx
+					<br />
+						option g powerpoint.pptx
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								assignment for 21 /8
+							</td>
+							<td>
+								21-08-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								design for internal assesment
+							</td>
+							<td>
+								10-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								draft for yeast fermentation
+							</td>
+							<td>
+								08-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								lisa ee
+							</td>
+							<td>
+								09-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								lisa ee third draft
+							</td>
+							<td>
+								19-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								luc extended essay
+							</td>
+							<td>
+								23-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								only lisa
+							</td>
+							<td>
+								26-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								sleep amylase design
+							</td>
+							<td>
+								28-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								only lisa and luc
+							</td>
+							<td>
+								02-11-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								yeast final
+							</td>
+							<td>
+								03-11-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								group 4 shopping list
+							</td>
+							<td>
+								10-11-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								potato osmosis
+							</td>
+							<td>
+								26-01-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								bean experiment draft
+							</td>
+							<td>
+								02-02-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								potato final
+							</td>
+							<td>
+								05-02-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								bean final
+							</td>
+							<td>
+								18-02-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								psow DRAFT
+							</td>
+							<td>
+								17-03-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_ActualLessons">68 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/283/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9677357030">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:03</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/283", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9677357030");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.RegisterSendNavigationTiming('GET');
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

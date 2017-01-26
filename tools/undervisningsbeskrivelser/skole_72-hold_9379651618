@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet 1b BI -  - Lectio - Køge Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Køge Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/72/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=9379651618" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="2wAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQUiIBIvAgAAAGsEZwNrBX0EISASLwIAAABrBnFrB2UMSG9sZGV0IDFiIEJJZGwCaGlkbAJnAmlsAmsIZQNvZmZsAmcDaWRsAmcFaWRsAoFpZGwCgWlpbAJrCW1kbAJnBWlsAmsKgWRyAWUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fbAFlJnMkbSRDb250ZW50JENvbnRlbnQkaG9sZHV2YiRTaG93Q2VuY3VyCwAAAAZIb2xkSUQNSG9sZEVsZW1lbnRJRBNWYWxpZGF0ZVJlcXVlc3RNb2RlCGxlY3Rpb2lkBW10eXBlDm1hc3RlcmxlY3Rpb2lkFlZpZXdzdGF0ZUlzSW5pdGlhbGl6ZWQKRW50aXR5TmFtZQxhdXRvY29tcGxldGUGSG9sZElkC18hSXRlbUNvdW50AQABAAAA/////wEAAAAAAAAABAEAAAB/U3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tTeXN0ZW0uT2JqZWN0LCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQMAAAAGX2l0ZW1zBV9zaXplCF92ZXJzaW9uBQAACAgJAgAAAAMAAAADAAAAEAIAAAAEAAAACQMAAAAJBAAAAAkFAAAACgwGAAAASk1hY29tLkxlY3Rpby5Db21tb24sIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQMAAAATTWFjb20uTGVjdGlvLkhvbGRJRAEAAAAGX3ZhbHVlAAkGAAAAISASLwIAAAAFBAAAABpNYWNvbS5MZWN0aW8uSG9sZEVsZW1lbnRJRAEAAAAGX3ZhbHVlAAkGAAAAIiASLwIAAAABBQAAAAMAAAAhIBIvAgAAAAvHGWS31UAetWKbNJETTX71wtNRhQ==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="QXwmXpQjj9jbJE9F1QeQgY9/U1F5uq3EYRYNDaprDyDt6C5BZEzqqtpHVXqVDJEdUvEtYx9uDnCis8EZ6yh7edDIFrEaYc4LOQdukrZMH1EvDRk+Z1FjseAtsBvz4NNedJCVjn6S/EnTgvkTbDe8hXxvPjjuhOLxUoiMXXxsTiqlBQUyOPyIPcuPmwvMb+B1ma0xr5QG6azeNYTh+nBS+8vMHaEqhC6HN7/MMQGl98e2dwSOaMib0fRFK1egyip4kw5a7eu76buiKcXegCWSFE4eLfOBlOXV44h7eQa0J+eZxZp5+3GVDFTqtAIkRwZleVH+MW0fXE2nX6pKQ7MTJtVWCmdoSRj1hTvVO6hmdMy+g8MDylMDjK+hG3e9IuRs" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Køge Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/72/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/72/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/72/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/72/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/72/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618" 
+		onclick="toggleTip('/lectio/72/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE9379651618">Holdet 1b BI - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/72/SkemaNy.aspx?type=holdelement&amp;holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/SkemaNy.aspx?type=holdelement&amp;holdelementid=9379651618&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/72/studieplan.aspx?holdelementid=9379651618&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/MaterialOverview.aspx?holdelement_id=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/subnav/modulregnskab.aspx?holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/aktivitet/AktivitetListe.aspx?holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/subnav/members.aspx?holdelementid=9379651618&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/aktivitet/AktivitetLinks.aspx?holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/DokumentOversigt.aspx?holdid=9379651617&amp;holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/72/studieplan.aspx?holdelementid=9379651618&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/studieplan.aspx?holdelementid=9379651618&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/studieplan.aspx?holdelementid=9379651618&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/72/studieplan.aspx?holdelementid=9379651618&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/72/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9379651618" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">K&#248;ge Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi A</span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl">Pia Dolberg Myler</span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2014 BI/b (1b BI)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10743352872'>Kapitel 1. Mikrobiologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 2</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph11365357983'>Kapitel 2. Lunger og blodkredsløb</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph10743352872">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/72/studieplan/forloeb_vis.aspx?phaseid=10743352872&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618">Kapitel 1. Mikrobiologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"><i>Kernestof:</i><br />Yubio; sider: 10-58</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://m.b.dk/?redirect=www.b.dk%2Fdanmark%2Fverdens-bedste-job&" target="_blank" >http://m.b.dk/?redirect=www.b.dk%2Fdanmark%2Fverdens-bedste-job&amp;</a> - Biolog - verdens bedste job:)
+					<br />
+						<a href="https://dl.dropboxusercontent.com/u/15548501/yubio%20-%20K%C3%B8ge%20Gymnasium%202014%20.pdf?dl=1" target="_blank" >https://dl.dropboxusercontent.com/u/15548501/yubio%20-%20K%C3%B8ge%20Gymnasium%202014%20.pdf?dl=1</a> - Jeres nye e-bog i Biologi
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit</a> - Kapitel 1. Mikrobiologi s. 10-20 - spørgsmål
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit</a> - Kapitel 1. Mikrobiologi. Fremmedord med oversættelse
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit</a> - Kapitel 1. Mikrobiologi s. 10-20
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit</a> - Spørgsmål til Kapitel 1
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit</a> - Spørgsmål til kapitel 1
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit</a> - Kapitel 1. Mikrobiologi. Fremmedord med oversættelse
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit</a> - Oversættelser til Kapitel 1
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1zGGd0kWc6wdG3NFDv6yHcTVzgrg0xoMWb9cUinqeJmI/edit</a> - Kapitel 1. Mikrobiologi
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1XXMwFTCeRFzUgAeAJNU_75Qx9DEZ9HHm6sXYMyNslF0/edit?usp=sharing" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1XXMwFTCeRFzUgAeAJNU_75Qx9DEZ9HHm6sXYMyNslF0/ed...</a> - Dokument til søgning efter artikler
+					<br />
+						<a href="http://www.nucleus.dk/butik/materiale/?id=81" target="_blank" >http://www.nucleus.dk/butik/materiale/?id=81</a> - Forsøg 4. Gram positiv og negativ farvning
+					<br />
+						<a href="http://www.nucleus.dk/butik/materiale/?id=81" target="_blank" >http://www.nucleus.dk/butik/materiale/?id=81</a> - Forsøg 4. Gram positiv og negativ farvning
+					<br />
+						<a href="http://www.nucleus.dk/butik/materiale/?id=81" target="_blank" >http://www.nucleus.dk/butik/materiale/?id=81</a> - Eksperiment 2. Høinfusion
+					<br />
+						<a href="https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing</a> - Gruppefordeling
+					<br />
+						<a href="https://docs.google.com/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/11PuQq70OI99_1zlxDk1kenuy6oWi1YpvLsDK7wRjUzM/edit?usp=sharing</a> - Fremmedord
+					<br />
+						<a href="https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing</a> - Jeopardy - gruppefordeling
+					<br />
+						<a href="https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1dvv4PDDkBf_P5OZOyvuETJ6r4LUGW5pdTcmxcyS-X7w/edit?usp=sharing</a> - Jeopardy - gruppefordeling
+					<br />
+						<a href="https://docs.google.com/document/d/1uDptfWhYbYUVFSm0c-cd9v5Y5USjvnRpvvfRm0U_5lE/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1uDptfWhYbYUVFSm0c-cd9v5Y5USjvnRpvvfRm0U_5lE/edit?usp=sharing</a> - Spørgsmål til Cellens organeller
+					<br /><br /><i>Dokumenter:</i><br />
+						the miracle of life.mp4
+					<br />
+						Småforsøg med bakterier.docx
+					<br />
+						Fremstilling af agarplader.docx
+					<br />
+						Check din forberedelsesgrad.doc
+					<br />
+						Ekskursion til Det Natur- og Biovidenskabelige Fakultet - forsøg Celler på spid.docx
+					<br />
+						110823_stx112-BIO_A.pdf
+					<br />
+						Grupper fra uge 49 til uge 8 - 2015.docx
+					<br />
+						Artikel. Livet i en vanddråbe.pdf
+					<br />
+						Artikel_fra_biofag.pdf
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Eksamensopgave BioA, august 2011, opg. 3
+							</td>
+							<td>
+								15-12-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 1. Celler
+							</td>
+							<td>
+								15-04-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons">20,00 moduler</span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">21 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph11365357983">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleLabel">2</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleHlink" href="/lectio/72/studieplan/forloeb_vis.aspx?phaseid=11365357983&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618">Kapitel 2. Lunger og blodkredsløb</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_IndholdLbl"><i>Kernestof:</i><br />Yubio; sider: 58-62, 78-106</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="https://docs.google.com/document/d/1uDX0893QLb3gwQkhUzN5fIFIfXgAqe8bM-oCWnYgTo8/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1uDX0893QLb3gwQkhUzN5fIFIfXgAqe8bM-oCWnYgTo8/edit?usp=sharing</a> - Rapport 1. Mikroskopering af dyre-, plante- og bakterieceller
+					<br />
+						<a href="https://docs.google.com/document/d/1_YDpTrJ0wbUbfHNF30n1tXzqagiyOMO5TDy8L2WchV4/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1_YDpTrJ0wbUbfHNF30n1tXzqagiyOMO5TDy8L2WchV4/edit?usp=sharing</a> - Journal 1. Høinfusion - mikroskopering
+					<br />
+						<a href="http://www.3dham.com/microgallery/grcult48.html" target="_blank" >http://www.3dham.com/microgallery/grcult48.html</a> - Grass culture at 48 hours
+					<br />
+						<a href="http://www.youtube.com/watch?v=X0hdW37Ue_c" target="_blank" >http://www.youtube.com/watch?v=X0hdW37Ue_c</a> - Youtube, Pond life under microscope
+					<br />
+						<a href="http://www.naturhistoriskmuseum.dk/naturlex/andredyr/toeffeldyr/side.htm" target="_blank" >http://www.naturhistoriskmuseum.dk/naturlex/andredyr/toeffeldyr/side.htm</a> - Tøffeldyr
+					<br />
+						<a href="https://www.youtube.com/watch?v=sbAVOQgREE8" target="_blank" >https://www.youtube.com/watch?v=sbAVOQgREE8</a> - See inside ciliate protozoa
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/172ttDT4hzmtUsC5BT_Y58WkCVw2ZQuBT2RzCBBAft6g/edit?usp=sharing" target="_blank" >https://docs.google.com/spreadsheets/d/172ttDT4hzmtUsC5BT_Y58WkCVw2ZQuBT2RzCBBAft6g/edit?usp=sharing</a> - Forårsplan
+					<br />
+						<a href="https://docs.google.com/document/d/1Q3Bbz7KvDTqXv5X20VkF7-JMUB6ArI2zUeFs95DztE4/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1Q3Bbz7KvDTqXv5X20VkF7-JMUB6ArI2zUeFs95DztE4/edit?usp=sharing</a> - Screencast-grupper
+					<br />
+						<a href="http://snm.ku.dk/skole-og-gymnasietjenesten/gymnasier/undervisning/videnpaavej/undervisning/" target="_blank" >http://snm.ku.dk/skole-og-gymnasietjenesten/gymnasier/undervisning/videnpaavej/undervisning/</a>
+					<br />
+						<a href="https://www.youtube.com/watch?v=HeTx7KTafh0&feature=youtu.be&hd=1" target="_blank" >https://www.youtube.com/watch?v=HeTx7KTafh0&amp;feature=youtu.be&amp;hd=1</a> - Grp. 1. Åndedrættet s. 78-79, figur 2.1 v. Mads Oliver og Erika
+					<br />
+						<a href="http://screencast-o-matic.com/watch/cofjiJe96o" target="_blank" >http://screencast-o-matic.com/watch/cofjiJe96o</a> - Grp. 4. Gasudveksling af ilt s. 83-84, fig. 2.4 v. Victoria, Maja
+					<br />
+						<a href="http://screencast-o-matic.com/watch/cofjiMe96D" target="_blank" >http://screencast-o-matic.com/watch/cofjiMe96D</a> - Grp. 5. Iltens vej til cellerne s. 84-85, fig. 2.5 v. Kasper og Cecilie
+					<br />
+						<a href="https://www.youtube.com/watch?v=okjX1ibHvqI" target="_blank" >https://www.youtube.com/watch?v=okjX1ibHvqI</a> - Dissektion af et svinehjerte del 1
+					<br />
+						<a href="https://www.youtube.com/watch?v=YtPnlb6tVoM" target="_blank" >https://www.youtube.com/watch?v=YtPnlb6tVoM</a> - Dissektion af et svinehjerte del 2
+					<br />
+						<a href="https://www.youtube.com/watch?v=99vXA7Anv8U" target="_blank" >https://www.youtube.com/watch?v=99vXA7Anv8U</a> - Dissektion af et svinehjerte del 3
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/document/d/1h8J9UJEljqoo332u6i_AHKrAnHUBdY_kR4ge99LX0lk/edit" target="_blank" >https://docs.google.com/a/koegegym.org/document/d/1h8J9UJEljqoo332u6i_AHKrAnHUBdY_kR4ge99LX0lk/edit</a> - Journal 6. Lungeventilation
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy8/edit#gid=0" target="_blank" >https://docs.google.com/a/koegegym.org/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy...</a> - Fysiologi-resultater 1.b, 14-15
+					<br />
+						<a href="https://www.youtube.com/watch?v=okjX1ibHvqI" target="_blank" >https://www.youtube.com/watch?v=okjX1ibHvqI</a> - Dissektion af et svinehjerte del 1
+					<br />
+						<a href="https://www.youtube.com/watch?v=YtPnlb6tVoM" target="_blank" >https://www.youtube.com/watch?v=YtPnlb6tVoM</a> - Dissektion af et svinehjerte del 2
+					<br />
+						<a href="https://www.youtube.com/watch?v=99vXA7Anv8U" target="_blank" >https://www.youtube.com/watch?v=99vXA7Anv8U</a> - Dissektion af et svinehjerte del 3
+					<br />
+						<a href="https://docs.google.com/document/d/1u3e1GWNZE9KLcAs2H4VtMKY0FM-yI8ZP4GCHk5ebstk/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1u3e1GWNZE9KLcAs2H4VtMKY0FM-yI8ZP4GCHk5ebstk/edit?usp=sharing</a> - De nye 4-mands grupper
+					<br />
+						<a href="https://docs.google.com/a/koegegym.org/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy8/edit?usp=sharing" target="_blank" >https://docs.google.com/a/koegegym.org/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy...</a> - Fysiologi-resultater
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy8/edit?usp=sharing" target="_blank" >https://docs.google.com/spreadsheets/d/1jSGsDk4vtTI3Aty-LeDh4a1rS29lDDXvF0WxQFHCPy8/edit?usp=sharing</a> - Fysiologi-resultater
+					<br /><br /><i>Dokumenter:</i><br />
+						Journal 1. Høinfusion - mikroskopering.gdoc
+					<br />
+						Artikel. Livet i en vanddråbe.pdf
+					<br />
+						BrugDitMikroskop_forside.pdf
+					<br />
+						Rapport 1. Mikroskopi af dyre-, plante- og bakterieceller.gdoc
+					<br />
+						Journal 2. Cellebiologi - demo om cellens diffusion og cellestørrelse.doc
+					<br />
+						Screencast.docx
+					<br />
+						Feedback og feedforward til screencast.docx
+					<br />
+						Journal 5. NV. Minispirometer brugsanvisning.pdf
+					<br />
+						Rapport 2. Hjertedissektion.doc
+					<br />
+						Rapport 2. Puls og blodtryk.doc
+					<br />
+						Rapport 3. Puls og blodtryk.doc
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Screencast-aflevering, Lunge- og blodkredsløb
+							</td>
+							<td>
+								05-05-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Screencast-manuskript, Lunge- og blodkredsløb
+							</td>
+							<td>
+								05-05-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 2. Hjertedissektion
+							</td>
+							<td>
+								11-05-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 3. Puls og blodtryk
+							</td>
+							<td>
+								18-05-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Eksamensopg. i Lunge-kredsløb
+							</td>
+							<td>
+								21-05-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_estimatedLessons">14,00 moduler</span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_ActualLessons">14 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/72/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9379651618">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:08</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/72", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9379651618");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

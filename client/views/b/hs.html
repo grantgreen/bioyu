@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+
+    <!-- script src="../../js/tiles_game_data.js"></script -->
+    <script type="text/javascript" src="../../js/hs.js"></script>
+
+    <script type="text/javascript">
+      (function($) {
+        $(document).ready(function () {
+          initHS('!!chapters!', '!!categories!', '!!topic!', '!!level!', "/b", '!!figure!');    
+
+        });
+      })(jQuery)
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="text-align:center">
+	<div class="col-md-12">	  
+	  
+	  <span id="mainYubio" />
+	  <span id="mainTopic" />
+	  <span id="mainBack" />
+	</div>
+      </div>
+      <div class="row">
+	<div class="col-md-12" id="header">
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="col-md-12" id="main">
+	  <div id="scoresContainer"></div>
+	</div>
+      </div>
+    </div>
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

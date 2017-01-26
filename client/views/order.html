@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../lib/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="../js/tiles.js"></script>
+    <script type="text/javascript" src="../js/order.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../styles/yubio.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/order.css" />
+
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+      initOrder();
+      });
+    </script>
+
+  </head>
+  <body>
+    <form action="" class="order">
+      
+      <div class="container">
+	<div class="row">
+	  <div class="col-md-4">
+	    <fieldset>
+	      <legend>Ønsket produkt</legend>
+	      <input type="checkbox" id="yubio_a" name="product" value="Yubio A"/><label style="display: block" class="order" for="yubio_a">Yubio A</label>
+	      <input type="checkbox" id="yubio_b" name="product" value="Yubio B" /><label class="order" for="yubio_b">Yubio B</label>
+	      <input type="checkbox" id="yubio_c" name="product" value="Yubio C" /><label class="order" for="yubio_c">Yubio C</label>
+	      <input type="checkbox" id="sport" name="product" value="SPORT" /><label class="order" for="sport">SPORT</label>
+	      <input type="checkbox" id="teacherA" name="product" value="LÆREREKSEMPLAR (A)" /><label class="order" for="teacherA">Lærereksemplar (A)</label>
+	      <input type="checkbox" id="teacherB" name="product" value="LÆREREKSEMPLAR (B)" /><label class="order" for="teacherB">Lærereksemplar (B)</label>
+	      <input type="checkbox" id="teacherC" name="product" value="LÆREREKSEMPLAR (C)" /><label class="order" for="teacherC">Lærereksemplar (C)</label>
+
+	    </fieldset>
+
+	    <fieldset>
+	      <legend>Ønsket varighed</legend>
+	      <input id="duration_1" type="radio" class="duration" name="duration" value="1 år"/><label for="duration_1">1 år</label>
+	      <input id="duration_2" type="radio" class="duration" name="duration" value="2 år"/><label for="duration_2">2 år</label>
+	      <input id="duration_3" type="radio" class="duration" name="duration" value="3 år"/><label for="duration_3">3 år</label>
+	      <input id="duration_unlimited" type="radio" class="duration" name="duration" value="ubegrænset"/><label for="duration_unlimited">Ubegrænset</label>
+	    </fieldset>
+	    <br />
+
+
+	  </div>
+	  
+	  <div class="col-md-4">
+	    <fieldset id="notes">
+	      <legend>Noter</legend>
+	      <div style="padding: .5em">
+		Udfyld en bestillingsformular for hvert produkt, du ønsker. Alternativt kan bestilling foregå på tlf. 30252300 eller via mail til <a href="mailto:kontakt.yubio@gmail.com">kontakt.yubio@gmail.com</a>
+	      </div>
+	    </fieldset>
+
+
+	    <fieldset>
+	      <legend>Ønsket licenstype</legend>
+	      <input id="class_1" type="radio" class="license" name="license" value="1 klasse/hold"/><label for="class_1">1 klasse/hold</label>
+	      <input id="class_2" type="radio" class="license" name="license" value="2 klasser/hold"/><label for="class_2">2 klasser/hold</label>
+	      <input id="class_3" type="radio" class="license" name="license" value="3 klasser/hold"/><label for="class_3">3 klasser/hold</label>
+	      <input id="class_4" type="radio" class="license" name="license" value="4 klasser/hold"/><label for="class_4">4 klasser/hold</label>
+	      <input id="class_manyA" type="radio" class="license licenseA" name="license" value="&gt;4 klasser/hold"/><label for="class_manyA">&gt;4 klasser/hold</label>
+	      <input id="class_5" type="radio" class="license licenseBC" name="license" value="5 klasser/hold"/><label for="class_5">5 klasser/hold</label>
+	      <input id="class_6" type="radio" class="license licenseBC" name="license" value="6 klasser/hold"/><label for="class_6">6 klasser/hold</label>
+	      <input id="class_7" type="radio" class="license licenseBC" name="license" value="7 klasser/hold"/><label for="class_7">7 klasser/hold</label>
+	      <input id="class_8" type="radio" class="license licenseBC" name="license" value="8 klasser/hold"/><label for="class_8">8 klasser/hold</label>
+	      <input id="class_9" type="radio" class="license licenseBC" name="license" value="9 klasser/hold"/><label for="class_9">9 klasser/hold</label>
+	      <input id="class_10" type="radio" class="license licenseBC" name="license" value="10 klasser/hold"/><label for="class_10">10 klasser/hold</label>
+	      <input id="class_11" type="radio" class="license licenseBC" name="license" value="11 klasser/hold"/><label for="class_11">11 klasser/hold</label>
+	      <input id="class_12" type="radio" class="license licenseBC" name="license" value="12 klasser/hold"/><label for="class_12">12 klasser/hold</label>
+	      <input id="class_manyBC" type="radio" class="license licenseBC" name="license" value="&gt;10 klasser/hold"/><label for="class_manyBC">&gt;12 klasser/hold</label>
+	    </fieldset>
+	    <br />
+
+	    <fieldset>
+	      <legend>Bestilling</legend>
+
+	      <div style="padding: .5em">
+		Når du klikker på bestil, tilkendegiver du samtidig at du er indforstået med vilkårene, som kan læses her: <a href="pdfs/index/Vilkaar.pdf" target="_blank">Vilkår</a> (åbner i nyt vindue/faneblad)
+		Hvis der opstår fejl, kan du kontakte os på tlf. 30252300 eller via mail til kontakt.yubio@gmail.com. 
+	      </div>
+
+	      
+	      <!-- input type="checkbox" id="accept" name="accept" value="accept" /><label id="label-accept" for="accept">For at sende en bestilling, skal du acceptere <a href="pdfs/vilkaar.pdf" target="_blank">vilkårene</a> (åbner i nyt vindue/faneblad) først - klik her for at acceptere</label -->	    
+	      <br />
+	      <input id="submit" type="submit" value="Bestil"/>
+
+	      <!-- div id="submitnote" style="padding: .5em">
+		Der oprettes en mail indeholdende ovenstående valg - mailen skal sendes manuelt. Hvis du ikke får et vindue frem med en mail til afsendelse, kan du kontakte  os på tlf. 30252300 eller via mail til kontakt.yubio@gmail.com. 
+	      </div -->
+	  </div>
+
+	  <div class="col-md-4">
+	    <div class="textfields">
+	      <fieldset>
+		<legend><span id="legend">Kontaktoplysninger</span></legend>
+		<label for="organization">Uddannelsesinstitution</label>
+		<input type="text" id="organization" name="organization"  placeholder="Uddannelsesinstitution"/>
+
+		<label for="address">Adresse</label>
+		<input type="text" id="address" name="address" placeholder="Adresse"/>
+
+		<label for="postalcode">Postnr</label>
+		<input type="text" id="postalcode" name="postalcode" placeholder="Postnr"/>
+
+		<label for="EAN">EAN-nummer</label>
+		<input type="text" id="EAN" name="EAN" placeholder="EAN-nummer"/>
+
+		<label for="CVR">CVR-nummer</label>
+		<input type="text" id="CVR" name="CVR" placeholder="CVR-nummer"/>
+
+		<label for="email">Kontaktpersons email</label>
+		<input type="email" id="email" name="email" placeholder="Kontaktpersons email" />
+
+		<label for="comments">Kommentarer</label>
+		<textarea id="comments" name="comments" placeholder="Kommentarer"></textarea>
+	      </fieldset>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </form>
+  </body>
+</html>

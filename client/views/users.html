@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../js/users_jquery.js"></script>
+    <title>!!title!</title>
+  </head>
+
+  <body>
+
+
+    <div style="width: 800px; margin: auto">
+      <h1>!!title!</h1>
+      
+      <!-- div id="userList" / -->
+
+      <div class="clickable" id="addUser">Create User</div>
+
+      <div id="addUserBox">
+	<form id="addUserForm" method="get" action="#">
+	  <fieldset>
+	    <label>Name</label> <input type="text" class="field" name="name" id="name"><br /> 
+	    <label>Username</label> <input type="text" class="field" name="username" id="username" /><br /> 
+	    <label>Password</label> <input type="password" class="field" name="password" id="password" /><br /> 
+	    <label>Admin</label> <input type="checkbox" class="field" name="isadmin" id="isadmin" /><br /> 
+	    <button type="button" name="doCreate" id="doCreate">Create</button><br /> 
+	    <button type="reset">Reset</button><br /> 
+	  </fieldset>
+	</form>
+      </div>
+
+      <table id="userList">
+	<th>Name</th>
+	<th>Username</th>
+      </table>
+
+    </div>
+
+  </body>
+
+</html>

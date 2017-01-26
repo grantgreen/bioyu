@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      canvas {
+        //border: 1px solid #9C9898;
+      }
+    </style>
+
+    <script src="../js/kinetic-v3.9.3.js"></script>
+    <!-- script src="http://www.html5canvastutorials.com/libraries/kinetic-v3.9.3.js"></script -->
+    <script>
+      window.onload = function() {
+        var stage = new Kinetic.Stage({
+          container: "container",
+          width: 800,
+          height: 500
+        });
+
+        var logo_layer = new Kinetic.Layer();
+//        logo_layer.setAlpha(0.5);
+
+
+/*
+      var text = new Kinetic.Text({
+          x: 256,
+          y: 160,
+      text: "y",
+      textFill: "white",
+      fontStyle: "normal",
+      fontSize: 78,
+      fontFamily: "Futura"
+        });
+
+*/
+
+
+/*
+BG 2e3144
+
+31366e
+259-314
+*/
+        var rect_y = new Kinetic.Rect({
+          x: 256,
+          y: 106,
+          width: 55,
+          height: 118,
+          fill: "#31366e"
+        });
+
+/*
+
+424d94
+315-370
+
+*/
+        var rect_u = new Kinetic.Rect({
+          x: 311,
+          y: 204,
+          width: 56,
+          height: 115,
+          fill: "#424d94"
+        });
+
+/*
+
+
+6170ac
+371-437
+
+*/
+
+        var rect_b = new Kinetic.Rect({
+          x: 367,
+          y: 106,
+          width: 67,
+          height: 118,
+          fill: "#6170ac"
+        });
+
+/*
+
+
+72c2b5
+438-462
+
+*/
+
+        var rect_i = new Kinetic.Rect({
+          x: 434,
+          y: 204,
+          width: 25,
+          height: 115,
+          fill: "#72c2b5"
+        });
+
+/*
+
+eb6b30
+463-525
+
+*/
+        var rect_o = new Kinetic.Rect({
+          x: 459,
+          y: 106,
+          width: 63,
+          height: 118,
+      fill: "#eb6b30"
+        });
+
+/*
+
+
+Top: 106-224
+    
+Bottom: 204-319
+
+O: 190-237
+
+173-252
+
+*/
+
+        // add the shape to the layer
+
+        logo_layer.add(rect_y);
+        logo_layer.add(rect_u);
+        logo_layer.add(rect_b);
+        logo_layer.add(rect_i);
+        logo_layer.add(rect_o);
+      
+//        logo_layer.add(text);
+
+      var strokeWidth = 5;
+
+      var text_y = new Kinetic.Group();
+
+      text_y.add(new Kinetic.Shape({
+                        drawFunc: function() {
+                            var context = this.getContext();
+                            context.beginPath();
+                            context.moveTo(264, 196);
+                            context.lineTo(286, 234);
+
+                            context.moveTo(304, 196);
+                            context.lineTo(274, 258);
+
+                            this.fillStroke();
+                        },
+                        stroke: "white",
+                        fill: "none",
+                        strokeWidth: strokeWidth,
+                        draggable: true
+                    }));
+
+
+      var text_u = new Kinetic.Group();
+
+      text_u.add(new Kinetic.Shape({
+                        drawFunc: function() {
+                            var context = this.getContext();
+                 //           context.globalAlpha = 0.8;
+                            context.beginPath();
+                            context.moveTo(323, 220);
+                            context.bezierCurveTo(323, 242, 356, 242, 356, 220);
+//                            context.closePath();
+                            this.fillStroke();
+                        },
+                        stroke: "white",
+                        fill: "none",
+                        strokeWidth: strokeWidth,
+                        draggable: true
+                    }));
+
+
+
+
+      text_u.add(new Kinetic.Rect({
+       x: 323,
+       y: 196,
+       width: 0,
+       height: 24,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      }));
+
+      text_u.add(new Kinetic.Rect({
+       x: 356,
+       y: 196,
+       width: 0,
+       height: 24,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      }));
+
+      var text_b = new Kinetic.Group();
+
+      text_b.add(new Kinetic.Circle({
+       x: 401,
+       y: 216,
+       radius: 20,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      }));
+
+      text_b.add(new Kinetic.Rect({
+       x: 380,
+       y: 180,
+       width: 0,
+       height: 56,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      }));
+
+
+
+      var text_i = new Kinetic.Group();
+
+      text_i.add(new Kinetic.Rect({
+       x: 447,
+       y: 196,
+       width: 0,
+       height: 40,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      }));
+
+      text_i.add(new Kinetic.Circle({
+       x: 447,
+       y: 180,
+       radius: 4,
+       fill: "white",
+       stroke: "none",
+       strokeWidth: strokeWidth
+      }));
+
+
+      var text_o = new Kinetic.Circle({
+       x: 490,
+       y: 216,
+       radius: 20,
+       fill: "none",
+       stroke: "white",
+       strokeWidth: strokeWidth
+      });
+
+      logo_layer.add(text_y);
+      logo_layer.add(text_u);
+      logo_layer.add(text_b);
+      logo_layer.add(text_i);
+      logo_layer.add(text_o);
+
+
+      var link_games = new Kinetic.Group({draggable: true});
+
+      link_games.add(new Kinetic.Rect({
+       x: 80,
+       y: 96,
+       width: 140,
+       height: 35,
+       fill: "#424d94",
+       stroke: "none",
+       strokeWidth: strokeWidth
+      }));
+
+
+      link_games.add(new Kinetic.Text({
+          x: 125,
+          y: 103,
+      text: "Spil",
+      textFill: "white",
+      fontStyle: "normal",
+      fontSize: 16,
+      fontFamily: "Verdana"
+        }));
+
+
+      link_games.on("click", function() {alert("Hej");})
+
+      var link_mindmaps = new Kinetic.Group();
+
+      link_mindmaps.add(new Kinetic.Rect({
+       x: 80,
+       y: 134,
+       width: 140,
+       height: 35,
+       fill: "#424d94",
+       stroke: "none",
+       strokeWidth: strokeWidth
+      }));
+
+
+      link_mindmaps.add(new Kinetic.Text({
+          x: 95,
+          y: 141,
+      text: "Mind Maps",
+      textFill: "white",
+      fontStyle: "normal",
+      fontSize: 16,
+      fontFamily: "Verdana"
+        }));
+
+      var link_information = new Kinetic.Group();
+
+      link_information.add(new Kinetic.Rect({
+       x: 80,
+       y: 172,
+       width: 140,
+       height: 35,
+       fill: "#424d94",
+       stroke: "none",
+       strokeWidth: strokeWidth
+      }));
+
+
+      link_information.add(new Kinetic.Text({
+          x: 90,
+          y: 179,
+      text: "Information",
+      textFill: "white",
+      fontStyle: "normal",
+      fontSize: 16,
+      fontFamily: "Verdana"
+        }));
+
+
+      logo_layer.add(link_games);
+      logo_layer.add(link_mindmaps);
+      logo_layer.add(link_information);
+
+        // add the layer to the stage
+        stage.add(logo_layer);
+      };
+
+    </script>
+  </head>
+  <body style="background: #2e3144">
+    <!-- div id="container_container" style="text-align: center; width: 100%; height: 100%" -->
+      <div id="container" style="margin: 50px auto; width: 800px"></div>
+    <!-- /div -->
+  </body>
+</html>

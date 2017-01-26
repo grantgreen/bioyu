@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+    <script type="text/javascript" src="../../js/common/figgame_setup.js"></script>
+
+    <script type="text/javascript" src="../../lib/kinetic-latest.min.js"></script>
+    <script type="text/javascript" src="../../js/stopwatch.js"></script>
+    <script type="text/javascript" src="../../lib/d3.min.js"></script>
+    <script type="text/javascript" src="../../js/figgame.js"></script>
+    <script type="text/javascript" src="../../lib/handlebars-latest.min.js"></script>
+    <script type="text/javascript" src="../js/schools.js"></script>
+    <script type="text/javascript" src="../../js/common/results.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript">
+		$(document).ready(function () {
+        initFigGame("!!chapter!", "!!topic!", "c");
+      });
+	</script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            margin: 10px;
+        }
+        
+        #mainDiv {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            float: right;
+            padding: 0;
+            margin: 1em;
+            cursor: pointer;
+        }
+        
+        #mainDiv svg {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            cursor: pointer;
+        }
+        
+        #mainDiv:-moz-full-screen svg {
+            position: fixed;
+        }
+        
+        #mainDiv:-ms-fullscreen {
+            width: auto;
+        }
+        
+        #mainDiv:-ms-fullscreen svg {
+            position: fixed;
+        }
+        
+        #mainDiv:fullscreen svg {
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="text-align:center">
+            <div class="col-md-12">
+
+                <span id="mainBack"></span>
+                <span id="mainTopic"></span>
+                <span id="mainYubio"></span>
+            </div>
+        </div>
+        <div class="row" style="text-align:center; margin-top: 30px">
+            <div class="col-md-12">
+                <span id="chapter_header" style="font-size: 30pt"></span>
+            </div>
+        </div>
+        <div class="row" style="text-align: center">
+            <div class="col-md-12" id="column1">
+
+                <div class="panel-group" id="accordionGame" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingSetup">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordionGame" href="#collapseSetup" aria-expanded="true" aria-controls="collapseSetup">
+                                    Indstillinger
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSetup" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSetup">
+                            <div class="panel-body">
+                                <form action="figgame.html" method="get" id="figForm">
+                                    <br />
+                                    <fieldset id="figures">
+                                        <legend>Vælg figur</legend>
+                                    </fieldset>
+                                    <br />
+
+                                    <br />
+                                    <div id="singlePlayerOptions">
+                                        <input id="startButton" type="submit" value="Start" />
+                                        <input id="highScoreButton" type="submit" value="Highscores" />
+                                    </div>
+
+                                    <input type="hidden" name="topic" value="figgame" />
+                                    <input type="hidden" name="chapters" value="!!chapter!" />
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingGame">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionGame" href="#collapseGame" aria-expanded="false"
+                                    aria-controls="collapseGame">
+                                  Spillet
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseGame" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingGame">
+                            <div class="panel-body">
+                                <div id="mainDiv">
+                                    <!--<div id="infoBoxContainer" style='float:left; width: 100px;'>-->
+                                    <div id="infoBox" class="alert alert-info text-center" style="position: fixed; left: 0; top: 0; z-index: 1000" role="alert">
+                                        <div id="score">Score</div>
+                                        <div style="" id="stopWatchContainer"></div>
+                                        <button id="moveInfoBox">Flyt mig!</button>
+                                    </div>
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingResult">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionGame" href="#collapseResult" aria-expanded="false"
+                                    aria-controls="collapseResult">
+                                  Resultater
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseResult" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingResult">
+                            <div class="panel-body">
+                                <div class="col-md-4">
+                                    <div id="resultContainer"></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="scoresContainer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<form action="figgame.html" method="get" id="figForm">
+                    <br />
+                    <fieldset id="figures">
+                        <legend>Vælg figur</legend>
+                    </fieldset>
+                    <br />
+
+                    <br />
+                    <div id="singlePlayerOptions">
+                        <input id="startButton" type="submit" value="Start" />
+                        <input id="highScoreButton" type="submit" value="Highscores" />
+                    </div>
+                </form>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!--<div id="mainDiv">
+                    <div id="infoBox" class="alert alert-info text-center" style="position: fixed; z-index: 1000" role="alert">
+                        <div id="score">Score</div>
+                        <span style="" id="stopWatchContainer"></span>
+                    </div>
+
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay" class="hidden" style="text-align: center">
+        <div style="margin-bottom: 1em">
+            <img src="../../images/yubio_logo_pure.svg" style="height: 3em; margin-right: .2em"></img>
+            <span style="height: 3em; line-height: 3em; font-size: 2em; vertical-align: middle">Indtast navn og skole for at gemme din score</span>
+        </div>
+    </div>
+
+    <script id="schools-template" type="text/x-handlebars-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input id="playerName" class="form-control" placeholder="Dit navn" type="text"> </input>
+        </div>
+        <div class="col-md-4">
+          <select id="schoolName" class="form-control" placeholder="Din skole">
+                        <option value="" disabled="true" selected="true">Vælg din skole</option>
+                        {{#each schools}}
+                        <optgroup label="{{@key}}" /> {{#each this}}
+                        <option value="{{this}}">{{this}}
+                            </> {{/each}} {{/each}}
+                    </select>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-default" id="submitBtn">Deltag</button>
+          <button class="btn btn-default" id="cancelBtn">Deltag ikke</button>
+        </div>
+      </div>
+    </div>
+  </script>
+
+</body>
+
+</html>

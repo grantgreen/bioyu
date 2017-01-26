@@ -1,0 +1,1710 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet 2cBI -  - Lectio - Nyborg Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Nyborg Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/144/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=6472896020" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="2gAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQUUjtCBAQAAAGsEZwNrBX0EEo7QgQEAAABrBnFrB2ULSG9sZGV0IDJjQklkbAJoaWRsAmcCaWwCawhlA29mZmwCZwNpZGwCZwVpZGwCgWlkbAKBaWlsAmsJbWRsAmcFaWwCawqBZHIBZR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X19sAWUmcyRtJENvbnRlbnQkQ29udGVudCRob2xkdXZiJFNob3dDZW5jdXILAAAABkhvbGRJRA1Ib2xkRWxlbWVudElEE1ZhbGlkYXRlUmVxdWVzdE1vZGUIbGVjdGlvaWQFbXR5cGUObWFzdGVybGVjdGlvaWQWVmlld3N0YXRlSXNJbml0aWFsaXplZApFbnRpdHlOYW1lDGF1dG9jb21wbGV0ZQZIb2xkSWQLXyFJdGVtQ291bnQBAAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkCAAAAAwAAAAMAAAAQAgAAAAQAAAAJAwAAAAkEAAAACQUAAAAKDAYAAABKTWFjb20uTGVjdGlvLkNvbW1vbiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAwAAABNNYWNvbS5MZWN0aW8uSG9sZElEAQAAAAZfdmFsdWUACQYAAAASjtCBAQAAAAUEAAAAGk1hY29tLkxlY3Rpby5Ib2xkRWxlbWVudElEAQAAAAZfdmFsdWUACQYAAAAUjtCBAQAAAAEFAAAAAwAAABKO0IEBAAAAC43kYOsBq03UOl1cFNIZAEbyNaZK" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/LdQxI2tHtxDZQ6PX+0zjJFQRY+xtRcniqulh4csOsu3Ey5plKtdJ1Ge2e/lKEymjUMTUQeYnX/EXGxwH+ToEPKaEdhe9+E323w8dNaOXSbdEzejC+ho4MlZQS6OLBBaInppMZqgBNcr6Xq9In+4LLlPD53bDvM9rCXGHn4jZaL8L6ZqbYV/l5qbkW+8HAGQQBLEtvlK2f/HAtRIfeuE8Z+Lt3XrLnkq75U5pyH/OaiBvLFQutS+KF5G8dTpByYa9A+zsXylKykdt19jhgeDHLgfYEQN5DUg//gp9JkKKEwlRrUlZ2Ztu7paJ2Hqc/nh36wEKeXEHy3sFokV1pNHnS9rRkH9788TduKg5hCW11TSHVUhTrQ8Hrvgf1unJrhHf5NS6elD9s370J+qEmdsdg==" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Nyborg Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2004">2004/05</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/144/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/144/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/144/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/144/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/144/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020" 
+		onclick="toggleTip('/lectio/144/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE6472896020">Holdet 2cBI - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/144/SkemaNy.aspx?type=holdelement&amp;holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/SkemaNy.aspx?type=holdelement&amp;holdelementid=6472896020&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/144/studieplan.aspx?holdelementid=6472896020&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/MaterialOverview.aspx?holdelement_id=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/subnav/modulregnskab.aspx?holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/aktivitet/AktivitetListe.aspx?holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/subnav/members.aspx?holdelementid=6472896020&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/aktivitet/AktivitetLinks.aspx?holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/DokumentOversigt.aspx?holdid=6472896018&amp;holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/144/studieplan.aspx?holdelementid=6472896020&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/studieplan.aspx?holdelementid=6472896020&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/studieplan.aspx?holdelementid=6472896020&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/144/studieplan.aspx?holdelementid=6472896020&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/144/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=6472896020" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2013/14 - 2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">Nyborg Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi A</span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl">Signe Søndergaard Irminger</span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2013 BI-c (1cBI, 2cBI)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph8185014205'>Folkesundhed</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 2</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph8185020086'>Sex, sexsygdomme, immunforsvar og kønshormoner</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 3</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph8185026714'>Nervesystemet</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 4</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9244347387'>Doping</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 5</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9244355471'>Opsamling og skriftlighed</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 6</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9672524055'>Brakmarkens økologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 7</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9672524342'>Biokemi og celler</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 8</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9672524529'>Muskler og træningsfysiologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 9</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9672524906'>Evolution og genetik</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 10</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10986215633'>Respiration og gæring</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 11</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10986213093'>Genetik og fylogeni</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 12</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph12229759694'>Island (AT5) tilpasning, miljø, genetik...</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 13</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph12229763005'>Genetik, sygdomme, gen-test og etik</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph8185014205">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=8185014205&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Folkesundhed</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal">Præsentation af det brede positive sundhedsbegreb.<br />
+Livsstil og levevilkår<br />
+Livsstilsygdomme (diabetes 2, hjerte/karsygdomme, rygerlunger, stress, knogleskørhed), der arbejdes i grupper med udvalgte sygdomme. Produkt: Poster med graf, kildeangivelser, fysiologisk forklaring og figur.)<br />
+Dissektion af hjerte/lunger. Produkt (film)<br />
+Fokus på læsning af grafer.<br />
+Forløbet afsluttes med en opgave fælles med idræt B hvor eleverne skal skrive en "kronik" med titlen: Sådan kan man forbedre den danske folkesundhed.</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"><i>Kernestof:</i><br />Niels S. Hansen m.fl.: BIOLOGIBOGEN ( Rev. udg. )., Systime; sider: 90-92, 97-100, 129-130<br />I skal læse den kronik færdig I gik igang med og have startet på et mindmap over forskellige folkesundhedsproblemer i DK. Mindmappet kan rumme problemer vi har talt om i timerne, problemer I har læst om i kronikken, problemer I er stødt på I andre fag eller i nyhederne.<br />Alle grupper skal have uploadet film fra dissektion af hjerte/lunger til facebookgruppen inden dette modul</span><br /><br /><i>Dokumenter:</i><br />
+						kronik_reformerforlkesundheden_040607.pdf
+					<br />
+						Undersøgelse af hjerte og lunger.docx
+					<br />
+						kronik_reformerforlkesundheden_040607.pdf
+					<br />
+						kronik_reformerforlkesundheden_040607.pdf
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								folkesundhed
+							</td>
+							<td>
+								31-01-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">6 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				<ul><li>S&#248;ge information</li><li>Formidling</li><li>Internet</li></ul>
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Eksperimentelt arbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph8185020086">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleLabel">2</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=8185020086&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Sex, sexsygdomme, immunforsvar og kønshormoner</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_FagligeMaal">Menneskets kønsorganer<br />
+Menneskets kønshormoner, menstruationscyklus, testosteron produktion og virkning<br />
+prævention<br />
+Sexsygdomme, klamydia, HIV<br />
+Immunforsvar, uspecifikt, specifikt, antigen, antistof, makrofag, t- og b- lymfocytter, vaccination <br />
+<br />
+Øvelse: Mirkoskopi af ornesæd (rapport)<br />
+</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_IndholdLbl"><i>Kernestof:</i><br />Niels S. Hansen m.fl.: BIOLOGIBOGEN ( Rev. udg. )., Systime; sider: 132-140, 152-155, 175-176<br />Medbring en printet version af teoriafsnittet til rapporten om ornesæd<br />Bidstrup m.fl.: Fysiologibogen - den levende krop; sider: 9-14, 105-116, 130-133</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.sexlinien.dk/Default.aspx?ID=30013" target="_blank" >http://www.sexlinien.dk/Default.aspx?ID=30013</a> - sikker sex mellem kvinder
+					<br />
+						<a href="http://www.sexlinien.dk/Default.aspx?ID=30006" target="_blank" >http://www.sexlinien.dk/Default.aspx?ID=30006</a> - sikker sex mellem mænd
+					<br />
+						<a href="http://www.sexlinien.dk/default.aspx?ID=30014" target="_blank" >http://www.sexlinien.dk/default.aspx?ID=30014</a> - sikker sex mellem kvinder og mænd
+					<br />
+						<a href="http://www.youtube.com/watch?v=dSkxlpNs3tU" target="_blank" >http://www.youtube.com/watch?v=dSkxlpNs3tU</a> - nerveimpuls
+					<br /><br /><i>Dokumenter:</i><br />
+						Arbejdsark sexologi 2 - Kønsorganernes opbygning og funktion.docx
+					<br />
+						Øvelse-ornesæd.pdf
+					<br />
+						Arbejdsark til immunforsvaret.docx
+					<br />
+						kommunikation i kroppen.pptx
+					<br />
+						Hormoner 1.pptx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_ActualLessons">11 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Lærerstyret undervisning
+						</li>
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Eksperimentelt arbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph8185026714">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleLabel">3</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=8185026714&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Nervesystemet</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_FagligeMaal">Nervecellens opbygning. Axon, dendrit, synapse<br />
+Nerveimpuls, ionkanaler, aktionspotentiale, transmitterstof, hæmmende og fremmende synapse<br />
+Små forsøg: <br />
+Hånd i varmt og koldt vand<br />
+Håndtryk i rundkreds, skuldertryk i rundkreds<br />
+prik-test på fingerspids, håndryg og ryg (tæthed af sanseceller)</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_IndholdLbl"><i>Kernestof:</i><br />Bidstrup m.fl.: Fysiologibogen - den levende krop; sider: 21-25, 32-35<br />Læs opgaverne til den næste aflevering igennem og skriv evt stikord til din besvarelse. Der bliver sat lidt tid af i modulet til, at I kan stille spørgsmål og få startet lidt på jeres besvarelse.</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://ndla.no/nb/node/108196?fag=52234" target="_blank" >http://ndla.no/nb/node/108196?fag=52234</a> - norske nerver
+					<br /><br /><i>Dokumenter:</i><br />
+						Aktionspotentiale.docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_ActualLessons">4 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9244347387">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleLabel">4</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9244347387&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Doping</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_FagligeMaal">Hver gruppe har arbejdet med en tværfaglig opgave (biologi og idræt) formuleret af lærerne. Opgavernes emner var Steroider og forstørret hjerte, steroider og sædkvalitet, EPO og maximal iltoptagelse, gendoping og dopingtest.<br />
+Projektet blev afsluttet med aflevering af gruppeopgave</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_IndholdLbl"><i>Kernestof:</i><br />Læs teksten "fremtidsscenarium" som starter på s. 122 i e-bogen om Doping</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.antidoping.dk/sitetools/downloadcenter/publikationer/doping_forfaengelighed_eller_praestationstrang_-_en_debatbog_om_doping_og_livsstil" target="_blank" >http://www.antidoping.dk/sitetools/downloadcenter/publikationer/doping_forfaengelighed_eller_prae...</a> - e-bog om doping
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								2 små eksamensopgaver
+							</td>
+							<td>
+								11-04-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_ActualLessons">3 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				<ul><li>S&#248;ge information</li><li>Skrive</li><li>Formidling</li><li>Regneark</li><li>Internet</li></ul>
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Gruppearbejde
+						</li>
+					
+						<li>
+							
+							Projektarbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9244355471">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleLabel">5</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9244355471&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Opsamling og skriftlighed</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_FagligeMaal">Opsamling på biologiske molekyler via arbejdet med forløbet "Mad og krop" i viten.no <br />
+Arbejde med faglig skrivning via grunddig feedback på aflevering og videre arbejde og genaflevering</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_IndholdLbl"><i>Kernestof:</i><br />Medbring både Fysiologibogen og Biologibogen<br />I skal lave til og med opgave 4 i forløbet i viten.no</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://cmap.ihmc.us/download/" target="_blank" >http://cmap.ihmc.us/download/</a> - her kan du downloade programmet til at lave begrebskort i
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Gen-aflevering af to små eksamensopgaver
+							</td>
+							<td>
+								16-05-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_ActualLessons">3 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				<ul><li>L&#230;se</li><li>Skrive</li><li>Analytiske evner</li><li>Kommunikative f&#230;rdigheder</li><li>Overskue og strukturere</li><li>Selvst&#230;ndighed</li><li>Tekstbehandling</li></ul>
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+						<ul class="standardlist">
+					
+						<li>
+							
+							Individuelt arbejde
+						</li>
+					
+						</ul>
+					
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9672524055">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleLabel">6</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9672524055&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Brakmarkens økologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_FagligeMaal">Planters opbygning, livscyklus og tilpasninger, herunder begrænsende faktorer.<br />
+Økosystemer, kvælstofkredsløbet, nedbrydning.<br />
+Feltarbejde, analyse af jordbund og plantesamfund. <br />
+Analyse og formidling af data fra feltarbejde.</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_IndholdLbl"><i>Kernestof:</i><br />I skal følge linket og downloade programmet VUE. Vi skal bruge dette program istedet for cmap tools, det kan meget af det samme, men er også smartere til nogen ting og derfor kommer vi til at bruge det istedet. Når I møder op til første time skal programmet meget gerne virke på jeres computer.<br />s. 45-50 fra bogen "økologi og naturforvaltning" om planters formering. Teksten er udleveret i papirkopi. Fyld alle nye ord ind i et ord-sorterings-skema<br />Michael Arvedlund m.fl.: Økologibogen, Nucleus / Saxo; sider: 6-15, 34-41, 67-72<br />Husk regntøj, gummistøvler, madpakke drikkelse, kompendiet, blyanter, notatblok<br />Du skal bruge et stopur, papir og blyant til denne opgave.<br />
+Brug først præcis 5 minutter på at skrive alt det ned du allerede ved om bakterier, du skal ikke vise denne tekst til andre, så skriv bare alt muligt…<br />
+Brug bagefter præcis 25 minutter på at finde ny information om bakterier og nedbrydning. Du må bruge økologibogen og wikipedia. Skriv den nye information ned eller lav mindmap eller lignende… <br />
+<br />Løs den vedlagte opgave (Opgave - Jordbundsparametre og deres påvirkning)<br />Side 5-10 i kompendiet Jordbundens Biologi (findes i "dokumenter" på lectio)<br />Du skal medbringe mindst to (og gerne flere) grafer som du regner med at bruge i din rapport. Nogle stykker af jer kommer til tavlen og skal forklare jeres graf.<br />læs s. 11-18 i temarapporten "danske søer og deres restaurering" og skriv en kort tekst hvor du kombinerer den viden du har om udvaskning med den viden du får fra teksten om søers økosystem.<br />Du skal have lavet de to eksamensopgaver fra sidste modul færdige<br />Husk også at uploade begrebskort "økosystem" nu med URL'er<br />Læs s. 19 til 31, læs så du bagefter (eller undervejs) kan lave en liste over forskellige måder man kan restaurere søer på.<br />løs den gamle eksamensopgave om Avn Sø som vi ikke nåede idag - husk at skrive forslag til svar ned! Derudover skal I medbringe spørgsmål til jeres rapport om brakmarken - så sørg for at have kigget på den så I ved, hvad I gerne vil spørge om.</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="https://vue.tufts.edu/download/index.cfm" target="_blank" >https://vue.tufts.edu/download/index.cfm</a> - I skal downloade programmet VUE, som vi skal bruge til at lave begrebskort. I følger dette link og skal først oprette jer som bruger hvorefter I kan vælge at downloade til windows eller mac.
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?usp=sharing" target="_blank" >https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?usp=sharing</a> - Link til google-regneark hvor vi samler vores data fra brakmarken
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0" target="_blank" >https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0</a> - google-regnearket
+					<br />
+						<a href="https://docs.google.com/document/d/18W9KFD_OMTCWKi06TMaTECumFBgBb3MWF4Yd6eBvPiU/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/18W9KFD_OMTCWKi06TMaTECumFBgBb3MWF4Yd6eBvPiU/edit?usp=sharing</a>
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0" target="_blank" >https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0</a>
+					<br />
+						<a href="https://docs.google.com/document/d/1wOoCkTTiHYNuWJdstBSX3N3Q9bKrAc8kOXXazXRJK8Y/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1wOoCkTTiHYNuWJdstBSX3N3Q9bKrAc8kOXXazXRJK8Y/edit?usp=sharing</a> - Link til lektien
+					<br />
+						<a href="https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0" target="_blank" >https://docs.google.com/spreadsheets/d/1VxEbzFx8S43ATBj7Mg9Mp27sRwAnVD2Ktq_9bj_cPPw/edit?pli=1#gid=0</a> - Link til fælles data
+					<br />
+						<a href="http://subsites.egaa-gym.dk/nr/biologi/roholt/Eksamenss%E6t/aar2011/august/opgave%201.pdf" target="_blank" >http://subsites.egaa-gym.dk/nr/biologi/roholt/Eksamenss%E6t/aar2011/august/opgave%201.pdf</a> - Opgave til løsning i timen (dyreplankton)
+					<br />
+						<a href="http://subsites.egaa-gym.dk/nr/biologi/roholt/Eksamenss%E6t/aar2005/maj/opgave%204.pdf" target="_blank" >http://subsites.egaa-gym.dk/nr/biologi/roholt/Eksamenss%E6t/aar2005/maj/opgave%204.pdf</a> - Opgave til løsning i timen (Avn sø)
+					<br />
+						<a href="https://docs.google.com/document/d/1fVThZRM4uZlY6bgSDTcAdP6QzF_BGrFnGXpDpZjmrhI/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1fVThZRM4uZlY6bgSDTcAdP6QzF_BGrFnGXpDpZjmrhI/edit?usp=sharing</a> - googledoc til opsamling
+					<br /><br /><i>Dokumenter:</i><br />
+						sortering af ord.docx
+					<br />
+						sortering af ord.docx
+					<br />
+						sortering af ord.docx
+					<br />
+						Opgave - Nedbrydere (Bakterier og svampe).docx
+					<br />
+						Opgave - Jordbundsparametre og deres påvirkning.docx
+					<br />
+						Danske søer og deres restaurering.pdf
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Begrebskort plante
+							</td>
+							<td>
+								18-08-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Begrebskort økosystem
+							</td>
+							<td>
+								25-08-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Artikelopgave om kvælstof
+							</td>
+							<td>
+								01-09-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_ActualLessons">16 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				<ul><li>Faglige</li><ul class="standardlist"><li>L&#230;se</li><li>Skrive</li><li>Formidling</li><li>Regneark</li></ul></ul>
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9672524342">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleLabel">7</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9672524342&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Biokemi og celler</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_IndholdLbl"><i>Kernestof:</i><br />Læs side 18-24 fra biokemibogen - de er vedhæftet dette modul som fil og kan også findes i dokumenter<br />Udfyld ordlisten<br />Ingen lektier<br />Kresten Cæsar Torp: Biokemibogen - liv-funktion-molekyle, Danske Biblioteksmedier; sider: 25-37<br />Medbring både Fysiologi-bogen og Biokemi-bogen<br />Skriv en forklaring til en graf fra osmose-forsøget. I din forklaring skal du bruge ordene:<br />
+Osmose<br />
+Gradient<br />
+Cellemembran<br />
+Diffusion<br />
+Saltkoncentration<br />
+Vandkanaler<br />
+</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="https://docs.google.com/document/d/1FopiveQWz796-9L9eYlD3csHguqe8lWzY1J-oACOyEw/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1FopiveQWz796-9L9eYlD3csHguqe8lWzY1J-oACOyEw/edit?usp=sharing</a>
+					<br /><br /><i>Dokumenter:</i><br />
+						Prokaryote og eukaryote celler.pdf
+					<br />
+						Cellen (biokemibogen s 18-24) Ordliste.docx
+					<br />
+						Cellerollespillet.docx
+					<br />
+						Tænk som en celle.docx
+					<br />
+						Naturvidenskabfestival gym.pdf
+					<br />
+						Arbejdsspørgsmål til s 11-17.docx
+					<br />
+						Oversigt over cellernes stofskifte (s 25-29).docx
+					<br />
+						Oversigt over cellernes stofskifte (s 30-37).docx
+					<br />
+						Oversigt over cellernes stofskifte (s 25-29).docx
+					<br />
+						Biologiske membraner - øvelsesvejledning.doc
+					<br />
+						Biologiske membraner og osmose - Diskussion af grafer.docx
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Aflevering af ordliste fra timen
+							</td>
+							<td>
+								22-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport Brakmarken
+							</td>
+							<td>
+								22-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opgaver til side 11-17 i biokemibogen
+							</td>
+							<td>
+								24-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Begrebskort fra foredraget tirsdag
+							</td>
+							<td>
+								24-09-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_ActualLessons">8 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9672524529">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleLabel">8</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9672524529&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Muskler og træningsfysiologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_IndholdLbl"><i>Kernestof:</i><br />Læs forsøgsvejledningen som du finder ved at åbne det vedhæftede link<br />Medbring fysiologibogen<br />Læs teksten "motion og træning 2c" som ligger i Lectio<br />Besvar de tre arbejdsspørgsmål i Sandra, Sofie og Louises ppt, den ligger på Lectio. I skal desuden have lavet grafer og besvaret diskussionsspørgsmål til laktatøvelsen<br />Bidstrup m.fl.: Fysiologibogen - den levende krop; sider: 90-94<br />Læs teksten muskeltræthedens hemmelighed som ligger i mappen "muskler og træning" i lectio<br />Skriv så meget som muligt af det du kan huske fra forløbet "muskler og træning" på dit begrebskort. Genlæs siderne i bogen (75-95), fokuser på figurerne og se om du kan forklare dem for dig selv.<br />Læs de vedhæfte sider fra bogen Levende Organismer (s 7-10) og lav de tilhørende arbejdsopgaver<br />Medbring alle noter og resultater fra "muskler og træning" medbring Fysiologibogen. Forbered dig ved at skabe overblik over dine data, prøv at lave tabeller og grafer, kom så langt du kan inden modulet, så du kan bede om hjælp til det som er svært.</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.biologitiltiden.dk/kapitel/13/" target="_blank" >http://www.biologitiltiden.dk/kapitel/13/</a> - forsøg med laktatmåling under arbejde
+					<br />
+						<a href="https://docs.google.com/document/d/1Fi3Bs2ZE9NW1V2KqHVD61gI6euo-eMGi4yoywSweP-k/edit?pli=1" target="_blank" >https://docs.google.com/document/d/1Fi3Bs2ZE9NW1V2KqHVD61gI6euo-eMGi4yoywSweP-k/edit?pli=1</a> - Link til Anne Marie og Kaspers opgave
+					<br />
+						<a href="http://www.onlineexambuilder.com/muskler-og-traening/exam-12227" target="_blank" >http://www.onlineexambuilder.com/muskler-og-traening/exam-12227</a>
+					<br />
+						<a href="https://docs.google.com/document/d/1mvY_m2vheFGNxE23GdPrhs9yuwcQcod7zxEGfluyyKE/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1mvY_m2vheFGNxE23GdPrhs9yuwcQcod7zxEGfluyyKE/edit?usp=sharing</a>
+					<br /><br /><i>Dokumenter:</i><br />
+						Levende Organismer s 7-11.pdf
+					<br />
+						Livet på Jorden - Arbejdsspørgsmål til side 7-10 i Levende Organismer.docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_ActualLessons">11 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9672524906">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleLabel">9</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=9672524906&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Evolution og genetik</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_IndholdLbl"><i>Kernestof:</i><br />Lav de vedlagte opgaver<br />Kig på opgaverne om jeres dyrs evolution så I i morgen har nogle inputs til jeres gruppe<br />Læs det afsnit fra Bremer (vedlagt) som I skal lave projekt om. Lav en tegning (på et stykke papir) der viser indholdet af jeres afsnit. Det er lektier der SKAL laves<br />Kig på fremlæggelsesplanen og forbered jer på at hver især at fremlægge i 10 min ud fra jeres plakat<br />Til hvert emne er der vedlagt et spørgsmål som skal besvares umiddelbart efter fremlæggelsen. Det kan derfor være fint at du kigger på det spørgsmål der henvender sig netop til dit enme, så du kan hjælpe resten af gruppen med at besvare spørgsmålet.</span><br /><br /><i>Dokumenter:</i><br />
+						Evolution modul 2 - Arbejdsspørgsmål.docx
+					<br />
+						En arts evolution og afstamning - Arbejdsopgaver.docx
+					<br />
+						En arts evolution og afstamning - Arbejdsopgaver.docx
+					<br />
+						Bremer - Udviklingen af levende organismer s 65-87.pdf
+					<br />
+						Fremlæggelsesplan 2.c.docx
+					<br />
+						Livets oprindelse og udvikling - Spørgsmål til fremlæggelserne.docx
+					<br />
+						Grupper til eksopg evolution-2.docx
+					<br />
+						Fremtidens menneske.docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_ActualLessons">7 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph10986215633">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_TitleLabel">10</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=10986215633&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Respiration og gæring</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_FagligeMaal">Opsamling i forlængelse af forløbet muskler og træning</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_IndholdLbl"><i>Kernestof:</i><br />Kresten Cæsar Torp: Biokemibogen - liv-funktion-molekyle, Danske Biblioteksmedier; sider: 121-125</span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_ActualLessons">1 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph10986213093">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_TitleLabel">11</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=10986213093&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Genetik og fylogeni</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_IndholdLbl"><i>Kernestof:</i><br />Lone Als Egebo: Genetikbogen, Nucleus; sider: 41-44, 46-55, 117-119, 125-126, 129-131<br />Ordlisten finder I i starten af det vedlagte dokument. Resten af dokumentet udfylder vi i timen<br />Udfyld ordlisten til lektien (vedlagt)<br />Læs indledningen i øvelsesvejledningen. Tænk over en gruppe af dyr som I gerne vil undersøge slægtskabet imellem<br />Kom så langt I kan med jeres fylogenetiske træer - I skal lave mindst en lille smule hjemme. Husk også at læse kravene til rapporten igennem inden modulet imorgen.<br />Læs artiklen og tag noter. Jeg har lagt en beskrivelse af artiklen, samt nogle ideer til hvordan I kan tage noter på timen.<br />Læs artiklen og tag noter imens. Artiklen ligger på som link og som pdf.<br />læs denne artikel og besvar spørgsmålet: Hvilke typer af opdagelser kan decode genetics gøre og hvordan? http://www.biokemi.org/biozoom/issues/519/articles/2343<br />Husk at overholde de aftaler i har lavet i jeres gruppe.<br />
+Hvis der er ord/temaer/sammenhænge I har brug for at få gennemgået enten i jeres gruppe eller på klassen så send mig en besked, så forbereder jeg det nødvendige.</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://infolink2003.elbo.dk/Naturvidenskab/dokumenter/doc/8205.pdf" target="_blank" >http://infolink2003.elbo.dk/Naturvidenskab/dokumenter/doc/8205.pdf</a>
+					<br />
+						<a href="http://www.biokemi.org/biozoom/issues/519/articles/2343" target="_blank" >http://www.biokemi.org/biozoom/issues/519/articles/2343</a> - artikel om decode genetics
+					<br /><br /><i>Dokumenter:</i><br />
+						DNA, RNA og den kemiske evolution - Ordliste og noter.docx
+					<br />
+						Slægtskabsanalyser med DNA - Ordliste og noter.docx
+					<br />
+						Fylogenetiske træer - Virtuel vejledning.pdf
+					<br />
+						Krav til rapporten.docx
+					<br />
+						Øvelsesvejledning - Fylogenetiske træer.docx
+					<br />
+						opfølgning på evaluering 2c.pptx
+					<br />
+						Slægtskabsanalyser med DNA - Ordliste og noter.docx
+					<br />
+						Stamtavlens udvikling, Aktuel Naturvidenskab.pdf
+					<br />
+						Noter til artiklen - Stamtavlens udvikling, Aktuel Naturvidenskab.docx
+					<br />
+						Stamtavlens udvikling, Aktuel Naturvidenskab.pdf
+					<br />
+						Håndskrevne noter til artiklen - Stamtavlens udvikling, Aktuel Naturvidenskab.pdf
+					<br />
+						Stamtavlens udvikling, Aktuel Naturvidenskab (med noter og overstregninger).pdf
+					<br />
+						Proteinsyntese - Hvad er proteiner.docx
+					<br />
+						Proteinsyntese - Transkription og translation.docx
+					<br />
+						Proteinsyntese - Transkription og translation.docx
+					<br />
+						En film om proteinsyntesen.docx
+					<br />
+						En film om proteinsyntesen.docx
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								kommenteret opgave
+							</td>
+							<td>
+								09-01-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Fylogenetiske træer
+							</td>
+							<td>
+								21-01-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_ActualLessons">12 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph12229759694">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_TitleLabel">12</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=12229759694&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Island (AT5) tilpasning, miljø, genetik...</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_IndholdLbl"><i>Kernestof:</i><br />Du skal klikke dig igennem de 5 sider fra det etiske råd som du kommer til når du klikker på det vedhæftede link. <br />
+Du skal klikke dig gennem følgende sider:<br />
+"Klassisk genetik"<br />
+"Børn ligner deres forældre"<br />
+"Gener optræder i par"<br />
+"Karaktertræk kan ikke blandes"<br />
+"Nogle gener er dominante"<br />
+Det er vigtigt at du både læser teksten, klikker dig igennem animationerne og besvare quizzerne. Når du er færdig skal du gerne kunne forklare begreberne: Ren linje, homozygot, heterozygot, allel, krydsning, dominant og recessiv</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://etiskraad.dk/Temauniverser/Etikoglivetgym/Biologi/Alt-om-dna/Klassisk-genetik.aspx" target="_blank" >http://etiskraad.dk/Temauniverser/Etikoglivetgym/Biologi/Alt-om-dna/Klassisk-genetik.aspx</a> - Etisk råds materiale om genetik
+					<br />
+						<a href="https://docs.google.com/document/d/1d4uAOW_MAb4jtVhX4W9LjdeG8dWLfZuBCvlrvwKMy9U/edit?usp=sharing" target="_blank" >https://docs.google.com/document/d/1d4uAOW_MAb4jtVhX4W9LjdeG8dWLfZuBCvlrvwKMy9U/edit?usp=sharing</a> - biologiguide til Island
+					<br />
+						<a href="https://docs.google.com/document/d/1d4uAOW_MAb4jtVhX4W9LjdeG8dWLfZuBCvlrvwKMy9U/edit#" target="_blank" >https://docs.google.com/document/d/1d4uAOW_MAb4jtVhX4W9LjdeG8dWLfZuBCvlrvwKMy9U/edit#</a> - 2.c's Islands biologi-guide
+					<br /><br /><i>Dokumenter:</i><br />
+						Spørgeskema - Afprøving af Web3map-applikationens første prototype[5].docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl11_sr1_ActualLessons">8,5 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph12229763005">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_TitleLabel">13</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_TitleHlink" href="/lectio/144/studieplan/forloeb_vis.aspx?phaseid=12229763005&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Genetik, sygdomme, gen-test og etik</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_IndholdLbl"><i>Kernestof:</i><br />Lone Als Egebo: Genetikbogen, Nucleus; sider: 15-25<br />Brug 15 koncentrerede minutter på at arbejde med én af opgaverne. Husk at det ikke handler om at blive hurtigt færdig med opgaverne men om virkelig at forstå tingene til bunds.<br />Medbring en mappe til jeres papirer<br />Se den vedlagte film på youtube. Warning; Amerikanske nørder snakker vildt hurtigt!<br />Lav tre opgaver færdigt der hjemme. Så I kan blive færdige med alle de indledende opgaver i timen<br />Lav mindst 2 af de 8 endelige opgaver om populationsgenetik<br />Færdiggør opgaverne om populationsgenetik, så I er klar til at fremlægge for hinanden<br />Læs alle dine opgaver igennem. Markér det du er usikker på om som du gerne vil have feedback på.<br />Du skal gå igennem de ialt 4 animationer (det vil tage mindst en time og nok mere, så start i god tid). Når du er færdig og har svaret på alle spørgsmål undervejs skal du meget gerne vide og kunne forklare følgende:<br />
+De 5 trin i DNA-sekventering: (oprensning, seperation af strengene, tilsætning af primer, forlængelse og afslutning).<br />
+Hvordan DNA-sekvensen "læses" vha en laser og en computer.<br />
+Hvad DNA-fingerprinting er.<br />
+Hvad restriktionsenzymer er og hvilken rolle de spiller i fingerprinting og gentest.<br />
+<br />Klik dig igennem siden "mendels love og mennesker".<br />
+Når du er færdig skal du kunne: Forklare hvad det vil sige at en egenskab er autosomal eller kønsbundet.<br />
+Hvordan blødersygdom nedarves.<br />
+Have øvet dig i at læse stamtræer.<br />Færdiggør arket med genetik-opgaver fra sidste time<br />Se filmklippet om genterapi og læs på den engelske wiki om hvad genterapi er, brug mest figuren i starten af siden.<br />
+Du skal kunne forklare følgende når du er færdig:<br />
+Hvad er genterapi?<br />
+Hvad er en vektor?<br />
+Hvorfor vil de danske læger ikke tilbyde behandling med gendicine?<br />Lav en oversigt over de emner vi har været igennem i biologi indtil nu. Udfor hvert emne skriver du på hvilke bøger/hjemmesider/artikler vi har læst. Udfor hvert emne skriver du også en liste over de centrale biologiske begreber vi har gennemgået i emnet.<br />
+Når listen er færdig markerer du begreber du har godt styr på med én farve og begreber som du har brug for at vide mere om med en anden farve. Jeg vil meget gerne have jeres lister efter modulet.<br />Løs opgave 12 og 13 på stamtræs-opgave-arket</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="https://www.youtube.com/watch?v=WhFKPaRnTdQ" target="_blank" >https://www.youtube.com/watch?v=WhFKPaRnTdQ</a> - Populations-genetik på engelsk men med danske undertekster
+					<br />
+						<a href="http://www.wiley.com/college/pratt/0471393878/instructor/animations/dna_sequencing/index.html" target="_blank" >http://www.wiley.com/college/pratt/0471393878/instructor/animations/dna_sequencing/index.html</a> - Hvordan man kan "læse" et menneskes genom, altså meget lange stykker af DNA.
+					<br />
+						<a href="http://www2.stvr-gym.dk/RC/gentest/default.html" target="_blank" >http://www2.stvr-gym.dk/RC/gentest/default.html</a> - Eksempler på gentests, hvor man ser på kortere stykker af DNA.
+					<br />
+						<a href="http://www.etiskraad.dk/Temauniverser/Etikoglivetgym/Biologi/Alt-om-dna/Klassisk-genetik/Mendels-love-og-mennesker.aspx" target="_blank" >http://www.etiskraad.dk/Temauniverser/Etikoglivetgym/Biologi/Alt-om-dna/Klassisk-genetik/Mendels-...</a> - Forskellige typer af nedarvning
+					<br />
+						<a href="https://www.youtube.com/watch?v=ZfKvjcPHrJk" target="_blank" >https://www.youtube.com/watch?v=ZfKvjcPHrJk</a> - Nyhedsindslag om genterapi
+					<br />
+						<a href="http://en.wikipedia.org/wiki/Gene_therapy" target="_blank" >http://en.wikipedia.org/wiki/Gene_therapy</a> - wikipedia om genterapi
+					<br />
+						<a href="http://www.etiskraad.dk/Temauniverser/Etikoglivet/Genteknologi/Etikinterview-fuld.aspx" target="_blank" >http://www.etiskraad.dk/Temauniverser/Etikoglivet/Genteknologi/Etikinterview-fuld.aspx</a> - Skal bruges i timen og er ikke lektier
+					<br />
+						<a href="http://www.etiskraad.dk/Temauniverser/Etikoglivet/Genteknologi/Etikinterview-fuld.aspx" target="_blank" >http://www.etiskraad.dk/Temauniverser/Etikoglivet/Genteknologi/Etikinterview-fuld.aspx</a> - Skal bruges i timen og er ikke lektier
+					<br />
+						<a href="https://www.classzone.com/books/hs/ca/sc/bio_07/virtual_labs/virtualLabs.html" target="_blank" >https://www.classzone.com/books/hs/ca/sc/bio_07/virtual_labs/virtualLabs.html</a> - Skal bruges i timen og er ikke lektier
+					<br /><br /><i>Dokumenter:</i><br />
+						De forskellige slags mutationer.docx
+					<br />
+						Opgaver med nedarvning.pdf
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl12_sr1_ActualLessons">10 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/144/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d6472896020">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:13</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/144", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=6472896020");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

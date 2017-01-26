@@ -1,0 +1,552 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet 1bBIAs -  - Lectio - Kolding Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Kolding Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/203/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=9105328934" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="3AAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQUmS7geAgAAAGsEZwNrBX0EE0u4HgIAAABrBnFrB2UNSG9sZGV0IDFiQklBc2RsAmhpZGwCZwJpbAJrCGUDb2ZmbAJnA2lkbAJnBWlkbAKBaWRsAoFpaWwCawltZGwCZwVpbAJrCoFkcgFlHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfX2wBZSZzJG0kQ29udGVudCRDb250ZW50JGhvbGR1dmIkU2hvd0NlbmN1cgsAAAAGSG9sZElEDUhvbGRFbGVtZW50SUQTVmFsaWRhdGVSZXF1ZXN0TW9kZQhsZWN0aW9pZAVtdHlwZQ5tYXN0ZXJsZWN0aW9pZBZWaWV3c3RhdGVJc0luaXRpYWxpemVkCkVudGl0eU5hbWUMYXV0b2NvbXBsZXRlBkhvbGRJZAtfIUl0ZW1Db3VudAEAAQAAAP////8BAAAAAAAAAAQBAAAAf1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQIAAAADAAAAAwAAABACAAAABAAAAAkDAAAACQQAAAAJBQAAAAoMBgAAAEpNYWNvbS5MZWN0aW8uQ29tbW9uLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUDAAAAE01hY29tLkxlY3Rpby5Ib2xkSUQBAAAABl92YWx1ZQAJBgAAABNLuB4CAAAABQQAAAAaTWFjb20uTGVjdGlvLkhvbGRFbGVtZW50SUQBAAAABl92YWx1ZQAJBgAAACZLuB4CAAAAAQUAAAADAAAAE0u4HgIAAAALD0SumhbJZcq8fjfs4WS90tlRIik=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="mp9swc5c4ufv2T/UV+LhLjJtqFkCs705ZOEGlMyr1Eo4C8GETovZWnb04NfmbAfjwSkfWBQLeeDoQ+qSMwPFUWnN1aLRaxnWe9j8bMOWNUq9H/jd7Wh4eeYEAi9O9Hh3Q6MpUtOuFtqrCTgJ0eHIcPAVGe7dhAPzvKa9BOvm9AqUcAIKAtSQVdjAzwgCCIqz2fBEX68WmnksOfnp1RpVcqkYIokrxOKAKT1YIKoEFRfWEPJN9UdzWgv15CkqKhVi1REiQhlEkpZioooGR6KJ1PaF83yT81O75UUE1wbtIzWdZAFfSAF7cHmrerZsXDrLZK6Bz3M0D+9+xhUJJ+p3c2XpyF6IGVuM+TM6qAFhFn5AXXWwe//PQDFgw1hOjdGb" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Kolding Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/203/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/203/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/203/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/203/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/203/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934" 
+		onclick="toggleTip('/lectio/203/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE9105328934">Holdet 1bBIAs - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/203/SkemaNy.aspx?type=holdelement&amp;holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/SkemaNy.aspx?type=holdelement&amp;holdelementid=9105328934&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/203/studieplan.aspx?holdelementid=9105328934&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/MaterialOverview.aspx?holdelement_id=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/subnav/modulregnskab.aspx?holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/aktivitet/AktivitetListe.aspx?holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/subnav/members.aspx?holdelementid=9105328934&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/aktivitet/AktivitetLinks.aspx?holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/DokumentOversigt.aspx?holdid=9105328915&amp;holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/203/studieplan.aspx?holdelementid=9105328934&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/studieplan.aspx?holdelementid=9105328934&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/studieplan.aspx?holdelementid=9105328934&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/203/studieplan.aspx?holdelementid=9105328934&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/203/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9105328934" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">Kolding Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi A</span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl">Ole Nielsen</span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2014 BI/b (1bBIAs)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph12274196347'>Introduktion til biologi.</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph12274196347">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/203/studieplan/forloeb_vis.aspx?phaseid=12274196347&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934">Introduktion til biologi.</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal">Intentionerne med introforløbet er at give en generel introduktion til basale biokemiske og cellulære forhold. <br />
+Den biokemiske del dækker - organiske/uorganiske stoffer, energiomsætninger, enzymer, fotosyntese, respiration og gæring.<br />
+Det cellulære dækker cellers opbygning., cellulære transportprocesser og tællinger af celler.<br />
+Desuden indkredses det karakteristiske ved liv, tanker om livets opståen og evolution.<br />
+Rapportskrivning trænes på nogle simple forsøg.</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"><i>Kernestof:</i><br />Genetikbogen, Nucleus 1.udg; sider: 117-121<br />Biologi C + B, Systime; sider: 5-11, 13-17, 20-23, 26-47, 53-58, 62-64, 206-207, 209-210<br />Vedhæftede manual til "Flydende blade"<br />Læs om gæring (fermentering) på vedhæftede link uden at fordybe jer i biokemiske detaljer.</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://videnskab.dk/miljo-naturvidenskab/store-opdagelser-livets-oprindelse" target="_blank" >http://videnskab.dk/miljo-naturvidenskab/store-opdagelser-livets-oprindelse</a> - Livets oprindelse
+					<br />
+						<a href="https://www.youtube.com/watch?v=FgzzQmOZzZk" target="_blank" >https://www.youtube.com/watch?v=FgzzQmOZzZk</a> - Den kemiske evolution
+					<br />
+						<a href="http://www.sumanasinc.com/webcontent/animations/content/scientificmethod.html" target="_blank" >http://www.sumanasinc.com/webcontent/animations/content/scientificmethod.html</a> - Naturvidenskabelig arb. metode på spontan genese
+					<br />
+						<a href="http://videnskab.dk/miljo-naturvidenskab/ekstremofile-bakterier-lever-pa-livets-kant" target="_blank" >http://videnskab.dk/miljo-naturvidenskab/ekstremofile-bakterier-lever-pa-livets-kant</a> - Ekstremofile baktereier
+					<br />
+						<a href="http://highered.mheducation.com/sites/0072495855/student_view0/chapter2/animation__how_osmosis_works.html" target="_blank" >http://highered.mheducation.com/sites/0072495855/student_view0/chapter2/animation__how_osmosis_wo...</a> - Osmosis
+					<br />
+						<a href="http://www.sumanasinc.com/webcontent/animations/content/enzymes/enzymes.html" target="_blank" >http://www.sumanasinc.com/webcontent/animations/content/enzymes/enzymes.html</a> - Enzymes activation
+					<br />
+						<a href="http://highered.mheducation.com/sites/0072495855/student_view0/chapter2/animation__how_enzymes_work.html" target="_blank" >http://highered.mheducation.com/sites/0072495855/student_view0/chapter2/animation__how_enzymes_wo...</a> - Enzyme reaction
+					<br />
+						<a href="https://www.youtube.com/watch?v=NdMVRL4oaUo" target="_blank" >https://www.youtube.com/watch?v=NdMVRL4oaUo</a> - Enzyme s
+					<br />
+						<a href="http://highered.mheducation.com/sites/0070960526/student_view0/chapter6/animations.html" target="_blank" >http://highered.mheducation.com/sites/0070960526/student_view0/chapter6/animations.html</a> - Coenzymer
+					<br />
+						<a href="http://highered.mheducation.com/sites/0070960526/student_view0/chapter6/animations.html" target="_blank" >http://highered.mheducation.com/sites/0070960526/student_view0/chapter6/animations.html</a> - Coenzymer<br />
+
+					<br />
+						<a href="http://highered.mheducation.com/sites/9834092339/student_view0/chapter4/animation_-_endosymbiosis.html" target="_blank" >http://highered.mheducation.com/sites/9834092339/student_view0/chapter4/animation_-_endosymbiosis...</a> - Endosymbionthypotesen
+					<br />
+						<a href="http://www.denstoredanske.dk/Natur_og_milj%C3%B8/Mikrobiologi/Bakterier_og_mikrobiologi_generelt/fermentering" target="_blank" >http://www.denstoredanske.dk/Natur_og_milj%C3%B8/Mikrobiologi/Bakterier_og_mikrobiologi_generelt/...</a> - Gæring - fermentering
+					<br />
+						<a href="https://www.youtube.com/watch?v=r3oJnQwyckc" target="_blank" >https://www.youtube.com/watch?v=r3oJnQwyckc</a> - surkål
+					<br />
+						<a href="http://www.videnommad.dk/index.php?id=14&mid=225" target="_blank" >http://www.videnommad.dk/index.php?id=14&amp;mid=225</a> - surmælksprodukter
+					<br />
+						<a href="https://www.youtube.com/watch?v=GhHOjC4oxh8" target="_blank" >https://www.youtube.com/watch?v=GhHOjC4oxh8</a> - What is evolution
+					<br />
+						<a href="https://www.youtube.com/watch?v=hOfRN0KihOU" target="_blank" >https://www.youtube.com/watch?v=hOfRN0KihOU</a> - How evolution works
+					<br />
+						<a href="http://www.sumanasinc.com/webcontent/animations/content/evolution/evolution.html" target="_blank" >http://www.sumanasinc.com/webcontent/animations/content/evolution/evolution.html</a> - Evolution
+					<br />
+						<a href="https://www.youtube.com/watch?v=cqK0TsDUOKw" target="_blank" >https://www.youtube.com/watch?v=cqK0TsDUOKw</a> - Bitkemålere
+					<br />
+						<a href="https://www.youtube.com/watch?v=YTR21os8gTA" target="_blank" >https://www.youtube.com/watch?v=YTR21os8gTA</a> - Paradisfugle
+					<br />
+						<a href="https://www.youtube.com/watch?v=z922by9_6Fw" target="_blank" >https://www.youtube.com/watch?v=z922by9_6Fw</a> - Blåfodet sule
+					<br /><br /><i>Dokumenter:</i><br />
+						miller.jpg
+					<br />
+						Resultater af Millers forsøg.PNG
+					<br />
+						Det første liv AT7.pptx
+					<br />
+						Opstod livet ikke i havet.docx
+					<br />
+						Information Livets oprindelse måske fundet.docx
+					<br />
+						videnskab.dk_-_ekstremofile_bakterier_lever_paa_livets_kant_-_2014-03-31.pdf
+					<br />
+						Livets opståen Aktuel naturvidenskab.docx
+					<br />
+						miller.jpg
+					<br />
+						miller.jpg
+					<br />
+						Celler og cellestrukturer.docx
+					<br />
+						02-the-six-kingdoms-general-1-728.jpg
+					<br />
+						The phylogentic tree of life.jpg
+					<br />
+						10-01_Three-domain_1.jpg
+					<br />
+						Undersøgelse af forholdet mellem diffusion og cellestørrelse.docx
+					<br />
+						RAPPORTSKRIVNING.docx
+					<br />
+						Rabarber og sukker.pdf
+					<br />
+						Cellemembranerns permeabilitet pH.docx
+					<br />
+						Osmose i plantevæv 1.docx
+					<br />
+						rabarber og andet.pdf
+					<br />
+						Enzymer og temperatur.docx
+					<br />
+						Enzymer og temperatur.docx
+					<br />
+						Forsøg med enzymer i lever.docx
+					<br />
+						Dyrkning_af_mikroorganismer_efter_podning_og_kimfald[1].docx
+					<br />
+						Tælling af mikrooreganismer.pdf
+					<br />
+						Oplæg til behandling af tællemetoder for mikroorganismer.docx
+					<br />
+						Fotosynteseforsøg tolkning.pdf
+					<br />
+						Optagelse og udskillelse af kuldioxid planter.pdf
+					<br />
+						Fig-9-15-Leaf-Strucutre.jpg
+					<br />
+						Flydende blade.pdf
+					<br />
+						Fig-9-15-Leaf-Strucutre.jpg
+					<br />
+						Absorption spetra.jpg
+					<br />
+						Engelmanns exp.png
+					<br />
+						Photosynt action absorp spectra.jpg
+					<br />
+						Engelmanns experi.jpg
+					<br />
+						ATP..jpg
+					<br />
+						Måling af iltoptagelse hos dyr.pdf
+					<br />
+						Bestemmelse af energistofskiftet hvile-arbejde.pdf
+					<br />
+						Fermentering Gyldendals....docx
+					<br />
+						1. gen bioethanol.jpg
+					<br />
+						2. gen bioethanol.jpg
+					<br />
+						brewprocess.png
+					<br />
+						fermentor2.gif
+					<br />
+						Optagelse og udskillelse af CO2 hos planter result.docx
+					<br />
+						Kuldioxid over en græsmar1.docx
+					<br />
+						Jordomsejling blev Darwins gennembrud.docx
+					<br />
+						22_05BeagleVoyage_CL.jpg
+					<br />
+						Nat.v.sk.arb..met. Model (1).pdf
+					<br />
+						Tanker om evolution.pdf
+					<br />
+						Rølliker i bjerge.pdf
+					<br />
+						Flueblomst evolution.docx
+					
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">22 <span class='tooltip' title='Anvendt modullængden 90 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/203/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d9105328934">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:07</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/203", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=9105328934");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.RegisterSendNavigationTiming('GET');
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

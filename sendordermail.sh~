@@ -1,0 +1,12 @@
+#!/bin/bash
+# script to send simple email
+# email subject
+SUBJECT="SET-EMAIL-SUBJECT"
+# Email To ?
+EMAIL="tl@magus.dk"
+# Email text/message
+EMAILMESSAGE="/tmp/emailmessage.txt"
+
+./projects/yubio/tools/listOrders.js 10 > $EMAILMESSAGE
+# send an email using /usr/bin/mail
+cat $EMAILMESSAGE | /usr/bin/mailx -s "$SUBJECT" "$EMAIL"

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+
+	<link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="../../lib/kinetic-latest.min.js"></script>
+	<script type="text/javascript" src="../../js/tiles.js"></script>
+	<script type="text/javascript" src="../../js/stopwatch.js"></script>
+	<script type="text/javascript" src="../../lib/handlebars-latest.min.js"></script>
+	<script type="text/javascript" src="../../js/schools.js"></script>
+	<script type="text/javascript" src="../../js/common/socket-io.js"></script>
+	<script type="text/javascript" src="../../js/common/results.js"></script>
+	<script type="text/javascript" src="../../js/tiles_game.js"></script>
+
+	<script type="text/javascript">
+		(function($) {
+        $(document).ready(function () {
+          $('#scoresContainer').hide();
+      
+          initTilesGame('!!headerText!', "/c");
+
+          // gameId Provided
+          if("!!gameId!".indexOf("undefined") == -1) {
+            loadTilesGame("!!gameId!", "/c");
+          }
+          else {
+            startTilesGame('!!chapters!', '!!categories!', '!!mode!', "/c");    
+          }
+        });
+      })(jQuery)
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row" style="text-align:center">
+			<div class="col-md-12">
+
+				<span id="mainYubio" />
+				<span id="mainTopic" />
+				<span id="mainBack" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="header">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12" id="main">
+				<div class="panel-group" id="accordionTilesGame" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingGame">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordionTilesGame" href="#collapseGame" aria-expanded="true" aria-controls="collapseGame">
+                                    Spilleplade
+                                </a>
+							</h4>
+						</div>
+						<div id="collapseGame" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingGame">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-2">
+									</div>
+									<div class="col-md-10">
+										<button id="submitTilesGame" class="yubioBtn">Færdig</button>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-2">
+										<span style="padding-right: 2em" id="stopWatchContainer"></span>
+									</div>
+									<div class="col-md-10">
+										<span id="tilesGameContainer"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingResult">
+							<h4 class="panel-title">
+								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionTilesGame" href="#collapseResult" aria-expanded="false"
+									aria-controls="collapseResult">
+                                  Resultater
+                                </a>
+							</h4>
+						</div>
+						<div id="collapseResult" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingResult">
+							<div class="panel-body">
+								<div class="col-md-4">
+									<div id="resultContainer"></div>
+								</div>
+								<div class="col-md-8">
+									<div id="scoresContainer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div id="overlay" class="hidden" style="text-align: center">
+					<div style="margin-bottom: 1em">
+						<img src="../images/yubio_logo_pure.svg" style="height: 3em; margin-right: .2em"></img>
+						<span style="height: 3em; line-height: 3em; font-size: 2em; vertical-align: middle">Indtast navn og skole for at gemme din score</span>
+					</div>
+				</div>
+
+				<script id="schools-template" type="text/x-handlebars-template">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<input id="playerName" class="form-control" placeholder="Dit navn" type="text"> </input>
+							</div>
+							<div class="col-md-4">
+								<select id="schoolName" class="form-control" placeholder="Din skole">
+                        <option value="" disabled="true" selected="true">Vælg din skole</option>
+                        {{#each schools}}
+                        <optgroup label="{{@key}}" /> {{#each this}}
+                        <option value="{{this}}">{{this}}
+                            </> {{/each}} {{/each}}
+                    </select>
+							</div>
+							<div class="col-md-4">
+								<button class="btn btn-default" id="submitBtn">Deltag</button>
+								<button class="btn btn-default" id="cancelBtn">Deltag ikke</button>
+							</div>
+						</div>
+					</div>
+				</script>
+
+				<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

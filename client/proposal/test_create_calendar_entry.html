@@ -1,0 +1,64 @@
+<html>
+  <head>
+
+<!-- Dependency -->
+<script src="http://yui.yahooapis.com/2.9.0/build/yahoo/yahoo-min.js"></script>
+ 
+<!-- Used for Custom Events and event listener bindings -->
+<script src="http://yui.yahooapis.com/2.9.0/build/event/event-min.js"></script>
+ 
+<!-- Source file -->
+<!--
+	If you require only basic HTTP transaction support, use the
+	connection_core.js file.
+-->
+<script src="http://yui.yahooapis.com/2.9.0/build/connection/connection_core-min.js"></script>
+ 
+<!--
+	Use the full connection.js if you require the following features:
+	- Form serialization.
+	- File Upload using the iframe transport.
+	- Cross-domain(XDR) transactions.
+-->
+<script src="http://yui.yahooapis.com/2.9.0/build/connection/connection-min.js"></script>  
+
+<script src="http://www.webtoolkit.info/djs/webtoolkit.base64.js"></script>
+
+</head>
+
+  <body class="yui-skin-sam">
+    <div id="dialog1" class="yui-pe-content">
+      <div class="hd">Please enter your information</div>
+      <div class="bd">
+	<form method="POST" action="http://developer.yahoo.com/yui/examples/container/assets/post.php">
+	  <label for="date">Dato:</label><input type="textbox" name="dato" />
+	  <label for="title">Titel:</label><input type="textbox" name="Title" />
+	</form>
+      </div>
+    </div>    
+
+
+    <script type="text/javascript">
+      var callback = {
+        success: function(o) {console.log("succes");},
+        failure: function(o) {console.log("failure")}
+      };
+      
+
+//      var loginUrl = "http://localhost:8091/alfresco/s/api/login?u=admin&pw=admin";
+//      var transaction = YAHOO.util.Connect.asyncRequest('POST', loginUrl, callback, null);
+
+      var encoded = Base64.encode('admin' + ':' + 'admin');
+      YAHOO.util.Connect.initHeader('Authorization', 'Basic ' + encoded, true);
+      var date = 1337340073587;
+
+// /alfresco/wcservice/
+     // var sUrl = "http://localhost:8092/service/components/dashlets/magenta-calendar?noderef=workspace://SpacesStore/5cbb739b-76c2-491a-9556-d4d11db7bd59&date=" + date + "&users=ae,admin";
+
+//      var sUrl = "http://localhost:8091/alfresco/s/dk/magenta/calendar?noderef=workspace://SpacesStore/5cbb739b-76c2-491a-9556-d4d11db7bd59&date=" + date + "&users=ae,admin";
+      var sUrl = "http://localhost:8091/alfresco//alfresco/wcservice/dk/magenta/calendar?noderef=workspace://SpacesStore/5cbb739b-76c2-491a-9556-d4d11db7bd59&date=" + date + "&users=ae,admin";
+      transaction = YAHOO.util.Connect.asyncRequest('PUT', sUrl, callback, null);
+    </script>
+
+  </body>
+</html>

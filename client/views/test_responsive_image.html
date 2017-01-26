@@ -1,0 +1,123 @@
+<!-- GRANT ALL -->
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/yubio.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/jquery.mobile.custom/jquery.mobile.custom.min.css" media="screen" />
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   
+    <script type="text/javascript" src="../js/tiles.js"></script>
+
+    <script type="text/javascript">
+      var overrideResizable = true; //override resizable function of jQuery UI (if used) to resize in all directions
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- script type="text/javascript" src="http://www.jquery-css.com/js/magic.min.js" ></script -->
+
+    <script type="text/javascript" src="../lib/jquery.mobile.custom/jquery.mobile.custom.min.js"></script>    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+
+    <style>
+      #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+
+//      filter:alpha(opacity=50);
+//      -moz-opacity:0.5;
+//      -khtml-opacity: 0.5;
+//      opacity: 0.5;
+      z-index: 10000;
+      }  
+
+      #closeBtn {
+      position: fixed;
+      top: 0;
+      right: 0;
+      color: #ffffff;
+      margin: 1em;
+      z-index: 10001;
+      cursor: pointer;
+      }  
+
+
+      #figure {
+      filter:alpha(opacity=100);
+      -moz-opacity: 1;
+      -khtml-opacity: 1;
+      opacity: 1;
+      }  
+
+    </style>
+    <script type="text/javascript" >
+
+      $(document).ready(function () {
+      var overlay = jQuery('<div id="overlay"> </div>');
+      overlay.css('text-align', 'center');
+      overlay.appendTo(document.body);
+
+
+
+      var closeBtn = $('<div id="closeBtn">Luk</div>');
+      closeBtn.click(function() {overlay.hide();});
+      closeBtn.appendTo(overlay);
+  
+      overlay.hide();
+      });
+
+
+      var setSize = function() {
+        var img = $('#figure');
+        var overlay = $('#overlay');
+        var widthScale = img.width() / overlay.width();
+        var heightScale = img.height() / overlay.height();
+ 
+        console.log(Date.now() + " " + widthScale + " " + heightScale);     
+        var scale = Math.max(widthScale, heightScale);
+ 
+        img.attr('height', img.height() / scale);
+        img.attr('width' , img.width() / scale);
+      }
+
+      var showFigure = function(figure) {
+        var img = jQuery('<img id="figure"  src="' + figure + '"> </img>');
+        img.appendTo(overlay);
+
+        img.load(function() {
+          $('#overlay').show();
+          setSize();
+        });
+     }
+
+      $(window).resize(function() {
+        setSize();
+      });
+    </script>
+  </head>
+  <body style="">
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="column1">
+	
+	<a href="javascript:showFigure('figures/chapter_1/fig-1.1.jpg')" class="linkbox linkbox_small up" onmousedown="tileDown(event, this)" onmouseup="tileUp(this)" ontouchstart="tileDown(event, this)" ontouchend="tileUp(this)"  style="background-image: url('images/icons/yubio_back_icon.svg');">
+	</a>
+	
+      </div>
+    </div>
+  </div>
+
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

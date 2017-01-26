@@ -1,0 +1,202 @@
+<!-- GRANT ALL -->
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+    #major_logo {
+	height: 400px;
+	width: 270px;
+    }
+
+    #title_text {
+	font-size: 40pt;
+	 margin-top: 20px;
+    }
+    
+    #button {
+	margin: 0px auto 0px auto;
+	width: 60px;
+	height: 60px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 60px; 
+	background-repeat:  no-repeat; 
+	margin-top: 30px;
+    }
+
+    .no_mobile {
+	display: none;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+    #major_logo {
+	height: 600px;
+    }
+
+    #title_text {
+	font-size: 40pt;
+   margin-top: 20px;
+    }
+    
+    #button {
+	margin: 0px auto 0px auto;
+	width: 60px;
+	height: 60px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 60px; 
+	background-repeat:  no-repeat; 
+	margin-top: 30px;
+    }
+
+    .no_mobile {
+	display: none;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    #major_logo {
+	height: 400px;
+	background: green;
+    }
+
+    #title_text {
+	font-size: 40pt;
+   margin-top: 20px;
+    }
+    
+    #button {
+	margin: 0px auto 0px auto;
+	width: 60px;
+	height: 60px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 60px; 
+	background-repeat:  no-repeat; 
+	margin-top: 30px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+    #major_logo {
+	height: 400px;
+    }
+
+    #title_text {
+	font-size: 40pt;
+   margin-top: 20px;
+    }
+    
+    #button {
+	margin: 0px auto 0px auto;
+	width: 60px;
+	height: 60px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 60px; 
+	background-repeat:  no-repeat; 
+	margin-top: 30px;
+    }
+}
+
+/* iPhone 4 (portrait) ----------- */
+@media 
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : portrait),
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-pixel-ratio : 1.5) and (orientation : portrait){
+/* Styles */
+    #major_logo {
+	height: 200px;
+    }
+    #title_text {
+	font-size: 20pt;
+    }
+
+    #button {
+	margin: 0px auto 0px auto;
+	width: 40px;
+	height: 40px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 40px; 
+	background-repeat:  no-repeat; 
+	margin-top: 15px;
+    }
+
+    .no_mobile {
+	display: none;
+    }
+
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : landscape),
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-pixel-ratio : 1.5) and (orientation : landscape){
+    /* Styles */
+    #major_logo {
+	height: 120px;
+    }
+    #title_text {
+	font-size: 10pt;
+    }
+
+
+    #button {
+	margin: 0px auto 0px auto;
+	width: 30px;
+	height: 30px;  
+	background-image: url('../images/icons/yubio_forward_icon.svg'); 
+	background-position: center center; 
+	background-size: 30px; 
+	background-repeat:  no-repeat; 
+	margin-top: 10px;
+    }
+
+    .no_mobile {
+	display: none;
+    }
+
+}

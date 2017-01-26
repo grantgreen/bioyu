@@ -1,0 +1,1999 @@
+﻿<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8" /><meta name="google" value="notranslate" /><meta http-equiv="content-type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <!-- Windows pinning -->
+    <meta name="msapplication-tooltip" content="Tooltip: Starter Lectio" /><meta name="msapplication-window" content="width=1024;height=768" /><meta name="msapplication-navbutton-color" content="#2033FF" />
+    
+    <!--view settings mobile devices-->
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=2.5,initial-scale=1" /><title>
+	Holdet 3eb BI -  - Lectio - Odsherreds Gymnasium
+</title><link rel="shortcut icon" href="/lectio/img/favicon64.ico" /><link rel="apple-touch-icon" sizes="144x144" href="/lectio/img/apple-touch-icon-144x144-precomposed.png" /><link rel="apple-touch-icon" sizes="114x114" href="/lectio/img/apple-touch-icon-114x114-precomposed.png" /><link rel="apple-touch-icon" sizes="72x72" href="/lectio/img/apple-touch-icon-72x72-precomposed.png" /><link rel="apple-touch-icon" href="/lectio/img/apple-touch-icon-precomposed.png" /><link rel="icon" sizes="57x57" type="image/png" href="/lectio/img/favicon57.png" /><link rel="icon" sizes="114x114" type="image/png" href="/lectio/img/favicon114.png" />
+	<!--  -->
+	
+	
+	
+
+<!-- New Relic Header --><link href="/lectio/content/themes/base/jquery-ui.css?DummyID=Gyt0B2WzVtg5nhvDdRjXyw%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/content/themes/lectio/ui_customizations.css?DummyID=fPl8EM6FA8T0uMQwIZNWuQ%20%20" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle1.cssbundle?v=jjq_FE2PmNCAD93GPz_yFXjg7jIluiaBVYWAg_Neckk1" rel="stylesheet" type="text/css" media="all" /><link href="/lectio/css/bundle2.cssbundle?v=QAr9Vs8HPZs7DCk6qrAetmExkLP7np-iXALXAlq7-h81" rel="stylesheet" type="text/css" media="all" /></head>
+<body  style='text-align: center;'>
+
+<meta name="application-name" content="Lectio- Odsherreds Gymnasium" />
+<meta name="msapplication-starturl" content="/lectio/96/default.aspx" />
+	
+		<noscript>
+			<meta http-equiv="Refresh" content="0;URL=/lectio/ErrorNoJava.aspx" />
+			<br /><br /><h1>ADVARSEL!!</h1>Lectio kræver JavaScript.<br /><br /><a href="/lectio/ErrorNoJava.aspx">Klik HER</a>
+		</noscript>
+	
+
+
+	<div class="ls-master-container1" id="masterContent" >
+		<form method="GET" action="ContentSearch.aspx" id="search" name="search">
+			<input type="hidden" name="query"/>
+		</form>
+		<form method="post" action="hold_undervisningsbeskrivelse.aspx?holdelementid=5943951526" id="aspnetForm" class="ls-master-container2" autocomplete="off">
+<input type="hidden" name="time" id="time" value="0" />
+<input type="hidden" name="__SCROLLPOSITION" id="__SCROLLPOSITION" value="" />
+<input type="hidden" name="__VIEWSTATEX" id="__VIEWSTATEX" value="3AAAAGlpZQotNDE0NzgyNjQ3aWwGawBtawFtawKBbAJoaWlsCmsDfQWmgEliAQAAAGsEZwNrBX0EnIBJYgEAAABrBnFrB2UNSG9sZGV0IDNlYiBCSWRsAmhpZGwCZwJpbAJrCGUDb2ZmbAJnA2lkbAJnBWlkbAKBaWRsAoFpaWwCawltZGwCZwVpbAJrCoFkcgFlHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfX2wBZSZzJG0kQ29udGVudCRDb250ZW50JGhvbGR1dmIkU2hvd0NlbmN1cgsAAAAGSG9sZElEDUhvbGRFbGVtZW50SUQTVmFsaWRhdGVSZXF1ZXN0TW9kZQhsZWN0aW9pZAVtdHlwZQ5tYXN0ZXJsZWN0aW9pZBZWaWV3c3RhdGVJc0luaXRpYWxpemVkCkVudGl0eU5hbWUMYXV0b2NvbXBsZXRlBkhvbGRJZAtfIUl0ZW1Db3VudAEAAQAAAP////8BAAAAAAAAAAQBAAAAf1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQIAAAADAAAAAwAAABACAAAABAAAAAkDAAAACQQAAAAJBQAAAAoMBgAAAEpNYWNvbS5MZWN0aW8uQ29tbW9uLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUDAAAAE01hY29tLkxlY3Rpby5Ib2xkSUQBAAAABl92YWx1ZQAJBgAAAJyASWIBAAAABQQAAAAaTWFjb20uTGVjdGlvLkhvbGRFbGVtZW50SUQBAAAABl92YWx1ZQAJBgAAAKaASWIBAAAAAQUAAAADAAAAnIBJYgEAAAALaZQxUfxpdxQNMWFDF4LDEqgMQus=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/lectio/scripts/jquery-1.11.2.min.js?DummyID=V5Dq1607onOXrt+j0mO4Zw%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-migrate-1.2.1.min.js?DummyID=QrNjscZ5VmEe7TN2Kb+MqA%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/jquery-ui-1.10.4.custom.min.js?DummyID=UhIho2SD5mKhfx8lbqm0g%20%20" type="text/javascript"></script>
+<script src="/lectio/scripts/bundle1.jsbundle?v=nKFT6_jjYtbu2Sty6zp0zyoXI_WiZe3M4CGv6tpag5M1" type="text/javascript"></script>
+<script src="/lectio/scripts/rx.lectio.js?DummyID=eousKHxQF+TrDfZxLHsZiQ%20%20" type="text/javascript"></script>
+<script src="/lectio/lectio.js?DummyID=ENpYgseWYbn4kL66KhyjwQ%20%20" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="QWKd05jA07OZpShS4p2ax7FmxIW1hlYaBfPFGE4p2a0PhKpxAmukA7nvj13xEGw+yHIFFT+POyXuRUBb3b5lCfq7oGMjAZk35o2xwbmSsvWok135IlZvEdIkxbBUdjB8JFbf/ZFxMxzBC0KWTAbFmjDn4yZ/m0zD8Yc2Hib2TrIpGEjQ9TGBkH7s6rOpWwyWlv0QPFfgoTC9CvmZSeTeq+4pktObWucR62jBZq42kVx8cwsbvrl93pwgFDcg8VF9bW5yg/BW0M7cSWkrkUjq5UDLjqwFrkN+JjxhwSMuOXoO4QzqXuizOlxMWsVtnPeJ5QZ94vbJEv56ea9ucZK5YcK5uUKTN40J6GgVwxL0xC5oLDp4W19DOnj3rMpMj9SC" />
+			<input type="submit" name="s$m$defaultformbtn" value="" onclick="javascript:FormDefaultButtonActivated(); return false;" id="s_m_defaultformbtn" tabindex="-1" class="hidetabinputbutton" />
+			<div class="lectioBorderLeft lectioBorderRight">
+			    <div id="s_m_masterHeaderDiv" class="ls-master-header">		
+                    <div id="s_m_masterleftDiv" class="ls-master-header-institution">
+						Odsherreds Gymnasium
+						&nbsp;
+<select name="s$m$ChooseTerm$term" id="s_m_ChooseTerm_term" class="yearselect">
+	<option selected="selected" value="2014">2014/15</option>
+	<option value="2005">2005/06</option>
+	<option value="2006">2006/07</option>
+	<option value="2007">2007/08</option>
+	<option value="2008">2008/09</option>
+	<option value="2009">2009/10</option>
+	<option value="2010">2010/11</option>
+	<option value="2011">2011/12</option>
+	<option value="2012">2012/13</option>
+	<option value="2013">2013/14</option>
+
+</select>
+
+						&nbsp;  
+						
+					</div>
+				</div>
+				<!-- Start Toolbar -->
+				<div id="s_m_mastermenu" class="lectioToolbar lectioBorderTop lectioBorderBot">
+					<div class="floatLeft">
+						
+						
+<div class='button'><a href="/lectio/96/default.aspx" data-role="button" tabindex='0' onclick='' id="s_m_defaultaspxLink">Hovedmenu</a></div>
+
+						
+						
+						
+						
+<div class='button'><a href="/lectio/96/login.aspx" data-role="button" tabindex='0' onclick='' id="s_m_LoginOutLink">Log ind</a></div>
+
+						
+<div class='button'><a href="/lectio/96/default.aspx?menu=kontakt&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526" data-role="button" tabindex='0' onclick='' id="s_m_kontaktLink">Kontakt</a></div>
+
+                        <span class="ls-hidden-smallscreen">
+						    
+<div class='button'><a href="/lectio/96/help/mainhelp.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HelpLink">Hjælp</a></div>
+
+                        </span>
+						
+						
+                        
+						
+						
+                        
+                        
+					</div>
+					<div class="ls-hidden-smallscreen">
+	
+											
+					
+</div>
+					
+				</div>
+                <!-- End Toolbar -->
+			</div>
+			<div id="s_m_outerContentFrameDiv" class="outerContentFrame">
+					<div id="s_m_helptipDiv" style="height:1em;">
+						<div id="s_m_HelpTip_helptipwrap" class="noprint textRight" style="display:block;">
+	<a class="textMid" href="/lectio/96/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526" 
+		onclick="toggleTip('/lectio/96/help/article/lh-1221?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526', $('#helpContainer'), $(this)); return false;" title="Hjælp til dette skærmbillede. Klik for at åbn/luk vindue." >
+		<img id="helptipbutton" src="/lectio/img/bulb_off.gif"> 
+		Skærmtip&nbsp;
+	</a>
+	<div class='fieldContainer' id="helpContainer" style="display: none; width: 45em;height: 48em;padding-bottom:0.1em;z-index:10000;position: absolute">
+		<div class='fieldHeader' style="cursor:move;">
+			<div style="float: left;margin-left:1.2em;margin-top:0.2em;">Skærmtip</div>
+			<div onclick='$(this).parents(".fieldContainer").hide()' style="float: right;cursor:pointer;padding:0.3em 0.6em 0.1em 0.1em;width:2em;height:1.4em;"><img alt=""  src="/lectio/img/close.png" /></div>
+			<div style="clear: both" ></div>
+		</div>
+		<iframe style='height: 45em;width: 97%;padding: 0.2em;margin:0.2em;border:none; display: block;' frameBorder='no'  src='about:blank'></iframe>
+	</div>
+</div>
+
+
+					</div>
+					
+	<div class="ls-master-pageheader">
+	    
+		    <div id="s_m_HeaderContent_thumb" class="thumber">
+		        
+		    </div>
+	
+            <div class="ls-subnav-container">
+                <div id="s_m_HeaderContent_MainTitle" class="maintitle" lectioContextCard="HE5943951526">Holdet 3eb BI - </div>
+		        <div id="s_m_HeaderContent_subnavigator_navigatortbl" class="ls-subnav-container">
+    <div id="s_m_HeaderContent_subnavigator_generic_tr" class="ls-subnav1">
+        
+<div class='buttonlink'><a href="/lectio/96/SkemaNy.aspx?type=holdelement&amp;holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl01">Skema</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/SkemaNy.aspx?type=holdelement&amp;holdelementid=5943951526&amp;medlemmer=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl02">Medlemsskema</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/96/studieplan.aspx?holdelementid=5943951526&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl03">Studieplan</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/MaterialOverview.aspx?holdelement_id=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl04">Materialer</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/subnav/modulregnskab.aspx?holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl05">Modulregnskab</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/aktivitet/AktivitetListe.aspx?holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl06">Aktiviteter</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/subnav/members.aspx?holdelementid=5943951526&amp;showteachers=1&amp;showstudents=1" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl07">Lærere-Elever</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/aktivitet/AktivitetLinks.aspx?holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl08">Links</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/DokumentOversigt.aspx?holdid=5943951516&amp;holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl09">Dokumenter</a></div>
+&nbsp;
+        
+    </div>
+    <div id="s_m_HeaderContent_subnavigator_genericSecondRow_tr" class="ls-subnav2">
+        
+<div class='buttonlink'><a href="/lectio/96/studieplan.aspx?holdelementid=5943951526&amp;displaytype=ganttkalender&amp;ganttdimension=hold" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl12">Grafisk</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/studieplan.aspx?holdelementid=5943951526&amp;displaytype=ugeteksttabel" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl13">Uge</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/studieplan.aspx?holdelementid=5943951526&amp;displaytype=holdogkompetence" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl14">Kompetencer</a></div>
+
+<div class='buttonlink'><a href="/lectio/96/studieplan.aspx?holdelementid=5943951526&amp;displaytype=holdogarbejdsform" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl15">Arbejdsformer</a></div>
+
+<div class='buttonlink ls-subnav-active'><a href="/lectio/96/studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=5943951526" data-role="button" tabindex='0' onclick='' id="s_m_HeaderContent_subnavigator_ctl16">Undervisningsbeskrivelse</a></div>
+&nbsp;
+    </div>
+</div>
+
+            </div>
+        
+    </div>   
+
+	
+
+
+					<div id="contenttable" style="clear:both" class="ls-content">
+						
+	
+	<table><tr><td>
+		
+<table style="width: 600px">
+	<tr>
+		<td>
+			<span title="Viser elevernes gennemførte forløb på tidligere hold med samme fag. Den samlede undervisningsbeskrivelse kan f.eks. udskrives til brug ved eksamen af lærer og censor."><input id="s_m_Content_Content_holduvb_ShowCencur" type="checkbox" name="s$m$Content$Content$holduvb$ShowCencur" /><label for="s_m_Content_Content_holduvb_ShowCencur"> Vis samlet undervisningsbeskrivelse samt elevtilknytning til forløb</label></span>
+		</td>
+		<td class="buttonsRight">
+			<span id="s_m_Content_Content_holduvb_printareaUVBbutton"><a class='imagebutton nohover sendtobtn lec-context-menu-instance' id='s_m_Content_Content_holduvb_printareaUVBbuttonprnt' href='#' title='Klik for at udskrive indhold. Højreklik giver mulighed for at printe med tilpasning.'><img src='/lectio/img/udskriv.gif' class='noprint icon' title='Klik for at udskrive indhold.' /></a><div class='lec-context-menu'><ul>
+	<li id='fittoa4'>Print med tilpasset bredde til A4</li>
+	<li id='fittoa3'>Print med tilpasset bredde til A3</li>
+	<li id='showforprint'>Vis udskriftsvenlig udgave</li>
+</ul></div></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="printareaUVB">
+			
+					
+			<div id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbcontainer" class="ls-container" style="width: 600px;">
+				
+				
+					<br />
+					<h2 id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbundervisningsbeskrivelseTypeH" class="textCenter">Undervisningsbeskrivelse</h2>
+					<h5>Stamoplysninger til brug ved pr&#248;ver til gymnasiale uddannelser</h5>
+
+					<table class="list">
+						
+						<tr>
+							<td class="uvbtitle">
+								<b>Termin(er)</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_terminLbl">2012/13 - 2014/15</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Institution</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_institutionLbl">Odsherreds Gymnasium</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="uvbtitle">
+								<b>Fag og niveau</b>
+							</td>
+							<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_fag_og_niveau">Biologi A</span>
+							</td>
+						</tr>
+						<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersRow">
+	<td class="uvbtitle">
+								<b>L&#230;rer(e)</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_teachersLbl"></span>
+							</td>
+</tr>
+<tr id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdrow">
+	<td class="uvbtitle">
+								<b>Hold</b>
+							</td>
+	<td class="uvbcontent">
+								<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_holdNamesLbl">2012 BI/eb (1eb BI, 2eb BI, 3eb BI)</span>
+							</td>
+</tr>
+
+					</table>
+					
+					<h5>Oversigt over gennemførte undervisningsforløb</h5><br />
+						
+								<table class="list">
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 1</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph6019973911'>Mikroskopisk biologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 2</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph7123909847'>Organsystemernes struktur og fysiologi</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 3</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph8161693567'>Repetitionsforløb</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 4</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph7123940334'>Energi, enzymer og respirationsprocessen</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 5</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph8161700172'>Molekylær, cellulær og klassisk genetik</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 6</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9616826503'>Økologi, miljø og økotoksikologi incl. AT5</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 7</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph10314164023'>Bioteknologi og Medicinfremstilling</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 8</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9684656168'>Evolution og bioinformatik</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 9</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9684660295'>Gen- og bioteknologi + AT-eksamensopgave</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 10</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9684731646'>Immunforsvaret</a>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="uvbtitle">
+										<h5>Titel 11</h5>
+									</td>
+									<td class="uvbcontent">
+										<a href='#ph9684738497'>Repetition</a>
+									</td>
+								</tr>
+							
+								</table>
+						<br />
+						<h5>Beskrivelse af de enkelte undervisningsforl&#248;b (1 skema for hvert forløb)</h5><br />
+						
+								<div id="ph6019973911">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleLabel">1</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=6019973911&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Mikroskopisk biologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_FagligeMaal">Målsætning:<br />
+at eleverne tilegner sig viden om mikrobiologi,&nbsp;&nbsp;menneskets sundhed og industriel udnyttelse af mikroorganismer<br />
+at eleverne analyserer og bearbejder data fra eksperimentelt arbejde samt bearbejder og formidler resultater fra biologiske undersøgelser<br />
+at eleverne gennemfører observationer og undersøgelser&nbsp;&nbsp;i laboratoriet, herunder vurderer risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med biologisk materiale, apparatur og kemikalier.<br />
+at eleverne vurderer information vedrørende miljø, sundhed, medicin og bioteknologi<br />
+at eleverne trænes i at formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner,<br />
+<br />
+Kernestof:<br />
+- Virus, pro- og eucaryote cellers opbygning og funktion herunder - membrantransportprocesser og - celledelinger<br />
+- mikroorganismer og menneskets sundhed (mikrofrloraen, det ydre forsvar, virusinfektioner, antibiotika, vaccinationer)<br />
+- mikrobiologiske arbejdsmetoder<br />
+<br />
+Pensum:<br />
+Biologiens FG s. 9-19<br />
+Mikroskopisk liv s. 7-17, 19-48, 67-73, 78-82, 85-93<br />
+Biologi på tværs s. 25<br />
+Biokemi og molekylærbiologi s. 45-52<br />
+<br />
+Supplerende stof:<br />
+<br />
+Opgaver:<br />
+1. Vira, pro- og eucaryoter<br />
+2. Organellernes funktioner<br />
+3. Mikroorganismers evolution<br />
+4. Mikroorganismers vækst<br />
+5. Mikroorganismers formering<br />
+<br />
+Eksperimetelt arbejde:<br />
+Rap. 1:&nbsp;&nbsp;Mikroskoperingsteknik incl. præparatfremstilling og farveteknikker<br />
+Rap. 2:. Transportprocesser i celler (påvisning af diffusion i agarterning) og osmosemåling vha. osmometer<br />
+Rap. 3:. Mikrobiologi m. fremstilling af agar, kimfaldundersøgelse og bakterieresistens overfor antibiotika<br />
+<br />
+</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologiens FG, Th. Skadhede m.fl. Forlaget KATS, 2008; sider: 9-19<br />Mikroskopisk liv, Lone Als Egebo, Nucleus, 2004; sider: 7-17, 19-48, 67-73, 78-82, 85-93<br />Biologi C+B, Systime, 2008, Troels wolf m.fl.; sider: 31-36<br />Biologi på Tværs, Per Hindkjær m. fl., 1996, Nucleus.; sider: 25<br />Biokemi og molekylærbiologi, Jens Bremer, nucleus, 2000; sider: 45-52</span><br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg.1: Vira, pro- og eucaryoter
+							</td>
+							<td>
+								29-01-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rap. 1: Mikroskopering
+							</td>
+							<td>
+								26-02-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 2: Organellernes funktioner
+							</td>
+							<td>
+								05-03-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 3: Mikroorganismers evolution
+							</td>
+							<td>
+								12-03-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rap. 2: Transportprocesser i celler incl. osmose
+							</td>
+							<td>
+								09-04-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 4: Mikroorganismers vækst
+							</td>
+							<td>
+								23-04-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 5: Mikroorganismers formering
+							</td>
+							<td>
+								07-05-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rap. 3: Mikrobiologi - bakterieresistens
+							</td>
+							<td>
+								21-05-2013
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl00_sr1_ActualLessons">39 <span class='tooltip' title='Anvendt modullængden 45 min. fra skoleåret 12/13'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph7123909847">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleLabel">2</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=7123909847&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Organsystemernes struktur og fysiologi</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_FagligeMaal">Målsætning:<br />
+at eleverne formulerer og analyserer biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk <br />
+at eleverne gennemføre (selvstændige) observationer og undersøgelser&nbsp;&nbsp;i laboratoriet, herunder vurderer risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med biologisk materiale, apparatur og kemikalier.<br />
+at eleverne analyserer og bearbejder data fra eksperimentelt arbejde samt bearbejder og formidler resultater fra biologiske <br />
+&nbsp;&nbsp;&nbsp;undersøgelser<br />
+at eleverne analyserer og vurderer artikler med biologisk indhold<br />
+at eleverne opsøger og vurderer information vedrørende miljø, sundhed og medicin<br />
+at eleverne demonstrerer viden om fagets identitet og metoder<br />
+at eleverne formulerer sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrager<br />
+&nbsp;&nbsp;&nbsp;etiske/holdningsmæssige forhold<br />
+at eleverne opnår faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+<br />
+Kernestof:<br />
+- sammenhæng mellem struktur og funktion på alle organisationsniveauer og på levende organismers dynamiske opretholdelse af ligevægt.<br />
+- menneskets fysiologi, herunder muskler, blodkredsløb, åndedræt samt hormonelle og neurologiske reguleringssystemer.<br />
+- opbygning og biologisk betydning af kulhydrater, fedtstoffer og proteiner <br />
+- respiration og gæring (aerobt og anaerobt stofskifte)<br />
+- undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området fysiologi,<br />
+<br />
+Pensum:<br />
+Bidstrup, Bodil Blem: Fysiologibogen - den levende krop, Nucleus; sider: 16-45, 47-73, 75-103, 124-147, 149-158, 159-175<br />
+Biologiens FG, Th. Skadhede m.fl. Forlaget KATS, 2008; sider: 75-83<br />
+Biologi C+B, Systime, 2008, Troels wolf m.fl.; sider: 99-101 <br />
+<br />
+Supplerende stof:<br />
+- biologiens betydning i lokale og globale sammenhænge<br />
+- faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+&nbsp;&nbsp;&nbsp;Muskelarbejde og træning<br />
+&nbsp;&nbsp;&nbsp;Kost og sundhed<br />
+&nbsp;&nbsp;&nbsp;Menneskets forplantning&nbsp;&nbsp;(Film: Sagaen om livet) <br />
+&nbsp;&nbsp;&nbsp;Kønssygdomme, prævention og sundhed<br />
+&nbsp;&nbsp;&nbsp;Den påvirkede hjerne<br />
+Rundvisning på LIFE med forskellige foredrag om forskning, studier og ølfremstilling.<br />
+Eksperimentelt arbejde på "Den blå planet": Dissektion af blæksprutter + rundtur i udstillingen<br />
+<br />
+Opgaver:<br />
+6. Osmose<br />
+7. Gællelågsbevægelser<br />
+8. Kredsløbet i hvile og arbejde<br />
+9. Styrketræning af rotter<br />
+10.Tubocurarin<br />
+11. Hormoner og sædcelleproduktion<br />
+<br />
+Eksperimentelt arbejde:<br />
+A.Fremstilling af posters over kroppens organsystemer (poster)<br />
+B. Dissektion af rotter (journal)<br />
+C. Måling af åndedrætsvolumen vha. spirometer (journal)<br />
+D. Måling af konditallet vha. 2-punktstest (journal)<br />
+E. Måling af BT og puls i hvile (Rap. 4)<br />
+F. Måling af nerveledningshastighed (Rap.5)<br />
+G. Måling af kvantitative kønsforskelle (journal)<br />
+H. Kostanalyse (Rap 6)<br />
+I. Demoforsøg: Ølfremstilling (på LIFE)<br />
+J. Dissektion af blæksprutter på Den blå planet (journal)</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_IndholdLbl"><i>Kernestof:</i><br />Bidstrup, Bodil Blem: Fysiologibogen - den levende krop, Nucleus; sider: 16-45, 47-73, 75-103, 124-147, 149-175<br />Biologiens FG, Th. Skadhede m.fl. Forlaget KATS, 2008; sider: 75-83<br />Biologi C+B, Systime, 2008, Troels wolf m.fl.; sider: 99-101</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.youtube.com/watch?v=zFjpiPIDfYI" target="_blank" >http://www.youtube.com/watch?v=zFjpiPIDfYI</a>
+					<br />
+						<a href="http://videnskab.dk/krop-sundhed/sadan-virker-epo-og-bloddoping" target="_blank" >http://videnskab.dk/krop-sundhed/sadan-virker-epo-og-bloddoping</a>
+					<br />
+						<a href="http://www.netdoktor.dk/sport/doping/artikler/epo.htm" target="_blank" >http://www.netdoktor.dk/sport/doping/artikler/epo.htm</a>
+					<br />
+						<a href="http://www.ale.dk/" target="_blank" >http://www.ale.dk/</a> - Om øl og ølfremstilling
+					<br />
+						<a href="http://www.olguiden.dk/default.asp" target="_blank" >http://www.olguiden.dk/default.asp</a> - Det Danske Ølakademi
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opgave 6: Osmose
+							</td>
+							<td>
+								24-08-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opgave 7: Gællelågsbevægelser
+							</td>
+							<td>
+								30-08-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opgave 8: kredsløbet i hvile og arbejde
+							</td>
+							<td>
+								13-09-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 4: Måling af BT og puls i hvile
+							</td>
+							<td>
+								27-09-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 9:  Styrketræning af rotter
+							</td>
+							<td>
+								04-10-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg.10: Tubocurarin
+							</td>
+							<td>
+								11-10-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 5: Måling af nerveledningshastighed
+							</td>
+							<td>
+								01-11-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 11: Hormoner og sædcelleproduktion
+							</td>
+							<td>
+								22-11-2013
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 6: Kostanalyse
+							</td>
+							<td>
+								13-12-2013
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl01_sr1_ActualLessons">94 <span class='tooltip' title='Anvendt modullængden 45 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph8161693567">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleLabel">3</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=8161693567&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Repetitionsforløb</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_IndholdLbl"><i>Kernestof:</i><br />Bidstrup, Bodil Blem: Fysiologibogen - den levende krop, Nucleus; sider: 200-207</span><br /><br /><i>Dokumenter:</i><br />
+						Forberedelse til prøve i cellelære og fysiologi.docx
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 12: Checktestopgaver
+							</td>
+							<td>
+								08-01-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl02_sr1_ActualLessons">6 <span class='tooltip' title='Anvendt modullængden 45 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph7123940334">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleLabel">4</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=7123940334&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Energi, enzymer og respirationsprocessen</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_FagligeMaal">Målsætning:<br />
+-&nbsp;&nbsp;formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge.<br />
+-&nbsp;&nbsp;gennemføre selvstændige observationer, undersøgelser og eksperimenter&nbsp;&nbsp;i laboratoriet, herunder vurdere risikomomenter og de<br />
+&nbsp;&nbsp;&nbsp;sikkerhedsmæssige foranstaltninger ved omgang med&nbsp;&nbsp;biologisk materiale, apparatur og kemikalier.<br />
+-&nbsp;&nbsp;analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske undersøgelser<br />
+<br />
+Kernestof:<br />
+-&nbsp;&nbsp;opbygning og biologisk betydning af kulhydrater, fedtstoffer, proteiner og nukleinsyrer<br />
+-&nbsp;&nbsp;kulhydraternes intermediære stofskifte<br />
+-&nbsp;&nbsp;enzymers opbygning og funktion<br />
+-&nbsp;&nbsp;respiration og gæring<br />
+-&nbsp;&nbsp;eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området biokemi.<br />
+<br />
+Pensum:<br />
+Biokemibogen s. 7-9, 11-37, 71-100, 121-134, 160-190, 198-207.<br />
+Fysiologibogen s. 177-199<br />
+<br />
+Supplerende stof:<br />
+Fysiologibogen s. 200-207<br />
+<br />
+Opgaver:<br />
+Opg. 12: Chekspørgsmål vedr. fysiologi<br />
+Opg. 13: Basal biokemi<br />
+Opg. 14: Katalase<br />
+Opg. 15: Mitokondrier og rottegift<br />
+Opg. 16: RQ under arbejde<br />
+<br />
+Eksperimentelt arbejde:<br />
+RAP. 7: Enzymforsøg med katalase<br />
+Journal: Hævning af dej</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_IndholdLbl"><i>Kernestof:</i><br />Biokemibogen, Liv, funktion, molekyle, Nucleus 2010, Kresten Cæsar Torp; sider: 7-9, 11-37, 71-100, 121-134, 160-190, 198-207<br />Bidstrup, Bodil Blem: Fysiologibogen - den levende krop, Nucleus; sider: 177-207</span><br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 13: Basal biokemi
+							</td>
+							<td>
+								15-01-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 14: Katalase
+							</td>
+							<td>
+								29-01-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 7: Enzymforsøg med Katalase
+							</td>
+							<td>
+								19-02-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 15: Respirationsprocessen
+							</td>
+							<td>
+								01-03-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 16 - RQ
+							</td>
+							<td>
+								13-03-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl03_sr1_ActualLessons">43 <span class='tooltip' title='Anvendt modullængden 45 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph8161700172">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleLabel">5</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=8161700172&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Molekylær, cellulær og klassisk genetik</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge<br />
+– gennemføre selvstændige observationer og undersøgelser og tilrettelægge eksperimenter såvel i laboratoriet <br />
+&nbsp;&nbsp;&nbsp;som i felten, herunder vurdere risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med <br />
+&nbsp;&nbsp;&nbsp;biologisk materiale, apparatur og kemikalier.<br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske <br />
+&nbsp;&nbsp;&nbsp;undersøgelser<br />
+– analysere og vurdere artikler med biologisk indhold<br />
+– opsøge og vurdere information vedrørende miljø, sundhed, medicin og bioteknologi<br />
+– demonstrere viden om fagets identitet og metoder<br />
+– formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrage<br />
+&nbsp;&nbsp;&nbsp;etiske/holdningsmæssige forhold<br />
+– have faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+<br />
+Kernestof:<br />
+– opbygning og biologisk betydning af nukleinsyrer<br />
+– genetikkens molekylære og cellulære grundlag, herunder proteinsyntesen<br />
+– nedarvningsmønstre belyst med eksempler fra planter, dyr og mennesker<br />
+– evolutionsteori, herunder betydningen af samspillet mellem arv og miljø<br />
+– populationsbiologi og populationsgenetik, herunder Hardy-Weiberg-loven<br />
+– eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området genetik.<br />
+<br />
+Pensum:<br />
+Genetik grundbog s. 40-46 + 62-72 + 88-89 + 98-112 + 114-132 + 134-145 + 147-162 + 164-168<br />
+Biokemibogen s. 53-60<br />
+GymnasieBIOS s. 162-163<br />
+<br />
+Supplerende stof:<br />
+<br />
+Opgaver:<br />
+Opgave 17: Blodpletter på tøj<br />
+Opgave 18: siRNA<br />
+<br />
+Årsprøveopgaver:<br />
+A. Puls og arbejdsintensitet<br />
+B. Talassæmi<br />
+C. Biokonservering<br />
+D. Laktosetolerans<br />
+<br />
+Eksperimentelt arbejde:<br />
+Rapport 8: Isolering af DNA fra kiwifrugt<br />
+Rapport 9: Blodtypebestemmelse<br />
+Journal: Majsmutanter og Mendels love</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_IndholdLbl"><i>Kernestof:</i><br />Genetik Grundborg, Systime 2002, Annette Sørensen m.fl.; sider: 40-46, 69-72, 98-112, 114-132, 134-145, 147-162, 164-168<br />Sørensen, Anette B. m.fl.: Genetik - grundbog, Systime; sider: 62-72, 88-89<br />Biokemibogen, Liv, funktion, molekyle, Nucleus 2010, Kresten Cæsar Torp; sider: 53-60<br />Gymnasie BIOS, Kim Bruun m.fl. Gyldendal 2007; sider: 162-163</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.biokemibogen.dk/animationer/proteinsyntese/" target="_blank" >http://www.biokemibogen.dk/animationer/proteinsyntese/</a> - protein syntesen
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 17 - Blodpletter på tøj
+							</td>
+							<td>
+								02-04-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 8: Isolering af DNA fra Kiwi
+							</td>
+							<td>
+								22-04-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 18: siRNA
+							</td>
+							<td>
+								01-05-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 9: Blodtypebestemmelse
+							</td>
+							<td>
+								07-05-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								SRO-opgave: Populationsgenetik (bio + mat)
+							</td>
+							<td>
+								23-05-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl04_sr1_ActualLessons">36 <span class='tooltip' title='Anvendt modullængden 45 min. fra skoleåret 13/14'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9616826503">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleLabel">6</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=9616826503&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Økologi, miljø og økotoksikologi incl. AT5</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge<br />
+– gennemføre selvstændige observationer og undersøgelser&nbsp;&nbsp;i laboratoriet&nbsp;&nbsp;og i felten, herunder vurdere risikomomenter og de<br />
+&nbsp;&nbsp;&nbsp;sikkerhedsmæssige foranstaltninger ved omgang med biologisk materiale og apparatur <br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske <br />
+&nbsp;&nbsp;&nbsp;undersøgelser<br />
+– demonstrere viden om fagets identitet og metoder<br />
+– vurdere omfattende biologiske problemstillinger og disses betydning på lokalt og globalt plan<br />
+– formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrage<br />
+&nbsp;&nbsp;&nbsp;etiske/holdningsmæssige forhold<br />
+– have faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+– analysere og vurdere artikler med biologisk indhold<br />
+– opsøge og vurdere information vedrørende miljø, <br />
+<br />
+Kernestof:<br />
+– fotosyntese og gæring<br />
+– økologi, herunder undersøgelse af et økosystem<br />
+– succession, energistrømme og stofomsætninger i udvalgte økosystemer, herunder C- og N-kredsløb<br />
+– økotoksikologi<br />
+– eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området økologi.<br />
+<br />
+Pensum:<br />
+Biologiens ABc - Økologi og økotoksikologi s. 11-18 + 21-27 + 31-36 + 39-47 + 50-51 + 55-56 + 63-67 + 81-88 + 91-101 + 103-120 + 131-141<br />
+Biologiens ABc - Biokemi s.&nbsp;&nbsp;63-67<br />
+Økologi og naturforvaltning s. 29-32<br />
+<br />
+Supplerende stof:<br />
+Selvstændig søgen efter info om fotosyntesen<br />
+<br />
+Opgaver:<br />
+Opg. 19: Koralrev<br />
+Opg. 20: Ulve<br />
+Opg. 21: Mixotrofi hos Furealge<br />
+Opg. 22: Alger til biobrændstof<br />
+Opg. 23: Økotoksikologi<br />
+<br />
+Eksperimentelt arbejde:<br />
+RAP. 10: Biotoprapport<br />
+RAP. 11: Fotosynteseforsøg<br />
+RAP. 12: Karse og alkohol<br />
+Journal: Vandtransport i planter<br />
+Eksperimentelt arbejde med Viden på vej: Naturvidenskabelig metode og Evolution</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_IndholdLbl"><i>Kernestof:</i><br />Biologiens ABc - Økologi og økotoksikologi, Vagn Juhl Larsen m.fl. Niche, 2007; sider: 11-18, 21-27, 31-36, 39-47, 50-51, 55-56, 63-67, 81-88, 91-101, 103-120, 131-141<br />Økologi og naturforvaltning,Carsten Bagge Jensen m.fl. Nucleus, 2003; sider: 29-32<br />Biologiens ABc - Biokemi, Thomas Skadhede m.fl., Niche, 2007; sider: 63-67</span><br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 19: Koralrev
+							</td>
+							<td>
+								28-08-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 10: Biotoprapport
+							</td>
+							<td>
+								11-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 20: Ulve
+							</td>
+							<td>
+								25-09-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 21: Mixotrofi hos furealge
+							</td>
+							<td>
+								02-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 11: Fotosynteseforsøg
+							</td>
+							<td>
+								09-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 22: Alger til biobrændstof
+							</td>
+							<td>
+								23-10-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 12: Karse og alkohol
+							</td>
+							<td>
+								03-11-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 23: Økotoksikologiopgave
+							</td>
+							<td>
+								10-11-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl05_sr1_ActualLessons">50 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph10314164023">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleLabel">7</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=10314164023&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Bioteknologi og Medicinfremstilling</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i kendte som i nye sammenhænge<br />
+– gennemføre (selvstændige) observationer og eksperimenter i laboratoriet, herunder vurdere risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med biologisk materiale, apparatur og kemikalier.<br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske undersøgelser<br />
+– opsøge og vurdere information vedr. medicin og bioteknologi<br />
+<br />
+Kernestof:<br />
+– eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området biokemi <br />
+<br />
+Supplerende stof:<br />
+Oplæg om medicinfremstilling v. 2 farmaceutstuderende.<br />
+Udleveret øvelsesvejledning incl. teori om medicinfremstilling.<br />
+<br />
+Opgaver:<br />
+Opgave 24: Medicinfremstilling<br />
+<br />
+Eksperimentelt arbejde:<br />
+Journal over eksperimentelt arbejde på Syddansk Universitet: Fra Idé til pille: <br />
+Organisk syntese af potentielt	antiviral lægemiddel mod HAB-virus + indkapsling</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_IndholdLbl"></span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.sdu.dk/Uddannelse/Brobygning/Tilbud/NAT_Undervisning_Kemikaze/Ide%20til%20pille%202014" target="_blank" >http://www.sdu.dk/Uddannelse/Brobygning/Tilbud/NAT_Undervisning_Kemikaze/Ide%20til%20pille%202014</a>
+					<br />
+						<a href="http://static.sdu.dk/mediafiles//B/7/2/%7BB7200B70-9569-4C7A-961F-345DC6B7EF63%7DSyntesen_id%C3%A9_til_pille.pdf" target="_blank" >http://static.sdu.dk/mediafiles//B/7/2/%7BB7200B70-9569-4C7A-961F-345DC6B7EF63%7DSyntesen_id%C3%A...</a>
+					<br />
+						<a href="http://static.sdu.dk/mediafiles//A/9/8/%7BA98108EC-6633-4EC9-AD13-E504FAC9B9AB%7DFremstilling%20af%20kapsler.pdf" target="_blank" >http://static.sdu.dk/mediafiles//A/9/8/%7BA98108EC-6633-4EC9-AD13-E504FAC9B9AB%7DFremstilling%20a...</a>
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 24: Opgave om medicinfremstilling
+							</td>
+							<td>
+								20-11-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl06_sr1_ActualLessons">10 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9684656168">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleLabel">8</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=9684656168&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Evolution og bioinformatik</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge<br />
+– gennemføre selvstændige observationer og undersøgelser .<br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske <br />
+&nbsp;&nbsp;&nbsp;undersøgelser<br />
+– analysere og vurdere artikler med biologisk indhold<br />
+– demonstrere viden om fagets identitet og metoder<br />
+– vurdere omfattende biologiske problemstillinger og disses betydning på lokalt og globalt plan<br />
+– formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrage<br />
+&nbsp;&nbsp;&nbsp;etiske/holdningsmæssige forhold<br />
+– have faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+<br />
+Kernestof:<br />
+- eksempler på anvendt bioteknologi, herunder bioinformatik<br />
+- evolutionsteori, herunder betydningen af samspillet mellem arv og miljø<br />
+- eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for områderne genetik og evolution,.<br />
+<br />
+Pensum:<br />
+Genetikbogen s. 106-131<br />
+Bioteknologi 6/bioinformatik s. 7-46<br />
+<br />
+Supplerende stof:<br />
+Film: I huleboernes verden - (om menneskets evolution)<br />
+– biologien som videnskabsfag, herunder molekylærbiologi og bioteknologi<br />
+<br />
+Opgaver:<br />
+Opgave 25: Bioinformatikopgaver fra Bioteknologi 6/bioinformatik<br />
+<br />
+Eksperimentelt arbejde:<br />
+Rapport 13: Menneskedyret</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_IndholdLbl"><i>Kernestof:</i><br />Genetikbogen Genetik, genteknologi og evolution, Lone Als Egebo, Nucleus, 2003; sider: 106-131<br />I huleboernes verden (Walking with cavemen), BBC 2002; sider: 0-1<br />Bioteknologi 6, Bioinformatik, Frank Grønlund, Nucleus 2012; sider: 7-46</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.evolution.dk/" target="_blank" >http://www.evolution.dk/</a>
+					<br />
+						<a href="http://www.survey-xact.dk/LinkCollector?key=GFAVYLTW9632" target="_blank" >http://www.survey-xact.dk/LinkCollector?key=GFAVYLTW9632</a>
+					<br />
+						<a href="http://snm.ku.dk/skole-og-gymnasietjenesten/gymnasier/e-learning/menneskedyret/" target="_blank" >http://snm.ku.dk/skole-og-gymnasietjenesten/gymnasier/e-learning/menneskedyret/</a>
+					<br />
+						<a href="http://www.bioteknologibogen.dk/bioteknologi6/" target="_blank" >http://www.bioteknologibogen.dk/bioteknologi6/</a>
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 25: Bioinformatikopgaver (udført i timerne)
+							</td>
+							<td>
+								01-12-2014
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 13: Menneskedyret
+							</td>
+							<td>
+								04-12-2014
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl07_sr1_ActualLessons">18 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9684660295">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleLabel">9</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=9684660295&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Gen- og bioteknologi + AT-eksamensopgave</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge<br />
+– gennemføre selvstændige observationer og undersøgelser og tilrettelægge eksperimenter i laboratoriet <br />
+&nbsp;&nbsp;&nbsp;&nbsp;herunder vurdere risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med <br />
+&nbsp;&nbsp;&nbsp;biologisk materiale, apparatur og kemikalier.<br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske <br />
+&nbsp;&nbsp;&nbsp;undersøgelser<br />
+– analysere og vurdere artikler med biologisk indhold<br />
+– opsøge og vurdere information vedrørende miljø, sundhed, medicin og bioteknologi<br />
+– demonstrere viden om fagets identitet og metoder<br />
+– vurdere omfattende biologiske problemstillinger og disses betydning på lokalt og globalt plan<br />
+– formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrage<br />
+&nbsp;&nbsp;&nbsp;etiske/holdningsmæssige forhold<br />
+– have faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+<br />
+Kernestof:<br />
+– eksempler på anvendt bioteknologi,<br />
+– eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området genetik, evolution, biokemi<br />
+<br />
+Pensum:<br />
+Genetik grundbog s. 170-188 + 190-196 + 210-230<br />
+Genetikbogen B+A s. 131-137 + 139-159<br />
+<br />
+Supplerende stof:<br />
+Stamceller (Biotechachademy)<br />
+GMO kan have alvorlige konsekvenser (Videnskab.dk)<br />
+GMO (Etiskraad.dk)<br />
+<br />
+Opgaver:<br />
+Opgave 26: Endosymbiose<br />
+Opgave 27: Stamceller<br />
+Opgave 28: DNA og indsatser for truede arter<br />
+<br />
+Terminsprøveopgaver:<br />
+A. Vitalkapacitet<br />
+B. Lucerne og Rhizobium-bakterier<br />
+C. Muskelsvind hos labradorhunde<br />
+D. Nedbrydning af glykogen<br />
+<br />
+Eksperimentelt arbejde:<br />
+Rapport 14: Insulinfremstilling (Virtuel øvelse)<br />
+Rapport 15: Gerningsstedets gåde (gelfremstilling, PCR + elektroforese)<br />
+Journal: Virtuel øvelse: Fremstilling af et enzym til vaskepulver</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_IndholdLbl"><i>Kernestof:</i><br />Genetik Grundborg, Systime 2002, Annette Sørensen m.fl.; sider: 170-188, 190-196, 210-230<br />Genetikbogen B+A, Nucleus, 2014, Lone Als Egebo; sider: 131-137, 139-159</span>
+						<br /><br /><i>Links:</i><br />
+					
+						<a href="http://www.biotechacademy.dk/Virtuelt-Laboratorium/velkommen" target="_blank" >http://www.biotechacademy.dk/Virtuelt-Laboratorium/velkommen</a>
+					<br />
+						<a href="http://www.biotechacademy.dk/Virtuelt-Laboratorium/velkommen/V-lab-2-0" target="_blank" >http://www.biotechacademy.dk/Virtuelt-Laboratorium/velkommen/V-lab-2-0</a>
+					<br />
+						<a href="http://www.biotechacademy.dk/Undervisningsprojekter/Gymnasiale-projekter/Stamceller/Teori/Blodsukkerregulering-og-diabetes" target="_blank" >http://www.biotechacademy.dk/Undervisningsprojekter/Gymnasiale-projekter/Stamceller/Teori/Blodsuk...</a>
+					<br />
+						<a href="http://videnskab.dk/miljo-naturvidenskab/gmo-kan-have-alvorlige-konsekvenser" target="_blank" >http://videnskab.dk/miljo-naturvidenskab/gmo-kan-have-alvorlige-konsekvenser</a>
+					<br />
+						<a href="http://etiskraad.dk/Temauniverser/Etikoglivetgym/GMO.aspx" target="_blank" >http://etiskraad.dk/Temauniverser/Etikoglivetgym/GMO.aspx</a>
+					<br />
+						<a href="http://www.biotechacademy.dk/Undervisningsprojekter/Gymnasiale-projekter/genteknologi/teori/etik-og-lovgivning-i-genteknologi" target="_blank" >http://www.biotechacademy.dk/Undervisningsprojekter/Gymnasiale-projekter/genteknologi/teori/etik-...</a>
+					<br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 26: Endosymbiose
+							</td>
+							<td>
+								14-01-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 27: Stamceller
+							</td>
+							<td>
+								21-01-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 14: Insulinfremstilling
+							</td>
+							<td>
+								06-02-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 28: DNA og indsatser for truede arter
+							</td>
+							<td>
+								20-02-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 15: Genteknologi/Gerningsstedets gåde
+							</td>
+							<td>
+								25-03-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl08_sr1_ActualLessons">28 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9684731646">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_TitleLabel">10</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=9684731646&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Immunforsvaret</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_FagligeMaal">Målsætning:<br />
+– formulere og analysere biologiske problemstillinger med sikker anvendelse af biologiske fagudtryk såvel i<br />
+&nbsp;&nbsp;&nbsp;kendte som i nye sammenhænge<br />
+– gennemføre selvstændige observationer, undersøgelser og eksperimenter i laboratoriet <br />
+&nbsp;&nbsp;&nbsp;herunder vurdere risikomomenter og de sikkerhedsmæssige foranstaltninger ved omgang med biologisk materiale, apparatur og kemikalier.<br />
+– analysere og bearbejde data fra eksperimentelt arbejde samt bearbejde og formidle resultater fra biologiske&nbsp;&nbsp;undersøgelser<br />
+– analysere og vurdere artikler med biologisk indhold<br />
+– opsøge og vurdere information vedrørende miljø, sundhed, medicin og bioteknologi<br />
+– demonstrere viden om fagets identitet og metoder<br />
+– vurdere omfattende biologiske problemstillinger og disses betydning på lokalt og globalt plan<br />
+– formulere sig struktureret såvel mundtligt som skriftligt om biologisk faglige emner, herunder inddrage etiske/holdningsmæssige forhold<br />
+– have faglig baggrund for stillingtagen og handlen i forbindelse med egne og samfundsmæssige <br />
+&nbsp;&nbsp;&nbsp;problemstillinger med biologisk indhold.<br />
+<br />
+Kernestof:<br />
+– menneskets immunforsvar, herunder vaccination<br />
+– eksempler på undersøgelses- og analysemetoder samt statistisk resultatbehandling inden for området immunologi.<br />
+<br />
+Pensum:<br />
+Immunologi- globale udfordringer og infektionssygdomme s. 7-11 + 13-45 + 85-97 + 99-107<br />
+<br />
+Supplerende stof:<br />
+Selvstændig søgning efter artikler om diabetes.<br />
+– biologiens betydning i lokale og globale sammenhænge<br />
+– biologien som videnskabsfag, herunder molekylærbiologi og bioteknologi<br />
+– bioetiske problemstillinger.<br />
+<br />
+<br />
+Opgaver:<br />
+Opg. 29:&nbsp;&nbsp;&nbsp;Glykolyse<br />
+Opg. 30:&nbsp;&nbsp;&nbsp;Mitokondriesygdomme<br />
+Opg. 31:&nbsp;&nbsp;&nbsp;Trypanosoma<br />
+Opg. 32a: Influenza<br />
+Opg. 32b: Tamiflu<br />
+Opg. 33:&nbsp;&nbsp;&nbsp;Pesticidanalyse<br />
+<br />
+Eksperimentelt arbejde:<br />
+Rapport: Opsporing af sygdomsudbrud vha. elisatest</span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_IndholdLbl"><i>Kernestof:</i><br />Immunologi - globale udfordringer og infektionssygdomme, Palle Høy Jakobsen m. fl.. Nucleus 2012; sider: 7-11, 13-45, 85-97, 99-107</span><br /><br /><i>Skriftligt arbejde:</i><br />
+						<table class="sublist">
+							<tr>
+								<th>Titel</th>
+								<th>Afleveringsdato</th>
+							</tr>
+					
+						<tr>
+							<td>
+								Opg. 29 + 30: Glykolyse og mitokondriesygdomme
+							</td>
+							<td>
+								18-03-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 31: Trypanosoma
+							</td>
+							<td>
+								08-04-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 32a + 32b:Influenza og Tamiflu
+							</td>
+							<td>
+								22-04-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Rapport 16: Elisatest
+							</td>
+							<td>
+								29-04-2015
+							</td>
+						</tr>
+					
+						<tr>
+							<td>
+								Opg. 33: Pesticidanalyse
+							</td>
+							<td>
+								06-05-2015
+							</td>
+						</tr>
+					
+						</table>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl09_sr1_ActualLessons">21 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+								<div id="ph9684738497">
+								
+<table class="list uvbtabel">
+	<tr>
+		<td class="uvbtitle">
+			<b>Titel
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_TitleLabel">11</span></b>
+		</td>
+		<td class="uvbcontent">
+			<a id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_TitleHlink" href="/lectio/96/studieplan/forloeb_vis.aspx?phaseid=9684738497&amp;prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Repetition</a><br />
+			
+			
+			
+			<br />
+			<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_FagligeMaal"></span>
+		</td>
+	</tr>
+	
+		<tr>
+			<td class="uvbtitle">
+				<b>Indhold</b>
+			</td>
+			<td class="uvbcontent">
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_IndholdLbl"></span>
+							
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>Omfang</b>
+			</td>
+			<td class="uvbcontent">
+				Estimeret:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_estimatedLessons"><span class="noRecord">Ikke angivet</span></span><br />
+				Dækker over:
+				<span id="s_m_Content_Content_holduvb_UvbHoldRepeater_ctl00_uvbCtrl_uvbUndervisningsBeskrivelseNonAT_ctl10_sr1_ActualLessons">14 <span class='tooltip' title='Anvendt modullængden 55 min. fra skoleåret 14/15'>moduler</span></span>
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>S&#230;rlige fokuspunkter</b>
+			</td>
+			<td class="uvbcontent">
+				
+
+			</td>
+		</tr>
+		<tr>
+			<td class="uvbtitle">
+				<b>V&#230;sentligste arbejdsformer</b>
+			</td>
+			<td class="uvbcontent">
+				
+			</td>
+		</tr>
+	
+	
+</table>
+
+								</div>
+							
+			</div>
+
+				
+			<br /><br />
+			
+		</td>
+	</tr>
+</table>
+
+</td></tr></table>	
+	
+
+
+					</div>
+				</div>
+			
+			<div id="s_m_masterFooter" class="ls-master-footer">
+				<span id="s_m_masterfootermacomSpan" style="padding-left:0.3em;text-align:left;"><a href="http://www.macom.dk" target="_new" title="Besøg www.macom.dk">&copy; MaCom A/S</a></span>
+				<span id="s_m_masterfootermacomsupportSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a href="mailto:LectioSupport@macom.dk?subject=Lectio" title="Send e-mail til MaCom">E-mail</a></span>
+				<span id="s_m_masterfooterversioninfoSpan" class="ls-hidden-smallscreen" style="text-align:left;width:25%"><a id="s_m_VersionInfoLink" title="Se versioninformation" href="/lectio/96/VersionInfo.aspx?prevurl=studieplan%2fhold_undervisningsbeskrivelse.aspx%3fholdelementid%3d5943951526">Lectio version 12.204</a></span>
+				<span id="s_m_masterfooternowSpan" style="text-align:right;padding-right:0.5em;">22/5-2015&nbsp;&nbsp;kl.07:14</span>
+                <span id="s_m_masterfootertiltopSpan" style="text-align:right;padding-right:0.4em;width:10px"><a href="#masterContent"><span title="Til top" style="font-size:1em;position:relative;top:0.1em">&nbsp;^&nbsp;</span></a></span>
+			</div>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RegContextCard("/lectio/96", "studieplan/hold_undervisningsbeskrivelse.aspx?holdelementid=5943951526");
+if (window.SessionHelper) {
+	SessionHelper.Initialize(false, '', null, null);
+}
+
+$(function(){ 
+	$.cluetip.defaults.hoverIntent.interval = 100;
+	$.cluetip.defaults.width = 310;
+	$.cluetip.defaults.showTitle = false;
+	$.cluetip.defaults.waitImage = false;
+
+	i = 0;
+	$('[title]').not('option').each(function(){
+		var t=$(this)
+		t.attr('rel',t.attr('title')).attr('title','')
+		 .cluetip(function(){ return LectioJSUtils.TooltipHtmlToHtml(t.attr('rel')); }, {});
+		if(i++ > 200) return false;
+	});
+});
+
+LectioPageOps.InitScriptErrorHandling(true, false);
+LectioPageOps.PrepareAutoFocus();
+LectioPageOps.PrepareMaintainScrollPosition();
+LectioContextMenu.Initialize(true);
+
+$(function() {
+	LectioSendAreaTo.Initialize('s_m_Content_Content_holduvb_printareaUVBbuttonprnt', 'printareaUVB', true, '');
+
+});
+
+//]]>
+</script>
+</form>
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,395 @@
+ul.dropdown-menu {
+    background: #1C203A; 
+    text-align: left;
+    border-radius: 0px !important;
+}
+
+.nav-dialog {
+    background-color: #1C203A;
+    font-family: sans-serif;
+    color: #ffffff;    
+    border-radius: 0px !important;    
+}
+
+a {
+    color: #ffffff !important;
+}
+
+.blueborder {
+    border-color: #5C6CAA;
+}
+
+.orangeborder {
+    border-color: #EA661E;
+}
+
+ul.dropdown-menu-button {
+    margin-bottom: 1.6em !important;
+}
+
+#news_box {
+    background: #ffffff; 
+    z-index: 1000; 
+    position: absolute; 
+    color: #1C203A; 
+    //      border-radius: 15px; 
+    opacity: 0.8;
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -transform: rotate(35deg);
+
+    top:6em;
+    left:55%; 
+}
+
+
+#logo_container {
+    position:relative;   
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+    #logo {
+	margin-top:4em;
+	height: 200px;
+    }
+
+    #button-row {
+	margin-top: 2em;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+    #logo {
+	margin-top: 4em;
+	height: 200px;
+    }
+
+    #button-row {
+	margin-top: 2em;
+    }
+
+    .text, #footer {
+	font-size: 1em;
+    }
+
+    #news_box {
+	top: 4em; 
+	//left: 37em; 
+	padding: 3px;
+	font-size: .5em;
+    }
+ 
+    #gymnasieskolen {
+	width: 100px;
+    }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+    #logo {
+	margin-top: 4em;
+	height: 100px;
+    }
+
+    #button-row {
+	margin-top: 2em;
+    }
+
+    .text, #footer {
+	font-size: .8em;
+    }
+
+    #news_box {
+	//top: 6em; 
+	//left: 24em; 
+	padding: 3px;
+	font-size: .5em;
+    }
+ 
+    #gymnasieskolen {
+	width: 100px;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+    #logo {
+	height: 300px;
+    }
+
+    #button-row {
+	margin-top: 2em;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+    #logo {
+	margin-top: 5em;
+	height: 300px;
+    }
+
+    ul.dropdown-menu {
+	margin-bottom: 1.6em !important;
+    }
+
+    #button-row {
+	margin-top: 5em;
+    }
+
+    .text, #footer {
+	font-size: 1.5em;
+    }
+
+    #news_box {
+	//top: 6em; 
+	//left: 40em; 
+	padding: 5px;
+	font-size: 1em;
+    }
+    
+    #gymnasieskolen {
+	width: 200px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+    #logo {
+	margin-top: 10em;
+	height: 200px;
+    }
+
+    .yubioBtn {
+	font-size: 10pt;
+    }
+
+    ul.dropdown-menu {
+	margin-bottom: 1.3em !important;
+    }
+
+    #button-row {
+	margin-top: 5em;
+    }
+
+    .text, #footer {
+	font-size: 1.2em;
+    }
+
+    #news_box {
+	top: 20em; 
+	//left: 60em; 
+	padding: 5px;
+	font-size: .5em;
+    }
+    
+    #gymnasieskolen {
+	width: 100px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    #logo {
+	margin-top: 4em;
+	height: 350px;
+    }
+
+
+    #button-row {
+	margin-top: 5em;
+    }
+
+    .text, #footer {
+	font-size: 1.5em;
+    }
+
+    #news_box {
+	//top: 6em; 
+	//left: 60em; 
+	padding: 5px;
+	font-size: 1em;
+    }
+    
+    #gymnasieskolen {
+	width: 200px;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+    #logo {
+	margin-top: 10em;
+	height: 600px;
+    }
+
+
+    #button-row {
+	margin-top: 5em;
+    }
+
+    .text, #footer {
+	font-size: 2em;
+    }
+
+    #news_box {
+	//top: 6em; 
+	//left: 60em; 
+	padding: 5px;
+	font-size: 1em;
+    }
+    
+    #gymnasieskolen {
+	width: 200px;
+    }    
+}
+
+/* iPhone 4 (portrait) ----------- */
+@media 
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : portrait),
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-pixel-ratio : 1.5) and (orientation : portrait){
+/* Styles */
+    #logo {
+	margin-top: 4em;
+	height: 100px;
+    }
+
+    .yubioBtn {
+	width: 5em;
+	font-size: 6pt;
+    }
+
+
+    ul.dropdown-menu {
+	margin-bottom: 0.8em !important;
+    }
+
+    #button-row {
+	margin-top: 5em;
+    }
+
+    .dropdown-menu {
+	font-size: 8pt;
+    }
+
+    .menu-item {
+	height: 1.1em !important;
+	line-height: 1.1em !important;
+	font-size: 6pt;
+    }
+
+    /* Arrow in submenu */
+    /*.dropdown-submenu > a:after {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width-value: 2px;
+	border-right-width-value: 3px;
+	margin-top: 3px;
+    }*/
+
+
+    .text, #footer {
+	font-size: .8em;
+    }
+    
+    #news_box {
+	//top: 6em; 
+	//left: 24em; 
+	padding: 3px;
+	font-size: .5em;
+    }
+ 
+    #gymnasieskolen {
+	width: 100px;
+    }
+
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : landscape),
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-pixel-ratio : 1.5) and (orientation : landscape){
+    /* Styles */
+    #logo {
+	margin-top: 2em;
+	height: 100px;
+    }
+
+    .yubioBtn {
+	width: 6em;
+	font-size: 8pt;
+    }
+
+
+    ul.dropdown-menu {
+	margin-bottom: 1.0em !important;
+    }
+
+
+    #button-row {
+	margin-top: 2em;
+    }
+
+    .menu-item {
+	height: 1.1em !important;
+	line-height: 1.1em !important;
+	font-size: 6pt;
+    }
+
+    /* Arrow in submenu */
+    .dropdown-submenu > a:after {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width-value: 2px;
+	border-right-width-value: 3px;
+	margin-top: 3px;
+
+    }
+
+
+    .text, #footer {
+	font-size: 1em;
+    }
+
+    #news_box {
+	//top: 4em; 
+	//left: 37em; 
+	padding: 3px;
+	font-size: .5em;
+    }
+ 
+    #gymnasieskolen {
+	width: 100px;
+    }
+
+}

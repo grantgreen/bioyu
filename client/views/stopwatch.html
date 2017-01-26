@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+    <div id="container"></div>
+    <script src="../lib/kinetic-latest.min.js"></script>
+    <script src="../js/stopwatch.js"></script>
+    <!-- script src="http://www.yubio.dk/js/stopwatch.js"></script -->
+    <script>
+      var stopWatch = new StopWatch('container');
+    </script>
+    <button onclick="javascript: stopWatch.start();">START</button>
+    <button onclick="javascript: document.getElementById('split').innerHTML = stopWatch.stop();">STOP</button>
+    <button onclick="javascript: document.getElementById('split').innerHTML = stopWatch.restart();">RESTART</button>
+    <button onclick="javascript: document.getElementById('split').innerHTML = stopWatch.splitTime();">SPLIT</button><span id="split"></span>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+form.order fieldset {
+    border-style: solid;
+    border-width: .2em;
+    border-color: #5C6CAA;
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+    width: 100%;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+form.order label {
+    height: 3em;
+    line-height: 3em;
+    padding-left: .4em;
+}
+
+form.order input {
+    height: 3em;
+}
+
+form.order legend {
+    margin-left: 2%;
+    padding-left: 1%;
+    border: none;
+    width: 90%;
+    font-size: 14pt;
+}
+
+#legend {
+    /*padding: 0 2em 0 1em;
+    width: 100%;*/
+}
+
+input, textarea {
+    color: #1C203A;
+}
+
+
+input:disabled + label {
+    color: #6c6c6c;
+}
+
+input:enabled + label {
+    color: #ffffff;
+}
+
+form.order .textfields fieldset {
+    height: auto;
+}
+
+form.order fieldset#notes {
+    height: auto;
+}
+
+
+form.order .textfields input, textarea {
+    margin-left: 7.5%;
+    width: 80%;
+}
+
+form.order .textfields textarea {
+    height: 10em;
+}
+
+label {
+    display: block;
+}
+
+label#label-accept { 
+    line-height: 1.4em;
+    height: 6.8em;
+    width   : 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);    
+}
+
+
+form.order input[type="submit"] { 
+    appearance: none; 
+
+    color: #ffffff;
+    display : inline-block;
+    padding : 2px 5px;
+    cursor  : pointer;
+    border  : 1px #000000 solid; 
+    height  : 4em;
+    width   : 80%;
+    background: #202869;
+    text-align: center;
+    vertical-align: top;
+    line-height: 4em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16pt;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);    
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+    body {
+	font-size: 8pt;
+    }
+}

@@ -1,0 +1,273 @@
+<!-- GRANT ALL -->
+
+body, html {
+      /*background-image: url('../images/yubio_background.png');*/
+    background-color: #1C203A;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+input {
+    color: #000000
+}
+
+.ui-page {
+    background: #1C203A;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+
+canvas {
+    //border: 1px solid #9C9898;
+}
+
+#lightbox-container-image-box {
+    width: 20px
+}
+
+#lightbox-container-image-data-box {
+    width: 20px
+}
+
+#lightbox-image {
+    width: 20px
+}
+
+a.linkbox {
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    color: #ffffff;
+    background-position: center center; 
+    background-size: 140px;
+    background-repeat:  no-repeat;
+}
+
+a.linkbox_small {
+    height: 70px;
+    width: 70px;
+    background-size: 70px;
+}
+
+.unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    /* this will work for QtWebKit in future */
+    -webkit-user-drag: none;
+}
+
+span.valign {
+    position: relative;
+    top: 50%;
+}
+
+td.menuentry {
+    height: 90px;
+    width: 90px;
+
+}
+
+a.up {
+    margin: 5px;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+}
+
+a.down {
+    margin: 10px 0px 0px 10px;
+}
+
+label.button { 
+    display : inline-block;
+    padding : 5px 12px;
+    cursor  : pointer;
+    border  : 1px #000000 solid; 
+    height  : 70px;
+    width   : 140px;
+    line-height: 70px;
+    background: #202869;
+    text-align: center;
+    vertical-align: center;
+    margin: 5px;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+}
+      
+input[type="radio"] { 
+    display: none; 
+}
+
+input[type="radio"]:checked + label { 
+    background: #5C6CAA;
+}
+
+/* hover style */
+input[type="radio"] + label:hover { }
+input[type="radio"]:checked + label:hover { }
+
+
+input[type="checkbox"] { 
+    display: none; 
+}
+
+input[type="checkbox"]:checked + label { 
+    background: #5C6CAA;
+}
+
+
+input[type="submit"] { 
+    appearance: none; 
+
+    color: #ffffff;
+    display : inline-block;
+    padding : 2px 5px;
+    cursor  : pointer;
+    border  : 1px #000000 solid; 
+    height  : 70px;
+    width   : 150px;
+    background: #202869;
+    text-align: center;
+    vertical-align: center;
+    line-height: 70px;
+    margin: 5px;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);    
+}
+
+input[type="submit"]:active {
+    margin: 10px 0px 0px 10px;    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+} 
+
+fieldset {
+    display: inline-block;
+}
+
+legend {
+    color: #ffffff;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    padding-top: 6em;
+    
+    z-index: 10000;
+}  
+
+.scores {
+    padding: 0em .2em;
+}
+
+.yubioBtn {
+    display: inline-block;
+    width: 8em;
+    height: 1.4em;
+    color: #ffffff !important;
+    background-color: #1C203A;
+    border-style: solid;
+    border-width: .15em;
+    border-color: #5C6CAA;
+    text-decoration: none;
+    line-height: 1.1em;
+    margin: 0 .5em;
+    font-size: 14pt;
+    font-weight: 100;
+    border-radius: 0px !important;
+    vertical-align: middle;
+
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+
+}
+
+.yubioBtn:disabled {
+    opacity: 0.3;
+}
+
+.yubioBtn:link,.yubioBtn:visited,.yubioBtn:active,.yubioBtn:hover { 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.yubioBtnSolid {
+    display: inline-block;
+    width: 8em;
+    height: 1.4em;
+    color: #ffffff !important;
+    background-color: #5C6CAA;
+    border-style: solid;
+    border-width: .15em;
+    border-color: #5C6CAA;
+    text-decoration: none;
+    line-height: 1.4em;
+    margin: 0 .5em;
+    font-size: 14pt;
+    font-weight: 100;
+    border-radius: 0px !important;
+
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+
+}
+
+
+.yubioLink,.yubioLink:link,.yubioLink:visited,.yubioLink:active,.yubioLink:hover { 
+    text-decoration: none;
+    cursor  : pointer;
+    padding: 2px 4px; 
+    background: #EA661E; 
+    color: #1C203A; 
+    margin: 5px 5px 5px 0px;
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+
+}
+
+.panel-default {
+    border: none
+}
+                    
+.panel-heading {
+    background: #202869 !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.panel-body {
+    background: #1C203A;
+    border: none !important;
+}
+
+.panel-collapse {
+    background: #1C203A;
+    border: none;
+}
+

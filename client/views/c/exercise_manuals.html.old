@@ -1,0 +1,97 @@
+<!-- GRANT ALL -->
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../lib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+        var backButton = imgButton("mainBack", "javascript:history.back()", 'images/icons/yubio_back_icon.svg');
+        var mainTopic = imgButton("mainYubio", "index_tiles.html", 'images/yubio_logo_pure.svg');
+      });      
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+	<div class="span12" style="text-align: center">
+	  <span id="mainBack"></span>
+	  <span id="mainTopic"></span>
+	  <span id="mainYubio"></span>
+	</div>
+      </div>
+
+
+      <br />      
+      <br />
+
+      <div class="row" style="text-align: left">
+	<div class="span4">
+	</div>
+	<div class="span8" id="linksContainer">
+
+
+<h2>Kapitel 1: Liv, evolution og celler</h2>
+<p><a class="yubioLink" href="../pdfs/em/1_Det_kommer_an_paa_stoerrelsen.pdf">Det kommer an på størrelsen</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Du_er_ikke_alene.pdf">Du er ikke alene</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Evolution.pdf">Evolution</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Mikroskopi_af_plante_og_dyreceller.pdf">Mikroskopi af plante og dyreceller</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Osmose_og_kartoffelceller.pdf">Osmose og kartoffelceller</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Slaegtskab_og_stamtraeer.pdf">Slægtskab og stamtræer</a></p>
+<p><a class="yubioLink" href="../pdfs/em/1_Survival_of_the_fittest.pdf">Survival of the fittest</a></p>
+<h2>Kapitel 2: Lunger og blod</h2>
+<p><a class="yubioLink" href="../pdfs/em/2_Aandedraetssystemet.pdf">Åndedrætssystemet</a></p>
+<p><a class="yubioLink" href="../pdfs/em/2_Dissektion_af_svinehjerte.pdf">Dissektion af svinehjerte</a></p>
+<p><a class="yubioLink" href="../pdfs/em/2_Maaling_af_haematokritvaerdi.pdf">Måling af hæmatokritværdi</a></p>
+<p><a class="yubioLink" href="../pdfs/em/2_Puls_blodtryk_og_rygning.pdf">Puls blodtryk og rygning</a></p>
+<p><a class="yubioLink" href="../pdfs/em/2_Puls_og_arbejde.pdf">Puls og arbejde</a></p>
+<p><a class="yubioLink" href="../pdfs/em/2_Regulering_af_aandedraet_og_blodkredsloeb.pdf">Regulering af åndedraet og blodkredsløb</a></p>
+<h2>Kapitel 3: Kost, fordøjelse og sundhed</h2>
+<p><a class="yubioLink" href="../pdfs/em/3_En_tur_paa_McDonalds.pdf">En tur paa McDonalds</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Fordoejelse_af_en_burger.pdf">Fordøjelse af en burger</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Fordoejelse_af_fedtstoffer.pdf">Fordøjelse af fedtstoffer</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Kostundersoegelse.pdf">Kostundersøgelse</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Kulhydrater_og_blodsukkeret.pdf">Kulhydrater og blodsukkeret</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Spytamylase.pdf">Spytamylase</a></p>
+<p><a class="yubioLink" href="../pdfs/em/3_Sundhedstjek.pdf">Sundhedstjek</a></p>
+<h2>Kapitel 4: Nervesystemet</h2>
+<p><a class="yubioLink" href="../pdfs/em/4_Alkohol_og_praestationsevnen.pdf">Alkohol og praestationsevnen</a></p>
+<p><a class="yubioLink" href="../pdfs/em/4_Forsoeg_med_sanserne.pdf">Forsøg med sanserne</a></p>
+<h2>Kapitel 5: Sexologi</h2>
+<p><a class="yubioLink" href="../pdfs/em/5_Kondomer_og_koenssygdomme.pdf">Kondomer og kønssygdomme</a></p>
+<p><a class="yubioLink" href="../pdfs/em/5_Optaelling_af_saedceller.pdf">Optælling af sædceller</a></p>
+<p><a class="yubioLink" href="../pdfs/em/5_Testikler_og_aeggestokke.pdf">Testikler og æggestokke</a></p>
+<p><a class="yubioLink" href="../pdfs/em/5_Undersoegelse_af_saedproeve.pdf">Undersøgelse af sædproeve</a></p>
+
+
+<h2>Kapitel 6: Muskler, træning og doping</h2>
+Kommer snart
+<h2>Kapitel 7: DNA, gener og nedarvning</h2>
+Kommer snart
+<h2>Kapitel 8: Bioteknologi</h2>
+Kommer snart
+<h2>Kapitel 9: Økosystemer</h2>
+Kommer snart
+<h2>Kapitel 10: Forurening</h2>
+Kommer snart
+
+
+	</div>
+      </div>
+    </div>
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,1 @@
+convert yubio_cover.jpg weekly_winners/week_1_54b2e09fc43614dd0b17eda3.jpg -geometry 60x60+0+170 -composite -format jpg -quality 100 output.jpg

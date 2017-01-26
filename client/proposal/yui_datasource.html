@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <!-- Dependencies -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/yahoo/yahoo-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.9.0/build/event/event-min.js"></script>
+    
+    <!-- OPTIONAL: JSON Utility -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/json/json-min.js"></script>
+    
+    <!-- OPTIONAL: Connection (enables XHR) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/connection/connection-min.js"></script>
+    
+    <!-- Source file -->
+    <!-- OPTIONAL: Get (enables dynamic script nodes) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/get/get-min.js"></script>
+    
+    <script src="http://yui.yahooapis.com/2.9.0/build/datasource/datasource-min.js"></script>
+    
+    <!--CSS file (default YUI Sam Skin) -->
+    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.9.0/build/datatable/assets/skins/sam/datatable.css">
+
+
+ 
+    <!-- Dependencies -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script src="http://yui.yahooapis.com/2.9.0/build/element/element-min.js"></script>
+    <script src="http://yui.yahooapis.com/2.9.0/build/datasource/datasource-min.js"></script>
+
+    <!-- OPTIONAL: JSON Utility (for DataSource) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/json/json-min.js"></script>
+ 
+    <!-- OPTIONAL: Connection Manager (enables XHR for DataSource) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/connection/connection-min.js"></script>
+ 
+    <!-- OPTIONAL: Get Utility (enables dynamic script nodes for DataSource) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/get/get-min.js"></script>
+ 
+    <!-- OPTIONAL: Drag Drop (enables resizeable or reorderable columns) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/dragdrop/dragdrop-min.js"></script>
+ 
+    <!-- OPTIONAL: Calendar (enables calendar editors) -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/calendar/calendar-min.js"></script>
+ 
+    <!-- Source files -->
+    <script src="http://yui.yahooapis.com/2.9.0/build/datatable/datatable-min.js"></script>
+    <script src="../js/yui_datasource.js"></script>
+  </head>
+
+  <body class="yui-skin-sam" style="background: green">
+
+    <div id="calendarContainer"></div> 
+    
+    <div id="timeContainer" style="width: 60px; margin-left: auto; margin-right: auto">
+    </div>
+
+    <div id="timeContainer1" style="width: 60px; margin-left: auto; margin-right: auto">
+    </div>
+
+
+<script type="text/javascript">
+  var hour_tens = 1;
+  var hour_ones = 2;
+  var step = function(elementId, inc, max, hourTensLimiter, limitHourTens, hourOnesLimiter, limitHourOnes) {
+    if(limitHourTens && hour_tens == 2) {
+      max = 3;
+    }
+    if(limitHourOnes && hour_ones > 3) {
+      max = 1;
+    }
+    var element = document.getElementById(elementId);
+    var value = Number(element.innerHTML);
+    value += inc;
+    max++;
+    value = value < 0 ? (max + value) % max : value % max;
+    element.innerHTML = value;
+    if(hourTensLimiter) {
+      hour_tens = value;
+    }
+    if(hourOnesLimiter) {
+      hour_ones = value;
+    }
+  }
+
+
+
+</script>
+
+
+
+<table>
+  <tr>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('hour_tens', 1, 2, true, null, null, true);">&#x25B2;</span>
+    </td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('hour_ones', 1, 9, null, true, true, null);">&#x25B2;</span>
+    </td>
+    <td></td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('minute_tens', 1, 5);">&#x25B2;</span>
+    </td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('minute_ones', 1, 9);">&#x25B2;</span>
+    </td>
+  </tr>
+  <tr>
+    <td id="hour_tens">
+      1
+    </td>
+    <td id="hour_ones">
+      2
+    </td>
+    <td>:</td>
+    <td id="minute_tens">
+      3
+    </td>
+    <td id="minute_ones">
+      0
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('hour_tens', -1, 2, true, null, null, true);">&#x25BC;</span>
+    </td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('hour_ones', -1, 9, null, true, true, null);">&#x25BC;</span>
+    </td>
+    <td></td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('minute_tens', -1, 5);">&#x25BC;</span>
+    </td>
+    <td>
+      <span style="font-size: 8pt; float: left" onclick="step('minute_ones', -1, 9);">&#x25BC;</span>
+    </td>
+  </tr>
+</table>
+
+  </body>
+</html>

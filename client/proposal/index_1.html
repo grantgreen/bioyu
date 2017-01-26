@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Required CSS -->
+<link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.9.0/build/treeview/assets/skins/sam/treeview.css">
+<!-- Optional CSS for for date editing with Calendar-->
+<link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.9.0/build/calendar/assets/skins/sam/calendar.css">
+
+<!-- Dependency source file --> 
+<script src="http://yui.yahooapis.com/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js" ></script>
+<!-- Optional dependency source file --> 
+<script src="http://yui.yahooapis.com/2.9.0/build/animation/animation-min.js" type="text/javascript"></script>
+<!-- Optional dependency source file for date editing with Calendar--> 
+<script src="http://yui.yahooapis.com/2.9.0/build/calendar/calendar-min.js" ></script>
+<!-- Optional dependency source file to decode contents of yuiConfig markup attribute--> 
+<script src="http://yui.yahooapis.com/2.9.0/build/json/json-min.js" ></script>
+
+<!-- TreeView source file --> 
+<script src="http://yui.yahooapis.com/2.9.0/build/treeview/treeview-min.js" ></script>
+
+<style>
+body {
+  background: #000000;
+  background-image: url('images/LOGO_youbio.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1000px;
+}
+
+</style>
+</head>
+
+<body class="yui-skin-sam">
+
+<div id="treeDiv1" style="margin-top: 50px; margin-left: 20px"></div>
+
+<script type="text/javascript">
+
+  //global variable to allow console inspection of tree:
+  var tree;
+  
+  //anonymous function wraps the remainder of the logic:
+  (function() {
+  
+  //function to initialize the tree:
+  function treeInit() {
+  buildRandomTextNodeTree();
+  }
+  
+  //Function  creates the tree and 
+  //builds between 3 and 7 children of the root node:
+    function buildRandomTextNodeTree() {
+  
+		//instantiate the tree:
+        tree = new YAHOO.widget.TreeView("treeDiv1");
+
+        var bookNode = new YAHOO.widget.TextNode({"label": "Bogen"} , tree.getRoot(), false);
+        var chp1Node = new YAHOO.widget.TextNode({"label": "Kapitel 1"} , bookNode, false);
+
+        var chp1Part1Node = new YAHOO.widget.TextNode({"label": "Afsnit 1"} , chp1Node, false);
+        var chp1Part1QuizNode = new YAHOO.widget.TextNode({"label": "Quiz", "href": "../views/questionnaire.html"} , chp1Part1Node, false);
+
+        var chp1Part2Node = new YAHOO.widget.TextNode({"label": "Afsnit 2"} , chp1Node, false);
+        var chp1Part2QuizNode = new YAHOO.widget.TextNode({"label": "Quiz", "href": "../views/questionnaire.html"} , chp1Part2Node, false);
+
+        var chp2Node = new YAHOO.widget.TextNode({"label": "Kapitel 2"} , bookNode, false);
+        var chp3Node = new YAHOO.widget.TextNode({"label": "Kapitel 3"} , bookNode, false);
+        var chp4Node = new YAHOO.widget.TextNode({"label": "Kapitel 4"} , bookNode, false);
+        var chp5Node = new YAHOO.widget.TextNode({"label": "Kapitel 5"} , bookNode, false);
+        var chp6Node = new YAHOO.widget.TextNode({"label": "Kapitel 6"} , bookNode, false);
+        var chp7Node = new YAHOO.widget.TextNode({"label": "Kapitel 7"} , bookNode, false);
+
+       // Expand and collapse happen prior to the actual expand/collapse,
+       // and can be used to cancel the operation
+       tree.subscribe("expand", function(node) {
+              YAHOO.log(node.index + " was expanded", "info", "example");
+              // return false; // return false to cancel the expand
+           });
+
+       tree.subscribe("collapse", function(node) {
+              YAHOO.log(node.index + " was collapsed", "info", "example");
+           });
+
+       // Trees with TextNodes will fire an event for when the label is clicked:
+       tree.subscribe("labelClick", function(node) {
+              YAHOO.log(node.index + " label was clicked", "info", "example");
+           });
+
+		//The tree is not created in the DOM until this method is called:
+        tree.draw();
+    }
+
+	//Add a window onload handler to build the tree when the load
+	//event fires.
+    YAHOO.util.Event.addListener(window, "load", treeInit);
+
+})();
+
+</script>
+
+</body>
+</html>
