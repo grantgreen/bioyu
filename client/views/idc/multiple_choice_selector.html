@@ -1,0 +1,60 @@
+<!-- GRANT ALL -->
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+   
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+
+    <script type="text/javascript">
+      var overrideResizable = true; //override resizable function of jQuery UI (if used) to resize in all directions
+    </script>
+
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="../../js/multiple_choice_selector.js" ></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+        initializeTOC("!!chapter!".match(/(\d+)\.?(\d+)?\.?(\d+)?/), "!!topic!", "/idc");
+
+//        $("#back_button").align({top:window, left:window});
+//        $("#page_button").align({top:window, left:{at:1, selector:'#back_button'}});
+//        $("#yubio_button").align({top:window, right:window});
+//        $("#container").align({top:"#back_button"});
+
+
+      });
+
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="text-align:center">
+	<div class="col-md-12">	  
+
+	  <span id="mainBack"></span>
+	  <span id="mainTopic"></span>
+	  <span id="mainUCPhysiology"></span>
+	  <span id="mainUCBiochemistry"></span>
+	  <span id="mainUCGenetics"></span>
+	  <span id="mainUCEcology"></span>
+	  <span id="mainUC"></span>
+	  <span id="mainYubio"></span>
+	  
+	</div>
+      </div>
+      <div class="row" style="text-align:center">
+	<div class="col-md-12" id="column1">
+	</div>
+      </div>
+    </div>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

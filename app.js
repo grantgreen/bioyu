@@ -15,6 +15,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/yubio', function(err, db) {
     
     var db_b = db.db("yubio_b");
     var db_c = db.db("yubio_c");
+    var db_idc = db.db("yubio_idc");
 
     var handle = {};
     var srv = server.get(router.route, handle);
@@ -25,7 +26,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/yubio', function(err, db) {
     handle = setupHandlers(db, handle, '/a/');
     handle = setupHandlers(db_b, handle, '/b/');
     handle = setupHandlers(db_c, handle, '/c/');
-
+    handle = setupHandlers(db_idc,handle,'/idc/');
     srv.listen(8100)
 });
 
