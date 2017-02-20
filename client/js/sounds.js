@@ -92,6 +92,10 @@ var getChapter = function(chapterNo, topic, bookType) {
 			    else if(bookType == "/c") {
 				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
 			    }
+			    else if(bookType == "/idc")
+			    {
+			    	url = "https://dl.dropboxusercontent.com/u/15548501/Idr%C3%A6t%20C/Lyd/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp4";
+			    }
 			    else {
 				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler/Kapitel%20" +  chapterNo + "/" + subchapterLink + ".mp3";
 			    }

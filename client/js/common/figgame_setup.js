@@ -78,7 +78,7 @@ var initFigGame = function (chapter, topic, bookType) {
 		var element = $('input[name=figure]:checked', '#figForm');
 		var figName = element.val()
 		var figType = element.data("figureType");
-		startFigGame(figName, bookType, figType);
+			(figName, bookType, figType);
 
 		$('#collapseSetup').collapse('hide');
 		$('#collapseGame').collapse('show');
