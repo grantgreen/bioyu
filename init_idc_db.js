@@ -6,37 +6,24 @@ db.contents.drop();
 db.contents.save(
     {"name": "Kapitel 1: Idræt og sundhed", 
      "sub": [
-	 {"name": "1.1 Der var engang...",
+	 {"name": "1.1 Bevægelse og sundhed",
 	  "sub": [
-	      "1.1.1 Den tidlige Jord",
-	      "1.1.2 Livet opstår på Jorden",
-	      "1.1.3 Er vi alene?"
+	      "1.1.1 Idræt som mål eller middel?",
+	      "1.1.2 Sundhedsfordele ved fysisk aktivitet",
+	      "1.1.3 Anbefalinger ved fysisk aktivitet"
 	  ]},
-	 {"name": "1.2 Prokaryoter",
+	 {"name": "1.2 Er jeg sund?",
 	  "sub": [
-	      "1.2.1 Den prokaryote celle",
-	      "1.2.2 De gode og de grumme",
-	      "1.2.3 Bekæmpelse af bakterier"
+	      "1.2.1 Sundhedsmålinger",
+	      "1.2.2 KRAM",
+	      "1.2.3 Psykisk sundhed - skal jeg i bad?"
 	  ]},
 
-	 {"name": "1.3 Eukaryoter",
+	 {"name": "1.3 Min sundhedsprofil",
 	  "sub": [
 	      "1.3.1 Den eukaryote celle",
 	      "1.3.2 Membrantransport"
 	  ]},
-
-	 {"name": "1.4 Virus",
-	  "sub": []},
-
-	 {"name": "1.5 Evolution",
-	  "sub": [
-	      "1.5.1 Den naturlige selektion",
-	      "1.5.2 Dannelsen af nye arter",
-	      "1.5.3 Menneskets evolution",
-	      "1.5.4 Stamtræer",
-	      "1.5.5 Kreationisme"
-	  ]},
-
 	 {"name": "Resume",
 	  "sub": []}
      ]
@@ -46,33 +33,28 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 2: Menneskets fysiologi",
      "sub": [
-	 {"name": "2.1 Generelt",
+	 {"name": "2.1 Indledning",
 	  "sub": []},
-	 {"name": "2.2 Åndedrætssystemet",
+	 {"name": "2.2 Åndedrætssystem og blodkredsløb",
 	  "sub": [
-	      "2.2.1 Luftvejenes opbygning",
-	      "2.2.2 Gasudveksling i alveolerne",
-	      "2.2.3 Åndedræt"
+	      "2.2.1 Åndedræt og vejrtrækning",
+	      "2.2.2 Blodkredsløb og puls",
+	      "2.2.3 Reguleringsmekanismer"
 	  ]},
-	 {"name": "2.3 Blodkredsløbet",
+	 {"name": "2.3 Muskler, knogler og led",
 	  "sub": [
-	      "2.3.1 Kredsløbets opbygning",
-	      "2.3.2 Mere om hjertet",
-	      "2.3.3 Blodets bestanddele",
-	      "2.3.4 Blodtryk, blodprop og venepumpe"
+	      "2.3.1 Musklernes opbygning og funktion",
+	      "2.3.2 Tre typer muskelarbejde",
+	      "2.3.3 Mere om muskelarbejde",
+	      "2.3.4 Nervesystemet og musklerne",
+	      "2.3.5 Anatomi"
 	  ]},
-	 {"name": "2.4 Den arbejdende krop",
+	 {"name": "2.4 Kost og energi",
 	  "sub": [
-	      "2.4.1 Lungeventilation og minutvolumen",
-	      "2.4.2 Reguleringsmekanismer"
+	      "2.4.1 Næringsstoffer og træning",
+	      "2.4.2 Dannelsen af ATP i Kroppen"
 	  ]},
-	 {"name": "2.5 Kroppen i ekstreme miljøer",
-	  "sub": [
-	      "2.5.1 Bjergbestigning",
-	      "2.5.2 Dykning",
-	      "2.5.3 Temperatur"
-	  ]},
-	 {"name": "Resume",
+	  {"name": "Resume",
 	  "sub": []}	 
      ]
     });
@@ -80,38 +62,31 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 3: Træningslære",
      "sub": [
-	 {"name": "3.1 Generelt",
+	 {"name": "3.1 Superkompensation",
 	  "sub": [],
 	  "hasQuestions": false
 	 },
-	 {"name": "3.2 Kostens sammensætning",
+	 {"name": "3.2 Arbejdets tre faser",
+	  "sub": []	},
+	 {"name": "3.3 Opvarmning/nedvarmning",
+	  "sub": []},
+	 {"name": "3.4 Aerob træning",
 	  "sub": [
-	      "3.2.1 Energibetragtninger",
-	      "3.2.2 Kostråd",
-	      "3.2.3 Kulhydrater",
-	      "3.2.4 Fedtstoffer",
-	      "3.2.5 Proteiner",
-	      "3.2.6 Vitaminer og mineraler",
-	      "3.2.7 Væske",
-	      "3.2.8 Kost og træning"
+	      "3.4.1 Kondital og udholdenhed",
+	      "3.4.2 Kontinuerlig træning",
+	      "3.4.3 Intervaltræning",
+	      "3.4.4 Mærkbare effekter",
 	  ]},
-	 {"name": "3.3 Fordøjelsen",
+	  {"name": "3.5 Anerob træning",
+	  "sub": []},
+	   {"name": "3.6 Styrketræning",
 	  "sub": [
-	      "3.3.1 Fordøjelsesenzymer",
-	      "3.3.2 Nedbrydning af føden",
-	      "3.3.3 Optagelse til blodet",
-	      "3.3.4 Tyktarm og endetarm"
+	      "3.6.1 Muskelstyrke",
+	      "3.6.2 Muskeludholdenhed",
+	      "3.6.3 Forspænding/spændstighed",
 	  ]},
-	 {"name": "3.4 Sundhed",
-	  "sub": [
-	      "3.4.1 Sundhedsparametre",
-	      "3.4.2 Blodsukkerregulering og diabetes",
-	      "3.4.3 Overvægt og fedme",
-	      "3.4.4 Slankekure",
-	      "3.4.5 Spiseforstyrrelser",
-	      "3.4.6 Alternativ kost",
-	      "3.4.7 KRAM-faktorer"
-	  ]},
+	   {"name": "3.7 Smidighedstræning",
+	  "sub": []},
 	 {"name": "Resume",
 	  "sub": []}	 
      ]
@@ -120,27 +95,33 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 4: Doping",
      "sub": [
-	 {"name": "4.1 Generelt",
+	 {"name": "4.1 Dopings historie",
 	  "sub": []},
-	 {"name": "4.2 Nervecellen",
+	 {"name": "4.2 Dopinglisten, tests og straf",
 	  "sub": [
 	  ]},
-	 {"name": "4.3 Nervesignaler",
+	 {"name": "4.3 Hvem doper sig?",
 	  "sub": [
-	      "4.3.1 Aktionspotentialet",
-	      "4.3.2 Aktionspotentialets vandring",
-	      "4.3.3 Synapsen",
-	      "4.3.4 Fremmende og hæmmende signaler",
-	      "4.3.5 Reflekser"
 	  ]},
-	 {"name": "4.4 Hjernen og euforiserende stoffer",
+	 {"name": "4.4 Skal doping frigives?",
 	  "sub": [
-	      "4.4.1 Hjerne og rygmarv",
-	      "4.4.2 Alkohol",
-	      "4.4.3 Hash",
-	      "4.4.4 Ecstasy",
-	      "4.4.5 Nikotin",
-	      "4.4.6 Rohypnol"
+	  ]},
+	  {"name": "4.5 Doping og udholdenhed",
+	  "sub": [
+	  	"4.5.1 EPO",
+	  	"4.5.2 Bloddoping",
+	  	"4.5.3 Andre metoder",
+	  ]},
+	   {"name": "4.6 Doping og styrke",
+	  "sub": [
+	  	"4.6.1 Anabolske steorider",
+	  	"4.6.2 Andre metoder",
+	  ]},
+	   {"name": "4.7 Mand eller kvinde",
+	  "sub": [
+	  ]},
+	   {"name": "4.8 Snyd ved tests",
+	  "sub": [
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}	 
@@ -150,83 +131,17 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 5: Idrætspsykologi",
      "sub": [
-	 {"name": "5.1 Generelt",
-	  "sub": [],
-	  "hasQuestions": false
+	 {"name": "5.1 Den individuelle toppræstation",
+	  "sub": [
+	   		"5.1.1 Motivation og målsætning",
+	      	"5.1.2 Koncentration og spændingsregulering",
+	  ],
 	 },
-	 {"name": "5.2 Kønnet og ukønnet formering",
+	 {"name": "5.2 oldets toppræstation",
 	  "sub": [
-	  ]},
-	 {"name": "5.3 Seksuel selektion og sexstrategier",
-	  "sub": [
-	      "5.3.1 Bryllupsgaver hos edderkopper?",
-	      "5.3.2 Gemmeleg eller fangeleg?",
-	      "5.3.3 Hvem er faderen?"
-	  ]},
-	 {"name": "5.4 Mandens anatomi",
-	  "sub": [
-	  ]},
-	 {"name": "5.5 Kvindens anatomi",
-	  "sub": [
-	  ]},
-	 {"name": "5.6 Hormoner og pubertet",
-	  "sub": [
-	      "5.6.1 Hormoner hos manden",
-	      "5.6.2 Hormoner hos kvinden"
-	  ]},
-	 {"name": "5.7 Samleje, orgasme og befrugtning",
-	  "sub": [
-	  ]},
-	 {"name": "5.8 Graviditet og fosterudvikling",
-	  "sub": [
-	  ]},
-	 {"name": "5.9 Fødsel og amning",
-	  "sub": [
-	      "5.9.1 Veer",
-	      "5.9.2 Fødselskanalen",
-	      "5.9.3 Kejsersnit",
-	      "5.9.4 Amning",
-	      "5.9.5 For tidligt fødte børn",
-	  ]},
-	 {"name": "5.10 Fosterdiagnostik",
-	  "sub": [
-	  ]},
-	 {"name": "5.11 Ufrivillig barnløshed",
-	  "sub": [
-	      "5.11.1 Hormonforstyrrende stoffer",
-	      "5.11.2 Kunstig befrugtning"
-	  ]},
-	 {"name": "5.12 Prævention og abort",
-	  "sub": [
-	      "5.12.1 Æg og sæd mødes ikke",
-	      "5.12.2 Hormonel prævention",
-	      "5.12.3 Nødprævention - fortrydelsespillen",
-	      "5.12.4 Abort"
-	  ]},
-	 {"name": "5.13 Seksuelt overførte sygdomme",
-	  "sub": [
-	      "5.13.1 Klamydia",
-	      "5.13.2 HPV og celleforandringer",
-	      "5.13.3 Kondylomer",
-	      "5.13.4 HIV og AIDS",
-	      "5.13.5 Herpes"
-	  ]},
-	 {"name": "5.14 Alternativ seksualitet",
-	  "sub": [
-	      "5.14.1 Homoseksualitet",
-	      "5.14.2 Transseksualitet",
-	      "5.14.3 Transvetisme",
-	      "5.14.4 Hermafroditter",
-	      "5.14.5 AIS-syndrom"
-	  ]},
-	 {"name": "5.15 Myter og fakta",
-	  "sub": [
-	      "5.15.1 Størrelsen og formen",
-	      "5.15.2 Forhudsforsnævring",
-	      "5.15.3 Impotens og mødom",
-	      "5.15.4 Onani, debut og antal partnere",
-	      "5.15.5 Graviditet, præ-sæd og sikre perioder",
-	      "5.15.6 Orgasme og orgasmejagt"
+	      "5.2.1 Det velfungerende team",
+	      "5.2.2 Samarbejde, roller & hierarki",
+	      "5.2.3 Kommunikation"
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}	 
@@ -236,30 +151,32 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 6: Idrætsskader",
      "sub": [
-	 {"name": "6.1 Generelt",
-	  "sub": [],
-	  "hasQuestions": false
+	 {"name": "6.1 Skader i musklerne",
+	  "sub": [
+    		"6.1.1 Fibersprængning og forstrækning",
+	      	"6.1.2 Trælår og 'lammer'"
+	  ],
 	 },
-	 {"name": "6.2 Muskler",
+	 {"name": "6.2 Skader i og omkring knæleddet",
 	  "sub": [
-	      "6.2.1 Opbygning og funktion",
-	      "6.2.2 Bevægelser og skader"
+	      "6.2.1 Meniskskader",
+	      "6.2.2 Ledbåndskader",
+	      "6.2.3 Korsbåndskader",
+	      "6.2.4 Løbeknæ og springerknæ",
 	  ]},
-	 {"name": "6.3 Energi til arbejdet",
+	 {"name": "6.3 Skader i fodledet",
 	  "sub": [
-	      "6.3.1 Arbejdets faser",
-	      "6.3.2 Næringsstoffer og RQ-værdi",
-	      "6.3.3 Muskeltræthed"
 	  ]},
-	 {"name": "6.4 Træningslære",
+	 {"name": "6.4 Andre Idrætsskader",
 	  "sub": [
-	      "6.4.1 Konditionstræning",
-	      "6.4.2 Styrketræning"
+	      "6.4.1 Skinnebensbetændelse",
+	      "6.4.2 Lyskenskade",
+	      "6.4.3 Overrevet akillessene",
+	      "6.4.4 Tennisalbue",
+	      "6.4.5 Knoglebrud",
 	  ]},
-	 {"name": "6.5 Doping",
+	 {"name": "6.5 Når skaden er sket",
 	  "sub": [
-	      "6.5.1 Doping i udholdenhedssport",
-	      "6.5.2 Doping i styrkesport"
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}	 
@@ -269,40 +186,32 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 7: Tests",
      "sub": [
-	 {"name": "7.1 Generelt",
-	  "sub": [],
-	  "hasQuestions": false
-	 },
-	 {"name": "7.2 Kromosomer",
+	 {"name": "7.1 Test af kondition",
+	 "sub": [
+	      "7.1.1 Biptest/yo-yo-test",
+	      "7.1.2 Coopers løbetest",
+	      "7.1.3 Åstrands nomogram",
+	      "7.1.4 Andre konditionstests"
+	 ]},
+	 {"name": "7.2 Test af styrke",
 	  "sub": [
-	      "7.2.1 Antal, størrelse og placering",
-	      "7.2.2 Opbygning"
+	      "7.2.1 Test af styrke i ben",
+	      "7.2.2 Test af styrke i overkrop"
 	  ]},
-	 {"name": "7.3 DNA",
+	 {"name": "7.3 Test af Muskeludholdenhed",
+	  "sub": [
+	      "7.3.1 Cirkeltræning",
+	  ]},
+	 {"name": "7.4 All-around test",
+	  "sub": [
+	      "7.4.1 Politi-testen",
+	      "7.4.2 Yubio-testen",
+	  ]},
+	 {"name": "7.5 Test af fibersammensætning",
 	  "sub": [
 	  ]},
-	 {"name": "7.4 Gener",
+	 {"name": "7.6 Test af opvarmningens effekt",
 	  "sub": [
-	      "7.4.1 Generelt",
-	      "7.4.2 Geners opbygning",
-	      "7.4.3 Særligt hos eukaryoter",
-	      "7.4.4 Specielle gener",
-	      "7.4.5 Mellem generne"
-	  ]},
-	 {"name": "7.5 Proteinsyntesen",
-	  "sub": [
-	      "7.5.1 RNA",
-	      "7.5.2 Transkription",
-	      "7.5.3 Splicing hos eukaryoter",
-	      "7.5.4 Translation",
-	      "7.5.5 Den genetiske kode",
-	      "7.5.6 Genregulering"
-	  ]},
-	 {"name": "7.6 Cellens cyklus",
-	  "sub": [
-	      "7.6.1 Vækstfase",
-	      "7.6.2 Mitosen",
-	      "7.6.3 Meiosen",
 	  ]},
 	 {"name": "7.7 Mutationer",
 	  "sub": [
@@ -423,43 +332,34 @@ db.contents.save(
 db.contents.save(
     {"name": "Kapitel 10: Boldbasis",
      "sub": [
-	 {"name": "10.1 Generelt",
+	 {"name": "10.1 Historie",
 	  "sub": [],
 	  "hasQuestions": false
 	 },
-	 {"name": "10.2 Vandforurening",
+	 {"name": "10.2 Teori om boldspil",
 	  "sub": [
-	      "10.2.1 Primær og sekundær forurening",
-	      "10.2.2 Tungmetaller",
-	      "10.2.3 Pesticider og andre gifte",
-	      "10.2.4 Hormonforstyrrende stoffer",
-	      "10.2.5 Forurening af søer",
-	      "10.2.6 Forurening af vandløb",
-	      "10.2.7 Forurening af havet",
-	      "10.2.8 Forurening af grundvand"
+	      "10.2.1 Boldspilsfamilierne",
+	      "10.2.2 Taktikker",
+	      "10.2.3 Læringstrinmodellen",
+	      "10.2.4 Spiludvikling",
 	  ]},
-	 {"name": "10.3 Vandrensning",
+	 {"name": "10.3 Øvelser",
 	  "sub": [
-	      "10.3.1 Renseanlæg",
-	      "10.3.2 Rensning af drikkevand",
-	      "10.3.3 Vandmiljøplaner"
+	      "10.3.1 Fokus på opvarmning (A)",
+	      "10.3.2 Kaosspil (B)",
+	      "10.3.3 Net/væg-spil (C)",
+	      "10.3.4 Slagspil (D)",
+	      "10.3.5 Træfspil (E)",
 	  ]},
-	 {"name": "10.4 Luftforurening",
+	 {"name": "10.4 Eksempel på boldbasisforløb",
 	  "sub": [
-	      "10.4.1 Forurening med skadelige partikler",
-	      "10.4.2 Forurening med radioaktive stoffer",
-	      "10.4.3 Forsuring",
-	      "10.4.4 Ozonlaget"
+	      "10.4.1 Generelt boldbasis",
+	      "10.4.2 Kaosspil og den gode holdspiller",
 	  ]},
-	 {"name": "10.5 Klimaforandringer",
+	 {"name": "10.5 Evaluering",
 	  "sub": [
-	      "10.5.1 Drivhuseffekten",
-	      "10.5.2 Kuldioxid og opvarmning",
-	      "10.5.3 Opvarmningens effekter",
-	      "10.5.4 Hvor stammer udledningen fra?",
-	      "10.5.6 Hvad skal vi gøre?"
 	  ]},
-	 {"name": "10.6 Naturgenopretning",
+	 {"name": "10.6 Drejebog",
 	  "sub": [
 	  ]},
 	 {"name": "Resume",
