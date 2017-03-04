@@ -27,9 +27,6 @@ var links = {
 	{"caption": "Hjemmeside for organisationen Verdens skove (Tidligere Nepenthes)",
 	 "link": "https://www.verdensskove.org/"},
 	
-	{"caption": "Oplysninger om forandringerne i Arktis. Energiministeriet ",
-	 "link": "http://detnyearktis.dk/"},
-
 	{"caption": "Hjemmeside om miljøundersøgelser i Grønland mm",
 	 "link": "http://www.geus.dk"},
 	

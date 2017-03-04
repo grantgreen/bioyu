@@ -9,8 +9,6 @@ var links = {
 	{"caption": "Darwinarkivet",
 	 "link": "http://www.darwinarkivet.dk/"},
 
-	{"caption": "Menneskets evolution",
-	 "link": "http://www.pkaj.dk/"},
 
 	{"caption": "Genbank",
 	 "link": "http://www.ncbi.nlm.nih.gov/genbank/"},

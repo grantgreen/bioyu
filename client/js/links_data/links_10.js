@@ -2,9 +2,6 @@ var links = {
     "10": [
 
 
-	{"caption": "Sportnetdoc",
-	 "link": "http://www.sportnetdoc.dk"},		
-
 	{"caption": "Aktiv træning",
 	 "link": "http://aktivtraening.dk/"},
 

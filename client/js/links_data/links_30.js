@@ -43,8 +43,6 @@ var links = {
 	{"caption": "Hjemmeside om miljøundersøgelser i Grønland mm.",
 	 "link": "http://www.geus.dk"},
 
-	{"caption": "Oplysninger om forandringerne i Arktis. Energiministeriet",
-	 "link": "http://detnyearktis.dk/"},
 
 	{"caption": "Greenpeaces hjemmeside",
 	 "link": "http://www.greenpeace.org/"},
@@ -73,20 +71,8 @@ var links = {
 	{"caption": "De danske vandværker",
 	 "link": "http://www.dkvand.dk/index1.htm"},
 
-	{"caption": "Det nye Arktis",
-	 "link": "http://www.detnyearktis.dk"},
-
-	{"caption": "Greenpeace",
-	 "link": "http://www.greenpeace.org/international/en/"},
-
-	{"caption": "Klimadebat",
-	 "link": "http://www.klimadebat.dk"},
-
 	{"caption": "EDGAR",
 	 "link": "http://edgar.jrc.ec.europa.eu/index.php"},
-
-	{"caption": "Vandstandskort",
-	 "link": "http://flood.firetree.net"},
 
 	{"caption": "Aktuel Naturvidenskab",
 	 "link": "http://aktuelnaturvidenskab.dk"},
