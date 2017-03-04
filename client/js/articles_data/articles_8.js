@@ -7,8 +7,7 @@ var links = {
     ],
 
     "8.2": [
-	{"caption": "Mænd har flere neuroner i hjernen end kvinder",
-	 "link": "http://videnskab.dk/blog/maend-har-flere-neuroner-end-kvinder-men-det-betyder-ikke-noget"}
+	
     ],
 
     "8.3": [
@@ -114,9 +113,6 @@ var links = {
 
 	{"caption": "Intelligenstest",
 	 "link": "http://www.testiq.dk/da-DK/default.aspx?__xca=adwords_Denmark_iq_test&gclid=CP-J1IPcsLYCFc94cAodMWkAZQ"},
-
-	{"caption": "En række artikler, der belyser forskellige emner relateret til søvn",
-	 "link": "http://videnskab.dk/emne/sovn"},
 
 	{"caption": "Lyset styrer din døgnrytme",
 	 "link": "http://videnskab.dk/teknologi/lyset-styrer-din-dognrytme"},

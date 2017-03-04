@@ -57,10 +57,7 @@ var links = {
  
 	{"caption": "Epigenetik og brystkræft",
 	 "link": "https://www.landesbioscience.com/journals/epigenetics/2013EPI0297R.pdf"},
- 
-	{"caption": "Seksuelt overført kræft hos hunde",
-	 "link": "http://www.eurekalert.org/pub_releases/2014-01/wtsi-1ld012214.php"},
- 
+  
 	{"caption": "Nye, meget kræftfremkaldende stoffer",
 	 "link": "http://www.eurekalert.org/pub_releases/2014-01/osu-ncd010614.php"},
  

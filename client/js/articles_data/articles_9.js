@@ -10,8 +10,6 @@ var links = {
 	{"caption": "Oversigtsartikel om muskler og led",
 	 "link": "http://www.netdoktor.dk/tema/muskler_knogler.shtml"},
 
-	{"caption": "Knoglerne og skelettet",
-	 "link": "http://da.wikipedia.org/wiki/Knogle_(anatomi)"},
 
 	{"caption": "Langsomme og hurtige muskelfibre",
 	 "link": "http://sportsmedicine.about.com/od/anatomyandphysiology/a/MuscleFiberType.htm"},
@@ -25,22 +23,13 @@ var links = {
 	{"caption": "Muskelsmerter og muskelømhed",
 	 "link": "http://www.netdoktor.dk/sygdomme/fakta/muskelsmerter.htm"},
 
-	{"caption": "Muskeltræthedens velbevarede hemmelighed",
-	 "link": "http://infolink2003.elbo.dk/Naturvidenskab/dokumenter/doc/8681.pdf"}
     ],
  
     "9.3": [
 
-	{"caption": "De glatte musklers anatomi og fysiologi",
-	 "link": "https://en.wikipedia.org/wiki/Smooth_muscle_tissue"},
-
-	{"caption": "De glatte muskler i bronkiolerne",
-	 "link": "http://hsc.uwe.ac.uk/rcp/rs-rt-bronchioles.aspx"},
-
+	
 	{"caption": "Glatte muskler i tarmkanalen og peristaltik",
 	 "link": "http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/gi_motility.html"},
 
-	{"caption": "Hjertemuskelceller",
-	 "link": "http://en.wikipedia.org/wiki/Cardiac_muscle_cell"}
     ]
 }

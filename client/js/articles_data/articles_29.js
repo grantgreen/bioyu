@@ -11,10 +11,7 @@ var links = {
     "29.3": [
 	{"caption": "Om insekter i danske vandløb",
 	 "link": "http://www.naturporten.dk/temaer/danmarks-dyr/tag/danmarks-dyr/Insekter%20-%20S%C3%B8%20og%20vandl%C3%B8b"},
- 
-	{"caption": "Om de danske vandløb",
-	 "link": "http://www.naturstyrelsen.dk/Naturbeskyttelse/National_naturbeskyttelse/Paragraf3/Beskyttelse_af_%C2%A73_Naturtyper/Vandloeb/"},
- 
+  
 	{"caption": "Om fisk i Danmark",
 	 "link": "http://www.naturporten.dk/temaer/danmarks-dyr/tag/danmarks-dyr/Fisk%20-%20Kyst%20og%20hav"}
     ],

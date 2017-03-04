@@ -35,17 +35,9 @@ var links = {
 	{"caption": "Om miljøfremmede stoffer og tungmetaller i det marine miljø",
 	"link": "http://www2.dmu.dk/1_Viden/2_Miljoe-tilstand/3_samfund/tilstandsrapport_horring/kap.%203.9%20.pdf"},
 
-	{"caption": "Naturstyrelsen om søer og vandløb",
-	"link": "http://www.naturstyrelsen.dk/Vandet/Soer_og_vandloeb/"},
-
+	
 	{"caption": "Grundvand",
 	"link": "http://www.naturstyrelsen.dk/Vandet/Vand-i-hverdagen/Grundvand/"},
-
-	{"caption": "Drikkevand",
-	"link": "http://www.naturstyrelsen.dk/Vandet/Vand-i-hverdagen/Drikkevand/"},
-
-	{"caption": "Spildevand",
-	"link": "http://www.naturstyrelsen.dk/Vandet/Vand-i-hverdagen/Spildevand/"},
 
 	{"caption": "Danmarks miljøportals hjemmeside. Her kan der findes data om miljø i Danmark",
 	"link": "http://www.miljoeportal.dk/borger/Sider/Borger.aspx"},
@@ -78,9 +70,6 @@ var links = {
  
 	{"caption": "Viden om luftforurening. Århus Universitet",
 	"link": "http://envs.au.dk/videnudveksling/luft/"},
-
-	{"caption": "Luftforurening. Danmarks Lungeforening",
-	"link": "http://www.lunge.dk/luftforurening"},
 
 	{"caption": "Luftforurening og forsuring af miljøet",
 	"link": "http://www.sns.dk/publikat/netpub/naturogm98/luften3.htm"}

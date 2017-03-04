@@ -60,11 +60,6 @@ var links = {
     ],
  
     "2.11": [
-	{"caption": "Sollys sænker blodtrykket",
-	 "link": "http://www.eurekalert.org/pub_releases/2014-01/uos-hct011714.php"},
- 
-	{"caption": "D-vitamin fra sollys afslapper blodkar og sænker dermed blodtrykket",
-	 "link": "http://www.vetmeduni.ac.at/en/infoservice/presseinformation/press-releases-2014/press-release-01-17-2014-here-comes-the-sun/"},
  
 	{"caption": "Ikke små-cellet lungekræft",
 	 "link": "https://www.sundhed.dk/borger/sygdomme-a-aa/lunger/sygdomme/svulster/lungekraeft-ikke-smaacellet/"},

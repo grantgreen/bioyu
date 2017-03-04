@@ -43,14 +43,6 @@ var links = {
 	{"caption": "Mendels anden lov",
 	 "link": "http://www.ndsu.edu/pubweb/~mcclean/plsc431/mendel/mendel3.htm"},
 
-	{"caption": "Dihybridkrydsninger",
-	 "link": "http://en.wikipedia.org/wiki/Dihybrid_cross"},
-
-	{"caption": "Epistasi",
-	 "link": "http://en.wikipedia.org/wiki/Epistasis"},
-
-	{"caption": "Koblede gener",
-	 "link": "https://en.wikipedia.org/wiki/Genetic_linkage"}
     ],
 
     "21.4": [
@@ -59,8 +51,7 @@ var links = {
 
     "21.5": [
 
-	{"caption": "Kvantitativ og multifaktoriel nedarvning",
-	 "link": "http://en.wikipedia.org/wiki/Quantitative_trait_locus#Heritable_disease_and_multifactorial_inheritance"}
+
     ],
 
     "21.6": [

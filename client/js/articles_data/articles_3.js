@@ -63,19 +63,13 @@ var links = {
 	{"caption": "Forhøjet blodtryk",
 	 "link": "http://min.medicin.dk/Sygdomme/Sygdom/31"},
 
-	{"caption": "Glykæmisk indeks GI",
-	 "link": "https://www.sundhed.dk/borger/sygdomme-a-aa/hormoner-og-stofskifte/sygdomme/diabetes-generelt/glykaemisk-indeks/"},
-
 	{"caption": "Er chokolade sundt for hjertet?",
 	 "link": "https://www.sundhed.dk/borger/sygdomme-a-aa/sundhedsoplysning/kost/moerk-chokolade-sundt-for-hjertet/"},
 
 	{"caption": "Hvidt og brunt fedt er ikke et fedt",
 	 "link": "http://videnskab.dk/krop-sundhed/hvidt-og-brunt-fedt-er-ikke-et-fedt"},
 
-	{"caption": "Kulde aktiverer de brune fedtceller",
-	 "link": "http://illvid.dk/klaus-wilhelm/kulde-aktiverer-de-brune-fedtceller-0"},
-
-	{"caption": "Proteiner gør dig slank (om brunt fedt)",
+		{"caption": "Proteiner gør dig slank (om brunt fedt)",
 	 "link": "http://videnskab.dk/krop-sundhed/proteiner-gor-dig-slank"}
     ],
  
