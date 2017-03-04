@@ -5,6 +5,7 @@ body, html {
     background-color: #1C203A;
     font-family: sans-serif;
     color: #ffffff;
+     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 input {

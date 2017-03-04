@@ -16,19 +16,13 @@ var links = {
 	{"caption": "Menneskets kromosomer og karyotype",
 	 "link": "http://www.youtube.com/watch?v=hNMYV213xu0"},
 
-	{"caption": "Autosomale kromosomer",
-	 "link": "http://learn.genetics.utah.edu/content/chromosomes/typesauto/"},
-	{"caption": "Genomet",
+		{"caption": "Genomet",
 	 "link": "http://www.dnalc.org/resources/3d/09-how-much-dna-codes-for-protein.html"},
-	{"caption": "Karyotype",
-	 "link": "http://learn.genetics.utah.edu/content/chromosomes/karyotype/"},
+	
 	{"caption": "Kromosomer",
 	 "link": "http://www.hhmi.org/biointeractive/human-chromosomes"},
 	{"caption": "Kromosomer 2", "link": "http://www.bozemanscience.com/what-are-chromosomes"},
-	{"caption": "X-kromosom DNA",
-	 "link": "http://learn.genetics.utah.edu/content/chromosomes/typesx/"},
-	{"caption": "Y-kromosom DNA",
-	 "link": "http://learn.genetics.utah.edu/content/chromosomes/typesy/"}
+
     ],
 
     "19.3": [

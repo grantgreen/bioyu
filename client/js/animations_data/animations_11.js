@@ -14,8 +14,6 @@ var links = {
     ],
 
     "11.4": [
-
-	{"caption": "Sådan foregår en dopingkontrol",
-	 "link": "http://www.antidoping.dk/sitecore/content/steroids_dk/FrontPage/Dopingkontrol/Video_dopingkontrol.aspx"}
+	
     ]
 }

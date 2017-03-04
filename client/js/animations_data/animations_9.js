@@ -4,9 +4,7 @@ var links = {
 		{"caption": "Skelettet", "link": "http://www.bozemanscience.com/skeletal-system"}
 	],
     "9.2": [
-	{"caption": "Muskelopbygning og funktion",
-	"link": "https://www.youtube.com/watch?v=Ktv-CaOt6UQ"},
-
+	
 	{"caption": "Muskelceller",
 	"link": "https://www.youtube.com/watch?v=Ktv-CaOt6UQ"},
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg style="enable-background:new 0 0 269.3 481;" x="0px" y="0px" viewBox="0 0 269.3 481" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" style="enable-background:new 0 0 269.3 481;" x="0px" y="0px" viewBox="0 0 269.3 481" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style type="text/css">
 	.st0{fill:#D5007A;}
 	.st1{fill:#EA670C;}
@@ -26,20 +26,33 @@
     <rect x="194.7" y="51.7" class="st3" width="57.7" height="58.7"/>
   </g>
   <g id="txt">
-    <text transform="matrix(1 0 0 1 17.3335 62.3325)" class="st4 st5 st6 yText" style="white-space: pre;">
-		Hastighed
+    <text transform="matrix(1 0 0 1 17.3335 62.3325)" class="st4 st5 st6 yText" style="white-space: pre;">Hastighed
+	 </text>
+    <text transform="matrix(1 0 0 1 17.3335 76.3325)" class="st4 st5 st6 yText" style="white-space: pre;">Energiforbrug
 	</text>
-    <text transform="matrix(1 0 0 1 17.3335 76.3325)" class="st4 st5 st6 yText" style="white-space: pre;">
-		Energiforbrug
+    <text transform="matrix(1 0 0 1 17.3335 90.3325)" class="st4 st5 st6 yText" style="white-space: pre;">Genetisk variation
 	</text>
-    <text transform="matrix(1 0 0 1 17.3335 90.3325)" class="st4 st5 st6 yText" style="white-space: pre;">
-		Genetisk variation
+    <text transform="matrix(1 0 0 1 17.3335 104.3325)" class="st4 st5 st6 yText" style="white-space: pre;">Overlevelsesevne
 	</text>
-    <text transform="matrix(1 0 0 1 17.3335 104.3325)" class="st4 st5 st6 yText" style="white-space: pre;">
-		Overlevelsesevne
-	</text>
-    <text transform="matrix(1 0 0 1 129.3335 20.3325)" style="white-space: pre;">
-<tspan x="0" y="0" class="st4 st5 st6">Kønnet </tspan><tspan x="0" y="14" class="st4 st5 st6">formering</tspan><tspan x="0" y="42" class="st4 st5 st6">Langsom</tspan><tspan x="0" y="56" class="st4 st5 st6">Højt</tspan><tspan x="0" y="70" class="st4 st5 st6">Stor</tspan><tspan x="0" y="84" class="st4 st5 st6">Større</tspan></text>
-    <text transform="matrix(1 0 0 1 202.9995 20.332)" style="white-space: pre;"><tspan x="0" y="0" class="st4 st5 st6">Ukønnet </tspan><tspan x="0" y="14" class="st4 st5 st6">formering</tspan><tspan x="0" y="42" class="st4 st5 st6">Hurtig</tspan><tspan x="0" y="56" class="st4 st5 st6">Lavt</tspan><tspan x="0" y="70" class="st4 st5 st6">Lav</tspan><tspan x="0" y="84" class="st4 st5 st6">Mindre</tspan></text>
+     <text transform="matrix(1 0 0 1 130.3335 20.3325)"  style="white-space: pre;">
+      <tspan x="0" y="0" class="st4 st5 st6">Kønnet </tspan>
+      <tspan x="0" y="14" class="st4 st5 st6">formering</tspan>
+    </text>
+  <text transform="matrix(1 0 0 1 130.3335 20.3325)" style="white-space: pre;" >
+      <tspan x="0" y="42" class="st4 st5 st6">Langsom</tspan>
+      <tspan x="0" y="56" class="st4 st5 st6">Højt</tspan>
+      <tspan x="0" y="70" class="st4 st5 st6">Stor</tspan>
+      <tspan x="0" y="84" class="st4 st5 st6">Større</tspan>
+  </text>
+     <text transform="matrix(1 0 0 1 202.9995 20.332)" style="white-space: pre;">
+      <tspan x="0" y="0" class="st4 st5 st6">Ukønnet </tspan>
+      <tspan x="0" y="14" class="st4 st5 st6">formering</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 202.9995 20.332)" style="white-space: pre;">
+    <tspan x="0" y="42" class="st4 st5 st6">Hurtig</tspan>
+      <tspan x="0" y="56" class="st4 st5 st6">Lavt</tspan>
+      <tspan x="0" y="70" class="st4 st5 st6">Lav</tspan>
+      <tspan x="0" y="84" class="st4 st5 st6">Mindre</tspan>
+    </text>  
   </g>
 </svg>

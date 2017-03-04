@@ -23,9 +23,7 @@ var links = {
 	 "link": "https://www.sundhed.dk/borger/sygdomme-a-aa/lunger/illustrationer/animationer/hvordan-fungerer-lungerne/"},
 	{"caption": "Luftvejenes opbygning",
 	 "link": "https://www.youtube.com/watch?v=hc1YtXc_84A"},
-	{"caption": "Lungernes funktion",
-	 "link": "https://www.sundhed.dk/borger/sygdomme-a-aa/lunger/illustrationer/animationer/hvordan-fungerer-lungerne/"}
-    ],
+	 ],
     
     "2.3": [
 	{"caption": "Gasudveksling",
@@ -37,9 +35,6 @@ var links = {
 	{"caption": "Iltens optagelse, transport og anvendelse",
 	 "link": "http://www.wisc-online.com/Objects/ViewObject.aspx?ID=AP15104"},
 	
-	{"caption": "Forskellige animationer om lungernes funktion og iltoptagelsen  ",
-	 "link": "http://www.pennmedicine.org/encyclopedia/em_DisplayAnimation.aspx?gcid=000059&ptid=17"},
-
 	{"caption": "Gasudveksling 1",
 	 "link": "http://www.youtube.com/watch?v=XTMYSGXhJ4E"},
 

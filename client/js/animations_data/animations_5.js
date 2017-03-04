@@ -46,9 +46,6 @@ var links = {
 	{"caption": "Dannelse af plasmaceller",
 	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter14/animation__t-cell_dependent_antigens__quiz_1_.html"},
 
-	{"caption": "Den samlede immunrespons",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter14/animation__the_immune_response.html"},
-
 	{"caption": "Immunrespons",
 	 "link": "http://highered.mcgraw-hill.com/sites/0072507470/student_view0/chapter22/animation__the_immune_response.html"},
  

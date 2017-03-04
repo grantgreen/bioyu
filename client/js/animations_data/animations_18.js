@@ -25,9 +25,6 @@ var links = {
 	{"caption": "Fotosyntese 2",
 	 "link": "http://www.youtube.com/watch?v=2xNwZCk2CHY"},
 
-	{"caption": "Fotosyntese 3",
-	 "link": "http://global.britannica.com/EBchecked/topic/113761/chloroplast"},
-
 	{"caption": "C4 og CAM-fotosyntese",
 	 "link": "http://www.youtube.com/watch?v=Dq38MpYOb8w&playnext=1&list=PL7337FC1DAC3E3E07&feature=results_main"},
 

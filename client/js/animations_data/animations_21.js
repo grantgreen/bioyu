@@ -2,9 +2,7 @@ var links = {
     "21": [
 	{"caption": "Mendelsk genetik", "link": "http://www.bozemanscience.com/029-mendelian-genetics"},
 
-	{"caption": "Nedarvning",
-	"link": "https://www.youtube.com/watch?v=8kK2zwjRV0M"},
-
+	
 	{"caption": "The Blood Typing Game",
 	 "link": "http://www.nobelprize.org/educational/medicine/bloodtypinggame/"}
     ],
@@ -28,8 +26,7 @@ var links = {
 	{"caption": "Blodtyper og bloddonation",
 	"link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter11/animation__cytotoxic__type_ii_hypersensitivity_.html"},
 
-	{"caption": "Due-spil om nedarvning",
-	 "link": "http://learn.genetics.utah.edu/content/pigeons/pigeonetics/"}
+	
     ],
 
     "21.3": [
@@ -45,8 +42,6 @@ var links = {
 	{"caption": "Forklaring til koblede gener",
 	 "link": "http://www.dnatube.com/video/27686/Explanation-of-Linked-Genes"},
 
-	{"caption": "Blodtype-spil",
-	 "link": "http://www.nobelprize.org/educational/medicine/bloodtypinggame/gamev2/index.html"}
     ],
 
     "21.4": [

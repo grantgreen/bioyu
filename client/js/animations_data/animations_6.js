@@ -41,8 +41,6 @@ var links = {
 	{"caption": "Peptidhormoner og målcellen",
 	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter10/animation__second_messenger__camp.html"},
 
-	{"caption": "Steroidhormoner og målcellen",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter10/animation__mechanism_of_steroid_hormone_action__quiz_1_.html"}
 	],
 
     "6.6": [
