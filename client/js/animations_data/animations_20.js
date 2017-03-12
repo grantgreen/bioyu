@@ -19,8 +19,6 @@ var links = {
 	 "link": "http://vcell.ndsu.nodak.edu/animations/mrnasplicing/movie-flash.htm"},
 	{"caption": "Splicing 2",
 	 "link": "http://www.hhmi.org/biointeractive/mrna-splicing"},
-	{"caption": "Transkription og translation",
-	 "link": "http://learn.genetics.utah.edu/content/molecules/transcribe/"},
 
 	{"caption": "Regulering af transkriptionen",
 	 "link": "http://vcell.ndsu.nodak.edu/animations/regulatedtranscription/index.htm"},

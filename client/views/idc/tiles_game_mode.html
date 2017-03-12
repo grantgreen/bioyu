@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+    <script type="text/javascript" src="../../js/tiles_game_mode.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+        initTilesGame("!!chapters!", "!!topic!", "/idc");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="text-align:center">
+	<div class="col-md-12">	  
+
+	  <span id="mainYubio" />
+	  <span id="mainTopic" />
+	  <span id="mainBack" />
+	</div>
+      </div>
+      <div class="row" style="text-align:center; margin-top: 30px">
+	<div class="col-md-12">	  
+	  <span id="chapter_header" style="font-size: 30pt"></span>
+	</div>
+      </div>
+      <div class="row" style="text-align: center">
+	<div class="col-md-12" id="column1">
+
+	  <form action="tiles_game.html" method="post" id="tilesForm">
+	    <br />
+	    <fieldset>
+	      <legend>Spiltype</legend>
+	      <input type="radio" id="practiceMode" name="mode" value="practice" /><label class="button" for="practiceMode">Træning</label>
+	      <input type="radio" id="battleMode" name="mode" value="battle" checked /><label class="button" for="battleMode">Kamp</label>
+	    </fieldset>
+	    <br />
+	    <fieldset>
+	      <legend>Kategoriindstillinger</legend>
+	      <input id="visibleCategories" type="radio" name="categories" value="visible" checked/><label class="button" for="visibleCategories">Synlige kategorier</label>
+	    
+	      <input id="hiddenCategories" type="radio" name="categories" value="hidden" /><label class="button" for="hiddenCategories">Skjulte kategorier</label>
+	    </fieldset>	    
+	    <br />
+	    <div id="participants">
+	      <fieldset>
+		<legend>Antal deltagere</legend>
+		<input type="radio" id="singlePlayer" name="players" value="single" checked /><label class="button" for="singlePlayer">En deltager</label>
+		<input type="radio" id="multiPlayer" name="players" value="multiple" /><label class="button" for="multiPlayer">Flere deltagere</label><br />
+
+
+		<div class="multiPlayer">
+		  <div id="emailInvitation">
+		    <div style="margin-top: 20px">
+		      <a class="yubioBtn" style="height: 3em" id="mailInvitation" href="">Opret email invitation</a>
+		    </div>
+		    <div id="directLink">
+		    </div>
+		  </div>
+
+		  <!-- a id="mailInvitation" href="" data-role="button">Opret email invitation</a-->
+		</div>
+	      </fieldset>
+	    </div>
+
+	    <br />
+	    <div id="singlePlayerOptions">
+	      <input id="startButton" type="submit" value="Start"/>
+	      <input id="highScoreButton" type="submit" value="Highscores"/>
+	    </div>
+
+	    <br />
+
+	    <input type="hidden" name="topic" value="!!topic!" />
+	    <input type="hidden" name="chapters" value="!!chapters!" />
+	    <input type="hidden" id="headerText" name="headerText" />
+	  
+	  </form>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
