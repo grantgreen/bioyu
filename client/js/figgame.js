@@ -14,7 +14,12 @@ var startFigGame = function (pFigure, pBookType, pFigureType) {
     bookType = pBookType;
     figureType = pFigureType
     var parts = figure.split('_');
-    var prefix = bookType == 'a' ? 'a' : 'bc'; 
+    var prefix = 'a';
+    if(bookType != 'a')
+   {
+       prefix = bookType == 'idc' ? 'idc': 'bc';  
+    } 
+  //  var prefix = bookType == 'a' ? 'a' : 'bc'; 
     init(prefix + '/' + parts[1] + '/' + figureType + '/' + figure);
     //    $('#infoBox').fadeIn(5000);
 }

@@ -17,10 +17,17 @@ var getChapter = function (chapterNo, bookType) {
 	});
 };
 
-var getFiguresForChapter = function (chapterNo, bookType) {
+var getFiguresForChapter = function (chapterNo, bookType)
+ {
+ 	 var prefix = "a";
+    if(bookType != "a")
+    {
+       prefix = bookType == "idc" ? "idc": "bc";  
+    } 
+  
 	$.ajax({
 		url: "getFiguresForChapter.json",
-		data: { chapter: chapterNo, type: bookType == "a" ? "a" : "bc" }
+		data: { chapter: chapterNo, type: bookType = prefix }
 	}).done(function (figures) {
 		var sortFunc = function (a, b) {
 			a = Number(a.figure.replace(/fig_(\d+)_(\d+)-?(\d*)_?(\d*)-?(\d*)_?(\d*)(\(\S+\))?\.svg/, "$1$2.$3$4$5$6"));
@@ -78,7 +85,8 @@ var initFigGame = function (chapter, topic, bookType) {
 		var element = $('input[name=figure]:checked', '#figForm');
 		var figName = element.val()
 		var figType = element.data("figureType");
-			(figName, bookType, figType);
+		startFigGame(figName, bookType, figType);
+
 
 		$('#collapseSetup').collapse('hide');
 		$('#collapseGame').collapse('show');

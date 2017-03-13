@@ -36,7 +36,7 @@ var getChapterList = function() {
 var initializePage = function() {
     var backButton = imgButton("mainBack", "javascript:history.back()", '../images/icons/yubio_back_icon.svg');
     var mainTopic = imgButton("mainTopic", "figgame_selector.html", '../images/icons/yubio_figgame_icon.svg');
-    var mainTopic = imgButton("mainYubio", "../index_tiles.html", '../images/yubio_logo_pure.svg');
+    var mainTopic = imgButton("mainYubio", "index_tiles.html", '../images/yubio_logo_pure.svg');
 
 	getChapterList();
 }

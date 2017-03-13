@@ -35,7 +35,7 @@ FigureGameHandlers.prototype.getFiguresForChapterJSON = function (request, respo
 		response.writeHead(200, header);
 		response.end(JSON.stringify(result), encoding);
 	}
-
+console.log("requestHandlers: " + JSON.stringify(url_parts));
 	fs.readdir("./client/views/figures/" + type + "/" + chapter + "/standard", function (err, standardfiles) {
 		if (err) {
 			sendResponse(response, {});
