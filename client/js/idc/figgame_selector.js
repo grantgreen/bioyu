@@ -18,9 +18,11 @@ var getChapterList = function() {
     }).done(function( chapterList ) {
 	var colorIndex = (Math.random() * 6) >> 0;
 	var color = colors[colorIndex];
+    var r = /\d+/;
+
 	for(var i = 0; i < chapterList.length; i++) {		    
-	    
-        var chapter = i+1;
+	    var index = parseInt(chapterList[i].match(r));
+        var chapter = index;
         if(chapter >= 1 && chapter <=7){ color = chap_1_7_color;}
         if(chapter >=10 && chapter <= 16){color = chap_10_16_color;}
         if( chapter >= 20 && chapter <= 26){ color = chap_20_26_color;}
