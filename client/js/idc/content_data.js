@@ -9,7 +9,7 @@ var colors = [
 
 var getChapterList = function(topic) {
     $.ajax({
-	url: "/b/getChapterList.json"
+	url: "/demo/getChapterList.json"
     }).done(function( chapterList ) {
 	var page = "";
 	if(topic == "figures") {
@@ -38,7 +38,7 @@ var getChapterList = function(topic) {
 
 var getChapter = function(chapterNo, topic) {
     $.ajax({
-	url: "/b/getChapter.json",
+	url: "/demo/getChapter.json",
 	data: { chapterno: chapterNo }
     }).done(function( chapter ) {
 	var linkCount = 0;
@@ -67,7 +67,7 @@ var getChapter = function(chapterNo, topic) {
 
 var getQuestionnaires = function(chapterNo) {
     $.ajax({
-	url: "/idc/getChapter.json",
+	url: "/demo/getChapter.json",
 	data: { chapterno: chapterNo }
     }).done(function( chapter ) {
 	var linkCount = 0;

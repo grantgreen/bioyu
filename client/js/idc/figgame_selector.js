@@ -27,7 +27,7 @@ var getChapterList = function() {
         if(chapter >=10 && chapter <= 16){color = chap_10_16_color;}
         if( chapter >= 20 && chapter <= 26){ color = chap_20_26_color;}
         if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}
-	    var contentButton = textButton("buttonContainer", 'figgame_setup.html?chapter=' + (i+1), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+	    var contentButton = textButton("buttonContainer", 'figgame_setup.html?chapter=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
 	}
 	
     }).fail(function(jqXHR, textStatus) {

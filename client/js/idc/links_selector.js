@@ -9,7 +9,7 @@ var colors = [
 
 var getChapterList = function(topic) {
     $.ajax({
-	url: "/b/getChapterList.json"
+	url: "/demo/getChapterList.json"
     }).done(function( chapterList ) {
 	var colorIndex = (Math.random() * 6) >> 0;
 	var color = colors[colorIndex];

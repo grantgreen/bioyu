@@ -78,7 +78,10 @@ var links = {
 	 "link": "http://www.youtube.com/watch?v=HXx9qlJetSU"},
 
 	{"caption": "Synapsen 4",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__chemical_synapse__quiz_1_.html"}
+	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__chemical_synapse__quiz_1_.html"},
+	 {"caption": "Synapsen 5",
+	 "link": "https://www.youtube.com/watch?v=VitFvNvRIIY"}
+
     ],
 
     "8.4": [

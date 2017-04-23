@@ -49,12 +49,12 @@ ScoreProvider.prototype.getHighScores = function(discipline, part, count, callba
 	console.log("getHighscores");
       if( error ) callback(error)
       else {
-	  console.log("Count:" + count);
+	  console.log("Scores:" + count);
           score_collection.find({$query: {"discipline": discipline, "part": part}, $orderby: {value: -1, duration: 1}}).limit(Number(count)).toArray(function(error, result) {
 	      if( error ) callback(error)
               else {
 		  for(var i in result) {
-		      console.log(i + " Result: " + result[i]);
+		      console.log(i + " Result: " + JSON.stringify(result[i]));
 		  }
 		  callback(null, result);		  
 	      }
