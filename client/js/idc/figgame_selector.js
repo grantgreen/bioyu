@@ -29,6 +29,7 @@ var getChapterList = function() {
         if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}
 	    var contentButton = textButton("buttonContainer", 'figgame_setup.html?chapter=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
 	}
+	assertBrowser();
 	
     }).fail(function(jqXHR, textStatus) {
 	alert( "Request failed: " + textStatus );
@@ -42,3 +43,26 @@ var initializePage = function() {
 
 	getChapterList();
 }
+
+var assertBrowser = function(){
+	isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+// Firefox 1.0+
+isFirefox = typeof InstallTrigger !== 'undefined';
+// Safari 3.0+
+isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
+// Internet Explorer 6-11
+isIE = /*@cc_on!@*/false || !!document.documentMode;
+// Edge 20+
+isEdge = !isIE && !!window.StyleMedia;
+// Chrome 1+
+isChrome = !!window.chrome && !!window.chrome.webstore;
+// Blink engine detection
+isBlink = (isChrome || isOpera) && !!window.CSS;
+	if(isSafari|| isChrome )
+    {
+        document.getElementById('browserInfo').innerHTML = '';
+        return;
+    }
+
+     document.getElementById('browserInfo').innerHTML = 'Optimeret til Chrome og Safari';
+};
