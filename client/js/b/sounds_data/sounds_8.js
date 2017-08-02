@@ -19,9 +19,26 @@ var links = {
     ],
     
     "8.4": [
-	"8.4",
+	{
+		suffix:"(2016)",
+		chapter:"8.4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"8.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"8.4.1",
-	"8.4.2"
+	"8.4.2",
+		{
+		suffix:"",
+		chapter:"8.4.3",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ],
     
     "8.5": [
@@ -41,6 +58,17 @@ var links = {
     ],
     
     "8.7": [
-	"8.7"
+	{
+		suffix:"(2016)",
+		chapter:"8.7",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"8.7",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ]
 }

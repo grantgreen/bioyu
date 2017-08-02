@@ -1,7 +1,18 @@
 var links = {
 
     "11.1": [
-	"11-1"
+		{
+		suffix:"(2016)",
+		chapter:"11.1",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"11.1",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ],
 
     "11.2": [
@@ -16,7 +27,18 @@ var links = {
 	"11-3-4",
 	"11-3-5",
 	"11-3-6",
-	"11-3-7",
+		{
+		suffix:"(2016)",
+		chapter:"11-3-7",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"11.3.7",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"11-3-8",
 	"11-3-9",
 	"11-3-10",

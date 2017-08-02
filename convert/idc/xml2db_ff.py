@@ -2,7 +2,7 @@ import sys
 import xml.etree.ElementTree
 filename=sys.argv[1];
 e = xml.etree.ElementTree.parse(filename).getroot()
-outStr="";
+outStr="db.tiles_game.Drop();";
 chapter=e.get('chapter')
 print chapter
 fOut = open(filename.replace('.xml', '.js'),'w')

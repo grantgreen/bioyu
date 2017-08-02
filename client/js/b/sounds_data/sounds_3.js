@@ -30,10 +30,38 @@ var links = {
 	"3.4.1",
 	"3.4.2",
 	"3.4.3",
-	"3.4.4",
+	{
+		suffix:"(2016)",
+		chapter:"3.4.4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"3.4.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"3.4.5",
-	"3.4.6",
-	"3.4.7"
+	{
+		suffix:"(2016)",
+		chapter:"3.4.6",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"3.4.6",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
+	"3.4.7",
+	{
+		suffix:"",
+		chapter:"3.4.8",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ]
 }
 

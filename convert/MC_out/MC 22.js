@@ -1958,3 +1958,31 @@ db.questions.save(
         correct_answer: '2'
     });
 
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvilket udsagn om behandling af kræft med immunterapi er falsk?',
+        answers: [
+            'Man har med held behandlet brystkræft med immunterapi',
+            'Man har med held behandlet lymfekræft immunterapi',
+            'Man har med held behandlet nyrekræft med immunterapi',
+            'Man har med held behandlet modermærkekræft med immunterapi'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvilke kræftformer er det endnu ikke lykkedes at behandle med immunterapi?',
+        answers: [
+            'Brystkræft og prostatakræft',
+            'Lymfekræft og leukæmi',
+            'Modermærkekræft',
+            'Nyrekræft'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

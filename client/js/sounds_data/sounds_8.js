@@ -23,7 +23,18 @@ var links = {
 	"8-4",
 	"8-4-1",
 	"8-4-2",
-	"8-4-3",
+	{
+		suffix:"(2016)",
+		chapter:"8-4-3",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"8.4.3",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"8-4-4",
 	"8-4-5"
     ],
@@ -55,8 +66,18 @@ var links = {
 	"8-6-10",
 	"8-6-11",
 	"8-6-11 (2015)",
-	{"id": "8-6-12",
-		"caption": ""},
+		{
+		suffix:"(2016)",
+		chapter:"8-6-12",
+		isMp4:"false",
+		linkSuffix:"(2016)"
+	},
+	{
+		suffix:"",
+		chapter:"8.6.12",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	{"id": "8-6-13",
 		"caption": ""}
     ],
@@ -68,7 +89,29 @@ var links = {
 	"8-7-3",
 	"8-7-4",
 	"8-7-5",
-	"8-7-6",
-	"8-7-7"
+		{
+		suffix:"(2016)",
+		chapter:"8-7-6",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"8.7.6",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
+		{
+		suffix:"(2016)",
+		chapter:"8-7-7",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"8.7.7",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ]
 }

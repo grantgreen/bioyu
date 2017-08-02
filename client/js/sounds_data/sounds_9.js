@@ -8,7 +8,18 @@ var links = {
 	"9-2-1",
 	"9-2-2",
 	"9-2-3",
-	"9-2-4",
+		{
+		suffix:"(2016)",
+		chapter:"9-2-4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"9.2.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"9-2-5",
 	"9-2-6",
 	"9-2-7",

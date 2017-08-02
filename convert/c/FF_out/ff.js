@@ -323,6 +323,16 @@ db.tiles_game.save(
 	    "Drik vand"
         ]
     });
+db.tiles_game.save(
+    {
+        chapter: 3,
+        category: "Entomofagi",
+        matches: [
+            'Melorme',
+            'Fårekyllinger',
+            'Myrer',
+        ]
+    });
 
 //FF - kapitel 4
 db.tiles_game.save(
@@ -870,7 +880,17 @@ db.tiles_game.save(
 	    "Oligopotente"
         ]
     });
-
+db.tiles_game.save(
+    {
+        chapter: 8,
+        category: "Bioetik",
+        matches: [
+            'Etisk råd',
+            'pligt-etiker',
+            'nytte-etiker',
+            'natur-etiker'
+        ]
+    });
 //FF – kapitel 9
 db.tiles_game.save(
     {
@@ -1020,6 +1040,29 @@ db.tiles_game.save(
 	    "Organisk N"
         ]
     });
+db.tiles_game.save(
+    {
+        chapter: 9,
+        category: "Fosforkredsløbet",
+        matches: [
+            'Fosfat',
+            'Organisk P',
+            'Uorganisk P',
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 9,
+        category: "Hotspots",
+        matches: [
+            'Californien',
+            'Middelhavet',
+            'Madagaskar',
+            'Caribien',
+            'New Zealand',
+        ]
+    });
+
 
 //FF – kapitel 10
 db.tiles_game.save(
@@ -1199,4 +1242,16 @@ db.tiles_game.save(
 	    "Plant et træ",
 	    "Skru ned for varmen"
 	]
+    });
+
+db.tiles_game.save(
+    {
+        chapter: 10,
+        category: "Bæredygtighed",
+        matches: [
+            'Genbrug',
+            'Kvoter',
+            'Bæredygtigt landbrug',
+            'Køb-og- smid-væk- kultur',
+        ]
     });

@@ -2576,3 +2576,135 @@ db.questions.save(
         correct_answer: '0'
     });
 
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvad betyder det, at der er en social slagside mht. KRAM-faktorerne?',
+        answers: [
+            'Jo dårligere uddannelse desto større risiko for, at man lever usundt',
+            'Jo dårligere uddannelse desto større sandsynlighed for et langt liv',
+            'Jo bedre uddannelse desto større risiko for, at man lever usundt',
+            'Jo flere penge man tjener, desto mere lykkelig er man'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvad betyder entomofagi?',
+        answers: [
+            'At spise insekter',
+            'At spise kød',
+            'At være vegetar',
+            'At være veganer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilken type kød spiser danskerne især meget af?',
+        answers: [
+            'Oksekød',
+            'Svinekød',
+            'Fjerkræ',
+            'Fisk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af verdens landbrugsareal bruges til husdyrhold?',
+        answers: [
+            'Ca. 70 %',
+            'Ca. 50 %',
+            'Ca. 90 %',
+            'Ca. 25 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af verdens samlede landareal bruges til husdyrhold?',
+        answers: [
+            'Ca. 30 %',
+            'Ca. 50 %',
+            'Ca. 10 %',
+            'Ca. 70 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til insektkød?',
+        answers: [
+            'Ca. 60 %',
+            'Ca. 40 %',
+            'Ca. 20 %',
+            'Ca. 80 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til oksekød?',
+        answers: [
+            'Ca. 13 %',
+            'Ca. 25 %',
+            'Ca. 5 %',
+            'Ca. 35 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til grisekød?',
+        answers: [
+            'Ca. 33 %',
+            'Ca. 50 %',
+            'Ca. 22 %',
+            'Ca. 10 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilken type organisme har typisk det højeste proteinindhold?',
+        answers: [
+            'Myrer',
+            'Køer',
+            'Grise',
+            'Kyllinger'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

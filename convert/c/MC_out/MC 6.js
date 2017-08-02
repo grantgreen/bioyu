@@ -406,6 +406,21 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ["6.2"],
+        text: 'To muskler, der arbejder sammen, kaldes for',
+        answers: [
+            'Synergister',
+            'Antagonister',
+            'Agonister',
+            'Filistre'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
         chapters: ["6.3"],
         text: 'Hvad er ikke en energileverende proces i muskelcellerne?',
         answers: [
@@ -1596,3 +1611,16 @@ db.questions.save(
         correct_answer: '3'
     });
 
+db.questions.save(
+    {
+        chapters: ["6.5"],
+        text: 'Hvorfor lider mange topatleter indenfor udholdenhedssport af astma?',
+        answers: [
+            'Hård udholdenhedstræning gennem mange år slider på lungevævet',
+            'De lyver, fordi de gerne vil have adgang til astmapræparater',
+            'De lider af astma pga. doping',
+            'Der er ikke mange topatleter indenfor udholdenhedssport, der lider af astma'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

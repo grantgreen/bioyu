@@ -1513,7 +1513,19 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ['10.6'],
+        text: 'Hvad forstås ved okklusionstræning?',
+        answers: [
+            'Træning hvor man hæmmer blodgennemstrømning til musklerne',
+            'Træning hvor man primært bruger egen kropsvægt',
+            'En speciel form for træning med vægtstænger',
+            'En træning med meget få gentagelser'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['10.7'],

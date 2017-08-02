@@ -36,7 +36,18 @@ var links = {
 	"10-6-1",
 	"10-6-2",
 	"10-6-3",
-	"10-6-4",
+	{
+		suffix:"(2016)",
+		chapter:"10-6-4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"10.6.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"10-6-5",
 	"10-6-6"
     ],

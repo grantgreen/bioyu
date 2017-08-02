@@ -4,12 +4,11 @@ var colors = [
     "#202869",
     "#374492",
     "#5C6CAA",
-    "#6DC0B4"
-]
-var chap_1_7_color = "#0A0F41";
-var chap_10_16_color = "#4A6BFA";
-var chap_20_26_color = "#69ffa8";
-var chap_30_33_color = "#ff4a0f";
+    "#6DC0B4"];
+var chap_1_7_color = "#26213B";
+var chap_10_16_color = "#5E6BAF";
+var chap_20_26_color = "#6BC2B8";
+var chap_30_33_color = "#EC641C";
 var getChapterList = function(topic) {
     $.ajax({
 	url: "/idc/getChapterList.json"

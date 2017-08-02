@@ -1,7 +1,18 @@
 var links = {
     "5.1": [
-	"5-1",
-	"5-1 (2014)"
+	"5-1 (2014)",
+		{
+		suffix:"(2016)",
+		chapter:"5-1",
+		isMp4:"false",
+		linkSuffix:""
+	},
+		{
+		suffix:"",
+		chapter:"5.1",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ],
 
     "5.2": [
@@ -33,8 +44,19 @@ var links = {
 	"5-4-1",
 	"5-4-2",
 	"5-4-3",
-	"5-4-4",
 	"5-4-4 (2015)",
+	{
+		suffix:"(2016)",
+		chapter:"5-4-4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"5.4.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"5-4-5",
 	"5-4-6",
 	"5-4-7",

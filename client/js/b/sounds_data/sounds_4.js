@@ -23,7 +23,18 @@ var links = {
 	"4.4.2",
 	"4.4.3",
 	"4.4.4",
-	"4.4.5",
+	{
+		suffix:"(2016)",
+		chapter:"4.4.5",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"4.4.5",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"4.4.6"
     ]
 }

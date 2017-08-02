@@ -38,10 +38,43 @@ var links = {
 	"30-5-1",
 	"30-5-2",
 	"30-5-3",
-	"30-5-4",
-	"30-5-5",
+	{
+		suffix:"(2016)",
+		chapter:"30-5-4",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"30.5.4",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
+	{
+		suffix:"(2016)",
+		chapter:"30-5-5",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"30.5.5",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"30-5-5 (2015)",
-	"30-5-6"
+	{
+		suffix:"(2016)",
+		chapter:"30-5-6",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"30.5.6",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ],
 
     "30.6": [

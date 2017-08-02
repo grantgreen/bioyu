@@ -1988,6 +1988,62 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ['30.5'],
+        text: 'Hvad er det, man har gjort i Island for at fjerne CO<span style="vertical-align:sub; font-size:58%;">2</span> fra luften?',
+        answers: [
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en basaltholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en granitholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en gipsholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en sandet undergrund'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+	
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvorfor kan en basaltholdig undergrund binde CO<span style="vertical-align:sub; font-size:58%;">2</span>?',
+        answers: [
+            'Basalt indeholder Ca2+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder Na+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder K+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder Ca2+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes gips'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvor stor en del af luftens CO<span style="vertical-align:sub; font-size:58%;">2</span> har man kunnet binde i basalten i Island?',
+        answers: [
+            '95 %',
+            '50 %',
+            '25 %',
+            '5 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvorfor kan den islandske metode til binding af CO<span style="vertical-align:sub; font-size:58%;">2</span> i undergrunden ikke bruges i Danmark?',
+        answers: [
+            'Fordi der ikke er basalt i undergrunden i Danmark',
+            'Fordi der ikke er granit i undergrunden i Danmark',
+            'Fordi der ikke er granit i undergrunden i Danmark',
+            'Fordi kalken i undergrunden i Danmark hæmmer processen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
         chapters: ['30.6'],
         text: 'Hvilket udsagn om skovrejsning er ikke korrekt?',
         answers: [
@@ -2083,4 +2139,101 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor længe holder en mobiltelefon i gennemsnit, før den kasseres?',
+        answers: [
+            '18 måneder',
+            '6 måneder',
+            '3 år',
+            '5 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt sølv er der i 1 ton mobiltelefoner?',
+        answers: [
+            '3,5 kg',
+            '130 g',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt guld er der i 1 ton mobiltelefoner?',
+        answers: [
+            '340 g',
+            '130 g',
+            '3,5 kg',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt kobber er der i 1 ton mobiltelefoner?',
+        answers: [
+            '130 g',
+            '3,5 kg',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt palladium er der i 1 ton mobiltelefoner?',
+        answers: [
+            '140 g',
+            '130 g',
+            '340 g',
+            '3,5 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget tøj køber en dansker i gennemsnit pr. år?',
+        answers: [
+            '16 kg',
+            '8 kg',
+            '26 kg',
+            '10 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som vi køber pr. år?',
+        answers: [
+            '58.000 L',
+            '5.000 L',
+            '30.000 L',
+            '20.000 L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	

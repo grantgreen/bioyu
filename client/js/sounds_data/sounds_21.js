@@ -52,12 +52,34 @@ var links = {
     ],
 
     "21.9": [
-	"21-9"
+		{
+		suffix:"(2016)",
+		chapter:"21-9",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"21.9",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ],
 
     "21.10": [
 	"21-10-1",
-	"21-10-2",
-	"21-10-2 (2015)"
+	"21-10-2 (2015)",
+		{
+		suffix:"(2016)",
+		chapter:"21-10-2",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"21.10.2",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
     ]
 }

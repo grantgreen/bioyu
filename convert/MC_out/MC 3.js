@@ -86,7 +86,7 @@ db.questions.save(
     {
         chapters: ['3.1', '3.2'],
         text: 'Fedtstoffer i føden kommer især fra ',
-        answers: [
+        answers: [  
             'Kød og mælkeprodukter',
             'Slik og sukker',
             'Kolesterol',
@@ -2033,6 +2033,163 @@ db.questions.save(
         correct_answer: '2'
     });
 
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvilket udsagn om mælk er sandt?',
+        answers: [
+            'Mælk er ikke usundt for mennesker',
+            'Mælk indeholder skadelige mængder af forskellige hormoner fra koen',
+            'Mælk giver autisme hos børn',
+            'Mælk kan føre til glutenintolerans'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor stor er forskellen i middellevetiden mellem mænd med laveste og højeste indkomst i 2009?',
+        answers: [
+            '5,5 år',
+            '9,9 år',
+            '4,4 år',
+            '10,0 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvad var kvinders middellevetid for de højeste indkomstgrupper i 2009?',
+        answers: [
+            '84,3 år',
+            '78,6 år',
+            '79,2 år',
+            '80,1 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Til hvilken stofgruppe hører gluten?',
+        answers: [
+            'Protein',
+            'Disakkarid',
+            'Mættet fedtsyre',
+            'Polysakkarid'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvilken dansk kornsort indeholder ikke gluten?',
+        answers: [
+            'Ingen',
+            'Hvede',
+            'Rug',
+            'Byg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor mange lider af glutenintolerans på verdensplan?',
+        answers: [
+            'Ca. 1 %',
+            'Ca. 4 %',
+            '0 %',
+            'Ca. 98 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvad forstås ved cøliaki?',
+        answers: [
+            'En autoimmun tarmsygdom, fremkaldt af gluten',
+            'En form for autisme',
+            'En form for ADHD fremkaldt af gluten',
+            'En tilstand, hvor mennesket har vænnet sig til at spise gluten'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvad forstås ved entomofagi?',
+        answers: [
+            'At spise insekter',
+            'At man er veganer',
+            'En autoimmun tarmsygdom',
+            'En form for autisme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor stor en del af foderet bliver til kød hos insekterne?',
+        answers: [
+            'Ca. 60 %',
+            'Ca. 13 %',
+            'Ca. 33 %',
+            'Ca. 10 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor stor en del af foderet bliver til kød hos køer?',
+        answers: [
+            'Ca. 13 %',
+            'Ca. 60 %',
+            'Ca. 33 %',
+            'Ca. 5 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor stor en del af foderet bliver til kød hos grise?',
+        answers: [
+            'Ca. 33 %',
+            'Ca. 13 %',
+            'Ca. 60 %',
+            'Ca. 5 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor højt proteinindhold er der i insekter?',
+        answers: [
+            'Ca. 60 %',
+            'Ca. 40 %',
+            'Ca. 20 %',
+            'Ca. 10 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['3.6'],

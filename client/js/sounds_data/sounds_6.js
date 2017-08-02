@@ -40,7 +40,18 @@ var links = {
     "6.7": [
 	"6-7",
 	"6-7-1",
-	"6-7-2",
+	{
+		suffix:"(2016)",
+		chapter:"6-7-2",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"6.7.2",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"6-7-3"
     ]
 }

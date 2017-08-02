@@ -1083,12 +1083,21 @@ db.contents.save(
 	      "23.7.6 Mere om transgene mennesker",
 	      "23.7.7 Etik"
 	  ]},
-	 {"name": "23.8 Genetisk udredning - et eksempel",
+	   {"name": "23.8 CRISPR/Cas9",
 	  "sub": [
-	      "23.8.1 MCAD",
-	      "23.8.2 Genetisk diagnostik af sygdommen",
-	      "23.8.3 Mutationer og RNA",
-	      "23.8.4 Mutationer og proteinfunktion"
+	      "23.8.1 Bakteriers immunforsvar",
+	      "23.8.2 Knock out",
+	      "23.8.3 Knock in",
+	  ]},
+	 {"name": "23.9 Genetisk udredning - et eksempel",
+	  "sub": [
+	      "23.9.1 MCAD",
+	      "23.9.2 Genetisk diagnostik af sygdommen",
+	      "23.9.3 Mutationer og RNA",
+	      "23.9.4 Mutationer og proteinfunktion"
+	  ]},
+	   {"name": "23.10 Bioetik",
+	  "sub": [
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}

@@ -108,3 +108,26 @@ db.tiles_game.save(
         ]
     });
 
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "CRISPR",
+        matches: [
+            'Cas9',
+            'Spacer-DNA',
+            'crRNA',
+            'tracrRNA',
+            'PAM-sekvens'
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "Bioetik",
+        matches: [
+            'Etisk råd',
+            'pligt-etiker',
+            'nytte-etiker',
+            'natur-etiker'
+        ]
+    });

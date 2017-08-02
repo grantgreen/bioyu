@@ -1019,6 +1019,46 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '1'
     });
+db.questions.save(
+    {
+        chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
+        text: 'Hvor stor en procentdel af topatleter inden for svømning, cykling og langdistanceløb lider af astma og bliver behandlet med astmamedicin?',
+        answers: [
+            'Ca. 40 %',
+            'Ca. 20 %',
+            '7-10 %',
+            '1-2 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
+        text: 'Hvor stor en procentdel af normalbefolkningen (der ikke dyrker topidræt) lider af astma og bliver behandlet med astmamedicin?',
+        answers: [
+            '7-10 %',
+            '20 %',
+            '40 %',
+            '1-2 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
+        text: 'Hvad kan årsagen være til, at så mange topatleter er i behandling med astmamedicin?',
+        answers: [
+            'Den tunge og dybe vejrtrækning ødelægger lungevævet',
+            'Misbrug af EPO',
+            'Misbrug af steroider',
+            'Medfødt genetisk disposition'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
 
 db.questions.save(
     {

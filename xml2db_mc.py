@@ -5,6 +5,7 @@ e = xml.etree.ElementTree.parse(filename).getroot()
 outStr="";
 fOut = open(filename.replace('.xml', '.js'),'w')
 f = open(filename, 'r')
+
 for atype in e.findall('Chapter'):
 	for xtype in atype.findall('Question'):
 		outStr += 'db.questions.save(\n'

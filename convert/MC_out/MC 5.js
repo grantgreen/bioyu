@@ -637,6 +637,63 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['5.4.1', '5.4.2', '5.4.3', '5.4.4', '5.4.5', '5.4.6', '5.4.7'],
+        text: 'Hvilket udsagn om HPV-vaccine er usandt?',
+        answers: [
+            'Den har medført svære bivirkninger som fx lammelser hos mange vaccinerede piger',
+            'Den beskytter mod de fleste former for livmoderhalskræft',
+            'Den beskytter mod kræft i svælg og endetarm',
+            'Vaccinen kom med i standardvaccinationsprogrammet i 2008 (for piger)'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.4.1', '5.4.2', '5.4.3', '5.4.4', '5.4.5', '5.4.6', '5.4.7'],
+        text: 'Hvordan adskiller de nye rekombinant-vacciner sig fra de oprindelige vacciner?',
+        answers: [
+            'Rekombinant-vaccinerne er fremstillet ud fra større eller mindre dele af mikroorganismernes genom, der indsættes i en bakterie, som danner de tilsvarende proteiner',
+            'De er fremstillet af dræbte mikroorganismer',
+            'De er fremstillet af levende mikroorganismer',
+            'De er fremstillet af en kombination af levende og dræbte mikroorganismer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.4.1', '5.4.2', '5.4.3', '5.4.4', '5.4.5', '5.4.6', '5.4.7'],
+        text: 'Hvorfor tilsættes forskellige adjuvanser til vacciner?',
+        answers: [
+            'Fordi de aktiverer nogle af immunsystemets vigtige receptorer, hvilket gør vaccinen mere effektiv',
+            'Fordi de gør vaccinationen mindre smertefuld',
+            'Fordi de gør vaccinen mindre skadelig',
+            'Fordi vaccinen dermed kan kurere en allerede opstået sygdom'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.4.1', '5.4.2', '5.4.3', '5.4.4', '5.4.5', '5.4.6', '5.4.7'],
+        text: 'Hvilket udsagn om rekombinant-vacciner er usandt?',
+        answers: [
+            'De er endnu kun et fremtidsønske, men der arbejdes på at fremstille dem',
+            'Den første blev taget i brug i 1982',
+            'Der findes en rekombinant-vaccine mod HIV',
+            'Der findes en rekombinant-vaccine mod hepatitis B'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['5.4.1', '5.4.2', '5.4.3', '5.4.4', '5.4.5', '5.4.6', '5.4.7'],
         text: 'Hvilken påstand om bakterier er korrekt',
         answers: [
             'De kan kun leve inde i værtens celler',

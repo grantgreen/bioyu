@@ -6,7 +6,18 @@ var links = {
     
     "24.2": [
 	"24-2-1",
-	"24-2-2",
+	{
+		suffix:"(2016)",
+		chapter:"24-2-2",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"24.2.2",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"24-2-3",
 	"24-2-4"
     ],
@@ -26,7 +37,18 @@ var links = {
 	"24-4 (2014)",
 	"24-4-1",
 	"24-4-1 (2014)",
-	"24-4-2",
+	{
+		suffix:"(2016)",
+		chapter:"24-4-2",
+		isMp4:"false",
+		linkSuffix:""
+	},
+	{
+		suffix:"",
+		chapter:"24.4.2",
+		isMp4:"true",
+		linkSuffix:"(2017)"
+	},
 	"24-4-2 (2015)",
 	"24-4-2 (2014)",
 	"24-4-3",
