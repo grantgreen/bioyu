@@ -80,7 +80,7 @@ var getChapter = function(chapterNo, topic, bookType) {
 					var subchapterLink = subchapterValue.chapter;
 					isMp3 = subchapterValue.isMp4 == "false";
 					subchapterSuffix = " " + subchapterValue.suffix; 
-					if(subchapterLink.linkSuffix != null && subchapterLink.linkSuffix.length > 0)
+					if(subchapterValue.linkSuffix != null && subchapterValue.linkSuffix.length > 0)
 					{
 					linkSuffix = " "+subchapterValue.linkSuffix;
 					}
