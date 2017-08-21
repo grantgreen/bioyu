@@ -57,19 +57,29 @@ var getChapter = function(chapterNo, topic, bookType) {
 		
 		
 		
+		
 		if(subchapterLinks) {	
 			var header = $('<h3></h3>');
-		header.html(subChapters[i].name);
-		linksContainer.append(header);
-		var body = $('<div></div>');
-		linksContainer.append(body);
+			header.html(subChapters[i].name);
+			linksContainer.append(header);
+			var body = $('<div></div>');
+			linksContainer.append(body);
+			
 		    for(var j in subchapterLinks) {
 			var paragraph = $('<p></p>');
 			var subchapterValue = subchapterLinks[j];
 			var subchapterSuffix = "";
+			var linkSuffix = "";
+			var isMp3 = true;
+			var isNew = false;
+			var link ="";
 			if(typeof subchapterValue === 'object') {
-				var subchapterLink = subchapterValue.id;
-				subchapterSuffix = " " + subchapterValue.caption; 
+				if( subchapterValue.link != null)
+					{
+						link = subchapterValue.link;
+						isNew = true;
+						var subchapterLink = subchapterValue.chapter;
+					}
 			}
 			else {
 				var subchapterLink = subchapterValue;
@@ -81,54 +91,29 @@ var getChapter = function(chapterNo, topic, bookType) {
 			span.css('display', 'inline-block');
 			paragraph.append(span);
 
+			
 			span.html(subchapterLink.replace(/-/g, '.') + subchapterSuffix);
 
 			body.append(paragraph);
 
-			var addButton = function(paragraph, subchapterLink, isDownload) 
-			{
-			    var url = "";
-			    if(bookType == "/b") {
-				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
-			    }
-			    else if(bookType == "/c") {
-				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
-			    }
-			    else if(bookType == "/idc")
-			    {
-			    	url = "https://dl.dropboxusercontent.com/u/15548501/Idr%C3%A6t%20C/Lyd/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp4";
-			    }
-			    else {
-				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler/Kapitel%20" +  chapterNo + "/" + subchapterLink + ".mp3";
-			    }
-
-			    if(isDownload) {
-				url += "?dl=1";
-			    }
-			    var anchor = $('<a class="yubioBtnSolid" style="text-align: center"></a>');
-
-			    var text = isDownload ? "Hent" : "Hør";
-			    anchor.html(text);
-			    anchor.attr('href', url);
-			    if(isDownload) {
-				anchor.addClass('no_mobile');
-				anchor.css('border-color', '#EA661E');
-				anchor.css('background', '#EA661E');
-			    }
-			    paragraph.append(anchor);
-
+			var addButton = function(paragraph, subchapterLink, isDownload, isMp3, isNew) {
+				if( isNew)
+					{
+						url = subchapterLink;
+						var anchor = $('<a class="yubioBtnSolid" style="text-align: center"></a>');
+						
+						var text = "Hør";
+						anchor.html(text);
+						anchor.attr('href', url);
+						paragraph.append(anchor);
+						return;
+					}
 			}
-			addButton(paragraph, subchapterLink, false);
-			addButton(paragraph, subchapterLink, true);
+			addButton(paragraph, link, false, isMp3,true);
 		    }
 		}
-		else {
-		
-		}
-		//linksContainer.append($('<br />'));		
+		linksContainer.append($('<br />'));		
 	    }
-
-//	    var contentButton = textButton("column1", '?topic=' + topic + '&chapter=' + linkChapter, '<br />' + subChapters[i].name, null, "90X300");
 	}
     }).fail(function(jqXHR, textStatus) {
 	alert( "Request failed: " + textStatus );

@@ -1,117 +1,69 @@
 var links = {
-
-    "8.1": [
-	"8-1"
-    ],
-    
-    "8.2": [
-	"8-2",
-	"8-2-1",
-	"8-2-2"
-    ],
-    
-    "8.3": [
-	"8-3",
-	"8-3-1",
-	"8-3-2",
-	"8-3-3",
-	"8-3-4",
-	"8-3-5"
-    ],
-    
-    "8.4": [
-	"8-4",
-	"8-4-1",
-	"8-4-2",
-	{
-		suffix:"(2016)",
-		chapter:"8-4-3",
-		isMp4:"false",
-		linkSuffix:""
-	},
-	{
-		suffix:"",
-		chapter:"8.4.3",
-		isMp4:"true",
-		linkSuffix:"(2017)"
-	},
-	"8-4-4",
-	"8-4-5"
-    ],
-    
-    "8.5": [
-	"8-5",
-	"8-5-1",
-	"8-5-2",
-	"8-5-3",
-	"8-5-4",
-	"8-5-5",
-	"8-5-6",
-	"8-5-7",
-	"8-5-8",
-	"8-5-9"
-    ],
-    
-    "8.6": [
-	"8-6",
-	"8-6-1",
-	"8-6-2",
-	"8-6-3",
-	"8-6-4",
-	"8-6-5",
-	"8-6-6",
-	"8-6-7",
-	"8-6-8",
-	"8-6-9",
-	"8-6-10",
-	"8-6-11",
-	"8-6-11 (2015)",
-		{
-		suffix:"(2016)",
-		chapter:"8-6-12",
-		isMp4:"false",
-		linkSuffix:"(2016)"
-	},
-	{
-		suffix:"",
-		chapter:"8.6.12",
-		isMp4:"true",
-		linkSuffix:"(2017)"
-	},
-	{"id": "8-6-13",
-		"caption": ""}
-    ],
-    
-    "8.7": [
-	"8-7",
-	"8-7-1",
-	"8-7-2",
-	"8-7-3",
-	"8-7-4",
-	"8-7-5",
-		{
-		suffix:"(2016)",
-		chapter:"8-7-6",
-		isMp4:"false",
-		linkSuffix:""
-	},
-	{
-		suffix:"",
-		chapter:"8.7.6",
-		isMp4:"true",
-		linkSuffix:"(2017)"
-	},
-		{
-		suffix:"(2016)",
-		chapter:"8-7-7",
-		isMp4:"false",
-		linkSuffix:""
-	},
-	{
-		suffix:"",
-		chapter:"8.7.7",
-		isMp4:"true",
-		linkSuffix:"(2017)"
-	},
-    ]
+   '8.1':[
+{ chapter:'8.1',link:'https://www.dropbox.com/s/rk03v3w9w460a3j/8-1.mp3?dl=0'},
+   ],
+   '8.2':[
+{ chapter:'8.2',link:'https://www.dropbox.com/s/th65bb4l41vxrpc/8-2.mp3?dl=0'},
+{ chapter:'8.2.1',link:'https://www.dropbox.com/s/du0nvtj160ufji6/8-2-1.mp3?dl=0'},
+{ chapter:'8.2.2',link:'https://www.dropbox.com/s/nr60b9t2hzgqst2/8-2-2.mp3?dl=0'},
+   ],
+   '8.3':[
+{ chapter:'8.3',link:'https://www.dropbox.com/s/y1lvldg3koegdds/8-3.mp3?dl=0'},
+{ chapter:'8.3.1',link:'https://www.dropbox.com/s/o4zds2oap8zxubt/8-3-1.mp3?dl=0'},
+{ chapter:'8.3.2',link:'https://www.dropbox.com/s/55rq2j15qb3v6jp/8-3-2.mp3?dl=0'},
+{ chapter:'8.3.3',link:'https://www.dropbox.com/s/oew0dtsdpgda4mr/8-3-3.mp3?dl=0'},
+{ chapter:'8.3.4',link:'https://www.dropbox.com/s/j6f3qiparz3mfev/8-3-4.mp3?dl=0'},
+{ chapter:'8.3.5',link:'https://www.dropbox.com/s/njbgnlqvffqcctb/8-3-5.mp3?dl=0'},
+   ],
+   '8.4':[
+{ chapter:'8.4',link:'https://www.dropbox.com/s/4gft798nspei8yv/8-4.mp3?dl=0'},
+{ chapter:'8.4.1',link:'https://www.dropbox.com/s/hee4129o1g6azsf/8-4-1.mp3?dl=0'},
+{ chapter:'8.4.2',link:'https://www.dropbox.com/s/ki7pqyt582mgnxm/8-4-2.mp3?dl=0'},
+{ chapter:'8.4.3',link:'https://www.dropbox.com/s/w03pfloam8vy8ak/8.4.3%20%282017%29.mp4?dl=0'},
+{ chapter:'8.4.3 (2016)',link:'https://www.dropbox.com/s/g3nn5kixyc60pof/8-4-3.mp3?dl=0'},
+{ chapter:'8.4.4',link:'https://www.dropbox.com/s/hd6cc414q2mmvd4/8-4-4.mp3?dl=0'},
+{ chapter:'8.4.5',link:'https://www.dropbox.com/s/5rbt0ni3txf6m2h/8-4-5.mp3?dl=0'},
+   ],
+   '8.5':[
+{ chapter:'8.5',link:'https://www.dropbox.com/s/di0aa6isowgmzk2/8-5.mp3?dl=0'},
+{ chapter:'8.5.1',link:'https://www.dropbox.com/s/wybi9zn79pgiedy/8-5-1.mp3?dl=0'},
+{ chapter:'8.5.2',link:'https://www.dropbox.com/s/9k5yfrpwargbwdj/8-5-2.mp3?dl=0'},
+{ chapter:'8.5.3',link:'https://www.dropbox.com/s/l3fg6xj2wovhd56/8-5-3.mp3?dl=0'},
+{ chapter:'8.5.4',link:'https://www.dropbox.com/s/klxjs1rh73ace9a/8-5-4.mp3?dl=0'},
+{ chapter:'8.5.5',link:'https://www.dropbox.com/s/rmpnl2uczock0zi/8-5-5.mp3?dl=0'},
+{ chapter:'8.5.6',link:'https://www.dropbox.com/s/tpu84ig7xdigho9/8-5-6.mp3?dl=0'},
+{ chapter:'8.5.7',link:'https://www.dropbox.com/s/8c7jvl2i319k3gq/8-5-7.mp3?dl=0'},
+{ chapter:'8.5.8',link:'https://www.dropbox.com/s/9pfsuvoa4i8phml/8-5-8.mp3?dl=0'},
+{ chapter:'8.5.9',link:'https://www.dropbox.com/s/ub8kki2ovmdcdgg/8-5-9.mp3?dl=0'},
+   ],
+   '8.6':[
+{ chapter:'8.6',link:'https://www.dropbox.com/s/fvmr0bl1581a510/8-6.mp3?dl=0'},
+{ chapter:'8.6.1',link:'https://www.dropbox.com/s/7baw8zj0p37pl5g/8-6-1.mp3?dl=0'},
+{ chapter:'8.6.2',link:'https://www.dropbox.com/s/l91nah6c0ct3u8d/8-6-2.mp3?dl=0'},
+{ chapter:'8.6.3',link:'https://www.dropbox.com/s/vzutpcccz03n4k5/8-6-3.mp3?dl=0'},
+{ chapter:'8.6.4',link:'https://www.dropbox.com/s/8ad6um4y8fzy5qt/8-6-4.mp3?dl=0'},
+{ chapter:'8.6.5',link:'https://www.dropbox.com/s/0ak7c77tjpsz9k5/8-6-5.mp3?dl=0'},
+{ chapter:'8.6.6',link:'https://www.dropbox.com/s/ha6vznv5y0zoy25/8-6-6.mp3?dl=0'},
+{ chapter:'8.6.7',link:'https://www.dropbox.com/s/fvig51i922z9olf/8-6-7.mp3?dl=0'},
+{ chapter:'8.6.8',link:'https://www.dropbox.com/s/4b5la0htbsf5dsc/8-6-8.mp3?dl=0'},
+{ chapter:'8.6.9',link:'https://www.dropbox.com/s/1j860y7uj8xmn94/8-6-9.mp3?dl=0'},
+{ chapter:'8.6.10',link:'https://www.dropbox.com/s/ew0zyzpra7l0a91/8-6-10.mp3?dl=0'},
+{ chapter:'8.6.11',link:'https://www.dropbox.com/s/eenua5v4pidr7e5/8-6-11.mp3?dl=0'},
+{ chapter:'8.6.11 (2015)',link:'https://www.dropbox.com/s/cycwpwkv41c5nwj/8-6-11%20%282015%29.mp3?dl=0'},
+{ chapter:'8.6.12 (2016)',link:'https://www.dropbox.com/s/gxvisl0asj44hjg/8-6-12.mp3?dl=0'},
+{ chapter:'8.6.12',link:'https://www.dropbox.com/s/1rqoffh67lw74ef/8.6.12%20%282017%29.mp4?dl=0'},
+{ chapter:'8.6.13',link:'https://www.dropbox.com/s/yr417l3tlg68e7p/8-6-13.mp3?dl=0'},
+   ],
+   '8.7':[
+{ chapter:'8.7.1',link:'https://www.dropbox.com/s/dac9r5o6y71y75o/8-7-1.mp3?dl=0'},
+{ chapter:'8.7.2',link:'https://www.dropbox.com/s/duhpw2ifa11ri8b/8-7-2.mp3?dl=0'},
+{ chapter:'8.7.3 (2013)',link:'https://www.dropbox.com/s/vkrxkthvstzknji/8-7-3%20%282013%29.mp3?dl=0'},
+{ chapter:'8.7.3',link:'https://www.dropbox.com/s/4vrr31bbyfv3b7v/8-7-3.mp3?dl=0'},
+{ chapter:'8.7.4',link:'https://www.dropbox.com/s/b8qi2asw3cakm9u/8-7-4.mp3?dl=0'},
+{ chapter:'8.7.5',link:'https://www.dropbox.com/s/l5p9r1p5t5uf50k/8-7-5.mp3?dl=0'},
+{ chapter:'8.7.6',link:'https://www.dropbox.com/s/drm48phimcyxtp6/8.7.6%20%282017%29.mp4?dl=0'},
+{ chapter:'8.7.6 (2016)',link:'https://www.dropbox.com/s/nykjqgycytisvqc/8-7-6.mp3?dl=0'},
+{ chapter:'8.7.7',link:'https://www.dropbox.com/s/qc9ffwuvg06ijrs/8.7.7%20%282017%29.mp4?dl=0'},
+{ chapter:'8.7.7 (2016)',link:'https://www.dropbox.com/s/hup9at3qd5vwfrp/8-7-7.mp3?dl=0'},
+   ],
 }
