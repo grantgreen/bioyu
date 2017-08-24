@@ -1,11 +1,8 @@
 var links = [
-    {"caption": "Søundersøgelse",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2030/S%C3%B8unders%C3%B8gelser.pdf"},
-
-    {"caption": "Makroindeksmetoden",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2030/Makroindeksmetoden.pdf"},
-
-    {"caption": "Minimumsloven",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2030/Minimumsloven.pdf"}
+{'caption':'Makroindeksmetoden',
+'link':'https://www.dropbox.com/s/417r7tkwy7qc8ps/Makroindeksmetoden.pdf?dl=0'},
+{'caption':'Minimumsloven',
+'link':'https://www.dropbox.com/s/trawx8toyv7keuz/Minimumsloven.pdf?dl=0'},
+{'caption':'Søundersøgelser',
+'link':'https://www.dropbox.com/s/15gq5llm2t8sznq/S%C3%B8unders%C3%B8gelser.pdf?dl=0'},
 ]
-

@@ -1,23 +1,16 @@
 var links = [
-    {"caption": "Opvarmning og præstationsevne",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Opvarmning%20og%20pr%C3%A6stationsevne.pdf"},
-
-    {"caption": "Måling af hæmatokritværdi",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Måling af hæmatokritværdi.pdf"},
-
-    {"caption": "Dissektion af kylling",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Dissektion af kylling.pdf"},
-
-    {"caption": "Fitness-indeks",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Fitness-indeks.pdf"},
-
-    {"caption": "Hvilepuls, arbejdspuls og kondital",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Hvilepuls, arbejdspuls og kondital.pdf"},
-
-    {"caption": "Konditests",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Konditests.pdf"},
-
-    {"caption": "Muskler - Styrke, udholdenhed og forspænding",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%206/Muskler - Styrke, udholdenhed og forspænding.pdf"}
+{'caption':'Dissektion af kylling',
+'link':'https://www.dropbox.com/s/5dllp2b2om3cd3t/Dissektion%20af%20kylling.pdf?dl=0'},
+{'caption':'Fitness-indeks',
+'link':'https://www.dropbox.com/s/axd2iqfepuoyj31/Fitness-indeks.pdf?dl=0'},
+{'caption':'Hvilepuls, arbejdspuls og kondital',
+'link':'https://www.dropbox.com/s/xrmxufo3fsrpaai/Hvilepuls%2C%20arbejdspuls%20og%20kondital.pdf?dl=0'},
+{'caption':'Konditests',
+'link':'https://www.dropbox.com/s/cq9wqyrgor43x8p/Konditests.pdf?dl=0'},
+{'caption':'Muskler - Styrke, udholdenhed og forspænding',
+'link':'https://www.dropbox.com/s/3ba4dn3tij5xv58/Muskler%20-%20Styrke%2C%20udholdenhed%20og%20forsp%C3%A6nding.pdf?dl=0'},
+{'caption':'Måling af hæmatokritværdi',
+'link':'https://www.dropbox.com/s/jtt5gnk3s849hf6/M%C3%A5ling%20af%20h%C3%A6matokritv%C3%A6rdi.pdf?dl=0'},
+{'caption':'Opvarmning og præstationsevenen',
+'link':'https://www.dropbox.com/s/qyvnygcs8saoxft/Opvarmning%20og%20pr%C3%A6stationsevne.pdf?dl=0'},
 ]
-

@@ -1,8 +1,6 @@
 var links = [
-    {"caption": "Blodsukker og hormoner",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%206/Blodsukker%20og%20hormoner.pdf"},
-
-    {"caption": "Kulhydrater og blodsukkeret",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%206/Kulhydrater%20og%20blodsukkeret.pdf"}
+{'caption':'Blodsukker og hormoner',
+'link':'https://www.dropbox.com/s/3dmzlgsss63wxoi/Blodsukker%20og%20hormoner.pdf?dl=0'},
+{'caption':'Kulhydrater og blodsukkeret',
+'link':'https://www.dropbox.com/s/kgwwpgmyj3ojqdm/Kulhydrater%20og%20blodsukkeret.pdf?dl=0'},
 ]
-

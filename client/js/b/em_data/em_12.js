@@ -1,5 +1,4 @@
 var links = [
-    {"caption": "Blodsukker og hormoner",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%2012/Blodsukker%20og%20hormoner.pdf"}
+{'caption':'Blodsukker og hormoner',
+'link':'https://www.dropbox.com/s/l94sobk4z0e97qp/Blodsukker%20og%20hormoner.pdf?dl=0'},
 ]
-
