@@ -282,7 +282,7 @@ db.contents.save(
         "name": "Kapitel 7: Tests",
         "sub": [
         {
-            "name": "7.1 Test af kondition",
+            "name": "7.1 Testtyper",
             "sub": [
                  "7.1.1 Biptest/yo-yo-test",
                  "7.1.2 Coopers løbetest",
@@ -291,20 +291,20 @@ db.contents.save(
             ]
         },
         {
-            "name": "7.2 Test af styrke",
+            "name": "7.2 Test af kondition",
             "sub": [
                 "7.2.1 Test af styrke i ben",
                 "7.2.2 Test af styrke i overkrop"
             ]
         },
         {
-            "name": "7.3 Test af Muskeludholdenhed",
+            "name": "7.3 Test af styrke",
             "sub": [
                 "7.3.1 Cirkeltræning",
             ]
         },
         {
-            "name": "7.4 All-around test",
+            "name": "7.4 Allround tests",
             "sub": [
                 "7.4.1 Politi-testen",
                 "7.4.2 Yubio-testen",

@@ -64,7 +64,7 @@ var getChapter = function(chapterNo, topic, bookType) {
 			linksContainer.append(header);
 			var body = $('<div></div>');
 			linksContainer.append(body);
-			
+				
 		    for(var j in subchapterLinks) {
 			var paragraph = $('<p></p>');
 			var subchapterValue = subchapterLinks[j];
