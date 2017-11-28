@@ -6,7 +6,7 @@ var links = [
 {'caption':'Fordøjelse af fedtstoffer',
 'link':'https://www.dropbox.com/s/xryk9u4g000adgb/Ford%C3%B8jelse%20af%20fedtstoffer.pdf?dl=0'},
 {'caption':'Fordøjelse af franskbrød',
-'link':'https://www.dropbox.com/s/evgzsvf9i4aaqix/Ford%C3%B8jelse%20af%20franskbr%C3%B8d.pdf?dl=0'},
+'link':'https://www.dropbox.com/s/rt4efnlff4z9ylv/Ford%C3%B8jelse%20af%20franskbr%C3%B8d.pdf?dl=0'},
 {'caption':'Fordøjelse',
 'link':'https://www.dropbox.com/s/rfrl2hls9r2l0xe/Ford%C3%B8jelse.pdf?dl=0'},
 {'caption':'Kostundersøgelse',

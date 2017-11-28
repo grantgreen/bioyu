@@ -4,8 +4,8 @@ var fs = require('fs');
 var retrieveInfo = function(options, callback) {
 
     var req = https.request(options, function(res) {
-//	console.log('STATUS: ' + res.statusCode);
-//	console.log('HEADERS: ' + JSON.stringify(res.headers));
+	console.log('STATUS: ' + res.statusCode);
+	//console.log('HEADERS: ' + JSON.stringify(res.headers));
 	res.setEncoding('utf8');
 
 	var body = "";
@@ -35,9 +35,10 @@ retrieveInfo({
     var myRe = /lectio\/(\d+)\/.*lecafdeling=(\d+)'>(.*)<\/a/g;
     var myArray;
     var resultArray = [];
-
+	console.log('Match '+(myArray = myRe.exec(body) !== null));
     while ((myArray = myRe.exec(body)) !== null)
     {
+		console.log('pushing');
 	resultArray.push({
 	    'schoolId': myArray[1],
 	    'lecDepId': myArray[2],
@@ -50,8 +51,9 @@ retrieveInfo({
 
 var getClassInfo = function(schoolsInfo) {
     var waitTime = 0;
-
+console.log('getClassInfo');
     schoolsInfo.forEach(function(school) {
+		console.log(school);
 /*
 	if(school.schoolId != 253) {
 	    return;
@@ -82,6 +84,7 @@ var getClassInfo = function(schoolsInfo) {
 	    var waitEduTime = 0;
 	    while ((myArray = myRe.exec(body)) !== null)
 	    {
+			console.log('School '+school);
 		//		getMaterialInfo(school, myArray[1]);
 		var waitGetEdu = function(school, classId) {
 		    return function() {getEducationDescription(school, classId)};

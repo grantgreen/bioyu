@@ -2201,7 +2201,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad er den mest udbredte sex-sygdom i Danmark?',
         answers: [
             'Klamydia',
@@ -2215,7 +2215,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvor stor en del af alle unge er smittet med Klamydia?',
         answers: [
             '1 ud af 100',
@@ -2229,7 +2229,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad hedder den organisme, der giver Klamydia?',
         answers: [
             'Antibiotika-bakterien',
@@ -2243,7 +2243,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad er behandlingen af Klamydia?',
         answers: [
             'Der er ingen behandling',
@@ -2257,7 +2257,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad kan der ske, hvis man går længe med en ubehandlet Klamydia?',
         answers: [
             'At den forsvinder af sig selv',
@@ -2271,7 +2271,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad er HPV?',
         answers: [
             'En bakterie der kan give Klamydia',
@@ -2285,7 +2285,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvad er kondylomer?',
         answers: [
             'Kønsvorter',
@@ -2299,7 +2299,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvilket virus kan give kondylomer?',
         answers: [
             'Herpes-virus',
@@ -2313,7 +2313,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvilken virus kan føre til livmoderhalskræft?',
         answers: [
             'Herpes-virus',
@@ -2327,7 +2327,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvilket virus kan føre til AIDS?',
         answers: [
             'Herpes-virus',
@@ -2341,7 +2341,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvorfor er HIV så farligt?',
         answers: [
             'Fordi det kan føre til livmoderhals-kræft',
@@ -2355,7 +2355,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvilken virus kan føre til forkølelsessår?',
         answers: [
             'Herpes-virus',
@@ -2369,7 +2369,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ["5.12"],
+        chapters: ["5.13"],
         text: 'Hvordan bliver man kureret for herpes?',
         answers: [
             'Der er ingen kur',

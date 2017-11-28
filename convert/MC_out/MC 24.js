@@ -648,12 +648,12 @@ db.questions.save(
         text: 'Hvornår og af hvem blev begrebet mutation introduceret?',
         answers: [
             'Af Darwin i 1859',
-            'Af Darwin i 1871',
+            'Huge de Vries',
             'Af Mendel i 1865',
             'Af Johannesen i starten af 1900-tallet'
         ],
         type: 'multiple_text',
-        correct_answer: '3'
+        correct_answer: '2'
     });
 
 db.questions.save(
