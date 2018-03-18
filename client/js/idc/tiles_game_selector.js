@@ -22,10 +22,11 @@ var getChapterList = function(topic, bookType) {
 	for(var i = 0; i < chapterList.length; i++) {		    	    
   var index = parseInt(chapterList[i].match(r));
         var chapter = index;
-        if(chapter >= 1 && chapter <=7)
+        if(chapter >= 1 && chapter <=9)
             {
              color = chap_1_7_color;
-           
+         var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+         
              //continue;
          }
         if(chapter >=10 && chapter <= 16) { color = chap_10_16_color; }
@@ -33,7 +34,6 @@ var getChapterList = function(topic, bookType) {
         if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}
 	    
          //var contentButton = textButton("column1", 'tiles_game_mode_coming.html?topic=' + topic + '&color='+color+'&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
-         var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
 	}
 	
     }).fail(function(jqXHR, textStatus) {

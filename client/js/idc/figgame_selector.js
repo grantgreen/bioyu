@@ -23,7 +23,7 @@ var getChapterList = function() {
 	for(var i = 0; i < chapterList.length; i++) {		    
 	    var index = parseInt(chapterList[i].match(r));
         var chapter = index;
-        if(chapter >= 1 && chapter <=7)
+        if(chapter >= 1 && chapter <=9)
             {
              color = chap_1_7_color;
                      // if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}

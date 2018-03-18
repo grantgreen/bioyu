@@ -5,7 +5,7 @@ body, html {
     background-color: #1C203A;
     font-family: sans-serif;
     color: #ffffff;
-     -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 input {
@@ -237,6 +237,29 @@ legend {
 
 }
 
+.yubioBoxedLink {
+    display: inline-block;
+    width: 22em;
+    height: 1.4em;
+    background-color: #5C6CAA;
+    /* border-style: solid;
+    border-width: .15em;
+    border-color: #5C6CAA; */
+    text-decoration: none;
+    line-height: 1.4em;
+    /* margin: 0 .5em; */
+    font-size: 14pt;
+    font-weight: 100;
+    /* margin-left: 5px; */
+    border-radius: 0px !important;
+
+
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+
+}
+
 
 .yubioLink,.yubioLink:link,.yubioLink:visited,.yubioLink:active,.yubioLink:hover { 
     text-decoration: none;
@@ -270,5 +293,9 @@ legend {
 .panel-collapse {
     background: #1C203A;
     border: none;
+}
+
+.div-hidden{
+    display: none;
 }
 

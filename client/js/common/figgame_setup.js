@@ -3,6 +3,9 @@ var getChapter = function (chapterNo, bookType) {
 		url: "getChapter.json",
 		data: { chapterno: chapterNo }
 	}).done(function (chapter) {
+		
+		if( hasMC(chapter))
+			{
 		var chapterHeader = $('#chapter_header');
 
 		var header = $('<h2></h2>');
@@ -12,10 +15,47 @@ var getChapter = function (chapterNo, bookType) {
 
 		getFiguresForChapter(chapterNo, bookType);
 
+			}
+			else
+				{
+					showAlternative();
+				}
+
 	}).fail(function (jqXHR, textStatus) {
 		alert("Request failed: " + textStatus);
 	});
 };
+
+var hideAlternative = function()
+{
+	$('#altColumn').hide();
+	$('default').show();
+	$('collapseSetup').show();
+	$('headingGame').show();
+	$('headingResult').show();
+	$('collapseResult').show();
+}
+var showAlternative = function(){
+
+	$('#altColumn').show();
+	$('#default').hide();
+	$('#collapseSetup').hide();
+	$('#headingGame').hide();
+	$('#headingResult').hide();
+	$('#collapseResult').hide();
+}
+var hasMC = function(chapter)
+{
+	if(!chapter){return false;}
+	for (var i = 0; i < chapter.sub.length; i++)
+	{
+		if( chapter.sub[i].hasMC != null)
+		{
+			return chapter.sub[i].hasMC;
+		}
+	};
+	return true;
+}
 
 var getFiguresForChapter = function (chapterNo, bookType)
  {
@@ -38,12 +78,18 @@ var getFiguresForChapter = function (chapterNo, bookType)
 		var allFigures = [];
 		if (figures.standard) {
 			figures.standard.forEach(function (figure) {
-				allFigures.push({ "figure": figure, "type": "standard" });
+				if( figure.endsWith(".svg"))
+				{
+					allFigures.push({ "figure": figure, "type": "standard" });
+				}
 			});
 		}
 		if (figures.special) {
-			figures.special.forEach(function (figure) {
-				allFigures.push({ "figure": figure, "type": "special" });
+			figures.special.forEach(function (figure) {									
+				if( figure.endsWith(".svg"))
+					{
+						allFigures.push({ "figure": figure, "type": "special" });
+					}
 			});
 		}
 
@@ -77,6 +123,7 @@ var addFigure = function (figure, figureType) {
 
 var initFigGame = function (chapter, topic, bookType) {
 	if (chapter.indexOf("-") == -1) {
+		hideAlternative();
 		getChapter(chapter, bookType);
 	}
 

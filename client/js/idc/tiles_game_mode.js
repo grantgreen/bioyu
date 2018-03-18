@@ -29,7 +29,7 @@ var hasFF = function(chapterNo, bookType, callback)
     }).done(function( chapter ) {
     	for (var i = 0; i < chapter.sub.length; i++)
     	{
-    		if( chapter.sub[i].hasMC != null)
+    		if( chapter.sub[i].hasFF != null)
     		{
     			callback(chapter.sub[i].hasFF,  chapter.sub[i].color);
     			return;

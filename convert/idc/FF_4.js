@@ -1,3 +1,4 @@
+
 db.tiles_game.save(
     {
         chapter: 4,
@@ -37,7 +38,7 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 4,
- 	category: 'Kriterier for at stoffer/metoder kommr på dopinglisten',
+ 	category: 'Kriterier for at stoffer/metoder kommer på dopinglisten',
 	matches: [
 		'Det skal være sundhedsskadeligt',
 		'Det skal være imod sportens ånd',
@@ -86,7 +87,7 @@ db.tiles_game.save(
         chapter: 4,
  	category: 'Typer af dopingmisbrugere',
 	matches: [
-		'YOLO&quot;&quot;en',
+		"YOLO'en",
 		'Eksperten',
 		'Livsnyderen',
 		'Atleten',

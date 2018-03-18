@@ -11,7 +11,8 @@ var links = {
 { chapter:'3.2.5',link:'https://www.dropbox.com/s/1yjuipuixb8lfaa/3.2.5.mp3?dl=0'},
 { chapter:'3.2.6',link:'https://www.dropbox.com/s/j3pnaunnctioyqh/3.2.6.mp3?dl=0'},
 { chapter:'3.2.7',link:'https://www.dropbox.com/s/80o1wolnjbafq9e/3.2.7.mp3?dl=0'},
-{ chapter:'3.2.8',link:'https://www.dropbox.com/s/irqaelvpqfr9yt8/3.2.8.mp3?dl=0'},
+{chapter:"3.2.8", link:"https://www.dropbox.com/s/bcpkgbh8ktbhaip/3.2.8%20%282017%29.mp4?dl=0"},
+{ chapter:'3.2.8 (2016)',link:'https://www.dropbox.com/s/irqaelvpqfr9yt8/3.2.8.mp3?dl=0'},
    ],
    '3.3':[
 { chapter:'3.3',link:'https://www.dropbox.com/s/ifo205wlj6hqbfb/3.3.mp3?dl=0'},

@@ -1,3 +1,4 @@
+
 db.questions.save(
     {
         chapters: ['3.1'],
@@ -415,7 +416,7 @@ db.questions.save(
 		'60',
 	],
 	type: 'multiple_text',
- 	correct_answer: '0'
+ 	correct_answer: '3'
     });
 
 db.questions.save(
@@ -449,7 +450,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
- 	text: 'Hvad er det højeste kondital mplt hos en kvinde',
+ 	text: 'Hvad er det højeste kondital målt hos en kvinde',
 	answers: [
 		'79',
 		'86',
@@ -566,7 +567,7 @@ db.questions.save(
 		'mere trænes respirationen',
 		'mere trænes kreatinfosfatsystemet',
 		'mindre trænes respirationen',
-		'mindre trænes kreatinfosfatsystemet',
+		'mere trænes alle energisystemer',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -662,7 +663,7 @@ db.questions.save(
  	text: 'Hvilken proces bidrager stort set ikke ved styrketræning',
 	answers: [
 		'Respirationen',
-		'kreatinfosfatsystemet',
+		'Kreatinfosfatsystemet',
 		'Mælkesyregæringen',
 		'Alle energisystemer bidrager væsentligt',
 	],

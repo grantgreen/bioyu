@@ -23,29 +23,45 @@ var getChapterList = function(topic, bookType) {
     {
           var index = parseInt(chapterList[i].match(r));
         var chapter = index;
-        if(chapter >= 1 && chapter <=7)
-            { 
-                color = chap_1_7_color;
-            }
-        if(chapter >=10 && chapter <= 16)
+        if(chapter >= 1 && chapter <=9)
             {
-                color = chap_10_16_color;
-            }
-        if( chapter >= 20 && chapter <= 26){ 
-            color = chap_20_26_color;
-        }
-        if( chapter >= 30 && chapter <= 33)
-            {
-             color = chap_30_33_color;
-         }
+             color = chap_1_7_color;
 var contentButton = textButton("column1", 'multiple_choice.html?topic=multiple_choice&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+
+            }
+        // if(chapter >= 1 && chapter <=7)
+        //     { 
+        //         color = chap_1_7_color;
+        //     }
+        // if(chapter >=10 && chapter <= 16)
+        //     {
+        //         color = chap_10_16_color;
+        //     }
+        // if( chapter >= 20 && chapter <= 26){ 
+        //     color = chap_20_26_color;
+        // }
+        // if( chapter >= 30 && chapter <= 33)
+        //     {
+        //      color = chap_30_33_color;
+        //  }
 	}
 	
     }).fail(function(jqXHR, textStatus) {
 	alert( "Request failed: " + textStatus );
     });;
 };
-
+var hasMC = function(chapter)
+{
+	if(!chapter){return false;}
+	for (var i = 0; i < chapter.sub.length; i++)
+	{
+		if( chapter.sub[i].hasMC != null)
+		{
+			return chapter.sub[i].hasMC;
+		}
+	};
+	return true;
+}
 var intdiv = function(numerator, denominator) {
     return (numerator / denominator) >> 0;
 }
