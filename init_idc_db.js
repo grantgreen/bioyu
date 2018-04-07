@@ -278,77 +278,182 @@ db.contents.save(
     });
 
 db.contents.save(
-    {
-        "name": "Kapitel 7: Tests",
-        "sub": [
-        {
-            "name": "7.1 Testtyper",
-            "sub": [
-                 "7.1.1 Biptest/yo-yo-test",
-                 "7.1.2 Coopers løbetest",
-                 "7.1.3 Åstrands nomogram",
-                 "7.1.4 Andre konditionstests"
-            ]
-        },
-        {
-            "name": "7.2 Test af kondition",
-            "sub": [
-                "7.2.1 Test af styrke i ben",
-                "7.2.2 Test af styrke i overkrop"
-            ]
-        },
-        {
-            "name": "7.3 Test af styrke",
-            "sub": [
-                "7.3.1 Cirkeltræning",
-            ]
-        },
-        {
-            "name": "7.4 Allround tests",
-            "sub": [
-                "7.4.1 Politi-testen",
-                "7.4.2 Yubio-testen",
-            ],
-            "hasQuestions": false
-        },
-        {
-            "name": "7.5 Opvarmningens effekt",
-            "sub": [],
-            "hasQuestions": false
-        },
-        {
-            "name": "7.6 Test af bevægelighed",
-            "sub": [],
-            "hasQuestions": false
-        },
-        {
-            "name": "7.7 Tests og matematik",
-            "sub": [
-                "7.7.1 Små mutationer",
-                "7.7.2 Store mutationer"
-            ],
-            "hasQuestions": false
-        },
-        {
-            "name": "7.8 Nedarvninger",
-            "sub": [
-                "7.8.1 Genetiske grundbegreber",
-                "7.8.2 Autosomal etgensnedarvning",
-                "7.8.3 Autosomal togensnedarvning",
-                "7.8.4 Kønsbundet nedarvning",
-                "7.8.5 Specielle nedarvninger",
-                "7.8.6 Arv og miljø"
-            ],
-            "hasQuestions": false
-        },
-        {
-            "name": "Resume",
-            "sub": [],  
-            "color":"#26213B"        
-        }
-        ]
+    {"name": "Kapitel 7: Tests",
+     "sub": [
+	 {"name": "7.1 Test af kondition",
+	 "sub": [
+	      "7.1.1 Biptest/yo-yo-test",
+	      "7.1.2 Coopers løbetest",
+	      "7.1.3 Åstrands nomogram",
+	      "7.1.4 Andre konditionstests"
+	 ]},
+	 {"name": "7.2 Test af styrke",
+	  "sub": [
+	      "7.2.1 Test af styrke i ben",
+	      "7.2.2 Test af styrke i overkrop"
+	  ]},
+	 {"name": "7.3 Test af Muskeludholdenhed",
+	  "sub": [
+	      "7.3.1 Cirkeltræning",
+	  ]},
+	 {"name": "7.4 All-around test",
+	  "sub": [
+	      "7.4.1 Politi-testen",
+	      "7.4.2 Yubio-testen",
+	  ]},
+	 {"name": "7.5 Test af fibersammensætning",
+	  "sub": [],
+	  "hasQuestions": false},
+	 {"name": "7.6 Test af opvarmningens effekt",
+	  "sub": [ ],
+	  "hasQuestions": false},
+	 {"name": "7.7 Mutationer",
+	  "sub": [
+	      "7.7.1 Små mutationer",
+	      "7.7.2 Store mutationer"
+	  ],
+	  "hasQuestions": false},
+	 {"name": "7.8 Nedarvninger",
+	  "sub": [
+	      "7.8.1 Genetiske grundbegreber",
+	      "7.8.2 Autosomal etgensnedarvning",
+	      "7.8.3 Autosomal togensnedarvning",
+	      "7.8.4 Kønsbundet nedarvning",
+	      "7.8.5 Specielle nedarvninger",
+	      "7.8.6 Arv og miljø"
+	  ],
+	  "hasQuestions": false},
+	 {
+	 	"name": "Resume",
+	  "sub": [],
+	   "color":"#26213B"
+	}	 
+     ]
     });
 
+db.contents.save(
+	{"name": "Kapitel 8: Udvidet fyiologi & træningslære",
+		 "sub": [ {"name": "8.1 Indledning",
+		  "sub": [],
+		 "hasQuestions": false},
+		  {"name": "8.2 Lunger, blod & ATP",
+		  "sub": [
+				"8.2.1 Lungevoluminer",
+				  "8.2.2 Ilt- og kuldioxidtransport",
+				  "8.2.3 Hjertet og blodkredsløbet",
+				  "8.2.4 Hjertets sammensætning",
+				  "8.2.5 Blodtryk og venepumpe",
+				  "8.2.6 Hjerteklapper og hjertelyd",
+				  "8.2.7 Ficks princip"
+		  ]},
+		 {"name": "8.3 Energi (ATP)",
+		  "sub": [
+			  "8.3.1 ATP-molekylet",
+			  "8.3.2 ATP fra kulhydrat",
+			  "8.3.3 Kulhydrat fra fedt/protein",
+			  "8.3.4 RQ og fedtforbrænding",
+			  "8.3.5 Cost of transport"
+		  ]},
+		 {"name": "8.4 Anatomi",
+		  "sub": [
+			  "8.4.1 Skelettet",
+			  "8.4.2 Led",
+			  "8.4.3 Musklerne"
+		  ]},
+		 {"name": "8.5 Muskelfysiologi",
+		  "sub": [
+			  "8.5.1 Musklens opbygning",
+			  "8.5.2 Muskelkontraktion",
+			  "8.5.3 Muskelfibertyper",
+			  "8.5.4 Træning og fibertyper",
+			  "8.5.5 Mekaniske forhold",
+			  "8.5.6 Muskeltræthed",
+			  "8.5.7 Muskelømhed",
+			  "8.5.8 Musklernes hukommelse",
+			  "8.5.9 Kønsforskelle",
+			  "8.5.10 Gamle muskler"
+		  ]},
+		  {"name":"8.6 Konditionstræning",
+		"sub":[
+			"8.6.1 Præstationsevnen",
+			"8.6.2 Kontinuerlig træning",
+			"8.6.3 Intervaltræning",
+			"8.6.4 Træningsplanlægning",
+			"8.6.5 Effekter af konditionstræning",
+		]},
+		{"name":"8.7 Styrketræning",
+		"sub":[
+			"8.7.1 Præstationsevnen",
+			"8.7.2 Selve træningen",
+			"8.7.3 Træningsplanlægning",
+			"8.7.4 Effekter af styrketræning",
+			"8.7.5 Alternative træningsmetoder",
+		]},
+		{"name":"8.8 Ekstreme forhold",
+		"sub":[
+			"8.8.1 Idræt i varme",
+			"8.8.2 Idræt i kulde",
+			"8.8.3 Idræt i højderne",
+			"8.8.4 Idræt i dybderne"		
+		]},
+		 {"name": "Resume",
+		  "sub": [],
+		     "color":"#26213B"
+		}	 
+	 ]
+});
+	
+	db.contents.save(
+	{"name": "Kapitel 9: Idræt og samfund",
+		 "sub": [ {"name": "9.1 Dansk idrætshistorie",
+		  "sub": [
+		  		"9.1.1 Den tidlige idræt",
+		  		"9.1.2 Den moderne idræt i Danmark",
+		  		"9.1.3 Den svenske gymnastik",
+		  		"9.1.4 Sporten",
+		  		"9.1.5 Store danske præstationer"
+		  ]},
+		  {"name": "9.2 Idræt og medier",
+		  "sub": [
+				"9.2.1 Medier og kommunikation",
+				  "9.2.2 Sportsfolk og sportsjournalister",
+				  "9.2.3 Stjerner og individet i fokus",
+		  ]},
+		 {"name": "9.3 Idræt og religion",
+		  "sub": [
+			  "9.3.1 Socialisering og sammenhængskraft",
+			  "9.3.2 Samfund og civilreligion",
+			  "9.3.3 De syv dimensioner",
+		  ]},
+		 {"name": "9.4 Idræt og karrierelæring",
+		  "sub": [
+			  "9.4.1 Sundhedssektoren",
+			  "9.4.2 Formidling",
+			  "9.4.3 Træner",
+			  "9.4.4 Politi, forsvar og beredskab",
+			  "9.4.5 Professionel idrætsudøver"
+		  ]},
+		 {"name": "9.5 Idræt og integration",
+		  "sub": [
+			  "9.5.1 Det fælles tredje",
+			  "9.5.2 Anerkendelse",
+			  "9.5.3 Kultur og kommunikation",
+			  "9.5.4 Integration eller ej?",
+		  ]},
+		  {"name":"9.6 Idræt og politik",
+		"sub":[
+			"9.6.1 Er idræt politik?",
+			"9.6.2 Idræt som mål eller middel?",
+			"9.6.3 Elite eller bredde?",
+			"9.6.4 Træningsplanlægning",
+			"9.6.5 Den internationale scene",
+		]},
+		 {"name": "Resume",
+		  "sub": [],
+		     "color":"#26213B"
+		}	 
+	 ]
+});
 
 
 db.contents.save(
