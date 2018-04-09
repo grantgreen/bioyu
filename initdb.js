@@ -650,6 +650,20 @@ db.contents.save(
 	      "12.8.1 Blodkredsløbet",
 	      "12.8.2 Trakeer"
 	  ]},
+	   {"name": "12.9 De vildeste dyr",
+	  "sub": [
+	      "12.9.1 Rovfugle",
+	      "12.9.2 De store katte",
+	      "12.9.3 Pingviner",
+	      "12.9.4 Bjørne",
+	      "12.9.5 Myrer",
+	      "12.9.6 Ræve",
+	      "12.9.7 Elefanter",
+	      "12.9.8 Store aber",
+	      "12.9.9 Krokodiller",
+	      "12.9.10 Flagermus",
+	      "12.9.11 Slanger"
+	  ]},
 
 	 {"name": "Resume",
 	  "sub": []}
