@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lectio classes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/images/icons/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href = "../lectio/vendor/bootstrap/css/bootstrap.min.css" > 
+<link rel="stylesheet" type="text/css" href="../lectio/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../lectio/vendor/animate/animate.css">
+<link rel="stylesheet" type="text/css" href="../lectio/vendor/select2/select2.min.css">
+<link rel="stylesheet" type="text/css" href="../lectio/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<link rel="stylesheet" type="text/css" href="../lectio/css/util.css">
+<link rel="stylesheet" type="text/css" href="../lectio/css/main.css">
+</head>
+<p>Created 9/14/2019 11:37:13 AM</p>
+<div class="limiter">
+<div class="container-table100">
+<div class="wrap-table100">
+<div class="table100 ver1 m-b-110">
+<div class="table100-head">
+<table>
+<thead>
+<tr class="row100 head">
+<th class="cell100 column1">School</th>
+<th class="cell100 column2">Classes using Yubio</th>
+</tr>
+</thead>
+</table>
+</div>
+<div class="table100-body js-pscroll">
+<table>
+<tbody>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="../lectio/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="../lectio/vendor/bootstrap/js/popper.js"></script>
+<script src="../lectio/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../lectio/vendor/select2/select2.min.js"></script>
+<script src="../lectio/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script>
+$('.js-pscroll').each(function(){
+var ps = new PerfectScrollbar(this);
+			$(window).on('resize', function(){
+ps.update();
+})
+
+});
+</script>
+<script src="../lectio/js/main.js"></script>
+</body>
+</html

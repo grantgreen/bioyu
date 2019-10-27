@@ -1,0 +1,170 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using System.Text.RegularExpressions;
+using Google.Apis.Services;
+using Google.Apis.YouTube.v3;
+using Nancy.Json.Simple;
+
+namespace Yubio.Server
+{
+    internal class LinkParser
+    {
+        internal class Link
+        {
+            public string Book { get; set; }
+            public string Url { get; set; }
+            public string Caption { get; set; }
+            public int Chapter { get; set; }
+        }
+
+        internal class JsonLink
+        {
+            public string caption { get; set; }
+            public string link { get; set; }
+
+        }
+        private static readonly Regex UrlRegex = new Regex(@"(ht|f)tp(s?)\:\/\/[0-9a-åA-Å]([-.\w]*[0-9a-åA-Å])*(:(0-9)*)*(\/?)([a-åA-Å0-9\-\.\?\,\'\/\\\+&%\$#_]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+
+        public static IEnumerable<Link> ResolveDeadLinks(bool onlyYoutube = false)
+        {
+            int NumberOfChapters = 30;
+            for (int i = 1; i <= NumberOfChapters; i++)
+            {
+                var url = string.Format($"http://yubio.dk/js/links_data/newlinks_{i}.js");
+                var response = GetReponse(url);
+                if (!string.IsNullOrEmpty(response))
+                {
+                    var regeex = Regex.Matches(response, "{.*}");
+                    foreach (Match match in regeex)
+                    {
+                        var f = SimpleJson.DeserializeObject<JsonLink>(match.Value);
+                        if (string.IsNullOrEmpty(f.caption)) { continue; }
+
+                        if (f.link.Contains("youtube"))
+                        {
+                            var valid = IsYouTubeValid(f.link);
+                            if (!valid)
+                            {
+                                yield return new Link()
+                                {
+                                    Book = "a",
+                                    Url = f.link,
+                                    Caption = f.caption,
+                                    Chapter = i
+                                };
+
+                            }
+                        }
+                        else if (!onlyYoutube)
+                        {
+                            var valid = IsValidURL(f.link);
+                            if (!valid)
+                            {
+                                yield return new Link()
+                                {
+                                    Book = "a",
+                                    Url = f.link,
+                                    Caption = f.caption,
+                                    Chapter = i
+                                };
+
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        private static YoutubeVideoProxy youtubeVideoProxy;
+        private static bool IsYouTubeValid(string url)
+        {
+            if (youtubeVideoProxy == null)
+            { youtubeVideoProxy = new YoutubeVideoProxy(); }
+
+            return youtubeVideoProxy.VideoOk(url);
+        }
+        private static bool IsValidURL(string url)
+        {
+            try
+            {
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
+                request.Method = "HEAD";
+
+                HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+                return (response?.StatusCode == System.Net.HttpStatusCode.OK);
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                return false;
+            }
+        }
+        public static string GetReponse(string url)
+        {
+            try
+            {
+                var request = WebRequest.Create(url) as HttpWebRequest;
+                request.UserAgent =
+                    "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.6) Gecko/20060728 Firefox/1.5";
+                request.CookieContainer = new CookieContainer();
+                request.Credentials = CredentialCache.DefaultCredentials;
+                request.Accept = "*/*";
+
+                var webReponse = request.GetResponse();
+                var dataStream = webReponse.GetResponseStream();
+                var reader = new StreamReader(dataStream);
+                return reader.ReadToEnd();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                return null;
+            }
+        }
+    }
+
+    class YoutubeVideoProxy
+    {
+        private YouTubeService service;
+        private static Regex regex = new Regex(@"(.+?)v=(?<id>([a-zA-Z0-9_-]{11})+)");
+        public YoutubeVideoProxy()
+        {
+
+        }
+
+        public bool VideoOk(string url)
+        {
+            GuardServiceIsCreated();
+            try
+            {
+                var match = regex.Match(url);
+                var list = service.Videos.List("status");
+                list.Id = match.Groups["id"].Value;
+                var found = list.Execute();
+                return found.Items[0].Status.UploadStatus == "processed"; ;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+                return false;
+            }
+        }
+
+        private void GuardServiceIsCreated()
+        {
+            if (this.service == null)
+            {
+                this.service = new YouTubeService(new BaseClientService.Initializer
+                {
+                    ApplicationName = "Discovery Sample",
+                    ApiKey = "AIzaSyD0P4Jb6LJlollTTfJFHApb6w944i9vm1Y",
+                });
+            }
+        }
+    }
+}

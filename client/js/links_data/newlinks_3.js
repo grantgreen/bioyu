@@ -1,0 +1,33 @@
+var links = {
+    "3": [
+		{"caption": "Vitaminer og mineraler", "link": "http://blausen.com/da/video/vitaminer-og-mineraler/"},
+	   	{"caption": "Kalorier i en sandwich","link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter17/animation__calories_in_a_sandwich.html"},
+		{"caption": "Enzymer i fordøjelsen","link": "http://blausen.com/da/video/enzymer/"},
+	   	{"caption": "Fordøjelse","link": "http://blausen.com/da/video/fordjelse/"},
+	   {"caption": "Fordøjelseskanalen", "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter16/animation__organs_of_digestion.html"},
+	   {"caption": "Fordøjelsen","link": "https://www.sundhed.dk/borger/sygdomme-a-aa/mave-og-tarm/illustrationer/animationer/fordoejelse/"},
+	   {"caption": "Fordøjelsesenzymer","link": "https://www.sundhed.dk/borger/sygdomme-a-aa/mave-og-tarm/illustrationer/animationer/enzymer/"},
+	   {"caption": "Kostanalyse","link": "http://www.madital.dk"},
+   {"caption": "Fedtsugning","link": "http://blausen.com/da/video/fedtsugning-af-fedt-pa-maven/"},
+   {"caption": "Gastric bypass", "link": "http://blausen.com/da/video/gastrisk-bypass/"},
+   {"caption": "Blindtarmsbetændelse","link": "http://blausen.com/da/video/blindtarmsbetændelse/"},
+	   {"caption": "Mavesår","link": "https://www.sundhed.dk/borger/sygdomme-a-aa/mave-og-tarm/illustrationer/animationer/mavesaar/"},
+	{"caption":"Fordøjelsessystemet 1","link":"https://www.youtube.com/watch?v=pqgcEIaXGME"},
+	{"caption":"Fordøjelsessystemet 2","link":"https://www.youtube.com/watch?v=jGme7BRkpuQ"},
+	{"caption":"Fordøjelsessystemet 3","link":"https://www.youtube.com/watch?v=nM5kMSjBrmw"},
+	{"caption":"Næringsstoffer","link":"https://www.youtube.com/watch?v=fR3NxCR9z2U"},
+	,{"color": "#6DC0B4"},
+	{"caption": "Videnskab.dk", "link": "http://www.videnskab.dk"},
+	{"caption": "Aktuel Naturvidenskab","link": "http://aktuelnaturvidenskab.dk"},
+	{"caption": "Sciencefix.dk","link": "http://www.sciencefix.dk"},
+	{"caption": "Netdoktor.dk","link": "http://www.netdoktor.dk"},
+	{"caption": "Sundhed.dk","link": "http://www.sundhed.dk"},
+	{"caption": "Motion-online.dk","link": "http://www.motion-online.dk"},
+
+	{"caption": "Ulighedens Danmarkskort", "link": "https://cevea.dk/ulighedens-danmarkskort"},
+	{"caption": "Sundhedsguiden.dk","link": "http://www.sundhedsguiden.dk"},
+	{"caption": "Sundhedsstyrelsen","link": "http://www.sst.dk"},
+	{"caption": "Min Medicin","link": "http://www.min.medicin.dk"},
+	{"caption": "Alt om kost","link": "https://altomkost.dk/raad-og-anbefalinger/de-officielle-kostraad/"},
+]
+}

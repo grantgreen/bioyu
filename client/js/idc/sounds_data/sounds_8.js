@@ -1,0 +1,212 @@
+var links = {
+
+	"8.1":[
+	{
+		chapter:"8.1",
+		link:"https://www.dropbox.com/s/c1yxhdtvoardo2y/8.1.mp4?dl=0"
+	},
+	
+	],
+	"8.2":[
+	{
+		chapter:"8.2.1",
+		link:"https://www.dropbox.com/s/4doud0ycds5tx06/8.2.1.mp4?dl=0"
+	},
+	{
+		chapter:"8.2.2",
+		link:"https://www.dropbox.com/s/ujx4ym8w7o8rqin/8.2.2.mp4?dl=0"
+	},
+	{
+		chapter:"8.2.3",
+		link:"https://www.dropbox.com/s/98jqweqeh9vjnqe/8.2.3.mp4?dl=0"
+	},
+	{
+		chapter:"8.2.4",
+		link:"https://www.dropbox.com/s/avomc6r5njr98ct/8.2.4.mp4?dl=0"
+	},
+	{
+		chapter:"8.2.5",
+		link:"https://www.dropbox.com/s/lz00itrel2e9xjz/8.2.5.mp4?dl=0"
+	} ,
+	{
+		chapter:"8.2.6",
+		link:"https://www.dropbox.com/s/gyqtksqz8uladoh/8.2.6.mp4?dl=0"	
+	},
+	{
+		chapter:"8.2.7",
+		link:"https://www.dropbox.com/s/mu0px3bbyaqghs9/8.2.7.mp4?dl=0"
+	}
+	],
+	"8.3":[
+	{
+		chapter:"8.3",
+		link:"https://www.dropbox.com/s/5xyl0xhfbd7vk3i/8.3.mp4?dl=0"
+	},
+	{
+		chapter:"8.3.1",
+		link:"https://www.dropbox.com/s/3kvm99tmfl861ji/8.3.1.mp4?dl=0"
+	},
+	{
+		chapter:"8.3.2",
+		link:"https://www.dropbox.com/s/97qbws40fgkfnp9/8.3.2.mp4?dl=0"
+	},
+	{
+		chapter:"8.3.3",
+		link:"https://www.dropbox.com/s/iq3fanmcdr5dgvx/8.3.3.mp4?dl=0"
+	},
+	{
+		chapter:"8.3.4",
+		link:"https://www.dropbox.com/s/0ti2xlhcg8p1eg7/8.3.4.mp4?dl=0"
+	},
+	{
+		chapter:"8.3.5",
+		link:"https://www.dropbox.com/s/czcyidf6nsx3gjj/8.3.5.mp4?dl=0"
+	}
+	],
+	"8.4":[
+	{
+		chapter:"8.4",
+		link:"https://www.dropbox.com/s/usyihxycsthvr6m/8.4.mp4?dl=0"
+	},
+	{
+		chapter:"8.4.1",
+		link:"https://www.dropbox.com/s/nuqrj1kdfw0jaja/8.4.1.mp4?dl=0"
+	},
+	{
+		chapter:"8.4.2",
+		link:"https://www.dropbox.com/s/lt26a95wkqm2bix/8.4.2.mp4?dl=0"
+	},
+	{
+		chapter:"8.4.3",
+		link:"https://www.dropbox.com/s/1bbac6ozfmha6wm/8.4.3.mp4?dl=0"
+	}	
+	],
+	"8.5":[
+		{
+			chapter:"8.5",
+			link:"https://www.dropbox.com/s/lf6eefe1lpun1dv/8.5.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.1",
+			link:"https://www.dropbox.com/s/x5ep8264ygctz1i/8.5.1.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.2",
+			link:"https://www.dropbox.com/s/k0zbwexyoo8stq8/8.5.2.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.3",
+			link:"https://www.dropbox.com/s/bikwnunlntfcztb/8.5.3.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.4",
+			link:"https://www.dropbox.com/s/iyheaxp1adapslb/8.5.4.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.5",
+			link:"https://www.dropbox.com/s/x4bwhdqi222dn79/8.5.5.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.6",
+			link:"https://www.dropbox.com/s/e9p1u6qjlbhyb6m/8.5.6.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.7",
+			link:"https://www.dropbox.com/s/p29z660gfn0xw2u/8.5.7.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.8",
+			link:"https://www.dropbox.com/s/4ub5iz4i6fq2z55/8.5.8.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.9",
+			link:"https://www.dropbox.com/s/vs94c058mbncr5a/8.5.9.mp4?dl=0"
+		},
+		{
+			chapter:"8.5.10",
+			link:"https://www.dropbox.com/s/wpqqwy20ix62ibv/8.5.10.mp4?dl=0"
+		}
+	],
+	"8.6":[
+		{
+			chapter:"8.6.1",
+			link:"https://www.dropbox.com/s/zsxrlnxymgl5mc1/8.6.1.mp4?dl=0"
+		},
+		{
+			chapter:"8.6.2",
+			link:"https://www.dropbox.com/s/mcrd80vt7n73fml/8.6.2.mp4?dl=0"
+		},
+		{
+			chapter:"8.6.3",
+			link:"https://www.dropbox.com/s/9neee7wun88ttnr/8.6.3.mp4?dl=0"
+		},
+		{
+			chapter:"8.6.4",
+			link:"https://www.dropbox.com/s/xowozec2dtzfms8/8.6.4.mp4?dl=0"
+		},
+		{
+			chapter:"8.6.5",
+			link:"https://www.dropbox.com/s/g34sszae3nog5qp/8.6.5.mp4?dl=0"
+		}
+	],
+	"8.7":[
+	{
+		chapter:"8.7.1",
+		link:"https://www.dropbox.com/s/2clz6y9fzfoudb7/8.7.1.mp4?dl=0"
+	},
+	{
+		chapter:"8.7.2",
+		link:"https://www.dropbox.com/s/dp3p7xatjdghgwv/8.7.2.mp4?dl=0"
+	},
+	{
+		chapter:"8.7.3",
+		link:"https://www.dropbox.com/s/jyaycot9ok4hkgd/8.7.3.mp4?dl=0"
+	},
+	{
+		chapter:"8.7.4",
+		link:"https://www.dropbox.com/s/1xahix8vz67hhit/8.7.4.mp4?dl=0"	
+	},
+	{
+		chapter:"8.7.5",
+		link:"https://www.dropbox.com/s/gm4mwa19voee1fp/8.7.5.mp4?dl=0"
+	}
+	],
+	"8.8":[
+		{
+			chapter:"8.8",
+			link:"https://www.dropbox.com/s/xpjz66vgrnam3io/8.8.mp4?dl=0"
+		},
+		{
+		chapter:"8.8.1",
+		link:"https://www.dropbox.com/s/7ccf4zcssi8e44r/8.8.1.mp4?dl=0"
+	},
+		{
+			chapter:"8.8.2",
+			link:"https://www.dropbox.com/s/gvcu5zo7tqg7oni/8.8.2.mp4?dl=0"
+		},
+		{
+			chapter:"8.8.3",
+			link:"https://www.dropbox.com/s/yhqh8tvk0e333ls/8.8.3.mp4?dl=0"
+		},
+		{
+			chapter:"8.8.4",
+			link:"https://www.dropbox.com/s/v5urtmjkatoszau/8.8.4.mp4?dl=0"
+		}
+	]
+  }
+
+
+if (typeof(exports) != "undefined")
+{
+exports.links = links;
+}
+
+
+
+
+
+
+
+
+
+
