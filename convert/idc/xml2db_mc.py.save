@@ -1,0 +1,24 @@
+import sys
+import xml.etree.ElementTree
+e = xml.etree.ElementTree.parse(sys.argv[1]).getroot()
+outStr="";
+  fOut = open(folderOut + '/' + filename.replace('.html', '.js'),'w')
+    f = open(folderIn + '/' + filename, 'r'
+for atype in e.findall('Chapter'):
+	for xtype in atype.findall('Question'):
+		outStr += 'db.questions.save(\n'
+		outStr += '    {\n'
+	        outStr += "        chapters: ['"+ str(atype.get('header')) +"'],\n"
+		outStr += " 	text: '"+ xtype.get('name') +"',\n"	
+		outStr += '	answers: [\n'
+		for a in xtype.findall('Answer'):
+			outStr += "		'"+a.get('text')+"',"
+			outStr += '\n'
+		outStr += '	],\n'
+		outStr += "	type: 'multiple_text',\n"	
+		outStr += " 	correct_answer: '"+str(0)+"'\n"
+		outStr += '    });\n\n'
+		print(outStr)
+		
+
+

@@ -1,0 +1,5 @@
+usr#!/bin/sh
+
+/Applications/LibreOffice.app/Contents/MacOS/soffice --convert-to html --outdir FF_in/ /FF*.docx
+
+/Applications/LibreOffice.app/Contents/MacOS/soffice --convert-to html --outdir MC_in/ /MC*.docx

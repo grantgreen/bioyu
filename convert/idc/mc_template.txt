@@ -1,0 +1,13 @@
+db.questions.save(
+    {
+        chapters: [''],
+        text: '',
+        answers: [
+            '',
+            '',
+            '',
+            ''
+        ],
+        type: 'multiple_text',
+        correct_answer: ''
+    });
