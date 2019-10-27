@@ -140,3 +140,26 @@ db.tiles_game.save(
         ]
     });
 
+db.tiles_game.save(
+    {
+        chapter: 3,
+        category: "Glutenholdig",
+        matches: [
+            'Hvede',
+            'Havre',
+            'Rug',
+            'Byg',
+        ]
+    });
+
+db.tiles_game.save(
+    {
+        chapter: 3,
+        category: "Entomofagi",
+        matches: [
+            'Melorme',
+            'Fårekyllinger',
+            'Myrer',
+        ]
+    });
+

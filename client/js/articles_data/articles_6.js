@@ -25,8 +25,6 @@ var links = {
 	{"caption": "Insulin",
 	 "link": "http://www.denstoredanske.dk/Natur_og_milj%C3%B8/Biokemi_og_molekyl%C3%A6rbiologi/Biokemi/insulin"},
 
-	{"caption": "Steroidreceptorerne og deres funktion",
-	 "link": "http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/S/SteroidREs.html"}
     ],
 
     "6.5": [
@@ -37,11 +35,7 @@ var links = {
 	{"caption": "Undervisningshæfte om diabetes og insulin",
 	 "link": "http://www.novonordisk.dk/media/PDF/Diabetes_og_Insulin_undervisningshaefte_Juni_2008.pdf"},
 
-	{"caption": "Steroidreceptorerne og deres funktion",
-	 "link": "http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/S/SteroidREs.html"},
 
-	{"caption": "Hypofysen og hypofysens sygdomme",
-	 "link": "http://www.asmabashir.com/Hypofyse%20sygdomme.pdf"}
     ],
 
     "6.6": [
@@ -100,8 +94,6 @@ var links = {
 	{"caption": "Type II diabetes",
 	 "link": "http://videnskab.dk/krop-sundhed/kan-type-2-diabetes-kureres-med-kostaendringer"},
 
-	{"caption": "Motion hjælper mod diabetes",
-	 "link": "http://politiken.dk/tjek/sundhedogmotion/motion/ECE1567362/motion-selv-uden-vaegttab-hjaelper-mod-diabetes/"},
 
 	{"caption": "Autoimmune sygdomme i skjoldbruskkirtlen",
 	 "link": "http://www.skjoldbruskkirtel.dk/#Autoimmune-sygdomme-i-skjoldbruskkirtlen"},

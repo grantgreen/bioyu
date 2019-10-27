@@ -15,3 +15,8 @@ DEST_C=db_backups/yubio_c/$DIR
 mkdir $DEST_C
 
 mongodump --db yubio_c --out $DEST_C
+
+DEST_IDC=db_backups/yubio_idc/$DIR
+mkdir $DEST_IDC
+
+mongodump --db yubio_idc --out $DEST_IDC

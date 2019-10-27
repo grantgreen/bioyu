@@ -2045,4 +2045,29 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ["7.8"],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Epigenetiske ændringer påvirker kun drengebørn',
+            'Epigenetiske ændringer kan påvirke senere generationer',
+            'Epigenetiske ændringer har ikke noget med mutationer at gøre',
+            'Epigenetik handler om genernes evne til at komme til udtryk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+db.questions.save(
+    {
+        chapters: ["7.8"],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Stress-situationer medfører mutationer, der giver epigenetiske ændringer',
+            'PTSD hos moderen kan udløse epigenetiske ændringer hos hendes foster',
+            'Hungersnød kan udløse epigenetiske ændringer hos børnebørnene',
+            'Fedmeepidemien kan muligvis til dels skyldes epigenetiske ændringer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	

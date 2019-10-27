@@ -728,6 +728,93 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ["1.2"],
+        text: 'Hvilken vækstfase findes ikke?',
+        answers: [
+            'Logistisk fase',
+            'Eksponentiel fase',
+            'Lag-fase',
+            'Stationær fase'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["1.2"],
+        text: 'Hvad kendetegner lag-fasen?',
+        answers: [
+            'Her gør bakterierne sig klar til deling',
+            'Her deler bakterierne sig eksponentielt',
+            'Her dør lige så mange bakterier, som der dannes',
+            'Her dør bakterierne fx pga. ophobede affaldsstoffer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["1.2"],
+        text: 'Hvad kendetegner den eksponentielle fase?',
+        answers: [
+            'Her deler bakterierne sig eksponentielt',
+            'Her gør bakterierne sig klar til deling',
+            'Her dør lige så mange bakterier, som der dannes',
+            'Her dør bakterierne fx pga. ophobede affaldsstoffer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["1.2"],
+        text: 'Hvad kendetegner den stationære fase?',
+        answers: [
+            'Her dør lige så mange bakterier, som der dannes',
+            'Her deler bakterierne sig eksponentielt',
+            'Her gør bakterierne sig klar til deling',
+            'Her dør bakterierne fx pga. ophobede affaldsstoffer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["1.2"],
+        text: 'Hvad kendetegner dødsfasen?',
+        answers: [
+            'Her dør bakterierne fx pga. ophobede affaldsstoffer',
+            'Her dør lige så mange bakterier, som der dannes',
+            'Her deler bakterierne sig eksponentielt',
+            'Her gør bakterierne sig klar til deling'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["1.2"],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'En langsom fordoblingstid betyder hurtig vækst',
+            'Fordoblingstid og generationstid er det samme',
+            'Jo kortere generationstid, desto hurtigere fordoblingstid',
+            'En kort generationstid betyder hurtig vækst'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
         chapters: ["1.3"],
         text: 'Hvad forstås ved eukaryoter?',
         answers: [

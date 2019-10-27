@@ -1454,3 +1454,86 @@ db.questions.save(
         correct_answer: '3'
     });
 
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Hvor lever den flercellede kæmpebakterie Thioploca?',
+        answers: [
+            'Langs Sydamerikas Stillehavskyst',
+            'Ved Australiens nordkyst',
+            'I Århusbugten',
+            'I Limfjorden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Hvor lang kan bakterien Thioploca blive?',
+        answers: [
+            '7 cm',
+            '7 mm',
+            '17 cm',
+            '70 cm'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Hvilken kemisk proces udføres af Thioploca?',
+        answers: [
+            'Oxidation af svovlbrinte til frit svovl',
+            'Reduktion af frit svovl',
+            'Oxidation af nitrat',
+            'Oxidation af nitrit'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Hvilket stof bruger svovlbakterien Thioploca som oxidationsmiddel til oxidation af svovlbrinten?',
+        answers: [
+            'Nitrat',
+            'Nitrit',
+            'Frit svovl',
+            'Sulfat'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Hvilken hjemlig bakterie kan udføre samme kemiske processer som den sydamerikanske Thioploca?',
+        answers: [
+            'Beggiatoa',
+            'Salmonella',
+            'Colibakterier',
+            'Mælkesyrebakterier'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['27.3'],
+        text: 'Til hvilken slægt hører de såkaldte "kabelbakterier", som man opdagede i Århusbugten i 2010?',
+        answers: [
+            'Desulfvibrio',
+            'Salmonella',
+            'Colibakterier',
+            'Mælkesyrebakterier'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

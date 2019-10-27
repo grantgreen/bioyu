@@ -14,9 +14,6 @@ var links = {
 
     "13.4": [
 
-	{"caption": "Enzymet cellulase",
-	 "link": "http://en.wikipedia.org/wiki/Cellulase"},
-
 	{"caption": "Hvorfor tygger køer drøv?",
 	 "link": "http://illvid.dk/spoerg-os/hvorfor-tygger-koeer-droev"}
     ]

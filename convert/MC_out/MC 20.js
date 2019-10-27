@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvor i cellen foregår proteinsyntesen?',
         answers: [
             'På ribosomerne',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'På hvilke celleorganeller foregår proteinsyntesen?',
         answers: [
             'I cellekernen',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: [ '20.2'],
         text: 'Hvilket udsagn om ribosomerne er ikke korrekt?',
         answers: [
             'De kan sidde på ER',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvad står RNA for?',
         answers: [
             'Ribose',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvilket stof kan også kaldes ribo-nucleic-acid?',
         answers: [
             'Ribose',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: [ '20.2'],
         text: 'Hvilken base findes i DNA, men ikke i RNA?',
         answers: [
             'Adenin',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvilken base findes i RNA, men ikke i DNA?',
         answers: [
             'Adenin',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvilket kulhydrat findes i RNA?',
         answers: [
             'Ribulose',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: ['20.2'],
         text: 'Hvilket udsagn om RNA er ikke korrekt?',
         answers: [
             'Det er altid enkeltstrenget',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: [ '20.2'],
         text: 'Hvad hedder den uorganiske syre, der findes i RNA?',
         answers: [
             'Ribosesyre',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['20.1', '20.2'],
+        chapters: [ '20.2'],
         text: 'Hvad menes der med transkription?',
         answers: [
             'Dannelse af RNA ud fra DNA',
@@ -1412,3 +1412,57 @@ db.questions.save(
         correct_answer: '1'
     });
 
+db.questions.save(
+    {
+        chapters: ['20.6'],
+        text: 'Hvilket udsagn om kost og et langt liv er korrekt?',
+        answers: [
+            'Der er en sammenhæng mellem lavt energiindtag og et langt liv',
+            'Der er en sammenhæng mellem højt energiindtag og et langt liv',
+            'Der er en sammenhæng mellem kost med meget ris og et langt liv',
+            'Der er en sammenhæng mellem lavt glutenindtag og et langt liv'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['20.6'],
+        text: 'Hvordan forklarer man, at en kost med få kalorier måske giver et længere liv?',
+        answers: [
+            'Et lavt energiindtag bevarer en god DNA-splejsning gennem hele livet',
+            'Et højt energiindtag bevarer en god DNA-splejsning gennem hele livet',
+            'Et lavt energiindtag hæmmer DNA-splejsningen gennem hele livet',
+            'Et lavt energiindtag giver flere gode mutationer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['20.6'],
+        text: 'Hvilket udsagn om DNA-splejsning og livslængde er korrekt?',
+        answers: [
+            'Der er en sammenhæng mellem god DNA-splejsning gennem livet og et langt liv',
+            'Der er en sammenhæng mellem en dårlig DNA-splejsning gennem livet og et langt liv',
+            'Der er en sammenhæng mellem god DNA-splejsning gennem livet og et kort liv',
+            'Der er ingen sammenhæng'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['20.6'],
+        text: 'Hvilken modelorganisme har man brugt til at påvise sammenhæng mellem DNA-splejsning og livslængden?',
+        answers: [
+            'En art rundorm',
+            'Bananfluer',
+            'Colibakterier',
+            'Aber'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

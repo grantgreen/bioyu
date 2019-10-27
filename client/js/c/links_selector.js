@@ -24,9 +24,9 @@ var getChapterList = function(topic) {
 };
 
 var initializePage = function(chapter, topic) {
-    var backButton = imgButton("mainBack", "javascript:history.back()", 'images/icons/yubio_back_icon.svg');
-    var mainTopic = imgButton("mainTopic", "links_selector.html", 'images/icons/yubio_links_icon.svg');
-    var mainTopic = imgButton("mainYubio", "index_tiles.html", 'images/yubio_logo_pure.svg');
+    var backButton = imgButton("mainBack", "javascript:history.back()", '../images/icons/yubio_back_icon.svg');
+    var mainTopic = imgButton("mainTopic", "links_selector.html", '../images/icons/yubio_links_icon.svg');
+    var mainTopic = imgButton("mainYubio", "index_tiles.html", '../images/yubio_logo_pure.svg');
 
     if(chapter == undefined) {
 	getChapterList(topic);

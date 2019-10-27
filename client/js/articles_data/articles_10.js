@@ -52,8 +52,6 @@ var links = {
 	{"caption": "Hvidt og brunt fedt er ikke et fedt",
 	 "link": "http://videnskab.dk/krop-sundhed/hvidt-og-brunt-fedt-er-ikke-et-fedt"},
 
-	{"caption": "Kulde aktiverer de brune fedtceller",
-	 "link": "http://illvid.dk/klaus-wilhelm/kulde-aktiverer-de-brune-fedtceller-0"}
     ],
 
     "10.6": [

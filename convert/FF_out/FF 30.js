@@ -220,4 +220,27 @@ db.tiles_game.save(
             'Skru ned for varmen'
         ]
     });
+db.tiles_game.save(
+    {
+        chapter: 30,
+        category: "Bæredygtighed",
+        matches: [
+            'Genbrug',
+            'Kvoter',
+            'Bæredygtigt landbrug',
+            'Køb-og- smid-væk- kultur',
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 30,
+        category: "Plastikforurening",
+        matches: [
+            'Plastik-suppe',
+            'Plastik-øer',
+            'Mikroplast',
+            'Nanoplast',
+            'Bioplast',
+        ]
+    });
 

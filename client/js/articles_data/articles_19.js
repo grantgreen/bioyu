@@ -10,11 +10,6 @@ var links = {
     ],
 
     "19.2": [
-	{"caption": "Kromosomer generelt (dansk)",
-	 "link": "http://da.wikipedia.org/wiki/Kromosom"},
-
-	{"caption": "Kromosomer generelt (engelsk)",
-	 "link": "http://en.wikipedia.org/wiki/Chromosome"},
 
 	{"caption": "HUGO-projektet",
 	 "link": "http://www.ornl.gov/sci/techresources/Human_Genome/home.shtml"}

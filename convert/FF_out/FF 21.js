@@ -1,4 +1,4 @@
-db.tiles_game.save(
+ 	db.tiles_game.save(
     {
         chapter: 21,
         category: "Autosomal etgensnedarvning",
@@ -114,6 +114,17 @@ db.tiles_game.save(
             '0',
             'A, rhesus positiv',
             'AB, rhesus negativ'
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 21,
+        category: "Epigenetik",
+        matches: [
+            'Epigenom',
+            'PTSD',
+            'Hungersnød',
+            'Terrorangreb'
         ]
     });
 

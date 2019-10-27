@@ -99,7 +99,7 @@ var links = {
     "23.7": [
 	{"caption": "CRISPR 1", "link": "https://www.youtube.com/watch?v=MnYppmstxIs"},
 
-	{"caption": "CRISPR 2", "link": "http://etiskraad.23video.com/video/12337434/se-crispr-i-funktion"},
+{"caption": "CRISPR 2", "link": "https://www.youtube.com/watch?v=jAhjPd4uNFY"},
 
 	{"caption": "Om genetisk modificeret majs og miljøsikkerhed 1",
 	 "link": "http://www.youtube.com/watch?feature=player_embedded&v=KOsxzsYPyMw&list=UUVq4IwQJEVMKnwcPWyqKBaQ"},
@@ -123,6 +123,8 @@ var links = {
 	 "link": "http://www.youtube.com/watch?v=No80sKCs7qc"},
 
 	{"caption": "TaqMan 2",
-	 "link": "http://www.youtube.com/watch?v=fkUDu042xic"}
+	 "link": "http://www.youtube.com/watch?v=fkUDu042xic"},
+	 	{"caption": "CRISPR 3",
+	 "link": "https://www.nature.com/collections/txhdfslxzh/videos?WT.mc_id=FBK_NMETH_1017_CRISPRAnimation"}
     ]
 }

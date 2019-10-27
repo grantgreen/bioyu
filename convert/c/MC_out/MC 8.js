@@ -546,6 +546,35 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ["8.4"],
+        text: 'Hvad hedder den primitive forsvarsmekanisme hos bakterier?',
+        answers: [
+            'CRISPR',
+            'Immunforsvaret',
+            'Hvide blodlegemer',
+            'T-celler'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["8.4"],
+        text: 'Hvad kaldes det protein, der fungerer som en lille saks i CRISPR-teknologien?',
+        answers: [
+            'Cas9',
+            'Cas10',
+            'Cas8',
+            'Cas7'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
         chapters: ["8.5"],
         text: 'Til hvilken gruppe af levende organismer hører Aspergillus niger?',
         answers: [
@@ -1300,6 +1329,7 @@ db.questions.save(
         correct_answer: '1'
     });
 
+
 db.questions.save(
     {
         chapters: ["8.6"],
@@ -1314,3 +1344,45 @@ db.questions.save(
         correct_answer: '0'
     });
 
+db.questions.save(
+    {
+        chapters: ["8.7"],
+        text: 'En pligtetiker mener, at',
+        answers: [
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv',
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["8.7"],
+        text: 'En nytteetiker mener, at',
+        answers: [
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv',
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["8.7"],
+        text: 'En naturetiker mener, at',
+        answers: [
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig',
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

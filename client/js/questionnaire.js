@@ -442,7 +442,7 @@ var showResultDialog = function(score, userName, schoolName, bookType) {
     }
     else {
 	//getHighScores
-	getHighScores(params, showHighScores);
+	getHighScores(params, showHighScores,  score, bookType);
     }
 
     // Staying on the page, we must reinitialize the answerTime

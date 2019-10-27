@@ -20,17 +20,17 @@ var getLogProvider = function(callback)  {
 
 
 function route(handle, pathname, request, response, data) {
-    getLogProvider(function(logProvider) {
-	logProvider.save({
-	    'path': pathname,
-	    'ip': request.headers['x-forwarded-for'] || request.connection.remoteAddress,
-	    'user_agent': request.headers['user-agent']
-	}, function(error, log) {
-	    if(error) {
-		console.log("Logging failed " + error);
-	    }
-	});
-    });
+    // getLogProvider(function(logProvider) {
+	// logProvider.save({
+	    // 'path': pathname,
+	    // 'ip': request.headers['x-forwarded-for'] || request.connection.remoteAddress,
+	    // 'user_agent': request.headers['user-agent']
+	// }, function(error, log) {
+	    // if(error) {
+		// console.log("Logging failed " + error);
+	    // }
+	// });
+    // });
 
     if (typeof handle[pathname] === 'object') {
 //	handle[pathname](request, response, data);

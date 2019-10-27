@@ -59,8 +59,6 @@ var links = {
 {"caption": "Fosterudvikling",
 "link": "http://blausen.com/da/video/fosterudvikling/"},
 
-{"caption": "Fostervandsprøve",
-"link": "http://blausen.com/da/video/fostervandsprve-amniocentese/"},
 
 {"caption": "Fostervandsprøve",
 "link": "http://blausen.com/da/video/fostervandsprve-amniocentese/"},
@@ -122,8 +120,7 @@ var links = {
 {"caption": "Kejsersnit",
 "link": "http://blausen.com/da/video/kejsersnit/"},
 
-	{"caption": "Fødsel",
-	 "link": "http://www.youtube.com/watch?v=nidALWN5D3g"}
+	
     ],
 
     "7.6": [
@@ -154,9 +151,6 @@ var links = {
 
 {"caption": "Sterilisation af mænd",
 "link": "http://blausen.com/da/video/sterilisering-af-mnd-vasektomi/"},
-
-	{"caption": "P-piller",
-	 "link": "http://www.youtube.com/watch?v=jiCU46_lWeE"},
 
 	{"caption": "Forskellige typer af spiraler",
 	 "link": "http://www.youtube.com/watch?v=eL1fibjPMKk"},

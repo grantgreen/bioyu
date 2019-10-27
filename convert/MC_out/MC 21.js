@@ -865,7 +865,32 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '2'
     });
-
+db.questions.save(
+    {
+        chapters: ['21.2'],
+        text: 'Hvad betyder dominant negativ?',
+        answers: [
+            'Det dominante gen producerer et protein, som gør dig syg',
+            'Det dominante gen producerer et protein, som gør dig rask',
+            'Det dominante gen producerer et protein, som gør dig rask',
+            'Det recessive gen producerer et protein, som gør dig syg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.2'],
+        text: 'Hvad betyder haplo-insufficiens?',
+        answers: [
+            'Det recessive gen producerer et protein, men der er ikke nok, så du bliver syg',
+            'Det recessive gen producerer et protein, som gør dig rask',
+            'Det dominante gen producerer et protein, men der er ikke nok, så du bliver syg',
+            'Det dominante gen producerer et protein, som gør dig rask'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['21.3'],
@@ -1751,7 +1776,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Giv et eksempel på en sygdom, der skyldes maternel imprinting',
+        text: 'Giv et eksempel på en sygdom, der har noget med maternel imprinting at gøre',
         answers: [
             'Brystkræft',
             'Downs syndrom',
@@ -1765,7 +1790,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Giv et eksempel på en sygdom, der skyldes paternel imprinting',
+        text: 'Giv et eksempel på en sygdom, der har noget paternel imprinting at gøre',
         answers: [
             'Prostatakræft',
             'Prader-Willis syndrom',
@@ -1789,7 +1814,32 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
-
+db.questions.save(
+    {
+        chapters: ['21.7'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Angelmans syndrom forårsages af et imprintet gen, der medfører sygdom',
+            'Angelmans syndrom skyldes en deletion (gen fra mor) samt et imprintet gen (fra far)',
+            'Angelmans syndrom giver lav intelligens',
+            'Angelmans syndrom giver ofte overdreven latter'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.7'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Prader-Willis syndrom forårsages af et imprintet gen, der medfører sygdom',
+            'Prader-Willis syndrom skyldes en deletion (gen fra far) samt et imprintet gen (fra mor)',
+            'Prader-Willis syndrom giver lav intelligens',
+            'Prader-Willis syndrom giver svær overvægt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
@@ -2125,4 +2175,29 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '2'
     });
-
+db.questions.save(
+    {
+        chapters: ['21.10'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Epigenetiske ændringer påvirker kun drengebørn',
+            'Epigenetiske ændringer kan påvirke senere generationer',
+            'Epigenetiske ændringer har ikke noget med mutationer at gøre',
+            'Epigenetik handler om genernes evne til at komme til udtryk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.10'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Stress-situationer medfører mutationer, der giver epigenetiske ændringer',
+            'PTSD hos moderen kan udløse epigenetiske ændringer hos hendes foster',
+            'Hungersnød kan udløse epigenetiske ændringer hos børnebørnene',
+            'Fedmeepidemien kan muligvis til dels skyldes epigenetiske ændringer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

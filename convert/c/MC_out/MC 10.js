@@ -1023,7 +1023,71 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ["10.2"],
+        text: 'Hvor mange procent af verdens affald udgøres af plastic (mindst)?',
+        answers: [
+            '10 %',
+            '1 %',
+            '50 %',
+            '90 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["10.2"],
+        text: 'Hvor meget øges plastikmængden med i havet?',
+        answers: [
+            'Ca. en lastbilfuld pr. minut',
+            'Ca. en lastbilfuld pr. time',
+            'Ca. en lastbilfuld pr. døgn',
+            'Ca. en lastbilfuld pr. uge'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["10.2"],
+        text: 'Hvor stort et areal skønnes plastikforureningen i havet at fylde?',
+        answers: [
+            'Ca. som Afrika',
+            'Ca. som Stillehavet',
+            'Ca. som Danmark',
+            'Ca. som alle verdens lande tilsammen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["10.2"],
+        text: 'Hvilket land udlever mest plastik?',
+        answers: [
+            'Kina',
+            'Indonesien',
+            'Filippinerne',
+            'Vietnam'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["10.2"],
+        text: 'Hvor stammer det meste plastik i havene fra?',
+        answers: [
+            'Dækrester',
+            'Maling',
+            'Tekstiler',
+            'VietnamFodtøj'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ["10.3"],
@@ -1758,7 +1822,7 @@ db.questions.save(
         text: 'Hvilket land udleder i dag mest CO<span style="vertical-align:sub; font-size:58%;">2</span> pr. indbygger?',
         answers: [
             'Kina',
-            'Nederlandske Antiller',
+            'Qatar',
             'USA',
             'Indien'
         ],
@@ -1920,3 +1984,122 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor længe holder en mobiltelefon i gennemsnit, før den kasseres?',
+        answers: [
+            '18 måneder',
+            '6 måneder',
+            '3 år',
+            '5 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor meget genanvendeligt sølv er der i 1 ton mobiltelefoner?',
+        answers: [
+            '3,5 kg',
+            '130 g',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor meget genanvendeligt guld er der i 1 ton mobiltelefoner?',
+        answers: [
+            '340 g',
+            '130 g',
+            '3,5 kg',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor meget genanvendeligt kobber er der i 1 ton mobiltelefoner?',
+        answers: [
+            '130 g',
+            '3,5 kg',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor meget genanvendeligt palladium er der i 1 ton mobiltelefoner?',
+        answers: [
+            '140 g',
+            '130 g',
+            '340 g',
+            '3,5 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor meget tøj køber en dansker i gennemsnit pr. år?',
+        answers: [
+            '16 kg',
+            '8 kg',
+            '26 kg',
+            '10 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som vi køber pr. år?',
+        answers: [
+            '58.000 L',
+            '5.000 L',
+            '30.000 L',
+            '20.000 L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["10.7"],
+        text: 'Hvad er formålet med fangstkvoter?',
+        answers: [
+            'At undgå, at fiskerne overfisker',
+            'At sikre, der bliver fanget nok fisk',
+            'At sikre den frie konkurrence',
+            'At sikre, at alle fanger lige meget'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

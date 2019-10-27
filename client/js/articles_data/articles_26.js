@@ -27,9 +27,7 @@ var links = {
 	{"caption": "Om invasive arter",
 	"link": "http://www.naturstyrelsen.dk/Naturbeskyttelse/invasivearter/"},
  
-	{"caption": "Om skadedyr",
-	"link": "http://www.dpil.dk/dpil2005/sporgom.htm"},
-
+	
 	{"caption": "En skadedyrsguide",
 	"link": "http://www.dpil.dk/dpil2005/keyindex.htm"},
  

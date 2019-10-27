@@ -1,12 +1,8 @@
 var links = [
-    
-    {"caption": "Indirekte Elisa-test",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%205/Indirekte%20Elisa-test.pdf"},
-
-    {"caption": "Nikkeltest",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%205/Nikkeltest.pdf"},
-
-    {"caption": "Nikkeltest 2",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%205/Nikkeltest%202.pdf"}
+{'caption':'Indirekte Elisa-test',
+'link':'https://www.dropbox.com/s/082ef2ulwmaix7k/Indirekte%20Elisa-test.pdf?dl=0'},
+{'caption':'Nikkeltest 2',
+'link':'https://www.dropbox.com/s/bbacfjcz7dmvg9t/Nikkeltest%202.pdf?dl=0'},
+{'caption':'Nikkeltest 1',
+'link':'https://www.dropbox.com/s/q0knt4isjerf863/Nikkeltest.pdf?dl=0'},
 ]
-

@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Ved enzymer forstås:',
         answers: [
             'Proteiner, der virker som katalalysatorer i levende celler',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: ['16.2'],
         text: 'Enzymerne hører til stofgruppen:',
         answers: [
             'Lipider',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: ['16.2'],
         text: 'Hvad menes der med, at enzymer er specifikke?',
         answers: [
             'At der findes mange forskellige',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Enzymerne virker på den måde, at:',
         answers: [
             'De får molekylerne til at bevæge sig hurtigere',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: ['16.2'],
         text: 'Ved enzymets aktive sted forstås:',
         answers: [
             'Det sted, hvor substratmolekylerne kan sætte sig',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: ['16.2'],
         text: 'Hvad forstås ved enzymets substrat?',
         answers: [
             'Det eller de stoffer, der dannes af enzymet',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Hvad forstås ved enzymets produkt?',
         answers: [
             'Det eller de stoffer, der dannes af enzymet',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Enzymernes aminosyresekvens bestemmes af:',
         answers: [
             'Mitokondrierne',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Hvad forstås ved en co-faktor for et enzym?',
         answers: [
             'Molekyler, der arbejder sammen med enzymet',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Hvad forstås ved en prostetisk gruppe for et enzym?',
         answers: [
             'En organisk gruppe, fast forbundet med enzymet',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Hvad forstås ved et apoenzym?',
         answers: [
             'Et co-enzym',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.1', '16.2'],
+        chapters: [ '16.2'],
         text: 'Hvad forstås ved et holoenzym?',
         answers: [
             'Et co-enzym',

@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en mutation?',
         answers: [
             'De gener, der nedarves fra forældrene',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: ['22.2'],
         text: 'Hvad forstås ved en gametisk mutation?',
         answers: [
             'En mutation i kønskromosomerne',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en somatisk mutation?',
         answers: [
             'En mutation i kønskromosomerne',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilket udsagn om gametiske mutationer er korrekt?',
         answers: [
             'De kan ramme alle celler',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilket udsagn om somatiske mutationer er korrekt?',
         answers: [
             'De finder sted i kropscellerne',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en substitutions-mutation?',
         answers: [
             'Tab af et nukleotid',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en deletion?',
         answers: [
             'Tab af et eller flere nukleotider',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en insertion?',
         answers: [
             'Tab af et eller flere nukleotider',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en dynamisk mutation?',
         answers: [
             'Tab af mange tripletter i genet',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad menes med en punktmutation?',
         answers: [
             'En RNA-mutation',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad menes med en tavs mutation?',
         answers: [
             'En mutation der ikke får proteinmæssig betydning',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilket nukleotid i en triplet kan ofte udskiftes uden, at det får følger?',
         answers: [
             'Ingen',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilket nukleotid i en triplet kan ikke udskiftes uden, at det får følger?',
         answers: [
             'Ingen',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad menes med en missense-mutation?',
         answers: [
             'En nonsens-mutation, der ikke får nogen betydning',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en aktivitetsmutation?',
         answers: [
             'En mutation der øger genaktiviteten',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en nonsense-mutation?',
         answers: [
             'En mutation der hæmmer genaktiviteten',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad er sygdommen thalassæmi?',
         answers: [
             'En alvorlig form for influenza',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilken fordel kan man have af sygdommen thalassæmi?',
         answers: [
             'At man er beskyttet mod malaria',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilken type mutation kan føre til sygdommen thalassæmi? ',
         answers: [
             'En dynamisk mutation',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved en frameshift-mutation?',
         answers: [
             'En dynamisk mutation',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved Fragilt X-syndrom?',
         answers: [
             'En alvorlig form for blodmangel',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvordan er arvegangen for Fragilt X-syndrom?',
         answers: [
             'X-bundet recessivt',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: ['22.2'],
         text: 'Hvad menes der med, at en person har en præmutation for Fragilt X-syndrom?',
         answers: [
             'At man har 6-55 gentagelser af tripletten GCC',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad menes der med, at en person har en fuldmutation for Fragilt X-syndrom?',
         answers: [
             'At man har 6-55 gentagelser af tripletten GCC',
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: ['22.2'],
         text: 'Kan man være rask bærer af genet for Fragilt X-syndrom?',
         answers: [
             'Ja, mænd kan, da genet er recessivt',
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad er det specielle ved sygdommen Fragilt X-syndrom?',
         answers: [
             'At det især er kvinder, der bliver syge',
@@ -364,7 +364,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilken type mutation er årsag til Huntingdons chorea ',
         answers: [
             'En deletion af et eller flere nukleotider',
@@ -378,7 +378,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvad forstås ved Huntingdons chorea?',
         answers: [
             'En alvorlig sygdom i nervesystemet',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: ['22.2'],
         text: 'Hvordan er arvegangen for Huntingdons chorea?',
         answers: [
             'Kønsbundet dominant',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Hvilken type mutation er årsag til Huntingdons chorea?',
         answers: [
             'En deletion af et nukleotid',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['22.1', '22.2'],
+        chapters: [ '22.2'],
         text: 'Kan man være rask bærer af genet for Huntingdons chorea?',
         answers: [
             'Ja, kvinder kan',
@@ -1958,3 +1958,31 @@ db.questions.save(
         correct_answer: '2'
     });
 
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvilket udsagn om behandling af kræft med immunterapi er falsk?',
+        answers: [
+            'Man har med held behandlet brystkræft med immunterapi',
+            'Man har med held behandlet lymfekræft immunterapi',
+            'Man har med held behandlet nyrekræft med immunterapi',
+            'Man har med held behandlet modermærkekræft med immunterapi'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvilke kræftformer er det endnu ikke lykkedes at behandle med immunterapi?',
+        answers: [
+            'Brystkræft og prostatakræft',
+            'Lymfekræft og leukæmi',
+            'Modermærkekræft',
+            'Nyrekræft'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

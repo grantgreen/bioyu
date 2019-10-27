@@ -38,7 +38,7 @@ var getChapter = function(chapterNo, bookType) {
 var addSubchapterCheckboxes = function(chapter, subchapterCount, chp) {
     var parent = $('#subchapters');
     for(var i = 0; i < subchapterCount; i++) {
-	if(chp.sub[i].hasQuestions == false) {
+	if(chp.sub[i].hasQuestions == false ) {
 	    continue;
 	}
 	var subchapter = chapter + "." + (i+1);

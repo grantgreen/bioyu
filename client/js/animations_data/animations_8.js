@@ -23,9 +23,7 @@ var links = {
 {"caption": "PET/CT-scanner",
 "link": "http://blausen.com/da/video/petct-skanner/"},
 
-	{"caption": "Synapsen",
-	"link": "https://www.youtube.com/watch?v=VitFvNvRIIY"},
-		
+			
 	{"caption": "Synapsen 2",
 	 "link": "http://highered.mcgraw-hill.com/sites/0072943696/student_view0/chapter8/animation__transmission_across_a_synapse.html"},
 
@@ -80,7 +78,10 @@ var links = {
 	 "link": "http://www.youtube.com/watch?v=HXx9qlJetSU"},
 
 	{"caption": "Synapsen 4",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__chemical_synapse__quiz_1_.html"}
+	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter8/animation__chemical_synapse__quiz_1_.html"},
+	 {"caption": "Synapsen 5",
+	 "link": "https://www.youtube.com/watch?v=VitFvNvRIIY"}
+
     ],
 
     "8.4": [
@@ -106,8 +107,6 @@ var links = {
 	{"caption": "Hørelse og balance",
 	"link": "https://www.youtube.com/watch?v=Ie2j7GpC4JU"},
 
-	{"caption": "Smag og lugt",
-	"link": "https://www.youtube.com/watch?v=Ie2j7GpC4JU"},
 
 	{"caption": "Øret",
 	"link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter9/animation__effect_of_sound_waves_on_cochlear_structures__quiz_1_.html"},
@@ -141,7 +140,7 @@ var links = {
 	{"caption": "Autonome nervesystem",
 	"link": "https://www.youtube.com/watch?v=71pCilo8k4M"},
 
-	{"caption": "Centralnervesystemet",
+	{"caption": "Det perifere nervesystem",
 	"link": "https://www.youtube.com/watch?v=QY9NTVh-Awo"},
 
 	{"caption": "Intelligens",

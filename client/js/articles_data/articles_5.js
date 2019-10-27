@@ -87,8 +87,6 @@ var links = {
 	{"caption": "Infektion med forskellige indvoldsorme/tarmparasitter",
 	 "link": "http://www.hexedoktoren.dk/orm.aspx"},
 
-	{"caption": "Derfor er skidt og snavs sundt",
-	 "link": "http://videnskab.dk/krop-sundhed/derfor-er-skidt-og-snavs-sundt-isaer-born"},
 
 	{"caption": "Vaccinationsprogram til børn",
 	 "link": "http://www.netdoktor.dk/boern/fakta/boernevaccinationer.htm"},
@@ -144,15 +142,10 @@ var links = {
 	{"caption": "Farvel til sprøjten- vaccineplaster med nanopartikler?",
 	 "link": "http://www.farma.ku.dk/index.php/Farvel-til-sproejten-Udviklin/5315/0/"},
 
-	{"caption": "Autoimmune sygdomme – når kroppen er sin egen fjende",
-	 "link": "http://infolink2003.elbo.dk/Naturvidenskab/dokumenter/doc/8863.pdf"},
-
 	{"caption": "MERS",
 	 "link": "http://www.cdc.gov/coronavirus/mers/"},
 
 	{"caption": "Mannan-bindende lektin 1",
 	 "link": "http://idf.dk/immunsystemet-mainmenu-64/immunsygdomme-mainmenu-32.html?task=view&id=66"},
-	{"caption": "Mannan-bindende lektin 2",
-	 "link": "http://www.ssi.dk/Service/Sygdomsleksikon/M/MBL-deficiens.aspx"}
     ]
 }

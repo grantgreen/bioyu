@@ -1,5 +1,4 @@
 var links = [
-   {"caption": "Nedbrydning af blade",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2027/Nedbrydning%20af%20blade.pdf"}
+{'caption':'Nedbrydning af blade',
+'link':'https://www.dropbox.com/s/emzd4nqv147yufr/Nedbrydning%20af%20blade.pdf?dl=0'},
 ]
-

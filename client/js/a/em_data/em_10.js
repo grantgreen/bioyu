@@ -1,13 +1,10 @@
 var links = [
-    {"caption": "Opvarmning og præstationsevne",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2010/Opvarmning%20og%20pr%C3%A6stationsevne.pdf"},
-
-    {"caption": "Fitness-indeks",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2010/Fitness-indeks.pdf"},
-
-    {"caption": "Hvilepuls, arbejdspuls og kondital",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2010/Hvilepuls%2C%20arbejdspuls%20og%20kondital.pdf"},
-
-    {"caption": "Konditests",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2010/Konditests.pdf"}
+{'caption':'Fitness-indeks',
+'link':'https://www.dropbox.com/s/2n6bm53d5y10alv/Fitness-indeks.pdf?dl=0'},
+{'caption':'Hvilepuls, arbejdspuls og kondital',
+'link':'https://www.dropbox.com/s/dxiqqms2ygjb3fm/Hvilepuls%2C%20arbejdspuls%20og%20kondital.pdf?dl=0'},
+{'caption':'Konditests',
+'link':'https://www.dropbox.com/s/e1rbtz1tgseij0l/Konditests.pdf?dl=0'},
+{'caption':'Opvarmning og præstationsevne',
+'link':'https://www.dropbox.com/s/39dr2uv9pufcnan/Opvarmning%20og%20pr%C3%A6stationsevne.pdf?dl=0'},
 ]

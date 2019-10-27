@@ -1957,7 +1957,58 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ['8.4'],
+        text: 'Hvor findes der ikke smagsløg?',
+        answers: [
+            'I bugspytkirtlen',
+            'På strubelåget',
+            'I ganen',
+            'På tungens sider'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['8.4'],
+        text: 'Hvilket udsagn om sansecellerne for smag er ikke korrekt?',
+        answers: [
+            'I hvert smagsløg findes kun en type af sanseceller',
+            'Der er tre forskellige typer af sanseceller for smag',
+            'Type 1-celler kan smage salt og virker desuden regulerende',
+            'Type 2-celler kan smage både sødt, bittert og umami'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['8.4'],
+        text: 'Hvilket udsagn om type 3-celler er korrekt?',
+        answers: [
+            'De opfatter sur smag',
+            'De regulerer smagsopfattelsen',
+            'De opfatter umami',
+            'De opfatter sød smag'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['8.4'],
+        text: 'Hvilket udsagn om type 2-celler er ikke korrekt?',
+        answers: [
+            'De opfatter sur smag',
+            'De opfatter sød smag',
+            'De opfatter umami',
+            'De opfatter bittert'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['8.5'],
@@ -3248,6 +3299,33 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ['8.6'],
+        text: 'Hvilket udsagn om E-cigaretter er korrekt?',
+        answers: [
+	    'E-cigaretter kan skade lungerne ligesom almindelige cigaretter',
+	    'E-cigaretter indeholder ikke nikotin',
+	    'E-cigaretter er ikke vanedannende',
+	    'E-cigaretter må max indeholde 100 mg nikotin/L i E-væsken'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['8.6'],
+        text: 'Hvilket udsagn om vandpibe er ikke korrekt?',
+        answers: [
+	    'Den særlige tobak indeholder ikke nikotin',
+	    'Rygning af vandpibe svarer til rygning af 2-10 almindelige cigaretter',
+	    'Rygning af vandpibe er vanedannende',
+	    'Rygning af vandpibe er lige så skadelig for lunger og kredsløb som cigaretrygning'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
         chapters: ['8.7'],
         text: 'Hvad forstås ved meningitis?',
         answers: [
@@ -3581,4 +3659,29 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '1'
     });
-
+db.questions.save(
+    {
+        chapters: ['8.7'],
+        text: 'Hvordan kan tarmbakterier have betydning for vores mentale sundhed?',
+        answers: [
+            'Tarmbakterier kan danne serotonin, som har betydning for humøret',
+            'Tarmbakterier kan danne fedtsyrer, som har betydning for humøret',
+            'Tarmbakterier kan danne insulin, som har betydning for humøret',
+            'Tarmbakterier kan danne gluten, som har betydning for humøret'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+db.questions.save(
+    {
+        chapters: ['8.7'],
+        text: 'Hvordan kan kostens sammensætning måske have betydning for udvikling af ADHD?',
+        answers: [
+            'Fordi fiberrig kost med meget grønt gavner nogle vigtige Tarmbakterier',
+            'Fordi glutenfri kost gavner nogle vigtige tarmbakterier',
+            'Fordi fedtfattig kost uden meget grønt gavner nogle vigtige tarmbakterier',
+            'Fordi fiberfattig kost uden meget grønt gavner nogle vigtige tarmbakterier'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	

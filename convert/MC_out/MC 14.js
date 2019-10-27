@@ -299,7 +299,7 @@ db.questions.save(
         answers: [
             'Fordi de mindsker mængden af HDL-kolesterol',
             'Fordi de øger mængden af kolesterol generelt',
-            'Fordi de mindsker mængden af HDL-kolesterol og øger mængden af LDH-kolesterol',
+            'Fordi de mindsker mængden af HDL-kolesterol og øger mængden af LDL-kolesterol',
             'Fordi de øger mængden af HDL-kolesterol og mindsker mængden af LDL-kolesterol'
         ],
         type: 'multiple_text',

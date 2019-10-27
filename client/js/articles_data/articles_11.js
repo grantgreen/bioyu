@@ -39,9 +39,6 @@ var links = {
 	{"caption": "Om ydmygende kønstest af Caster Semeneya",
 	 "link": "http://politiken.dk/sport/ECE1194536/semenya-har-lagt--ydmygende-koenstest-bag-sig/"},
 
-	{"caption": "Så ved du hvad en kvinde er",
-	 "link": "http://politiken.dk/debat/profiler/jarlner/ECE1706788/mit-ol-saa-du-ved-hvad-en-kvinde-er/"},
-
 	{"caption": "Gendoping er nu på banen",
 	 "link": "http://videnskab.dk/kultur-samfund/gendoping-er-nu-pa-banen"},
 
@@ -54,7 +51,5 @@ var links = {
 	{"caption": "Retningslinjer for where abouts",
 	 "link": "http://www.antidoping.dk/regler-og-love/retningslinier-for-whereabouts"},
 
-	{"caption": "Sådan foregår en dopingkontrol",
-	 "link": "http://www.antidoping.dk/sitecore/content/steroids_dk/FrontPage/Dopingkontrol/Saadan_foregaar_en_dopingkontrol.aspx"}
     ]
 }

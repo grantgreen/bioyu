@@ -61,14 +61,41 @@ var getChapter = function(chapterNo, topic, bookType) {
 		var body = $('<div></div>');
 		linksContainer.append(body);
 		
+		
 		if(subchapterLinks) {	
 		    for(var j in subchapterLinks) {
 			var paragraph = $('<p></p>');
 			var subchapterValue = subchapterLinks[j];
 			var subchapterSuffix = "";
+			var linkSuffix = "";
+			var isMp3 = true;
+			var isNew = false;
+			var link ="";
 			if(typeof subchapterValue === 'object') {
+				if( subchapterValue.id != null)
+				{
 				var subchapterLink = subchapterValue.id;
 				subchapterSuffix = " " + subchapterValue.caption; 
+				}
+				else
+				{
+					if( subchapterValue.link != null)
+					{
+						link = subchapterValue.link;
+						isNew = true;
+						var subchapterLink = subchapterValue.chapter;
+					}
+					else
+					{
+						var subchapterLink = subchapterValue.chapter;
+						isMp3 = subchapterValue.isMp4 == "false";
+						subchapterSuffix = " " + subchapterValue.suffix; 
+						if(subchapterValue.linkSuffix != null && subchapterValue.linkSuffix.length > 0)
+						{
+						linkSuffix = " "+subchapterValue.linkSuffix;
+						}
+					}
+				}
 			}
 			else {
 				var subchapterLink = subchapterValue;
@@ -80,20 +107,58 @@ var getChapter = function(chapterNo, topic, bookType) {
 			span.css('display', 'inline-block');
 			paragraph.append(span);
 
+			
 			span.html(subchapterLink.replace(/-/g, '.') + subchapterSuffix);
 
 			body.append(paragraph);
 
-			var addButton = function(paragraph, subchapterLink, isDownload) {
+			var addButton = function(paragraph, subchapterLink, isDownload, isMp3, isNew) {
+				if( isNew)
+					{
+						url = subchapterLink;
+						var anchor = $('<a class="yubioBtnSolid" style="text-align: center"></a>');
+						
+						var text = "Hør";
+						anchor.html(text);
+						anchor.attr('href', url);
+						paragraph.append(anchor);
+						return;
+					}
 			    var url = "";
-			    if(bookType == "/b") {
-				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
+			    if(bookType == "/b")
+			     {
+			     	if( isMp3){
+					url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
+				}
+				else{
+					url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + linkSuffix+".mp4";
+				}
+
 			    }
-			    else if(bookType == "/c") {
+			    else if(bookType == "/c")
+			    {
+			    	if(isMp3){
+			    
 				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp3";
+					}
+					else
+					{
+						url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler%20C-bogen/Kapitel%20" + chapterNo + "/" + subchapterLink + linkSuffix+".mp4";
+					}
+			    }
+			    else if(bookType == "/idc")
+			    {
+			    	url = "https://dl.dropboxusercontent.com/u/15548501/Idr%C3%A6t%20C/Lyd/Kapitel%20" + chapterNo + "/" + subchapterLink + ".mp4";
 			    }
 			    else {
-				url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler/Kapitel%20" +  chapterNo + "/" + subchapterLink + ".mp3";
+			    	if(isMp3){
+					url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler/Kapitel%20" +  chapterNo + "/" + subchapterLink + ".mp3";
+				}
+				else
+				{
+							url = "https://dl.dropboxusercontent.com/u/15548501/Lydfiler/Kapitel%20" +  chapterNo + "/" + subchapterLink +linkSuffix+ ".mp4";
+				}
+
 			    }
 
 			    if(isDownload) {
@@ -110,11 +175,19 @@ var getChapter = function(chapterNo, topic, bookType) {
 				anchor.css('background', '#EA661E');
 			    }
 			    paragraph.append(anchor);
+			    	
 
 			}
-
-			addButton(paragraph, subchapterLink, false);
-			addButton(paragraph, subchapterLink, true);
+			if( isNew)
+			{
+				addButton(paragraph, link, false, isMp3,true);
+			}
+			else
+			{
+				addButton(paragraph, subchapterLink, false, isMp3, false);
+				addButton(paragraph, subchapterLink, true, isMp3, false);	
+			}
+			
 
 
 /*

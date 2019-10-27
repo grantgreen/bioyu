@@ -1,54 +1,50 @@
 var links = {
-    "1.1": [
-	"1-1"
-    ],
-    
-    "1.2": [
-	"1-2-1",
-	"1-2-2",
-	"1-2-3",
-	"1-2-4",
-	"1-2-5",
-	"1-2-6",
-	"1-2-7",
-	"1-2-8",
-	"1-2-9"
-    ],
-
-    "1.3": [
-	"1-3-1",
-	"1-3-2",
-	"1-3-3",
-	"1-3-4",
-	"1-3-5",
-	"1-3-6",
-	"1-3-7",
-	"1-3-8",
-	"1-3-9",
-	"1-3-10",
-	"1-3-11",
-	"1-3-12",
-	"1-3-13",
-	"1-3-13 (2014)",
-	"1-3-14",
-	"1-3-15",
-	"1-3-16",
-	"1-3-17",
-	"1-3-18"
-    ],
-
-    "1.4": [
-	"1-4-1",
-	"1-4-2",
-	"1-4-3",
-	"1-4-4",
-	"1-4-5"
-    ],
-
-    "1.5": [
-	"1-5"
-    ]
-
+   '1.1':[
+{ chapter:'1.1',link:'https://www.dropbox.com/s/sv7nmb1di5b1x8l/1-1.mp3?dl=0'},
+   ],
+   '1.2':[
+{ chapter:'1.2.1',link:'https://www.dropbox.com/s/nhkv11oqxl4dt85/1-2-1.mp3?dl=0'},
+{ chapter:'1.2.2',link:'https://www.dropbox.com/s/0o6b7ziwrdg3f9z/1-2-2.mp3?dl=0'},
+{ chapter:'1.2.3',link:'https://www.dropbox.com/s/cwb3avxcguudfhj/1-2-3.mp3?dl=0'},
+{ chapter:'1.2.4',link:'https://www.dropbox.com/s/wh7vk46v19elneg/1-2-4.mp3?dl=0'},
+{ chapter:'1.2.5 (2016)',link:'https://www.dropbox.com/s/zyta29txxtmev3j/1-2-5.mp3?dl=0'},
+{ chapter:'1.2.5 ',link:'https://www.dropbox.com/s/i4pcaigbw0jyrbi/1.2.5%20%282017%29.mp4?dl=0'},
+{ chapter:'1.2.6',link:'https://www.dropbox.com/s/yas5r0c59f58mpu/1-2-6.mp3?dl=0'},
+{ chapter:'1.2.7',link:'https://www.dropbox.com/s/1k0kru895jswdz9/1-2-7.mp3?dl=0'},
+{ chapter:'1.2.8',link:'https://www.dropbox.com/s/90f0jhglvnnxix1/1-2-8.mp3?dl=0'},
+{ chapter:'1.2.9',link:'https://www.dropbox.com/s/lje5eyp4qdfwljh/1-2-9.mp3?dl=0'},
+   ],
+   '1.3':[
+{ chapter:'1.3.1',link:'https://www.dropbox.com/s/ezv9dw57nmmtbzc/1-3-1.mp3?dl=0'},
+{ chapter:'1.3.2',link:'https://www.dropbox.com/s/qtgw9qkyjk8karr/1-3-2.mp3?dl=0'},
+{ chapter:'1.3.3',link:'https://www.dropbox.com/s/nwrwt1n2p1s3hps/1-3-3.mp3?dl=0'},
+{ chapter:'1.3.4',link:'https://www.dropbox.com/s/alwlcxwayi5f02m/1-3-4.mp3?dl=0'},
+{ chapter:'1.3.5',link:'https://www.dropbox.com/s/go9scddg3y554dx/1-3-5.mp3?dl=0'},
+{ chapter:'1.3.6',link:'https://www.dropbox.com/s/7ye0e24vmmltcaw/1-3-6.mp3?dl=0'},
+{ chapter:'1.3.7',link:'https://www.dropbox.com/s/7447zhse8l8fegn/1-3-7.mp3?dl=0'},
+{ chapter:'1.3.8',link:'https://www.dropbox.com/s/enpodgc0r3fkn3b/1-3-8.mp3?dl=0'},
+{ chapter:'1.3.9',link:'https://www.dropbox.com/s/yx9giazh98utxr7/1-3-9.mp3?dl=0'},
+{ chapter:'1.3.10',link:'https://www.dropbox.com/s/rksusq3gyte6n8r/1-3-10.mp3?dl=0'},
+{ chapter:'1.3.11',link:'https://www.dropbox.com/s/e8xyc9ldr4ys2nl/1-3-11.mp3?dl=0'},
+{ chapter:'1.3.12',link:'https://www.dropbox.com/s/nu2gppsi7xfcsr8/1-3-12.mp3?dl=0'},
+{ chapter:'1.3.13',link:'https://www.dropbox.com/s/zd9hq5ls88aq65i/1-3-13.mp3?dl=0'},
+{ chapter:'1.3.13 (2014)',link:'https://www.dropbox.com/s/4bznapzm41pikzi/1-3-13%20%282014%29.mp3?dl=0'},
+{ chapter:'1.3.13',link:'https://www.dropbox.com/s/zd9hq5ls88aq65i/1-3-13.mp3?dl=0'},
+{ chapter:'1.3.14',link:'https://www.dropbox.com/s/u1inins3cu6wpbi/1-3-14.mp3?dl=0'},
+{ chapter:'1.3.15',link:'https://www.dropbox.com/s/aonxzlanjbb2y0d/1-3-15.mp3?dl=0'},
+{ chapter:'1.3.16',link:'https://www.dropbox.com/s/lp4yvq8ae0rb53q/1-3-16.mp3?dl=0'},
+{ chapter:'1.3.17',link:'https://www.dropbox.com/s/vq338fh2md9u6aq/1-3-17.mp3?dl=0'},
+{ chapter:'1.3.18',link:'https://www.dropbox.com/s/566nmfr7ltwn0jn/1-3-18.mp3?dl=0'},
+   ],
+   '1.4':[
+{ chapter:'1.4.1',link:'https://www.dropbox.com/s/ti83yxx2mrwy2bg/1-4-1.mp3?dl=0'},
+{ chapter:'1.4.2',link:'https://www.dropbox.com/s/mopo0ij2f4bluqm/1-4-2.mp3?dl=0'},
+{ chapter:'1.4.3 (2016)',link:'https://www.dropbox.com/s/z1w2xojrrjgmw0j/1-4-3.mp3?dl=0'},
+{ chapter:'1.4.3',link:'https://www.dropbox.com/s/6uy0nqxkz991mn3/1.4.3%20%282017%29.mp4?dl=0'},
+{ chapter:'1.4.4',link:'https://www.dropbox.com/s/49jc8ey9hrxuyiu/1-4-4.mp3?dl=0'},
+{ chapter:'1.4.5',link:'https://www.dropbox.com/s/r4fk1qro9dzk4oj/1-4-5.mp3?dl=0'},
+   ],
+   '1.5':[
+{ chapter:'1.5',link:'https://www.dropbox.com/s/tu9vb28nixjhgx7/1-5.mp3?dl=0'},
+   ],
 }
-
-

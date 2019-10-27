@@ -1,42 +1,44 @@
-<!DOCTYPE HTML>
+<!-- GRANT ALL -->
+<!DOCTYPE html>
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <head>
-    <title>Interaktiv ebog i biologi</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link rel="apple-touch-icon" href="images/yubio-64.png" />
-    <link rel="apple-touch-icon-precomposed" href="images/yubio-64.png" />
+  <script type="text/javascript" src="../lib/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="../lib/kinetic-latest.min.js"></script>
+  <script type="text/javascript" src="../js/tiles.js"></script>
+  <script type="text/javascript" src="../js/stopwatch.js"></script>
+  <script type="text/javascript" src="../lib/handlebars-latest.min.js"></script>
 
 
-    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="../lib/jquery-latest.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../styles/yubio.css" />
+  <script type="text/javascript" src="../js/schools.js"></script>
+  <script type="text/javascript" src="../js/common/socket-io.js"></script>
+  <script type="text/javascript" src="../js/common/results.js"></script>
+  <script type="text/javascript" src="../js/common/fb_login.js"></script>
+  <script type="text/javascript" src="../js/questionnaire.js"></script>
 
-    <script type="text/javascript" src="../js/tiles.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/yubio.css" />
 
-    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=4.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=4.0">
 
     <script type="text/javascript">
         $(document).ready(function () {
       var backButton = imgButton("mainBack", "javascript:history.back()", 'images/icons/yubio_back_icon.svg');
       var mainTopic = imgButton("mainYubio", "index.html", 'images/yubio_logo_pure.svg');
 
-//        initTilesGame("!!chapters!");
       });
     </script>
 
+
+  <title>Yubio users</title>
 </head>
-
-<body>
-
-    <div class="container" style="height: 100%">
+<body id="body" onload="myFunc()">
+ <div class="container" style="height: 100%">
         <div class="row">
             <div class="col-md-12" id="column1" style="text-align: center">
                 <div id="logo_container">
@@ -46,85 +48,45 @@
 
             </div>
         </div>
-
-        <div class="row">
+         <div class="row">
             <div class="col-md-4" style="padding-top: 40px; text-align: left">
-                <h3>Gymnasier</h3> 
-                Akademisk Studenterkursus
-                <br /> Allerød Gymnasium
-                <br /> Birkerød Gymnasium
-                <br /> Borupgaard Gymnasium
-                <br /> Faaborg Gymnasium
-                <br /> Favrskov Gymnasium
-                <br /> Fjerritslev Gymnasium
-                <br /> Frederiksborg Gymnasium & HF
-                <br /> Gammel Hellerup Gymnasium
-                <br /> Gefion Gymnasium
-                <br /> HC Ørsted Gymnasium
-                <br /> Horsens HF & VUC
-                <br /> Kolding Gymnasium
-                <br /> Køge Gymnasium
-                <br /> Langkær Gymnasium & HF
-                <br /> Marselisborg Gymnasium
-                <br /> Middelfart Gymnasium
-                <br /> Nakskov Gymnasium
-                <br /> Nordfyns Gymnasium
-                <br /> Nørresundby Gymnasium & HF
-                <br /> Nykøbing Katedralskole
-                <br /> Odsherred Gymnasium
-                <br /> Paderup Gymnasium
-                <br /> Randers Statsskole
-                <br /> Ribe Katedralskole
-                <br /> Rønde Gymnasium
-                <br /> Silkeborg Gymnasium
-                <br /> Skanderborg Gymnasium
-                <br /> Skive Tekniske Skole
-                <br /> Slagelse Gymnasium
-                <br /> Sydkystens Gymnasium / CPH West
-                <br /> Teknisk Gymnasium Silkeborg
-                <br /> Tønder Gymnasium
-                <br /> Tornbjerg Gymnasium
-                <br /> Varde Gymnasium
-                <br /> Vesthimmerlands Gymnasium
-                <br /> Virum Gymnasium
-                <br /> Vordingborg Gymnasium
-                <br /> VUC & HF Himmerland
-                <br /> Øregård Gymnasium
-                <br /> Ørestad Gymnasium
-                <br /> Åbenrå Statsskole
-                <br /> Aalborghus Gymnasium
-                <br /> Aarhus Gymnasium
-                <br />
-
+                <h3>Gymnasier</h3>
+                <p id="gym"></p>	
             </div>
-            <div class="col-md-4" style="padding-top: 40px; text-align: left">
-                <h3>Seminarier</h3> 
-                Blaagaard Seminarium
-                <br /> Læreruddannelsen Bornholm
-                <br /> Læreruddannelsen Lillebælt
-                <br /> Læreruddannelsen og HF i Nørre Nissum
-                <br /> Læreruddannelsen på Fyn
-                <br /> Læreruddannelsen Roskilde
-                <br /> Læreruddannelsen Vordingborg
-                <br /> Læreruddannelsen Zahle
-                <br /> Læreruddannelsen Aalborg
-                <br /> Læreruddannelsen Aarhus
-                <br />
-
+             <div class="col-md-4" style="padding-top: 40px; text-align: left">
+                <h3>Seminarier</h3>
+                <p id="sem"></p>
             </div>
-            <div class="col-md-4" style="padding-top: 40px; text-align: left">
-                <h3>Andre</h3> 
-                Hasnæs Kommune
-                <br /> Hotel- og Restaurantskolen
-                <br /> Stevns Kommune
-                <br />
-
-                <br />
+              <div class="col-md-4" style="padding-top: 40px; text-align: left">
+                <h3>Andre</h3>
+                <p id="and"></p>
             </div>
         </div>
-    </div>
+  </div>
+      	 <script >
+      	 	function myFunc(){
+      	 		
+      	 		
+      	 		schools["Gymnasier"].sort();
+      	 			for(var i = 0; i < schools["Gymnasier"].length; i++)
+      	 			{
+      	 					gym.innerHTML = gym.innerHTML + schools["Gymnasier"][i] + "<br>";
+      	 			}
+      	 			schools["Seminarier"].sort();
+      	 			for(var i = 0; i < schools["Seminarier"].length; i++)
+      	 			{
+      	 					sem.innerHTML = sem.innerHTML + schools["Seminarier"][i] + "<br>";
+      	 			}
+      	 			schools["Andre"].sort();
+      	 			for(var i = 0; i < schools["Andre"].length; i++)
+      	 			{
+      	 					and.innerHTML = and.innerHTML + schools["Andre"][i] + "<br>";
+      	 			}
+      	 			
 
-
+}
+  </script>
+  <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

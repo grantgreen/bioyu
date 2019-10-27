@@ -431,7 +431,32 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ['23.3'],
+        text: 'Hvilken del indgår ikke i NGS?',
+        answers: [
+            'Elektroforese',
+            'Sekventering',
+            'Klynge-dannelsen',
+            'Klynge-dannelsen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.3'],
+        text: 'Hvilke funktion har adaptor-molekylet (NGS) ikke?',
+        answers: [
+            'Det er fluorescerende',
+            'Sikrer at DNA kan sætte sig fast på glaspladen',
+            'Sikrer et bindingssted for en primer til senere PCR',
+            'Indeholder en bar-code (stregkode), så man kan nummerere de enkelte DNA-stykker'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['23.4'],
@@ -865,7 +890,61 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+db.questions.save(
+    {
+        chapters: ['23.6'],
+        text: 'Hvornår blev det første barn med 3 forældre født?',
+        answers: [
+            '2016',
+            '2010',
+            '2014',
+            '2006'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 
+db.questions.save(
+    {
+        chapters: ['23.6'],
+        text: 'Hvilket udsagn om børn med 3 forældre er sandt?',
+        answers: [
+            'Barnet har mitokondrier fra en kvinde og de almindelige 23 kromosomer fra en mand og en anden kvinde',
+            'Barnet har 2 fædre og en mor',
+            'Barnet har mitokondrier fra en mand og de almindelige 23 kromosomer fra en anden mand og en kvinde',
+            'Barnet har mitokondrier fra 3 forskellige mennesker'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.6'],
+        text: 'Hvor stor en del af generne hos et barn med 3 forældre stammer fra mitokondriemoderen?',
+        answers: [
+            'Ca. 0,1 %',
+            'Ca. 1 %',
+            'Ca. 10 %',
+            'Ca. 99,9 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.6'],
+        text: 'Hvilket udsagn om mitokondriegener er korrekt?',
+        answers: [
+            'De koder ofte for proteiner, der har betydning i cellens respiration',
+            'De koder ofte for proteiner, der har betydning for intelligensen',
+            'De koder ofte for proteiner, der har betydning for fx øjenfarve og hårfarve',
+            'De koder for proteiner, der kun findes hos kvinder'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['23.7'],
@@ -1510,3 +1589,181 @@ db.questions.save(
         correct_answer: '3'
     });
 
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvordan beskytter bakterier sig mod virus?',
+        answers: [
+            'Ved hjælp af gener, der koder for enzymer, der kan klippe virus-DNA i stykker',
+            'Ved hjælp af deres B-huskeceller',
+            'Ved hjælp af deres immunforsvar',
+            'De har ingen beskyttelse, da de ikke har et egentligt immunforsvar'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad forstås ved en palindrom basesekvens?',
+        answers: [
+            'En basesekvens, der er enslydende uanset læseretningen',
+            'En basesekvens, hvor alle baser er ens',
+            'En basesekvens, der bliver ved og ved med at gentages',
+            'En nonsens-sekvens'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad kaldes bakteriers "bibliotek" over tidligere virus-infektioners genetiske aftryk?',
+        answers: [
+            'CRISPR',
+            'Cas-gener',
+            'Et palindrom',
+            'Spacer-DNA'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Til hvilken type enzymer hører Cas9?',
+        answers: [
+            'Nucleaser',
+            'Hydrolaser',
+            'Transferaser',
+            'Oxido-reduktaser'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvordan sikrer bakterier sig, at det kun er virus-DNA, der klippes i stykker af Cas9?',
+        answers: [
+            'Ved hjælp af PAM-sekvensen',
+            'Ved hjælp af nucleasen',
+            'Ved hjælp af et palindrom',
+            'Ved hjælp af en transferase'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad kan CRISPR teknikken bl.a. bruges til?',
+        answers: [
+            'Til at slukke uønskede gener ved knock out',
+            'Til at fremkalde mutationer',
+            'Til at reparere kromosombrud',
+            'Til at fremstille enkeltstrenget DNA'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad kan CRISPR teknikken bl.a. bruges til?',
+        answers: [
+            'Til at slukke uønskede gener ved knock out',
+            'Til at fremkalde mutationer',
+            'Til at reparere kromosombrud',
+            'Til at fremstille enkeltstrenget DNA'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad forstås ved begrebet gene drive?',
+        answers: [
+            'Et bestemt gen spredes lynhurtigt i populationen og fortrænger vildttypen',
+            'Et bestemt gen drives af mutationer, som ændrer det',
+            'Et bestemt gen forsvinder meget hurtigt populationen',
+            'Et særligt gen, som kun findes i én bestemt form'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad forstås ved super-Mendelsk nedarvning?',
+        answers: [
+            'Alle afkom arver genet i homozygot form',
+            'Alle afkom arver genet i en eller anden form',
+            'Alle afkom undgår genet totalt',
+            'Alle afkom arver genet i heterozygot form'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'På hvilke virker gene drive bedst?',
+        answers: [
+            'Organismer med kønnet formering og relativ kort generationstid',
+            'Virus (især retrovirus)',
+            'Bakterier',
+            'Organismer med kønnet formering og relativ lang generationstid'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['23.10'],
+        text: 'En pligtetiker mener, at',
+        answers: [
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv',
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.10'],
+        text: 'En nytteetiker mener, at',
+        answers: [
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv',
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.10'],
+        text: 'En naturetiker mener, at',
+        answers: [
+            'Det vigtigste er at passe på naturen, som altså ikke bare kan manipuleres, som vi ønsker',
+            'Det vigtigste er økonomiske overvejelser, altså om det kan betale sig',
+            'Målet er størst mulig nytte/livskvalitet for så mange som muligt, altså kan dyreforsøg forsvares',
+            'Et levende væsen, herunder et dyr, aldrig må bruges som et middel til noget, da det har værdi i sig selv'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

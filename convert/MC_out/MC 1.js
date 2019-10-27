@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: ['1.2'],
         text: 'Ved en prokaryot celle forstås',
         answers: [
             'En celle uden DNA',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved en eukaryot celle forstås',
         answers: [
             'En celle med RNA som genetisk materiale',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En protist er',
         answers: [
             'En udposning på cellemembranen',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvilken gruppe hører ikke til protisterne',
         answers: [
             'Amøber',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvilken gruppe hører ikke til prokaryoterne?',
         answers: [
             'Eubakterierne',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En bakteriecelle er omgivet af en såkaldt cell-envelope, der består af',
         answers: [
             'Et slimlag yderst og en cellevæg inderst ',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Eubakteriernes cellevæg består af',
         answers: [
             'Cellulose',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Murein er opbygget af',
         answers: [
             'Cellulose og glukose',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved Gram-farvning forstås',
         answers: [
             'En farvemetode der kan afgøre, om en bakterie er anaerob eller aerob',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'For Gram-negative bakterier gælder, at',
         answers: [
             'De er svære at dræbe med antibiotika',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Bakterieceller har et højt osmotisk tryk på grund af',
         answers: [
             'En meget gennemtrængelig cellevæg',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Når bakterier skal nedbryde store organiske molekyler fra omgivelserne, sker det på følgende måde:',
         answers: [
             'De organiske molekyler optages ved diffusion',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Bakteriernes cellulære respiration er knyttet til',
         answers: [
             'Mitokondrierne',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om bakteriernes arvemateriale gælder, at',
         answers: [
             'Det findes i cellekernen',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: ['1.2'],
         text: 'Plasmider er',
         answers: [
             'En form for grønkorn',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved konjugation forstås',
         answers: [
             'At bakterier udveksler genetisk materiale',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: ['1.2'],
         text: 'Hvor mange bakteriekromosomer (nucleoider) findes der pr. bakterie?',
         answers: [
             '50-100',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved arkæer forstås',
         answers: [
             'En type af flageller',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En halofil bakterie er en bakterie, der',
         answers: [
             'Lever i ekstremt kolde omgivelser',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En psykrofil bakterie er en bakterie der',
         answers: [
             'Lever i ekstremt kolde omgivelser',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En alkalifil bakterie er en bakterie der ',
         answers: [
             'Lever i omgivelser med meget lav pH',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om arkæer gælder, at',
         answers: [
             'De er tæt beslægtede med virus',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Arkæernes evolution går langsomt, da de',
         answers: [
             'Ikke laver mutationer',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvilke bakterier bør der ikke være for mange af i tarmfloraen?',
         answers: [
             'Salmonella-bakterier',
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved patogene bakterier forstås',
         answers: [
             'Bakterier, der kan medføre overvægt',
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om cyanobakterier gælder, at',
         answers: [
             'De er sygdomsfremkaldende',
@@ -364,7 +364,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Heterocyster findes hos',
         answers: [
             'Alle celler ',
@@ -378,7 +378,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Heterocyster indeholder',
         answers: [
             'Enzymet nitrogenase',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Enzymet nitrogenases funktion er at',
         answers: [
             'Spalte DNA',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: ['1.2'],
         text: 'Cyanobakterier flyder ofte ovenpå vandet fordi de',
         answers: [
             'Har flageller til at svømme med',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved vandblomst forstås',
         answers: [
             'Et grønt lag af cyanobakterier i en vandoverflade',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Ved bakteriers toksiner forstås',
         answers: [
             'Deres flageller',
@@ -448,7 +448,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvilket udsagn om bakterien <span style="font-style:italic;">Clostridium botulinum</span> er ikke korrekt',
         answers: [
             'Den kan forårsage pølseforgiftning',
@@ -462,7 +462,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om bakterien <span style="font-style:italic;">Borrelia burgdoferi</span> gælder, at',
         answers: [
             'Den lever i menneskets tarmkanal',
@@ -476,7 +476,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om Salmonella-bakterier gælder, at',
         answers: [
             'De hører ikke til eubakterier, men til arkæerne',
@@ -490,7 +490,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'En multiresistent bakterie er en bakterie, der',
         answers: [
             'Kan dræbes af mange forskellige former for antibiotika',
@@ -504,7 +504,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Om miltbrandbakterier gælder, at',
         answers: [
             'De bruges til gensplejsning',
@@ -518,7 +518,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Sygdommen miltbrand spredes med',
         answers: [
             'Insektbid',
@@ -532,7 +532,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvilken påstand om pestbakterien er ikke korrekt?',
         answers: [
             'Den forårsages af en eubakterie af slægten Yersinia',
@@ -546,7 +546,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Antibiotika virker mod',
         answers: [
             'Bakterieinfektioner',
@@ -560,7 +560,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Penicillin (antibiotikum) virker på den måde, at det',
         answers: [
             'Skader bakteriernes DNA-syntese',
@@ -574,7 +574,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Tetracyklin (antibiotikum) virker på den måde, at det',
         answers: [
             'Skader bakteriernes DNA-syntese',
@@ -588,7 +588,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Qinolon (antibiotikum) virker på den måde, at det',
         answers: [
             'Skader bakteriernes DNA-syntese',
@@ -602,7 +602,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Et bredspektret antibiotikum kan',
         answers: [
             'Dræbe alle slags bakterier',
@@ -616,7 +616,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Et smalspektret antibiotikum kan dræbe',
         answers: [
             'En bestemt type af bakterier',
@@ -630,7 +630,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Et for stort forbrug af antibiotika kan være skadeligt, fordi',
         answers: [
             'Det kan medføre allergi over for mange former for antibiotika',
@@ -644,7 +644,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvis der er tilstrækkeligt med næringsstoffer kan bakterier i en kultur fordoble deres antal på',
         answers: [
             '2 sekunder',
@@ -658,7 +658,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Hvor mange bakterier må der typisk være i en fødevare, hvis den skal være egnet til menneskeføde',
         answers: [
             '500/g',
@@ -672,7 +672,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Streptokker ser ud som følger',
         answers: [
             'Kugleformede',
@@ -686,7 +686,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Stafylokokker ser ud som følger',
         answers: [
             'Kugleformede',
@@ -700,7 +700,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Bacillus-bakterier ser ud som følger',
         answers: [
             'Kugleformede',
@@ -714,7 +714,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Streptobacillus ser ud som følger',
         answers: [
             'Som små stave',
@@ -728,7 +728,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Spirokæter ser ud som følger',
         answers: [
             'Skrueformede uden flagel',
@@ -742,7 +742,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['1.1', '1.2'],
+        chapters: [ '1.2'],
         text: 'Indenfor taxonomi inddeler man organismer i flere underkategorier. Hvilken rækkefølge er den korrekte?',
         answers: [
             'Rige-række-klasse-orden-familie-slægt-art ',

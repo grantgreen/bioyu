@@ -16,7 +16,20 @@
 
     <script type="text/javascript" >
       $(document).ready(function () {
-        initTilesGame("!!chapters!", "!!topic!");
+		
+				var chapter ='!!chapters!';
+			
+				if( chapter == 'undefined')
+				{
+					var topic = '!!topic!';
+					var match = topic.match(/([A-Za-z]+)&chapters=([0-9]+)/);
+					initTilesGame(match[2], match[1]);
+				}
+				else
+				{
+					initTilesGame("!!chapters!", "!!topic!");
+				}
+       
       });
     </script>
   </head>

@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: ['18.2'],
         text: 'Hvad forstås ved anabolisme?',
         answers: [
             'Den stofnedbrydende del af stofskiftet',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilken påstand om anabolisme er ikke korrekt?',
         answers: [
             'Det kræver energi form af ATP',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvad forstås ved katabolisme?',
         answers: [
             'Den stofnedbrydende del af stofskiftet',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilken påstand om katabolismen er korrekt?',
         answers: [
             'Den kræver energi i form af ATP',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilket kulhydrat bruges som brændstof i nerveceller?',
         answers: [
             'Sakkarose',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilket kulhydrat bruges som brændstof i de røde blodlegemer?',
         answers: [
             'Sakkarose',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvor meget glukose findes i blodet?',
         answers: [
             '20 g',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvor meget glukose skal kroppen som minimum bruge pr. dag?',
         answers: [
             '20 g',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvor meget glukose bruger hjernen som minimum pr. dag?',
         answers: [
             '20 g',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvor meget glukose kan leveres fra kroppens glykogenlagre pr dag?',
         answers: [
             '20 g',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvad forstås ved glukoneogenese?',
         answers: [
             'Den aerobe nedbrydning af glukose',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilket stof kan ikke være udgangspunkt for glukosedannelsen i kroppen?',
         answers: [
             'Glycerol fra fedtstofferne',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvilken påstand om glukoneogenesen er ikke korrekt?',
         answers: [
             'Den begynder i mitokondrierne',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvor i cellerne foregår glukoneogenesen især?',
         answers: [
             'I cellekernen',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'I hvilket organ foregår glukoneogenesen især?',
         answers: [
             'I fedtvæv',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: ['18.2'],
         text: 'Hvor i cellerne foregår første trin i glukoneogenesen, hvor pyruvat omdannes til oxaloacetat?',
         answers: [
             'I cytoplasma',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: ['18.2'],
         text: 'Hvor meget ATP koster det at danne et glukosemolekyle ved gluloneogenesen?',
         answers: [
             '2 ATP',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvordan skaffer de røde blodlegemer sig ATP?',
         answers: [
             'Ved gæringsprocesser i cytoplasma',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: ['18.2'],
         text: 'Hvilken påstand om de røde blodlegemer er ikke korrekt?',
         answers: [
             'De har ingen cellekerne',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.1', '18.2'],
+        chapters: [ '18.2'],
         text: 'Hvad forstås ved levercellernes Cori-cyklus?',
         answers: [
             'Levercellernes omdannelse af laktat til glukose',

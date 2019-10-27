@@ -1136,20 +1136,6 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.7'],
-        text: 'Hvor stor en del udgør de proteinkodende gener af det samlede genom?',
-        answers: [
-            'Ca. 10 %',
-            'Ca. 30 %',
-            'Ca. 45 %',
-            'Ca. 55 %'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['19.7'],
         text: 'Hvor mange forskellige aminosyrer findes der i proteinerne?',
         answers: [
             '4',
@@ -1468,4 +1454,42 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ['19.7'],
+        text: 'Hvad kendetegner enkelt-kopi-DNA?',
+        answers: [
+            'DNA-sekvenser som kun optræder en enkelt gang i genomet',
+            'DNA-sekvenser som optræder mange gange i genomet',
+            'DNA-sekvenser som kun optræder en enkelt gang på hvert kromosom',
+            'DNA-sekvenser som optræder mange gange på hvert kromosom'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['19.7'],
+        text: 'Hvor mange procent udgør enkelt-kopi-DNA af genomet?',
+        answers: [
+            'Ca. 45 %',
+            'Ca. 55 %',
+            'Ca. 2 % ',
+            'Ca. 98 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['19.7'],
+        text: 'Hvor meget af genomet udgøres af repetitivt DNA?',
+        answers: [
+            'Ca. 55 %',
+            'Ca. 45 %',
+            'Ca. 2 % ',
+            'Ca. 98 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

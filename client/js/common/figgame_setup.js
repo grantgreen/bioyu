@@ -3,6 +3,9 @@ var getChapter = function (chapterNo, bookType) {
 		url: "getChapter.json",
 		data: { chapterno: chapterNo }
 	}).done(function (chapter) {
+		
+		if( hasMC(chapter))
+			{
 		var chapterHeader = $('#chapter_header');
 
 		var header = $('<h2></h2>');
@@ -12,15 +15,59 @@ var getChapter = function (chapterNo, bookType) {
 
 		getFiguresForChapter(chapterNo, bookType);
 
+			}
+			else
+				{
+					showAlternative();
+				}
+
 	}).fail(function (jqXHR, textStatus) {
 		alert("Request failed: " + textStatus);
 	});
 };
 
-var getFiguresForChapter = function (chapterNo, bookType) {
+var hideAlternative = function()
+{
+	$('#altColumn').hide();
+	$('default').show();
+	$('collapseSetup').show();
+	$('headingGame').show();
+	$('headingResult').show();
+	$('collapseResult').show();
+}
+var showAlternative = function(){
+
+	$('#altColumn').show();
+	$('#default').hide();
+	$('#collapseSetup').hide();
+	$('#headingGame').hide();
+	$('#headingResult').hide();
+	$('#collapseResult').hide();
+}
+var hasMC = function(chapter)
+{
+	if(!chapter){return false;}
+	for (var i = 0; i < chapter.sub.length; i++)
+	{
+		if( chapter.sub[i].hasMC != null)
+		{
+			return chapter.sub[i].hasMC;
+		}
+	};
+	return true;
+}
+
+var getFiguresForChapter = function (chapterNo, bookType)
+ {
+ 	 var prefix = "a";
+    if(bookType != "a")
+    {
+       prefix = bookType == "idc" ? "idc": "bc";  
+    } 
+  
 	$.ajax({
 		url: "getFiguresForChapter.json",
-		data: { chapter: chapterNo, type: bookType == "a" ? "a" : "bc" }
+		data: { chapter: chapterNo, type: bookType = prefix }
 	}).done(function (figures) {
 		var sortFunc = function (a, b) {
 			a = Number(a.figure.replace(/fig_(\d+)_(\d+)-?(\d*)_?(\d*)-?(\d*)_?(\d*)(\(\S+\))?\.svg/, "$1$2.$3$4$5$6"));
@@ -31,12 +78,18 @@ var getFiguresForChapter = function (chapterNo, bookType) {
 		var allFigures = [];
 		if (figures.standard) {
 			figures.standard.forEach(function (figure) {
-				allFigures.push({ "figure": figure, "type": "standard" });
+				if( figure.endsWith(".svg"))
+				{
+					allFigures.push({ "figure": figure, "type": "standard" });
+				}
 			});
 		}
 		if (figures.special) {
-			figures.special.forEach(function (figure) {
-				allFigures.push({ "figure": figure, "type": "special" });
+			figures.special.forEach(function (figure) {									
+				if( figure.endsWith(".svg"))
+					{
+						allFigures.push({ "figure": figure, "type": "special" });
+					}
 			});
 		}
 
@@ -70,6 +123,7 @@ var addFigure = function (figure, figureType) {
 
 var initFigGame = function (chapter, topic, bookType) {
 	if (chapter.indexOf("-") == -1) {
+		hideAlternative();
 		getChapter(chapter, bookType);
 	}
 
@@ -79,6 +133,7 @@ var initFigGame = function (chapter, topic, bookType) {
 		var figName = element.val()
 		var figType = element.data("figureType");
 		startFigGame(figName, bookType, figType);
+
 
 		$('#collapseSetup').collapse('hide');
 		$('#collapseGame').collapse('show');
@@ -105,3 +160,7 @@ var initFigGame = function (chapter, topic, bookType) {
 	var mainTopic = imgButton("mainTopic", "figgame_selector.html", imageLib + '/icons/yubio_figgame_icon.svg');
 	var mainYubio = imgButton("mainYubio", ".." + urlPrefix + "/index_tiles.html", imageLib + '/yubio_logo_pure.svg');
 }
+
+String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+};

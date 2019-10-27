@@ -277,10 +277,74 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
 db.questions.save(
     {
         chapters: ['30.2'],
+        text: 'Hvor mange procent af verdens affald udgøres af plastic (mindst)?',
+        answers: [
+            '10 %',
+            '1 %',
+            '50 %',
+            '90 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor meget øges plastikmængden med i havet?',
+        answers: [
+            'Ca. en lastbilfuld pr. minut',
+            'Ca. en lastbilfuld pr. time',
+            'Ca. en lastbilfuld pr. døgn',
+            'Ca. en lastbilfuld pr. uge'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor stort et areal skønnes plastikforureningen i havet at fylde?',
+        answers: [
+            'Ca. som Afrika',
+            'Ca. som Stillehavet',
+            'Ca. som Danmark',
+            'Ca. som alle verdens lande tilsammen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket land udlever mest plastik?',
+        answers: [
+            'Kina',
+            'Indonesien',
+            'Filippinerne',
+            'Vietnam'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor stammer det meste plastik i havene fra?',
+        answers: [
+            'Dækrester',
+            'Maling',
+            'Tekstiler',
+            'Fodtøj'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.3'],
         text: 'Hvordan defineres et tungmetal?',
         answers: [
             'Et grundstof med en massefylde over 2 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
@@ -294,7 +358,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvilket udsagn om tungmetaller er ikke korrekt?',
         answers: [
             'De har en massefylde over 5 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
@@ -308,7 +372,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvilket tungmetal var årsag til sygdommen itai-itai i Japan?',
         answers: [
             'Hg',
@@ -322,7 +386,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvorfor er tungmetaller så skadelige for de levende organismer?',
         answers: [
             'De nedbryder enzymerne',
@@ -336,7 +400,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvorfor kan bly hæmme enzymer?',
         answers: [
             'Det nedbryder enzymerne',
@@ -350,7 +414,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad vil det sige, at et stof biomagnificeres? ',
         answers: [
             'Det bindes til proteinerne',
@@ -364,7 +428,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvorfor kan metylkviksølv biomagnificeres?',
         answers: [
             'Fordi det kan bindes i fedtvævet hos dyrene',
@@ -378,7 +442,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad forstås ved et pesticid?',
         answers: [
             'Et stof der dræber gnavere',
@@ -392,7 +456,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad er et herbicid?',
         answers: [
             'Et stof der dræber gnavere',
@@ -406,7 +470,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad er et fungicid?',
         answers: [
             'Et stof der dræber gnavere',
@@ -420,7 +484,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad er et rodenticid?',
         answers: [
             'Et stof der dræber gnavere',
@@ -434,7 +498,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Til hvilken gruppe af pesticider hører stoffet Roundup?',
         answers: [
             'Herbicid',
@@ -448,7 +512,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad hedder det aktive stof i Roundup?',
         answers: [
             'Laureat',
@@ -462,7 +526,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvorfor er glyphosat giftigt for planter?',
         answers: [
             'Fordi det hæmmer optagelsen af næringssalte',
@@ -476,7 +540,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvorfor er glyphosat ikke giftigt for dyr?',
         answers: [
             'Fordi dyr ikke optager CO<span style="vertical-align:sub; font-size:58%;">2</span>',
@@ -490,7 +554,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Til hvilken gruppe af pesticider hører DDT?',
         answers: [
             'Herbicid',
@@ -504,7 +568,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvilket udsagn om DDT er ikke korrekt?',
         answers: [
             'Det er et herbicid',
@@ -518,7 +582,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad forstås ved LC<span style="vertical-align:sub; font-size:58%;">50</span>?',
         answers: [
             'Den dosis der vil dræbe 50 % af dyrene',
@@ -532,7 +596,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad forstås ved LD<span style="vertical-align:sub; font-size:58%;">50</span>?',
         answers: [
             'Den dosis der vil dræbe 50 % af dyrene',
@@ -546,7 +610,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad dækker begrebet ADI?',
         answers: [
             'Den dosis der vil dræbe 50 % af dyrene',
@@ -560,7 +624,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad menes med TDI?',
         answers: [
             'Den dosis der vil dræbe 50 % af dyrene',
@@ -574,7 +638,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad menes med cocktail-effekten?',
         answers: [
             'At to giftige stoffer, der blandes sammen, pludselig ikke er giftige mere (1+1=0).',
@@ -588,7 +652,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad vil det sige, at et stof har østrogen effekt?',
         answers: [
             'At det hæmmer østrogen',
@@ -602,7 +666,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvilet udsagn om DDT er korrekt?',
         answers: [
             'Det hæmmer udskillelsen af østrogen',
@@ -616,7 +680,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvilket udsagn om PCB er korrekt?',
         answers: [
             'Det hæmmer udskillelsen af østrogen',
@@ -630,7 +694,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad menes der med, at et stof har anti-østrogen effekt?',
         answers: [
             'At det hæmmer det hunlige kønshormon',
@@ -644,7 +708,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.2'],
+        chapters: ['30.3'],
         text: 'Hvad betyder det, at et stof har androgen virkning?',
         answers: [
             'At det hæmmer østrogen',
@@ -1022,7 +1086,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad menes der med mekanisk rensning?',
         answers: [
             'Rensning i et biologisk filter',
@@ -1036,7 +1100,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad menes med et biologisk filter?',
         answers: [
             'Mikroorganismer i et renseanlæg, der sidder på slagger og lignende',
@@ -1050,7 +1114,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad forstås ved et aktivt slamanlæg?',
         answers: [
             'Aktive mikroorganismer, der sidder på slagger og lignende',
@@ -1064,7 +1128,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvordan fjernes nitrat fra spildevandet?',
         answers: [
             'Ved denitrifikation',
@@ -1078,7 +1142,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvilken type bakterie kan fjerne nitrat i renseanlægget?',
         answers: [
             'Denitrifikationsbakterier',
@@ -1092,7 +1156,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvilken proces i renseanlægget kan udføres af Nitrosomonas?',
         answers: [
             'Denitrifikation',
@@ -1106,7 +1170,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvordan kan fosfat fjernes ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span> i renseanlægget?',
         answers: [
             'Fordi der så dannes tungtopløseligt AlPO<span style="vertical-align:sub; font-size:58%;">4</span><span style="vertical-align:super; font-size:58%;">3-</span>',
@@ -1120,7 +1184,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvordan fjernes fosfat ved en biologisk proces i renseanlægget?',
         answers: [
             'Ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
@@ -1134,7 +1198,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad sker der i rodzoneanlæggets iltrige zoner?',
         answers: [
             'Nedbrydning ved respiration',
@@ -1148,7 +1212,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad sker der i rodzoneanlæggets iltfattige zoner?',
         answers: [
             'Nedbrydning ved respiration',
@@ -1162,7 +1226,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvordan kommer der ilt ned i rodzoneanlægget?',
         answers: [
             'Ved sumpplanternes respiration',
@@ -1176,7 +1240,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvad var målet for Vandmiljøplan I?',
         answers: [
             'At sænke udvaskningen af fosfor med 80 % og udvaskningen af kvælstof med 50 %',
@@ -1190,7 +1254,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvornår blev Vandmiljøplan II vedtaget?',
         answers: [
             '1968',
@@ -1204,7 +1268,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvorfor hjælper det på vandmiljøet, at der oprettes vådområder omkring vandløbene?',
         answers: [
             'Fordi de forbedrer jordens iltindhold',
@@ -1218,7 +1282,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['30.3'],
+        chapters: ['30.2'],
         text: 'Hvornår blev Vandmiljøplan III vedtaget?',
         answers: [
             '1978',
@@ -1988,6 +2052,62 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ['30.5'],
+        text: 'Hvad er det, man har gjort i Island for at fjerne CO<span style="vertical-align:sub; font-size:58%;">2</span> fra luften?',
+        answers: [
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en basaltholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en granitholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en gipsholdig undergrund',
+            'Pumpet CO<span style="vertical-align:sub; font-size:58%;">2</span> opløst i vand ned i en sandet undergrund'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+	
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvorfor kan en basaltholdig undergrund binde CO<span style="vertical-align:sub; font-size:58%;">2</span>?',
+        answers: [
+            'Basalt indeholder Ca2+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder Na+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder K+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes kalk',
+            'Basalt indeholder Ca2+, der binder CO<span style="vertical-align:sub; font-size:58%;">2</span>, så der dannes gips'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvor stor en del af luftens CO<span style="vertical-align:sub; font-size:58%;">2</span> har man kunnet binde i basalten i Island?',
+        answers: [
+            '95 %',
+            '50 %',
+            '25 %',
+            '5 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvorfor kan den islandske metode til binding af CO<span style="vertical-align:sub; font-size:58%;">2</span> i undergrunden ikke bruges i Danmark?',
+        answers: [
+            'Fordi der ikke er basalt i undergrunden i Danmark',
+            'Fordi der ikke er granit i undergrunden i Danmark',
+            'Fordi der ikke er granit i undergrunden i Danmark',
+            'Fordi kalken i undergrunden i Danmark hæmmer processen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
         chapters: ['30.6'],
         text: 'Hvilket udsagn om skovrejsning er ikke korrekt?',
         answers: [
@@ -2083,4 +2203,101 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor længe holder en mobiltelefon i gennemsnit, før den kasseres?',
+        answers: [
+            '18 måneder',
+            '6 måneder',
+            '3 år',
+            '5 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt sølv er der i 1 ton mobiltelefoner?',
+        answers: [
+            '3,5 kg',
+            '130 g',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt guld er der i 1 ton mobiltelefoner?',
+        answers: [
+            '340 g',
+            '130 g',
+            '3,5 kg',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt kobber er der i 1 ton mobiltelefoner?',
+        answers: [
+            '130 g',
+            '3,5 kg',
+            '340 g',
+            '140 g'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget genanvendeligt palladium er der i 1 ton mobiltelefoner?',
+        answers: [
+            '140 g',
+            '130 g',
+            '340 g',
+            '3,5 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor meget tøj køber en dansker i gennemsnit pr. år?',
+        answers: [
+            '16 kg',
+            '8 kg',
+            '26 kg',
+            '10 kg'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som vi køber pr. år?',
+        answers: [
+            '58.000 L',
+            '5.000 L',
+            '30.000 L',
+            '20.000 L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	

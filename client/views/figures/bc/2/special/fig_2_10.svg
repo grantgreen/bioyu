@@ -353,14 +353,14 @@
 	<text transform="matrix(1 0 0 1 110.75 143.4805)"><tspan x="0" y="0" class="st18 st19 st20">CO</tspan><tspan x="13.4" y="3" class="st18 st19 st21">2</tspan></text>
 	<text transform="matrix(1 0 0 1 131.75 143.2305)"><tspan x="0" y="0" class="st18 st19 st20">CO</tspan><tspan x="13.4" y="3" class="st18 st19 st21">2</tspan></text>
 	<text transform="matrix(1 0 0 1 103 429.1465)"><tspan x="0" y="0" class="st18 st19 st20">CO</tspan><tspan x="13.4" y="3" class="st18 st19 st21">2</tspan></text>
-	<text transform="matrix(1 0 0 1 59 89.814)" class="st19 st20">Lunger</text>
-	<text transform="matrix(1 0 0 1 32 171.1479)"><tspan x="0" y="0" class="st19 st20">Lunge-</tspan><tspan x="0" y="10" class="st19 st20">arterier</tspan></text>
-	<text transform="matrix(1 0 0 1 186.6665 171.1479)"><tspan x="0" y="0" class="st19 st20">Lunge-</tspan><tspan x="0" y="10" class="st19 st20">vener</tspan></text>
-	<text transform="matrix(1 0 0 1 93.9995 194.814)" class="st19 st20">Lungekapillærer</text>
-	<text transform="matrix(1 0 0 1 25 322.481)"><tspan x="0" y="0" class="st19 st20">Krops-</tspan><tspan x="0" y="10" class="st19 st20">vener</tspan></text>
-	<text transform="matrix(1 0 0 1 211.332 322.481)"><tspan x="0" y="0" class="st19 st20">Krops-</tspan><tspan x="0" y="10" class="st19 st20">arterier</tspan></text>
-	<text transform="matrix(1 0 0 1 95.332 346.147)" class="st19 st20">Kropskapillærer</text>
-	<text transform="matrix(1 0 0 1 48.665 436.8149)" class="st19 st20">Muskel</text>
+	<text transform="matrix(1 0 0 1 59 89.814)" class="st19 st20 yText">Lunger</text>
+	<text transform="matrix(1 0 0 1 32 171.1479)" class="st19 st20 yText">Lunge-<tspan x="0" y="10">arterier</tspan></text>
+	<text transform="matrix(1 0 0 1 186.6665 171.1479)" class="st19 st20 yText">Lunge-<tspan x="0" y="10">vener</tspan></text>
+	<text transform="matrix(1 0 0 1 93.9995 194.814)" class="st19 st20 yText">Lungekapillærer</text>
+	 <text transform="matrix(1 0 0 1 25 322.481)" class="st19 st20 yText">Krops-<tspan x="0" y="10">vener</tspan></text>
+	<text transform="matrix(1 0 0 1 211.332 322.481)" class="st19 st20 yText">Krops-<tspan x="0" y="10">arterier</tspan></text>
+	<text transform="matrix(1 0 0 1 95.332 346.147)" class="st19 st20 yText">Kropskapillærer</text>
+	<text transform="matrix(1 0 0 1 48.665 436.8149)" class="st19 st20 yText">Muskel</text>
 	<text transform="matrix(1 0 0 1 210.667 71.1475)"><tspan x="0" y="0" class="st22 st19 st20">Trin 1</tspan><tspan x="0" y="10" class="st22 st19 st20">ventilation</tspan></text>
 	<text transform="matrix(1 0 0 1 210.667 145.4814)"><tspan x="0" y="0" class="st22 st19 st20">Trin 2</tspan><tspan x="0" y="10" class="st22 st19 st20">diffusion</tspan></text>
 	<text transform="matrix(1 0 0 1 210.667 399.8145)"><tspan x="0" y="0" class="st22 st19 st20">Trin 4</tspan><tspan x="0" y="10" class="st22 st19 st20">diffusion</tspan></text>
@@ -696,7 +696,7 @@ YII=" transform="matrix(1 0 0 1 378 219.0391)">
 	</g>
 </g>
 <g id="txt">
-	<text transform="matrix(1 0 0 1 393.3774 208.0249)" class="st19 st20">Det lille kredsløb</text>
-	<text transform="matrix(1 0 0 1 389.5479 354.3213)" class="st19 st20">Det store kredsløb</text>
+	<text transform="matrix(1 0 0 1 393.3774 208.0249)" class="st19 st20 yText">Det lille kredsløb</text>
+	<text transform="matrix(1 0 0 1 389.5479 354.3213)" class="st19 st20 yText">Det store kredsløb</text>
 </g>
 </svg>

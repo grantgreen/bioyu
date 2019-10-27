@@ -1429,3 +1429,32 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '1'
     });
+
+db.questions.save(
+    {
+        chapters: ["4.4"],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'E-cigaretter er formentlig lige så skadelige som almindelige cigaretter',
+            'E-cigaretter er ufarlige',
+            'E-cigaretter indeholder aldrig nikotin',
+            'E-cigaretter bruges af ca. 10 % af den voksne danske befolkning'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["4.4"],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Rygning af vandpibe svarer til at ryge 2-10 cigaretter',
+            'Det er helt ufarligt at ryge vandpibe',
+            'Vandet filtrerer stort set alle skadelige stoffer fra',
+            'Det er sværere at ryge vandpibe end almindelige cigaretter'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

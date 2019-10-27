@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad forstås ved kønnet formering?',
         answers: [
             'Formering hvor der som minimum er en hun involveret',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad forstås ved ukønnet formering?',
         answers: [
             'Formering uden sammensmeltning af kønsceller fra to køn',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hos hvilken dyregruppe kendes ukønnet formering ikke?',
         answers: [
             'Fisk',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Ved partenogenese forstås',
         answers: [
             'Kønnet formering',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Ved jomfrufødsel forstås',
         answers: [
             'Ukønnet formering',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad er ulempen ved ukønnet formering?',
         answers: [
             'Den går hurtigt',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad er ulempen ved kønnet formering?',
         answers: [
             'Stor genetisk variation',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad sker der ved meiosen?',
         answers: [
             'En celle deler sig til to identiske datterceller',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Kønsceller kaldes også',
         answers: [
             'Gameter',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Ved en zygote forstås',
         answers: [
             'Et foster',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvad hedder den del af Y-kromosomet, der sikrer udvikling i hanlig retning?',
         answers: [
             'Centromeret',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvad er SRY-genet?',
         answers: [
             'Den del af Y-kromosomet, som får fostret til at udvikle sig i hanlig retning',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvilket organ hører ikke til i de hanlige kønsorganer?',
         answers: [
             'Prostata',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvad hører ikke til mandens sekundære kønsorganer?',
         answers: [
             'Penis',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvor dannes sædcellerne?',
         answers: [
             'I sædblæren',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'I hvilke celler dannes det mandlige hormon testosteron?',
         answers: [
             'I Leydigcellerne',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad er de Leydigske cellers funktion?',
         answers: [
             'At danne sædceller',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvilke faktorer fører ikke til erektion?',
         answers: [
             'Viagra',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvilken funktion har bitestiklerne?',
         answers: [
             'At danne sædceller',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvilken påstand om sædceller er ikke korrekt',
         answers: [
             'De har cytoplasma',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Sædblærernes funktion er',
         answers: [
             'At danne sædceller',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Prostatas funktion er',
         answers: [
             'At opbevare sæden indtil ejakulationen',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'De Cowperske kirtlers funktion er',
         answers: [
             'At danne et stof, der virker som rensemiddel til urinrøret samt smøremiddel til samlejet',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvor dannes de stimulerende hormoner FSH og LH hos mænd?',
         answers: [
             'I hypothalamus',
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvor dannes hormonet ICSH?',
         answers: [
             'I hypothalamus',
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvilken funktion har ICSH?',
         answers: [
             'Stimulerer sædcelledannelsen',
@@ -364,7 +364,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvilken funktion har FSH hos mænd?',
         answers: [
             'Stimulerer Sertolicellerne og dermed sædcelledannelsen',
@@ -378,7 +378,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvor dannes inhibin?',
         answers: [
             'I Leydigcellerne',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvilken effekt har inhibin?',
         answers: [
             'Ved negativt feedback mindskes udskillelsen af FSH',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvad sker der med LH, hvis testosteronkoncentrationen er blevet for høj?',
         answers: [
             'Den falder på grund af negativ feedback',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: ['7.2'],
         text: 'Hvor ligger de Leydigske celler?',
         answers: [
             'I hypofysens forlap',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['7.1', '7.2'],
+        chapters: [ '7.2'],
         text: 'Hvor ligger Sertolicellerne?',
         answers: [
             'I hypofysens forlap',
@@ -1821,7 +1821,19 @@ db.questions.save(
 	type: 'multiple_text',
 	correct_answer: '2'
     });
-
+db.questions.save(
+    {
+	chapters: ['7.6'],
+	text: 'Hvilket udsagn er ikke korrekt?',
+	answers: [
+	    'For tidligt fødte børn har ofte lavere intelligens',
+	    'For tidligt fødte børn har lidt større risiko for autisme',
+	    'For tidligt fødte børn har lidt større risiko for depression',
+	    'Fertilitetsbehandling øger risikoen for syge børn'
+	],
+	type: 'multiple_text',
+	correct_answer: '0'
+    });
 db.questions.save(
     {
 	chapters: ['7.7'],

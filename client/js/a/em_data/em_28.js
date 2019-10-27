@@ -1,28 +1,18 @@
 var links = [
-    
-    {"caption": "Planternes behov for næringsstoffer",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Planternes%20behov%20for%20n%C3%A6ringsstoffer.pdf"},
-
-    {"caption": "Rodens opbygning og vækst",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Rodens%20opbygning%20og%20v%C3%A6kst.pdf"},
-
-    {"caption": "Vandoptagelse og transpiration hos planter 1",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Vandoptagelse%20og%20transpiration%20hos%20planter%201.pdf"},
-
-    {"caption": "Herbicider i jord",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Herbicider%20i%20jord.pdf"},
-
-    {"caption": "Planternes blade",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Planternes%20blade.pdf"},
-
-
-    {"caption": "Planters tilpasning til voksestedet",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Planternes%20tilpasning%20til%20voksestedet.pdf"},
-
-    {"caption": "Jordbundstype og jordbundsfauna",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Jordbundstype%20og%20jordbundsfauna.pdf"},
-
-    {"caption": "Spalteåbninger hos planter",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%2028/Spalte%C3%A5bninger%20hos%20planter.pdf"}
+{'caption':'Herbicider i jord',
+'link':'https://www.dropbox.com/s/ged2s1uemlbfmjt/Herbicider%20i%20jord.pdf?dl=0'},
+{'caption':'Jordbundstype og jordbundsfauna',
+'link':'https://www.dropbox.com/s/h89igwejbouqir6/Jordbundstype%20og%20jordbundsfauna.pdf?dl=0'},
+{'caption':'Planternes behov for næringsstoffer',
+'link':'https://www.dropbox.com/s/mdc3icns63m5qy7/Planternes%20behov%20for%20n%C3%A6ringsstoffer.pdf?dl=0'},
+{'caption':'Planternes blade',
+'link':'https://www.dropbox.com/s/yqiact8qbxas0hy/Planternes%20blade.pdf?dl=0'},
+{'caption':'Planternes tilpasning til voksestedet',
+'link':'https://www.dropbox.com/s/q2487hx3uoxsglm/Planternes%20tilpasning%20til%20voksestedet.pdf?dl=0'},
+{'caption':'Rodens opbygning og vækst',
+'link':'https://www.dropbox.com/s/z9wdfkfr0u37pam/Rodens%20opbygning%20og%20v%C3%A6kst.pdf?dl=0'},
+{'caption':'Spalteåbninger hos planter',
+'link':'https://www.dropbox.com/s/ptas89benk89bjh/Spalte%C3%A5bninger%20hos%20planter.pdf?dl=0'},
+{'caption':'Vandoptagelse og transpiration hos planter',
+'link':'https://www.dropbox.com/s/7q09hy04hjxjrtn/Vandoptagelse%20og%20transpiration%20hos%20planter%201.pdf?dl=0'},
 ]
-

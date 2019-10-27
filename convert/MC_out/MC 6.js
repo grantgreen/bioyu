@@ -1664,3 +1664,31 @@ db.questions.save(
         correct_answer: '2'
     });
 
+db.questions.save(
+    {
+        chapters: ['6.7'],
+        text: 'Hvad forstås ved cocktail-effekten?',
+        answers: [
+            'At den samlede effekt af flere forskellige stoffer sagtens kan være større end summen af de enkelte stoffers effekt',
+            'At indtagelse af store mængder alkohol kan have hormonforstyrrende effekt',
+            'At et hormonforstyrrende stof kan have effekter både hos drengefostre og pigefostre',
+            'At et stof kan have mange forskellige skadelige effekter i organismerne'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['6.7'],
+        text: 'Hvad er årsagen til, at danske piger kommer i puberteten 1 år tidligere end for 15 år siden?',
+        answers: [
+            'Det ved man ikke, men der er igangsat en undersøgelse af 100.000 piger',
+            'Fordi mødrene er ældre, når de bliver gravide',
+            'Fordi pigerne vejer for meget',
+            'Fordi moderen har indtaget for mange hormonforstyrrende stoffer under graviditeten'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+

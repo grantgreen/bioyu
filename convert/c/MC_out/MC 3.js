@@ -2576,3 +2576,213 @@ db.questions.save(
         correct_answer: '0'
     });
 
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvad betyder det, at der er en social slagside mht. KRAM-faktorerne?',
+        answers: [
+            'Jo dårligere uddannelse desto større risiko for, at man lever usundt',
+            'Jo dårligere uddannelse desto større sandsynlighed for et langt liv',
+            'Jo bedre uddannelse desto større risiko for, at man lever usundt',
+            'Jo flere penge man tjener, desto mere lykkelig er man'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvad betyder entomofagi?',
+        answers: [
+            'At spise insekter',
+            'At spise kød',
+            'At være vegetar',
+            'At være veganer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilken type kød spiser danskerne især meget af?',
+        answers: [
+            'Oksekød',
+            'Svinekød',
+            'Fjerkræ',
+            'Fisk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af verdens landbrugsareal bruges til husdyrhold?',
+        answers: [
+            'Ca. 70 %',
+            'Ca. 50 %',
+            'Ca. 90 %',
+            'Ca. 25 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af verdens samlede landareal bruges til husdyrhold?',
+        answers: [
+            'Ca. 30 %',
+            'Ca. 50 %',
+            'Ca. 10 %',
+            'Ca. 70 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til insektkød?',
+        answers: [
+            'Ca. 60 %',
+            'Ca. 40 %',
+            'Ca. 20 %',
+            'Ca. 80 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til oksekød?',
+        answers: [
+            'Ca. 13 %',
+            'Ca. 25 %',
+            'Ca. 5 %',
+            'Ca. 35 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvor meget af foderet bliver til grisekød?',
+        answers: [
+            'Ca. 33 %',
+            'Ca. 50 %',
+            'Ca. 22 %',
+            'Ca. 10 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilken type organisme har typisk det højeste proteinindhold?',
+        answers: [
+            'Myrer',
+            'Køer',
+            'Grise',
+            'Kyllinger'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'For at en fødevare kan betegnes som light, gælder',
+        answers: [
+            'at den har mindst 30 % mindre energiindhold end originalen',
+            'at den vejer mindre end originalen',
+            'at den ikke indeholder energi',
+            'at den indeholder mindre energi end originalen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Overvægtige mennesker har ofte en tendens til at drikke lightsodavand',
+            'Lightprodukter giver en sød tand, så man senere indtager for meget energi',
+            'Lightprodukter øger risikoen for diabetes type 2',
+            'Personer med Føllings syge bør indtage lightprodukter'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Gravide bør drikke lightprodukter',
+            'Aspartam kan i store mængder medføre kræft',
+            'Lightprodukter indeholder aspartam i små mængder',
+            'Aspartam nedbrydes til methanol i kroppen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Man bør generelt spise glutenfrie produkter',
+            'Gluten er et protein',
+            'Gluten findes i fx havre og byg',
+            'Ca. 1% af befolkningen lider af gluten-intolerans'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Kun ganske få procent af befolkningen skal undgå gluten',
+            'Gluten er et farligt stof i fx kornprodukter',
+            'Gluten giver langt de fleste mennesker sygdomme',
+            'Glutenfri produkter er sundest'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ["3.4"],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Overvægt handler om energibalance og ikke så meget om, hvad man spiser',
+            'Overvægt skyldes primært for højt indtag af kulhydrater',
+            'Overvægt skyldes primært for højt indtag af fedt',
+            'Raffinerede fødevarer virker generelt slankende'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

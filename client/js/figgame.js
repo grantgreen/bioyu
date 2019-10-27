@@ -14,7 +14,12 @@ var startFigGame = function (pFigure, pBookType, pFigureType) {
     bookType = pBookType;
     figureType = pFigureType
     var parts = figure.split('_');
-    var prefix = bookType == 'a' ? 'a' : 'bc'; 
+    var prefix = 'a';
+    if(bookType != 'a')
+   {
+       prefix = bookType == 'idc' ? 'idc': 'bc';  
+    } 
+  //  var prefix = bookType == 'a' ? 'a' : 'bc'; 
     init(prefix + '/' + parts[1] + '/' + figureType + '/' + figure);
     //    $('#infoBox').fadeIn(5000);
 }
@@ -160,7 +165,25 @@ var DrawLabels = function (container, labelData) {
 
             // To bring label to front            
             myElement.appendTo(svg);
-            myElement.attr('transform', "matrix(1 0 0 1 " + pt.x + " " + pt.y + ")");
+            if(element.outerHTML.indexOf("hText")> 0)
+            {
+                if(element.outerHTML.indexOf("(0 -1 1")>0)
+                {
+                    myElement.attr('transform', "matrix(0 -1 1 0 " + pt.x + " " + pt.y + ")");
+                }
+                else  if(element.outerHTML.indexOf("(0 -1 -1")>0)
+                {
+    myElement.attr('transform', "matrix(0 -1 -1 0 " + pt.x + " " + pt.y + ")");
+                }else
+                {
+                         myElement.attr('transform', "matrix(1 0 0 1 " + pt.x + " " + pt.y + ")");
+                }
+            }
+            else
+            {
+                myElement.attr('transform', "matrix(1 0 0 1 " + pt.x + " " + pt.y + ")");
+            }
+      
             //            myElement.attr('transform', "matrix(1 0 0 1 " + pt.x + " " + pt.y + ")");
 
             setClasses(myElement, positionData[index].classes);
@@ -215,11 +238,31 @@ var DrawLabels = function (container, labelData) {
             var selectedItemMatrix = selectedItem[0].transform.baseVal.getItem(0).matrix;
             var selectedItemPt = {"x": selectedItemMatrix.e, "y": selectedItemMatrix.f};
 
+            if(selectedItem.context.outerHTML.indexOf("hText")>0)
+            {
+                if(selectedItem.context.outerHTML.indexOf("(0 -1 1")>0)
+                {
+                    selectedItem.attr('transform', "matrix(0 -1 1 0 " + elementPt.x + " " + elementPt.y + ")");
+                    element.attr('transform', "matrix(0 -1 1 0 " + selectedItemPt.x + " " + selectedItemPt.y + ")");
+                }
+                else  if(selectedItem.context.outerHTML.indexOf("(0 -1 -1")>0)
+                {
+                    selectedItem.attr('transform', "matrix(0 -1 -1 0 " + elementPt.x + " " + elementPt.y + ")");
+                    element.attr('transform', "matrix(0 -1 -1 0 " + selectedItemPt.x + " " + selectedItemPt.y + ")");
+                }
+                else
+                {
+                    selectedItem.attr('transform', "matrix(1 0 0 1 " + elementPt.x + " " + elementPt.y + ")");
+                    element.attr('transform', "matrix(1 0 0 1 " + selectedItemPt.x + " " + selectedItemPt.y + ")");
+                }
+            }
+            else
+            {
+                 selectedItem.attr('transform', "matrix(1 0 0 1 " + elementPt.x + " " + elementPt.y + ")");
+                element.attr('transform', "matrix(1 0 0 1 " + selectedItemPt.x + " " + selectedItemPt.y + ")");
+            }
 
-
-            selectedItem.attr('transform', "matrix(1 0 0 1 " + elementPt.x + " " + elementPt.y + ")");
-            element.attr('transform', "matrix(1 0 0 1 " + selectedItemPt.x + " " + selectedItemPt.y + ")");
-
+ 
             var tmpClasses = getClasses(element);
             setClasses(element, getClasses(selectedItem));
             setClasses(selectedItem, tmpClasses);

@@ -534,6 +534,77 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ["9.3"],
+        text: 'Et godt bud på antallet af dyre- og plantearter på jorden er',
+        answers: [
+            'Ca. 15 millioner',
+            'Ca. 1 million',
+            'Ca. 50 millioner',
+            'Ca. 1 milliard'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["9.3"],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Artsrigdommen er symmetrisk fordelt over hele jorden',
+            'Artsrigdommen er størst omkring ækvator',
+            'Der er flere arter på den nordlige halvkugle',
+            'Nogle arter findes kun på den ene halvkugle'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["9.3"],
+        text: 'Hvor mange hotspots findes?',
+        answers: [
+            'Ca. 25',
+            'Ca. 15',
+            'Ca. 35',
+            'Ca. 45'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["9.3"],
+        text: 'Hvad er et hotspot?',
+        answers: [
+            'Et sted med særlig høj biodiversitet',
+            'Et meget varmt sted',
+            'Et sted med meget lav biodiversitet',
+            'Et meget koldt sted'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["9.3"],
+        text: 'Hvilket sted er ikke et hotspot?',
+        answers: [
+            'Danmark',
+            'Californien',
+            'New Zealand',
+            'Madagaskar'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
         chapters: ["9.4"],
         text: 'Hvad hedder Danmarks dybeste sø?',
         answers: [
@@ -1666,3 +1737,17 @@ db.questions.save(
         correct_answer: '1'
     });
 
+
+db.questions.save(
+    {
+        chapters: ["9.7"],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Fosfor kan være organisk bundet i proteiner',
+            'Fosfor kan være organisk bundet i DNA',
+            'Fosfor kan være organisk bundet i ATP',
+            'Fosfor kan være uorganisk i jorden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

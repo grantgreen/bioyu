@@ -1,65 +1,57 @@
 var links = {
-    "29.1": [
-	"29-1"
-    ],
-
-    "29.2": [
-	"29-2",
-	"29-2-1",
-	"29-2-2",
-	"29-2-3",
-	"29-2-4",
-	"29-2-5"
-    ],
-
-    "29.3": [
-	"29-3",
-	"29-3-1",
-	"29-3-2",
-	"29-3-3",
-	"29-3-4"
-    ],
-
-    "29.4": [
-	"29-4",
-	"29-4-1",
-	"29-4-2",
-	"29-4-3",
-	"29-4-4",
-	"29-4-5"
-    ],
-
-    "29.5": [
-	"29-5",
-	"29-5-1",
-	"29-5-2",
-	"29-5-3",
-	"29-5-4"
-    ],
-
-    "29.6": [
-	"29-6",
-	"29-6-1",
-	"29-6-2",
-	"29-6-3",
-	"29-6-4"
-    ],
-
-    "29.7": [
-	"29-7-1",
-	"29-7-2",
-	"29-7-3",
-	"29-7-4",
-	"29-7-5",
-	"29-7-6",
-	"29-7-7"
-    ],
-
-    "29.8": [
-	"29-8-1",
-	"29-8-1 (2014)",
-	"29-8-2"
-    ]
-
-
+   '29.1':[
+{ chapter:'29.1',link:'https://www.dropbox.com/s/ps3oa1eeja21bvu/29-1.mp3?dl=0'},
+   ],
+   '29.2':[
+{ chapter:'29.2',link:'https://www.dropbox.com/s/ig7n818stezk3tm/29-2.mp3?dl=0'},
+{ chapter:'29.2.1',link:'https://www.dropbox.com/s/3ocm0u6n4rofjum/29-2-1.mp3?dl=0'},
+{ chapter:'29.2.2',link:'https://www.dropbox.com/s/r7unbec76se61ys/29-2-2.mp3?dl=0'},
+{ chapter:'29.2.3',link:'https://www.dropbox.com/s/cuf7aj19bbvzrjx/29-2-3.mp3?dl=0'},
+{ chapter:'29.2.4',link:'https://www.dropbox.com/s/3kxmdbwsb8resqg/29-2-4.mp3?dl=0'},
+{ chapter:'29.2.5',link:'https://www.dropbox.com/s/lkpra88bb9oupln/29-2-5.mp3?dl=0'},
+   ],
+   '29.3':[
+{ chapter:'29.3',link:'https://www.dropbox.com/s/atnhr07xjt6itao/29-3.mp3?dl=0'},
+{ chapter:'29.3.1',link:'https://www.dropbox.com/s/8hj20cbxc7sqe95/29-3-1.mp3?dl=0'},
+{ chapter:'29.3.2',link:'https://www.dropbox.com/s/8n3v1ydokg42m32/29-3-2.mp3?dl=0'},
+{ chapter:'29.3.3',link:'https://www.dropbox.com/s/03li01iiks5zket/29-3-3.mp3?dl=0'},
+{ chapter:'29.3.4',link:'https://www.dropbox.com/s/o5w31azmeihoo5u/29-3-4.mp3?dl=0'},
+   ],
+   '29.4':[
+{ chapter:'29.4',link:'https://www.dropbox.com/s/i06wbtk3kik05tg/29-4.mp3?dl=0'},
+{ chapter:'29.4.1',link:'https://www.dropbox.com/s/yeshsznzt0vpz10/29-4-1.mp3?dl=0'},
+{ chapter:'29.4.2',link:'https://www.dropbox.com/s/ntgmzb1ji1mnsq1/29-4-2.mp3?dl=0'},
+{ chapter:'29.4.3',link:'https://www.dropbox.com/s/x8o91v59cn4j34k/29-4-3.mp3?dl=0'},
+{ chapter:'29.4.4',link:'https://www.dropbox.com/s/u37j52kecb4mz1f/29-4-4.mp3?dl=0'},
+{ chapter:'29.4.5',link:'https://www.dropbox.com/s/ayybyai6gvzckd2/29-4-5.mp3?dl=0'},
+   ],
+   '29.5':[
+{ chapter:'29.5',link:'https://www.dropbox.com/s/kmda5d5z3tn8qab/29-5.mp3?dl=0'},
+{ chapter:'29.5.1',link:'https://www.dropbox.com/s/eeaux67t9urc2dt/29-5-1.mp3?dl=0'},
+{ chapter:'29.5.2',link:'https://www.dropbox.com/s/lnrh3snpd83syqx/29-5-2.mp3?dl=0'},
+{ chapter:'29.5.3',link:'https://www.dropbox.com/s/6oz8r2od3sjyo6m/29-5-3.mp3?dl=0'},
+{ chapter:'29.5.4',link:'https://www.dropbox.com/s/6iu72lv0pgpc54b/29-5-4.mp3?dl=0'},
+   ],
+   '29.6':[
+{ chapter:'29.6',link:'https://www.dropbox.com/s/z04nebgq6fnrgwd/29-6.mp3?dl=0'},
+{ chapter:'29.6.1',link:'https://www.dropbox.com/s/iyyjmjrtpnmdvao/29-6-1.mp3?dl=0'},
+{ chapter:'29.6.2',link:'https://www.dropbox.com/s/cmj0dbyhvbsdz31/29-6-2.mp3?dl=0'},
+{ chapter:'29.6.3',link:'https://www.dropbox.com/s/vku4ukbaqeucsyp/29-6-3.mp3?dl=0'},
+{ chapter:'29.6.4',link:'https://www.dropbox.com/s/44o9xibl9krpz0h/29-6-4.mp3?dl=0'},
+   ],
+   '29.7':[
+{ chapter:'29.7',link:'https://www.dropbox.com/s/lrm4g6i5lrzsyj1/29-7-7.mp3?dl=0'},
+{ chapter:'29.7.1',link:'https://www.dropbox.com/s/tkdhdl8wmb8cqac/29-7-1.mp3?dl=0'},
+{ chapter:'29.7.2',link:'https://www.dropbox.com/s/j1kk2c7ca8edwfl/29-7-2.mp3?dl=0'},
+{ chapter:'29.7.3',link:'https://www.dropbox.com/s/7bzb9mc4gpb8ykk/29-7-3.mp3?dl=0'},
+{ chapter:'29.7.4',link:'https://www.dropbox.com/s/37d8rlyfhcqvyuc/29-7-4.mp3?dl=0'},
+{ chapter:'29.7.5',link:'https://www.dropbox.com/s/l19qtea4h6g4js6/29-7-5.mp3?dl=0'},
+{ chapter:'29.7.6',link:'https://www.dropbox.com/s/v81dzowuriwcd5n/29-7-6.mp3?dl=0'},
+{ chapter:'29.7.7',link:'https://www.dropbox.com/s/lrm4g6i5lrzsyj1/29-7-7.mp3?dl=0'},
+   ],
+   '29.8':[
+{ chapter:'29.8.1',link:'https://www.dropbox.com/s/q3hw97dczvfkll8/29-8-1.mp3?dl=0'},
+{ chapter:'29.8.1 (2014)',link:'https://www.dropbox.com/s/doqyrt2yrlxf3yv/29-8-1%20%282014%29.mp3?dl=0'},
+{ chapter:'29.8.2',link:'https://www.dropbox.com/s/dof4ytd5b97siwd/29-8-2.mp3?dl=0'},
+   ],
 }

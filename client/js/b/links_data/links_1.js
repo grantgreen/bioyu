@@ -6,7 +6,7 @@ var links = {
 {"caption": "Evolution", "link": "https://www.youtube.com/watch?v=92oHNd8vFwo"},
 {"caption": "Livets opståen", "link": "https://www.youtube.com/watch?v=1WS712DHfmg"},
 {"caption": "Livets opståen 2", "link": "https://www.youtube.com/watch?v=sjE-Pkjp3u4"},
-{"caption": "Membraner og transport", "link": "https://www.youtube.com/watch?v=00jbG_cfGuQ"},
+{"caption": "Membraner og transport", "link": "https://www.youtube.com/watch?v=dPKvHrD1eS4"},
 {"caption": "Menneskets evolution", "link": "https://www.youtube.com/watch?v=UPggkvB9_dc"},
 {"caption": "Mikrobielle sygdomme", "link": "https://www.youtube.com/watch?v=1PLBmUVYYeg"},
 {"caption": "Naturlig selektion", "link": "https://www.youtube.com/watch?v=aTftyFboC_M"},
@@ -21,7 +21,7 @@ var links = {
 	 "link": "http://learn.genetics.utah.edu/content/cells/scale/"},
 	{"caption": "Størrelsesforhold 2",
 	 "link": "http://www.cellsalive.com/howbig.htm"},
-{"caption": "Dyreceller", "link": "https://www.youtube.com/watch?v=00jbG_cfGuQ"},
+{"caption": "Dyreceller", "link": "https://www.youtube.com/watch?v=cj8dDTHGJBY"},
 {"caption": "Planteceller", "link": "https://www.youtube.com/watch?v=9UvlqAVCoqY"},
 	{"caption": "Plante- og dyreceller",
 	 "link": "http://learn.genetics.utah.edu/content/cells/insideacell/"},
@@ -81,6 +81,8 @@ var links = {
 	{"caption": "Alexander Fleming",
 	 "link": "http://www.rostra.dk/louis/andreart/Alexander_Fleming.html"},
 	{"caption": "Ebola",
-	 "link": "http://msf.dk/sygdomme/ebola/"}
+	 "link": "http://msf.dk/sygdomme/ebola/"},
+	 {"caption":"Evolution hos Pock Rocket mus", "link":"https://www.youtube.com/watch?v=sjeSEngKGrg"},
+
     ]
 }

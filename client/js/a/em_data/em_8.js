@@ -1,23 +1,16 @@
 var links = [
-
-    {"caption": "Hjerterytmen hos dafnier",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/Hjerterytmen%20hos%20dafnier.pdf"},
-
-    {"caption": "Øjet og synet",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/%C3%98jet%20og%20synet.pdf"},
-
-    {"caption": "LC50 og alkohol",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/LC50%20og%20alkohol.pdf"},
-    
-    {"caption": "Nikotin",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/Nikotin.pdf"},
-
-    {"caption": "Sanserne",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/Sanserne.pdf"},
-
-    {"caption": "Alkohol og præstationsevnen",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/Alkohol%20og%20pr%C3%A6stationsevnen.pdf"},
-
-    {"caption": "Forsøg med sanserne",
-     "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/A-bogen/Kap.%208/Fors%C3%B8g%20med%20sanserne.pdf"}
+{'caption':'Alkohol og præstationsevne',
+'link':'https://www.dropbox.com/s/wo1a5dqer286s5w/Alkohol%20og%20pr%C3%A6stationsevnen.pdf?dl=0'},
+{'caption':'Forsøg med sanserne',
+'link':'https://www.dropbox.com/s/g4039yjzu977z1i/Fors%C3%B8g%20med%20sanserne.pdf?dl=0'},
+{'caption':'Hjerterytmen hos dafnier',
+'link':'https://www.dropbox.com/s/p80k3iykiyx77nw/Hjerterytmen%20hos%20dafnier.pdf?dl=0'},
+{'caption':'LC50 og alkohol',
+'link':'https://www.dropbox.com/s/b317v019jp3gf0r/LC50%20og%20alkohol.pdf?dl=0'},
+{'caption':'Nikotin',
+'link':'https://www.dropbox.com/s/jbgiz3w5t16wapn/Nikotin.pdf?dl=0'},
+{'caption':'Sanserne',
+'link':'https://www.dropbox.com/s/sstkkw1f39v09vq/Sanserne.pdf?dl=0'},
+{'caption':'Øjet og synet',
+'link':'https://www.dropbox.com/s/xe4nrs94exzki6e/%C3%98jet%20og%20synet.pdf?dl=0'},
 ]

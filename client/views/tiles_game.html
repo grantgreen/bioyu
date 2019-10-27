@@ -31,7 +31,18 @@
             loadTilesGame("!!gameId!");
           }
           else {
+              var tmp = '!!chapters!';
+              if(tmp == 'undefined') //crutch for handling escaped & (%26) in url
+              {
+                var tmp1 = '!!headerText!';
+              var t1 = tmp1.match(/[0-9]+/);
+            startTilesGame(t1[0], '!!categories!', '!!mode!');    
+              }
+              else
+              {
             startTilesGame('!!chapters!', '!!categories!', '!!mode!');    
+              }
+
           }
         });
       })(jQuery)

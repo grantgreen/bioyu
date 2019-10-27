@@ -15,7 +15,7 @@ var getChapterList = function(topic, bookType) {
 	var color = colors[colorIndex];
 	for(var i = 0; i < chapterList.length; i++) {		    
 	    
-	    var contentButton = textButton("buttonContainer", 'links.html?chapter=' + (i+1), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+	    var contentButton = textButton("buttonContainer", 'newlinks.html?chapter=' + (i+1), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
 	}
 	
     }).fail(function(jqXHR, textStatus) {

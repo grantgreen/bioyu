@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvorfor har mænd større muskelmasse end kvinder?',
         answers: [
             'Testosteron virker muskelopbyggende',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvorfor har kvinder større fedtprocent end mænd?',
         answers: [
             'Fordi de spiser mere',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'I hvilken sportsgren kan kvindernes fedtdepoter være en fordel?',
         answers: [
             'Maratonløb',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvilket udsagn om mænds og kvinderes maksimalpuls er korrekt?',
         answers: [
             'Kvinders maksimalpuls er højere end mænds',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvilket udsagn om hæmoglobin-indhold i blodet er ikke korrekt?',
         answers: [
             'Mænd er ca. 15 % bedre stillet end kvinder med hensyn til hæmoglobinkoncentration',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvilket udsagn om mænds og kvinders muskulatur er korrekt?',
         answers: [
             'Mænd har flere muskelfibre end kvinder',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvornår i livet topper den fysiske præstationsevne (iltoptagelse/kg) hos mænd?',
         answers: [
             'I den tidlige barndom',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvornår i livet topper den fysiske præstationsevne (iltoptagelse/kg) hos kvinder?',
         answers: [
             'I den tidlige barndom',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvad er en typisk muskelfiberfordeling hos maratonløbere?',
         answers: [
             'Ca. lige mange type I- og type II-fibre',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvad er en typisk muskelfiberfordeling hos håndboldspillere?',
         answers: [
             'Ca. lige mange type I- og type II-fibre',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvad er en typisk muskelfiberfordeling hos sprintere?',
         answers: [
             'Ca. lige mange type I- og type-II',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvilket udsagn om de røde type I-fibre er ikke korrekt?',
         answers: [
             'De har mange mitokondrier',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvilket udsagn om de hvide type II-fibre er ikke korrekt?',
         answers: [
             'De har få kapillærer',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Om myoglobinindholdet i type I-fibre gælder',
         answers: [
             'Der er intet myoglobin i disse fibre',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['10.2', '10.1'],
+        chapters: ['10.2'],
         text: 'Hvorfor må der nødvendigvis være mange mitokondrier i type I-fibre?',
         answers: [
             'Fordi de har brug for mange enzymer til glykolysen',
@@ -1513,7 +1513,19 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
-
+db.questions.save(
+    {
+        chapters: ['10.6'],
+        text: 'Hvad forstås ved okklusionstræning?',
+        answers: [
+            'Træning hvor man hæmmer blodgennemstrømning til musklerne',
+            'Træning hvor man primært bruger egen kropsvægt',
+            'En speciel form for træning med vægtstænger',
+            'En træning med meget få gentagelser'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['10.7'],

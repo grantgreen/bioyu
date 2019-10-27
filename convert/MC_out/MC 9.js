@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'En muskelfiber er',
         answers: [
             'En muskelcelle',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvor mange cellekerner er der i en tværstribet muskelfiber ?',
         answers: [
             'Ingen i de modne celler',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvorfor er der så mange mitokondrier i de tværstribede muskelceller?',
         answers: [
             'Fordi muskelcellerne producerer meget ATP',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket celleorganel hører ikke hjemme i de tværstribede muskelfibre?',
         answers: [
             'Ribosomer',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er specielt for cytoplasmaet i de tværstribede muskelfibre?',
         answers: [
             'Det indeholder mange myofibriller',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved en myofibril forstås',
         answers: [
             'En muskelcelle',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved myofilamenter forstås',
         answers: [
             'Myofibriler',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket stof er ikke byggesten i myofibrillerne?',
         answers: [
             'Aktin',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Til hvilken stofgruppe hører aktin og myosin?',
         answers: [
             'Lipider',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Til hvilken stofgruppe hører troponin og tropomyosin?',
         answers: [
             'Lipider',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved en sarkomer forstås',
         answers: [
             'Afstanden mellem to Z-linjer',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der med Z-linjer, når en muskelfiber kontraherer sig?',
         answers: [
             'De forsvinder',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er grunden til muskelfiberens tværstribede udseende',
         answers: [
             'Det skyldes Z-linjerne',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvordan er aktinmolekylet opbygget?',
         answers: [
             'Som to perlekæder, der er snoet om hinanden, samt tråde af proteinet tropomyosin',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvordan er myosinmolekylet opbygget?',
         answers: [
             'Som to perlekæder, der er snoet om hinanden, samt tråde af proteinet tropomyosin',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket af musklens proteiner har et bindingssted for Ca<span style="vertical-align:super; font-size:58%;">2+</span> ?',
         answers: [
             'Troponin',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilke filamenter i muskelfiberen kan myosinfilamenterne binde sig til?',
         answers: [
             'Til troponin',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvor i muskelfibrene findes enzymet ATP-ase? ',
         answers: [
             'I aktin',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken funktion har muskelcellernes ATP-ase ?',
         answers: [
             'Det danner et nyt ATP-molekyle',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad forstås ved tværbro-cyklus?',
         answers: [
             'Det er processen, hvor aktin og myosin bindes sammen',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er årsagen til dødsstivhed?',
         answers: [
             'Mangel på ATP, hvilket medfører at myosinhovederne straks slipper aktin ',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad forstås ved en motorisk enhed?',
         answers: [
             'Det er afstanden mellem to Z-linjer',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der i en motorisk endeplade?',
         answers: [
             'Det er her myosinhovederne ender',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvordan udbreder et aktionspotentile (AP) sig i en muskelfiber?',
         answers: [
             'Via mitokondrierne',
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der i T-rørene i muskelfiberen?',
         answers: [
             'Der udskilles Ca',
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad har det sarkoplasmatiske retikulum med muskelkontraktionen at gøre?',
         answers: [
             'De oplagrer ATP',
@@ -364,7 +364,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvorfor er Ca<span style="vertical-align:super; font-size:58%;">2+</span> så vigtig for muskelkontraktionen?',
         answers: [
             'Fordi det aktiverer ATP',
@@ -378,7 +378,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om myosinhovedernes nikkebevægelse er korrekt? ',
         answers: [
             'Denne proces frigør ATP',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om type I-fibrene er korrekt?',
         answers: [
             'De kaldes også de hvide fibre',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om type IIa-fibrene er korrekt?',
         answers: [
             'De er udholdende fibre',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om type IIx-fibrene er korrekt?',
         answers: [
             'De er langsommere end type IIa-fibrene',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er den mest normale fordeling af type I- og type II-fibre?',
         answers: [
             'Flest af type I',
@@ -448,7 +448,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er årsagen til den langsomme tværbro-cyklus i type I-fibre?',
         answers: [
             'De har en langsom ATP-ase',
@@ -462,7 +462,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken muskelfibertype har flest mitokondrier?',
         answers: [
             'Type I',
@@ -476,7 +476,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er årsagen til den hurtige tværbro-cyklus i type II-fibre?',
         answers: [
             'De har en hurtig ATP-ase',
@@ -490,7 +490,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvordan skaffer type II-fibre sig primært energi?',
         answers: [
             'Ved respiration',
@@ -504,7 +504,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvordan skaffer type I-fibre sig energi?',
         answers: [
             'Ved respiration',
@@ -518,7 +518,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken af følgende muskler har mange type-I fibre?',
         answers: [
             'Lægmusklen',
@@ -532,7 +532,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken af følgende muskler har mange type II-fibre?',
         answers: [
             'Lægmusklen',
@@ -546,7 +546,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken type atlet har højest andel af type I-fibre?',
         answers: [
             'Maratonløbere',
@@ -560,7 +560,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilke type atlet har højest andel af type II-fibre ?',
         answers: [
             'Maratonløbere',
@@ -574,7 +574,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der med fibersammensætningen ved total immobilitet?',
         answers: [
             'Der sker faktisk ikke noget med sammensætningen',
@@ -588,7 +588,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der med fibersammensætningen ved anaerob træning?',
         answers: [
             'Der sker ikke noget',
@@ -602,7 +602,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad sker der med fibersammensætningen ved stigende alder?',
         answers: [
             'Der sker ikke noget',
@@ -616,7 +616,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om Østafrikanernes fibersammensætning er korrekt?',
         answers: [
             'De har en høj andel af type I-fibre',
@@ -630,7 +630,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om Vestafrikanernes fibersammensætning er ikke korrekt?',
         answers: [
             'De har en høj andel af type I-fibre',
@@ -644,7 +644,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved en isometrisk muskelkontraktion forstås',
         answers: [
             'En muskelkontraktion uden at musklen forkortes udadtil',
@@ -658,7 +658,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved en koncentrisk muskelkontraktion forstås',
         answers: [
             'En muskelkontraktion uden at musklen forkortes',
@@ -672,7 +672,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved en excentrisk muskelkontraktion forstås',
         answers: [
             'En muskelkontraktion uden at musklen forkortes',
@@ -686,7 +686,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'En statisk muskelkontraktion er det samme som',
         answers: [
             'En isometrisk muskelkontraktion',
@@ -700,7 +700,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Musculus biceps brachiis funktion er',
         answers: [
             'At strække armen',
@@ -714,7 +714,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Musculus triceps brachiis funktion er',
         answers: [
             'At strække armen',
@@ -728,7 +728,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: '25 % af en muskels energiforbrug går til at',
         answers: [
             'Danne ATP',
@@ -742,7 +742,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved tetanus-spænding forstås',
         answers: [
             'At der opstår stivkrampe',
@@ -756,7 +756,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilken påstand om musklens kraftudvikling er korrekt',
         answers: [
             'Kraftudviklingen er uafhængig af, hvor mange muskelfibre, der aktiveres',
@@ -770,7 +770,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvad er sammenhængen med sarkomerlængden og muskelkraften',
         answers: [
             'Hvis musklen er helt udstrakt (stor sarkomerlængde) er kraften størst',
@@ -784,7 +784,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: ['9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om arbejdsintensitet og anvendelse af de forskellige typer af muskelfibre er korrekt',
         answers: [
             'Ved stigende arbejdsintensitet aktiveres der flere type II-fibre',
@@ -798,7 +798,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om musklens forspænding er ikke korrekt',
         answers: [
             'Ved forspænding af musklen kan der skabes en større resulterende kraft',
@@ -812,7 +812,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved muskeltenen forstås',
         answers: [
             'Nogle tenformede muskler, der findes i fx brystmusklerne',
@@ -826,7 +826,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Hvilket udsagn om den myotatiske refleks er ikke korrekt',
         answers: [
             'Når en muskel strækkes, fører det til, at musklen kontraheres',
@@ -840,7 +840,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['9.1', '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
+        chapters: [ '9.2.1', '9.2.2', '9.2.3', '9.2.4'],
         text: 'Ved senetenen forstås',
         answers: [
             'Nogle tenformede celler, der findes fx brystmusklerne',

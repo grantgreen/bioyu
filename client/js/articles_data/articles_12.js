@@ -15,9 +15,7 @@ var links = {
 	{"caption": "Undgå kuldechock om vinteren",
 	 "link": "http://jyllands-posten.dk/ditliv/sundhed/article4295392.ece"},
 
-	{"caption": "Kulde aktiverer de brune fedtceller",
-	 "link": "http://illvid.dk/klaus-wilhelm/kulde-aktiverer-de-brune-fedtceller-0"}
-
+	
     ],
 
     "12.4": [
@@ -25,8 +23,6 @@ var links = {
 	{"caption": "Hvaler i Grønland",
 	 "link": "http://www.greenland.com/da/about-greenland/natur-klima/dyreliv/hvaler.aspx"},
 
-	{"caption": "En række artikler om hvaler",
-	 "link": "http://videnskab.dk/emne/hvaler"}
     ],
 
     "12.5": [
@@ -39,8 +35,6 @@ var links = {
 	{"caption": "Grundig artikel om overvintrende sumpskildpadder",
 	 "link": "http://viden.jp.dk/binaries/an/8079.pdf"},
 
-	{"caption": "Den rødørede terrapin",
-	 "link": "http://www.naturstyrelsen.dk/Naturbeskyttelse/Artsleksikon/Dyr/Krybdyr/Skildpadder/RoedoeretTerrapin/"}
     ],
 
     "12.7": [

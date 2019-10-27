@@ -648,12 +648,12 @@ db.questions.save(
         text: 'Hvornår og af hvem blev begrebet mutation introduceret?',
         answers: [
             'Af Darwin i 1859',
-            'Af Darwin i 1871',
+            'Huge de Vries',
             'Af Mendel i 1865',
             'Af Johannesen i starten af 1900-tallet'
         ],
         type: 'multiple_text',
-        correct_answer: '3'
+        correct_answer: '2'
     });
 
 db.questions.save(
@@ -1454,6 +1454,119 @@ db.questions.save(
         correct_answer: '1'
     });
 
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Australien er muligvis blevet koloniseret af Homo sapiens så tidligt som',
+        answers: [
+            'For 50-60.000 år siden',
+            'For 100.000 år siden',
+            'For 200.000 år siden',
+            'For 500.000 år siden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvilket udsagn om udvandringen fra Afrika er sand?',
+        answers: [
+            'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 80.000 år siden',
+            'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 200.000 år siden',
+            'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 500.000 år siden',
+            'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 1 million år siden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvilket udsagn om nutidsmennesket er sandt?',
+        answers: [
+            '2 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '0 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '8 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '15 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvilket udsagn om nutidsmennesket er sandt?',
+        answers: [
+            '2 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '0 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '8 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
+            '15 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Det såkaldte "gamle DNA" hos nutidsmennesket stammer fra gamle Homo-arter som',
+        answers: [
+            'Neandertalere, denisovaer, samt en tredje ukendt Homo-art',
+            'Kun neandertalere',
+            'Kun denisovaer',
+            'Australske aboriginere'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvordan forklarer man det "gamle DNA" hos nutidsmennesket?',
+        answers: [
+            'Ved at de udvandrende Homo sapiens på deres vej fra Afrika for 80.000 år siden har dyrket sex med de gamle arter, der var udvandret på et tidligere tidspunkt',
+            'Det var allerede til stede fra starten af evolutionen',
+            'Man kan ikke forklare det',
+            'Man mener, at det må stamme fra "forurening" i de laboratorier, der undersøger de gamle knogler'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvordan kan man afgøre, hvornår "gammelt DNA" stammer fra?',
+        answers: [
+            'På DNA-stykkernes længde, jo ældre jo kortere',
+            'På DNA-stykkernes længde, jo ældre jo længere',
+            'Ved CRISPR-teknik',
+            'Ved kulstof-14 metoden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['24.4'],
+        text: 'Hvad er formentlig årsagen til udvandringsbølgen fra Afrika for 80.000 år siden?',
+        answers: [
+            'Klimatiske ændringer i Afrika',
+            'Kreative gener hos de nye Homo sapiens, som spredte sig lynhurtigt',
+            'Indavl',
+            'Isens udbredelse i Afrika'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['24.5'],

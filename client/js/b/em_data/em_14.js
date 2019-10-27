@@ -1,11 +1,8 @@
 var links = [
-    {"caption": "Gæring",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%2014/G%C3%A6ring.pdf"},
-
-    {"caption": "Katalase",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%2014/Katalase.pdf"},
-
-    {"caption": "Bromelin fra ananas",
-    "link": "https://dl.dropboxusercontent.com/u/15548501/PDF%27ere/Kap.%2014/Bromelin%20fra%20ananas.pdf"}
+{'caption':'Bromelin fra ananas',
+'link':'https://www.dropbox.com/s/erwos5zj13rkgcc/Bromelin%20fra%20ananas.pdf?dl=0'},
+{'caption':'Gæring',
+'link':'https://www.dropbox.com/s/2cwts49b0k2av7x/G%C3%A6ring.pdf?dl=0'},
+{'caption':'Katalase',
+'link':'https://www.dropbox.com/s/7fztpapbuixf3rv/Katalase.pdf?dl=0'},
 ]
-

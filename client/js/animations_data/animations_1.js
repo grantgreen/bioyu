@@ -113,19 +113,10 @@ var links = {
 	
 	{"caption": "Apoptose", 
 	 "link": "http://www.youtube.com/watch?v=6KVQzYO_2tY"},
-	
-	{"caption": "Toxoplasma gondii (parasit)", 
-	 "link": "http://www.youtube.com/watch?v=hlKOVvAeq88&playnext=1&list=PL9275D61F8040E0DA&feature=results_main"},
-	
+			
 	{"caption": "Toxoplasmose", 
 	 "link": "http://www.youtube.com/watch?v=GapjRqzFAzo"},
 	
-	{"caption": "Malaria 1", 
-	 "link": "http://www.hhmi.org/biointeractive/disease/malaria-human.html"},
-
-	{"caption": "Malaria 2", 
-	 "link": "http://www.hhmi.org/biointeractive/disease/malaria-mosquito.html"},
-
 	{"caption": "Eksperiment med osmose",
 	 "link": "http://www.youtube.com/watch?v=i0epq8J_K5k"},
 

@@ -15,12 +15,20 @@ a {
     color: #ffffff !important;
 }
 
+a.mail:link {color:#ffff80 !important;}
+a.mail:visited {color:#ffff80 !important;}
+a.mail:hover {color:#ffff80 !important;}
+
 .blueborder {
     border-color: #5C6CAA;
 }
 
 .orangeborder {
     border-color: #EA661E;
+}
+
+.greenborder{
+	border-color: #80FFA8;
 }
 
 ul.dropdown-menu-button {
@@ -43,6 +51,24 @@ ul.dropdown-menu-button {
     top:6em;
     left:55%; 
 }
+
+#news_idc_box {
+    //background: #ffffff; 
+    z-index: 1000; 
+    position: absolute; 
+    //color: #1C203A; 
+    //      border-radius: 15px; 
+    opacity: 0.9;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -transform: rotate(15deg);
+
+    top:3em;
+    left:75%; 
+}
+
 
 
 #logo_container {

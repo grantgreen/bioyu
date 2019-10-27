@@ -42,7 +42,16 @@ var getChapter = function(chapterNo, bookType) {
 
 
 var initTilesGame = function(chapters, topic, bookType) {
-    getChapter(chapters, bookType);
+	
+	if( topic == "fit%26chapters=26")//crutch for handling % instead of & in url
+		{
+			chapters = "26";
+			topic =  "fit";
+
+		}
+	
+				getChapter(chapters, bookType);
+		
 
     $('.multiPlayer').hide();
 

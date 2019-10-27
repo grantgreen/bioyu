@@ -2100,3 +2100,31 @@ db.questions.save(
         correct_answer: '2'
     });
 
+db.questions.save(
+    {
+        chapters: ['25.6'],
+        text: 'Hvornår er det lykkedes for forskerne at omdanne menneskelige hudceller til stamceller for kønsceller?',
+        answers: [
+            '2016',
+            '2014',
+            '2012',
+            '2000'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['25.6'],
+        text: 'Hvordan var SOX17 en vigtig nøglefaktor i omdannelsen af hudceller til stamceller for kønsceller? ',
+        answers: [
+            'SOX17 kunne om-programmere eller nulstille hudcellerne',
+            'SOX17 kunne stoppe hudcellerne i mitosen',
+            'SOX17 kunne identificere de bedste af hudcellerne, som så kunne gå videre i forsøget',
+            'SOX17 kunne få hudcellerne til at dele sig meget hurtigt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });

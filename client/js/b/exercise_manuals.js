@@ -47,7 +47,6 @@ var getChapter = function(chapterNo, topic) {
 		}
 		
 		addButton(paragraph, links[i], false);
-		addButton(paragraph, links[i], true);
 		var label = $('<span></span>');
 		label.html(links[i].caption);
 		paragraph.append(label);

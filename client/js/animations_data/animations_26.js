@@ -17,8 +17,7 @@ var links = {
 
 {"caption": "Hvad er fotosyntese",
  "link": "https://www.youtube.com/watch?v=eJQxHoqIPIM"},
-{"caption": "Fotosyntesesang",
- "link": "https://www.youtube.com/watch?v=C1_uez5WX1o"}
+
     ],
  
  

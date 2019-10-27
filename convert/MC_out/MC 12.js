@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvad er ikke et af gastrulaens kimblade?',
         answers: [
             'Endodermen',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilke dyr hører til Bilateria?',
         answers: [
             'Hvirveldyrene',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvad forstås ved protostomierne?',
         answers: [
             'De dyr, hvor der ikke er nogen urmund',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvad forstås ved deuterostomierne?',
         answers: [
             'De dyr, hvor der ikke er nogen urmund',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken dyregruppe hører ikke til prostomierne?',
         answers: [
             'Insekter',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: ['12.2'],
         text: 'Hvilken dyregruppe hører ikke til deuterostomierne?',
         answers: [
             'Fugle',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører ikke til hvirveldyrene?',
         answers: [
             'Skildpadder',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører ikke til bruskfiskene?',
         answers: [
             'Makrel',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører ikke til benfiskene?',
         answers: [
             'Sild',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvad forstås ved invertebrater?',
         answers: [
             'Dyr med en hvirvelsøjle i ryggen',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Til hvilken gruppe hører regnorme?',
         answers: [
             'Leddyr',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Til hvilken gruppe hører tusindben?',
         answers: [
             'Insekter',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører ikke til leddyrene?',
         answers: [
             'Bændelorme',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører ikke til bløddyrene?',
         answers: [
             'Svampe',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['12.1', '12.2'],
+        chapters: [ '12.2'],
         text: 'Hvilken gruppe hører sneglene til?',
         answers: [
             'Leddyr',

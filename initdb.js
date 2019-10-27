@@ -6,7 +6,8 @@ db.contents.save(
     {"name": "Kapitel 1: Mikrobiologi", 
      "sub": [
 	 {"name": "1.1 Indledning",
-	  "sub": []},
+	  "sub": [],
+	  "hasQuestions": false},
 	 {"name": "1.2 Prokaryoter",
 	  "sub": [
 	      "1.2.1 Generelt",
@@ -329,7 +330,8 @@ db.contents.save(
      "sub": [
 	 {"name": "7.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	  "hasQuestions": false},
 	 {"name": "7.2 De hanlige kønsorganer",
 	  "sub": [
 	      "7.2.1 Udviklingen i fosterlivet",
@@ -481,7 +483,8 @@ db.contents.save(
      "sub": [
 	 {"name": "9.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	"hasQuestions": false},
 	 {"name": "9.2 Tværstribet muskulatur",
 	  "sub": [
 	      "9.2.1 Opbygning",
@@ -509,7 +512,8 @@ db.contents.save(
      "sub": [
 	 {"name": "10.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	"hasQuestions": false},
 	 {"name": "10.2 Den genetiske arv",
 	  "sub": [
 	      "10.2.1 Kønsforskelle",
@@ -609,7 +613,8 @@ db.contents.save(
      "sub": [
 	 {"name": "12.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	"hasQuestions": false},
 	 {"name": "12.2 Dyrerigets inddeling",
 	  "sub": [
 	      "12.2.1 Hvirveldyr",
@@ -649,6 +654,20 @@ db.contents.save(
 	  "sub": [
 	      "12.8.1 Blodkredsløbet",
 	      "12.8.2 Trakeer"
+	  ]},
+	   {"name": "12.9 De vildeste dyr",
+	  "sub": [
+	      "12.9.1 Rovfugle",
+	      "12.9.2 De store katte",
+	      "12.9.3 Pingviner",
+	      "12.9.4 Bjørne",
+	      "12.9.5 Myrer",
+	      "12.9.6 Ræve",
+	      "12.9.7 Elefanter",
+	      "12.9.8 Store aber",
+	      "12.9.9 Krokodiller",
+	      "12.9.10 Flagermus",
+	      "12.9.11 Slanger"
 	  ]},
 
 	 {"name": "Resume",
@@ -735,7 +754,8 @@ db.contents.save(
      "sub": [
 	 {"name": "16.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	"hasQuestions": false},
 	 {"name": "16.2 Enzymers virkemåd",
 	  "sub": [
 	  ]},
@@ -823,7 +843,8 @@ db.contents.save(
      "sub": [
 	 {"name": "18.1 Generelt",
 	  "sub": [
-	  ]},
+	  ],
+	"hasQuestions": false},
 	 {"name": "18.2 Dannelsen af kulhydrater hos dyr",
 	  "sub": [
 	      "18.2.1 Glukoneogenesen",
@@ -894,7 +915,7 @@ db.contents.save(
     {"name": "Kapitel 20: Proteinsyntesen",
      "sub": [
 	 {"name": "20.1 Generelt",
-	  "sub": []},
+	  "sub": [],"hasQuestions": false},
 	 {"name": "20.2 RNA",
 	  "sub": []},
 	 {"name": "20.3 Transkription",
@@ -979,7 +1000,7 @@ db.contents.save(
     {"name": "Kapitel 22: Mutationer og kræft",
      "sub": [
 	 {"name": "22.1 Generelt",
-	  "sub": []},
+	  "sub": [],"hasQuestions": false},
 	 {"name": "22.2 Mindre DNA-mutationer",
 	  "sub": [
 	      "22.2.1 Substitutions-mutation",
@@ -1083,12 +1104,21 @@ db.contents.save(
 	      "23.7.6 Mere om transgene mennesker",
 	      "23.7.7 Etik"
 	  ]},
-	 {"name": "23.8 Genetisk udredning - et eksempel",
+	   {"name": "23.8 CRISPR/Cas9",
 	  "sub": [
-	      "23.8.1 MCAD",
-	      "23.8.2 Genetisk diagnostik af sygdommen",
-	      "23.8.3 Mutationer og RNA",
-	      "23.8.4 Mutationer og proteinfunktion"
+	      "23.8.1 Bakteriers immunforsvar",
+	      "23.8.2 Knock out",
+	      "23.8.3 Knock in",
+	  ]},
+	 {"name": "23.9 Genetisk udredning - et eksempel",
+	  "sub": [
+	      "23.9.1 MCAD",
+	      "23.9.2 Genetisk diagnostik af sygdommen",
+	      "23.9.3 Mutationer og RNA",
+	      "23.9.4 Mutationer og proteinfunktion"
+	  ]},
+	   {"name": "23.10 Bioetik",
+	  "sub": [
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}

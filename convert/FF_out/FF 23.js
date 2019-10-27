@@ -108,3 +108,49 @@ db.tiles_game.save(
         ]
     });
 
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "CRISPR",
+        matches: [
+            'Cas9',
+            'Spacer-DNA',
+            'crRNA',
+            'tracrRNA',
+            'PAM-sekvens'
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "Bioetik",
+        matches: [
+            'Etisk råd',
+            'pligt-etiker',
+            'nytte-etiker',
+            'natur-etiker'
+        ]
+    });
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "NGS",
+        matches: [
+            'Klyngedannelse',
+            'Sequencing by synthesis',
+            'Adaptor-molekyle',
+            'Barcodes'
+        ]
+    });
+
+db.tiles_game.save(
+    {
+        chapter: 23,
+        category: "Gene drive",
+        matches: [
+            'Super Mendelsk nedarvning',
+            'Drive-sekvens',
+            'Payload-gen',
+            'Vildttype'
+        ]
+    });
