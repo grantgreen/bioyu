@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Net;
+using System.Net.Security;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using Mono.Unix;
@@ -25,6 +28,7 @@ namespace Yubio.Server
             //{
 
             //}
+            ServicePointManager.ServerCertificateValidationCallback += (o, certificate, chain, errors) => true;
             var scheduler = new LectioScheduler();
 
             if (Type.GetType("Mono.Runtime") != null)
@@ -48,6 +52,8 @@ namespace Yubio.Server
             // host.Stop(); // stop hosting
             scheduler.Dispose();
         }
+
+     
     }
 
     //public class LectioModule : NancyModule

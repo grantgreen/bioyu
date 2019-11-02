@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using Common.Logging;
 using Nancy.Json;
 using Newtonsoft.Json;
 
@@ -11,33 +12,34 @@ namespace Yubio.Server
 {
     class LectioScheduler : IDisposable
     {
+        private static readonly ILog Logger = LogManager.GetLogger<LectioScheduler>();
         private readonly Timer timer;
 
         public LectioScheduler()
         {
             this.timer = new Timer(delegate (object state)
             {
-                Console.WriteLine("Starting parsing");
+                Logger.Info("Starting parsing");
                 try
                 {
                     var deadLinks = LinkParser.ResolveDeadLinks().ToList();
-                    Console.WriteLine($"Detected {deadLinks.Count} dead links");
+                    Logger.Info($"Detected {deadLinks.Count} dead links");
                     if (File.Exists("out.html")) { File.Delete("out.html"); }
                     HtmlSerializer.Serialize(deadLinks, File.CreateText("out.html"));
                     File.Copy("out.html", "../client/views/deadlinks.html", true);
-                    Console.WriteLine("Parsing done");
+                    Logger.Info("Parsing done");
 
 
                     var schools = LectioParser.GetSchools();
-                    Console.WriteLine($"Detected {schools.Count} schools using yubio");
+                    Logger.Info($"Detected {schools.Count} schools using yubio");
                     if (File.Exists("out.html")) { File.Delete("out.html"); }
                     HtmlSerializer.Serialize(schools, File.CreateText("out.html"));
                     File.Copy("out.html", "../client/views/lectio.html", true);
-                    Console.WriteLine("Parsing done");
+                    Logger.Info("Parsing done");
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"Error parsing lectio. Error was {e.Message}. Stack trace {e.StackTrace}");
+                    Logger.Error("Error parsing lectio", e);
                 }
             }, null, TimeSpan.FromSeconds(1), TimeSpan.FromDays(30));
         }
@@ -47,6 +49,8 @@ namespace Yubio.Server
             this.timer.Dispose();
         }
     }
+
+
 
     class HtmlSerializer
     {

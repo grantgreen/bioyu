@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
+using Common.Logging;
 using Google.Apis.Services;
 using Google.Apis.YouTube.v3;
 using Nancy.Json.Simple;
@@ -11,6 +12,8 @@ namespace Yubio.Server
 {
     internal class LinkParser
     {
+        private static ILog Logger = LogManager.GetLogger<LinkParser>();
+
         internal class Link
         {
             public string Book { get; set; }
@@ -43,11 +46,13 @@ namespace Yubio.Server
                         var f = SimpleJson.DeserializeObject<JsonLink>(match.Value);
                         if (string.IsNullOrEmpty(f.caption)) { continue; }
 
+                        Logger.Debug($"Checking  {f.link}");
                         if (f.link.Contains("youtube"))
                         {
                             var valid = IsYouTubeValid(f.link);
                             if (!valid)
                             {
+                                Logger.Debug($"Checking {f.link} FAILED");
                                 yield return new Link()
                                 {
                                     Book = "a",
@@ -57,12 +62,17 @@ namespace Yubio.Server
                                 };
 
                             }
+                            else
+                            {
+                                Logger.Debug($"Checking {f.link} OK");
+                            }
                         }
                         else if (!onlyYoutube)
                         {
                             var valid = IsValidURL(f.link);
                             if (!valid)
                             {
+                                Logger.Debug($"Checking {f.link} FAILED");
                                 yield return new Link()
                                 {
                                     Book = "a",
@@ -71,6 +81,10 @@ namespace Yubio.Server
                                     Chapter = i
                                 };
 
+                            }
+                            else
+                            {
+                                Logger.Debug($"Checking {f.link} OK");
                             }
                         }
 
@@ -100,7 +114,7 @@ namespace Yubio.Server
             }
             catch (Exception exception)
             {
-                Console.WriteLine(exception.Message);
+                Logger.Error($"Error checking {url}", exception);
                 return false;
             }
         }
@@ -122,7 +136,7 @@ namespace Yubio.Server
             }
             catch (Exception exception)
             {
-                Console.WriteLine(exception.Message);
+                Logger.Error($"Error getting response for {url}", exception);
                 return null;
             }
         }
@@ -130,6 +144,7 @@ namespace Yubio.Server
 
     class YoutubeVideoProxy
     {
+        private static readonly ILog Logger = LogManager.GetLogger<YoutubeVideoProxy>();
         private YouTubeService service;
         private static Regex regex = new Regex(@"(.+?)v=(?<id>([a-zA-Z0-9_-]{11})+)");
         public YoutubeVideoProxy()
@@ -150,7 +165,7 @@ namespace Yubio.Server
             }
             catch (Exception exception)
             {
-                Console.WriteLine(exception.Message);
+                Logger.Error($"Error checking {url}", exception);
                 return false;
             }
         }
