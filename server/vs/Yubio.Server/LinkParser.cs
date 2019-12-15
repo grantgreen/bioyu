@@ -5,11 +5,41 @@ using System.Net;
 using System.Text.RegularExpressions;
 using Common.Logging;
 using Google.Apis.Services;
+using Google.Apis.Sheets.v4;
 using Google.Apis.YouTube.v3;
 using Nancy.Json.Simple;
 
 namespace Yubio.Server
 {
+    internal class VideoLinksParser
+    {
+
+        public static IEnumerable<VideoLink> Parse(string fileName)
+        {
+            var lines = File.ReadAllLines(fileName);
+            foreach (var line in lines)
+            {
+                var split = line.Split(new string[] { "," }, StringSplitOptions.None);
+                if (split.Length != 3) { continue; }
+                    
+                yield return new VideoLink(split[0], split[1], split[2]);
+            }
+        }
+        public class VideoLink
+        {
+            public string Name { get; }
+            public string YubioLink { get; }
+            public string Url { get; }
+
+            public VideoLink(string name, string yubioLink, string url)
+            {
+                Name = name;
+                YubioLink = yubioLink;
+                Url = url;
+            }
+
+        }
+    }
     internal class LinkParser
     {
         private static ILog Logger = LogManager.GetLogger<LinkParser>();
@@ -180,6 +210,13 @@ namespace Yubio.Server
                     ApiKey = "AIzaSyD0P4Jb6LJlollTTfJFHApb6w944i9vm1Y",
                 });
             }
+
+            var test = new SheetsService(new BaseClientService.Initializer
+            {
+                ApplicationName = "Discovery Sample",
+                ApiKey = "AIzaSyD0P4Jb6LJlollTTfJFHApb6w944i9vm1Y",
+            });
+            var sh = test.Spreadsheets.Get("1q4LzVqGjCxtSTQ1Ts9vRaoKPG43PGedW0O3xA_lJyBo").Execute();
         }
     }
 }

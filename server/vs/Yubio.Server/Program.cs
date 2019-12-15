@@ -17,43 +17,38 @@ namespace Yubio.Server
     {
         static void Main(string[] args)
         {
-            var uri = "http://localhost:10001";
-            //Console.WriteLine("Starting Nancy on " + uri);
+            foreach (var l in VideoLinksParser.Parse(@"assets/Videoer og URL.csv"))
+            {
+                Console.WriteLine($"{l.Name}, {l.YubioLink}, {l.Url}");
+            }
+            //var uri = "http://localhost:10001";
 
-            // initialize an instance of NancyHost
-            // var host = new NancyHost(new Uri(uri));
-            // host.Start(); // start hosting
+            //ServicePointManager.ServerCertificateValidationCallback += (o, certificate, chain, errors) => true;
+            //var scheduler = new LectioScheduler();
 
-            //foreach (var link in LinkParser.Parse())
+            //if (Type.GetType("Mono.Runtime") != null)
             //{
-
+            //    // on mono, processes will usually run as daemons - this allows you to listen
+            //    // for termination signals (ctrl+c, shutdown, etc) and finalize correctly
+            //    UnixSignal.WaitAny(new[]
+            //    {
+            //        new UnixSignal(Signum.SIGINT),
+            //        new UnixSignal(Signum.SIGTERM),
+            //        new UnixSignal(Signum.SIGQUIT),
+            //        new UnixSignal(Signum.SIGHUP)
+            //    });
             //}
-            ServicePointManager.ServerCertificateValidationCallback += (o, certificate, chain, errors) => true;
-            var scheduler = new LectioScheduler();
+            //else
+            //{
+            //    Console.ReadLine();
+            //}
 
-            if (Type.GetType("Mono.Runtime") != null)
-            {
-                // on mono, processes will usually run as daemons - this allows you to listen
-                // for termination signals (ctrl+c, shutdown, etc) and finalize correctly
-                UnixSignal.WaitAny(new[]
-                {
-                    new UnixSignal(Signum.SIGINT),
-                    new UnixSignal(Signum.SIGTERM),
-                    new UnixSignal(Signum.SIGQUIT),
-                    new UnixSignal(Signum.SIGHUP)
-                });
-            }
-            else
-            {
-                Console.ReadLine();
-            }
-
-            Console.WriteLine("Stopping Nancy");
-            // host.Stop(); // stop hosting
-            scheduler.Dispose();
+            //Console.WriteLine("Stopping Nancy");
+            //// host.Stop(); // stop hosting
+            //scheduler.Dispose();
         }
 
-     
+
     }
 
     //public class LectioModule : NancyModule

@@ -22,7 +22,7 @@ namespace Yubio.Server
                 Logger.Info("Starting parsing");
                 try
                 {
-                    var deadLinks = LinkParser.ResolveDeadLinks().ToList();
+                    var deadLinks = LinkParser.ResolveDeadLinks(true).ToList();
                     Logger.Info($"Detected {deadLinks.Count} dead links");
                     if (File.Exists("out.html")) { File.Delete("out.html"); }
                     HtmlSerializer.Serialize(deadLinks, File.CreateText("out.html"));
