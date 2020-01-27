@@ -6,7 +6,7 @@ console.log('Parsing links.csv...');
 var allLinks = [];
 var index = 0;
 var EOL = "\n";
-var content = ""; 
+var content = "Øvelsesnummer,URL på youtube, URL på hjemmeside"+EOL; 
 var json ="var links = {"+EOL+"list:["+EOL;
 
 fs.createReadStream('links.csv',{encoding:"utf8"})
@@ -18,9 +18,12 @@ fs.createReadStream('links.csv',{encoding:"utf8"})
         if( data["Øvelsesnummer"] != "" && data["URL på youtube"]!= "")
         {
             console.log("Name: "+data["Øvelsesnummer"]+", Link: "+data["URL på hjemmeside"]+", ext. link: "+data["URL på youtube"]);
-        var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+index);
+        // var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+index);
+        var id =data["Øvelsesnummer"].split(".").join("_").split(" ").join("_")
+        var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+id);
+        
         content+=entry.name+","+entry.extUrl+","+entry.url+EOL;
-        json+="{ id:"+"\""+index+"\", link:"+"\""+entry.extUrl+"\"},"+EOL;
+        json+="{ id:"+"\""+id+"\", link:"+"\""+entry.extUrl+"\"},"+EOL;
         index++;
         allLinks.push(entry);
         }
