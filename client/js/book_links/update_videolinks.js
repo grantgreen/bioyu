@@ -15,7 +15,7 @@ fs.createReadStream('links.csv',{encoding:"utf8"})
     console.log(`First header: ${headers[0]}`)})
 .on('data', function(data){
     try {
-        if( data["Øvelsesnummer"] != "" && data["URL på youtube"]!= "")
+        if( data["Øvelsesnummer"] != "")
         {
             console.log("Name: "+data["Øvelsesnummer"]+", Link: "+data["URL på hjemmeside"]+", ext. link: "+data["URL på youtube"]);
         // var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+index);
@@ -26,6 +26,10 @@ fs.createReadStream('links.csv',{encoding:"utf8"})
         json+="{ id:"+"\""+id+"\", link:"+"\""+entry.extUrl+"\"},"+EOL;
         index++;
         allLinks.push(entry);
+        }
+        else
+        {
+        	console.log(data);
         }
     }
     catch(err) {
