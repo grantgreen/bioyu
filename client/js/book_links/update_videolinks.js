@@ -20,7 +20,7 @@ fs.createReadStream('links.csv',{encoding:"utf8"})
             console.log("Name: "+data["Øvelsesnummer"]+", Link: "+data["URL på hjemmeside"]+", ext. link: "+data["URL på youtube"]);
         // var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+index);
         var id =data["Øvelsesnummer"].split(".").join("_").split(" ").join("_")
-        id = id.replace("æ","ae").replace("ø","oe").replace("å","aa");
+        id = id.replace(/æ/gi,"ae").replace(/ø/gi,"oe").replace(/å/gi,"aa").replace(/&/gi,"and");
         var entry = new Link(data["Øvelsesnummer"],data["URL på youtube"],"http://yubio.dk/booklinks.html?id="+id);
         
         content+=entry.name+","+entry.extUrl+","+entry.url+EOL;
