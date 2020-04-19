@@ -110,7 +110,11 @@ db.contents.save(
 	      "3.4.4 Slankekure",
 	      "3.4.5 Spiseforstyrrelser",
 	      "3.4.6 Alternativ kost",
-	      "3.4.7 KRAM-faktorer"
+	      "3.4.7 KRAM-faktorer",
+	       "3.4.8 Entomofagi",
+	      "3.4.9 Lightprodukter",
+	      "3.4.10 Gluten",
+	      "3.4.11 Low carb eller low fat?"
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}	 
@@ -436,7 +440,8 @@ db.contents.save(
 	      "10.2.5 Forurening af søer",
 	      "10.2.6 Forurening af vandløb",
 	      "10.2.7 Forurening af havet",
-	      "10.2.8 Forurening af grundvand"
+	      "10.2.8 Forurening af grundvand",
+	      "10.2.9 Plastikforurening"
 	  ]},
 	 {"name": "10.3 Vandrensning",
 	  "sub": [
@@ -461,6 +466,13 @@ db.contents.save(
 	  ]},
 	 {"name": "10.6 Naturgenopretning",
 	  "sub": [
+	  ]},
+	    {"name": "10.7 Bæredygtighed",
+	  "sub": [
+	      "10.7.1 Mennesktes klimaaftryk",
+	      "10.7.2 Er Danmark klimaduks?",
+	      "10.7.3 Klimaflygtningner",
+	      "10.7.4 Fremtiden?"
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}	 

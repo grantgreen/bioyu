@@ -193,7 +193,12 @@ db.contents.save(
 	      "3.5.8 Kvalme og opkast",
 	      "3.5.9 Laktoseintolerans",
 	      "3.5.10 Diarre",
-	      "3.5.11 Light-produkter"
+	      "3.5.11 Light-produkter",
+	      "3.5.12 KRAM faktorer",
+	      "3.5.13 Gluten",
+	      "3.5.14 Entomofagi",
+	      "3.5.15 Low carb eller low fat?",
+	      "3.5.16 Detox"
 	  ]},
 	 {"name": "3.6 Sygdomme i fordøjelseskanalen",
 	  "sub": [
@@ -551,11 +556,12 @@ db.contents.save(
 	      "10.7.1 Den akutte behandling",
 	      "10.7.2 Efterbehandling og genoptræning",
 	      "10.7.3 Skader i knæet",
-	      "10.7.4 Fibersprængning og trælå",
-	      "10.7.5 Lyskenskade",
-	      "10.7.6 Skinnebensbetændelse",
-	      "10.7.7 Skader i akillessenen",
-	      "10.7.8 Hypermobilitet"
+	      "17.7.4 Skader i ankelleddet",
+	      "10.7.5 Fibersprængning og trælår",
+	      "10.7.6 Lyskenskade",
+	      "10.7.7 Skinnebensbetændelse",
+	      "10.7.8 Skader i akillessenen",
+	      "10.7.9 Hypermobilitet"
 	  ]},
 	 {"name": "10.8 Fysisk aktivitet og sundhed",
 	  "sub": [
@@ -961,7 +967,8 @@ db.contents.save(
 	 {"name": "21.4 Statistiske tests og biologi",
 	  "sub": [
 	      "21.4.1 Møntkast",
-	      "21.4.2 Spiringsforsøg"
+	      "21.4.2 Spiringsforsøg",
+	      "21.4.3 Binomialforsøg"
 	  ]},
 	 {"name": "21.5 Autosomal polygen nedarvning",
 	  "sub": []},
@@ -981,7 +988,7 @@ db.contents.save(
 	      "21.7.6 Polyploidier",
 	      "21.7.7 Mosaikker og kimærer"
 	  ]},
-	 {"name": "21.8 Stamtavleanalyser",
+	 {"name": "21.8 Stamtræ-analyser",
 	  "sub": []},
 	 {"name": "21.9 Populationsgenetik",
 	  "sub": []},
@@ -1092,7 +1099,8 @@ db.contents.save(
 	      "23.6.3 DNA-chips",
 	      "23.6.4 Antisense-teknik",
 	      "23.6.5 Genterapi og RNAi",
-	      "23.6.6 Kloning"
+	      "23.6.6 Kloning",
+	      "23.6.7 Tre forældre"
 	  ]},
 	 {"name": "23.7 Gensplejsning",
 	  "sub": [
@@ -1102,17 +1110,17 @@ db.contents.save(
 	      "23.7.4 Mere om transgene planter",
 	      "23.7.5 Mere om transgene dyr",
 	      "23.7.6 Mere om transgene mennesker",
-	      "23.7.7 Etik"
 	  ]},
 	   {"name": "23.8 CRISPR/Cas9",
 	  "sub": [
 	      "23.8.1 Bakteriers immunforsvar",
 	      "23.8.2 Knock out",
 	      "23.8.3 Knock in",
+	      "23.8.4 CRISPR og gene drive"
 	  ]},
 	 {"name": "23.9 Genetisk udredning - et eksempel",
 	  "sub": [
-	      "23.9.1 MCAD",
+	      "23.9.1 MCADD",
 	      "23.9.2 Genetisk diagnostik af sygdommen",
 	      "23.9.3 Mutationer og RNA",
 	      "23.9.4 Mutationer og proteinfunktion"
@@ -1203,7 +1211,8 @@ db.contents.save(
 	      "25.6.2 Lægemidler ind i cellerne",
 	      "25.6.3 Fremtidens lægemidler: nanomedicin",
 	      "25.6.4 Nye former for antibiotika",
-	      "25.6.5 Behandling med stamceller"
+	      "25.6.5 Behandling med stamceller",
+	      "25.6.6 Stamceller til kønsceller"
 	  ]},
 	 {"name": "Resume",
 	  "sub": []}
@@ -1398,23 +1407,24 @@ db.contents.save(
 	 {"name": "30.1 Generelt",
 	  "sub": []},
 
-	 {"name": "30.2 Vandforurening",
+	 {"name": "30.2 Vandforurening og -rensning",
 	  "sub": [
 	      "30.2.1 Primær og sekundær forurening",
-	      "30.2.2 Tungmetaller",
-	      "30.2.3 Pesticider og andre giftige stoffer",
-	      "30.2.4 Hormonforstyrrende stoffer",
-	      "30.2.5 Forurening af søer",
-	      "30.2.6 Forurening af vandløb",
-	      "30.2.7 Forurening af havet",
-	      "30.2.8 Forurening af grundvand"
+	      "30.2.2 Forurening af søer",
+	      "30.2.3 Forurening af vandløb",
+	      "30.2.4 Forurening af havet",
+	      "30.2.5 Forurening af grundvand",
+	      "30.2.6 Renseanlæg",
+	      "30.2.7 Rodzoneanlæg",
+	      "30.2.8 Rensning af drikkevand",
+	      "30.2.9 Vandmiljøplaner",
+	      "30.2.10 Plastikforurening"
 	  ]},
-	 {"name": "30.3 Vandrensning",
+	 {"name": "30.3 Økotoksokologi",
 	  "sub": [
-	      "30.3.1 Renseanlæg",
-	      "30.3.2 Rodzoneanlæg",
-	      "30.3.3 Rensning af drikkevand",
-	      "30.3.4 Vandmiljøplaner"
+	      "30.3.1 Tungmetaller",
+	      "30.3.2 Pesticider og andre gifte",
+	      "30.3.3 Hormonforstyrrende stoffer",
 	  ]},
 	 {"name": "30.4 Luftforurening",
 	  "sub": [
@@ -1434,6 +1444,14 @@ db.contents.save(
 	  ]},
 	 {"name": "30.6 Naturgenopretning",
 	  "sub": []},
+
+	{"name": "30.7 Bæredygtighed",
+	  "sub": [
+	  "30.7.1 Menneskets klimaaftryk",
+	  "30.7.2 Er Danmark klimaduks?",
+	  "30.7.3 Klimaflygtninge",
+	  "30.7.4 Fremtiden?"
+	  ]},
 
 	 {"name": "Resume",
 	  "sub": []},
