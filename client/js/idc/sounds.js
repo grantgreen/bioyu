@@ -39,82 +39,99 @@ var getChapter = function(chapterNo, topic, bookType) {
 		paragraph.append(anchor);
 	    }
 	}
-	else {
+	// else {
 		
-	    // var paragraph = $('<h3></h3>');		
-	    // body.append(paragraph);
-	    // var span = $('<span style="margin-right: 20px;"></span>');
-	    // span.html('Kommer til august 2018');
-		// paragraph.append(span);
-		// return;
+	//     var paragraph = $('<h3></h3>');		
+	//     body.append(paragraph);
+	//     var span = $('<span style="margin-right: 20px;"></span>');
+	//     span.html('Kommer senere...');
+	// 	paragraph.append(span);
 
-	}
+	// }
 
 	linksContainer.append($('<br />'));
 
     var isEmpty = true;
-	for(var i = 0; i < subChapters.length; i++) {	
-	    if(subChapters[i].name != 'Resume') {
-		var linkChapter = chapterNo + '.' + (i+1);
-		
-		var subchapterLinks = links[linkChapter];
-		
-		if(subchapterLinks) {	
-			isEmpty = false;
-			var header = $('<h3></h3>');
-			header.html(subChapters[i].name);
-			linksContainer.append(header);
-			var body = $('<div></div>');
-			linksContainer.append(body);
-				
-		    for(var j in subchapterLinks) {
-			var paragraph = $('<p></p>');
-			var subchapterValue = subchapterLinks[j];
-			var subchapterSuffix = "";
-			var linkSuffix = "";
-			var isMp3 = true;
-			var isNew = false;
-			var link ="";
-			if(typeof subchapterValue === 'object') {
-				if( subchapterValue.link != null)
-					{
-						link = subchapterValue.link;
-						isNew = true;
-						var subchapterLink = subchapterValue.chapter;
-					}
-			}
-			else {
-				var subchapterLink = subchapterValue;
-			}
-					
-			var span = $('<span></span>');		
-			span.css('font-size', '1.5em');
-			span.css('width', '8em');
-			span.css('display', 'inline-block');
-			paragraph.append(span);
-
+	for(var i = 0; i < subChapters.length; i++) 
+	{	
+		if(subChapters[i].name != 'Resume') 
+		{
+			var linkChapter = chapterNo + '.' + (i+1);
 			
-			span.html(subchapterLink.replace(/-/g, '.') + subchapterSuffix);
-
-			body.append(paragraph);
-
-			var addButton = function(paragraph, subchapterLink, isDownload, isMp3, isNew) {
-				if( isNew)
+			var subchapterLinks = links[linkChapter];
+			
+			if(subchapterLinks) 
+			{	
+				isEmpty = false;
+				var hasSubChapters = subchapterLinks.length > 0;
+				if( !hasSubChapters)
+				{
+					var header = $('<h3></h3>');
+					header.html(subChapters[i].name);
+					linksContainer.append(header);
+					var body = $('<div><h3>Kommer senere</h3></div>');
+					linksContainer.append(body);					
+				}
+				else
+				{
+					var header = $('<h3></h3>');
+					header.html(subChapters[i].name);
+					linksContainer.append(header);
+					var body = $('<div></div>');
+					linksContainer.append(body);
+					for(var j in subchapterLinks) 
 					{
-						url = subchapterLink;
-						var anchor = $('<a class="yubioBtnSolid" style="text-align: center"></a>');
+						var paragraph = $('<p></p>');
+						var subchapterValue = subchapterLinks[j];
+						var subchapterSuffix = "";
+						var linkSuffix = "";
+						var isMp3 = true;
+						var isNew = false;
+						var link ="";
+						if(typeof subchapterValue === 'object') 
+						{
+							if( subchapterValue.link != null)
+							{
+								link = subchapterValue.link;
+								isNew = true;
+								var subchapterLink = subchapterValue.chapter;
+							}
+						}
+						else
+						{
+							var subchapterLink = subchapterValue;
+						}
+							
+						var span = $('<span></span>');		
+						span.css('font-size', '1.5em');
+						span.css('width', '8em');
+						span.css('display', 'inline-block');
+						paragraph.append(span);
+
 						
-						var text = "Hør";
-						anchor.html(text);
-						anchor.attr('href', url);
-						paragraph.append(anchor);
-						return;
-					}
+						span.html(subchapterLink.replace(/-/g, '.') + subchapterSuffix);
+
+						body.append(paragraph);
+
+						var addButton = function(paragraph, subchapterLink, isDownload, isMp3, isNew) 
+						{
+							if( isNew)
+							{
+								url = subchapterLink;
+								var anchor = $('<a class="yubioBtnSolid" style="text-align: center"></a>');
+								
+								var text = "Hør";
+								anchor.html(text);
+								anchor.attr('href', url);
+								paragraph.append(anchor);
+								return;
+							}
+						}
+						addButton(paragraph, link, false, isMp3,true);
+					}		
+				}
+				linksContainer.append($('<br />'));		
 			}
-			addButton(paragraph, link, false, isMp3,true);
-		    }
-		}
-		linksContainer.append($('<br />'));		
 	    }
 	}
 

@@ -69,6 +69,23 @@ ul.dropdown-menu-button {
     left:75%; 
 }
 
+#news_price_box {
+    //background: #ffffff; 
+    z-index: 1000; 
+    position: absolute; 
+    //color: #1C203A; 
+    //      border-radius: 15px; 
+    opacity: 1.0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -transform: rotate(0    deg);
+
+    top:6em;
+    left:36%; 
+}
+
 
 
 #logo_container {
