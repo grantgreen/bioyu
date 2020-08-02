@@ -31,10 +31,8 @@ var links = {
 { chapter:'26.5.8',link:'https://www.dropbox.com/s/l4i6z53gwflm0d1/26-5-8.mp3?dl=0'},
 { chapter:'26.5.9',link:'https://www.dropbox.com/s/cmb9rnwyyu4g23f/26-5-9.mp3?dl=0'},
 { chapter:'26.5.10',link:'https://www.dropbox.com/s/kx4bbg63sih3qbl/26-5-10.mp3?dl=0'},
-{ chapter:'26.5.10 (2015)',link:'https://www.dropbox.com/s/ypq250qo00nbvr2/26-5-10%20%282015%29.mp3?dl=0'},
 { chapter:'26.5.11',link:'https://www.dropbox.com/s/vjsppbnqen7w26f/26-5-11.mp3?dl=0'},
 { chapter:'26.5.12',link:'https://www.dropbox.com/s/0yle7ei7rue6uwd/26-5-12.mp3?dl=0'},
-{ chapter:'26.5.12 (2015)',link:'https://www.dropbox.com/s/uuhopa0x5hbvq9z/26-5-12%20%282015%29.mp3?dl=0'},
    ],
    '26.6':[
 { chapter:'26.6',link:'https://www.dropbox.com/s/0dfooau7ux6ujk9/26-6.mp3?dl=0'},

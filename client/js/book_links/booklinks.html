@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="text/javascript" src="../js/book_links/links.js" charset="utf-8"></script>
+    </head>
+    <body onload="myFunction()">
+
+
+<script>
+function myFunction() {
+    var par = getUrlVars();
+    if( links["list"].find(e=>e.id == par["id"]) == undefined)
+    {
+       location.replace("http://yubio.dk");
+    }
+    else
+    {
+        var link = links["list"].find(e=>e.id == par["id"]).link;
+        if( link == "")
+        {
+        	location.replace("http://yubio.dk");	
+        }
+        else
+        {
+        	location.replace(link);
+        }
+    }
+    
+}
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+</script>
+</body>
+</html>

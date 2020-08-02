@@ -104,6 +104,43 @@ label.button {
     -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
     box-shadow: 5px 5px 2px rgba(0,0,0,.4);
 }
+
+label.button_wide { 
+    display : inline-block;
+    padding : 5px 12px;
+    cursor  : pointer;
+    border  : 1px #000000 solid; 
+    height  : 100px;
+    width   : 640px;
+    line-height: 30px;
+    background: #202869;
+    text-align: center;
+    vertical-align: center;
+    margin: 5px;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+}
+
+div.button_wide { 
+    display : block;
+    padding : 5px 12px;
+    cursor  : pointer;
+    border  : 1px #000000 solid; 
+    height  : 100px;
+    width   : 640px;
+    line-height: 30px;
+    background: #202869;
+    text-align: center;
+    vertical-align: center;
+    margin: 5px;
+    
+    -webkit-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    -moz-box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 2px rgba(0,0,0,.4);
+}
+
       
 input[type="radio"] { 
     display: none; 
@@ -298,4 +335,98 @@ legend {
 .div-hidden{
     display: none;
 }
+.fixed-label{
+    display: inline-block;
+    width:200px;}
 
+.base-timer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

@@ -1,4 +1,3 @@
-
 db.questions.save(
     {
         chapters: ['6.1'],

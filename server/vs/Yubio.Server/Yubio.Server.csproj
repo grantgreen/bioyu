@@ -42,11 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db\QuestionRepo.cs" />
+    <Compile Include="Db\QuizRepo.cs" />
+    <Compile Include="Db\RepoExtensions.cs" />
+    <Compile Include="Db\ScoreRepo.cs" />
     <Compile Include="LectioParser.cs" />
     <Compile Include="LectioScheduler.cs" />
     <Compile Include="LinkParser.cs" />
+    <Compile Include="Modules\MainModule.cs" />
+    <Compile Include="Modules\QuestionsModule.cs" />
+    <Compile Include="Modules\QuizModule.cs" />
+    <Compile Include="Modules\Randomizer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modules\ScoreModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -80,6 +89,9 @@
     </PackageReference>
     <PackageReference Include="Google.Apis.YouTube.v3">
       <Version>1.42.0.1758</Version>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Driver">
+      <Version>2.11.0-beta1</Version>
     </PackageReference>
     <PackageReference Include="Mono.Posix-4.5">
       <Version>4.5.0</Version>

@@ -670,3 +670,59 @@ db.questions.save(
  	correct_answer: '0'
     });
 
+db.questions.save(
+    {
+        chapters: ['5.7'],
+ 	text: 'Hvad kendetegner den autoritære ledertyper?',
+	answers: [
+		'Han/hun står ofte og giver ordre',
+		'Han/hun træffer ofte beslutninger i samråd med udøverne',
+		'Han/hun er ofte med tilbagetrukket',
+		'Han/hun er ofte meget kærlig',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.7'],
+ 	text: 'Hvordan skal man lede andre ifølge den situationsbestemte ledelsesform?',
+	answers: [
+		'Det afhænger af situationen om målgruppen',
+		'Man skal stå det helt rigtige sted, når man snakker',
+		'Man skal sige noget på det helt rigtige tidspunkt',
+		'Man skal være så led som muligt',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.7'],
+ 	text: 'Hvad gør man, hvis man bruger coaching som ledelsesstil?',
+	answers: [
+		'Man stiller spørgsmål og opgaver, så udøveren kan hjælpe sig selv',
+		'Man er meget autoritær',
+		'Man taler meget højt',
+		'Man bestemmer det hele',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['5.7'],
+ 	text: 'Hvad gør man, hvis man bruger den orkestrerende ledelsesstil?',
+	answers: [
+		'Man ser læring som en social proces og uddelegerer roller og opgaver til udøverne',
+		'Man fortæller udøverne præcis, hvad de skal gøre',
+		'Man tager altid udgangspunkt i den enkelte udøver',
+		'Man forventer, at udøverne altid løber i takt',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+

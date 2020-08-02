@@ -10,11 +10,9 @@ var links = {
    '7.3':[
 { chapter:'7.3.1',link:'https://www.dropbox.com/s/cv6fczxm2srgtk1/7-3-1.mp3?dl=0'},
 { chapter:"7.3.2", link:"https://www.dropbox.com/s/t5k11ovqoqm3a78/7.3.2%20%282018%29.mp4?dl=0"},
-{ chapter:'7.3.2 (2017)',link:'https://www.dropbox.com/s/ci9h5hzshp1u496/7-3-2.mp3?dl=0'},
 { chapter:'7.3.3',link:'https://www.dropbox.com/s/y5a9yov3ij7876t/7-3-3.mp3?dl=0'},
 { chapter:'7.3.4',link:'https://www.dropbox.com/s/k8uzfufcrxp7v0f/7-3-4.mp3?dl=0'},
 { chapter:'7.3.5',link:'https://www.dropbox.com/s/9hocudpqtge4ymu/7-3-5.mp3?dl=0'},
-{ chapter:'7.3.5 (2015)',link:'https://www.dropbox.com/s/zn58qzw8vj0r53o/7-3-5%20%282015%29.mp3?dl=0'},
 { chapter:'7.3.6',link:'https://www.dropbox.com/s/hwdj00px2tpb2a3/7-3-6.mp3?dl=0'},
    ],
    '7.4':[
@@ -66,7 +64,6 @@ var links = {
 { chapter:'7.10.1',link:'https://www.dropbox.com/s/mbekao8sr0198f6/7-10-1.mp3?dl=0'},
 { chapter:'7.10.2',link:'https://www.dropbox.com/s/ktdf5n8kt4707dn/7-10-2.mp3?dl=0'},
 { chapter:"7.10.3",link:"https://www.dropbox.com/s/8dgsz619mxlerga/7.10.3%20%282018%29.mp4?dl=0"},
-{ chapter:'7.10.3 (2017)',link:'https://www.dropbox.com/s/8vg5ccwmanmm2ev/7-10-3.mp3?dl=0'},
 { chapter:'7.10.4',link:'https://www.dropbox.com/s/vhtucj37eupqjs2/7-10-4.mp3?dl=0'},
 { chapter:'7.10.5',link:'https://www.dropbox.com/s/pmflfbvna1jl74c/7-10-5.mp3?dl=0'},
    ],

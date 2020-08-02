@@ -460,6 +460,7 @@ db.questions.save(
         correct_answer: '2'
     });
 
+
 db.questions.save(
     {
         chapters: ['21.2'],
@@ -1310,7 +1311,72 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '1'
     });
+db.questions.save(
+    {
+        chapters: ['21.4'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Afvigelse fra det teoretisk beregnede kan skyldes, at stikprøven er for stor',
+			'Afvigelse fra det teoretisk beregnede kan skyldes et tilfældigt udsving',
+			'Afvigelse fra det teoretisk beregnede kan skyldes, at stikprøven er udtaget forkert',
+			'Afvigelse fra det teoretisk beregnede kan skyldes, at det teoretiske ikke er korrekt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 
+db.questions.save(
+    {
+        chapters: ['21.4'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Kritiske værdier er meget usandsynlige udfald',
+			'Kritiske værdier er meget høje værdier',
+			'Kritiske værdier er meget lave værdier',
+			'Kritiske værdier er de mest sandsynlige udfald'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.4'],
+        text: 'Hvilket udsagn er ikke korrekt?',
+        answers: [
+            'Accepterede værdier er de 95 % mest sandsynlige udfald',
+			'Accepterede værdier er meget høje værdier',
+			'Accepterede værdier er meget lave værdier',
+			'Accepterede værdier er de 5 % mindst sandsynlige udfald'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.4'],
+        text: 'Hvilken type binomialtest findes ikke?',
+        answers: [
+            'Flersidet',
+			'Ensidet, venstresidet', 
+			'Ensidet, højresidet',
+			'Tosidet'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.4'],
+        text: 'Hvad er det oftest anvendte signifikantniveau?',
+        answers: [
+            '5%',
+			'10%', 
+			'15%',
+			'20%'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
 db.questions.save(
     {
         chapters: ['21.4'],
@@ -2197,6 +2263,32 @@ db.questions.save(
             'PTSD hos moderen kan udløse epigenetiske ændringer hos hendes foster',
             'Hungersnød kan udløse epigenetiske ændringer hos børnebørnene',
             'Fedmeepidemien kan muligvis til dels skyldes epigenetiske ændringer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.10'],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Hvis forældrene spiser for meget, bliver især drengebørn tykkere end normalt',
+			'En miljøpåvirkning hos dine bedsteforældre kan påvirke dig',
+			'Hvis bedstefar sultede som barn, lever hans drenge-børnebørn længere end normalt',
+			'Hvis bedstemor sultede som barn, lever hendes pige-børnebørn kortere end normalt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['21.10'],
+        text: 'Hvilket udsagn er forkert?',
+        answers: [
+            'Viden om epigenetik stammer primært fra forskning med grise',
+			'PTSD kan nedarves epigenetisk',
+			'Epigenetik spiller nok en rolle i fedmeepidemien i verden',
+			'Især fostre sidst i graviditeten er påvirkelige overfor epigenetiske ændringer'
         ],
         type: 'multiple_text',
         correct_answer: '0'

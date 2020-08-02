@@ -27,7 +27,8 @@ var links = {
    ],
    '29.5':[
 { chapter:'29.5',link:'https://www.dropbox.com/s/kmda5d5z3tn8qab/29-5.mp3?dl=0'},
-{ chapter:'29.5.1',link:'https://www.dropbox.com/s/eeaux67t9urc2dt/29-5-1.mp3?dl=0'},
+{chapter:'29.5.1', link:'https://www.dropbox.com/s/wat1ol7jzr23z2s/29-5-1_2020_.mp4?dl=0'},
+{ chapter:'29.5.1 (2019)',link:'https://www.dropbox.com/s/eeaux67t9urc2dt/29-5-1.mp3?dl=0'},
 { chapter:'29.5.2',link:'https://www.dropbox.com/s/lnrh3snpd83syqx/29-5-2.mp3?dl=0'},
 { chapter:'29.5.3',link:'https://www.dropbox.com/s/6oz8r2od3sjyo6m/29-5-3.mp3?dl=0'},
 { chapter:'29.5.4',link:'https://www.dropbox.com/s/6iu72lv0pgpc54b/29-5-4.mp3?dl=0'},
@@ -51,7 +52,6 @@ var links = {
    ],
    '29.8':[
 { chapter:'29.8.1',link:'https://www.dropbox.com/s/q3hw97dczvfkll8/29-8-1.mp3?dl=0'},
-{ chapter:'29.8.1 (2014)',link:'https://www.dropbox.com/s/doqyrt2yrlxf3yv/29-8-1%20%282014%29.mp3?dl=0'},
 { chapter:'29.8.2',link:'https://www.dropbox.com/s/dof4ytd5b97siwd/29-8-2.mp3?dl=0'},
    ],
 }

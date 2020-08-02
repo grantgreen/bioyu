@@ -58,10 +58,8 @@ var links = {
 		chapter:"8.3.4",
 		link:"https://www.dropbox.com/s/0ti2xlhcg8p1eg7/8.3.4.mp4?dl=0"
 	},
-	{
-		chapter:"8.3.5",
-		link:"https://www.dropbox.com/s/czcyidf6nsx3gjj/8.3.5.mp4?dl=0"
-	}
+	{ chapter:'8.3.5', link:'https://www.dropbox.com/s/00fbzwchbu36c63/8.3.5_2020_.mp4?dl=0'},
+	{chapter:"8.3.5 (2019)",link:"https://www.dropbox.com/s/czcyidf6nsx3gjj/8.3.5.mp4?dl=0"}
 	],
 	"8.4":[
 	{

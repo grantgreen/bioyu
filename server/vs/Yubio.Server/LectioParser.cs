@@ -77,7 +77,7 @@ namespace Yubio.Server
 
         public static List<School> GetSchools()
         {
-            var schools = ResolveSchools();
+            var schools = ResolveSchools().ToList();
             foreach (var school in schools)
             {
                 Console.Write($"Parsing {school.Name}...");
@@ -118,10 +118,10 @@ namespace Yubio.Server
             }
         }
 
-        private static readonly List<string> KeyWords =  new List<string>()
+        private static readonly List<string> KeyWords = new List<string>()
         {
             "yubio","youbio","skadhede","Selchau","Lytzen","Meinicke"
-        }; 
+        };
         private static bool HasYubio(string response)
         {
             foreach (var keyWord in KeyWords)

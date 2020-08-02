@@ -1777,12 +1777,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.5"],
-        text: 'Hvordan er det gået med den danske CO<span style="vertical-align:sub; font-size:58%;">2</span>-udledning i perioden 1990 til 2011?',
+        text: 'Hvordan er det gået med den danske CO<span style="vertical-align:sub; font-size:58%;">2</span>-udledning i perioden 1990 til i dag?',
         answers: [
-            'Den er reduceret med 8 %',
-            'Den er reduceret med 18 %',
-            'Den er steget med 8 %',
-            'Den er steget med 18 %'
+            'Den er reduceret med ca. 8 %',
+            'Den er reduceret med ca. 32 %',
+            'Den er steget med ca. 8 %',
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1857,6 +1856,35 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+db.questions.save(
+    {
+        chapters: ["10.6"],
+        text: 'Hvad er målet med Paris-aftalen?',
+        answers: [
+            'Den globale temperatur må ikke stige mere end 1,5 grader',
+            'Den globale temperatur må ikke stige mere',
+            'Den globale temperatur må ikke stige mere end 3 grader',
+            'Den globale temperatur skal stige kontrolleret fra nu af'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["10.6"],
+        text: 'Hvad er Danmarks mål mht. CO<span style="vertical-align:sub; font-size:58%;">2</span> i 2030?',
+        answers: [
+            'Reducering med 70 % ift. 1990-niveau',
+            'Halvering ift. 1990-niveau',
+            'Fordobling ift. 1990-niveau',
+            'Reducering med 25 % ift. 1990-niveau'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
 
 db.questions.save(
     {

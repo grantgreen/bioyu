@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html>
+    <body onload="onload()"></body>
+    <head>
+        <script type="text/javascript" src="bip/links.js" charset="utf-8"></script>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .content {
+          max-width: 500px;
+          margin: auto;
+          background: white;
+          padding: 10px;
+        }
+        th, td {
+  padding: 15px;
+}
+th {
+  text-align: center;
+}
+table {
+    max-width: 700px;
+          margin: auto;
+          background: white;
+          padding: 10px;
+}
+    </style>
+        <p class="content" style="font-size:30px;" >Kondital</p>
+        <p class="content" style="font-size:50px;" id="kondital"></p>
+        <p class="content" style="font-size:18px;">ml/kg/min</p>
+        <table style="width:50%" >
+            <tr>
+            <th class="content" style="font-size:20px;"  id="niveau"></th>
+            <th class="content" style="font-size:20px;" id="speed"></th>
+            <th class="content" style="font-size:20px;" id="distance"></th>
+        </tr>
+        </table>
+        
+        <!-- <p class="content" style="font-size:20px;"  id="niveau"></p> -->
+        <p class="content" style="font-size:20px;" id="time"></p>
+        <!-- <p class="content" style="font-size:20px;" id="niveau"></p>
+        <p class="content" style="font-size:20px;" id="distance"></p>
+        <p class="content" style="font-size:20px;" id="speed"></p> -->
+        <p class="content" style="font-size:20px;">
+        <button  id="start_Stop" onclick="start_stop()">Start</button>
+    </p>
+       
+
+<script>
+
+var started = false;
+var index = 0;
+var timer;
+var kondiTimer;
+var speed = "";
+var level;
+var distance;
+var time =0;
+function onload()
+{
+    
+}
+function beep(vol, freq, duration){
+  v=a.createOscillator()
+  u=a.createGain()
+  v.connect(u)
+  v.frequency.value=freq
+  v.type="square"
+  u.connect(a.destination)
+  u.gain.value=vol*0.01
+  v.start(a.currentTime)
+  v.stop(a.currentTime+duration*0.001)
+}
+function start_stop(){
+    if( !started)
+    {
+     a=new AudioContext()
+        level = levels["list"][index++];
+        timer = setInterval(evaluate, level.time_interval*1000);
+        kondiTimer = setInterval(updateKondital, 500);
+        if( level.speed != "")
+        {
+            speed = level.speed;
+        }
+        // document.getElementById('level').innerHTML = "Level "+ level.interval;        
+        document.getElementById('niveau').innerHTML = "Niveau "+level.niveau;    
+        document.getElementById('distance').innerHTML = "Distance "+level.distance+" meter";    
+        document.getElementById('speed').innerHTML = "Hastighed "+speed+" km/t";    
+        document.getElementById("start_Stop").innerHTML="Stop"; 
+    }
+    else
+    {
+        time =0;
+        index = 0;
+        clearInterval(timer);
+        clearInterval(kondiTimer);
+        document.getElementById("start_Stop").innerHTML="Start"; 
+    }
+    started = !started;
+}
+function updateKondital(){
+
+    time++;
+    seconds = time/2;
+    var kondiTal = 0.0587*seconds+9.7553;
+    var dist = (speed/3.6)*seconds;
+    document.getElementById('kondital').innerHTML = kondiTal.toFixed(1);
+    document.getElementById('time').innerHTML = seconds.toFixed(0) + " seconds";
+    document.getElementById('distance').innerHTML = "Distance "+ dist.toFixed(0) + " meter";
+}
+function evaluate(){
+    clearInterval(timer);
+    beep(999, 550, 200);
+        level = levels["list"][index++];
+        if( level.speed != "")
+        {
+            speed = level.speed;
+        }
+    timer = setInterval(evaluate, (level.time_interval*1000));  
+    // document.getElementById('level').innerHTML = "Level "+ level.interval;        
+        document.getElementById('niveau').innerHTML = "Niveau "+level.niveau;    
+        document.getElementById('speed').innerHTML = "Hastighed "+speed+" km/t";    
+}
+
+</script>
+</body>
+</html>
+

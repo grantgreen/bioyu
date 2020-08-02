@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+
+<html>
+    <body onload="onload()">
+        <div class="container">
+            <header class="codrops-header">
+                <h1>Kondital</h1>
+                <h1 style="font-size:100px;padding:0;font-weight: 300;font-weight: bold;" id="kondital">...</h1>
+                <h1 style="font-size:18px;padding:0;">ml/kg/min</h1>
+            </header>
+
+            <section class="container">
+                <div class="box1">
+                    <button class="float-center button button--winona button--border-thin button--round-s button--size-l"  id="start_Stop" onclick="start_stop()">Start</button>
+                </div>
+            </section>
+            <section class="codrops-header">
+                <div class="box1 bg-1" id="speed_div" style="display: none;">
+					<h2  class="left "   id="niveau">Niveau</h2>
+					<h2  id="speed">Hastighed</h2>
+					<h2  class="right" id="distance">Distance</h2>
+                </div>
+                <div class="box1 bg-1" id="speed1_div">
+					<h2  id="niveau1">Niveau</h2>
+                </div>
+                <div class="box1 bg-2" id="time_div" style="display: none;">
+                    <p  style="font-size:20px;" id="time"></p>
+                    <p  style="font-size:20px; margin-left: 10px;" id="time-drift"></p>
+                </div>
+                    <div class="box1 bg-3" id="sundhed1" style="display: none;">
+                        <h1  style="font-size:44px;" >Dreng</h1>
+                        <div class="column">
+                        <h2  style="font-size:18px;" id="sundhed_dreng">Sundhedsvurdering</h1>
+                        <h2 style="font-size:18px;" id="avg_dreng">Landsgennemsnitsvurdering</h2>
+                        <h2 style="font-size:18px;" id="grade_dreng">Karakter</h2>
+                        </div>
+                    </div>
+                    <hr class="new1"> 
+                    <div class="box1 bg-3" id="sundhed2" style="display: none;">
+                        <h1 style="font-size:44px;">Pige</h1>
+                        <div class="column ">
+                        <h2 style="font-size:18px;" id="sundhed_pige">Sundhedsvurdering</h1>
+                        <h2 style="font-size:18px;" id="avg_pige">Landsgennemsnitsvurdering</h2>
+                        <h2 style="font-size:18px;" id="grade_pige">Karakter</h2>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            
+                    </div>
+        </body>
+    <head>
+        <!-- <script type="text/javascript" src="links.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <script type="text/javascript" src="../js/bip/links.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="../bip/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../bip/css/vicons-font.css" />
+		<link rel="stylesheet" type="text/css" href="../bip/css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../bip/css/buttons.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<script charset="utf-8">
+
+var started = false;
+var index = 0;
+var timer;
+var kondiTimer;
+var speed = "";
+var level;
+var distance;
+var time =0;
+var kondiTal;
+var debug = false;
+function onload()
+{
+    var par = getUrlParam('debug','Empty');
+    urlp=[];s=location.toString().split('?');s=s[1].split('&');for(i=0;i<s.length;i++){u=s[i].split('=');urlp[u[0]]=u[1];}
+    if(s== "debug")
+    {
+        debug = true;
+    }
+    if( isMobileDevice())
+    {
+        location.replace("http://yubio.dk/bip/mobile.html");
+        // document.getElementById("sundhed1").style = "display: none;";
+        // document.getElementById("sundhed2").style = "display: none;";
+        // document.getElementById("speed_div").style = "display: none;";
+        // document.getElementById("time_div").style = "display: none;";
+    }
+    else
+    {
+        document.getElementById("speed1_div").style = "display: none;";
+    }
+}
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+function beep(vol, freq, duration){
+  v=a.createOscillator()
+  u=a.createGain()
+  v.connect(u)
+  v.frequency.value=freq
+  v.type="square"
+  u.connect(a.destination)
+  u.gain.value=vol*0.01
+  v.start(a.currentTime)
+  v.stop(a.currentTime+duration*0.001)
+}
+function start_stop(){
+    if( !started)
+    {
+        var AudioContext = window.AudioContext || window.webkitAudioContext;    
+        a = new AudioContext();
+        level = levels["list"][index++];
+        timer = setInterval(evaluate, level.time_interval*1000);
+        kondiTimer = setInterval(updateKondital, 100);
+        if( level.speed != "")
+        {
+            speed = level.speed;
+        }
+        document.getElementById('niveau').innerHTML = "Niveau "+level.niveau;    
+        document.getElementById('niveau1').innerHTML = "Niveau "+level.niveau;    
+        document.getElementById('distance').innerHTML = "Distance "+level.distance+" meter";    
+        document.getElementById('speed').innerHTML = "Hastighed "+speed+" km/t";    
+        document.getElementById("start_Stop").innerHTML="Stop"; 
+        document.getElementById('time').innerHTML = "Tid";
+        evaluateGirlsHealth(); 
+        evaluateBoysHealth();  
+        beep(999, 550, 100);
+    }
+    else
+    {
+        time =0;
+        index = 0;
+        clearInterval(timer);
+        clearInterval(kondiTimer);
+        document.getElementById("start_Stop").innerHTML="Start"; 
+    }
+    started = !started;
+}
+function updateKondital(){
+
+    time++;
+    seconds = time/10;
+    var min = Math.floor(seconds/60);
+    var sec = Math.floor(seconds %60);
+    kondiTal = 0.0572*seconds+10.9;
+    var dist = (speed/3.6)*seconds;
+    document.getElementById('kondital').innerHTML = kondiTal.toFixed(1);
+    document.getElementById('time').innerHTML = "Tid "+n(min)+":" +n(sec.toFixed(0));
+    document.getElementById('distance').innerHTML = "Distance "+ dist.toFixed(0) + " meter";
+    evaluateGirlsHealth(); 
+        evaluateBoysHealth();
+}
+function evaluate(){
+     clearInterval(timer);
+    var lastLevel = level.time_interval;
+
+    level = levels["list"][index++];
+
+    if(level.niveau == "20-1")
+    {
+        time =0;
+        index = 0;
+        clearInterval(timer);
+        clearInterval(kondiTimer);
+        document.getElementById("start_Stop").innerHTML="Start"; 
+        return;
+    }
+    timer = setInterval(evaluate, (level.time_interval*1000));  
+
+    if( level.speed != "")
+    {
+        speed = level.speed;
+    }
+    var min = Math.floor(level.time/60);
+    var sec = Math.floor(level.time %60);
+    var diff = level.time-seconds;
+    document.getElementById('niveau').innerHTML = "Niveau "+level.niveau;    
+    document.getElementById('niveau1').innerHTML = "Niveau "+level.niveau;    
+    document.getElementById('speed').innerHTML = "Hastighed "+speed+" km/t"; 
+    if( debug)
+    {
+        document.getElementById('time-drift').innerHTML = "("+n(min)+":" +n(sec.toFixed(0))+ ", diff: "+diff.toFixed(01)+")";
+    }
+    if(level.time_interval != lastLevel)
+    {
+        beep(200, 200, 300);
+    }
+    else
+    {
+        beep(999, 550, 100);
+    }
+    
+          
+}
+function evaluateBoysHealth()
+{
+//     Meget usundt
+// Usundt
+// Middel
+// Sundt
+// Meget sundt
+    if(kondiTal < 43)
+    {
+        document.getElementById('sundhed_dreng').innerHTML = "Sundhedsvurdering: "+"Meget usundt";
+    }
+    if(kondiTal >= 43 && kondiTal < 49)
+    {
+        document.getElementById('sundhed_dreng').innerHTML = "Sundhedsvurdering: "+"Usundt";
+    }
+    if(kondiTal >= 49 && kondiTal < 57)
+    {
+        document.getElementById('sundhed_dreng').innerHTML = "Sundhedsvurdering: "+"Middel";
+    }
+    if(kondiTal >= 57 && kondiTal < 61)
+    {
+        document.getElementById('sundhed_dreng').innerHTML = "Sundhedsvurdering: "+"Sundt";
+    }
+    if(kondiTal > 61)
+    {
+        document.getElementById('sundhed_dreng').innerHTML = "Sundhedsvurdering: "+"Meget sundt";
+    }
+
+    if(kondiTal < 36)
+    {
+        document.getElementById('avg_dreng').innerHTML = "Landsgennemsnitsvurdering: "+"Meget lavt";
+    }
+    if(kondiTal >= 36 && kondiTal < 41)
+    {
+        document.getElementById('avg_dreng').innerHTML = "Landsgennemsnitsvurdering: "+"Lavt";
+    }
+    if(kondiTal >= 41 && kondiTal < 47)
+    {
+        document.getElementById('avg_dreng').innerHTML = "Landsgennemsnitsvurdering: "+"Middel";
+    }
+    if(kondiTal >= 47 && kondiTal < 52)
+    {
+        document.getElementById('avg_dreng').innerHTML = "Landsgennemsnitsvurdering: "+"Højt";
+    }
+    if(kondiTal > 52)
+    {
+        document.getElementById('avg_dreng').innerHTML = "Landsgennemsnitsvurdering: "+"Meget højt";
+    }
+
+    if(kondiTal < 25)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: -3";
+    }
+    if(kondiTal >= 25 && kondiTal < 35)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 00";
+    }
+    if(kondiTal >= 35 && kondiTal < 39)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 02";
+    }
+    if(kondiTal >= 39 && kondiTal < 44)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 4";
+    }
+    if(kondiTal >= 44 && kondiTal < 51)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 7";
+    }
+    if(kondiTal >= 51 && kondiTal <= 56)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 10";
+    }
+    if(kondiTal > 56)
+    {
+        document.getElementById('grade_dreng').innerHTML = "Karakter: 12";
+    }
+}
+function evaluateGirlsHealth(){
+    if(kondiTal < 31)
+    {
+        document.getElementById('sundhed_pige').innerHTML = "Sundhedsvurdering: "+"Meget usundt";
+    }
+    if(kondiTal >= 31 && kondiTal < 38)
+    {
+        document.getElementById('sundhed_pige').innerHTML = "Sundhedsvurdering: "+"Usundt";
+    }
+    if(kondiTal >= 38 && kondiTal < 48)
+    {
+        document.getElementById('sundhed_pige').innerHTML = "Sundhedsvurdering: "+"Middel";
+    }
+    if(kondiTal >= 48 && kondiTal < 54)
+    {
+        document.getElementById('sundhed_pige').innerHTML = "Sundhedsvurdering: "+"Sundt";
+    }
+    if(kondiTal > 54)
+    {
+        document.getElementById('sundhed_pige').innerHTML = "Sundhedsvurdering: "+"Meget sundt";
+    }
+
+    if(kondiTal < 28)
+    {
+        document.getElementById('avg_pige').innerHTML = "Landsgennemsnitsvurdering: "+"Meget lavt";
+    }
+    if(kondiTal >= 28 && kondiTal < 34)
+    {
+        document.getElementById('avg_pige').innerHTML = "Landsgennemsnitsvurdering: "+"Lavt";
+    }
+    if(kondiTal >= 34 && kondiTal < 40)
+    {
+        document.getElementById('avg_pige').innerHTML = "Landsgennemsnitsvurdering: "+"Middel";
+    }
+    if(kondiTal >= 40 && kondiTal < 43)
+    {
+        document.getElementById('avg_pige').innerHTML = "Landsgennemsnitsvurdering: "+"Højt";
+    }
+    if(kondiTal > 43)
+    {
+        document.getElementById('avg_pige').innerHTML = "Landsgennemsnitsvurdering: "+"Meget højt";
+    }
+
+   
+    if(kondiTal < 20)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: -3";
+    }
+    if(kondiTal >= 20 && kondiTal < 29)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 00";
+    }
+    if(kondiTal >= 29 && kondiTal < 33)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 02";
+    }
+    if(kondiTal >= 33 && kondiTal < 37)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 4";
+    }
+    if(kondiTal >= 37 && kondiTal < 44)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 7";
+    }
+    if(kondiTal >= 44 && kondiTal <= 49)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 10";
+    }
+    if(kondiTal > 49)
+    {
+        document.getElementById('grade_pige').innerHTML = "Karakter: 12";
+    }
+
+//     Piger:
+// Meget lavt: under 28
+// Lavt: 28-34
+// Middel: 34-40
+// Højt: 40-43
+// Meget højt: over 43
+
+// Drenge:
+// Meget lavt: under 36
+// Lavt: 36-41
+// Middel: 41-47
+// Højt:47-52
+// Meget højt: over 52
+}
+
+function n(n){
+    return n > 9 ? "" + n: "0" + n;
+}
+function isMobileDevice() {
+    return( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i));
+
+};
+
+</script>
+</body>
+</html>

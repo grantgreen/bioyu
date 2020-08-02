@@ -1609,7 +1609,7 @@ db.questions.save(
         answers: [
             'Ca. 0,020 %',
             'Ca. 0,028 %',
-            'Ca. 0,300 %',
+            'Ca. 0,041 %',
             'Ca. 0,400 % '
         ],
         type: 'multiple_text',
@@ -1667,20 +1667,6 @@ db.questions.save(
             'At den absorberer lyset',
             'At den virker isolerende på jorden nedenunder',
             'At den er ved at smelte'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.5'],
-        text: 'Hvor meget is er der smeltet på Grønland pr. år i 1990-erne? ',
-        answers: [
-            '51 GT',
-            '359 GT',
-            '459 GT',
-            '599 GT'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1885,15 +1871,15 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvor meget er Verdens samlede CO<span style="vertical-align:sub; font-size:58%;">2</span> udledning steget fra 1990 til 2011?',
+        text: 'Hvor meget er Verdens samlede CO<span style="vertical-align:sub; font-size:58%;">2</span> udledning steget fra 1990 til i dag?',
         answers: [
-            'Ca. 20 %',
+            'Ca. 70 %',
             'Ca. 30 %',
             'Ca. 50 %',
             'Næsten 100 %'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '0'
     });
 
 db.questions.save(
@@ -2108,6 +2094,45 @@ db.questions.save(
     });
 db.questions.save(
     {
+        chapters: ['30.5'],
+        text: 'Hvad er målet med Paris-aftalen?',
+        answers: [
+            'Den globale temperatur må ikke stige mere end 1,5 grader',
+			'Den globale temperatur må ikke stige mere',
+			'Den globale temperatur må ikke stige mere end 3 grader',
+			'Den globale temperatur skal stige kontrolleret fra nu af'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvilket stort land er ikke med i Paris-aftalen?',
+        answers: [
+            'USA',
+			'Kina',
+			'Rusland',
+			'Brasilien'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.5'],
+        text: 'Hvad er Danmarks mål mht. CO<span style="vertical-align:sub; font-size:58%;">2</span> i 2030?',
+        answers: [
+            'Reducering med 70 % ift. 1990-niveau',
+			'Halvering ift. 1990-niveau',
+			'Fordobling ift. 1990-niveau',
+			'Reducering med 25 % ift. 1990-niveau'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
         chapters: ['30.6'],
         text: 'Hvilket udsagn om skovrejsning er ikke korrekt?',
         answers: [
@@ -2301,3 +2326,227 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvad er Earth Overshoot Day?',
+        answers: [
+            'Den dag, verdens befolkning har brugt de ressourcer, der kan gendannes på et år',
+			'Den dag, hvor der er masser af ressourcer i overskud',
+			'Den dag, verdens befolkning har brugt de ressourcer, der kan gendannes på to år',
+			'Den dag, hvor verdens befolkning deler de ressourcer, der kan gendannes på et år',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvornår havde vi brug for to hele jordkloder for at levere ressourcer nok til vores levevis?',
+        answers: [
+            '1. august 2018 og 3. august 2017',
+			'3. august 2018 og 1. august 2017',
+			'1. september 2018 og 3. juni 2018',
+			'29.juli 2019 og 3. august 2020',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilken plads placerede Danmark sig på over verdens lande, der forbruger mest (2019)?',
+        answers: [
+            'En 7. plads',
+			'En 4. plads',
+			'En 18. plads',
+			'En 29. plads'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilket land kommer tættest på at få ressourcerne til at slå til, og hvornår vil Earth Overshoot Day ligge?',
+        answers: [
+            'Indonesien og Earth Overshoot Day vil være den 21. december',
+			'Danmark og Earth Overshoot Day vil være den 21. december',
+			'Kina og Earth Overshoot Day vil være den 29. marts',
+			'Tyskland og Earth Overshoot Day vil være den 29. juli',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvad er gennemsnitsdanskerens udledning af CO<span style="vertical-align:sub; font-size:58%;">2</span> i tons?',
+        answers: [
+            '17 tons',
+			'15 tons',
+			'11 tons',
+			'30 tons'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilket kød er mest klimatungt at producere?',
+        answers: [
+            'Oksekød', 
+			'Svinekød',
+			'Fisk',
+			'Kylling'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvad var skyld i mere end 10 % af Danmarks samlede klimabelastning?',
+        answers: [
+            'Flyrejser',
+			'Tøjproduktion',
+			'Kødproduktion',
+			'Bilers udledning af CO<span style="vertical-align:sub; font-size:58%;">2</span>'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvordan har vi i Danmark kunnet opnå vores klimamål?',
+        answers: [
+            'Køb af CO<span style="vertical-align:sub; font-size:58%;">2</span>-kvote', 
+			'Nedskæring i kødproduktionen',
+			'Stigning af flypriser',
+			'Mindre fabriksproduktion'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilket år anslår forskere, at der vil være op mod 200 millioner klimaflygtninge?',
+        answers: [
+            '2050',
+			'2025',
+			'2040',
+			'2065'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Ifølge hvem havde Kina, Indien og Filippinerne flest klimaflygtninge?',
+        answers: [
+            'IDMC',
+			'WHO',
+			'FN',
+			'Nato'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvem er særligt udsat for naturkatastrofer? ',
+        answers: [
+            'Børn',
+			'Dyr',
+			'Unge',
+			'Gamle'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvad kan især forårsage dårlig hygiejniske forhold?',
+        answers: [
+            'Oversvømmelser',
+			'Vulkanudbrud',
+			'Bombeangreb',
+			'Jordskælv'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	 	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilke tre parametre giver samlet et kæmpe klimaaftryk?',
+        answers: [
+            'Stigende befolkningsantal, velstand og levealder',
+			'Stigende forbrug af mad, drikke og offentlig transport',
+			'Stigende forbrug af mad, drikke og ikke miljøvenlige biler',
+			'Stigende forbrug af offentlig transport, ikke miljøvenlige biler og cykler'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvilket udsagn er mest korrekt vedr. ansvaret for klimaet?',
+        answers: [
+            'Vi har alle et fælles ansvar for klimaet',
+			'Det er EU, der har det primære ansvar',
+			'Det er kineserne, der har det primære ansvar',
+			'Det er flyselskaberne, der har det primære ansvar'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	 	
+
+db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvordan skal klimakrisen løses?',
+        answers: [
+            'Ved hjælp af teknologiske løsninger', 
+			'Ved at vi alle stopper med at flyve',
+			'Ved at vi reducerer vores forbrug af landbrugsarbejde',
+			'Ved hjælp af naturvidenskabelige løsninger'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	
+
+    db.questions.save(
+    {
+        chapters: ['30.7'],
+        text: 'Hvad er fordelen ved biokul?',
+        answers: [
+            'Det er et stabilt materiale, der ikke omsættes til CO<span style="vertical-align:sub; font-size:58%;">2</span>',
+			'Det er med til at mindske det enorme udslip af metan ',
+'Det medfører, at næringsstofferne fra gylle kan blive anvendt på ny',
+'Der er ingen fordel ved biokul, det sætter blot et kæmpe klimaaftryk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });	 	 	

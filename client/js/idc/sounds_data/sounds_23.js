@@ -20,8 +20,9 @@ var links = {
 	    {chapter:"23.3.6",link:"https://www.dropbox.com/s/tfe27wmxax7mby8/23.3.6.mp4?dl=0"},
 	    { chapter:"23.3.7", link:"https://www.dropbox.com/s/yjm2e04oohe1lex/23.3.7.mp4?dl=0"}
     ],
-    "23.6":[
-        {chapter:"23.6",link:"https://www.dropbox.com/s/eb710zdsw6fl1xc/23.6.mp4?dl=0"}
+    "23.6":[{chapter:'23.6', link:'https://www.dropbox.com/s/aq264tpmr7ww1b0/23.6_2020_.mp4?dl=0'},
+
+        {chapter:"23.6 (2019)",link:"https://www.dropbox.com/s/eb710zdsw6fl1xc/23.6.mp4?dl=0"}
     ]
   }
 

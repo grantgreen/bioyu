@@ -13,10 +13,8 @@ var links = {
 
 
     "4.2": [
-	{
-		chapter:"4.2",
-		link:"https://www.dropbox.com/s/dtsbpif76giolho/4.2%20%282018%29.mp4?dl=0"
-	},
+    {chapter:'4.2', link:'https://www.dropbox.com/s/9tku59q6fiwkrcy/4.2_2020_.mp4?dl=0'},
+	{chapter:"4.2 (2019)",	link:"https://www.dropbox.com/s/dtsbpif76giolho/4.2%20%282018%29.mp4?dl=0"},
 	    {
             chapter:"4.2 (2017)",
             link:"https://www.dropbox.com/s/bu537dv03732mvu/4.2.mp4?dl=0"

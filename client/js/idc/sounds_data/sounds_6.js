@@ -2,7 +2,8 @@ var links = {
 
     "6.1": [
 	    {chapter:"6.1",link:"https://www.dropbox.com/s/d3i12970wdrtcq7/6.1.mp4?dl=0"},
-        {chapter:"6.1.1",link:"https://www.dropbox.com/s/0zp961we2o92vzu/6.1.1.mp4?dl=0"},
+        { chapter:'6.1.1',link:'https://www.dropbox.com/s/9tiekqfceykqktf/6.1.1_2020_.mp4?dl=0'},
+        {chapter:"6.1.1 (2019)",link:"https://www.dropbox.com/s/0zp961we2o92vzu/6.1.1.mp4?dl=0"},
         {chapter:"6.1.2", link:"https://www.dropbox.com/s/31nekbikwgz25kq/6.1.2.mp4?dl=0"}
     ],
 
@@ -29,7 +30,8 @@ var links = {
         {chapter:"6.5.4",link:"https://www.dropbox.com/s/m153xo9ux0p0ym6/6.5.4.mp4?dl=0"},
         {chapter:"6.5.5",link:"https://www.dropbox.com/s/gf1r233pkqwcx8l/6.5.5.mp4?dl=0"},
         {chapter:"6.5.6",link:"https://www.dropbox.com/s/gpcs66cg5cvzgi5/6.5.6.mp4?dl=0"},
-        {chapter:"6.5.7", link:"https://www.dropbox.com/s/epo83l97rmj7mnt/6.5.7.mp4?dl=0"}
+        {chapter:"6.5.7", link:"https://www.dropbox.com/s/epo83l97rmj7mnt/6.5.7.mp4?dl=0"},
+        {chapter:'6.5.8',link:'https://www.dropbox.com/s/hpgo61ku1ywujcl/6.5.8_2020_.mp4?dl=0'}
     ],
   }
 

@@ -1742,20 +1742,6 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.5'],
-        text: 'Hvilken påstand om mørk chokolade er korrekt?',
-        answers: [
-            'Det stimulerer dannelsen af adrenalin, hvilket øger forbrændingen',
-            'Det feder meget',
-            'Det kan give forhøjet kolesteroltal',
-            'Det kan nedbryde brune fedtceller'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['3.5'],
         text: 'Er det sandt, at koffein fra fx kaffe virker slankende?',
         answers: [
             'Ja',
@@ -2057,7 +2043,7 @@ db.questions.save(
             '10,0 år'
         ],
         type: 'multiple_text',
-        correct_answer: '0'
+        correct_answer: '1'
     });
 db.questions.save(
     {
@@ -2199,6 +2185,84 @@ db.questions.save(
             'Ca. 40 %',
             'Ca. 20 %',
             'Ca. 10 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor mange amerikanere har BMI over 25?',
+        answers: [
+            '2/3',
+            '1/3',
+            'Alle',
+            'Ingen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvad er det gennemsnitlige BMI for en amerikaner?',
+        answers: [
+            'Ca. 30',
+            'Ca. 25',
+            'Ca. 35',
+            'Ca. 40'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvor mange i verden er overvægtige?',
+        answers: [
+            'Ca. 40 %',
+            'Ca. 25 %',
+            'Ca. 50 %',
+            'Ca. 75 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvilken faktor influerer ikke på øget energiindtag?',
+        answers: [
+            'Flere lightprodukter generelt',
+            'Større portioner generelt',
+            'Kagekultur på jobbet',
+            'Slik som trøst'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Sukker feder ikke mere end alt muligt andet',
+            'Særligt fruktose er fedende',
+            'Fedt er meget fedende',
+            'Protein er meget fedende'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvilket udsagn er korrekt?',
+        answers: [
+            'Detox-kure virker ikke',
+            'Detox udrenser kroppen for giftstoffer',
+            'Detox udrenser kroppen for tilsætningsstoffer',
+            'Detox udrenser for E-numre'
         ],
         type: 'multiple_text',
         correct_answer: '0'

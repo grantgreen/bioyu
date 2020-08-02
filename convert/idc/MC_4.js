@@ -294,11 +294,67 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ['4.2'],
+ 	text: 'Hvilken dansk cykelrytter lå til at vinde Tour de France, men så blev han smidt ud af løbet pga. mistanke om doping?',
+	answers: [
+		'Michael Rasmussen',
+		'Bjarne Riis',
+		'Rolf Sørensen',
+		'Brian Holm',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['4.2'],
+ 	text: 'Hvad forstås ved en blodpas?',
+	answers: [
+		'Kortlægning af cykelrytterens hæmatokritværdi',
+		'Kortlægning af cykelrytterens humør',
+		'Kortlægning af cykelrytterens kondital',
+		'Kortlægning af cykelrytterens where abouts',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['4.2'],
+ 	text: 'Hvad hed den cykelrytter, som vand OL i enkeltstart, men afleverede en positiv dopingprøve (men blev ikke dømt)?',
+	answers: [
+		'Tyler Hamilton',
+		'Lance Armstrong',
+		'Bjarne Riis',
+		'Michael Rasmussen',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['4.2'],
+ 	text: 'Hvad hedder cykelrytteren, der vandt 7 Tour de France i træk – men alle sejre er annuleret pga. doping?',
+	answers: [
+		'Lance Armstrong',
+		'Tyler Hamilton',
+		'Jan Ulrich',
+		'Alberto Contador',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
         chapters: ['4.3'],
  	text: 'Hvilken er ikke en persontype, der doper sig?',
 	answers: [
 		'Æstetikerne',
-		"YOLO'erne",
+		'YOLO\'erne',
 		'Livsnyderne',
 		'Eksperterne',
 	],
@@ -323,7 +379,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['4.3'],
- 	text: "Hvilket kendetegn hører ikke til YOLO'en?",
+ 	text: 'Hvilket kendetegn hører ikke til YOLO\'en?',
 	answers: [
 		'Er typisk ældre end de andre brugere',
 		'Vil imponere pigerne',
@@ -519,7 +575,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['4.5'],
- 	text: "Hvad var Bjarne Riis' hæmatokritværdi, da han vandt Tour de France i 1996?",
+ 	text: 'Hvad var Bjarne Riis\' hæmatokritværdi, da han vandt Tour de France i 1996?',
 	answers: [
 		'Ca. 60 %',
 		'Ca. 55 %',

@@ -14,13 +14,13 @@ var links = {
    '21.3':[
 { chapter:'21.3.1',link:'https://www.dropbox.com/s/eg7x4nxf5r9kou3/21-3-1.mp3?dl=0'},
 { chapter:'21.3.2',link:'https://www.dropbox.com/s/xt58u7lk3e7ho5h/21-3-2.mp3?dl=0'},
-{ chapter:'21.3.2 (2013)',link:'https://www.dropbox.com/s/ohftwsy0xin1wi9/21-3-2%20%282013%29.mp3?dl=0'},
 { chapter:'21.3.3',link:'https://www.dropbox.com/s/apy1dunvpvqg2km/21-3-3.mp3?dl=0'},
    ],
    '21.4':[
 { chapter:'21.4',link:'https://www.dropbox.com/s/r9up6twrrn3jahr/21-4.mp3?dl=0'},
 { chapter:'21.4.1',link:'https://www.dropbox.com/s/kvdf8sgoexfn653/21-4-1.mp3?dl=0'},
 { chapter:'21.4.2',link:'https://www.dropbox.com/s/nxmkdos5yk88nqt/21-4-2.mp3?dl=0'},
+{ chapter:'21.4.3', link:'https://www.dropbox.com/s/96nb8rwjpolsrw3/21.4.3_2020_.mp4?dl=0'},
    ],
    '21.5':[
 { chapter:'21.5',link:'https://www.dropbox.com/s/6mru86ze18h8ca6/21-5.mp3?dl=0'},
@@ -47,13 +47,10 @@ var links = {
    ],
    '21.9':[
 { chapter:'21.9',link:'https://www.dropbox.com/s/amwryjsirprv0hp/21.9%20%282017%29.mp4?dl=0'},
-{ chapter:'21.9 (2016)',link:'https://www.dropbox.com/s/h1mkkrfrz01qv8x/21-9.mp3?dl=0'},
    ],
    '21.10':[
 { chapter:'21.10.1',link:'https://www.dropbox.com/s/4ol15futueqaauy/21-10-1.mp3?dl=0'},
 { chapter:'21.20.2', link:'https://www.dropbox.com/s/o93aplgcl8nvbnb/21-10-2%20%282019%29.mp3?dl=0'},
 { chapter:'21.10.2 (2018)',link:'https://www.dropbox.com/s/xvh0j3ay9l9xpqc/21.10.2%20%282017%29.mp4?dl=0'},
-{ chapter:'21.10.2 (2016)',link:'https://www.dropbox.com/s/dkog9mq3rktfnjx/21-10-2.mp3?dl=0'},
-{ chapter:'21.10.2 (2015)',link:'https://www.dropbox.com/s/v2jhsyqasje80gv/21-10-2%20%282015%29.mp3?dl=0'},
    ],
 }

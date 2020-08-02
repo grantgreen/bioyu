@@ -325,7 +325,7 @@ db.questions.save(
         chapters: ['9.1'],
  	text: 'Hvilken af følgende idrætsgrene har flest medlemmer?',
 	answers: [
-		'Dansk Boldspils Union',
+		'Dansk boldspil union',
 		'Dansk Svømme Union',
 		'Dansk Håndbold Forbund',
 		'Danmarks Gymnastik Forbund',
@@ -505,7 +505,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['9.2'],
- 	text: 'Hvor meget sport i tv ser en gennemsnitling dansker?',
+ 	text: 'Hvor meget sport i tv ser en gennemsnitlig dansker?',
 	answers: [
 		'80-100 timer om året',
 		'60-70 timer om året',
@@ -743,7 +743,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['9.5'],
- 	text: 'Hvor mange børn hvis forældrene enten har arbejde eller er født indenfor Danmark dyrker idræt?',
+ 	text: 'Hvor mange børn, hvis forældrene enten har arbejde eller er født indenfor Danmark, dyrker idræt?',
 	answers: [
 		'Ca. 85 %',
 		'Ca. 25 %',
@@ -776,7 +776,7 @@ db.questions.save(
 		'Økonomisk trængte forældre kan få for 1.000 kr. gratis kontingent i en idrætsforening',
 		'Økonomisk trængte forældre kan få gratis kontingent i en idrætsforening',
 		'At få børn og unge i udsatte boligområder til at dyrke sport i foreninger',
-		'At børn og unge skal have mere fritid,så de kan dyrke sport',
+		'At børn og unge skal have mere fritid, så de kan dyrke sport',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -888,7 +888,7 @@ db.questions.save(
 		'To sorte atleter knyttede hånden med en sort handske som protest mod den amerikanske regerings politik',
 		'USA havde for første gang flere sorte end hvide i deres delagation',
 		'For første gang i OL´s historie var alle medaljevindere i 100 meter sprint sorte',
-		"USA's Basketballteam bestod udelukkende af sorte, og holdet fik tilnavnet Black Power",
+		'USA\'s basketballteam bestod udelukkende af sorte, og holdet fik tilnavnet Black Power',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -987,6 +987,468 @@ db.questions.save(
 		'1982',
 		'1992',
 		'1990',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Når man siger, at sporten har sin egen ”arena”, betyder det:',
+	answers: [
+		'At der kan gælde andre regler i sport end i resten af samfundet',
+		'At der ingen regler er i sport',
+		'At alt sport foregår på en bestemt bane',
+		'At de forskellige arenaer i byer ikke kan bruges af andre i samfundet',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Sportsidealisten tror på, at sporten:',
+	answers: [
+		'Skaber bedre mennesker',
+		'Kun handler om at vinde',
+		'Ikke har brug for regler',
+		'Handler om at tjene penge',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Sportsrealisten tror på, at sporten:',
+	answers: [
+		'Handler om at vinde for enhver pris',
+		'Skaber bedre mennesker',
+		'Lærer folk om fairplay',
+		'Handler om ære',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Verner Møller mener, at idræt/motion modsat sport:',
+	answers: [
+		'Handler om sundhed og glæden ved at lege',
+		'Kun handler om at vinde',
+		'Handler om at tjene penge',
+		'Kun handler om at tabe sig',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Viljen til at vinde:',
+	answers: [
+		'Kan være både positiv og negativ',
+		'Er negativ',
+		'Er positiv',
+		'Er ligegyldig',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Når sporten har sine egne regler:',
+	answers: [
+		'Kan man alligevel blive straffet efter den almindelige lov',
+		'Gælder kun de regler, der er i sporten',
+		'Er sportens regler hævet over samfundets regler',
+		'Må man selv bestemme reglerne',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Uskrevne regler betyder:',
+	answers: [
+		'At man følger nogle normer, selvom der ikke er regler for det',
+		'At reglerne bare ikke er blevet skrevet ned endnu',
+		'At dommeren kan ændre reglerne i spillet',
+		'At man selv kan bestemme reglerne i spillet',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Altruisme er:',
+	answers: [
+		'At gøre noget for andre uden at tænke på sig selv',
+		'Det samme som egoisme',
+		'At tjene penge på sport',
+		'At lade de andre gøre det hårde arbejde',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'VM-finalen i fodbold i 2006 er bl.a. kendt for:',
+	answers: [
+		'At Zinedine Zidane nikkede Marco Materazzi en skalle i brystet',
+		'At Zinedine Zidane bed Marco Materazzi i øret',
+		'At Zinedine Zidane tog Marco Materazzi i skridtet',
+		'At Marco Materazzi nikkede Zinedine Zidane en skalle i hovedet',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Sportsrealisten vil mene, at Zinedine Zidanes handling var:',
+	answers: [
+		'Dumt gjort, da det forringer holdets chance for at vinde',
+		'Stærkt gjort, da det viser, hvem der bestemmer på banen',
+		'Klogt gjort, da det øger holdets chancer for at vinde',
+		'Fair gjort, da Marco Materazzi var provokerende',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Foul play er:',
+	answers: [
+		'Brud på reglerne ',
+		'Det samme som fair play',
+		'Et bestemt boldspil',
+		'At gøre noget, der lugter grimt',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Vi skelner mellem tre typer af foul play:',
+	answers: [
+		'Brud på spillets regler, brud på spillets rammer, brud på spillets ånd',
+		'Brud på spillets regler, skæld ud på dommeren, brud på spillets ånd',
+		'Brud på spillets regler, brud på spillets rammer, brud på amatørreglerne',
+		'Brud på spillets regler, brud på spillets rammer, brud på en knogle',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Det kan være et problem at bryde sportens ånd:',
+	answers: [
+		'Da sportens ånd er en sportsidealistisk forståelse af sport som en ærefuld styrkeprøve',
+		'Da sportens ånd er en sportsrealistisk forståelse af sport som en ærefuld styrkeprøve',
+		'Da sportens ånd er en sportshumoristisk forståelse af sport som en ærefuld styrkeprøve',
+		'Da sportens ånd vil hjemsøge ens hus og familie resten af livet med en ærefuld styrkeprøve',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Sammenhængen mellem den fysiske kontakt og accepten af vold i en sportsgren er:',
+	answers: [
+		'Typisk afhængig af hvor meget fysisk kontakt, der naturligt er i sportsgrenen',
+		'Typisk afhængig af hvor store udøverne af sportsgrenen er',
+		'Typisk afhængig af om det er en indendørs eller en udendørs sport',
+		'Typisk afhængig af hvor sjovt spillerne synes, at det er at slås',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Både sportsrealister og sportsidealister er enige om:',
+	answers: [
+		'At korruption og bestikkelse er et problem for sporten',
+		'At korruption og bestikkelse ikke er et problem for sporten',
+		'At korruption og bestikkelse styrker sporten',
+		'At korruption og bestikkelse er en god måde at tjene lidt ekstra på sin sport på',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'FIFA’s slogan er:',
+	answers: [
+		'For the game. For the World',
+		'For the game. For all of us',
+		'For the World. For the game',
+		'One for all. All for one',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Matchfixing er:',
+	answers: [
+		'At man har aftalt udfaldet af en kamp på forhånd',
+		'At man fixer det, der går galt i spillet',
+		'At man fixer inden kamp, så man er dopet',
+		'At man giver mange penge for at tildelt rettighederne til at afholde fx OL',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Bestikkelse i forhold til at få tildelt rettighederne til at afholde fx VM i fodbold er:',
+	answers: [
+		'Et problem fordi man ikke vælger det bedst egnede sted, men dem der giver en flest penge',
+		'Et problem fordi man ikke vælger det bedst egnede sted, men der hvor vejret er bedst',
+		'Et problem fordi pengene ikke går til spillernes løn, men til andre',
+		'Ikke et problem fordi man vælger det bedst egnede sted, og selv får en god slat penge ud af det',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Qatar afholder VM i fodbold 2022, og det er bl.a:',
+	answers: [
+		'Et problem fordi tusindvis af arbejdere dør under stadionbyggerierne',
+		'Et godt sted at holde det, for der er altid godt vejr',
+		'Et naturligt sted at holde det, for de har mange gode stadions i forvejen',
+		'Et problem fordi der er for gode strande, så publikum vil ikke se fodbold',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'I forhold til sportens ånd er matchfixing:',
+	answers: [
+		'Et problem for sporten fordi der ikke længere er nogen reel kamp, men nærmere tale om en handel',
+		'Et problem for sporten fordi ikke alle får tilbuddet, og derfor bliver nogen rigere end andre',
+		'Rigtig godt for man behøver ikke være bekymret for at tabe',
+		'Rigtig godt fordi man så kan undgå faren ved doping',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Gambling er godt:',
+	answers: [
+		'Hvis man spiller ved Danske Spil, for de deler 1,5 milliarder ud til foreningslivet hvert år',
+		'Hvis man spiller ved alle mulige spiludbydere, for de støtter alle det danske foreningsliv med milliarder',
+		'For det giver folk noget at bruge deres penge på',
+		'Fordi det har vist sig, at gambling i stor stil er godt for familielivet',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Gambling er et problem:',
+	answers: [
+		'Fordi det kan udvikle sig til ludomani og ødelægge en stor del af folks liv',
+		'Fordi man kan udvikle ludomani, og det kan være svært altid at finde en at spille ludo med',
+		'Fordi man som idrætsudøver ikke må spille på sig selv, og det er unfair',
+		'Fordi staten så går glip af en masse penge i gevinstafgift',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Et adfærdsmæssigt kendetegn ved ludomaner er fx:',
+	answers: [
+		'Aftalebrud',
+		'Angst',
+		'Hovedpine',
+		'Gavmildhed',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Et psykisk kendetegn ved ludomaner er fx:',
+	answers: [
+		'Depression',
+		'Hjertebanken',
+		'Aftalebrud',
+		'Gavmildhed',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Et fysisk kendetegn ved ludomaner er fx:',
+	answers: [
+		'Nedsat immunforsvar',
+		'Depression',
+		'Social isolation',
+		'Større muskler',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Pengespil er altid designet til:',
+	answers: [
+		'At du får lyst til at spille mere',
+		'At du er sikker på at vinde',
+		'At du ikke kan blive afhængig',
+		'At du har fuld kontrol over udfaldet',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Jes Dorph Pedersen mener om brugen af kendte som blikfang til spillereklamer:',
+	answers: [
+		'At det er problematisk, og de har et særligt ansvar som rollemodeller',
+		'At det er godt, for man kan se, hvad de står for',
+		'At det er problematisk, fordi de ikke tjener på det',
+		'At det er godt, for det hjælper folk til at komme i gang med at spille',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Publikums betydning for sportsudøverne:',
+	answers: [
+		'Kan være både positiv og negativ',
+		'Er positiv',
+		'Er negativ',
+		'Er ligegyldig',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Man vinder foran et hjemmepublikum:',
+	answers: [
+		'Oftere',
+		'Altid',
+		'Sjældnere',
+		'Aldrig',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'I fodbold kalder man ofte tilskuerne:',
+	answers: [
+		'Den 12. mand',
+		'Udskifteren',
+		'Den ekstra målmand',
+		'Den 13. mand',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'At have publikum på kan for en sportsudøver være:',
+	answers: [
+		'Både positivt og negativt, for det kan hjælpe en til at blive tændt, men man kan også blive for nervøs',
+		'Kun positivt, for det hjælper en til at ramme det rette spændingsniveau',
+		'Kun negativt, for det gør, at man ikke kan ramme det rette spændingsniveau',
+		'Ligegyldigt, da de jo ikke er med på banen',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Reklamer i forbindelse med sportsudsendelser',
+	answers: [
+		'Er nøje planlagt, så tilskuerne lokkes til at bruge penge og se mere sport i tv',
+		'Er nøje planlagt for at sørge for, at familien har mere tid sammen',
+		'Er tilfældige, men man regner med, at det giver tilskueren lyst til at købe mere',
+		'Er der kun som et ekstra underholdningsindslag for at skabe stemning til kampene',
+	],
+	type: 'multiple_text',
+ 	correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['9.7'],
+ 	text: 'Andres Escobar blev skudt i 1994:',
+	answers: [
+		'Fordi han lavede selvmål i en fodboldkamp',
+		'Fordi han havde spillet på sig selv i en kamp',
+		'Fordi han skyldte penge til spillegæld',
+		'Fordi han var søn af Pablo Escobar',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'

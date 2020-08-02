@@ -19,7 +19,6 @@ var links = {
 { chapter:'25.4.1',link:'https://www.dropbox.com/s/2412u6fhjdotkum/25-4-1.mp3?dl=0'},
 { chapter:'25.4.2',link:'https://www.dropbox.com/s/jiq7v1jivto3i15/25-4-2.mp3?dl=0'},
 { chapter:'25.4.3',link:'https://www.dropbox.com/s/d18y0uoclfwufr2/25-4-3.mp3?dl=0'},
-{ chapter:'25.4.3 (2013)',link:'https://www.dropbox.com/s/rx4mqedrwootyuh/25-4-3%20%282013%29.mp3?dl=0'},
    ],
    '25.5':[
 { chapter:'25.5',link:'https://www.dropbox.com/s/ht65s250nyv2qnw/25-5.mp3?dl=0'},

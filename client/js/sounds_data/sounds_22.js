@@ -45,10 +45,8 @@ var links = {
 { chapter:'22.6.10',link:'https://www.dropbox.com/s/zqw970d9izmcioe/22-6-10.mp3?dl=0'},
 { chapter:'22.6.11',link:'https://www.dropbox.com/s/joovfqbeywtnkdk/22-6-11.mp3?dl=0'},
 { chapter:'22.6.12',link:'https://www.dropbox.com/s/sm0rqdmtxl4s6fz/22.6.12%20%282017%29.mp4?dl=0'},
-{ chapter:'22.6.12 (2016)',link:'https://www.dropbox.com/s/48nb4qey9p3nus9/22-6-12.mp3?dl=0'},
 { chapter:'22.6.13',link:'https://www.dropbox.com/s/3uikroko6vp48dp/22-6-13.mp3?dl=0'},
 { chapter:'22.6.14',link:'https://www.dropbox.com/s/6i3hb16lj9w53ca/22-6-14%20%282019%29.mp3?dl=0'},
 { chapter:'22.6.14 (2018)',link:'https://www.dropbox.com/s/89radjf8fd7ochp/22-6-14.mp3?dl=0'},
-{ chapter:'22.6.14 (2015)',link:'https://www.dropbox.com/s/e84h8f0x15sk9t4/22-6-14%20%282015%29.mp3?dl=0'},
    ],
 }

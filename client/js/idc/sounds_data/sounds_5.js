@@ -56,6 +56,14 @@ var links = {
 		link:"https://www.dropbox.com/s/mlpjz6q1c3kn3kk/5.6.2%20%282018%29.mp4?dl=0"
 	}
 	],
+	"5.7":[
+	{chapter:'5.7', link:'https://www.dropbox.com/s/cig6wv2fy8ogu4k/5.7_2020_.mp4?dl=0'},
+	{chapter:'5.7.1', link:'https://www.dropbox.com/s/vhfjcoyugap506t/5.7.1_2020_.mp4?dl=0'},
+	{chapter:'5.7.2',link:'https://www.dropbox.com/s/prz9jydmbgkckat/5.7.2_2020_.mp4?dl=0'},
+	{chapter:'5.7.3',link:'https://www.dropbox.com/s/ku35citgf6afcks/5.7.3_2020_.mp4?dl=0'},
+	{chapter:'5.7.4',link:'https://www.dropbox.com/s/qow5he3yz8cdc6w/5.7.4_2020_.mp4?dl=0'},
+	{chapter:'5.7.5',link:'https://www.dropbox.com/s/wm6nihofo35g77j/5.7.5_2020_.mp4?dl=0'},
+	],
 
   }
 

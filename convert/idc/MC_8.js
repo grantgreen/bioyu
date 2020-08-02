@@ -141,7 +141,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
- 	text: 'Hvad stor kan lungeventilationen nemt blive hos veltrænede mænd?',
+ 	text: 'Hvor stor kan lungeventilationen nemt blive hos veltrænede mænd?',
 	answers: [
 		'150 liter luft/minut',
 		'100 liter luft/minut',
@@ -155,7 +155,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
- 	text: 'Hvad stor kan lungeventilationen nemt blive hos veltrænede kvinder?',
+ 	text: 'Hvor stor kan lungeventilationen nemt blive hos veltrænede kvinder?',
 	answers: [
 		'100 liter luft/minut',
 		'25 liter luft/minut',
@@ -367,7 +367,7 @@ db.questions.save(
         chapters: ['8.2'],
  	text: 'Hvad er en vene?',
 	answers: [
-		'En blodåre, der løber mod hjertet',
+		'En blodåre, der løber mod fra hjertet',
 		'En blodåre, hvor blodet ikke er iltet',
 		'En blodåre, hvor blodet er iltet',
 		'En blodåre, der løber væk fra hjertet',
@@ -1359,7 +1359,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
- 	text: 'I hvilken af følgende længder af sarkomerlængden, er man stærkest?',
+ 	text: 'I hvilken, af følgende længder af sarkomerlængden, er man stærkest?',
 	answers: [
 		'Når sarkormerlængden er i midterposition (ca. 2 μm)',
 		'Når sarkormerlængden er størst (ca. 4 μm)',
@@ -1415,7 +1415,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
- 	text: 'Hvad ligger bag forkortelsen AMS??',
+ 	text: 'Hvad ligger bag forkortelsen AMS?',
 	answers: [
 		'Acute Muscle Soreness',
 		'Acute Muscle Sadness',
@@ -2003,7 +2003,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
- 	text: 'Hvor mange sæt anbefaler man, hvis man vil opnå større muskler (Hypertrofi)?',
+ 	text: 'Hvor mange sæt anbefaler man, hvis man vil opnå større muskler (hypertrofi)?',
 	answers: [
 		'3-5',
 		'1-3',
@@ -2045,7 +2045,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
- 	text: 'Ved hvilken intensitet anbefaler man, at man skal arbejde, hvis man vil opnå større muskler (Hypertrofi)?',
+ 	text: 'Ved hvilken intensitet anbefaler man, at man skal arbejde, hvis man vil opnå større muskler (hypertrofi)?',
 	answers: [
 		'Lav-moderat',
 		'Moderat',
@@ -2087,7 +2087,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
- 	text: 'Når man starter med at styrketræner, opnår man en hurtig fremgang. Hvor stor en del af det tilskrives fremgang i nervesystemet?',
+ 	text: 'Når man starter med at styrketræne, opnår man en hurtig fremgang. Hvor stor en del af det tilskrives fremgang i nervesystemet?',
 	answers: [
 		'90 %',
 		'80 %',
@@ -2297,7 +2297,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.8'],
- 	text: 'Hvilken form for varmeafgivelse er det, når man står på et koldt gulv med bare fødder',
+ 	text: 'Hvilken form for varmeafgivelse er det, når man står på et koldt gulv med bare fødder?',
 	answers: [
 		'Konduktion',
 		'Konvektion',
@@ -2538,7 +2538,7 @@ db.questions.save(
  	text: 'Hvad er verdensrekorden i at svømme dybest muligt under vandets overflade uden hjælp af svømmefødder eller andet?',
 	answers: [
 		'102 meter',
-		'92 meterr',
+		'92 meter',
 		'72 meter',
 		'52 meter',
 	],
@@ -2551,7 +2551,7 @@ db.questions.save(
         chapters: ['8.8'],
  	text: 'Hvad er verdensrekorden i at svømme dybest muligt under vandets overflade med hjælp af en slæde eller ballon?',
 	answers: [
-		'214',
+		'214 meter',
 		'102 meter',
 		'141 meter',
 		'75 meter',
@@ -2566,7 +2566,7 @@ db.questions.save(
  	text: 'Hvor langt har den danske fridykker Stig Severinsen svømmet under is?',
 	answers: [
 		'76 meter',
-		'52 meterr',
+		'52 meter',
 		'145 meter',
 		'42 meter',
 	],

@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="../../js/tiles.js"></script>
+    <script type="text/javascript" src="../../js/idc/multiple_choice.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+    <script type="text/javascript" >
+      $(document).ready(function () {
+		  //"!!topic!",
+		  var url = window.location.hostname;
+		  var imageLib = "../images";
+		  var mainTopic = imgButton("mainTopic", "multiple_choice_selector.html?topic=" + "!!topic!", imageLib + '/icons/yubio_multiple_choice_icon.svg');
+    var mainYubio = imgButton("mainYubio", "index_tiles.html", imageLib + '/yubio_logo_pure.svg');	
+		//getChapter("!!chapters!",  "/idc");
+		initState();
+		getChapter("!!chapters!",  "/idc");
+         populate("!!chapters!",  "/idc");
+	  });
+	  function populate(chapterNo, bookType)
+	  {
+	  	getQuizQuestions(bookType,chapterNo,function(q)
+	  	{
+	  		var parent = $('#questionsSelected');
+			 questions = JSON.parse(q);
+			var subchapter = "";
+			for(var i = 0; i < questions.questions.length; i++)
+			{
+				//obj.questions[0].chapters[0]
+				if( subchapter != questions.questions[i].chapters[0])
+				{
+					 subchapter= questions.questions[i].chapters[0];// chapter + "." + (i+1);
+					 parent.append("</br><label style=\"font-size: 30pt;text-align: left;\">"+subchapter+"</label></br>")
+				}
+				var cb = $('<input type="checkbox" onclick="questionSelected(this);"></input>');
+				cb.attr('name', 'question_id');
+				cb.attr('id', questions.questions[i]._id.$oid);
+				cb.attr('value', questions.questions[i]._id.$oid);
+				parent.append(cb);
+
+				var label = $('<label class="button_wide"></label>');
+				label.attr('for', questions.questions[i]._id.$oid);
+				label.html(questions.questions[i].text);
+				label.attr('title', questions.questions[i].text);
+				parent.append(label);
+			}
+	  	});
+	  };
+	function getChapter(chapterNo, bookType) {
+    $.ajax({
+	url: (bookType ? bookType : "") + "/getChapter.json",
+	data: { chapterno: chapterNo }
+    }).done(function( chapter ) {
+	var chapterHeader = $('#chapter_header');
+
+	var header = $('<h2></h2>');
+	header.html(chapter.name);
+	$('#headerText').val(chapter.name);
+	chapterHeader.append(header);
+
+	addSubchapterCheckboxes(chapterNo, chapter.sub.length - 1, chapter); // Do not use resume
+	
+    }).fail(function(jqXHR, textStatus) {
+	alert( "Request failed: " + textStatus );
+	});
+	
+	function addSubchapterCheckboxes(chapter, subchapterCount, chp) {
+    var parent = $('#subchaptersRandom');
+    for(var i = 0; i < subchapterCount; i++) 
+    {
+		if(chp.sub[i].hasQuestions == false) {
+		    continue;
+		}
+			var subchapter = chapter + "." + (i+1);
+			var cb = $('<input type="checkbox"></input>');
+			cb.attr('name', 'subchapter');
+			cb.attr('id', subchapter);
+			cb.attr('value', subchapter);
+			parent.append(cb);
+
+			var label = $('<label class="button_wide"></label>');
+			label.attr('for', subchapter);
+			label.html(subchapter);
+			label.attr('title', chp.sub[i].name);
+			parent.append(label);
+		}
+	}
+};//getChapter
+var questions;
+var questionsSelected =[];
+function initState()
+{
+	isRandomState = true;
+	document.getElementById("column1").style.display = "none";
+	document.getElementById("randomColumn").style.display = "inline";
+};
+function toggledState()
+{
+	isRandomState = false;
+	document.getElementById("column1").style.display = "inline";
+	document.getElementById("randomColumn").style.display = "none";
+};
+function questionSelected(question) {
+	// if( question.checked)
+	// {
+	// 	questionSelected.push(question._id.$oid);
+	// }
+	// else
+	// {
+	// 	var found = questionSelected.find(element=>element => question._id.$oid );
+	// 	if(found == null)
+	// 	 {
+
+	// 	 }
+	// }
+};
+let isRandomState = true;
+function handleClick(myRadio) {
+	if(myRadio.value == 1)
+	{
+		initState();
+	}
+	else
+	{
+		toggledState();
+	}
+};
+
+function onSubmit() {
+	if( isRandomState){return;}
+
+
+}
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="text-align:center">
+	<div class="col-md-12">	  
+
+	  <span id="mainBack"></span>
+	  <span id="mainTopic"></span>
+	  <span id="mainYubio"></span>
+	</div>
+      </div>
+      <div class="row" style="text-align:center; margin-top: 30px">
+	<div class="col-md-12">	  
+	  <span id="chapter_header" style="font-size: 30pt"></span>
+	</div>
+      </div>
+        <div class="row" style="text-align: center">
+        <input type="radio" id="level1" name="level" onclick="handleClick(this);" value="1" checked/><label class="button_wide" for="level1">Generer tilfældige spørgsmål</label>
+	      <input type="radio" id="level2" name="level" onclick="handleClick(this);" value="2" /><label class="button_wide" for="level2">Udvælg selv spørgsmål</label>	     
+        </div>
+      <div class="row" style="text-align: center">
+      <div class="col-md-12" id="randomColumn">
+		  
+	<form onsubmit="return onSubmit();" action="http://yubio.dk/idc/multiple_choice_quiz.html" method="post">
+		</br>
+		</br>
+		<fieldset id="subchaptersRandom">
+		<legend>Vælg de delkapitler der skal indgå i quiz</legend>
+		</fieldset>
+		</br>
+		</br>
+		</br>
+		<fieldset id="questionCount">
+		<legend>Vælg antal spørgsmål der skal indgå i quiz</legend>
+		<input type="number" name="count" id="count" min="1" max="50" value="20"></input>
+		</fieldset>	
+		</br>
+		</br>
+		</br>
+		</br>
+		<label style="text-align: left" class="fixed-label" for="timer_id">Tidsfrist (minutter)</label>
+		<input type="text" id="timer_id" name="timer_id" value="Ingen tidsfrist">
+		</br>
+		</br>
+		<label style="text-align: left" class="fixed-label" for="quiz_id">Navn på quiz   </label>
+		<input type="text" id="quiz_id" name="quiz_id">
+		</br>
+		</br>
+		<!-- <label style="text-align: left" class="fixed-label" for="description_id">Beskrivelse    </label>
+		<input type="text" id="description_id" name="description_id"> -->
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		<input id="startButton" type="submit" value="Byg quiz"/>
+	</form>
+	  </div>
+	  <div class="col-md-12" id="column1">
+	
+		<form onsubmit="return onSubmit();" action="http://yubio.dk/idc/multiple_choice_quiz.html" method="post">
+			</br>
+			</br>
+			<fieldset id="questionsSelected">
+			<legend>Vælg de spørgsmål der skal indgå i quiz</legend>
+			</fieldset>
+			</br>
+			</br>
+			</br>
+			<!-- <fieldset id="questionCount">
+			<legend>Vælg antal spørgsmål der skal indgå i quiz</legend>
+			<input type="number" name="count" id="count" min="1" max="50" value="20"></input>
+			</fieldset>	 -->
+			</br>
+		</br>
+		</br>
+			</br>
+			<label style="text-align: left" class="fixed-label" for="timer_id">Tidsfrist (minutter)</label>
+			<input type="text" id="timer_id" name="timer_id" value="Ingen tidsfrist">
+			</br>
+			</br>
+			<label style="text-align: left" class="fixed-label" for="quiz_id">Navn på quiz   </label>
+			<input type="text" id="quiz_id" name="quiz_id">
+			</br>
+			</br>
+			<!-- <label style="text-align: left" class="fixed-label" for="description_id">Beskrivelse    </label>
+			<input type="text" id="description_id" name="description_id"> -->
+			</br>
+		</br>
+	</br>
+	</br>
+	</br>
+			<input id="startButton" type="submit" value="Byg quiz"/>
+		</form>
+<!-- 
+	  <form action="questionnaire.html" method="post" id="mcForm">
+	    <br />
+	    <fieldset>
+	      <legend>Spiltype</legend>
+	      <input type="radio" id="practiceMode" name="mode" value="practice" checked /><label class="button" for="practiceMode">Træning</label>
+	      <input type="radio" id="battleMode" name="mode" value="battle" /><label class="button" for="battleMode">Kamp</label>
+	    </fieldset>
+	    <br />
+	    <fieldset id="subchapters">
+	      <legend>Delkapitler</legend>
+	    </fieldset>
+	    <br />
+	    <fieldset id="questionCount">
+	      <legend>Antal spørgsmål</legend>
+	      <input type="number" name="count" id="count" min="1" max="50" value="10"></input>
+	    </fieldset>	    
+	    <br />
+	    <fieldset id="participants">
+	      <legend>Antal deltagere</legend>
+	      <input type="radio" id="singlePlayer" name="players" value="single" checked /><label class="button" for="singlePlayer">En deltager</label>
+	      <input type="radio" id="multiPlayer" name="players" value="multiple" /><label class="button" for="multiPlayer">Flere deltagere</label><br />
+	    
+	      <div id="emailInvitation">
+		<div style="margin-top: 20px">
+		  <a class="yubioBtn" style="height: 3em" id="mailInvitation" href="">Opret email invitation</a>
+		</div>
+		<div id="directLink">
+		</div>
+	      </div>
+	    </fieldset>
+
+	    <br />
+
+	    <fieldset id="levelSet">
+	      <legend>Niveau</legend>
+	      <input type="radio" id="level1" name="level" value="1" checked/><label class="button" for="level1">Niveau 1</label>
+	      <input type="radio" id="level2" name="level" value="2" /><label class="button" for="level2">Niveau 2</label>	     
+	    </fieldset>
+
+
+	    <br />
+	    <div id="singlePlayerOptions">
+              <input id="startButton" type="submit" value="Start"/>
+              <input id="highScoreButton" type="submit" value="Highscores"/>
+	    </div>
+
+	    <br />
+
+	    <input type="hidden" name="stopwatch" value="true" />
+	    <input type="hidden" name="topic" value="!!topic!" />
+	    <input type="hidden" name="chapters" value="!!chapters!" />
+	    <input type="hidden" id="headerText" name="headerText" /> -->
+	  
+	  </form>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

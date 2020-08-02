@@ -37,7 +37,6 @@ namespace Yubio.Server
                 YubioLink = yubioLink;
                 Url = url;
             }
-
         }
     }
     internal class LinkParser

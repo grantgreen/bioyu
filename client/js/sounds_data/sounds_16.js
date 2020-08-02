@@ -18,12 +18,9 @@ var links = {
 { chapter:'16.4.1',link:'https://www.dropbox.com/s/2h2lfwijwlx61op/16-4-1.mp3?dl=0'},
 { chapter:'16.4.2',link:'https://www.dropbox.com/s/4vuec3kwvkvuvql/16-4-2.mp3?dl=0'},
 { chapter:'16.4.3',link:'https://www.dropbox.com/s/h3ah1w4stdn1epd/16-4-3.mp3?dl=0'},
-{ chapter:'16.4.3 (2015)',link:'https://www.dropbox.com/s/mu8pkfl0yjh4nwt/16-4-3%20%282015%29.mp3?dl=0'},
 { chapter:'16.4.4',link:'https://www.dropbox.com/s/ta2raf3mwqsknl7/16-4-4.mp3?dl=0'},
 { chapter:'16.4.5',link:'https://www.dropbox.com/s/pg9grvbjjjwrcr0/16-4-5.mp3?dl=0'},
-{ chapter:'16.4.5 (2015)',link:'https://www.dropbox.com/s/sf2lpcakwvpot3c/16-4-5%20%282015%29.mp3?dl=0'},
 { chapter:'16.4.6',link:'https://www.dropbox.com/s/l539kntm38ciaeu/16-4-6.mp3?dl=0'},
-{ chapter:'16.4.6 (2015)',link:'https://www.dropbox.com/s/6hr06efae7vke2s/16-4-6%20%282015%29.mp3?dl=0'},
    ],
    '16.5':[
 { chapter:'16.5',link:'https://www.dropbox.com/s/sn1ciba0ebwud44/16-5.mp3?dl=0'},

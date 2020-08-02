@@ -603,3 +603,62 @@ var loadQuestionnaire = function(pGameId, bookType) {
 	alert( "Request failed: " + textStatus );
     });
 }
+
+var loadQuiz = function(bookId, id,  callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/list/"+bookId+"/"+id,
+		}).done(function( link ) {
+			runQuiz(link);
+					callback(link);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
+
+var runQuiz = function( response) {
+  
+	var quiz = JSON.parse(response);
+	var imageLib =  "../images";
+	var bookType = "/idc";	
+	var backButton = imgButton("mainBack", "javascript:history.back()", imageLib + '/icons/yubio_back_icon.svg');
+	var mainTopic = imgButton("mainTopic", "multiple_choice_selector.html", imageLib + '/icons/yubio_multiple_choice_icon.svg');
+	var mainYubio = imgButton("mainYubio", "index_tiles.html", imageLib + '/yubio_logo_pure.svg');
+    
+    $('#timer').show();
+    $('#timer').css('fontFamily', 'digital, verdana');
+    // if(isExpired(o)) return;
+
+    var headerContainer = $('#header');
+    var header = $('<h2></h2>');
+  
+    header.html(quiz["name"]);
+    headerContainer.append(header);
+    
+    try { 
+	// questions = o.documents;
+
+	// questions = shuffleArray(questions);
+ 	questions = quiz["questions"];
+	//alert(o.responseText);
+        for (var i = 0, len = questions.length; i < len; ++i) {
+	    questions[i] = {
+		"question": questions[i],
+		"index": i
+	    };
+        }
+	if(questions != null && questions.length > 0) {
+	    addQuestion(questions[0], bookType);
+	    //	    answerTime = (new Date).getTime();
+	    startCounter();
+	}
+	else {
+	    alert("Ingen spørgsmål fundet til dette område");
+	}
+    } 
+    catch (x) { 
+	alert("JSON Parse failed!" + x); 
+	return; 
+    } 
+}
