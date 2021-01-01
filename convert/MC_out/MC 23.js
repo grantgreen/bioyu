@@ -187,11 +187,11 @@ db.questions.save(
         answers: [
             'At DNA-molekyler sorteres efter størrelse, da de mindste vandrer hurtigst',
             'At DNA-molekyler sorteres efter størrelse, da de mindste vandrer langsomst',
-            'At DNA-molekylerne adskilles i et elektrisk felt, hvor de mindste stykker vandrer længst',
-            'At DNA-molekylerne adskilles i et elektrisk felt, hvor de mindste stykker vandrer kortest'
+            'DNA-molekyler sorteres efter deres sekvens',
+            'DNA-molekylerne adskilles efter deres aminosyresammensætning'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '0'
     });
 
 db.questions.save(

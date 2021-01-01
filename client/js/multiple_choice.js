@@ -15,7 +15,69 @@ var getQuestions = function(parameters, bookType, callback) {
     });
 }
 
-
+var getQuizQuestions = function(bookId, chapter, callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/getquestions/"+bookId+"?chapter="+chapter
+		}).done(function( questions ) {
+					callback(questions);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
+var addQuiz = function(bookId, name, description, chapters, numberOfQuestions,quizTimeout,showHighScore, callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/create/"+bookId+"/"+name+"?chapters="+chapters+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore,
+		}).done(function( link ) {
+					callback(link);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
+var addQuizByQuestions = function(bookId, name, description, questions, numberOfQuestions,quizTimeout,showHighScore, callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/create_by_ids/"+bookId+"/"+name+"?chapters="+questions+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore,
+		}).done(function( link ) {
+					callback(link);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
+var loadQuiz = function(bookId, id,  callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/list/"+bookId+"/"+id,
+		}).done(function( link ) {
+					callback(link);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
+var hasMC = function(chapterNo, bookType, callback)
+{
+ $.ajax({
+	url: (bookType ? bookType : "") + "/getChapter.json",
+	data: { chapterno: chapterNo }
+    }).done(function( chapter ) {
+    	for (var i = 0; i < chapter.sub.length; i++)
+    	{
+    		if( chapter.sub[i].hasMC != null)
+    		{
+    			callback(chapter.sub[i].hasMC,  chapter.sub[i].color);
+    			return;
+    		}
+    	}
+    	callback(true);
+    }).fail(function(jqXHR, textStatus) {
+	alert( "Request failed: " + textStatus );
+    });
+}
 var getChapter = function(chapterNo, bookType) {
     $.ajax({
 	url: (bookType ? bookType : "") + "/getChapter.json",
@@ -38,7 +100,7 @@ var getChapter = function(chapterNo, bookType) {
 var addSubchapterCheckboxes = function(chapter, subchapterCount, chp) {
     var parent = $('#subchapters');
     for(var i = 0; i < subchapterCount; i++) {
-	if(chp.sub[i].hasQuestions == false ) {
+	if(chp.sub[i].hasQuestions == false) {
 	    continue;
 	}
 	var subchapter = chapter + "." + (i+1);
@@ -58,21 +120,35 @@ var addSubchapterCheckboxes = function(chapter, subchapterCount, chp) {
 
 
 var initMCGame = function(chapters, topic, bookType) {
-    if(chapters.indexOf("-") == -1) {
-	getChapter(chapters, bookType);
-    }
+    if(chapters.indexOf("-") == -1) 
+    {
+    	var mc = hasMC(chapters,bookType, function(hasMC, color)
+    	{
+    		if( !hasMC)
+    		{
+    			$('#column1').hide();
+    			$('#altColumn').show();
+    			  document.getElementById("info").style.color = color;
+    			 var imageLib = "../images";
 
-//    addSubchapterCheckboxes(chapters);
-
-
-    $('#practiceMode').select();
+    var backButton = imgButton("mainBack", "javascript:history.back()", imageLib + '/icons/yubio_back_icon.svg');
+    var mainTopic = imgButton("mainTopic", "multiple_choice_selector.html?topic=" + topic, imageLib + '/icons/yubio_multiple_choice_icon.svg');
+    var mainYubio = imgButton("mainYubio", "index_tiles.html", imageLib + '/yubio_logo_pure.svg');	
+    		}
+    		if( hasMC)
+    		{
+    			//getChapter(chapters, bookType);
+    			 $('#practiceMode').select();
+    			 $('#altColumn').hide();
     $('#highScoreButton').hide();
     $('#subchapters').show();
     $('#questionCount').show();
     $('#participants').hide();
     $('#levelSet').hide();
     $('#emailInvitation').hide();
-
+	$('#randomColumn').hide();
+		$('#questionsColumn').hide();
+		$('#quizModeSelector').hide();
 
     $('#levelSet').find('input[name="level"]').change(function() {
     });
@@ -87,13 +163,33 @@ var initMCGame = function(chapters, topic, bookType) {
 	$('#questionCount').show();
 	$('#participants').hide();	
 	$('#levelSet').hide();
+	$('#randomColumn').hide();
+	$('#questionsColumn').hide();
+	$('#quizModeSelector').hide();
 	$('#levelSet').find('input[name="level"]').removeAttr('checked');
 
 
 
 	$('#startButton').show();
 	$('#emailInvitation').hide();
-    });
+	});
+
+	$('#buildQuizMode').change(function() {
+		$('#randomColumn').show();
+		$('#questionsColumn').hide();
+		$('#quizModeSelector').show();
+		$('#highScoreButton').hide();
+		$('#subchapters').hide();
+		$('#questionCount').hide();
+		$('#participants').hide();	
+		$('#levelSet').hide();
+		$('#levelSet').find('input[name="level"]').removeAttr('checked');
+	
+	
+	
+		$('#startButton').hide();
+		$('#emailInvitation').hide();
+		});
 
     $('#battleMode').change(function() {
 	$('#highScoreButton').show();
@@ -104,6 +200,9 @@ var initMCGame = function(chapters, topic, bookType) {
 	$('#levelSet').show();
 	$('#emailInvitation').hide();
 
+	$('#randomColumn').hide();
+		$('#questionsColumn').hide();
+		$('#quizModeSelector').hide();
 	$('#singlePlayer').click();
 
 	$('#subchapters').find('input[name="subchapter"]').removeAttr('checked');
@@ -201,4 +300,13 @@ var initMCGame = function(chapters, topic, bookType) {
 	    document.location.href = mailto;
 	});
     });
+    		}
+    	});
+	
+    }
+
+//    addSubchapterCheckboxes(chapters);
+
+
+   
 }

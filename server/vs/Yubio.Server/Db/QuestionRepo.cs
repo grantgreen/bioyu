@@ -22,7 +22,7 @@ namespace Yubio.Server.Db
             }
         }
 
-        public static Question FindById(this IMongoDatabase database,ObjectId id)
+        public static Question FindById(this IMongoDatabase database, ObjectId id)
         {
             var collection = database.GetCollection<BsonDocument>(CollectionName);
             var filter = Builders<BsonDocument>.Filter.Eq("_id", id);
@@ -37,8 +37,8 @@ namespace Yubio.Server.Db
         public static IEnumerable<Question> QuestionsByChapter(this IMongoDatabase database, string chapter)
         {
             var collection = database.GetCollection<BsonDocument>(CollectionName);
-            var filter = Builders<BsonDocument>.Filter.Regex("chapters",BsonRegularExpression.Create($@"{int.Parse(chapter)}.[0-9]+"));
-           
+            var filter = Builders<BsonDocument>.Filter.Regex("chapters", BsonRegularExpression.Create($@"^{int.Parse(chapter)}.[0-9]+"));
+
             foreach (var n in collection.Find(filter).ToList())
             {
                 yield return BsonSerializer.Deserialize<Question>(n);
@@ -65,7 +65,7 @@ namespace Yubio.Server.Db
 
     public class QuestionList
     {
-        [BsonElement("questions")] 
+        [BsonElement("questions")]
         public IEnumerable<Question> Questions { get; set; }
 
         public QuestionList(IEnumerable<Question> questions)

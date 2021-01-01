@@ -6,7 +6,7 @@
     <script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
 
     <script type="text/javascript" src="../../js/tiles.js"></script>
-    <script type="text/javascript" src="../../js/idc/multiple_choice.js"></script>
+    <script type="text/javascript" src="../../js/multiple_choice.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
 
@@ -14,10 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
 
-  <script type="text/javascript" >
-   function handleClick(myRadio) {
-		
-		};
+	<script type="text/javascript" >
 	    (function($) {
         $(document).ready(function () {
 
@@ -27,48 +24,42 @@
 				var numberOfQuestions = "!!count!";
         var chapter ="!!subchapter!";
         var questions ="!!question_id!";
-		var name ="!!quiz_id!";
-        if( name == "undefined" || name == "")
-        {
-          alert("Testen skal indeholde et navn");
-          return;
-        }
+				var name ="!!quiz_id!";
 				var desc = "!!description_id!";
         var timer = "!!timer_id!";
-        var highScore = "!!high_score!" == "on";
+        var highScore = "!!high_score!" == "show";
         var timeout = isNaN(timer) ? 0 :parseInt(timer); 
-        var hideTimer ="!!hideTimer!" == "on";
         if( questions == "undefined")
         {
-          addQuiz("idc", name, desc, chapter, numberOfQuestions,timeout,highScore,hideTimer, function(link)
+          addQuiz("b", name, desc, chapter, numberOfQuestions,timeout,highScore, function(link)
           {
             var linkContainer = $('#linkContainer');
             var resultContainer = $('#resultContainer');
-            quizLink = "http://yubio.dk/idc/questionnaire_quiz.html?id=" + link;
-            resultLink = quizLink + "&showHighScore=true";
-            var linkText = "<a href=http://yubio.dk/idc/questionnaire_quiz.html?id="+link+">Link til test for den/dem, der skal deltage (fx elever)</p>";
+            quizLink = "http://yubio.dk/b/questionnaire_quiz.html?id="+link;
+            resultLink = quizLink+"&showHighScore=true";
+            var linkText = "<a href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">Link til test</p>";
               linkContainer.html(linkText);
-              resultContainer.html("<a href="+resultLink+">Link til resultater for den/dem, der skal kunne se resultaterne (fx en lærer)</p>");
+              resultContainer.html("<a href="+resultLink+">Link til resultater</p>");
           })
        }
        else
        {
-        addQuizByQuestions("idc", name, desc, questions, 0,timeout,highScore,hideTimer, function(link)
+        addQuizByQuestions("b", name, desc, questions, 0,timeout,highScore, function(link)
           {
             //&showHighScore=true
             var linkContainer = $('#linkContainer');
             var resultContainer = $('#resultContainer');
-            quizLink = "http://yubio.dk/idc/questionnaire_quiz.html?id="+link;
+            quizLink = "http://yubio.dk/b/questionnaire_quiz.html?id="+link;
             resultLink = quizLink+"&showHighScore=true";
-            var linkText = "<a id='linkid' href=http://yubio.dk/idc/questionnaire_quiz.html?id="+link+">Link til test for den/dem, der skal deltage (fx elever)</p>";
+            var linkText = "<a id='linkid' href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">hLink til test</p>";
               linkContainer.html(linkText);
-              resultContainer.html("<a href="+resultLink+">Link til resultater for den/dem, der skal kunne se resultaterne (fx en lærer)</p>");
+              resultContainer.html("<a href="+resultLink+">Link til resultater</p>");
           })
        }
 
 			}
 			else{
-				loadQuiz("idc",id,function(quiz)
+				loadQuiz("b",id,function(quiz)
 				{
 
 				})
@@ -128,9 +119,7 @@
 
     </div>
     <div>
-      <input type="checkbox" id="copyTeacherLink" name="quizmode" onclick="CopyResultLink();" checked />
-      <label class="button" for="copyTeacherLink">Kopier link</label>
-      <!-- <button class="yubioBtn" onclick="CopyLink()">Kopier link</button> -->
+      <button class="yubioBtn" onclick="CopyLink()">Kopier link</button>
     </div>
       </div>
 <br/>
@@ -139,9 +128,7 @@
 
       </div>
       <div>
-        <!-- <button class="yubioBtn" onclick="CopyResultLink()">Kopier link</button> -->
-        <input type="checkbox" id="copyStudentLink" name="quizmode" onclick="CopyLink();" checked />
-      <label class="button" for="copyStudentLink">Kopier link</label>
+        <button class="yubioBtn" onclick="CopyResultLink()">Kopier link</button>
       </div>
         </div>
   

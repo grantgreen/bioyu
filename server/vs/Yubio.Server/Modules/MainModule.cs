@@ -6,7 +6,6 @@ namespace Yubio.Server.Modules
 {
     public class MainModule : NancyModule
     {
-
         public MainModule()
         {
             Get("/", delegate (dynamic o)
@@ -16,6 +15,18 @@ namespace Yubio.Server.Modules
             });
         }
 
-        protected MongoClient Client => new MongoClient("mongodb://localhost:27017/yubio");
+        private MongoClient client;
+        protected MongoClient Client
+        {
+            get
+            {
+                if (this.client == null)
+                {
+                    this.client = new MongoClient("mongodb://localhost:27017/yubio");
+                }
+
+                return this.client;
+            }
+        }
     }
 }

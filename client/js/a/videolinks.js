@@ -14,6 +14,7 @@ var links = {
 	{"chapter":"9","caption": "Muskler", "link": "https://youtu.be/jPBVSuQClq0","color":"#26213B"},
     {"chapter":"9","caption": "Musklernes opbygning og funktion", "link": "","color":"#26213B"},
     {"chapter":"10","caption": "Energiproduktion under arbejde", "link": "","color":"#26213B"},
+    {"chapter":"10","caption": "Grundlæggende træningslære", "link": "https://youtu.be/pFdseXYbuWA","color":"#26213B"},
      {"chapter":"13","caption": "Kulhydrater", "link": "", "color":"#5E6BAF"},
     {"chapter":"14","caption": "Fedtstoffer", "link": "","color":"#5E6BAF"},
      {"chapter":"15","caption": "Aminosyrer og proteiner", "link": "http://www.youtube.com/watch?v=TyXW8WIpKEY","color":"#5E6BAF"},

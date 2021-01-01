@@ -13,43 +13,37 @@ var chap_20_26_color = "#6BC2B8";
 var chap_30_33_color = "#EC641C";
 
 var getChapterList = function(topic, bookType) {
-    $.ajax({
-	url: (bookType ? bookType : "") + "/getChapterList.json"
-    }).done(function( chapterList ) {
+   // $.ajax({
+	//url: (bookType ? bookType : "") + "/getChapterList.json"
+    //}).done(function( chapterList ) {
+
+    getQuestions("idc",function(c)
+    {
+            var chapters = JSON.parse(c);
+            for(var i = 0; i < chapters.chapters.length; i++) 
+            {
+                if( chapters.chapters[i].HasQuestions)   
+                {
+                    var contentButton = textButton("column1", 'multiple_choice.html?topic=multiple_choice&chapters=' + (chapters.chapters[i].ChapterNumber),chapters.chapters[i].ChapterNumber + '<br />' +chapters.chapters[i].Header , color, "100X140",25);    
+                }
+            }
+    });
 	var colorIndex = (Math.random() * 6) >> 0;
 	var color = colors[colorIndex];
-        var r = /\d+/;
-	for(var i = 0; i < chapterList.length; i++) 
-    {
-          var index = parseInt(chapterList[i].match(r));
-        var chapter = index;
-        if(chapter >= 1 && chapter <=9)
-            {
-             color = chap_1_7_color;
-var contentButton = textButton("column1", 'multiple_choice.html?topic=multiple_choice&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+    var r = /\d+/;
+}
 
-            }
-        // if(chapter >= 1 && chapter <=7)
-        //     { 
-        //         color = chap_1_7_color;
-        //     }
-        // if(chapter >=10 && chapter <= 16)
-        //     {
-        //         color = chap_10_16_color;
-        //     }
-        // if( chapter >= 20 && chapter <= 26){ 
-        //     color = chap_20_26_color;
-        // }
-        // if( chapter >= 30 && chapter <= 33)
-        //     {
-        //      color = chap_30_33_color;
-        //  }
-	}
-	
-    }).fail(function(jqXHR, textStatus) {
-	alert( "Request failed: " + textStatus );
-    });;
-};
+var getQuestions = function(bookId, callback)
+{
+    $.ajax({
+        url:"http://test.yubio.dk/getchapter/"+bookId+"?populate=true"
+        }).done(function( questions ) {
+                    callback(questions );
+                    return;
+        }).fail(function(jqXHR, textStatus) {
+        alert( "Request failed: " + textStatus );
+        });
+}
 var hasMC = function(chapter)
 {
 	if(!chapter){return false;}

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Common.Logging;
+using log4net.Repository.Hierarchy;
 using Nancy.ModelBinding;
 using Yubio.Server.Db;
 

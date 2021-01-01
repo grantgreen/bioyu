@@ -14,6 +14,17 @@ var getQuestions = function(parameters, bookType, callback) {
  	alert( "Request failed: " + textStatus );
     });
 }
+var getChaptersAndQuestions = function(bookId, callback)
+{
+    $.ajax({
+        url:"http://test.yubio.dk/getchapter/"+bookId+"?populate=true"
+        }).done(function( questions ) {
+                    callback(questions );
+                    return;
+        }).fail(function(jqXHR, textStatus) {
+        alert( "Request failed: " + textStatus );
+        });
+}
 
 var getQuizQuestions = function(bookId, chapter, callback)
 {
@@ -26,10 +37,10 @@ var getQuizQuestions = function(bookId, chapter, callback)
 		alert( "Request failed: " + textStatus );
 		});
 }
-var addQuiz = function(bookId, name, description, chapters, numberOfQuestions,quizTimeout,showHighScore, callback)
+var addQuiz = function(bookId, name, description, chapters, numberOfQuestions,quizTimeout,showHighScore,hideTimer, callback)
 {
 	$.ajax({
-		url:"http://test.yubio.dk/create/"+bookId+"/"+name+"?chapters="+chapters+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore,
+		url:"http://test.yubio.dk/create/"+bookId+"/"+name+"?chapters="+chapters+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore+"&hidewatch="+hideTimer,
 		}).done(function( link ) {
 					callback(link);
 					return;
@@ -37,10 +48,10 @@ var addQuiz = function(bookId, name, description, chapters, numberOfQuestions,qu
 		alert( "Request failed: " + textStatus );
 		});
 }
-var addQuizByQuestions = function(bookId, name, description, questions, numberOfQuestions,quizTimeout,showHighScore, callback)
+var addQuizByQuestions = function(bookId, name, description, questions, numberOfQuestions,quizTimeout,showHighScore,hideTimer, callback)
 {
 	$.ajax({
-		url:"http://test.yubio.dk/create_by_ids/"+bookId+"/"+name+"?chapters="+questions+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore,
+		url:"http://test.yubio.dk/create_by_ids/"+bookId+"/"+name+"?chapters="+questions+"&description="+description+"&questions="+numberOfQuestions+"&timeout="+quizTimeout+"&publichighscore="+showHighScore+"&hidewatch="+hideTimer,
 		}).done(function( link ) {
 					callback(link);
 					return;
@@ -65,14 +76,6 @@ var hasMC = function(chapterNo, bookType, callback)
 	url: (bookType ? bookType : "") + "/getChapter.json",
 	data: { chapterno: chapterNo }
     }).done(function( chapter ) {
-    	for (var i = 0; i < chapter.sub.length; i++)
-    	{
-    		if( chapter.sub[i].hasMC != null)
-    		{
-    			callback(chapter.sub[i].hasMC,  chapter.sub[i].color);
-    			return;
-    		}
-    	}
     	callback(true);
     }).fail(function(jqXHR, textStatus) {
 	alert( "Request failed: " + textStatus );

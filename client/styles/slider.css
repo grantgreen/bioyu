@@ -1,0 +1,46 @@
+ span.checkbox.switcher label {
+        padding: 5px;
+        width: 400px;
+        text-align: left;
+        font-weight: 700;
+        vertical-align: middle;
+        margin-top: 7px;
+        margin-left: 10px;
+      }
+      span.checkbox.switcher label * {
+        vertical-align: middle;
+    
+      }
+      span.checkbox.switcher label input {
+        display: none;
+      }
+      span.checkbox.switcher label input + span {
+        position: relative;
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 75px;
+        height: 40px;
+        float: right;
+        vertical-align: middle;
+        background-color: white;
+        border-radius: 50px;
+        border: 1px solid #eee;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      span.checkbox.switcher label input + span small {
+        position: absolute;
+        display: block;
+        width: 60%;
+        height: 100%;
+        background-color: #c1c1c1;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+        left: 0;
+      }
+      span.checkbox.switcher label input:checked + span small {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+        left: 40%;
+      } 

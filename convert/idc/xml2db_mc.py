@@ -10,11 +10,15 @@ for atype in e.findall('Chapter'):
 	for xtype in atype.findall('Question'):
 		outStr += 'db.questions.save(\n'
 		outStr += '    {\n'
-	        outStr += "        chapters: ['"+ str(atype.get('header')) +"'],\n"
-		outStr += " 	text: '"+ xtype.get('name') +"',\n"	
+		outStr += "        chapters: ['"+ str(atype.get('header')) +"'],\n"
+		outStr += " 	text: '"+ xtype.get('name').replace("'","\\'") +"',\n"	
 		outStr += '	answers: [\n'
 		for a in xtype.findall('Answer'):
-			outStr += "		'"+a.get('text')+"',"
+			i = a.get('text')
+			if( i == None):
+				i = a.get('Text')
+			i = i.replace("'","\\'")
+			outStr += "		'"+i+"',"
 			outStr += '\n'
 		outStr += '	],\n'
 		outStr += "	type: 'multiple_text',\n"	

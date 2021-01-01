@@ -44,20 +44,12 @@ var textButton = function(parentId, href, text, backgroundColor, geometry) {
     var button = $("<a></a>");
     button.attr('href', href);
 
-//    button.addClass("yubioBtn");
     button.addClass("linkbox");
     button.addClass("linkbox_small");
     button.addClass("up");
 
     button.css('height', height + 'px');
     button.css('width', width + 'px');
-
-//    button.bind('mousedown', tileDown);
-//    button.bind('touchstart', tileDown);
-
-//    button.bind('mouseup', tileUp);
-//    button.bind('touchend', tileUp);
-
 
     var textArr = text.split('<br />');
     var lineCount = textArr.length + 1;
@@ -75,6 +67,48 @@ var textButton = function(parentId, href, text, backgroundColor, geometry) {
 
     if(backgroundColor != null) {
 	button.css('background-color', backgroundColor);
+    }
+
+    $('#' + parentId).append(button);
+    return button;
+}
+
+var textButton = function(parentId, href, text, backgroundColor, geometry, lineHeight) {
+
+    var height = 70;
+    var width = 70;
+    if(geometry != null) {
+        var geomArr = geometry.split('X');
+        height = geomArr[0];
+        width = geomArr[1];
+    }
+
+    var button = $("<a></a>");
+    button.attr('href', href);
+
+    button.addClass("linkbox");
+    button.addClass("linkbox_small");
+    button.addClass("up");
+
+    button.css('height', height + 'px');
+    button.css('width', width + 'px');
+
+    var textArr = text.split('<br />');
+    //var lineCount = textArr.length + 1;
+    //var lineHeight = height / lineCount;
+    button.css('line-height', lineHeight + 'px');
+
+    for(var i in textArr) {
+    var line = $("<div></div>");    
+    if(i == 0) {
+        line.css('margin-top', '10px');
+    }
+    line.html(textArr[i]);
+    button.append(line);
+    }
+
+    if(backgroundColor != null) {
+    button.css('background-color', backgroundColor);
     }
 
     $('#' + parentId).append(button);

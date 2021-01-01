@@ -91,6 +91,19 @@ namespace Yubio.Server.Modules
                 return "OK";
             });
 
+            Get("/get_all_scores/{bookid}", delegate (dynamic o)
+            {
+                var args = this.Bind<IdArgs>();
+                var database = Client.GetDatabase(args.BookId.BookToDatabase());
+                var found = database.FindAllScores();
+                var response = new StringBuilder();
+                foreach (var quiz in found)
+                {
+                    response.AppendLine(quiz.Id.ToString());
+                }
+                return found == null ? "NOT FOUND" : response.ToString();
+            });
+
         }
     }
 }

@@ -6,7 +6,9 @@ using Common.Logging;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Nancy;
+using Nancy.Json;
 using Nancy.ModelBinding;
+using Newtonsoft.Json;
 using Yubio.Server.Db;
 
 namespace Yubio.Server.Modules
@@ -31,6 +33,7 @@ namespace Yubio.Server.Modules
             public int Questions { get; set; }
             public int Timeout { get; set; }
             public bool PublicHighScore { get; set; }
+            public bool HideWatch { get; set; }
         }
 
         public QuizModule()
@@ -67,6 +70,7 @@ namespace Yubio.Server.Modules
                     CreationTime = DateTime.Now,
                     Timeout = args.Timeout,
                     PublicHighScore = args.PublicHighScore,
+                    HideWatch = args.HideWatch
                 };
                 dbDemo.InsertQuiz(quiz);
                 var found = dbDemo.QuizById(quiz.Id);
@@ -88,6 +92,7 @@ namespace Yubio.Server.Modules
                     allQuestions.Add(db.FindById(new ObjectId(c)));
                 }
 
+                allQuestions.Reverse();
                 var dbDemo = this.Client.GetDatabase(args.BookId.BookToDatabase());
                 var quiz = new Quiz
                 {
@@ -97,6 +102,7 @@ namespace Yubio.Server.Modules
                     CreationTime = DateTime.Now,
                     Timeout = args.Timeout,
                     PublicHighScore = args.PublicHighScore,
+                    HideWatch = args.HideWatch
                 };
                 dbDemo.InsertQuiz(quiz);
                 var found = dbDemo.QuizById(quiz.Id);
@@ -116,8 +122,8 @@ namespace Yubio.Server.Modules
             {
                 var args = this.Bind<IdArgs>();
 
-                var dbDemo = Client.GetDatabase(args.BookId.BookToDatabase());
-                var found = dbDemo.FindAllQuizes();
+                var database = Client.GetDatabase(args.BookId.BookToDatabase());
+                var found = database.FindAllQuizes();
                 var response = new StringBuilder();
                 foreach (var quiz in found)
                 {
@@ -125,6 +131,12 @@ namespace Yubio.Server.Modules
                 }
                 return found == null ? "NOT FOUND" : response.ToString();
             });
+        }
+
+        internal class QuizTuple
+        {
+            public string Id { get; set; }
+            public string Index { get; set; }
         }
     }
 }

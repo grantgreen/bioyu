@@ -24,6 +24,16 @@ namespace Yubio.Server.Db
             return BsonSerializer.Deserialize<Quiz>(found);
         }
 
+        public static bool DeleteQuiz(this IMongoDatabase database, Quiz quiz)
+        {
+            var collection = database.GetCollection<BsonDocument>(CollectionName);
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", quiz.Id);
+            var found = collection.Find(filter).FirstOrDefault();
+            if (found == null) { return false; }
+            var result = collection.DeleteOne(found);
+            return result.IsAcknowledged;
+        }
+
         public static Quiz QuizByName(this IMongoDatabase database, string name)
         {
             var collection = database.GetCollection<BsonDocument>(CollectionName);
@@ -75,10 +85,13 @@ namespace Yubio.Server.Db
         public DateTime CreationTime { get; set; }
 
         [BsonElement("timeout")]
-        public int Timeout{ get; set; }
+        public int Timeout { get; set; }
 
         [BsonElement("public_score")]
         public bool PublicHighScore { get; set; }
+
+        [BsonElement("hide_watch")]
+        public bool HideWatch { get; set; }
     }
 
 

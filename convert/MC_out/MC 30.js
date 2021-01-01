@@ -344,6 +344,578 @@ db.questions.save(
     });
 db.questions.save(
     {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om miljøet i søbunden om sommeren er ikke korrekt?',
+        answers: [
+            'Der er mangel på næringssalte',
+            'Der er koldt',
+            'Der er iltmangel',
+            'Der er mørkt '
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om miljøet i overfladevandet i søen om sommeren er korrekt?',
+        answers: [
+            'Der er mangel på næringssalte',
+            'Der er mange alger',
+            'Der er iltmangel',
+            'Der er alt for mange næringssalte'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad mener man, når man kalder en sø for en recipient?',
+        answers: [
+            'At der er en å, der løber ud i den',
+            'At der ikke er tilløb til søen',
+            'At der ikke er afløb fra søen',
+            'At søen modtager spildevand'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad æder en skalle?',
+        answers: [
+            'Gedder',
+            'Makrel',
+            'Dyreplankton',
+            'Rovfisk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket dyr æder skaller?',
+        answers: [
+            'Gedder',
+            'Makrel',
+            'Dyreplankton',
+            'Skidtfisk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad æder de mange protozoer i et forurenet vandløb?',
+        answers: [
+            'Bakterier',
+            'Forureningsindikatorer',
+            'Vårfluelarver',
+            'Planter'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket af følgende dyr er en forureningsindikator?',
+        answers: [
+            'Vårfluelarver',
+            'Døgnfluelarver',
+            'Vandbænkebidere',
+            'Røde børsteorme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvorfor kan de røde børsteorme leve i et iltfattigt vandløb?',
+        answers: [
+            'Fordi de har et ånderør',
+            'Fordi de har gæller',
+            'Fordi de har hæmoglobin',
+            'Fordi de ikke har brug for ilt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om et rent vandløb er ikke korrekt?',
+        answers: [
+            'Der lever vårfluelarver',
+            'Der lever døgnfluelarver',
+            'Der lever vandbænkebidere',
+            'Der er mange røde børsteorme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om et forurenet vandløb er korrekt?',
+        answers: [
+            'Der lever guldsmedelarver',
+            'Der lever døgnfluelarver',
+            'Der lever vandbænkebidere',
+            'Der lever mange røde dansemyggelarver'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad er definitionen på iltsvind i et havområde?',
+        answers: [
+            'Et iltindhold på under 0,3 mg/L',
+            'Et iltindhold på under 4 mg/L',
+            'Et iltindhold på under 6 mg/L',
+            'Et iltindhold på under 8 mg/L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad er det mindste iltindhold, der kan være i havet, hvis der skal være iltkrævende organismer? ',
+        answers: [
+            '0,3 mg/L',
+            'under 1 mg/L',
+            'under 3 mg/L',
+            'under 0,1 mg/L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad er hovedårsagen til en bundvending i et havområde?',
+        answers: [
+            'Metandannelse på havbunden',
+            'Dannelse af svovlbrinte på havbunden',
+            'For mange muslinger, der æder plankton',
+            'Nitrifikation og denitrifikation på havbunden'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: ' Hvad har man gjort for at restaurere Hald Sø?',
+        answers: [
+            'Fjernet skidtfisk',
+            'Opgravet bundlaget',
+            'Udsat rovfisk',
+            'Iltet søen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvorfor kan man restaurere en sø ved at fjerne skidtfisk?',
+        answers: [
+            'Fordi de forurener søen med deres affaldsstoffer som fx ekskrementer',
+            'Fordi de æder planteplankton',
+            'Fordi de æder dyreplankton',
+            'Fordi de er føde for rovfiskene'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvordan har man restaureret Brabrand Sø?',
+        answers: [
+            'Fjernet skidtfisk',
+            'Opgravet bundlaget',
+            'Udsat rovfisk',
+            'Iltet søen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket dyr hører ikke til rentvandsfaunaen i et vandløb?',
+        answers: [
+            'Vårfluelarver',
+            'Døgnfluelarver',
+            'Vandbænkebider',
+            'Røde børsteorme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilke svovlbakterier kan danne det såkaldte liglagen på havbunden?',
+        answers: [
+            'De røde svovlbakterier',
+            'De grønne svovlbakterier',
+            'De sorte svovlbakterier',
+            'De hvide svovlbakterier'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilken proces udføres af de hvide svovlbakterier?',
+        answers: [
+            'De spalter svovlholdige aminosyrer',
+            'De omdanner svovlbrinte til sulfat',
+            'De fjerner sulfat ved sulfatreduktion',
+            'De danner den giftige svovlbrinte'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om de hvide svovlbakterier er ikke korrekt?',
+        answers: [
+            'De findes i havet',
+            'De omdanner svovlbrinte til sulfat',
+            'De omdanner nitrat til frit svovl',
+            'De fjerner den giftige svovlbrinte'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvorfor har man lukket mange vandboringer i Vestjylland i de senere år?',
+        answers: [
+            'På grund af for højt indhold af sulfat',
+            'På grund af for højt indhold af bakterier',
+            'På grund af for højt indhold af fosfat',
+            'På grund af for højt indhold af nitrat'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad er den vejledende grænseværdi for nitrat i drikkevand?',
+        answers: [
+            '5 mg/L',
+            '15 mg/L',
+            '25 mg/L',
+            '50 mg/L'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvorfor må der ikke være for meget nitrat i drikkevandet?',
+        answers: [
+            'Fordi nitrat er giftigt',
+            'Fordi nitrat kan denitrificeres til frit kvælstof',
+            'Fordi det kan omdannes til kræftfremkaldende nitrosaminer',
+            'Fordi det kan omdannes til de meget skadelige hormonforstyrrende stoffer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad mener man, når man kalder en fisk for skidtfisk?',
+        answers: [
+            'At de ikke egner sig til menneskeføde, da de er for små',
+            'At de ikke egner sig til menneskeføde, da de ikke smager godt',
+            'At de æder planteplankton og dermed kan skade søen, de lever i ',
+            'At de æder dyreplankton og dermed kan skade søen, de lever i '
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad er methæmoglobin?',
+        answers: [
+            'Hæmoglobin uden Fe&#178;&#8314;',
+            'Hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span> er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
+            'Mennesket normale hæmoglobin',
+            'Det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket udsagn om methæmoglobin er ikke korrekt?',
+        answers: [
+            'Det er hæmoglobin der ikke kan binde ilt',
+            'Det er hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span>  er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
+            'Det kan dannes ved for stort indtag af nitrat i drikkevand',
+            'Det er det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad menes der med mekanisk rensning?',
+        answers: [
+            'Rensning i et biologisk filter',
+            'Fjernelse af mikroorganismer ved fx filtrering',
+            'Fjernelse af især faste bestanddele i spildevandet',
+            'Fjernelse af næringssalte som nitrat og fosfat fra spildevandet '
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad menes med et biologisk filter?',
+        answers: [
+            'Mikroorganismer i et renseanlæg, der sidder på slagger og lignende',
+            'Gitre af forskellige tæthed i et renseanlæg',
+            'Et filter, der kan tilbageholde spildevandets bakterier',
+            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad forstås ved et aktivt slamanlæg?',
+        answers: [
+            'Aktive mikroorganismer, der sidder på slagger og lignende',
+            'Et effektivt renseanlæg',
+            'Et anlæg, der kan tilbageholde spildevandets bakterier',
+            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvordan fjernes nitrat fra spildevandet?',
+        answers: [
+            'Ved denitrifikation',
+            'Ved ammonifikation',
+            'Ved nitrifikation',
+            'Ved kvælstoffiksering'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilken type bakterie kan fjerne nitrat i renseanlægget?',
+        answers: [
+            'Denitrifikationsbakterier',
+            'Ammonifikationsbakterier',
+            'Nitritbakterierne',
+            'Nitratbakterierne'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilken proces i renseanlægget kan udføres af Nitrosomonas?',
+        answers: [
+            'Denitrifikation',
+            'Ammonifikation',
+            'Nitrifikation',
+            'Kvælstoffiksering'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvordan kan fosfat fjernes ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span> i renseanlægget?',
+        answers: [
+            'Fordi der så dannes tungtopløseligt AlPO<span style="vertical-align:sub; font-size:58%;">4</span><span style="vertical-align:super; font-size:58%;">3-</span>',
+            'Fordi der så dannes tungtopløseligt aluminiumfosfat',
+            'Fordi der så dannes tungtopløseligt jernsulfat',
+            'Fordi der så dannes tungtopløseligt FePO<span style="vertical-align:sub; font-size:58%;">4</span><span style="vertical-align:super; font-size:58%;">3-</span>'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvordan fjernes fosfat ved en biologisk proces i renseanlægget?',
+        answers: [
+            'Ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
+            'Ved fældning med Al<span style="vertical-align:super; font-size:58%;">3+</span>',
+            'Ved at de optages af bakterier, der senere fjernes',
+            'Ved at det nedbrydes af bakterier '
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad sker der i rodzoneanlæggets iltrige zoner?',
+        answers: [
+            'Nedbrydning ved respiration',
+            'Nedbrydning ved gæringer',
+            'Denitrifikation',
+            'Kvælstoffiksering'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad sker der i rodzoneanlæggets iltfattige zoner?',
+        answers: [
+            'Nedbrydning ved respiration',
+            'Nitrifikation',
+            'Denitrifikation',
+            'Kvælstoffiksering'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvordan kommer der ilt ned i rodzoneanlægget?',
+        answers: [
+            'Ved sumpplanternes respiration',
+            'Gennem sumpplanternes hule stængeler fra luften',
+            'Ved sumpplanternes fotosyntese',
+            'Ved bakteriernes denitrifikation'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvad var målet for Vandmiljøplan I?',
+        answers: [
+            'At sænke udvaskningen af fosfor med 80 % og udvaskningen af kvælstof med 50 %',
+            'At sænke udvaskningen af fosfor med 50 % og udvaskningen af kvælstof med 80 %',
+            'At sænke udvaskningen af fosfor med 60 % og udvaskningen af kvælstof med 80 %',
+            'At sænke udvaskningen af fosfor med 30 % og udvaskningen af kvælstof med 80 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvornår blev Vandmiljøplan II vedtaget?',
+        answers: [
+            '1968',
+            '1978',
+            '1998',
+            '2005'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvorfor hjælper det på vandmiljøet, at der oprettes vådområder omkring vandløbene?',
+        answers: [
+            'Fordi de forbedrer jordens iltindhold',
+            'Fordi det øger denitrifikationen',
+            'Fordi det øger nitrifikationen',
+            'Fordi det øger ammonifikationen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvornår blev Vandmiljøplan III vedtaget?',
+        answers: [
+            '1978',
+            '1988',
+            '2005',
+            '2008'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
         chapters: ['30.3'],
         text: 'Hvordan defineres et tungmetal?',
         answers: [
@@ -720,579 +1292,8 @@ db.questions.save(
         correct_answer: '1'
     });
 
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad mener man, når man kalder en fisk for skidtfisk?',
-        answers: [
-            'At de ikke egner sig til menneskeføde, da de er for små',
-            'At de ikke egner sig til menneskeføde, da de ikke smager godt',
-            'At de æder planteplankton og dermed kan skade søen, de lever i ',
-            'At de æder dyreplankton og dermed kan skade søen, de lever i '
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
 
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om miljøet i søbunden om sommeren er ikke korrekt?',
-        answers: [
-            'Der er mangel på næringssalte',
-            'Der er koldt',
-            'Der er iltmangel',
-            'Der er mørkt '
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
 
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om miljøet i overfladevandet i søen om sommeren er korrekt?',
-        answers: [
-            'Der er mangel på næringssalte',
-            'Der er mange alger',
-            'Der er iltmangel',
-            'Der er alt for mange næringssalte'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad mener man, når man kalder en sø for en recipient?',
-        answers: [
-            'At der er en å, der løber ud i den',
-            'At der ikke er tilløb til søen',
-            'At der ikke er afløb fra søen',
-            'At søen modtager spildevand'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad æder en skalle?',
-        answers: [
-            'Gedder',
-            'Makrel',
-            'Dyreplankton',
-            'Rovfisk'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket dyr æder skaller?',
-        answers: [
-            'Gedder',
-            'Makrel',
-            'Dyreplankton',
-            'Skidtfisk'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad æder de mange protozoer i et forurenet vandløb?',
-        answers: [
-            'Bakterier',
-            'Forureningsindikatorer',
-            'Vårfluelarver',
-            'Planter'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket af følgende dyr er en forureningsindikator?',
-        answers: [
-            'Vårfluelarver',
-            'Døgnfluelarver',
-            'Vandbænkebidere',
-            'Røde børsteorme'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvorfor kan de røde børsteorme leve i et iltfattigt vandløb?',
-        answers: [
-            'Fordi de har et ånderør',
-            'Fordi de har gæller',
-            'Fordi de har hæmoglobin',
-            'Fordi de ikke har brug for ilt'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om et rent vandløb er ikke korrekt?',
-        answers: [
-            'Der lever vårfluelarver',
-            'Der lever døgnfluelarver',
-            'Der lever vandbænkebidere',
-            'Der er mange røde børsteorme'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om et forurenet vandløb er korrekt?',
-        answers: [
-            'Der lever guldsmedelarver',
-            'Der lever døgnfluelarver',
-            'Der lever vandbænkebidere',
-            'Der lever mange røde dansemyggelarver'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad er definitionen på iltsvind i et havområde?',
-        answers: [
-            'Et iltindhold på under 0,3 mg/L',
-            'Et iltindhold på under 4 mg/L',
-            'Et iltindhold på under 6 mg/L',
-            'Et iltindhold på under 8 mg/L'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad er det mindste iltindhold, der kan være i havet, hvis der skal være iltkrævende organismer? ',
-        answers: [
-            '0,3 mg/L',
-            'under 1 mg/L',
-            'under 3 mg/L',
-            'under 0,1 mg/L'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad er hovedårsagen til en bundvending i et havområde?',
-        answers: [
-            'Metandannelse på havbunden',
-            'Dannelse af svovlbrinte på havbunden',
-            'For mange muslinger, der æder plankton',
-            'Nitrifikation og denitrifikation på havbunden'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: ' Hvad har man gjort for at restaurere Hald Sø?',
-        answers: [
-            'Fjernet skidtfisk',
-            'Opgravet bundlaget',
-            'Udsat rovfisk',
-            'Iltet søen'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvorfor kan man restaurere en sø ved at fjerne skidtfisk?',
-        answers: [
-            'Fordi de forurener søen med deres affaldsstoffer som fx ekskrementer',
-            'Fordi de æder planteplankton',
-            'Fordi de æder dyreplankton',
-            'Fordi de er føde for rovfiskene'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvordan har man restaureret Brabrand Sø?',
-        answers: [
-            'Fjernet skidtfisk',
-            'Opgravet bundlaget',
-            'Udsat rovfisk',
-            'Iltet søen'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket dyr hører ikke til rentvandsfaunaen i et vandløb?',
-        answers: [
-            'Vårfluelarver',
-            'Døgnfluelarver',
-            'Vandbænkebider',
-            'Røde børsteorme'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilke svovlbakterier kan danne det såkaldte liglagen på havbunden?',
-        answers: [
-            'De røde svovlbakterier',
-            'De grønne svovlbakterier',
-            'De sorte svovlbakterier',
-            'De hvide svovlbakterier'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilken proces udføres af de hvide svovlbakterier?',
-        answers: [
-            'De spalter svovlholdige aminosyrer',
-            'De omdanner svovlbrinte til sulfat',
-            'De fjerner sulfat ved sulfatreduktion',
-            'De danner den giftige svovlbrinte'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om de hvide svovlbakterier er ikke korrekt?',
-        answers: [
-            'De findes i havet',
-            'De omdanner svovlbrinte til sulfat',
-            'De omdanner nitrat til frit svovl',
-            'De fjerner den giftige svovlbrinte'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvorfor har man lukket mange vandboringer i Vestjylland i de senere år?',
-        answers: [
-            'På grund af for højt indhold af sulfat',
-            'På grund af for højt indhold af bakterier',
-            'På grund af for højt indhold af fosfat',
-            'På grund af for højt indhold af nitrat'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad er den vejledende grænseværdi for nitrat i drikkevand?',
-        answers: [
-            '5 mg/L',
-            '15 mg/L',
-            '25 mg/L',
-            '50 mg/L'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvorfor må der ikke være for meget nitrat i drikkevandet?',
-        answers: [
-            'Fordi nitrat er giftigt',
-            'Fordi nitrat kan denitrificeres til frit kvælstof',
-            'Fordi det kan omdannes til kræftfremkaldende nitrosaminer',
-            'Fordi det kan omdannes til de meget skadelige hormonforstyrrende stoffer'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad er methæmoglobin?',
-        answers: [
-            'Hæmoglobin uden Fe<span style="vertical-align:super; font-size:58%;">2+</span>',
-            'Hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span> er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
-            'Mennesket normale hæmoglobin',
-            'Det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket udsagn om methæmoglobin er ikke korrekt?',
-        answers: [
-            'Det er hæmoglobin der ikke kan binde ilt',
-            'Det er hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span>  er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
-            'Det kan dannes ved for stort indtag af nitrat i drikkevand',
-            'Det er det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad menes der med mekanisk rensning?',
-        answers: [
-            'Rensning i et biologisk filter',
-            'Fjernelse af mikroorganismer ved fx filtrering',
-            'Fjernelse af især faste bestanddele i spildevandet',
-            'Fjernelse af næringssalte som nitrat og fosfat fra spildevandet '
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad menes med et biologisk filter?',
-        answers: [
-            'Mikroorganismer i et renseanlæg, der sidder på slagger og lignende',
-            'Gitre af forskellige tæthed i et renseanlæg',
-            'Et filter, der kan tilbageholde spildevandets bakterier',
-            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad forstås ved et aktivt slamanlæg?',
-        answers: [
-            'Aktive mikroorganismer, der sidder på slagger og lignende',
-            'Et effektivt renseanlæg',
-            'Et anlæg, der kan tilbageholde spildevandets bakterier',
-            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvordan fjernes nitrat fra spildevandet?',
-        answers: [
-            'Ved denitrifikation',
-            'Ved ammonifikation',
-            'Ved nitrifikation',
-            'Ved kvælstoffiksering'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilken type bakterie kan fjerne nitrat i renseanlægget?',
-        answers: [
-            'Denitrifikationsbakterier',
-            'Ammonifikationsbakterier',
-            'Nitritbakterierne',
-            'Nitratbakterierne'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilken proces i renseanlægget kan udføres af Nitrosomonas?',
-        answers: [
-            'Denitrifikation',
-            'Ammonifikation',
-            'Nitrifikation',
-            'Kvælstoffiksering'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvordan kan fosfat fjernes ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span> i renseanlægget?',
-        answers: [
-            'Fordi der så dannes tungtopløseligt AlPO<span style="vertical-align:sub; font-size:58%;">4</span><span style="vertical-align:super; font-size:58%;">3-</span>',
-            'Fordi der så dannes tungtopløseligt aluminiumfosfat',
-            'Fordi der så dannes tungtopløseligt jernsulfat',
-            'Fordi der så dannes tungtopløseligt FePO<span style="vertical-align:sub; font-size:58%;">4</span><span style="vertical-align:super; font-size:58%;">3-</span>'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvordan fjernes fosfat ved en biologisk proces i renseanlægget?',
-        answers: [
-            'Ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
-            'Ved fældning med Al<span style="vertical-align:super; font-size:58%;">3+</span>',
-            'Ved at de optages af bakterier, der senere fjernes',
-            'Ved at det nedbrydes af bakterier '
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad sker der i rodzoneanlæggets iltrige zoner?',
-        answers: [
-            'Nedbrydning ved respiration',
-            'Nedbrydning ved gæringer',
-            'Denitrifikation',
-            'Kvælstoffiksering'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad sker der i rodzoneanlæggets iltfattige zoner?',
-        answers: [
-            'Nedbrydning ved respiration',
-            'Nitrifikation',
-            'Denitrifikation',
-            'Kvælstoffiksering'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvordan kommer der ilt ned i rodzoneanlægget?',
-        answers: [
-            'Ved sumpplanternes respiration',
-            'Gennem sumpplanternes hule stængeler fra luften',
-            'Ved sumpplanternes fotosyntese',
-            'Ved bakteriernes denitrifikation'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvad var målet for Vandmiljøplan I?',
-        answers: [
-            'At sænke udvaskningen af fosfor med 80 % og udvaskningen af kvælstof med 50 %',
-            'At sænke udvaskningen af fosfor med 50 % og udvaskningen af kvælstof med 80 %',
-            'At sænke udvaskningen af fosfor med 60 % og udvaskningen af kvælstof med 80 %',
-            'At sænke udvaskningen af fosfor med 30 % og udvaskningen af kvælstof med 80 %'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvornår blev Vandmiljøplan II vedtaget?',
-        answers: [
-            '1968',
-            '1978',
-            '1998',
-            '2005'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvorfor hjælper det på vandmiljøet, at der oprettes vådområder omkring vandløbene?',
-        answers: [
-            'Fordi de forbedrer jordens iltindhold',
-            'Fordi det øger denitrifikationen',
-            'Fordi det øger nitrifikationen',
-            'Fordi det øger ammonifikationen'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
-
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvornår blev Vandmiljøplan III vedtaget?',
-        answers: [
-            '1978',
-            '1988',
-            '2005',
-            '2008'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
 
 db.questions.save(
     {

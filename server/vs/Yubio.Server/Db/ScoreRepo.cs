@@ -19,11 +19,14 @@ namespace Yubio.Server.Db
             score.Id = new ObjectId(bson["_id"].ToString());
         }
 
-        public static void DeleteScore(this IMongoDatabase database, Score score)
+        public static bool DeleteScore(this IMongoDatabase database, Score score)
         {
             var collection = database.GetCollection<BsonDocument>(CollectionName);
-            var bson = score.ToBsonDocument();
-            collection.DeleteOne(bson);
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", score.Id);
+            var found = collection.Find(filter).FirstOrDefault();
+            if (found == null) { return false; }
+            var result = collection.DeleteOne(found);
+            return result.IsAcknowledged;
         }
 
 
@@ -34,6 +37,15 @@ namespace Yubio.Server.Db
             foreach (var n in collection.Find(filter).ToList())
             {
                 yield return BsonSerializer.Deserialize<Score>(n);
+            }
+        }
+        public static IEnumerable<Score> FindAllScores(this IMongoDatabase database)
+        {
+            var collection = database.GetCollection<BsonDocument>(CollectionName);
+            var filter = Builders<BsonDocument>.Filter.Empty;
+            foreach (var f in collection.Find(filter).ToList())
+            {
+                yield return BsonSerializer.Deserialize<Score>(f);
             }
         }
 
@@ -57,7 +69,7 @@ namespace Yubio.Server.Db
         public ScoreList(IEnumerable<Score> scores)
         {
             Scores = scores;
-        }  
+        }
     }
     public class Score
     {
