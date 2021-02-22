@@ -38,6 +38,20 @@
 				toggledState();
 			}
 		};
+			function check_clicked(checkboxElem){
+			if (checkboxElem.checked)
+			 {
+			 	numberOfQuestionsSelected++;
+			 }
+			 else
+			 {
+			 	numberOfQuestionsSelected--;
+				
+			}
+			 document.getElementById("NoOfQuestionSelectedLabel").innerHTML="Du har valgt "+numberOfQuestionsSelected+ " spørgsmål";
+
+		}
+		var numberOfQuestionsSelected = 0;
 		var isRandomState = true;
 		function onSubmit() {
 		if(isRandomState)
@@ -124,7 +138,7 @@
 
 					}
 
-					var cb = $('<input type="checkbox" ></input>');
+					var cb = $('<input type="checkbox" onchange="check_clicked(this)" ></input>');
 					cb.attr('name', 'question_id');
 					cb.attr('id', questions.questions[i]._id.$oid);
 					cb.attr('value', questions.questions[i]._id.$oid);
@@ -337,10 +351,7 @@
 						</br>
 						</br>
 						</br>
-						<!-- <fieldset id="questionCount">
-			<legend>Vælg antal spørgsmål der skal indgå i quiz</legend>
-			<input type="number" name="count" id="count" min="1" max="50" value="20"></input>
-			</fieldset>	 -->
+						<label style="text-align: left" class="fixed-label" id="NoOfQuestionSelectedLabel" for="NoOfQuestionSelected"></label>
 						</br>
 						</br>
 						</br>

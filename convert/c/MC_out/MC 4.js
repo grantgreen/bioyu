@@ -116,8 +116,8 @@ db.questions.save(
         text: 'Hvad forstås ved en motorisk nerve?',
         answers: [
             'En fraførende nerve',
-            'En nerve der løber ud til musklerne',
-            'En nerve der løber ud til de indre organer',
+            'En nerve, der løber ud til musklerne',
+            'En nerve, der løber ud til de indre organer',
             'En autonom nerve'
         ],
         type: 'multiple_text',
@@ -130,8 +130,8 @@ db.questions.save(
         text: 'Hvad forstås ved en autonom nerve?',
         answers: [
             'En fraførende nerve',
-            'En nerve der løber ud til musklerne',
-            'En nerve der løber ud til de indre organer',
+            'En nerve, der løber ud til musklerne',
+            'En nerve, der løber ud til de indre organer',
             'En motorisk nerve'
         ],
         type: 'multiple_text',
@@ -144,7 +144,7 @@ db.questions.save(
         text: 'Hvad kaldes en nerve, der får muskler til at trække sig sammen?',
         answers: [
             'En fraførende nerve',
-            'En nerve der løber fra musklerne til CNS',
+            'En nerve, der løber fra musklerne til CNS',
             'En autonom nerve',
             'En motorisk nerve'
         ],
@@ -159,7 +159,7 @@ db.questions.save(
         answers: [
             'En fraførende nerve',
             'En motorisk nerve',
-            'En nerve der løber ud til de indre organer',
+            'En nerve, der løber ud til de indre organer',
             'En autonom nerve'
         ],
         type: 'multiple_text',
@@ -200,7 +200,7 @@ db.questions.save(
         text: 'Hvilket udsagn om de sympatiske nerver er korrekt?',
         answers: [
             'De kan opdeles i sympatiske og parasympatiske nerver',
-            'Der en del af det autonome nervesystem',
+            'De er en del af det autonome nervesystem',
             'De kaldes også det motoriske nervesystem',
             'De kaldes også det sensoriske nervesystem'
         ],
@@ -355,9 +355,9 @@ db.questions.save(
         chapters: ["4.2"],
         text: 'Hvad er transmitterstoffernes funktion?',
         answers: [
-            'At nedbryde vesiklerne i endeknoppen',
+            'At nedbryde vesikler i endeknoppen',
             'At danne flere receptorer',
-            'At danne flere natrium-kalium pumper',
+            'At danne flere natrium-kalium-pumper',
             'At videreføre signalet til en ny nervecelle'
         ],
         type: 'multiple_text',
@@ -381,7 +381,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvor sidder nervecellernes natrium-kalium pumper?',
+        text: 'Hvor sidder nervecellernes natrium-kalium-pumper?',
         answers: [
             'På cellemembranerne',
             'I cellekernen',
@@ -395,7 +395,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvad er natrium-kalium pumpens funktion?',
+        text: 'Hvad er natrium-kalium-pumpens funktion?',
         answers: [
             'At sende nervesignalet videre',
             'At bremse nervesignalet',
@@ -424,7 +424,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvilket udsagn om natrium-kalium pumpen er korrekt?',
+        text: 'Hvilket udsagn om natrium-kalium-pumpen er korrekt?',
 	answers: [
             'Den kører uden at få tilført energi',
             'Den transporterer Na ind i cellen og K ud af cellen',
@@ -470,8 +470,8 @@ db.questions.save(
         answers: [
             'Negativt på indersiden (-55 mv)',
             'Negativt på indersiden (-70 mv)',
-            'Positivt på indersiden (70 mv)',
-            'Positivt på ydersiden (35 mv)'
+            'Positivt på indersiden (+70 mv)',
+            'Positivt på ydersiden (+35 mv)'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -480,12 +480,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvad er den elektriske spændingsforskel mellem neuronets inder- og yderside når aktionspotentialet topper?',
+        text: 'Hvad er den elektriske spændingsforskel mellem neuronets inder- og yderside, når aktionspotentialet topper?',
         answers: [
             'Negativt på indersiden (-55 mv)',
             'Negativt på indersiden (-70 mv)',
-            'Positivt på indersiden (70 mv)',
-            'Positivt på ydersiden (35 mv)'
+            'Positivt på indersiden (+70 mv)',
+            'Positivt på ydersiden (+35 mv)'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -498,8 +498,8 @@ db.questions.save(
         answers: [
             'Negativt på indersiden (-55 mv)',
             'Negativt på indersiden (-70 mv)',
-            'Positivt på indersiden (70 mv)',
-            'Positivt på ydersiden (35 mv)'
+            'Positivt på indersiden (+70 mv)',
+            'Positivt på ydersiden (+35 mv)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -539,9 +539,9 @@ db.questions.save(
         text: 'Hvad menes med tærskelværdien?',
         answers: [
             'Den værdi, der skal overskrides, hvis der skal udløses et aktionspotentiale',
-            'Den hastighed, som aktionspotentialerne kan have',
+            'Den hastighed, som aktionspotentialerne kan opnå',
             'Aktionspotentialets størrelse',
-            'Frekvensen af aktionspotentialer'
+            'Frekvensen af aktionspotentialer (antal pr. sekund)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -581,7 +581,7 @@ db.questions.save(
         text: 'Hvor stimuleres neuronet normalt?',
         answers: [
             'Ved de Ranvierske indsnøringer',
-            'Ved de Schwanske celler',
+            'Ved de Schwannske celler',
             'På axonerne',
             'På dendritterne'
         ],
@@ -592,9 +592,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvad er de Schwanske celler?',
+        text: 'Hvad er de Schwannske celler?',
         answers: [
-            'Støtteceller der danner myelinskeder',
+            'Støtteceller, der danner myelinskeder',
             'Dendritter',
             'En del af neuronets cellekrop',
             'Receptorer på den postsynaptiske membran'
@@ -606,7 +606,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvad er de Schwanske cellers funktion?',
+        text: 'Hvad er de Schwannske cellers funktion?',
         answers: [
             'At øge nerveledningshastigheden',
             'At hæmme udbredelsen af aktionspotentialet',
@@ -639,7 +639,7 @@ db.questions.save(
             'Aktionspotentialet springer fra en indsnøring til en anden',
             'Der dannes ATP',
             'Vesikler med transmitterstof frigives',
-            'Der dannes flere og flere Schwanske celler'
+            'Der dannes flere og flere Schwannske celler'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -653,7 +653,7 @@ db.questions.save(
             'Et axon med mange enzymer',
             'Et axon med myelinskeder',
             'Et axon uden Ranvierske indsnøringer',
-            'Et axon der har mistet sit myelin'
+            'Et axon, der har mistet sit myelin'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -680,7 +680,7 @@ db.questions.save(
         answers: [
             'Før fødslen',
             'I den tidlige barndom',
-            'I 20-års alderen',
+            'I 20-års-alderen',
             'I 30-års-alderen'
         ],
         type: 'multiple_text',
@@ -694,7 +694,7 @@ db.questions.save(
         answers: [
             'Sklerose',
             'Ebola',
-            'Malaria',
+            'COVID-19',
             'Meningitis'
         ],
         type: 'multiple_text',
@@ -707,7 +707,7 @@ db.questions.save(
         text: 'Hvad er en synapse?',
         answers: [
             'En nervecelles korte udløber',
-            'Et sted hvor to nerveceller mødes',
+            'Et sted, hvor to nerveceller mødes',
             'En nervecelles lange udløber',
             'En vesikel med transmitterstof'
         ],
@@ -721,7 +721,7 @@ db.questions.save(
         text: 'Hvad er en synapsekløft?',
         answers: [
             'En vesikel med transmitterstoffer',
-            'Et sted hvor to nerveceller mødes',
+            'Et sted, hvor to nerveceller mødes',
             'Mellemrummet mellem de to nerveceller i en synapse',
             'En indsnøring på axonet'
         ],
@@ -872,7 +872,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.3"],
-        text: 'Hvad er det første der sker, når et hæmmende transmitterstof bindes til en receptor på den postsynaptiske membran?',
+        text: 'Hvad er det første, der sker, når et hæmmende transmitterstof bindes til en receptor på den postsynaptiske membran?',
         answers: [
             'Na<span style="vertical-align:super; font-size:58%;">+</span>-kanalerne åbnes',
             'Na<span style="vertical-align:super; font-size:58%;">+</span>-kanalerne lukkes',
@@ -890,8 +890,8 @@ db.questions.save(
         answers: [
             'Fremmende transmitterstoffer',
             'Hæmmende transmitterstoffer',
-            'Et transmitterstof der åbner Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne',
-            'Et transmitterstof der lukker Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne'
+            'Et transmitterstof, der åbner Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne',
+            'Et transmitterstof, der lukker Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -904,8 +904,8 @@ db.questions.save(
         answers: [
             'Fremmende transmitterstoffer',
             'Hæmmende transmitterstoffer',
-            'Et transmitterstof der åbner Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne',
-            'Et transmitterstof der lukker Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne'
+            'Et transmitterstof, der åbner Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne',
+            'Et transmitterstof, der lukker Ca<span style="vertical-align:super; font-size:58%;">2+</span>-kanalerne'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1155,10 +1155,10 @@ db.questions.save(
         chapters: ["4.4"],
         text: 'Hvilket center ligger i den forlængede rygmarv?',
         answers: [
-            'Det der styrer åndedrættet',
-            'Det der styrer følelser og indlæring',
-            'Det der styrer motorikken',
-            'Det der styrer de autonome funktioner i de indre organer'
+            'Det, der styrer åndedrættet',
+            'Det, der styrer følelser og indlæring',
+            'Det, der styrer motorikken',
+            'Det, der styrer de autonome funktioner i de indre organer'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1209,7 +1209,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.4"],
-        text: 'Hvilket udsagn om læring er ikke korrekt?',
+        text: 'Hvilket udsagn om læring er forkert?',
         answers: [
             'Læring skaber flere nerveceller i hjernen',
             'Læring skaber nye synapser i hjernen',
@@ -1237,7 +1237,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["4.4"],
-        text: 'Hvad menes der med, at alkohol er en antagonist til glutamat?',
+        text: 'Hvad menes med, at alkohol er en antagonist til glutamat?',
         answers: [
             'Det binder sig til receptorerne for glutamat og har samme virkning',
             'Det nedbryder glutamat',

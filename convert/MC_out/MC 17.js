@@ -5,7 +5,7 @@ db.questions.save(
         answers: [
             'Opbygning af de organiske stoffer i kroppen',
             'Opbygningen af de uorganiske stoffer i kroppen',
-            'Fotosyntese og kemosyntese',
+            'Nedbrydning af de uorganiske stoffer i kroppen',
             'Nedbrydning af de organiske stoffer i kroppen'
         ],
         type: 'multiple_text',
@@ -19,7 +19,7 @@ db.questions.save(
         answers: [
             'Opbygning af de organiske stoffer i kroppen',
             'Opbygningen af de uorganiske stoffer i kroppen',
-            'Fotosyntese og kemosyntese',
+            'Nedbrydning af de uorganiske stoffer i kroppen',
             'Nedbrydning af de organiske stoffer i kroppen'
         ],
         type: 'multiple_text',
@@ -85,7 +85,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvor meget energi dannes der ved aerob nedbrydning af 1 g fedt?',
+        text: 'Hvor meget energi dannes ved aerob nedbrydning af 1 g fedt?',
         answers: [
             '17 KJ',
             '38 KJ',
@@ -99,7 +99,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvor meget energi dannes der ved nedbrydning af 1 g kulhydrat?',
+        text: 'Hvor meget energi dannes ved nedbrydning af 1 g kulhydrat?',
         answers: [
             '17 KJ',
             '38 KJ',
@@ -113,7 +113,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvor meget energi dannes der ved nedbrydning af 1 g protein?',
+        text: 'Hvor meget energi dannes ved nedbrydning af 1 g protein?',
         answers: [
             '17 KJ',
             '38 KJ',
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvor meget energi dannes der ved nedbrydning af 1 g alkohol?',
+        text: 'Hvor meget energi dannes ved nedbrydning af 1 g alkohol?',
         answers: [
             '17 KJ',
             '38 KJ',
@@ -141,7 +141,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvad forstås der ved autofagi?',
+        text: 'Hvad forstås ved autofagi?',
         answers: [
             'At man nedbryder sit eget væv',
             'At man danner nyt væv',
@@ -155,7 +155,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved aerob nedbrydning af kulhydrat hos gærceller?',
+        text: 'Hvilke stoffer dannes ved aerob nedbrydning af kulhydrat hos gærceller?',
         answers: [
             'Glukose og ilt',
             'Vand og kuldioxid',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved anaerob nedbrydning af kulhydrat hos gærceller?',
+        text: 'Hvilke stoffer dannes ved anaerob nedbrydning af kulhydrat hos gærceller?',
         answers: [
             'Glukose og ilt',
             'Vand og kuldioxid',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved aerob nedbrydning af fedt?',
+        text: 'Hvilke stoffer dannes ved aerob nedbrydning af fedt?',
         answers: [
             'Glycerol og fedtsyrer',
             'Vand og kuldioxid',
@@ -197,7 +197,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved anaerob nedbrydning af fedt?',
+        text: 'Hvilke stoffer dannes ved anaerob nedbrydning af fedt?',
         answers: [
             'Glycerol og fedtsyrer',
             'Vand og kuldioxid',
@@ -211,12 +211,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved aerob nedbrydning af protein?',
+        text: 'Hvilke stoffer dannes ved aerob nedbrydning af protein?',
         answers: [
             'Aminosyrer',
             'Mindre peptider',
             'Vand og kuldioxid',
-            'Vand, kuldioxid og urinstof '
+            'Vand, kuldioxid og urinstof'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -225,7 +225,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.1'],
-        text: 'Hvilke stoffer dannes der ved anaerob nedbrydning af protein?',
+        text: 'Hvilke stoffer dannes ved anaerob nedbrydning af protein?',
         answers: [
             'Protein kan ikke nedbrydes anaerobt',
             'Mindre peptider',
@@ -244,7 +244,7 @@ db.questions.save(
             'At den kun kan leve under iltfrie forhold',
             'At den både kan leve iltfrit og med ilt',
             'At den ikke kan leve under iltfrie forhold',
-            'At den kun kan leve, hvis der er ilt tilstede'
+            'At den kun kan leve, hvis der er ilt til stede'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -283,8 +283,8 @@ db.questions.save(
         chapters: ['17.2'],
         text: 'Hvad betyder forkortelsen ATP?',
         answers: [
-            'Adeninfosfat',
-            'Adenosinfosfat',
+            'Adenin-fosfat',
+            'Adenosin-fosfat',
             'Adenosin-trifosfat',
             'Alanin-trifosfat'
         ],
@@ -340,8 +340,8 @@ db.questions.save(
         text: 'Hvilken proces danner ikke (netto) ATP?',
         answers: [
             'De forskellige delprocesser i katabolismen',
-            'Gæring',
-            'Respiration',
+            'Gæringen (herunder glykolysen)',
+            'Respirationen',
             'Anabolske processer'
         ],
         type: 'multiple_text',
@@ -353,8 +353,8 @@ db.questions.save(
         chapters: ['17.2'],
         text: 'Hvilken proces forbruger (netto) ATP?',
         answers: [
-            'Gæring',
-            'Respiration',
+            'Gæringen',
+            'Respirationen',
             'Katabolske processer',
             'Anabolske processer'
         ],
@@ -369,8 +369,8 @@ db.questions.save(
         answers: [
             'Ca. 1 sekund',
             'Ca. 5-6 sekunder',
-            'Ca. et minut',
-            'Ca.30 minutter'
+            'Ca. 1 minut',
+            'Ca. 30 minutter'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -381,9 +381,9 @@ db.questions.save(
         chapters: ['17.2'],
         text: 'Hvor lang tid rækker en celles kreatinfosfatlager til muskelkontraktion?',
         answers: [
-            'Ca. et sekund',
+            'Ca. 1 sekund',
             'Ca. 5-6 sekunder',
-            'Ca. et minut',
+            'Ca. 1 minut',
             'Ca. 30 minutter'
         ],
         type: 'multiple_text',
@@ -397,7 +397,7 @@ db.questions.save(
         answers: [
             'Spaltning af glykogen under forbrug af frie fosfatgrupper til glukose-1-fosfat',
             'At der sættes en fosfatgruppe på glukose',
-            'At ATP-spaltes til adenosin og tre fosfatgrupper',
+            'At ATP spaltes til adenosin og tre fosfatgrupper',
             'At der dannes ATP ud fra ADP og P'
         ],
         type: 'multiple_text',
@@ -463,7 +463,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad er slutproduktet i glykolysen ?',
+        text: 'Hvad er slutproduktet i glykolysen?',
         answers: [
             'Kuldioxid og vand',
             'Glykogen',
@@ -477,7 +477,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad er det for et enzym, der omdanner glukose-1-fosfat til glukose-6-fosfat?',
+        text: 'Hvilket enzym omdanner glukose-1-fosfat til glukose-6-fosfat?',
         answers: [
             'Glukose-1-fosfat-isomerase',
             'Glukose-1-fosfat-transferase',
@@ -491,7 +491,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad er det for en slags enzym, der kan spalte fruktose-1,6-bifosfat til to trioser?',
+        text: 'Hvilket enzym spalter fruktose-1,6-bifosfat til to trioser?',
         answers: [
             'En isomerase',
             'En syntetase',
@@ -505,7 +505,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad er det for et enzym, der overfører en fosfatgruppe fra fosfoenolpyruvat til ADP?',
+        text: 'Hvilket enzym overfører en fosfatgruppe fra fosfoenolpyruvat til ADP?',
         answers: [
             'En isomerase',
             'En syntetase',
@@ -519,9 +519,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad menes der med hypoxi?',
+        text: 'Hvad menes med hypoxi?',
         answers: [
-            'At der er nok ilt tilstede til, at der kan foregå respiration',
+            'At der er nok ilt til stede til, at der kan foregå respiration',
             'At der er for meget ilt til stede',
             'At der er iltmangel',
             'At der dannes H'
@@ -533,7 +533,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad sker der med pyruvat hos mennesket, hvis der ikke er ilt tilstede? ',
+        text: 'Hvad sker der med pyruvat hos mennesket, hvis der ikke er ilt til stede?',
         answers: [
             'Der dannes alkohol',
             'Der dannes kuldioxid og vand',
@@ -547,7 +547,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad sker der med pyruvat hos gærceller, hvis der ikke er ilt tilstede?',
+        text: 'Hvad sker der med pyruvat hos gærceller, hvis der ikke er ilt til stede?',
         answers: [
             'Der dannes alkohol',
             'Der dannes kuldioxid og vand',
@@ -561,7 +561,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvad sker der med laktat/mælkesyre, når der er ilt tilstede i menneskets celler?',
+        text: 'Hvad sker der med laktat/mælkesyre, når der er ilt til stede i menneskets celler?',
         answers: [
             'Det omdannes til alkohol',
             'Det nedbrydes i sidste ende til kuldioxid og vand',
@@ -606,7 +606,7 @@ db.questions.save(
         text: 'Hvor foregår den oxidative decarboxylering af pyruvat?',
         answers: [
             'I kloroplasterne',
-            'I cytoplasma',
+            'I cytoplasmaet',
             'I mitokondriernes matrix',
             'På mitokondriernes membraner'
         ],
@@ -636,7 +636,7 @@ db.questions.save(
             'Transferaser',
             'Ligaser',
             'Hydrolaser',
-            'lyaser'
+            'Lyaser'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvor mange molekyler acetyl-CoA dannes der i Krebs’ cyklus pr. glukosemolekyle?',
+        text: 'Hvor mange molekyler acetyl-CoA dannes i Krebs’ cyklus pr. glukosemolekyle?',
         answers: [
             '1',
             '2',
@@ -827,7 +827,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.3'],
-        text: 'Hvorfor er stoffet Rotenon så giftigt?',
+        text: 'Hvorfor er stoffet rotenon så giftigt?',
         answers: [
             'Det hæmmer Krebs’ cyklus',
             'Det hæmmer et enzym i elektrontransportkæden',
@@ -846,7 +846,7 @@ db.questions.save(
             'Det hæmmer Krebs’ cyklus',
             'Det hæmmer et enzym i elektrontransportkæden',
             'Det nedbryder mitokondriernes matrix',
-            'Det nedbryder mitokondriernes membraner '
+            'Det nedbryder mitokondriernes membraner'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -929,7 +929,7 @@ db.questions.save(
         answers: [
             'At der er så mange C-atomer i molekylerne',
             'At der er så mange O-atomer i molekylerne',
-            'At der er så mange fosfatgrupper i molekylerne ',
+            'At der er så mange fosfatgrupper i molekylerne',
             'At der er så mange H-atomer i molekylerne'
         ],
         type: 'multiple_text',
@@ -1053,7 +1053,7 @@ db.questions.save(
         chapters: ['17.5'],
         text: 'Hvilken påstand om proteinnedbrydning og energiproduktion er ikke korrekt?',
         answers: [
-            'Hovedparten af den ATP, der dannes i cellerne stammer fra protein',
+            'Hovedparten af den ATP, der dannes i cellerne, stammer fra protein',
             'Ubiquitin styrer, om proteiner skal nedbrydes',
             'Proteinforbrændingen bliver større, hvis man sulter',
             'Proteinforbrændingen øges, hvis man spiser meget protein'
@@ -1093,7 +1093,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.5'],
-        text: 'Hvilke stoffer dannes der, når proteiner nedbrydes af proteaser?',
+        text: 'Hvilke stoffer dannes, når proteiner nedbrydes af proteaser?',
         answers: [
             'Monosakkarider',
             'Fedtsyrer',
@@ -1107,7 +1107,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['17.5'],
-        text: 'Hvilke stoffer dannes der, når aminosyrer nedbrydes i katabolismen?',
+        text: 'Hvilke stoffer dannes, når aminosyrer nedbrydes i katabolismen?',
         answers: [
             'Kuldioxid og vand',
             'Kuldioxid og alkohol',

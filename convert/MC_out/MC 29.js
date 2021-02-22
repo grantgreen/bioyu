@@ -5,7 +5,7 @@ db.questions.save(
         answers: [
             'En sø er altid med ferskvand',
             'En dam er ofte med saltvand',
-            'Der er ikke så stor artsrigdom i en dam ',
+            'Der er ikke så stor artsrigdom i en dam',
             'Søen er større og dybere end dammen'
         ],
         type: 'multiple_text',
@@ -15,11 +15,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilket udsagn om søer er ikke korrekt?',
+        text: 'Hvilket udsagn om søer er forkert?',
         answers: [
             'De fleste er saltvandssøer',
             'Kun få er uden liv som Det døde Hav',
-            'Det døde hav er Verdens lavest beliggende sø',
+            'Det døde Hav er verdens lavest beliggende sø',
             'Furesøen er 38 m dyb'
         ],
         type: 'multiple_text',
@@ -29,7 +29,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilken sø er den arealmæssigt største i Verden?',
+        text: 'Hvilken sø er den arealmæssigt største i verden?',
         answers: [
             'Furesøen',
             'Det Kaspiske Hav',
@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilken sø er den dybeste i Verden?',
+        text: 'Hvilken sø er den dybeste i verden?',
         answers: [
             'Furesøen',
             'Det Kaspiske Hav',
@@ -59,7 +59,7 @@ db.questions.save(
         chapters: ['29.2'],
         text: 'Hvilken sø er den dybeste i Danmark?',
         answers: [
-            'Furesøen',
+            'Furesø',
             'Arresø',
             'Tange Sø',
             'Mossø'
@@ -71,7 +71,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilket udsagn om Tange sø er korrekt?',
+        text: 'Hvilket udsagn om Tange Sø er korrekt?',
         answers: [
             'Det er Danmarks næststørste sø',
             'Den indeholder saltvand',
@@ -173,7 +173,7 @@ db.questions.save(
         answers: [
             'På grund af stort humusindhold',
             'På grund af meget planteplankton',
-            'På grund af meget lidt planteplankton ',
+            'På grund af meget lidt planteplankton',
             'På grund af mange bakterier'
         ],
         type: 'multiple_text',
@@ -187,7 +187,7 @@ db.questions.save(
         answers: [
             'På grund af stort humusindhold',
             'På grund af meget planteplankton',
-            'På grund af meget lidt planteplankton ',
+            'På grund af meget lidt planteplankton',
             'På grund af mange bakterier'
         ],
         type: 'multiple_text',
@@ -201,7 +201,7 @@ db.questions.save(
         answers: [
             'På grund af stort humusindhold',
             'På grund af meget planteplankton',
-            'På grund af meget lidt planteplankton ',
+            'På grund af meget lidt planteplankton',
             'På grund af mange bakterier'
         ],
         type: 'multiple_text',
@@ -239,7 +239,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvad forstås ved søens fotiske zone?',
+        text: 'Hvad forstås ved søens "fotiske zone"?',
         answers: [
             'Der hvor lyset ikke når ned',
             'Der hvor planteplankton ikke får lys nok til fotosyntesen',
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvad forstås ved kompensationsdybden i en sø?',
+        text: 'Hvad forstås ved "kompensationsdybden" i en sø?',
         answers: [
             'Den dybde, hvor der ikke kan laves fotosyntese',
             'Den dybde, hvor der kun kan leve dyreplankton',
@@ -297,7 +297,7 @@ db.questions.save(
         chapters: ['29.2'],
         text: 'Hvad måler man med en Secchi-skive?',
         answers: [
-            'Lysstyrken ',
+            'Lysstyrken',
             'Iltindholdet',
             'Sigtdybden',
             'BPP'
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvad er den gennemsnitlige sigtdybde i en dansk sø? ',
+        text: 'Hvad er den gennemsnitlige sigtdybde i en dansk sø?',
         answers: [
             '0,5-1 m',
             '1-1,5 m',
@@ -353,10 +353,10 @@ db.questions.save(
         chapters: ['29.2'],
         text: 'Hvorfor kan pH-værdien i søen falde i løbet af natten?',
         answers: [		 
-	  'Fordi der dannes CO<span style="vertical-align:sub; font-size:58%;">2</span> ved respiration',
-	  'Fordi der dannes CO<span style="vertical-align:sub; font-size:58%;">2</span> ved fotosyntesen',
-	  'Fordi der bruges CO<span style="vertical-align:sub; font-size:58%;">2</span> ved respiration',
-          'Fordi der bruges CO<span style="vertical-align:sub; font-size:58%;">2</span> ved fotosyntesen'  
+	   'Fordi der dannes CO<span style="vertical-align:sub; font-size:58%;">2</span> ved respiration',
+	   'Fordi der dannes CO<span style="vertical-align:sub; font-size:58%;">2</span> ved fotosyntesen',
+	   'Fordi der bruges CO<span style="vertical-align:sub; font-size:58%;">2</span> ved respiration',
+        'Fordi der bruges CO<span style="vertical-align:sub; font-size:58%;">2</span> ved fotosyntesen'  
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -365,12 +365,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilket udsagn om søens pH-svingninger i løbet af et døgn er ikke korrekt?',
+        text: 'Hvilket udsagn om søens pH-svingninger i løbet af et døgn er forkert?',
         answers: [
             'Svingningerne er mindst om sommeren',
             'pH-værdien er højest om dagen',
             'Svingningerne skyldes produktion og forbrug af CO<span style="vertical-align:sub; font-size:58%;">2</span>',
-            'Svingningerne er størst i eutrofe søer '
+            'Svingningerne er størst i eutrofe søer'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -379,7 +379,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvordan kommer der ilt til en sø?',
+        text: 'Hvordan kommer der ilt i en sø?',
         answers: [
             'Ved planteplanktonets respiration',
             'Ved dyreplanktonnets respiration',
@@ -397,7 +397,7 @@ db.questions.save(
         answers: [
             'Meget små planter i vandet',
             'Små organismer, der bevæger sig med vandstrømmene',
-            'Meget små dyr som vandlopper og lignende.',
+            'Meget små dyr som vandlopper og lignende',
             'Bakterier og mikrosvampe i vandet'
         ],
         type: 'multiple_text',
@@ -411,7 +411,7 @@ db.questions.save(
         answers: [
             'Meget små planter i vandet, der bevæger sig med vandstrømmen',
             'Små organismer, der bevæger sig med vandstrømmene',
-            'Meget små dyr som vandlopper og lignende.',
+            'Meget små dyr som vandlopper og lignende',
             'Bakterier og mikrosvampe i vandet'
         ],
         type: 'multiple_text',
@@ -425,7 +425,7 @@ db.questions.save(
         answers: [
             'Meget små planter i vandet',
             'Små organismer, der bevæger sig med vandstrømmene',
-            'Meget små dyr i vandet som vandlopper og lignende.',
+            'Meget små dyr i vandet som vandlopper og lignende',
             'Bakterier og mikrosvampe i vandet'
         ],
         type: 'multiple_text',
@@ -491,7 +491,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvad er det største problem for algerne, der lever over springlaget?',
+        text: 'Hvad er det største problem for alger, der lever over springlaget?',
         answers: [
             'Mangel på næringssalte og lys',
             'Mangel på næringssalte og varme',
@@ -547,7 +547,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilke former for planteplankton dominerer ofte om foråret? ',
+        text: 'Hvilke former for planteplankton dominerer ofte om foråret?',
         answers: [
             'Cyanobakterier',
             'Kiselalger',
@@ -561,7 +561,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilke former for planteplankton dominerer ofte om efteråret? ',
+        text: 'Hvilke former for planteplankton dominerer ofte om efteråret?',
         answers: [
             'Cyanobakterier og kiselalger',
             'Kiselalger',
@@ -575,7 +575,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvorfor er der tit mange cyanobakterier i vandet i søen i eftersommeren?',
+        text: 'Hvorfor er der tit mange cyanobakterier i vandet i søen i sensommeren?',
         answers: [
             'Fordi de elsker koldt vand',
             'Fordi de har brug for mange næringssalte',
@@ -603,7 +603,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvad er det specielle ved cyanobakterierne sammenlignet med andre former for plankton?',
+        text: 'Hvad er det specielle ved cyanobakterier sammenlignet med andre former for plankton?',
         answers: [
             'De er heterotrofe',
             'De er autotrofe',
@@ -689,7 +689,7 @@ db.questions.save(
         chapters: ['29.2'],
         text: 'Hvorfor flyder andemad altid ovenpå?',
         answers: [
-            'Fordi de har luftpuder under bladene',
+            'Pga. luftpuder under bladene',
             'For at få så meget lys som muligt',
             'For at undgå at blive ædt af søens dyr',
             'For at få så meget ilt som muligt'
@@ -813,7 +813,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilket af følgende dyr har hæmoglobin i kropsvæsken? ',
+        text: 'Hvilket af følgende dyr har hæmoglobin i kropsvæsken?',
         answers: [
             'Røde børsteorme',
             'Regnorme',
@@ -883,7 +883,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.2'],
-        text: 'Hvilke dyr i de danske søer æder zooplankton? ',
+        text: 'Hvilke dyr i de danske søer æder zooplankton?',
         answers: [
             'Cyanobakterier',
             'Gedder',
@@ -925,10 +925,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.3'],
-        text: 'Hvad hedder Verdens længste flod?',
+        text: 'Hvad hedder verdens længste flod?',
         answers: [
             'Gudenåen',
-            'Amazon-floden',
+            'Amazonas',
             'Nilen',
             'Rhinen'
         ],
@@ -953,7 +953,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.3'],
-        text: 'Hvad menes med et vandløbs meandre?',
+        text: 'Hvad menes med et vandløbs "meandre"?',
         answers: [
             'Slyngninger',
             'Udspring',
@@ -967,7 +967,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.3'],
-        text: 'Hvad menes med et vandløbs stryg?',
+        text: 'Hvad menes med et vandløbs "stryg"?',
         answers: [
             'Slyngninger',
             'Udspring',
@@ -983,7 +983,7 @@ db.questions.save(
         chapters: ['29.3'],
         text: 'Hvilket udsagn om plankton i vandløb er korrekt?',
         answers: [
-            'Der er meget dyreplankton ',
+            'Der er meget dyreplankton',
             'Der er kun cyanobakterier',
             'Der er kun igler og lignende',
             'Der er meget lidt planteplankton'
@@ -1037,11 +1037,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.3'],
-        text: 'Hvilket udsagn om laksen er ikke korrekt?',
+        text: 'Hvilket udsagn om laks er forkert?',
         answers: [
             'Den foretrækker koldt vand',
             'Den er anadrom',
-            'Den hører til karpefiskene ',
+            'Den hører til karpefiskene',
             'Den søger op i ferskvand for at gyde'
         ],
         type: 'multiple_text',
@@ -1163,7 +1163,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvad er en tsunami? ',
+        text: 'Hvad er en tsunami?',
         answers: [
             'En orkan',
             'En tornado',
@@ -1191,7 +1191,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvor dybt nede i havene ligger kompensationsdybden typisk?',
+        text: 'Hvor dybt i havene ligger kompensationsdybden typisk?',
         answers: [
             'Helt nede ved bunden',
             'Nede ved 20 m',
@@ -1236,7 +1236,7 @@ db.questions.save(
         text: 'Hvad menes med marin sne?',
         answers: [
             'Sne der falder ude over havet',
-            'Klumper af organisk materiale, der falder ned på havbunden ',
+            'Klumper af organisk materiale, der falder ned på havbunden',
             'Havets planteplankton',
             'Havets krill'
         ],
@@ -1345,7 +1345,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvad menes med fotoinhibering i havet?',
+        text: 'Hvad menes med "fotoinhibering" i havet?',
         answers: [
             'Fotosyntese',
             'Kemosyntese',
@@ -1429,7 +1429,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvad forstås ved havets epifauna? ',
+        text: 'Hvad forstås ved havets epifauna?',
         answers: [
             'Større dyr i havet',
             'Dyr der lever på sandbunden',
@@ -1475,7 +1475,7 @@ db.questions.save(
         answers: [
             'På de store havdybder',
             'På max 8-10 meters dybde tæt ved kysten fx i Østersøen',
-            'På mudderbund i 20-100 meters dybde i Skagerrak ',
+            'På mudderbund i 20-100 meters dybde i Skagerrak',
             'I Limfjorden'
         ],
         type: 'multiple_text',
@@ -1489,7 +1489,7 @@ db.questions.save(
         answers: [
             'På de store havdybder',
             'På max 8-10 meters dybde tæt ved kysten',
-            'På mudderbund i 20-100 meters dybde i Skagerrak ',
+            'På mudderbund i 20-100 meters dybde i Skagerrak',
             'I Limfjorden'
         ],
         type: 'multiple_text',
@@ -1504,7 +1504,7 @@ db.questions.save(
             'Fra Sargassohavet',
             'Fra åer og små vandløb',
             'Fra Stillehavet',
-            'Fra Det indiske Ocean '
+            'Fra Det indiske Ocean'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1513,7 +1513,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvilken type af ål svømmer tilbage til Sargassohavet?',
+        text: 'Hvilken type ål svømmer tilbage til Sargassohavet?',
         answers: [
             'Gulål',
             'Glasål',
@@ -1529,7 +1529,7 @@ db.questions.save(
         chapters: ['29.4'],
         text: 'Hvad forstås ved en pelagisk fisk?',
         answers: [
-            'En bundfisk ',
+            'En bundfisk',
             'En lungefisk',
             'En bruskfisk',
             'En fisk i de frie vandmasser'
@@ -1569,7 +1569,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.4'],
-        text: 'Hvad æder brugden?',
+        text: 'Hvad æder en brugde?',
         answers: [
             'Ingenting',
             'Mennesker',
@@ -1585,10 +1585,10 @@ db.questions.save(
         chapters: ['29.5'],
         text: 'Hvor stor en del af Danmark er dækket af skov?',
         answers: [
-            'Ca. 14 %',
-            'Ca. 3-4 %',
-            'Ca. 80 %',
-            'Ca. 25 %'
+            '14-15 %',
+            '3-4 %',
+            '79-80 %',
+            '24-25 %'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1599,10 +1599,10 @@ db.questions.save(
         chapters: ['29.5'],
         text: 'Hvor stor var skovdækningen i Danmark i begyndelsen af 1800-tallet? ',
         answers: [
-            'Ca. 14 %',
-            'Ca. 3-4 %',
-            'Ca. 80 %',
-            'Ca. 25 %'
+            '14-15 %',
+            '3-4 %',
+            '79-80 %',
+            '24-25 %'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1625,7 +1625,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilken skovtype ville være den dominerende i Danmark, hvis der ikke var menneskelig aktivitet? ',
+        text: 'Hvilken skovtype ville være den dominerende i Danmark, hvis der ikke var menneskelig aktivitet?',
         answers: [
             'Fyrreskov',
             'Granskov',
@@ -1779,10 +1779,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilket udsagn om bøgen er ikke korrekt?',
+        text: 'Hvilket udsagn om bøgen er forkert?',
         answers: [
             'Den kan vokse på morjord',
-            'Den er et skyggetræ',
+            'Den kan ikke blive over 100 meter høj',
             'Den er et lystræ',
             'Den vokser på muldjord'
         ],
@@ -1793,12 +1793,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilket udsagn om bundplanterne i bøgeskoven er korrekt?',
+        text: 'Hvilket udsagn om bundplanter i bøgeskoven er korrekt?',
         answers: [
             'De har meget styrkevæv',
-            'Der er egentlig ikke nogle bundplanter ',
+            'Der er egentlig ikke nogle bundplanter',
             'De skal kunne tåle den sure førne og en sur jord',
-            'De blomstrer før løvspring '
+            'De blomstrer før løvspring'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1835,12 +1835,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilket udsagn om egen i Danmark er ikke korrekt?',
+        text: 'Hvilket udsagn om egen i Danmark er forkert?',
         answers: [
             'Den har hårdt ved',
             'Der findes 3 arter i Danmark',
             'Den er et skyggetræ',
-            'Den kan gro på sandede jorder'
+            'Den kan gro på sandet jord'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1877,7 +1877,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvad er Verdens største regnskov?',
+        text: 'Hvad er verdens største regnskov?',
         answers: [
             'Den tropiske regnskov',
             'Den ækvatoriale regnskov',
@@ -1919,7 +1919,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvad menes med, at regnskoven er stedsegrøn?',
+        text: 'Hvad menes med, at regnskoven er "stedsegrøn"?',
         answers: [
             'At alle planter er grønne planter',
             'At den er løvfældende',
@@ -1947,7 +1947,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilket udsagn om ananas er ikke korrekt?',
+        text: 'Hvilket udsagn om ananas er forkert?',
         answers: [
             'Det er en epifyt',
             'Den lever på andre planter',
@@ -2008,7 +2008,7 @@ db.questions.save(
             'Den er god og frugtbar',
             'Den indeholder meget ler og humus, der kan holde på næringssalte',
             'Den er meget rig på næringssalte',
-            'Den er sur og ret fattig på næringssalte '
+            'Den er sur og ret fattig på næringssalte'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2045,7 +2045,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvilket udsagn om regnskovens økosystem er ikke korrekt?',
+        text: 'Hvilket udsagn om regnskovens økosystem er forkert?',
         answers: [
             'Det er et gammelt system',
             'Det har lukkede kredsløb',
@@ -2073,7 +2073,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.5'],
-        text: 'Hvor stor en del af Jorden er i dag dækket af regnskov? ',
+        text: 'Hvor stor en del af Jorden er i dag dækket af regnskov?',
         answers: [
             'Ca. 5 %',
             '6-7 %',
@@ -2157,7 +2157,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.6'],
-        text: 'Hvor ligger Verdens største sandørken?',
+        text: 'Hvor ligger verdens største sandørken?',
         answers: [
             'Sahara i Nordafrika',
             'Gobiørkenen i Asien',
@@ -2199,7 +2199,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.6'],
-        text: 'Hvilket udsagn om ørkenplanternes tilpasning er ikke korrekt?',
+        text: 'Hvilket udsagn om ørkenplanters tilpasning er forkert?',
         answers: [
             'De kan klare sig uden vand, bare der er sollys nok',
             'De blomstrer kun efter regnbyger',
@@ -2257,10 +2257,10 @@ db.questions.save(
         chapters: ['29.6'],
         text: 'Hvad forstås ved metabolisk vand?',
         answers: [
-            'Det vand der indgår i fotosyntesen',
-            'Det vand der skal bruges til udskillelse af urin',
-            'Det vand der dannes ved respirationen',
-            'Det vand der indgår i ekskrementerne'
+            'Det vand, der indgår i fotosyntesen',
+            'Det vand, der skal bruges til udskillelse af urin',
+            'Det vand, der dannes ved respirationen',
+            'Det vand, der indgår i ekskrementerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2316,7 +2316,7 @@ db.questions.save(
             'Nord for 50. breddegrad',
             'Nord for 60. breddegrad',
             'Nord for den nordlige polarcirkel',
-            'På Grønland'
+            'Kun på Grønland'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2358,7 +2358,7 @@ db.questions.save(
             'Jord der er bundfrossen om vinteren',
             'Jord der er dækket af sne eller is',
             'Jord der er bundfrossen året rundt',
-            'Når lufttemperaturen aldrig kommer op over frysepunktet '
+            'Når lufttemperaturen aldrig kommer op over frysepunktet'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2369,9 +2369,9 @@ db.questions.save(
         chapters: ['29.7'],
         text: 'Hvilket problem kan opstå, hvis den bundfrosne jord tør op på grund af global opvarmning?',
         answers: [
-            'At bundet metan kan frigives fra jorden ',
-            'At bundet ilt kan frigives fra jorden ',
-            'At bundet kvælstof kan frigives fra jorden ',
+            'At bundet metan kan frigives fra jorden',
+            'At bundet ilt kan frigives fra jorden',
+            'At bundet kvælstof kan frigives fra jorden',
             'At bundet kuldioxid kan frigives fra jorden '
         ],
         type: 'multiple_text',
@@ -2381,10 +2381,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.7'],
-        text: 'Hvilket udsagn om de arktiske planters tilpasning er ikke korrekt?',
+        text: 'Hvilket udsagn om de arktiske planters tilpasning er forkert?',
         answers: [
             'De er små og lave',
-            'De er høje og kraftige for at beskytte sig mod storme og kulde',
+            'De har meget dybe rødder',
             'De har en tueformet vækst',
             'Det er især græsser, mosser og laver'
         ],
@@ -2567,7 +2567,7 @@ db.questions.save(
         answers: [
             'Mars',
             'Jupiter',
-            'Merkur ',
+            'Merkur',
             'Venus'
         ],
         type: 'multiple_text',
@@ -2619,7 +2619,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.8'],
-        text: 'Hvor stor er tyngdekraften på Månen sammenlignet med Jordens?',
+        text: 'Hvor stor er tyngdekraften på Månen sammenlignet med Jorden?',
         answers: [
             'Ca. 1/2',
             'Ca. 1/3',
@@ -2633,7 +2633,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.8'],
-        text: 'Hvilken planet er ikke en gasplanet? ',
+        text: 'Hvilken planet er ikke en gasplanet?',
         answers: [
             'Jupiter',
             'Saturn',
@@ -2647,9 +2647,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['29.8'],
-        text: 'Hvilket udsagn om følger af liv uden tyngdekraft er ikke korrekt?',
+        text: 'Hvilket udsagn om følger af liv uden tyngdekraft er forkert?',
         answers: [
-            'Mennesker har levet i over 5 år uden tyngdekraft på rumstationen MIR ',
+            'Mennesker har levet i over 5 år uden tyngdekraft på rumstationen MIR',
             'Det skader immunforsvaret',
             'Det giver tab af knoglemasse',
             'Man kan komme til at lide af rumsyge'

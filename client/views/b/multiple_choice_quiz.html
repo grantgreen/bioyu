@@ -37,9 +37,9 @@
             var resultContainer = $('#resultContainer');
             quizLink = "http://yubio.dk/b/questionnaire_quiz.html?id="+link;
             resultLink = quizLink+"&showHighScore=true";
-            var linkText = "<a href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">Link til test</p>";
+            var linkText = "<a href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">Link til test for den/dem, der skal deltage (fx elever)</p>";
               linkContainer.html(linkText);
-              resultContainer.html("<a href="+resultLink+">Link til resultater</p>");
+              resultContainer.html("<a href="+resultLink+">Link til resultater for den/dem, der skal kunne se resultaterne (fx en lærer)</p>");
           })
        }
        else
@@ -51,9 +51,9 @@
             var resultContainer = $('#resultContainer');
             quizLink = "http://yubio.dk/b/questionnaire_quiz.html?id="+link;
             resultLink = quizLink+"&showHighScore=true";
-            var linkText = "<a id='linkid' href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">hLink til test</p>";
+            var linkText = "<a id='linkid' href=http://yubio.dk/b/questionnaire_quiz.html?id="+link+">Link til test for den/dem, der skal deltage (fx elever)</p>";
               linkContainer.html(linkText);
-              resultContainer.html("<a href="+resultLink+">Link til resultater</p>");
+              resultContainer.html("<a href="+resultLink+">Link til resultater for den/dem, der skal kunne se resultaterne (fx en lærer)</p>");
           })
        }
 

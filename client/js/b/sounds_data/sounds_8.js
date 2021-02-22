@@ -16,7 +16,6 @@ var links = {
    ],
    '8.4':[
 { chapter:'8.4',link:'https://www.dropbox.com/s/oiu3fos8q5rm3jf/8.4%20%282017%29.mp4?dl=0'},
-{ chapter:'8.4 (2016)',link:'https://www.dropbox.com/s/976rrc05u8ib662/8.4.mp3?dl=0'},
 { chapter:'8.4.1',link:'https://www.dropbox.com/s/247swm7l3xf7993/8.4.1.mp3?dl=0'},
 { chapter:'8.4.2',link:'https://www.dropbox.com/s/ol9q2z4sl0uw1qi/8.4.2.mp3?dl=0'},
 { chapter:'8.4.3',link:'https://www.dropbox.com/s/wy9zu9w1lmul5ne/8.4.3%20%282017%29.mp4?dl=0'},
@@ -37,6 +36,5 @@ var links = {
    ],
    '8.7':[
 { chapter:'8.7',link:'https://www.dropbox.com/s/1xu991ycsbn2x8c/8.7%20%282017%29.mp4?dl=0'},
-{ chapter:'8.7 (2016)',link:'https://www.dropbox.com/s/f8iuzbdewmnk3sy/8.7.mp3?dl=0'},
    ],
 }

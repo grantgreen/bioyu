@@ -1,7 +1,7 @@
 db.questions.save(
     {
         chapters: [ '16.2'],
-        text: 'Ved enzymer forstås:',
+        text: 'Ved enzymer forstås',
         answers: [
             'Proteiner, der virker som katalalysatorer i levende celler',
             'Lipider, der virker som katalysatorer i levende celler',
@@ -15,7 +15,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.2'],
-        text: 'Enzymerne hører til stofgruppen:',
+        text: 'Enzymerne hører til stofgruppen',
         answers: [
             'Lipider',
             'Nucleinsyrer',
@@ -29,7 +29,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.2'],
-        text: 'Hvad menes der med, at enzymer er specifikke?',
+        text: 'Hvad menes med, at enzymer er specifikke?',
         answers: [
             'At der findes mange forskellige',
             'At det er meget specielle molekyler',
@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '16.2'],
-        text: 'Enzymerne virker på den måde, at:',
+        text: 'Enzymerne virker på den måde, at',
         answers: [
             'De får molekylerne til at bevæge sig hurtigere',
             'De aktiverer substratet',
@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.2'],
-        text: 'Ved enzymets aktive sted forstås:',
+        text: 'Ved enzymets aktive sted forstås',
         answers: [
             'Det sted, hvor substratmolekylerne kan sætte sig',
             'Det sted, hvor der dannes ATP',
@@ -99,7 +99,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '16.2'],
-        text: 'Enzymernes aminosyresekvens bestemmes af:',
+        text: 'Enzymernes aminosyresekvens bestemmes af',
         answers: [
             'Mitokondrierne',
             'Det endoplasmatiske retikulum',
@@ -146,7 +146,7 @@ db.questions.save(
             'Et co-enzym',
             'En uorganisk co-faktor',
             'Hele det aktive enzym',
-            'Proteindelen af et enzym '
+            'Proteindelen af et enzym'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -229,8 +229,8 @@ db.questions.save(
         answers: [
             'At reaktionshastigheden stiger til det dobbelte, hvis temperaturen stiger 10 grader',
             'At reaktionshastigheden stiger med en faktor 10, hvis temperaturen stiger med en faktor 2',
-            'At der dannes 10 ATP ved reaktionen',
-            'At der dannes 2 ATP ved reaktionen'
+            'At der dannes 10 ATP-molekyler ved reaktionen',
+            'At der dannes 2 ATP-molekyler ved reaktionen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -355,8 +355,8 @@ db.questions.save(
         answers: [
             'Fordi ændret ladning kan ændre deres form i det aktive sted',
             'Fordi ændret ladning ikke er i stand til at ændre deres form i det aktive sted',
-            'Fordi enzymet dræbes ved høj pH',
-            'Fordi co-enzymet ikke kan tåle den høje pH'
+            'Fordi enzymet dræbes ved høj pH-værdi',
+            'Fordi co-enzymet ikke kan tåle den høje pH-værdi'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -365,12 +365,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.3'],
-        text: 'Hvad er forklaringen på, at enzymer virker dårligt ved en pH-værdi underes pH-optimum?',
+        text: 'Hvad er forklaringen på, at enzymer virker dårligt ved en pH-værdi under deres pH-optimum?',
         answers: [
             'Fordi ændret ladning kan ændre deres form i det aktive sted',
             'Fordi ændret ladning ikke er i stand til at ændre deres form i det aktive sted',
-            'Fordi enzymet dræbes ved lav pH',
-            'Fordi co-enzymet ikke kan tåle den lave pH'
+            'Fordi enzymet dræbes ved lav pH-værdi',
+            'Fordi co-enzymet ikke kan tåle den lave pH-værdi'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -411,7 +411,7 @@ db.questions.save(
         answers: [
             'Den afhænger af substratkoncentrationen',
             'Den afhænger ikke af inhibitorer',
-            'Den afhænger af aktivatorer ',
+            'Den afhænger af aktivatorer',
             'Den afhænger af enzymkoncentrationen'
         ],
         type: 'multiple_text',
@@ -547,10 +547,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.3'],
-        text: 'Hvorfor er tungmetaller om Pb og Hg så giftige?',
+        text: 'Hvorfor er tungmetaller om Pb (bly) og Hg (kviksølv) så giftige?',
         answers: [
             'De kan ødelægge proteinernes primærstruktur',
-            'De bryder svovlbroerne i proteinernes, så den tertiære struktur ødelægges',
+            'De bryder svovlbroerne i proteinerne, så den tertiære struktur ødelægges',
             'De øger enzymets varmedenaturering',
             'De øger enzymets denaturering som følge af pH-ændringer'
         ],
@@ -565,7 +565,7 @@ db.questions.save(
         answers: [
             'Et stof, der kan bindes til enzymet, så det ændrer form, hvorved substratet ikke kan bindes',
             'Et stof, der kan bindes til enzymet, så substratet bedre kan bindes',
-            'Et stof der bindes til enzymet, så substratets binding til enzymet øges eller hæmmes',
+            'Et stof, der bindes til enzymet, så substratets binding til enzymet øges eller hæmmes',
             'En form for co-enzym'
         ],
         type: 'multiple_text',
@@ -706,7 +706,7 @@ db.questions.save(
             'Hydrolase',
             'Isomerase',
             'Transferase',
-            'Oxidoreduktase'
+            'Oxido-reduktase'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -789,7 +789,7 @@ db.questions.save(
         answers: [
             'Dannelse af kovalente binder uden forbrug af ATP',
             'Dannelse af kovalente bindinger under forbrug af ATP',
-            'Optagelse eller fraspaltning af fosfatgrupper ',
+            'Optagelse eller fraspaltning af fosfatgrupper',
             'Spaltning af kovalente bindinger'
         ],
         type: 'multiple_text',
@@ -844,7 +844,7 @@ db.questions.save(
         text: 'Til hvilken enzymgruppe hører DNA-polymerase?',
         answers: [
             'Transferase',
-            'Oxisoreduktase',
+            'Oxido-reduktase',
             'Ligase',
             'Lyase'
         ],
@@ -900,7 +900,7 @@ db.questions.save(
         text: 'Til hvilken enzymgruppe hører lipaser?',
         answers: [
             'Isomeraser',
-            'Oxidoreduktaser',
+            'Oxido-reduktaser',
             'Hydrolaser',
             'Transferaser'
         ],
@@ -914,7 +914,7 @@ db.questions.save(
         text: 'Til hvilken enzymgruppe hører amylaser?',
         answers: [
             'Ligaser',
-            'Oxidoreduktaser',
+            'Oxido-reduktaser',
             'Transferaser',
             'Hydrolaser'
         ],
@@ -1037,7 +1037,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.5'],
-        text: 'For hvilken enzymgruppe kan de hydrogenoverførende coenzymer være coenzymer ?',
+        text: 'For hvilken enzymgruppe kan de hydrogenoverførende coenzymer være coenzymer?',
         answers: [
             'Lyaser',
             'Oxido-reduktaser',
@@ -1055,7 +1055,7 @@ db.questions.save(
         answers: [
             'Coenzym-A',
             'NAD',
-            'NADP',
+            'NADPH',
             'Cytokrom C'
         ],
         type: 'multiple_text',
@@ -1070,7 +1070,7 @@ db.questions.save(
             'Lyaser',
             'Transferaser',
             'Ligaser',
-            'Oxidoreduktaser'
+            'Oxido-reduktaser'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1081,7 +1081,7 @@ db.questions.save(
         chapters: ['16.5'],
         text: 'Coenzymet FAD er coenzym for',
         answers: [
-            'Oxidoreduktaser',
+            'Oxido-reduktaser',
             'Syntetaser',
             'Lyaser',
             'Transferaser'
@@ -1093,7 +1093,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.5'],
-        text: 'Coenzymet NAD kan dannes ud fra ',
+        text: 'Coenzymet NAD kan dannes ud fra',
         answers: [
             'B-vitaminet niacin ',
             'C-vitamin',
@@ -1107,7 +1107,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.5'],
-        text: 'Coenzymet FAD kan dannes ud fra ',
+        text: 'Coenzymet FAD kan dannes ud fra',
         answers: [
             'B-vitaminet niacin',
             'C-vitamin',
@@ -1139,7 +1139,7 @@ db.questions.save(
         answers: [
             'Transferaser',
             'Isomeraser',
-            'Oxidoreduktaser',
+            'Oxido-reduktaser',
             'Lyaser'
         ],
         type: 'multiple_text',
@@ -1163,7 +1163,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['16.5'],
-        text: 'Coenzym A kan dannes ud fra ',
+        text: 'Coenzym A kan dannes ud fra?',
         answers: [
             'B-vitaminet panthotensyre',
             'B-vitaminet niacin',
@@ -1180,7 +1180,7 @@ db.questions.save(
         text: 'For hvilke enzymer kan ATP fungere som coenzym?',
         answers: [
             'Isomeraser',
-            'Oxidoreduktaser',
+            'Oxido-reduktaser',
             'Transferaser',
             'Hydrolaser'
         ],
@@ -1274,7 +1274,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.6'],
         text: 'Hvilken reaktion kan katalyseres af katalytisk RNA?',
         answers: [
             'Hydrolyse af fosfo-diesterbindinger i RNA',
@@ -1288,7 +1288,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.6'],
         text: 'Hvilken enzymatisk reaktion kan udføres af ribosomet?',
         answers: [
             'Dannelse af peptidbindinger',
@@ -1302,7 +1302,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.7'],
         text: 'Hvad forstås ved sygdommen fenylketonuri?',
         answers: [
             'Ophobning af fenylalanin i hjernen',
@@ -1316,7 +1316,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.7'],
         text: 'Hvad er årsagen til symptomerne ved fenylketonuri?',
         answers: [
             'Mutation i genet for omdannelse af tyrosin til fenylalanin',
@@ -1330,7 +1330,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.7'],
         text: 'Hvilke symptomer giver ubehandlet fenylketonuri?',
         answers: [
             'Man får diabetes',
@@ -1344,7 +1344,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.8'],
         text: 'Til hvilken enzymgruppe hører enzymet papain?',
         answers: [
             'Protease',
@@ -1358,7 +1358,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.8'],
         text: 'Hvilken proces katalyseres af papain?',
         answers: [
             'Spaltning af peptidbindinger',
@@ -1372,7 +1372,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['16.7', '16.8'],
+        chapters: ['16.8'],
         text: 'Hvorfor bruger man cellulaser og pektinaser i juiceproduktionen?',
         answers: [
             'Fordi disse stoffer har en konserverende virkning',

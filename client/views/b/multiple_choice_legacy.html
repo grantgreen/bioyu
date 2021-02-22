@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+	<link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="../../lib/jquery-latest.min.js"></script>
+
+	<script type="text/javascript" src="../../js/tiles.js"></script>
+	<script type="text/javascript" src="../../js/multiple_choice.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../styles/yubio.css" />
+
+	<script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			initMCGame("!!chapters!", "!!topic!", "/b");
+			populate("!!chapters!", "/b");
+		});
+		function initState() {
+			isRandomState = true;
+			document.getElementById("questionsColumn").style.display = "none";
+			document.getElementById("randomColumn").style.display = "inline";
+		};
+		function toggledState() {
+			isRandomState = false;
+			document.getElementById("questionsColumn").style.display = "inline";
+			document.getElementById("randomColumn").style.display = "none";
+		};
+		function handleClick(myRadio) {
+			if (myRadio.value == 1) {
+				initState();
+			}
+			else {
+				toggledState();
+			}
+		};
+			function check_clicked(checkboxElem){
+			if (checkboxElem.checked)
+			 {
+			 	numberOfQuestionsSelected++;
+			 }
+			 else
+			 {
+			 	numberOfQuestionsSelected--;
+				
+			}
+			 document.getElementById("NoOfQuestionSelectedLabel").innerHTML="Du har valgt "+numberOfQuestionsSelected+ " spørgsmål";
+
+		}
+		var numberOfQuestionsSelected = 0;
+		var isRandomState = true;
+	function onSubmit() {
+		if(isRandomState)
+		{
+			var name = document.getElementById("ran_quiz_id").value 
+			if( name == "undefined" || name == "")
+	        {
+	          alert("Testen skal indeholde et navn");
+	          return false;
+	        }		
+		}
+		else
+		{
+			var name = document.getElementById("quiz_id").value 
+			if( name == "undefined" || name == "")
+	        {
+	          alert("Testen skal indeholde et navn");
+	          return false;
+	        }	
+		}
+
+		var hasSubChapters = false;
+		$("input:checkbox[name=subchapter]:checked").each(function(){
+			hasSubChapters = true;
+		});
+	$("input:checkbox[name=question_id]:checked").each(function(){
+			hasSubChapters = true;
+		});
+		
+
+		if(!hasSubChapters)
+		{
+			if( isRandomState)
+			{
+				alert("Testen skal indeholde et eller flere delkapitler");
+			}
+			else
+			{
+				alert("Testen skal indeholde et eller flere spørgsmål");
+			}
+			return false;
+		}
+		return true;
+	}
+		function populate(chapterNo, bookType) {
+			getQuizQuestions(bookType, chapterNo, function (q) {
+				var parent = $('#questionsSelected');
+				var parentRandom = $('#subchaptersRandom');
+				var subChapter =  $('#subchapters');
+				questions = JSON.parse(q);
+				var subchapter = "";
+				for (var i = 0; i < questions.questions.length; i++) {
+					if (subchapter != questions.questions[i].chapters[0]) {
+						subchapter = questions.questions[i].chapters[0];// chapter + "." + (i+1);
+						parent.append("</br><label style=\"font-size: 30pt;text-align: left;\">" + subchapter + "</label></br>");
+
+						var sc = subchapter;
+					    var id = "id_" + sc;
+					    var cb = $('<input type="checkbox"></input>');
+					    cb.attr('name', 'subchapter');
+					    cb.attr('id', id);
+					    cb.attr('value', sc);
+					    parentRandom.append(cb);
+
+					   var l = $('<label class="button"></label>');
+					   l.attr('for', id);
+					   l.html(sc);
+					   l.attr('title', subchapter);
+					   parentRandom.append(l);
+
+
+					   var sid = "sid_" + sc;
+					    var scb = $('<input type="checkbox"></input>');
+					    scb.attr('name', 'subchapter');
+					    scb.attr('id', sid);
+					    scb.attr('value', sc);
+					    subChapter.append(scb);
+
+					   var sl = $('<label class="button"></label>');
+					   sl.attr('for', sid);
+					   sl.html(sc);
+					   sl.attr('title', subchapter);
+					   subChapter.append(sl);
+
+					}
+
+					var cb = $('<input type="checkbox" onchange="check_clicked(this)"></input>');
+					cb.attr('name', 'question_id');
+					cb.attr('id', questions.questions[i]._id.$oid);
+					cb.attr('value', questions.questions[i]._id.$oid);
+					parent.append(cb);
+
+					// var div = $('<div class="button_wide"></div>');
+					var label = $('<label class="button_wide"></label>');
+					label.attr('for', questions.questions[i]._id.$oid);
+					label.html(questions.questions[i].text);
+
+					var toolTip = "";
+					for (var j = 0; j < questions.questions[i].answers.length; j++) {
+						toolTip += questions.questions[i].answers[j] + "\n";
+					}
+					label.attr('title', toolTip);
+					parent.append(label);
+
+				}
+			});
+		};
+
+		function getChapterByNo(chapterNo, bookType) {
+			$.ajax({
+				url: (bookType ? bookType : "") + "/getChapter.json",
+				data: { chapterno: chapterNo }
+			}).done(function (chapter) {
+
+				addSubchapterCheckboxes(chapterNo, chapter.sub.length - 1, chapter); // Do not use resume
+
+			}).fail(function (jqXHR, textStatus) {
+				alert("Request failed: " + textStatus);
+			});
+
+			function addSubchapterCheckboxes(chapter, subchapterCount, chp) {
+				var parent = $('#subchaptersRandom');
+				for (var i = 0; i < subchapterCount; i++) {
+					if (chp.sub[i].hasQuestions == false) {
+						continue;
+					}
+					var subchapter = chapter + "." + (i + 1);
+					var id = "id_" + subchapter;
+					var cb = $('<input type="checkbox"></input>');
+					cb.attr('name', 'subchapter');
+					cb.attr('id', id);
+					cb.attr('value', subchapter);
+					parent.append(cb);
+
+					var label = $('<label class="button"></label>');
+					label.attr('for', id);
+					label.html(subchapter);
+					label.attr('title', chp.sub[i].name);
+					parent.append(label);
+				}
+			}
+		};//getChapter
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row" style="text-align:center">
+			<div class="col-md-12">
+
+				<span id="mainBack"></span>
+				<span id="mainTopic"></span>
+				<span id="mainYubio"></span>
+			</div>
+		</div>
+		<div class="row" style="text-align:center; margin-top: 30px">
+			<div class="col-md-12">
+				<span id="chapter_header" style="font-size: 30pt"></span>
+			</div>
+		</div>
+		<div class="row" style="text-align: center">
+			<div class="col-md-12" id="altColumn">
+				<div class="row" style="text-align:center; margin-top: 30px">
+					<span id="info" style="font-size: 50pt">Kommer senere...</span>
+				</div>
+			</div>
+			<div class="col-md-12" id="column1">
+				<form action="questionnaire.html" method="post" id="mcForm">
+					<br />
+					<fieldset>
+						<legend>Spiltype</legend>
+						<input type="radio" id="practiceMode" name="mode" value="practice" checked /><label
+							class="button" for="practiceMode">Træning</label>
+						<input type="radio" id="battleMode" name="mode" value="battle" /><label class="button"
+							for="battleMode">Kamp</label>
+						<input type="radio" id="buildQuizMode" name="mode" value="build_quiz" /><label class="button"
+							for="buildQuizMode">Byg test</label>
+					</fieldset>
+					<br />
+					<fieldset id="subchapters">
+						<legend>Delkapitler</legend>
+					</fieldset>
+					<br />
+					<fieldset id="questionCount">
+						<legend>Antal spørgsmål</legend>
+						<input type="number" name="count" id="count" min="1" max="50" value="10"></input>
+					</fieldset>
+					<br />
+					<fieldset id="participants">
+						<legend>Antal deltagere</legend>
+						<input type="radio" id="singlePlayer" name="players" value="single" checked /><label
+							class="button" for="singlePlayer">En deltager</label>
+						<input type="radio" id="multiPlayer" name="players" value="multiple" /><label class="button"
+							for="multiPlayer">Flere deltagere</label><br />
+
+						<div id="emailInvitation">
+							<div style="margin-top: 20px">
+								<a class="yubioBtn" style="height: 3em" id="mailInvitation" href="">Opret email
+									invitation</a>
+							</div>
+							<div id="directLink">
+							</div>
+						</div>
+					</fieldset>
+
+					<br />
+
+					<fieldset id="levelSet">
+						<legend>Niveau</legend>
+						<input type="radio" id="level1" name="level" value="1" checked /><label class="button"
+							for="level1">Niveau 1</label>
+						<input type="radio" id="level2" name="level" value="2" /><label class="button"
+							for="level2">Niveau 2</label>
+					</fieldset>
+
+
+					<br />
+					<div id="singlePlayerOptions">
+						<input id="startButton" type="submit" value="Start" />
+						<input id="highScoreButton" type="submit" value="Highscores" />
+					</div>
+
+					<br />
+
+					<input type="hidden" name="stopwatch" value="true" />
+					<input type="hidden" name="topic" value="!!topic!" />
+					<input type="hidden" name="chapters" value="!!chapters!" />
+					<input type="hidden" id="headerText" name="headerText" />
+
+				</form>
+
+			</div>
+			<div class="row" style="text-align: center" id="quizModeSelector">
+				<input type="radio" id="randomRadio" name="quizmode" onclick="handleClick(this);" value="1"
+					checked /><label class="button_wide" for="randomRadio">Byg test udfra tilfældige spørgsmål</label>
+				<input type="radio" id="selectedRadio" name="quizmode" onclick="handleClick(this);" value="2" /><label
+					class="button_wide" for="selectedRadio">Byg test, hvor du selv vælger spørgsmål</label>
+			</div>
+			<div class="row" style="text-align: center">
+				<div class="col-md-12" id="randomColumn">
+
+					<form onsubmit="return onSubmit();" action="http://yubio.dk/b/multiple_choice_quiz.html"
+						method="post">
+						</br>
+						</br>
+						<fieldset id="subchaptersRandom">
+							<legend>Vælg de delkapitler der skal indgå i test</legend>
+						</fieldset>
+						</br>
+						</br>
+						</br>
+						<fieldset id="questionCount">
+							<legend>Vælg antal spørgsmål der skal indgå i test</legend>
+							<input type="number" name="count" id="count" min="1" max="50" value="20"></input>
+						</fieldset>
+						</br>
+						</br>
+						</br>
+						</br>
+						<label style="text-align: left" class="fixed-label" for="ran_timer_id">Tidsfrist (minutter)</label>
+						<input type="text" id="ran_timer_id" name="timer_id" value="Ingen tidsfrist">
+						</br>
+						</br>
+						<label style="text-align: left" class="fixed-label" for="ran_quiz_id">Navn på test </label>
+						<input type="text" id="ran_quiz_id" name="quiz_id">
+						</br>
+						</br>
+						<!-- <label style="text-align: left" class="fixed-label" for="hide_result_id">Skjul resultater   </label>
+<input type="radio" id="hide_result_id" name="hide_result_id" value="public"> -->
+						<input type="radio" id="hide_score_id" name="high_score" value="hide" checked />
+						<label class="button" for="hide_score_id" title="Highscoren kan kun ses via det link, der skabes, når testen konstrueres">Skjul highscore</label>
+						<input type="radio" id="show_score_id" name="high_score" value="show" /><label class="button"
+							for="show_score_id" title="Highscoren er synlig for alle, der deltager i testen">Vis highscore</label>
+						</br>
+						</br>
+						<!-- <label style="text-align: left" class="fixed-label" for="description_id">Beskrivelse    </label>
+		<input type="text" id="description_id" name="description_id"> -->
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+						<input id="startButton" type="submit" value="Byg test" />
+					</form>
+				</div>
+				<div class="col-md-12" id="questionsColumn">
+
+					<form onsubmit="return onSubmit();" action="http://yubio.dk/b/multiple_choice_quiz.html"
+						method="post">
+						</br>
+						</br>
+						<fieldset id="questionsSelected">
+							<legend>Vælg de spørgsmål der skal indgå i test</legend>
+						</fieldset>
+						</br>
+						</br>
+						</br>
+				<label style="text-align: left" class="fixed-label" id="NoOfQuestionSelectedLabel" for="NoOfQuestionSelected"></label>
+						</br>
+						</br>
+						</br>
+						</br>
+						<label style="text-align: left" class="fixed-label" for="timer_id">Tidsfrist (minutter)</label>
+						<input type="text" id="timer_id" name="timer_id" value="Ingen tidsfrist">
+						</br>
+						</br>
+						<label style="text-align: left" class="fixed-label" for="quiz_id">Navn på test </label>
+						<input type="text" id="quiz_id" name="quiz_id">
+						</br>
+						</br>
+						<input type="radio" id="hide_score_id_1" name="high_score" value="hide" checked  /><label
+							class="button" for="hide_score_id_1" title="Highscoren kan kun ses via det link, der skabes, når testen konstrueres">Skjul highscore</label>
+						<input type="radio" id="show_score_id_2" name="high_score" value="show" /><label class="button"
+							for="show_score_id_2" title="Highscoren er synlig for alle, der deltager i testen">Vis highscore</label>
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+						<input id="startButton" type="submit" value="Byg test" />
+					</form>
+					<!-- <input type="hidden" id="headerText" name="headerText" />  -->
+					</form>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>

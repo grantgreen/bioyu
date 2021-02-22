@@ -88,7 +88,7 @@ db.questions.save(
         text: 'Hvad er ulempen ved kønnet formering?',
         answers: [
             'Stor genetisk variation',
-            'Den er tid- og energi-krævende',
+            'Den er tids- og energi-krævende',
             'Lille genetisk variation',
             'For mange mutationer'
         ],
@@ -160,7 +160,7 @@ db.questions.save(
             'Den del af Y-kromosomet, som får fostret til at udvikle sig i hanlig retning',
             'Den del af Y-kromosomet, som hæmmer den hanlige udvikling af fostret',
             'Et bestemt område på X- og Y-kromosomet, som har med kønsudvikling at gøre',
-            'En mutation på Y-kromosomet, som kan medføre testikelkræft '
+            'En mutation på Y-kromosomet, som kan medføre testikelkræft'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.2'],
-        text: 'Hvilket organ hører ikke til i de hanlige kønsorganer?',
+        text: 'Hvilket organ hører ikke til de hanlige kønsorganer?',
         answers: [
             'Prostata',
             'De Cowperske kirtler',
@@ -267,12 +267,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '7.2'],
-        text: 'Hvilken påstand om sædceller er ikke korrekt',
+        text: 'Hvilken påstand om sædceller er ikke korrekt?',
         answers: [
             'De har cytoplasma',
             'De har cellekerne',
             'De har ingen mitokondrier',
-            'Deres næring er sekret fra sædblærerne med fruktose og aminosyrer '
+            'Deres næring er sekret fra sædblærerne med fruktose og aminosyrer'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -284,7 +284,7 @@ db.questions.save(
         text: 'Sædblærernes funktion er',
         answers: [
             'At danne sædceller',
-            'At tilføre sæden forskellige næringsstoffer ',
+            'At tilføre sæden forskellige næringsstoffer',
             'At danne kønshormon',
             'At danne et sekret, der renser urinrøret før ejakulationen'
         ],
@@ -356,7 +356,7 @@ db.questions.save(
             'Stimulerer sædcelledannelsen',
             'Stimulerer Leydigcellerne til at danne testosteron',
             'Stimulerer Sertolicellerne',
-            'Det hæmmer LH'
+            'Hæmmer LH'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -395,10 +395,10 @@ db.questions.save(
         chapters: ['7.2'],
         text: 'Hvilken effekt har inhibin?',
         answers: [
-            'Ved negativt feedback mindskes udskillelsen af FSH',
-            'Ved positivt feedback øges udskillelsen af FSH',
-            'Ved negativt feedback mindskes udskillelsen af LH',
-            'Ved positivt feedback øges udskillelsen af ICSH'
+            'Ved negativ feedback mindskes udskillelsen af FSH',
+            'Ved positiv feedback øges udskillelsen af FSH',
+            'Ved negativ feedback mindskes udskillelsen af LH',
+            'Ved positiv feedback øges udskillelsen af ICSH'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -426,7 +426,7 @@ db.questions.save(
             'I hypofysens forlap',
             'I hypofysens baglap',
             'I sædrørene i testiklerne',
-            'I testiklerne imellem sædrørene'
+            'I testiklerne mellem sædrørene'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -440,11 +440,22 @@ db.questions.save(
             'I hypofysens forlap',
             'I hypofysens baglap',
             'I sædrørene i testiklerne',
-            'I testiklerne imellem sædrørene'
+            'I testiklerne mellem sædrørene'
         ],
         type: 'multiple_text',
         correct_answer: '2'
     });
+
+
+
+
+
+
+
+
+
+
+
 
 
 db.questions.save(
@@ -482,7 +493,7 @@ db.questions.save(
         answers: [
             'I matrix',
             'I folliklerne ',
-            'I meioserne ',
+            'I meioserne',
             'I blastocysterne'
         ],
         type: 'multiple_text',
@@ -509,7 +520,7 @@ db.questions.save(
         text: 'Hvornår i fosterlivet udvikles en piges oocyter?',
         answers: [
             '4.-5. uge',
-            '6.-7. uge ',
+            '6.-7. uge',
             '8.-9. uge',
             '10.-12. uge'
         ],
@@ -562,7 +573,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvad forstås ved menopausen',
+        text: 'Hvad forstås ved menopausen?',
         answers: [
             'Pubertetens start hos begge køn',
             'Pubertetens start hos pigerne',
@@ -623,7 +634,7 @@ db.questions.save(
             'I æggelederen ved hjælp af fimrehår samt rytmiske bevægelser',
             'Ved hjælp af axonerne',
             'Ved hjælp af aktiv transport',
-            'Ved hjælp af æggets flageller '
+            'Ved hjælp af æggets flageller'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -646,11 +657,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvad forstås ved en blastocyst',
+        text: 'Hvad forstås ved en blastocyst?',
         answers: [
             'Et tidligt blæreformet foster',
             'En follikel i æggestokken',
-            'Det gule legeme',
+            'Det gule Legeme',
             'Æggeledertragten'
         ],
         type: 'multiple_text',
@@ -660,7 +671,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvordan opnår skeden sin lave pH?',
+        text: 'Hvordan opnår skeden sin lave pH-værdi?',
         answers: [
             'Fra kirtler, der danner organiske syrer',
             'Fra livmoderen, der danner organiske syrer',
@@ -674,7 +685,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvilket hormon dannes ikke i æggestokkene',
+        text: 'Hvilket hormon dannes ikke i æggestokkene?',
         answers: [
             'Thyroxin',
             'Testosteron',
@@ -889,7 +900,7 @@ db.questions.save(
             '36 timer',
             '10-12 dage',
             '28 dage',
-            'Det fortsætter bare'
+            'Det fortsætter bare med at eksistere uanset hvad'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -930,7 +941,7 @@ db.questions.save(
         answers: [
             'Det medfører, at livmoderslimhindes udstødes',
             'Det medfører ægløsning',
-            'Det medfører, at udviklingen af et antal oocyter sættes i gang ',
+            'Det medfører, at udviklingen af et antal oocyter sættes i gang',
             'Det medfører, at man meget let kan blive gravid'
         ],
         type: 'multiple_text',
@@ -956,8 +967,8 @@ db.questions.save(
         chapters: ['7.3'],
         text: 'Hvad sker der, når koncentrationen af østradiol og inhibin stiger meget sidst i follikelfasen?',
         answers: [
-            'Så stiger mængden af FSH på grund af positivt feedback',
-            'Så stiger mængden af LH på grund af positivt feedback',
+            'Så stiger mængden af FSH på grund af positiv feedback',
+            'Så stiger mængden af LH på grund af positiv feedback',
             'Så falder mængden af LH, og mængden af FSH stiger',
             'Så falder FSH på grund af negativ feedback'
         ],
@@ -1052,7 +1063,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvilket hormon er årsag til temperaturstigningen i sidste halvdel af cyklus?',
+        text: 'Hvilket hormon er årsag til temperaturstigningen i sidste halvdel af menstruationscyklus?',
         answers: [
             'Inhibin',
             'FSH',
@@ -1084,7 +1095,7 @@ db.questions.save(
         answers: [
             'Fordi man ikke har sex',
             'Fordi der ikke dannes så meget østrogen og progesteron',
-            'Fordi den er hæmmet af inhibin',
+            'Fordi menstruationen er hæmmet af inhibin',
             'Fordi FSH og LH er hæmmet ved negativ feedback '
         ],
         type: 'multiple_text',
@@ -1122,7 +1133,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['7.3'],
-        text: 'Hvad forstås ved PCOS ?',
+        text: 'Hvad forstås ved PCOS?',
         answers: [
             'En sygdom, hvor der er en overvægt af mandlige hormoner',
             'Æggestokkene',
@@ -1132,6 +1143,17 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -1225,7 +1247,7 @@ db.questions.save(
             'Af celleudvækster fra livmoderen',
             'Fra celleudvækster fra fostret',
             'Af celler i navlestrengen',
-            'Af celleudvækster fra livmoder samt foster '
+            'Af celleudvækster fra livmoder samt foster'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1307,7 +1329,7 @@ db.questions.save(
         text: 'Hvor dannes hormonet HCG?',
         answers: [
             'I folliklerne',
-            'I det gule legeme ',
+            'I Det gule Legeme ',
             'I testiklerne',
             'I fostrets moderkage'
         ],
@@ -1568,6 +1590,15 @@ db.questions.save(
     });
 
 
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
 	chapters: ['7.5'],
@@ -1630,7 +1661,7 @@ db.questions.save(
 	text: 'Hvorfor begynder barnet selv at trække vejret efter fødslen?',
 	answers: [
 	    'På grund af iltmangel i barnets blod',
-	    'På grund af stigning i CO<sub>2</sub> i barnets blod ',
+	    'På grund af stigning i CO<sub>2</sub> i barnets blod',
 	    'Fordi lungerne bliver klemt sammen under fødslen',
 	    'På grund af hormonet oxytocin'
 	],
@@ -1794,6 +1825,14 @@ db.questions.save(
 
  
 
+
+
+
+
+
+
+
+
 db.questions.save(
     {
 	chapters: ['7.6'],
@@ -1834,6 +1873,18 @@ db.questions.save(
 	type: 'multiple_text',
 	correct_answer: '0'
     });
+
+
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
 	chapters: ['7.7'],
@@ -1976,6 +2027,15 @@ db.questions.save(
 
  
 
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
 	chapters: ['7.8'],
@@ -1993,7 +2053,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['7.8'],
-	text: 'Hvilken mikroorganisme forårsager sygdommen klamydia?',
+	text: 'Hvad forårsager sygdommen klamydia?',
 	answers: [
 	    'HPV-virus',
 	    'Mycoplasma genitalum',
@@ -2011,7 +2071,7 @@ db.questions.save(
 	answers: [
 	    'En klamydiainfektion',
 	    'Gonorre',
-	    'En form for vorter ',
+	    'En form for vorter',
 	    'Kondomer til kvinder'
 	],
 	type: 'multiple_text',
@@ -2102,19 +2162,12 @@ db.questions.save(
 	correct_answer: '0'
     });
 
-db.questions.save(
-    {
-	chapters: ['7.8'],
-	text: 'Hvilken af nedenstående er ikke en mulighed i HIV-bekæmpelsen?',
-	answers: [
-	    'Vaccination',
-	    'Medicin',
-	    'Omskæring af mænd',
-	    'Sikker sex'
-	],
-	type: 'multiple_text',
-	correct_answer: '0'
-    });
+
+
+
+
+
+
 
  
 
@@ -2191,7 +2244,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['7.9'],
-	text: 'Hvad er en hermafrodit?',
+	text: 'Hvad vil det sige at være hermafrodit?',
 	answers: [
 	    'At være homoseksuel',
 	    'At have nogle celler med XX og andre med XY og dermed have både hunlige og hanlige kønsorganer',

@@ -25,7 +25,6 @@ var links = {
 { chapter:'1.5.1',link:'https://www.dropbox.com/s/mjw3t9wrj2kuypr/1.5.1.mp3?dl=0'},
 { chapter:'1.5.2',link:'https://www.dropbox.com/s/akt4m0nkim9j4m4/1.5.2.mp3?dl=0'},
 { chapter:'1.5.3',link:'https://www.dropbox.com/s/ztnomzbknm6g8zg/35.7.mp4?dl=0'},
-{ chapter:'1.5.3 (2015)',link:'https://www.dropbox.com/s/yclxs1nb7t2ad82/1.5.3%20%282015%29.mp3?dl=0'},
 { chapter:'1.5.4',link:'https://www.dropbox.com/s/hwrpv8mzts128xy/1.5.4%20%282018%29.mp4?dl=0'},
 { chapter:'1.5.5',link:'https://www.dropbox.com/s/idpx2ocaby4vfze/1.5.5.mp3?dl=0'},
    ],

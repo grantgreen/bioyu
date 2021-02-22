@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvor gammel anses Jorden for at være?',
         answers: [
             '3,6 milliarder år',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår var der dannet flydende vand på Jorden?',
         answers: [
             'For 3,4 milliarder år siden',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilket udsagn om den tidlige atmosfære er ikke korrekt?',
         answers: [
             'Der var metan',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilket stof fandtes ikke i den tidlige atmosfære?',
         answers: [
             'Kuldioxid',
@@ -56,8 +56,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
-        text: 'Hvilket udsagn om RNA er ikke korrekt?',
+        chapters: ['24.2'],
+        text: 'Hvilket udsagn om RNA er forkert?',
         answers: [
             'Det er selvkopierende',
             'Det kan katalysere kemiske processer',
@@ -70,8 +70,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
-        text: 'Hvilket udsagn om RNA er ikke korrekt?',
+        chapters: ['24.2'],
+        text: 'Hvilket udsagn om RNA er forkert?',
         answers: [
             'Det kan katalysere kemiske processer',
             'Det kan virke som enzym',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad er ikke et krav for at noget kan kaldes levende?',
         answers: [
             'Der skal være en form for stofskifte',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad menes med heterotrofe organismer?',
         answers: [
             'Organismer, der skaffer sig energi ved at oxidere forskellige uorganiske forbindelser',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad siger heterotrof-hypotesen?',
         answers: [
             'At de første organismer skaffede sig energi ved anaerob nedbrydning af organisk stof',
@@ -126,13 +126,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad forstås ved en obligat anaerob organisme?',
         answers: [
             'En organisme, der ikke kan tåle ilt',
             'En organisme, der skal have ilt',
             'En organisme, der primært er anaerob, men også kan leve i et aerobt miljø',
-            'En organisme, der primært er aerob, men også kan leve i et anaerobt miljø '
+            'En organisme, der primært er aerob, men også kan leve i et anaerobt miljø'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -140,12 +140,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad forstås ved autotrofe organismer?',
         answers: [
             'Organismer, der skaffer sig energi uden at behøve organiske stoffer',
             'Organismer, der skaffer sig energi ved at nedbryde organisk stof',
-            'Organismer, der ikke har brug for energi ',
+            'Organismer, der ikke har brug for energi',
             'Organismer, der ikke har brug for ATP'
         ],
         type: 'multiple_text',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad siger autotrof-hypotesen?',
         answers: [
             'At de første organismer skaffede sig energi ved respiration',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvordan skaffede de tidligste autotrofe organismer sig energi?',
         answers: [
             'Ved at omdanne GTP til ATP',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad er prokaryoter?',
         answers: [
             'Organismer uden egentlig cellekerne',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår menes de første levende organismer at være opstået?',
         answers: [
             'For ca. 2 millioner år siden',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår menes de foto-autotrofe organismer at være opstået?',
         answers: [
             'For ca. 2 milliarder år siden',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad forstås ved fotoautotrofe organismer?',
         answers: [
             'Organismer, der ikke kan tåle sollys',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilket stof brugte de første fotoautotrofer som hydrogen-kilde?',
         answers: [
             'H<span style="vertical-align:sub; font-size:58%;">2</span>',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår opstod organismer med moderne fotosyntese?',
         answers: [
             'For ca. 2 millioner år siden',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Til hvilken gruppe organismer hører cyanobakterierne?',
         answers: [
             'Til eukaryoterne',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Til hvilken gruppe organismer hører blågrønalgerne?',
         answers: [
             'Til eukaryoterne',
@@ -294,13 +294,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilke stoffer bruger planter til deres fotosyntese?',
         answers: [
             'Glukose og ilt',
             'Glukose og kuldioxid',
             'Kuldioxid og vand',
-            'Kulilte og vand'
+            'Glukose og vand'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilke stoffer dannes ved planternes fotosyntese?',
         answers: [
             'Glukose og ilt',
@@ -322,13 +322,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
-        text: 'Hvad er det farlige ved fri ilt?',
+        chapters: ['24.2'],
+        text: 'Hvad er det farlige ved frit ilt?',
         answers: [
             'Respirationen kan blive for stor',
             'Der kan dannes for meget ATP',
             'Det kan skade DNA og RNA',
-            'Der kan dannes for mange proteiner ved proteinsyntesen '
+            'Der kan dannes for mange proteiner ved proteinsyntesen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad forstås ved eukaryote organismer?',
         answers: [
             'Organismer uden en egentlig cellekerne',
@@ -350,11 +350,11 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår menes eukaryoterne at være opstået?',
         answers: [
             'For ca. 3,7 milliarder år siden',
-            'For ca. 1,2 milliarder år siden ',
+            'For ca. 1,2 milliarder år siden',
             'For ca. 2 milliarder år siden',
             'For ca. 3,7 millioner år siden '
         ],
@@ -364,10 +364,10 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvilket udsagn om eukaryoter er korrekt?',
         answers: [
-            'De har ikke cellekerne',
+            'De har ingen cellekerne',
             'De har mitokondrier',
             'De opstod for ca. 3,7 milliarder år siden',
             'De har ikke indre membraner i cellerne'
@@ -378,10 +378,10 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
-        text: 'Hvilket udsagn om eukaryoter er ikke korrekt?',
+        chapters: ['24.2'],
+        text: 'Hvilket udsagn om eukaryoter er forkert?',
         answers: [
-            'De har cellekerne',
+            'De har en cellekerne',
             'De har mitokondrier',
             'De var de første levende organismer på jorden',
             'De opstod for ca. 1,2 milliarder år siden'
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad er mitokondriernes funktion?',
         answers: [
             'De udfører fotosyntesen',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'I Hvilke celleorganeller foregår fotosyntesen?',
         answers: [
             'I mitokondrierne',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'I hvilke celleorganeller foregår respirationen?',
         answers: [
             'I mitokondrierne',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad forstås ved endosymbiont-teorien?',
         answers: [
             'At cellekernen stammer fra en eukaryot organisme',
@@ -448,7 +448,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvorfra stammer planternes kloroplaster?',
         answers: [
             'Fra en optaget tidlig prokaryot, der kunne udføre respiration',
@@ -462,7 +462,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvorfra stammer planternes og dyrenes mitokondrier?',
         answers: [
             'Fra en optaget tidlig prokaryot, der kunne udføre respiration',
@@ -476,7 +476,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvad menes med den kambriske eksplosion?',
         answers: [
             'Nogle store vulkanudbrud i den kambriske periode',
@@ -490,7 +490,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['24.1', '24.2'],
+        chapters: ['24.2'],
         text: 'Hvornår opstod padder og krybdyr?',
         answers: [
             'For ca. 570 millioner år siden',
@@ -502,13 +502,18 @@ db.questions.save(
         correct_answer: '1'
     });
 
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['24.3'],
         text: 'Hvad forstås ved kreationisme?',
         answers: [
             'At Gud har skabt de levende organismer i den nuværende form',
-            'At Gud har skabe de oprindelige arter, som så siden har udviklet sig',
+            'At Gud har skabt de oprindelige arter, som så siden har udviklet sig',
             'Lamarcks teori om evolution',
             'Darwins oprindelige teori om evolution'
         ],
@@ -522,7 +527,7 @@ db.questions.save(
         text: 'Hvad mente Lamarck om evolution?',
         answers: [
             'At Gud har skabt de levende organismer i den nuværende form',
-            'At Gud har skabt de oprindelige arter, som så siden har udviklet sig',
+            'At Gud har skabt de oprindelige arter, som så siden har udviklet sig (dog ikke mennesket)',
             'At erhvervede egenskaber ikke kan nedarves',
             'At den ikke findes'
         ],
@@ -547,7 +552,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.3'],
-        text: 'Hvilken påstand om kønnet formering er ikke korrekt?',
+        text: 'Hvilken påstand om kønnet formering er forkert?',
         answers: [
             'Den er langsom',
             'Den har et højt energiforbrug',
@@ -606,7 +611,7 @@ db.questions.save(
         text: 'Hvordan forklarede Lamarck giraffens lange hals?',
         answers: [
             'At Gud havde skabt den sådan',
-            'At den var blevet så lang, fordi giraffen i generationer havde strakt hals for at nå de øverste blade ',
+            'At den var blevet så lang, fordi giraffen i generationer havde strakt hals for at nå de øverste blade',
             'At det var en tilfældighed',
             'At giraffer med de længste halse fik mest afkom, som så også fik lange halse'
         ],
@@ -645,15 +650,15 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.3'],
-        text: 'Hvornår og af hvem blev begrebet mutation introduceret?',
+        text: 'Hvornår og af hvem blev begrebet "mutation" introduceret?',
         answers: [
             'Af Darwin i 1859',
-            'Huge de Vries',
+            'Af Huge de Vries i 1886',
             'Af Mendel i 1865',
             'Af Johannesen i starten af 1900-tallet'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '1'
     });
 
 db.questions.save(
@@ -747,7 +752,7 @@ db.questions.save(
         answers: [
             'Det fænomen at hannerne helst skal undgå et handicap',
             'Det fænomen, at hunnerne gerne må have et handicap',
-            'Det at de stærkeste kan tillade sig at ”prale” med et eller andet handicap',
+            'Det, at de stærkeste kan tillade sig at ”prale” med et eller andet handicap',
             'Det fænomen, at handicap fravælges af alle individer'
         ],
         type: 'multiple_text',
@@ -759,10 +764,10 @@ db.questions.save(
         chapters: ['24.3'],
         text: 'Hvad menes med monogami?',
         answers: [
-            'Det at man kun får afkom med en mage',
-            'Det at hanner kun får afkom med en mage',
-            'Det at hunner kun får afkom med en mage ',
-            'Det at hunner kun føder en unge ad gangen'
+            'Det, at man kun får afkom med en mage',
+            'Det, at hanner kun får afkom med en mage',
+            'Det, at hunner kun får afkom med en mage',
+            'Det, at hunner kun føder en unge ad gangen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -773,10 +778,10 @@ db.questions.save(
         chapters: ['24.3'],
         text: 'Hvad menes med polygami?',
         answers: [
-            'Det at hannerne har flere partnere samtidigt',
-            'Det at individerne i en population har flere partnere samtidigt',
-            'Det at man kun har en partner ad gangen, men en serie gennem livet',
-            'Det at man får meget afkom'
+            'Det, at hannerne har flere partnere samtidigt',
+            'Det, at individerne i en population har flere partnere samtidigt',
+            'Det, at man kun har en partner ad gangen, men mange gennem livet',
+            'Det, at man får meget afkom'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -785,10 +790,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.3'],
-        text: 'Hvordan defineres en population?',
+        text: 'Hvordan defineres begrebet "population"?',
         answers: [
             'En gruppe individer i et område, der ligner hinanden meget',
-            'En gruppe individer indenfor samme område, der kan få afkom sammen',
+            'En gruppe individer inden for samme område, der kan få afkom sammen',
             'En gruppe individer inden for samme område, der kan få fertilt afkom sammen',
             'En gruppe individer inden for samme race, der kan formere sig indbyrdes'
         ],
@@ -799,7 +804,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.3'],
-        text: 'Hvad menes med altruisme?',
+        text: 'Hvad menes med begrebet "altruisme"?',
         answers: [
             'At man får meget afkom',
             'At man er polygam',
@@ -844,9 +849,9 @@ db.questions.save(
         text: 'Hvor mange forskellige arter af hunde findes der?',
         answers: [
             '1',
-            '10',
-            '20',
-            '30'
+            '11',
+            '24',
+            '36'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -911,7 +916,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.3'],
-        text: 'Hvad forstås ved ikke-reducerbar kompleksitet',
+        text: 'Hvad forstås ved ikke-reducerbar kompleksitet?',
         answers: [
             'At verden er for kompleks til at kunne være udviklet med evolution',
             'At verden kan reduceres til ingenting',
@@ -967,7 +972,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.4'],
-        text: 'Hvilken gruppe hører mennesket ikke til i?',
+        text: 'Hvilken gruppe hører mennesket ikke til?',
         answers: [
             'Egentlige aber',
             'Østaber',
@@ -1095,10 +1100,10 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvor stor var hjernen hos Australopithecus?',
         answers: [
-            'Ca. 300 cm',
-            'Ca. 400 cm',
-            'Ca. 1000 cm',
-            'Ca. 1400 cm'
+            'Ca. 300 kubikcentimer',
+            'Ca. 400 kubikcentimeter',
+            'Ca. 1000 kubikcentimeter',
+            'Ca. 1400 kubikcentimeter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1110,8 +1115,8 @@ db.questions.save(
         text: 'Hvorfor var det nødvendigt for de tidlige Homo-arter at spise kød og fedt fra dyr?',
         answers: [
             'Fordi der var meget lidt plantevækst på dette tidspunkt',
-            'Fordi kød og fedt indeholder flere vitaminer, som der var hårdt brug for ',
-            'Fordi der er flere KJ i kød end i plantekost',
+            'Fordi kød og fedt indeholder flere vitaminer, som der var hårdt brug for',
+            'Fordi der er mere energi i kød end i plantekost',
             'For ikke at få for mange umættede fedtsyrer '
         ],
         type: 'multiple_text',
@@ -1121,7 +1126,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.4'],
-        text: 'Hvor stor en del af nutidsmennesket samlede energiindtag går til hjernen?',
+        text: 'Hvor stor en del af nutidsmenneskets samlede energiindtag går til hjernens aktivitet?',
         answers: [
             'Ca. 10 %',
             'Ca. 15 %',
@@ -1151,10 +1156,10 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvornår opstod Homo ergaster?',
         answers: [
-            'For 4 millioner år siden',
-            'For 2 millioner år siden',
-            'For 200.000 år siden',
-            'For 50.000 år siden'
+            'For ca. 4 millioner år siden',
+            'For ca. 2 millioner år siden',
+            'For ca. 200.000 år siden',
+            'For ca. 50.000 år siden'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1227,7 +1232,7 @@ db.questions.save(
             'For ca. 200.000 år siden'
         ],
         type: 'multiple_text',
-        correct_answer: '0'
+        correct_answer: '1'
     });
 
 db.questions.save(
@@ -1249,9 +1254,9 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvor gamle er de tidligste spor af H. neanderthalensis?',
         answers: [
-            'Ca. 200.000 år ',
-            'Ca. 28.000 år ',
-            'Ca. 500.000 år ',
+            'Ca. 200.000 år',
+            'Ca. 28.000 år',
+            'Ca. 500.000 år',
             'Ca. 1 million år'
         ],
         type: 'multiple_text',
@@ -1263,10 +1268,10 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvornår forsvandt H. neanderthalensis?',
         answers: [
-            'For 28.000 år siden',
-            'For 100.000 år siden',
-            'For 200.000 år siden',
-            'For 500.000 år siden'
+            'For ca. 25.000 år siden',
+            'For ca. 100.000 år siden',
+            'For ca. 200.000 år siden',
+            'For ca. 500.000 år siden'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1291,7 +1296,7 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvilken påstand om neanderthalernes genom er ikke korrekt?',
         answers: [
-            'Man har ikke kunnet undersøge det endnu',
+            'Man har ikke kunnet undersøge deres genom ordentligt endnu',
             'Homo sapiens deler 1-4 % af deres genom med Neandertalerne',
             'Neandertalerne havde en mutation, der gav dem rødt hår',
             'I genomet var gener for taleevne'
@@ -1322,7 +1327,7 @@ db.questions.save(
             'Fordi de havde en speciel mutation i FOXP2-genet',
             'Fordi de havde en speciel mutation i MRC1-genet',
             'Fordi de havde en bestemt mutation i X3 genet',
-            'Fordi de havde en speciel mutation i X4 genet '
+            'Fordi de havde en speciel mutation i X4 genet'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1333,8 +1338,8 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvornår er Homo sapiens opstået?',
         answers: [
-            'For 35.000 år siden',
-            'For 50.000 år siden',
+            'For ca. 35.000 år siden',
+            'For ca. 50.000 år siden',
             'For 150.000-200.000 år siden',
             'For ca. 500.000 år siden'
         ],
@@ -1345,12 +1350,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.4'],
-        text: 'Hvad menes med det genografiske projekt?',
+        text: 'Hvad menes med det "genografiske projekt"?',
         answers: [
             'Kortlægning af menneskets genom',
             'Kortlægning af menneskets udbredelse på Jorden ud fra fossile spor',
             'Kortlægning af menneskets stamtræ',
-            'Kortlægning af vandringer på Jorden ud fra DNA-undersøgelser'
+            'Kortlægning af menneskets vandringer på Jorden ud fra DNA-undersøgelser'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1373,12 +1378,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.4'],
-        text: 'Hvilket udsagn om afrikanernes hudpigment (melanin) er ikke korrekt?',
+        text: 'Hvilket udsagn om afrikanernes hudpigment (melanin) er forkert?',
         answers: [
             'Det er samme type melanin, som europæerne har',
             'Pigmentet beskytter mod hudkræft',
             'Pigmentet har en mørkere farve end europæernes pigment',
-            'Pigmentet hæmmer dannelsen af D-vitamin i huden '
+            'Pigmentet hæmmer dannelsen af D-vitamin i huden'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1459,10 +1464,10 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Australien er muligvis blevet koloniseret af Homo sapiens så tidligt som',
         answers: [
-            'For 50-60.000 år siden',
-            'For 100.000 år siden',
-            'For 200.000 år siden',
-            'For 500.000 år siden'
+            'For ca. 65.0000 år siden',
+            'For ca. 100.000 år siden',
+            'For ca. 200.000 år siden',
+            'For ca. 500.000 år siden'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1471,7 +1476,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.4'],
-        text: 'Hvilket udsagn om udvandringen fra Afrika er sand?',
+        text: 'Hvilket udsagn om udvandringen fra Afrika er (formentlig) korrekt?',
         answers: [
             'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 80.000 år siden',
             'Alle nulevende mennesker stammer fra en eneste udvandringsbølge for ca. 200.000 år siden',
@@ -1482,33 +1487,6 @@ db.questions.save(
         correct_answer: '0'
     });
 
-db.questions.save(
-    {
-        chapters: ['24.4'],
-        text: 'Hvilket udsagn om nutidsmennesket er sandt?',
-        answers: [
-            '2 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '0 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '8 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '15 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['24.4'],
-        text: 'Hvilket udsagn om nutidsmennesket er sandt?',
-        answers: [
-            '2 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '0 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '8 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper',
-            '15 % af genomet hos en række nulevende, oprindelige folk udgøres af ”gammelt DNA” fra tidligere Homo-grupper'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
 
 
 db.questions.save(
@@ -1530,7 +1508,7 @@ db.questions.save(
         chapters: ['24.4'],
         text: 'Hvordan forklarer man det "gamle DNA" hos nutidsmennesket?',
         answers: [
-            'Ved at de udvandrende Homo sapiens på deres vej fra Afrika for 80.000 år siden har dyrket sex med de gamle arter, der var udvandret på et tidligere tidspunkt',
+            'Ved at de udvandrende Homo sapiens på deres vej fra Afrika for ca. 80.000 år siden har dyrket sex med de gamle arter, der var udvandret på et tidligere tidspunkt',
             'Det var allerede til stede fra starten af evolutionen',
             'Man kan ikke forklare det',
             'Man mener, at det må stamme fra "forurening" i de laboratorier, der undersøger de gamle knogler'
@@ -1567,6 +1545,14 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['24.5'],
@@ -1584,7 +1570,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvor mange aminosyrer indgår der i vores proteiner?',
+        text: 'Hvor mange forskellige aminosyrer indgår der i vores proteiner?',
         answers: [
             '4',
             '8',
@@ -1598,7 +1584,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvor mange mulige aminosyre-kodende tripletter findes der teoretisk set?',
+        text: 'Hvor mange mulige aminosyre-kodende tripletter/kodons findes der teoretisk set?',
         answers: [
             '3',
             '4',
@@ -1612,12 +1598,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvad er den sikreste metode, når man vil undersøge slægtsskab: DNA-alignment eller alignment af aminosyresekvenser?',
+        text: 'Hvad er den sikreste metode, når man vil undersøge slægtsskab?',
         answers: [
-            'De er lige sikre',
+            'DNA-alignments og aminosyresekvens-alignment er lige sikre',
             'DNA-alignment',
             'Aminosyresekvens-alignment',
-            'Til mennesket kan kun bruges DNA-alignment'
+            'Ingen af dem kan bruges i den sammenhæng'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1626,7 +1612,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvad forstås ved local alignment for proteiner?',
+        text: 'Hvad forstås ved "local alignment" for proteiner?',
         answers: [
             'At man kun undersøger en lille del af proteinet for sammenfald i aminosyresammensætning',
             'At man undersøger hele proteinet for sammenfald i aminosyresammensætning',
@@ -1640,7 +1626,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvad forstås ved global alignment for proteiner?',
+        text: 'Hvad forstås ved "global alignment" for proteiner?',
         answers: [
             'At man kun undersøger en lille del af proteinet for sammenfald i aminosyresammensætning',
             'At man undersøger hele proteinet for sammenfald i aminosyresammensætning',
@@ -1685,7 +1671,7 @@ db.questions.save(
         text: 'Hvad menes med konvergent evolution?',
         answers: [
             'Udvikling væk fra den fælles stamform i flere retninger',
-            'Udvikling fra forskellige udgangspunkter hen mod en fælles ydre form ',
+            'Udvikling fra forskellige udgangspunkter hen mod en fælles ydre form',
             'Udvikling i uheldig retning så arten måske uddør',
             'Udvikling så arten bliver mere livskraftig'
         ],
@@ -1696,11 +1682,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvad forstås ved et morfologisk stamtræ? ',
+        text: 'Hvad forstås ved et morfologisk stamtræ?',
         answers: [
             'Et stamtræ opstillet efter DNA-sekvenser',
             'Et stamtræ opstillet efter aminosyresekvenser',
-            'Et stamtræ opstillet ved hjælp af slægtsskabsanalyser ',
+            'Et stamtræ opstillet ved hjælp af slægtsskabsanalyser',
             'Et stamtræ opstillet efter ydre lighed'
         ],
         type: 'multiple_text',
@@ -1766,7 +1752,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['24.5'],
-        text: 'Hvilket udsagn om nutidsmennesket og neandertalerne er ikke korrekt?',
+        text: 'Hvilket udsagn om nutidsmennesket og neandertalerne er forkert?',
         answers: [
             'De stod langt fra hinanden genetisk',
             'De har samme slægtsnavn',

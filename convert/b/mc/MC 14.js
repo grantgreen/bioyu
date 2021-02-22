@@ -2,7 +2,7 @@
 db.questions.save(
     {
 	chapters: ['14.1'],
-	text: 'Hvad forstås ved stofskiftet hos en levende celle?',
+	text: 'Hvad forstås ved "stofskiftet" hos en levende celle?',
         answers: [
 	    'Alle de kemiske processer, der finder sted i cellen',
 	    'Diffusion gennem cellemembranen',
@@ -102,10 +102,10 @@ db.questions.save(
 	chapters: ['14.2'],
 	text: 'Hvad forstås ved en katalysator?',
         answers: [
-	    'Et stof der får en kemisk proces til at forløbe hurtigere',
-	    'Et stof der får en kemisk proces til at forløbe langsommere',
-	    'Et stof der aktiverer et enzym',
-	    'Et stof der hæmmer et enzym'
+	    'Et stof, der får en kemisk proces til at forløbe hurtigere',
+	    'Et stof, der får en kemisk proces til at forløbe langsommere',
+	    'Et stof, der aktiverer et enzym',
+	    'Et stof, der hæmmer et enzym'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -142,12 +142,12 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.2'],
-	text: 'Ved hvilken temperatur arbejder de fleste af kroppens enzymer bedst? ',
+	text: 'Ved hvilken temperatur arbejder de fleste af kroppens enzymer bedst?',
         answers: [
-	    '37 grader ',
-	    '30 grader',
-	    '20 grader',
-	    '47 grader'
+	    'Ca. 37 grader',
+	    'Ca. 30 grader',
+	    'Ca. 20 grader',
+	    'Ca. 47 grader'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -156,12 +156,12 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.2'],
-	text: 'Ved hvilken pH-værdi arbejder de fleste af kroppens enzymer bedst? ',
+	text: 'Ved hvilken pH-værdi arbejder de fleste af kroppens enzymer bedst?',
         answers: [
-	    '7',
-	    '5',
-	    '2',
-	    '9'
+	    'Ca. 7',
+	    'Ca. 5',
+	    'Ca. 2',
+	    'Ca. 9'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -551,7 +551,7 @@ db.questions.save(
 	chapters: ['14.4'],
 	text: 'Hvad sker der i glykolysen?',
         answers: [
-	    'Glukose nedbrydes til pyruvat og ATP',
+	    'Et glukosemolekyle nedbrydes til 2 pyruvatmolekyler og 2 ATP-molekyler',
 	    'Acetyl-CoA omdannes til CO<span style="vertical-align:sub; font-size:58%;">2</span>, H<span style="vertical-align:sub; font-size:58%;">2</span>O og ATP',
 	    'Der dannes 26 ATP',
 	    'Der dannes fri ilt'
@@ -566,7 +566,7 @@ db.questions.save(
 	text: 'Hvad sker der i Krebs\' cyklus?',
         answers: [
 	    'Acetyl-CoA omdannes til CO<span style="vertical-align:sub; font-size:58%;">2</span>, H<span style="vertical-align:sub; font-size:58%;">2</span>O og ATP',
-	    'Glukose nedbrydes til pyruvat og ATP',
+	    'Et glukosemolekyle nedbrydes til 2 pyruvatmolekyler og 2 ATP-molekyler',
 	    'Der dannes 26 ATP',
 	    'Der dannes fri ilt'
 	],
@@ -580,7 +580,7 @@ db.questions.save(
 	text: 'Hvad sker der i respirationskæden',
         answers: [
 	    'Der dannes 26 ATP',
-	    'Glukose nedbrydes til pyruvat og ATP',
+	    'Et glukosemolekyle nedbrydes til 2 pyruvatmolekyler og 2 ATP-molekyler',
 	    'Acetyl-CoA omdannes til CO<span style="vertical-align:sub; font-size:58%;">2</span>, H<span style="vertical-align:sub; font-size:58%;">2</span>O og ATP',
 	    'Der dannes fri ilt'
 	],
@@ -633,7 +633,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.4'],
-	text: 'Hvor meget ATP får man netto ud af et molekyle glukose i glykolysen?',
+	text: 'Hvor meget ATP får man (netto) ud af et molekyle glukose i glykolysen?',
         answers: [
 	    '2',
 	    '15',
@@ -649,10 +649,10 @@ db.questions.save(
 	chapters: ['14.4'],
 	text: 'Hvad er det samlede ATP-udbytte ved den aerobe nedbrydning af et molekyle glukose?',
         answers: [
-	    '30',
-	    '15',
-	    '26',
-	    '2'
+	    '30 stk.',
+	    '15 stk.',
+	    '26 stk.',
+	    '2 stk.'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -689,7 +689,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.4'],
-	text: 'Hvor meget ATP findes der i vores krop?',
+	text: 'Hvor meget ATP findes i vores krop?',
         answers: [
 	    'Ca. 250 g',
 	    'Ca. 500 g',
@@ -746,7 +746,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.5'],
-	text: 'Hvor meget energi findes der i 1 g fedt?',
+	text: 'Hvor meget energi findes i 1 g fedt?',
         answers: [
 	    '38 kJ',
 	    '30 kJ',
@@ -760,7 +760,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.5'],
-	text: 'Hvor meget energi findes der i 1 g kulhydrat?',
+	text: 'Hvor meget energi findes i 1 g kulhydrat?',
         answers: [
 	    '17 kJ',
 	    '38 kJ',
@@ -774,7 +774,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.5'],
-	text: 'Hvor meget energi findes der i 1 g  protein?',
+	text: 'Hvor meget energi findes i 1 g protein?',
         answers: [
 	    '17 kJ',
 	    '38 kJ',
@@ -788,7 +788,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['14.5'],
-	text: 'Hvor meget energi findes der i 1 g alkohol?',
+	text: 'Hvor meget energi findes i 1 g alkohol?',
         answers: [
 	    '30 kJ',
 	    '38 kJ',
@@ -961,7 +961,7 @@ db.questions.save(
 	    'De danner energi',
 	    'De koster energi',
 	    'De kræver lys',
-	    'De foregår bedte i mørke'
+	    'De foregår bedst i mørke'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1253,7 +1253,7 @@ db.questions.save(
 	text: 'Hvilke stoffer dannes ved lysprocesserne?',
         answers: [
 	    'ATP og NADPH samt ilt',
-	    'Sollys',
+	    'Glukose',
 	    'Glukose og NADP',
 	    'Fedtsyrer og aminosyrer'
 	],

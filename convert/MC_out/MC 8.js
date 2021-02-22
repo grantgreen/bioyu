@@ -1,7 +1,7 @@
 db.questions.save(
     {
         chapters: ['8.1'],
-        text: 'Ved efferente neuroner forstås:',
+        text: 'Ved efferente neuroner forstås',
         answers: [
             'Nogle særligt effektive neuroner',
             'Neuroner, der sender besked fra centralnervesystemet',
@@ -15,7 +15,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.1'],
-        text: 'Ved afferente neuroner forstås:',
+        text: 'Ved afferente neuroner forstås',
         answers: [
             'Neuronernes støtteceller',
             'Nogle særligt specialiserede neuroner',
@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.1'],
-        text: 'Det perifere nervesystem består af:',
+        text: 'Det perifere nervesystem består af',
         answers: [
             'De neuroner, der befinder sig i periferien af kroppen',
             'De neuroner, der ikke står under viljens kontrol',
@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.1'],
-        text: 'Somatiske neuroner er:',
+        text: 'Somatiske neuroner er',
         answers: [
             'De neuroner, der kan styre vores skeletmuskulatur',
             'De selvstyrende neuroner',
@@ -85,7 +85,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.1'],
-        text: 'De autonome neuroner kan opdeles i:',
+        text: 'De autonome neuroner kan opdeles i',
         answers: [
             'De efferente og de afferente',
             'Dem vi selv kan styre, og dem vi ikke selv kan styre',
@@ -110,10 +110,21 @@ db.questions.save(
         correct_answer: '1'
     });
 
+
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Ved soma forstås:',
+        text: 'Ved soma forstås',
         answers: [
             'Cellekroppen',
             'Cellens lange udløber',
@@ -127,7 +138,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Ved dendritter forstås:',
+        text: 'Ved dendritter forstås',
         answers: [
             'De korte udløbere fra neuronet, der modtager impulserne',
             'De lange udløbere fra neuronet, der sender impulserne videre',
@@ -141,7 +152,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Nervecellens axon har følgende funktion:',
+        text: 'Nervecellens axon har følgende funktion',
         answers: [
             'At modtage nerveimpulser',
             'At skelne mellem forskellige signaler i nervesystemet',
@@ -155,7 +166,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Axon Hillock er ',
+        text: 'Axon Hillock er',
         answers: [
             'Der, hvor synapsen overfører signalet',
             'Der, hvor transmitterstoffet sætter sig',
@@ -174,7 +185,7 @@ db.questions.save(
             'Her dannes dendritterne',
             'Her dannes axonerne',
             'Her frigives transmitterstof',
-            'Her sætter transmitterstof sig på Axon Hillock'
+            'Her sætter transmitterstof sig på axon Hillock'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -202,7 +213,7 @@ db.questions.save(
             'Fra dendritterne',
             'Fra mitokondrierne i endeknopperne',
             'Fra vesiklerne i endeknopperne',
-            'Fra Axon Hillock'
+            'Fra axon Hillock'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -239,7 +250,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Ved gliaceller forstås:',
+        text: 'Ved gliaceller forstås',
         answers: [
             'Synapseceller',
             'Støtteceller for nervecellerne',
@@ -253,7 +264,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.2'],
-        text: 'Hvad er den Schwanske celles funktion?',
+        text: 'Hvad er den Schwannske celles funktion?',
         answers: [
             'At nedbryde gamle neuroner',
             'At kontrollere dendritterne',
@@ -285,12 +296,21 @@ db.questions.save(
         answers: [
             'De øger nervesignalets hastighed',
             'De isolerer neuronerne fra hinanden',
-            'De er dannet af Schwanske celler eller oligodendrocytter',
-            'De nedsætter nervesignalets hastighed'
+            'De er dannet af Schwannske celler eller oligodendrocytter',
+            'De nedbrydes typisk fra 40 års alderen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -327,8 +347,8 @@ db.questions.save(
         answers: [
             'Ca. -70 mV (negativt inde i cellen)',
             'Ca. +70 mV (positivt inde i cellen',
-            'Ca. -55 mV',
-            'Ca. +55 mV'
+            'Ca. -55 mV (negativt inde i cellen)',
+            'Ca. +55 mV (positivt inde i cellen)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -355,7 +375,7 @@ db.questions.save(
         answers: [
             'En undersøgelse af hjertets aktivitet',
             'En røntgenundersøgelse af hjernen',
-            'En undersøgelse der viser, hvor der bruges mest ilt, fx i hjernen',
+            'En undersøgelse der viser, hvor der bruges mest ilt fx i hjernen',
             'En undersøgelse der viser, hvor mange nerveceller man har'
         ],
         type: 'multiple_text',
@@ -365,7 +385,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Et fremmende transmitterstof fungerer således, at',
+        text: 'Et fremmende transmitterstof kan fungere ved, at',
         answers: [
             'Det åbner natrium-kanalerne, så natrium diffunderer ind',
             'Det åbner kaliumkanalerne, så kalium diffunderer ind',
@@ -379,7 +399,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Et hæmmende transmitterstof fungerer således, at',
+        text: 'Et hæmmende transmitterstof kan fungere ved, at',
         answers: [
             'Det åbner natrium-kanalerne, så natrium diffunderer ind',
             'Det åbner kaliumkanalerne, så kalium diffunderer ind',
@@ -435,10 +455,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Hvad sker der i neuronet, når tærskelværdien bliver nået?',
+        text: 'Hvad sker der i neuronet, når tærskelværdien bliver overskredet?',
         answers: [
             'Natriumkanaler ved axon Hillock åbnes',
-            'Natriumkanaler ved axon Hillock lukkes ',
+            'Natriumkanaler ved axon Hillock lukkes',
             'Kaliumkanaler ved axon Hillock åbnes',
             'Kaliumkanaler ved axon Hillock lukkes'
         ],
@@ -465,7 +485,7 @@ db.questions.save(
         chapters: ['8.3'],
         text: 'Ved en depolarisering sker der følgende',
         answers: [
-            'Ændring fra hvilemembranpotentialet på ca. -70 mV i positiv retning ',
+            'Ændring fra hvilemembranpotentialet på ca. -70 mV i positiv retning',
             'Ændring af hvilemembranpotentialet på ca. -70 mV i negativ retning',
             'Fejl i repolariseringen',
             'Membranpotentialet falder til -70 mV igen'
@@ -491,7 +511,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Hvad er forklaringen på hyperpolariseringen ( dvs. at membranpotentialet falder til -80 mV)?',
+        text: 'Hvad er forklaringen på hyperpolariseringen (dvs. at membranpotentialet falder til -80 mV)?',
         answers: [
             'At kaliumkanalerne lukkes hurtigere end natriumkanalerne',
             'At natriumkanalerne lukkes hurtigere end kaliumkanalerne',
@@ -509,7 +529,7 @@ db.questions.save(
         answers: [
             'Den varer ca. 2 millisekunder',
             'Den har betydning for retningen af impulsudbredelsen',
-            'Natriumkanalerne kan ikke aktiveres i denne periode',
+            'Natriumkanalerne kan ikke aktiveres igen i denne periode',
             'Kaliumkanalerne kan ikke aktiveres igen i denne periode'
         ],
         type: 'multiple_text',
@@ -589,7 +609,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Om adrenalin /noradrenalin gælder, at',
+        text: 'Om adrenalin/noradrenalin gælder, at',
         answers: [
             'Det danner acetylkolin',
             'Det danner IPSP',
@@ -620,7 +640,7 @@ db.questions.save(
         text: 'Hvilket udsagn om vesiklerne i de præsynaptiske terminaler er korrekt?',
         answers: [
             'En vesikel kan indeholde mange forskellige transmitterstoffer',
-            'En vesikel indeholder kun et bestemt transmitterstof ',
+            'En vesikel indeholder kun et bestemt transmitterstof',
             'Transmitterstofferne dannes i vesiklerne',
             'Vesiklerne dannes ud fra cellens mitokondrier'
         ],
@@ -647,7 +667,7 @@ db.questions.save(
         chapters: ['8.3'],
         text: 'Hvilket udsagn om udbredelsen af aktionspotentialet er ikke korrekt',
         answers: [
-            'Det bevæger sig i retning mod neuronets soma',
+            'Det bevæger sig i retning mod dendritterne',
             'Det bevæger sig væk fra neuronets soma',
             'Det skyldes transport af ioner',
             'Hastigheden ligger mellem 0,1 m/s og 120 m/s'
@@ -701,11 +721,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Hvor opbevares transmitterstofferne inden de skal bruges?',
+        text: 'Hvor opbevares transmitterstofferne, inden de skal bruges?',
         answers: [
-            'Synapsen',
+            'I synapsen',
             'I vesiklerne i endeknoppen',
-            'I mitokondrierne ',
+            'I mitokondrierne',
             'I dendritterne'
         ],
         type: 'multiple_text',
@@ -760,7 +780,7 @@ db.questions.save(
         text: 'Hvad er en ionotrop synapse?',
         answers: [
             'En synapse, hvor receptoren er en del af ionkanalen',
-            'En synapse med forskellige ionkanaler ',
+            'En synapse med forskellige ionkanaler',
             'En synapse, hvor receptoren ikke er en del af en ionkanal',
             'En synapse uden ionkanaler'
         ],
@@ -787,7 +807,7 @@ db.questions.save(
         chapters: ['8.3'],
         text: 'Hvad forstås ved en hyperpolarisering af den modtagende neuron i synapsen?',
         answers: [
-            'At den bliver mere positiv ',
+            'At den bliver mere positiv',
             'At den bliver mere negativ',
             'At den lettere kan afsende et aktionspotentiale',
             'At den vender tilbage til hvilemembranpotentialet'
@@ -799,7 +819,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.3'],
-        text: 'Hvilken funktion har enzymet acetylkolinesterase ',
+        text: 'Hvilken funktion har enzymet acetylkolinesterase',
         answers: [
             'Det nedbryder acetylgrupper',
             'Det danner acetylkolin',
@@ -837,6 +857,15 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '2'
     });
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -883,7 +912,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilken sans har kemiske receptorer',
+        text: 'Hvilken sans har kemiske receptorer?',
         answers: [
             'Følesansen',
             'Lugtesansen',
@@ -897,7 +926,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilke dyr har en magnetisk sans',
+        text: 'Hvilke dyr har en magnetisk sans?',
         answers: [
             'Fugle',
             'Krybdyr',
@@ -911,12 +940,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilke dyr kan ikke udsende og registrere ultralyd',
+        text: 'Hvilke dyr kan ikke udsende og registrere ultralyd?',
         answers: [
             'Kaskelothvaler',
             'Delfiner',
             'Flagermus',
-            'Mennesker'
+            'Ørne'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -925,7 +954,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved adaptation',
+        text: 'Hvad forstås ved adaptation?',
         answers: [
             'At følsomheden i en sans nedsættes ved længerevarende stimulus',
             'At en sans bliver skarpere, hvis man mister en anden sans',
@@ -953,11 +982,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilket udsagn om fotoreceptorer er korrekt',
+        text: 'Hvilket udsagn om fotoreceptorer er korrekt?',
         answers: [
             'De er nociceptorer',
             'De findes i mange sanseorganer hos mennesket',
-            'De reagerer på ændringer i pH',
+            'De reagerer på ændringer i pH-værdien',
             'De findes kun i øjets nethinde hos mennesket'
         ],
         type: 'multiple_text',
@@ -967,10 +996,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstår man ved en sansecelles adækvate påvirkning',
+        text: 'Hvad forstår man ved en sansecelles adækvate påvirkning?',
         answers: [
             'Den påvirkning, som sansecellen reagerer bedst på',
-            'En påvirkning, som sansecellen ikke kan reagere på det',
+            'En påvirkning, som sansecellen ikke kan reagere på',
             'Den påvirkning, der deformerer hårcellerne',
             'En påvirkning, der er så stærk, at den udløser smerte '
         ],
@@ -981,10 +1010,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'I hvilke sanseorganer er der ikke mekanoreceptorer ?',
+        text: 'I hvilke sanseorganer er der ikke mekanoreceptorer?',
         answers: [
             'I høresansen',
-            'I Ligevægtssansen',
+            'I ligevægtssansen',
             'I følesansen',
             'I lugtesansen'
         ],
@@ -995,7 +1024,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i kroppen findes der ikke nociceptorer ',
+        text: 'Hvor i kroppen findes der ikke nociceptorer?',
         answers: [
             'I huden',
             'I slimhinderne',
@@ -1009,7 +1038,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor på kroppen sidder mekanoreceptorerne tættest',
+        text: 'Hvor på kroppen sidder mekanoreceptorerne tættest?',
         answers: [
             'I hjernen',
             'På fingre og læber',
@@ -1023,7 +1052,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvorfor kan acetylsalicylsyre i hovedpinepiller dæmpe smerte',
+        text: 'Hvorfor kan acetylsalicylsyre i hovedpinepiller dæmpe smerte?',
         answers: [
             'Fordi de fremmer udskillelsen af prostaglandiner',
             'Fordi de blokerer smertereceptorerne',
@@ -1037,7 +1066,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved afværgerefleksen',
+        text: 'Hvad forstås ved afværgerefleksen?',
         answers: [
             'Nyserefleksen',
             'Blinkerefleksen',
@@ -1051,7 +1080,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilken sans er en olfaktorisk sans',
+        text: 'Hvilken sans er en olfaktorisk sans?',
         answers: [
             'Følesansen',
             'Synssansen',
@@ -1065,7 +1094,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved en primær sansecelle',
+        text: 'Hvad forstås ved en primær sansecelle?',
         answers: [
             'En sansecelle, der selv udsender et axon',
             'En sansecelle, der udsender flere axoner',
@@ -1079,7 +1108,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er en sekundær sansecelle',
+        text: 'Hvad er en sekundær sansecelle?',
         answers: [
             'En sansecelle, der selv udsender et axon',
             'En sansecelle i hjernen',
@@ -1093,7 +1122,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor findes menneskets olfaktoriske epitel',
+        text: 'Hvor findes menneskets olfaktoriske epitel?',
         answers: [
             'I øret',
             'I øjnene',
@@ -1107,7 +1136,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Til hvilken sans hører det Jakobsonske organ ',
+        text: 'Til hvilken sans hører det Jakobsonske organ?',
         answers: [
             'Til hørelsen',
             'Til lugtesansen',
@@ -1135,7 +1164,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad bruger slanger det Jacobsonske organ til',
+        text: 'Hvad bruger slanger det Jacobsonske organ til?',
         answers: [
             'Som supplement til synssansen',
             'Som supplement til smagssansen',
@@ -1149,7 +1178,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Til hvilke hjernecentre ledes lugtenerven',
+        text: 'Til hvilke hjernecentre ledes lugtenerven?',
         answers: [
             'Til hjernebarkens lugtcenter',
             'Til pandelapperne',
@@ -1163,7 +1192,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved Bulbus olfactorius',
+        text: 'Hvad forstås ved Bulbus olfactorius?',
         answers: [
             'Lugtekolben (lugtenerven)',
             'Synsnerven',
@@ -1177,7 +1206,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilken påstand om H<span style="vertical-align:sub; font-size:58%;">2</span>S (svovlbrinte) er ikke korrekt',
+        text: 'Hvilken påstand om H<span style="vertical-align:sub; font-size:58%;">2</span>S (svovlbrinte) er ikke korrekt?',
         answers: [
             'Det dannes, når proteiner nedbrydes under iltforbrug',
             'Det dannes, når proteiner nedbrydes anaerobt',
@@ -1191,7 +1220,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilke dyr kan smage med hudoverfladen',
+        text: 'Hvilke dyr kan smage med hudoverfladen?',
         answers: [
             'Pattedyr',
             'Nogle fugle',
@@ -1205,10 +1234,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er umamismag',
+        text: 'Hvad er umamismag?',
         answers: [
             'Frugtagtig smag',
-            'Salt smag',
+            'Saltet smag',
             'Kødagtig smag',
             'Sød smag'
         ],
@@ -1219,7 +1248,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor findes pattedyrenes smagsløg',
+        text: 'Hvor findes pattedyrenes smagsløg?',
         answers: [
             'På tungen',
             'På tungen og i næsen',
@@ -1233,15 +1262,15 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor findes de smagsløg, der bedst registrerer bittert',
+        text: 'Hvor findes de smagsløg, der bedst registrerer bittert?',
         answers: [
             'Forrest på tungen',
             'Bagest på tungen',
             'Midt på tungen',
-            'På siden af tungen'
+            'Alle smagsløg kan registrere alt (også bittert)'
         ],
         type: 'multiple_text',
-        correct_answer: '1'
+        correct_answer: '3'
     });
 
 db.questions.save(
@@ -1252,10 +1281,10 @@ db.questions.save(
             'Forrest på tungen',
             'Bagest på tungen',
             'Midt på tungen',
-            'På siden af tungen'
+            'Alle smagsløg kan registrere alt (også sødt)'
         ],
         type: 'multiple_text',
-        correct_answer: '0'
+        correct_answer: '3'
     });
 
 db.questions.save(
@@ -1266,10 +1295,10 @@ db.questions.save(
             'Over hele tungen',
             'Bagest på tungens sider',
             'Forrest på tungens sider',
-            'Midt på tungen'
+            'Alle smagsløg kan registrere alt (også salt)'
         ],
         type: 'multiple_text',
-        correct_answer: '1'
+        correct_answer: '3'
     });
 
 db.questions.save(
@@ -1280,30 +1309,17 @@ db.questions.save(
             'Over hele tungen',
             'Bagest på tungens sider',
             'Forrest på tungens sider',
-            'De findes slet ikke'
+            'Alle smagsløg kan registrere alt (også surt)'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '3'
     });
+
 
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor findes de smagsløg, der bedst registrerer H<span style="vertical-align:sub; font-size:58%;">2</span>S (rådden smag)',
-        answers: [
-            'De findes slet ikke',
-            'Over hele tungen',
-            'Allerbagest',
-            'Lige bag tungens spids'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['8.4'],
-        text: 'Hvilken påstand om stoffet PTC er ikke korrekt',
+        text: 'Hvilken påstand om stoffet PTC er ikke korrekt?',
         answers: [
             'Det smager bittert',
             'Ca. 70 % af alle hvide mennesker kan smage det',
@@ -1317,12 +1333,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvorfor kan man ikke rigtigt smage noget, når man er meget forkølet',
+        text: 'Hvorfor kan man ikke rigtigt smage noget, når man er meget forkølet?',
         answers: [
             'Fordi virus hæmmer smagssansen',
             'Fordi smagsløgene ødelægges ',
             'Fordi man ofte har kvalme',
-            'Fordi næsen er stoppet, så lugtesansen er hæmmet '
+            'Fordi næsen er stoppet, så lugtesansen er hæmmet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1331,7 +1347,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved ørets auditoriske system',
+        text: 'Hvad forstås ved ørets auditoriske system?',
         answers: [
             'Den del af øret, man kan se (det ydre øre)',
             'Ørets ligevægtssystem',
@@ -1345,7 +1361,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved ørets vestibulære system',
+        text: 'Hvad forstås ved ørets vestibulære system?',
         answers: [
             'Den del af øret, man kan se (det ydre øre)',
             'Ørets ligevægtssystem',
@@ -1401,7 +1417,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er øremuslingens funktion',
+        text: 'Hvad er øremuslingens funktion?',
         answers: [
             'At danne ørevoks',
             'At nedbryde ørevoks',
@@ -1415,7 +1431,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad sker der i trommehinden',
+        text: 'Hvad sker der i trommehinden?',
         answers: [
             'Den sættes i svingninger af lydbølgerne',
             'Den stopper lydbølgerne, der når øret',
@@ -1429,7 +1445,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor sidder det ovale vindue',
+        text: 'Hvor sidder det ovale vindue?',
         answers: [
             'For enden af øregangen',
             'Foran trommehinden',
@@ -1443,7 +1459,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilken øreknogle er i nærkontakt med trommehinden',
+        text: 'Hvilken øreknogle er i nærkontakt med trommehinden?',
         answers: [
             'Hammeren',
             'Ambolten',
@@ -1457,7 +1473,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilken øreknogle er i nærkontakt med det ovale vindue',
+        text: 'Hvilken øreknogle er i nærkontakt med det ovale vindue?',
         answers: [
             'Hammeren',
             'Ambolten',
@@ -1471,9 +1487,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved det eustakiske rør',
+        text: 'Hvad forstås ved det eustakiske rør?',
         answers: [
-            'Det rør der sidder i sneglen i det indre øre',
+            'Det rør, der sidder i sneglen i det indre øre',
             'Det rør, der forbinder mellemøret med svælget',
             'Det rør, der forbinder det indre øre med hjernen',
             'Det rør, der ligger i ørets buegange '
@@ -1485,7 +1501,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er det eustakiske rørs funktion',
+        text: 'Hvad er det eustakiske rørs funktion?',
         answers: [
             'At holde sneglen åben',
             'At sikre forbindelsen til hjernen',
@@ -1499,7 +1515,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er det Cortiske organ',
+        text: 'Hvad er det Cortiske organ?',
         answers: [
             'Hørecentret i hjernen',
             'En del af mellemøret',
@@ -1513,7 +1529,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øret sidder det cortiske organ',
+        text: 'Hvor i øret sidder det cortiske organ?',
         answers: [
             'I mellemøret',
             'I sneglen',
@@ -1527,7 +1543,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øret registreres de dybe toner',
+        text: 'Hvor i øret registreres de dybe toner?',
         answers: [
             'I de forreste områder af sneglen',
             'I de inderste områder af sneglen',
@@ -1541,7 +1557,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øret registreres de højeste toner',
+        text: 'Hvor i øret registreres de højeste toner?',
         answers: [
             'I de forreste områder af sneglen',
             'I de inderste områder af sneglen',
@@ -1555,7 +1571,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved konduktiv døvhed',
+        text: 'Hvad forstås ved konduktiv døvhed?',
         answers: [
             'Døvhed der skyldes en hjerneskade',
             'Fejl i hørenerven',
@@ -1569,7 +1585,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er ikke en årsag til neurogen døvhed',
+        text: 'Hvad er ikke en årsag til neurogen døvhed?',
         answers: [
             'Fejl i hårcellerne',
             'Fejl i høreknoglerne',
@@ -1583,7 +1599,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvorfor kan hørelsen skades varigt af høj musik',
+        text: 'Hvorfor kan hørelsen skades varigt af høj musik?',
         answers: [
             'Fordi ambolten i mellemøret skades',
             'Fordi hørenerven skades',
@@ -1597,7 +1613,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er tinnitus',
+        text: 'Hvad er tinnitus?',
         answers: [
             'En midlertidig skade på det ydre øre fx som følge af høj musik',
             'Susen før ørerne, fordi der opstår bølger i endolymfen i det indre øre',
@@ -1611,10 +1627,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øret er ligevægtssansen lokaliseret',
+        text: 'Hvor i øret er ligevægtssansen lokaliseret?',
         answers: [
             'I det Cortiske organ i det indre øre',
-            'I mellemøret ',
+            'I mellemøret',
             'I det ydre øre',
             'I buegangene i det indre øre'
         ],
@@ -1625,7 +1641,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er otolitterne i øret',
+        text: 'Hvad er otolitterne i øret?',
         answers: [
             'En form for ørevoks',
             'Hårceller i det ydre øre, der renser øret for støv og lignende',
@@ -1639,10 +1655,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øjet findes de lysopfattende celler',
+        text: 'Hvor i øjet findes de lysopfattende celler?',
         answers: [
             'I hornhinden',
-            'I regnbuehinden ',
+            'I regnbuehinden',
             'I synsnerven',
             'I nethinden'
         ],
@@ -1653,7 +1669,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilket udsagn om øjets hornhinde er ikke korrekt',
+        text: 'Hvilket udsagn om øjets hornhinde er ikke korrekt?',
         answers: [
             'Her sker den første brydning af lyset',
             'Det er det første sted i øjet, som lyset passerer',
@@ -1667,7 +1683,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er pupillen',
+        text: 'Hvad er pupillen?',
         answers: [
             'Det er et hul ind til øjet',
             'Det er den farvede del af øjet',
@@ -1681,12 +1697,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er regnbuehindens (iris) funktion',
+        text: 'Hvad er regnbuehindens (iris) funktion?',
         answers: [
             'Den beskytter pupillen',
             'Den giver næring til linsen',
-            'Det er her linsen er fæstet',
-            'Den kan regulere, hvor meget lys der skal ind i øjet '
+            'Det er her, linsen er fæstet',
+            'Den kan regulere, hvor meget lys der skal ind i øjet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1695,7 +1711,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad kaldes øjeæblets indre',
+        text: 'Hvad kaldes øjeæblets indre?',
         answers: [
             'Det hvide legeme',
             'Det gule legeme',
@@ -1709,7 +1725,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad menes der med linsens akkomodation',
+        text: 'Hvad menes med linsens akkomodation?',
         answers: [
             'At linsen bliver uklar med alderen',
             'At linsen stivner med alderen',
@@ -1723,7 +1739,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er problemet ved nærsynethed',
+        text: 'Hvad er problemet ved nærsynethed?',
         answers: [
             'At linsen bryder lyset for meget',
             'At linsen ikke bryder lyset nok',
@@ -1737,7 +1753,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er problemet ved langsynethed',
+        text: 'Hvad er problemet ved langsynethed?',
         answers: [
             'At linsen bryder lyset for meget',
             'At linsen ikke bryder lyset nok',
@@ -1751,10 +1767,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er problemet ved gammelmandssyn',
+        text: 'Hvad er problemet ved gammelmandssyn?',
         answers: [
             'At linsen er blevet stiv og ikke kan ændre form',
-            'At linsen er blevet nedbrud',
+            'At linsen er blevet nedbrudt',
             'At linsen er blevet uklar',
             'At man har for højt tryk i øjet'
         ],
@@ -1765,7 +1781,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved grå stær',
+        text: 'Hvad forstås ved grå stær?',
         answers: [
             'At linsen er blevet stiv og ikke kan akkomodere',
             'At linsen er blevet uklar',
@@ -1779,7 +1795,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad forstås ved grøn stær',
+        text: 'Hvad forstås ved grøn stær?',
         answers: [
             'At linsen er blevet grøn med alderen',
             'At der er blødninger i øjets glaslegeme',
@@ -1793,11 +1809,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øjet findes tapcellerne',
+        text: 'Hvor i øjet findes tapcellerne?',
         answers: [
             'I øjets nethinde, især i den gule plet',
             'I den blinde plet',
-            'I synsnerven ',
+            'I synsnerven',
             'I glaslegemet'
         ],
         type: 'multiple_text',
@@ -1807,7 +1823,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i øjet findes stavcellerne',
+        text: 'Hvor i øjet findes stavcellerne?',
         answers: [
             'I hjernens synsbark',
             'I cellerester i øjets glaslegeme',
@@ -1835,7 +1851,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er rhodopsins funktion',
+        text: 'Hvad er rhodopsins funktion?',
         answers: [
             'At nedbryde synspurpur',
             'At give nethinden dens farve',
@@ -1849,7 +1865,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvordan kan man måske kurere natteblindhed',
+        text: 'Hvordan kan man måske kurere natteblindhed?',
         answers: [
             'Ved at skåne øjet for stærkt lys',
             'Ved at træne øjet til at se i mørke',
@@ -1863,7 +1879,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilket udsagn om stavceller er korrekt',
+        text: 'Hvilket udsagn om stavceller er korrekt?',
         answers: [
             'Der er flest i den gule plet',
             'De kan skelne farver',
@@ -1877,12 +1893,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilket udsagn om tapceller er ikke korrekt',
+        text: 'Hvilket udsagn om tapceller er ikke korrekt?',
         answers: [
             'De sidder i nethinden',
             'De er spidse i enden',
             'De kan se farver',
-            'De kræver ikke så stærkt lys som stavcellerne '
+            'De kræver ikke så stærkt lys som stavcellerne'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1891,7 +1907,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Det synlige lys har bølgelængder der ligger på ca.',
+        text: 'Det synlige lys har bølgelængder, der ligger på ca.',
         answers: [
             '100-200 nm',
             '200-400 nm',
@@ -1905,7 +1921,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvilket udsagn om rød-grøn farveblindhed er ikke korrekt',
+        text: 'Hvilket udsagn om rød-grøn farveblindhed er ikke korrekt?',
         answers: [
             'Rød-grøn farveblinde er også altid blå-blinde',
             'Det rammer især drenge',
@@ -1919,11 +1935,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvorfor kan man ikke skelne farver, når der er halvmørkt',
+        text: 'Hvorfor kan man ikke skelne farver, når det er halvmørkt?',
         answers: [
             'Fordi der ikke er farver i mørke',
             'Fordi man ser med tapcellerne i halvmørke',
-            'Fordi billedet så falder på den blinde plet',
+            'Fordi billedet falder på den blinde plet',
             'Fordi man ser med stavcellerne i halvmørke'
         ],
         type: 'multiple_text',
@@ -1933,7 +1949,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvad er øjets blinde plet',
+        text: 'Hvad er øjets blinde plet?',
         answers: [
             'Pupillen',
             'Den gule plet',
@@ -1947,7 +1963,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.4'],
-        text: 'Hvor i hjernen registreres synsindtryk',
+        text: 'Hvor i hjernen registreres synsindtryk?',
         answers: [
             'I synsbarken i den forreste del af hjernen',
             'I lillehjernen',
@@ -1962,7 +1978,7 @@ db.questions.save(
         chapters: ['8.4'],
         text: 'Hvor findes der ikke smagsløg?',
         answers: [
-            'I bugspytkirtlen',
+            'I spiserøret',
             'På strubelåget',
             'I ganen',
             'På tungens sider'
@@ -2009,6 +2025,16 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['8.5'],
@@ -2096,7 +2122,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvad reguleres ikke af den forlængede rygmarv',
+        text: 'Hvad reguleres ikke af den forlængede rygmarv?',
         answers: [
             'Åndedræt',
             'Kredsløb',
@@ -2180,7 +2206,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Den grå substans i storhjernen er:',
+        text: 'Den grå substans i storhjernen er',
         answers: [
             'Bindevævet omkring selve hjernen',
             'Fedtvævet, der beskytter hjernen',
@@ -2252,7 +2278,7 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Pandelapperne er vigtige for',
         answers: [
-            'Sprog ',
+            'Sprog',
             'Syn og hørelse',
             'Tænkning og planlægning',
             'Hormonsystemet'
@@ -2311,7 +2337,7 @@ db.questions.save(
             'Hvad man tænker på',
             'Om der er en hjerneskade',
             'Hvilke impulser, der modtages fra kroppens forskellige dele',
-            'Hvilke impulser, der udgår fra hjernen til forskellige dele af kroppen '
+            'Hvilke impulser, der udgår fra hjernen til forskellige dele af kroppen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2320,7 +2346,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvad er fantomsmerter',
+        text: 'Hvad er fantomsmerter?',
         answers: [
             'De smerter man kan have, når man har mareridt',
             'Indbildte smerter',
@@ -2334,7 +2360,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvad er årsagen til fantomsmerter',
+        text: 'Hvad er årsagen til fantomsmerter?',
         answers: [
             'Indbildning',
             'Psykiske forhold',
@@ -2348,10 +2374,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvad er den neurologiske forklaring på, at unge (mænd) ofte kører vildt i biler, og ofte glemmer at tænke sig om, før de udfører en risikabel handling?',
+        text: 'Hvad er den neurologiske forklaring på, at unge (mænd) ofte kører vildt i biler og ofte glemmer at tænke sig om, før de udfører en risikabel handling?',
         answers: [
             'At deres frontallapper ikke er færdigudviklede endnu',
-            'At deres nakkelapper ikke er færdigudviklede',
+            'At deres nakkelapper ikke er færdigudviklede endnu',
             'At de har for meget testosteron',
             'At de ikke er så kloge, da de har for mange nerveceller i forhold til pigerne'
         ],
@@ -2476,7 +2502,7 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvilket udsagn om hjernens funktion er ikke korrekt?',
         answers: [
-            'Vi er født med den hjerne, vi nu har fået, og herefter kan det kun gå ned ad bakke ',
+            'Vi er født med den hjerne, vi nu har fået, og herefter kan det kun gå ned ad bakke',
             'Hjernen er et meget plastisk organ',
             '70 % af hjernens kapacitet er situationsbestemt',
             'Hjernen bliver dummere og dårligere, hvis man intet foretager sig, fx hvis man ikke laver sine lektier'
@@ -2490,10 +2516,10 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvor stor del af hvilestofskiftet går til hjernens funktioner hos voksne?',
         answers: [
-            '10 %',
-            '20 %',
-            '30 % ',
-            '50 %'
+            'Ca. 10 %',
+            'Ca. 20 %',
+            'Ca. 30 % ',
+            'Ca. 50 %'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -2504,10 +2530,10 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvor stor del af hvilestofskiftet går til hjernens funktioner hos børn under 5 år?',
         answers: [
-            '10 %',
-            '20 %',
-            '30 %',
-            '50 %'
+            'Ca. 10 %',
+            'Ca. 20 %',
+            'Ca. 30 %',
+            'Ca. 50 %'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2518,9 +2544,9 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvad sker der ikke i hjernen, når vi lærer?',
         answers: [
-            'Der dannes flere neuroner',
+            'Der dannes flere axoner pr. neuron',
             'Der dannes flere synapser',
-            'Der dannes flere dendritter på neuronerne ',
+            'Der dannes flere dendritter på neuronerne',
             'Der sættes gang i proteinsyntesen, så der kan dannes flere receptorer for transmitterstoffer'
         ],
         type: 'multiple_text',
@@ -2530,9 +2556,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvilken påstand om indlæring er ikke sand',
+        text: 'Hvilken påstand om indlæring er ikke sand?',
         answers: [
-            'Når vi lærer kasseres overflødige neuroner',
+            'Når vi lærer, kasseres overflødige neuroner',
             'Når vi lærer, sker der varige forbedringer af hjernen',
             'Når vi lærer, vil der efterhånden kunne udskilles flere transmitterstoffer i endeknopperne',
             'Når vi lærer, vil det altid slide på hjernen, så den i det lange løb svækkes og ældes'
@@ -2549,7 +2575,7 @@ db.questions.save(
             'Nedbrydning af neuroner',
             'Specialisering af neuroner',
             'Nydannelse af neuroner',
-            'Omdannelse af neuroner til andre typer '
+            'Omdannelse af neuroner til andre typer'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2572,7 +2598,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Korttidshukommelsen beror især på',
+        text: 'Korttidshukommelsen skyldes især',
         answers: [
             'Dannelse af nye nerveceller',
             'En ændring i udskillelsen af transmitterstoffer',
@@ -2586,7 +2612,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Langtidshukommelsen beror især på',
+        text: 'Langtidshukommelsen skyldes især',
         answers: [
             'Dannelse af nye nerveceller',
             'En ændring i udskillelsen af transmitterstoffer',
@@ -2600,7 +2626,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvordan har man fundet ud af, at korttidshukommelsen især er lokaliseret i den præfrontale cortex',
+        text: 'Hvordan har man fundet ud af, at korttidshukommelsen især er lokaliseret i den præfrontale cortex?',
         answers: [
             'Ved at tage en biopsi',
             'Ved at lave et EEG',
@@ -2630,9 +2656,9 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvilket udsagn om intelligens er korrekt?',
         answers: [
-            'Intelligens er mest afhængig af miljø',
+            'Intelligens er meget afhængig af miljø',
             'Intelligens afhænger meget af arvelige forhold',
-            'Intelligensen ændres ikke gennem livet',
+            'Intelligensen ændres meget gennem livet',
             'Intelligens er helt ens hos enæggede tvillinger'
         ],
         type: 'multiple_text',
@@ -2675,7 +2701,7 @@ db.questions.save(
             'Hjernen har et bevidsthedscenter',
             'Nogle dyr kan godt have en form for bevidsthed',
             'Bevidsthed kan måles med EEG-målinger forskellige steder i hjernen',
-            'Bevidstheden gør, at vi kan planlægge og udføre bestemte handlinger, samt forudsige fremtidige begivenheder'
+            'Bevidstheden gør, at vi kan planlægge og udføre bestemte handlinger samt forudsige fremtidige begivenheder'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2768,10 +2794,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.5'],
-        text: 'Hvad er drømmesøvn ikke',
+        text: 'Hvad er drømmesøvn ikke?',
         answers: [
             'REM-søvn',
-            'Søvn hvor øjnene bevæger sig hurtigt',
+            'Søvn, hvor øjnene bevæger sig hurtigt',
             'Søvn, hvor man ikke kan bevæge sig',
             'Søvn, hvor man bevæger sig meget'
         ],
@@ -2784,10 +2810,10 @@ db.questions.save(
         chapters: ['8.5'],
         text: 'Hvad er non-REM søvn?',
         answers: [
-            'Søvn hvor man kan bevæge sig',
-            'Søvn hvor man ikke kan bevæge sig',
-            'Søvn hvor øjnene bevæger sig',
-            'Søvn hvor man har mareridt'
+            'Søvn, hvor man kan bevæge sig',
+            'Søvn, hvor man ikke kan bevæge sig',
+            'Søvn, hvor øjnene bevæger sig',
+            'Søvn, hvor man har mareridt'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2799,7 +2825,7 @@ db.questions.save(
         text: 'Hvorfor mener man, at REM-søvnen er så vigtig?',
         answers: [
             'Det er her, man danner fx væksthormon og kroppen restitueres',
-            'Det er her, at det indlærte lagres i hukommelsen ',
+            'Det er her, at det indlærte lagres i hukommelsen',
             'Det er her, at man glemmer de dårlige ting, der er sket om dagen',
             'Fordi drømmene kan sige noget om ens fremtid'
         ],
@@ -2821,6 +2847,16 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['8.6'],
@@ -2828,7 +2864,7 @@ db.questions.save(
         answers: [
             'Fordi det stimulerer GABA-receptorerne',
             'Fordi det er en agonist til alle transmitterstoffer',
-            'Fordi det binder sig til NMDA-receptorerne, som øger indstrømningen af natrium-ioner til nervecellerne',
+            'Fordi det binder sig til NMDA-receptorerne, som øger indstrømningen af natrium-ioner i nervecellerne',
             'Fordi det er en antagonist til alle transmitterstoffer'
         ],
         type: 'multiple_text',
@@ -2838,7 +2874,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.6'],
-        text: 'Hvordan virker alkohol i GABA<span style="vertical-align:sub; font-size:58%;">A</span> receptorerne?',
+        text: 'Hvordan virker alkohol i GABA<span style="vertical-align:sub; font-size:58%;">A</span>-receptorerne?',
         answers: [
             'Det stimulerer dem',
             'Det hæmmer dem',
@@ -2855,8 +2891,8 @@ db.questions.save(
         text: 'Ved en antagonist forstås',
         answers: [
             'Et stof, der bindes til en receptor uden at have nogen effekt på den',
-            'Et stof der bindes til en receptor og hæmmer den',
-            'Et stof der bindes til en receptor, hvor det virker ligesom det stof, der normalt skulle bindes til receptoren',
+            'Et stof, der bindes til en receptor og hæmmer den',
+            'Et stof, der bindes til en receptor, hvor det virker ligesom det stof, der normalt skulle bindes til receptoren',
             'Et stof, der nedbryder det normale transmitterstof'
         ],
         type: 'multiple_text',
@@ -2913,7 +2949,7 @@ db.questions.save(
             '1-2 timer',
             '1-2 døgn',
             '2-5 døgn',
-            '2.3 uger'
+            '2-3 uger'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2940,7 +2976,7 @@ db.questions.save(
         answers: [
             'Det øger udskillelsen af serotonin',
             'Det øger udskillelsen af dopamin',
-            'Det hæmmer udskillelsen af dopamin',
+            'Det øger udskillelsen af insulin',
             'Bivirkninger er angst og panikanfald'
         ],
         type: 'multiple_text',
@@ -3051,9 +3087,9 @@ db.questions.save(
         text: 'Hvorfor virker morfin smertelindrende?',
         answers: [
             'Det øger udskillelsen af dopamin',
-            'Det hæmmer udskillelsen af dopamin',
+            'Det hæmmer udskillelsen af adrenalin',
             'Det er en agonist til de naturlige smertelindrende endorfiner',
-            'Det nedbryder nociceptorerne '
+            'Det nedbryder nociceptorerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -3065,7 +3101,7 @@ db.questions.save(
         text: 'Hvorfor kan morfin give en euforisk følelse?',
         answers: [
             'Det øger udskillelsen af dopamin',
-            'Det hæmmer udskillelsen af dopamin',
+            'Det hæmmer udskillelsen af adrenalin',
             'Det stimulerer udskillelsen af kokain',
             'Det stimulerer GABA-receptorerne'
         ],
@@ -3090,12 +3126,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.6'],
-        text: 'Hvorfor virker benzodiazepiner beroligende? ',
+        text: 'Hvorfor virker benzodiazepiner beroligende?',
         answers: [
-            'Det åbner klorid-kanalerne i den postsynaptiske membran',
-            'Det lukker kloridkanalerne',
-            'Det åbner natriumkanalerne',
-            'Det lukker natriumkanalerne'
+            'De åbner klorid-kanalerne i den postsynaptiske membran',
+            'De lukker kloridkanalerne',
+            'De åbner natriumkanalerne',
+            'De lukker natriumkanalerne'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -3123,7 +3159,7 @@ db.questions.save(
             'Det er fordi, der nedbrydes adrenalin',
             'Det er fordi, nociceptorerne nedbrydes',
             'Det er fordi, der dannes gamma-hydroxy-smørsyre',
-            'Det er fordi, der dannes serotonin og dopamin, samt endocannabinoider '
+            'Det er fordi, der dannes serotonin og dopamin samt endocannabinoider'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -3164,7 +3200,7 @@ db.questions.save(
         answers: [
             'Den lammer musklerne',
             'Det er et bedøvelsesmiddel, så man falder i søvn',
-            'Det hæmmer vejrtrækningen, evt. med døden til følge',
+            'Det hæmmer vejrtrækningen evt. med døden til følge',
             'Det hæmmer acetylkolin-esterase, hvilket medfører øget mængde acetylkolin i synapserne, der igen medfører kramper'
         ],
         type: 'multiple_text',
@@ -3247,7 +3283,7 @@ db.questions.save(
         text: 'Hvorfor kan nikotin virke opkvikkende i små mængder?',
         answers: [
 	    'Det virker som det fremmende transmitterstof acetylkolin',
-	    'Det virker som det hæmmende transmitterstof GABAA',
+	    'Det virker som det hæmmende transmitterstof GABA',
 	    'Det virker ved at stimulere frigørelsen af kulhydrat i blodet',
 	    'Det virker ved at stimulere nedbrydningen af fedt'
         ],
@@ -3288,7 +3324,7 @@ db.questions.save(
         chapters: ['8.6'],
         text: 'Hvordan virker rohypnol?',
         answers: [
-	    'Det virker som det hæmmende transmitterstof GABAA',
+	    'Det virker som det hæmmende transmitterstof GABA',
 	    'Det virker som det hæmmende transmitterstof dopamin',
 	    'Det virker som det hæmmende transmitterstof serotonin',
 	    'Det virker som det hæmmende transmitterstof acetylkolin'
@@ -3324,6 +3360,16 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['8.7'],
@@ -3355,7 +3401,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvad forstås der ved Parkinsons syge?',
+        text: 'Hvad forstås ved Parkinsons syge?',
         answers: [
             'Det er en form for lungebetændelse, der især rammer gamle mennesker',
             'Det er en nedbrydning af storhjernen, hvilket medfører demens',
@@ -3369,7 +3415,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvorfor er det især bevægelserne, der giver problemer, hvis man har Parkinson?',
+        text: 'Hvorfor er det især bevægelserne, der giver problemer, hvis man har Parkinsons syge?',
         answers: [
             'Fordi sygdommen især nedbryder musklerne',
             'Fordi der kommer for mange impulser til musklerne i arme og ben',
@@ -3383,10 +3429,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvilket transmitterstof dannes der for lidt af hos parkinson-patienter?',
+        text: 'Hvilket transmitterstof dannes der for lidt af hos Parkinson-patienter?',
         answers: [
             'Acetylkolin',
-            'Noradrenalin ',
+            'Noradrenalin',
             'Dopamin',
             'Serotonin'
         ],
@@ -3397,9 +3443,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvilken påstand om Parkinsons sygdom er korrekt?',
+        text: 'Hvilken påstand om Parkinsons syge er korrekt?',
         answers: [
-            'Den skyldes en ødelæggelse af det område i hjernen, der kaldes basalkernerne ',
+            'Den skyldes en ødelæggelse af det område i hjernen, der kaldes basalkernerne',
             'Den forårsages bl.a. af bakterier',
             'Den forårsages bl.a. af virus',
             'Den kan behandles med bestemte former for antibiotika'
@@ -3441,7 +3487,7 @@ db.questions.save(
         chapters: ['8.7'],
         text: 'Hvilken påstand om Alzheimers syge er ikke korrekt?',
         answers: [
-            'Der findes en vaccine mod sygdommen',
+            'Der findes en vaccine mod sygdommen (virker dog ikke særlig godt)',
             'Sygdommen er uhelbredelig og vil føre til døden',
             'Sygdommen kan mildnes en tid med medicin, der øger mængden af acetylkolin i hjernen',
             'Sygdommen giver demens og hjerneatrofi'
@@ -3486,7 +3532,7 @@ db.questions.save(
             'Den skyldes et svagt immunforsvar',
             'Det er en allergisk lidelse',
             'Der kan vaccineres mod sygdommen',
-            'Symptomerne skyldes at immunforsvaret angriber myelinskederne'
+            'Symptomerne skyldes, at immunforsvaret angriber myelinskederne'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -3523,7 +3569,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvilken påstand om Guillain-Barres sygdom er korrekt',
+        text: 'Hvilken påstand om Guillain-Barres sygdom er korrekt?',
         answers: [
             'Det er en autoimmun sygdom, hvor immunsystemet angriber neuronerne nogle steder i kroppen',
             'Det er en form for demens, hvor storhjernen nedbrydes',
@@ -3595,8 +3641,8 @@ db.questions.save(
         chapters: ['8.7'],
         text: 'Hvilken påstand om depression er ikke korrekt?',
         answers: [
-            'Den kan skyldes langvarigt stress ',
-            'Den skyldes forstyrrelser i hjernens transmitterstoffer dopamin og serotonin ',
+            'Den kan skyldes langvarigt stress',
+            'Den skyldes forstyrrelser i hjernens transmitterstoffer dopamin og serotonin',
             'Den kan behandles med medicin, der hæmmer genoptagelsen af serotonin',
             'Den kan behandles med medicin, der øger genoptagelsen af serotonin'
         ],
@@ -3649,7 +3695,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['8.7'],
-        text: 'Hvilken type sygdom er Tourettes syndrom ? ',
+        text: 'Hvilken type sygdom er Tourettes syndrom?',
         answers: [
             'En autoimmun sygdom',
             'En medfødt sygdom i nervesystemet',
@@ -3677,7 +3723,7 @@ db.questions.save(
         chapters: ['8.7'],
         text: 'Hvordan kan kostens sammensætning måske have betydning for udvikling af ADHD?',
         answers: [
-            'Fordi fiberrig kost med meget grønt gavner nogle vigtige Tarmbakterier',
+            'Fordi fiberrig kost med meget grønt gavner nogle vigtige tarmbakterier',
             'Fordi glutenfri kost gavner nogle vigtige tarmbakterier',
             'Fordi fedtfattig kost uden meget grønt gavner nogle vigtige tarmbakterier',
             'Fordi fiberfattig kost uden meget grønt gavner nogle vigtige tarmbakterier'

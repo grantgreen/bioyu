@@ -11,7 +11,7 @@ var links = {
 	{"chapter":"6","caption": "Hormoner", "link": "http://www.youtube.com/watch?v=KORZ3SbU8Es","color":"#26213B"},	
 	{"chapter":"8","caption": "Aktionspotentialet", "link": "https://www.youtube.com/watch?v=mC0j49GoYss","color":"#26213B"},
 	{"chapter":"8","caption": "Synapsen", "link": "https://www.youtube.com/watch?v=v1twCQR-8vo","color":"#26213B"},
-	{"chapter":"9","caption": "Muskler", "link": "https://youtu.be/jPBVSuQClq0","color":"#26213B"},
+	{"chapter":"9","caption": "Muskler", "link": "https://youtu.be/uCt9ORsLswY","color":"#26213B"},
     {"chapter":"9","caption": "Musklernes opbygning og funktion", "link": "","color":"#26213B"},
     {"chapter":"10","caption": "Energiproduktion under arbejde", "link": "","color":"#26213B"},
     {"chapter":"10","caption": "Grundlæggende træningslære", "link": "https://youtu.be/pFdseXYbuWA","color":"#26213B"},

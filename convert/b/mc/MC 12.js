@@ -46,10 +46,10 @@ db.questions.save(
 	chapters: ['12.1'],
 	text: 'Hvad forstås ved et hormon?',
         answers: [
-	    'Et signalstof der kan virke på andre celler med den rette receptor',
+	    'Et signalstof, der kan virke på andre celler med den rette receptor',
 	    'Et fordøjelsesenzym',
 	    'Et signal i nervesystemet',
-	    'Et signalstof der produceres i en exokrin kirtel'
+	    'Et signalstof, der produceres i en exokrin kirtel'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -221,7 +221,7 @@ db.questions.save(
 	text: 'Hvilket hormon hører ikke til de fedtopløselige hormoner?',
         answers: [
 	    'Insulin',
-	    'Kortosol',
+	    'Kortisol',
 	    'Østrogen ',
 	    'Progesteron'
 	],
@@ -263,8 +263,8 @@ db.questions.save(
 	text: 'Hvilket hormon hører til de vandopløselige hormoner?',
         answers: [
 	    'Insulin',
-	    'Kortosol',
-	    'Østrogen ',
+	    'Kortisol',
+	    'Østrogen',
 	    'Progesteron'
 	],
 	type: 'multiple_text',
@@ -274,7 +274,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvad er ikke en undergruppe af hormonerne?',
+	text: 'Hvad er ikke en undergruppe af hormoner?',
         answers: [
 	    'Kulhydrathormon',
 	    'Steroidhormon',
@@ -470,7 +470,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvor produceres hormonet Insulin?',
+	text: 'Hvor produceres hormonet insulin?',
         answers: [
 	    'I bugspytkirtlen',
 	    'I kønskirtlerne',
@@ -568,7 +568,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvilket udsagn om insulin er ikke korrekt?',
+	text: 'Hvilket udsagn om insulin er forkert?',
         answers: [
 	    'Det er et steroidhormon',
 	    'Det dannes i bugspytkirtlen',
@@ -582,7 +582,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvilket udsagn om melatonin er ikke korrekt?',
+	text: 'Hvilket udsagn om melatonin er forkert?',
         answers: [
 	    'Det er et steroidhormon',
 	    'Det dannes i koglekirtlen',
@@ -596,7 +596,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvilket udsagn om EPO er ikke korrekt?',
+	text: 'Hvilket udsagn om EPO er forkert?',
         answers: [
 	    'Det dannes i koglekirtlen',
 	    'Det dannes i nyrerne',
@@ -683,7 +683,7 @@ db.questions.save(
 	text: 'Hvordan transporteres de fedtopløselige hormoner i blodet?',
         answers: [
 	    'Bundet til transportproteiner',
-	    'Uden transportproteiner',
+	    'Bundet til fedtstoffer',
 	    'Opløst i blodet',
 	    'De transporteres ikke i blodet'
 	],
@@ -750,7 +750,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.3'],
-	text: 'Hvordan påvirker steroidhormonerne deres målceller?',
+	text: 'Hvordan påvirker steroidhormoner deres målceller?',
         answers: [
 	    'De sætter gang i proteinsyntesen',
 	    'De sætter gang i hormonproduktionen',
@@ -769,7 +769,7 @@ db.questions.save(
 	    'Menstruationscyklus',
 	    'Temperaturregulering',
 	    'Vand- og saltbalancen',
-	    'Optagelsen af glukose i cellerne'
+	    'Optagelse af glukose i cellerne'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -824,8 +824,8 @@ db.questions.save(
 	chapters: ['12.4'],
 	text: 'Hvad forstås ved negativ feedback?',
         answers: [
-	    'At en stigning i hormon A hæmmer produktionen af hormon B',
-	    'At en stigning i hormon A stimulerer produktionen af hormon B',
+	    'At en stigning i hormon A stimulerer produktionen af hormon B, som mindsker produktionen af hormon A',
+	    'At en stigning i hormon A stimulerer produktionen af hormon B, som øger produktionen af hormon A',
 	    'Et hormon fra hypofysen',
 	    'Et hormon fra hypothalamus'
 	],
@@ -838,8 +838,8 @@ db.questions.save(
 	chapters: ['12.4'],
 	text: 'Hvad forstås ved positiv feedback?',
         answers: [
-	    'At en stigning i hormon A stimulerer produktionen af hormon B',
-	    'At en stigning i hormon A hæmmer produktionen af hormon B',
+	    'At en stigning i hormon A stimulerer produktionen af hormon B, som øger produktionen af hormon A',
+	    'At en stigning i hormon A stimulerer produktionen af hormon B, som mindsker produktionen af hormon A',
 	    'Et hormon fra hypofysen',
 	    'Et hormon fra hypothalamus'
 	],
@@ -883,7 +883,7 @@ db.questions.save(
 	    'I hypothalamus',
 	    'I hypofysen',
 	    'I de Langerhanske øer',
-	    'I de alle de hormonproducerende kirtler'
+	    'I alle de hormonproducerende kirtler'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -936,7 +936,7 @@ db.questions.save(
 	chapters: ['12.4'],
 	text: 'Hvad forstås ved et effektorhormon?',
         answers: [
-	    'Et ganske almindeligt hormon, som fx østrogen ',
+	    'Et ganske almindeligt hormon som fx østrogen',
 	    'Et stimulerende hormon',
 	    'Et regulerende hormon',
 	    'Et særligt effektivt hormon'
@@ -1201,7 +1201,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.5'],
-	text: 'Hvor sidder hypofysen? ',
+	text: 'Hvor sidder hypofysen?',
         answers: [
 	    'Under hjernen',
 	    'På forsiden af halsen',
@@ -1232,7 +1232,7 @@ db.questions.save(
 	text: 'Hvilken funktion har skjoldbruskkirtlens hormon?',
         answers: [
 	    'Det stimulerer stofskiftet',
-	    'Det hæmmer stofskiftet',
+	    'Det hæmmer væksten',
 	    'Det er et stresshormon',
 	    'Det stimulerer ægløsningen'
 	],
@@ -1369,7 +1369,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['12.5'],
-	text: 'Hvilket udsagn om melatonin er ikke sandt?',
+	text: 'Hvilket udsagn om melatonin er forkert?',
         answers: [
 	    'Det dannes i binyrerne',
 	    'Det styrer graden af vågenhed',

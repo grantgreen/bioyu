@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <script type="text/javascript" src="../js/book_links/links.js"></script>
+        <script type="text/javascript" src="../js/book_links/links.js" charset="utf-8"></script>
     </head>
     <body onload="myFunction()">
 
@@ -12,12 +12,19 @@ function myFunction() {
     var par = getUrlVars();
     if( links["list"].find(e=>e.id == par["id"]) == undefined)
     {
-        location.replace("http://yubio.dk");
+       location.replace("http://yubio.dk");
     }
     else
     {
         var link = links["list"].find(e=>e.id == par["id"]).link;
-        location.replace(link);
+        if( link == "")
+        {
+        	location.replace("http://yubio.dk");	
+        }
+        else
+        {
+        	location.replace(link);
+        }
     }
     
 }

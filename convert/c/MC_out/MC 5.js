@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.2"],
-        text: 'Hvilket udsagn om kønnet formering er ikke korrekt?',
+        text: 'Hvilket udsagn om kønnet formering er forkert?',
         answers: [
             'Det er en formering med sammensmeltning af ægcelle og sædcelle',
             'Det er en formering uden hanner og hunner',
@@ -85,7 +85,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.2"],
-        text: 'Hvilket udsagn om ukønnet formering er ikke korrekt?',
+        text: 'Hvilket udsagn om ukønnet formering er forkert?',
         answers: [
             'Det er en formering med sammensmeltning af ægcelle og sædcelle',
             'Det er en formering uden hanner og hunner',
@@ -101,7 +101,7 @@ db.questions.save(
         chapters: ["5.2"],
         text: 'Hvad menes med naturlig selektion?',
         answers: [
-            'Kønnet formering',
+            'At de stærkeste individer overlever',
             'Formering med befrugtning',
             'At de bedst tilpassede individer overlever',
             'At ægcellen er mere levedygtig end sædcellen'
@@ -216,9 +216,9 @@ db.questions.save(
         text: 'Hvad er rov-edderkoppen Pisaura mirabilis’ sex-strategi?',
         answers: [
             'Hannen æder hunnen efter parringen',
-            'Han narrer hunnen med en gave og skynder sig at parre sig med hende',
-            'Han parrer sig med hunnen i mørke',
-            'Han graver hunnen ned i jord efter parringen'
+            'Hannen narrer hunnen med en gave og skynder sig at parre sig med hende',
+            'Hannen parrer sig med hunnen i mørke',
+            'Hannen graver hunnen ned i jord efter parringen'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -230,9 +230,9 @@ db.questions.save(
         text: 'Hvad er børsteormens Microptalmus aberrans sex-strategi?',
 	answers: [
             'Hannen æder hunnen efter parringen',
-            'Han narrer hunnen med en gave og skynder sig at parre sig med hende',
-            'Han parrer sig med hunnen i mørke',
-            'Han finder hunnen i sandet og overfører hurtigt sin spermatofor'
+            'Hannen narrer hunnen med en gave og skynder sig at parre sig med hende',
+            'Hannen parrer sig med hunnen i mørke',
+            'Hannen finder hunnen i sandet og overfører hurtigt sin spermatofor'
 	],
 	type: 'multiple_text',
 	correct_answer: '3'
@@ -255,7 +255,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.3"],
-        text: 'Hvordan sikrer hanhunde sig at de virkelig er far til ungerne?',
+        text: 'Hvordan sikrer hanhunde sig, at de virkelig er far til ungerne?',
         answers: [
             'Ved en meget langvarig parring, der sikrer at sædcellen er nået frem til ægget',
             'Han bider hende så hun ikke tør flygte og parre sig med andre',
@@ -399,7 +399,7 @@ db.questions.save(
         answers: [
             'Her dannes progesteron',
             'Her dannes testosteron',
-            'Her dannes sædcellerne',
+            'Her dannes sædceller',
             'Her dannes svulmelegemer'
         ],
         type: 'multiple_text',
@@ -411,9 +411,9 @@ db.questions.save(
         chapters: ["5.4"],
         text: 'Hvad forstås ved meiose?',
         answers: [
-            'Dannelse af sædvæske',
-            'Celledeling hvor kromosomantallet halveres',
-            'Celledeling hvor kromosomantallet bevares',
+            'Celledeling, hvor kromosomantallet fordobles',
+            'Celledeling, hvor kromosomantallet halveres',
+            'Celledeling, hvor kromosomantallet bevares',
             'Dannelse af celler med X- og Y-kromosomer'
         ],
         type: 'multiple_text',
@@ -423,7 +423,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.4"],
-        text: 'Hvad sker der med kromosomtallet i meiosen?',
+        text: 'Hvad sker der med kromosomantallet i meiosen?',
         answers: [
             'Det fordobles',
             'Det bevares',
@@ -526,7 +526,7 @@ db.questions.save(
             'Her dannes sædceller',
             'Her dannes en væske, der gør sæden basisk',
             'Her dannes et hvidligt sekret, der gavner sædcellernes bevægelse',
-            'Her  dannes sædcellerne'
+            'Her dannes sædcellerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -540,7 +540,7 @@ db.questions.save(
             'Her dannes sædceller',
             'Her dannes en væske, der gør sæden basisk',
             'Her dannes et hvidligt sekret, der gavner sædcellernes bevægelse',
-            'Her  dannes sædcellerne'
+            'Her dannes sædcellerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -608,7 +608,7 @@ db.questions.save(
         text: 'Hvor mange sædceller producerer en mand hvert sekund?',
         answers: [
             'Ca. 100',
-            'Ca. 1000',
+            'Ca. 1.000',
             'Ca. 3 millioner',
             'Ca. 300 millioner'
         ],
@@ -691,8 +691,8 @@ db.questions.save(
         chapters: ["5.5"],
         text: 'Hvor i æggestokken ligger folliklerne?',
         answers: [
-            'I Det Gule Legeme',
-            'I Det Hvide Legeme',
+            'I Det gule Legeme',
+            'I Det hvide Legeme',
             'Overalt i æggestokken',
             'I æggelederen'
         ],
@@ -1350,8 +1350,8 @@ db.questions.save(
         text: 'Hvornår i graviditeten går Det Gule Legeme til grunde?',
         answers: [
             'Lige efter befrugtningen',
-            '14 dage efter befrugtningen',
-            'Efter 3 måneders graviditet',
+            'Ca. 14 dage efter befrugtningen',
+            'Efter ca. 3 måneders graviditet',
             'Lige efter graviditetens afslutning'
         ],
         type: 'multiple_text',
@@ -1389,7 +1389,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.8"],
-        text: 'Hvilket udsagn om udebleven menstruation er ikke korrekt?',
+        text: 'Hvilket udsagn om udebleven menstruation er forkert?',
         answers: [
             'Det kan skyldes for lav vægt',
             'Det kan skyldes for meget træning',
@@ -1403,7 +1403,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.8"],
-        text: 'Hvornår i fosterudviklingen kan man med sikkerhed se, om det bliver en dreng eller en pige?',
+        text: 'Hvornår i fosterudviklingen kan man med stor sikkerhed se, om det bliver en dreng eller en pige?',
         answers: [
             'Lige efter befrugtningen',
             'Efter 3 måneder',
@@ -1487,7 +1487,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.8"],
-        text: 'Hvornår efter befrugtningen dannes en moderkage?',
+        text: 'Hvornår efter befrugtningen dannes moderkagen?',
         answers: [
             '4-5 timer',
             '4-5 dage',
@@ -1534,7 +1534,7 @@ db.questions.save(
             'Hormonerne fra hypofysen',
             'At nogle gener forsvinder',
             'At nogle nye gener kommer til',
-            'At nogle gener tændes, og andre slukkes'
+            'At nogle gener tændes og andre slukkes'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1573,7 +1573,7 @@ db.questions.save(
         chapters: ["5.9"],
         text: 'Hvad er veer?',
         answers: [
-            'De hormoner der fremkalder fødslen',
+            'De hormoner, der fremkalder fødslen',
             'Sammentrækninger i livmoderens muskler',
             'Afslapning af livmoderens muskler',
             'Udvidelse af skeden så barnet kan komme ud'
@@ -1630,7 +1630,7 @@ db.questions.save(
         text: 'Hvad er et kejsersnit?',
         answers: [
             'Kunstig befrugtning',
-            'En fødsel der sættes i gang med hormoner',
+            'En fødsel, der sættes i gang med hormoner',
             'En kuvøse',
             'En fødsel ved hjælp af en operation'
         ],
@@ -1823,7 +1823,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.11"],
-        text: 'Hvor mange i par i Danmark oplever ufrivillig barnløshed?',
+        text: 'Hvor mange par i Danmark oplever ufrivillig barnløshed?',
         answers: [
             'Ca. 5 %',
             'Ca. 10 %',
@@ -1879,7 +1879,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.11"],
-        text: 'Hvorfor kan stramme bukser give nedsat frugtbarhed hos manden?',
+        text: 'Hvorfor kan stramme bukser give nedsat frugtbarhed hos mænd?',
         answers: [
             'Fordi det kan give impotens',
             'Fordi det kan skade sædlederne',
@@ -2021,10 +2021,10 @@ db.questions.save(
         chapters: ["5.11"],
         text: 'Hvad er et reagensglasbarn?',
         answers: [
-            'Et barn der er lavet ved ægsortering',
-            'Et barn der er lavet ved insemination',
-            'Et barn der er lavet ved befrugtning i et reagensglas',
-            'Et barn der er lavet ved befrugtning af æg og sæd fra fremmede donorer'
+            'Et barn, der er lavet ved ægsortering',
+            'Et barn, der er lavet ved insemination',
+            'Et barn, der er lavet ved befrugtning i et reagensglas',
+            'Et barn, der er lavet ved befrugtning af æg og sæd fra fremmede donorer'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2090,7 +2090,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.12"],
-        text: 'Hvordan virker kobberspiralen?',
+        text: 'Hvordan virker en kobberspiral?',
         answers: [
             'Den sætter en prop i livmoderen',
             'Den blokerer æggelederen',
@@ -2104,7 +2104,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.12"],
-        text: 'Hvilke hormoner findes i P-piller?',
+        text: 'Hvilke hormoner findes i p-piller?',
         answers: [
             'Østrogen og LH',
             'Østrogen og gestagen',
@@ -2160,7 +2160,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.12"],
-        text: 'Hvordan virker P-pillen?',
+        text: 'Hvordan virker p-piller?',
         answers: [
             'Ved at lave negativ feedback på FSH',
             'Ved at lave negativ feedback på østrogen',
@@ -2176,9 +2176,9 @@ db.questions.save(
         chapters: ["5.12"],
         text: 'Hvad er fortrydelsespiller?',
         answers: [
-            'En abortpille',
+            'En slags vitaminpille',
             'En mini-pille',
-            'En form for P-pille',
+            'En form for p-pille, der modvirker graviditet',
             'En pille med højt indhold af gestagen, der fremkalder menstruation'
         ],
         type: 'multiple_text',
@@ -2188,7 +2188,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.12"],
-        text: 'Hvordan virker fortrydelsespillerne?',
+        text: 'Hvordan virker fortrydelsespiller?',
         answers: [
             'De hæmmer befrugtningen',
             'De hæmmer ægløsningen',
@@ -2216,7 +2216,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvor stor en del af alle unge er smittet med Klamydia?',
+        text: 'Hvor stor en del af alle unge er smittet med klamydia?',
         answers: [
             '1 ud af 100',
             '1 ud af 50',
@@ -2230,12 +2230,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvad hedder den organisme, der giver Klamydia?',
+        text: 'Hvad hedder den organisme, der giver klamydia?',
         answers: [
             'Antibiotika-bakterien',
             'Klamydia-bakterien',
             'Herpes-virus',
-            'HIV-virus'
+            'HIV'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -2244,7 +2244,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvad er behandlingen af Klamydia?',
+        text: 'Hvad er behandlingen af klamydia?',
         answers: [
             'Der er ingen behandling',
             'Med antibiotika',
@@ -2258,7 +2258,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvad kan der ske, hvis man går længe med en ubehandlet Klamydia?',
+        text: 'Hvad kan der ske, hvis man går længe med en ubehandlet klamydia-infektion?',
         answers: [
             'At den forsvinder af sig selv',
             'At man kan abortere',
@@ -2274,10 +2274,10 @@ db.questions.save(
         chapters: ["5.13"],
         text: 'Hvad er HPV?',
         answers: [
-            'En bakterie der kan give Klamydia',
-            'En virus der kan give herpes',
-            'En virus der kan give kondylomer',
-            'En virus der kan give HIV'
+            'En bakterie, der kan give klamydia',
+            'En virus, der kan give herpes',
+            'En virus, der kan give kondylomer',
+            'En virus, der kan give HIV'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2314,12 +2314,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvilken virus kan føre til livmoderhalskræft?',
+        text: 'Hvilket virus kan føre til livmoderhalskræft?',
         answers: [
             'Herpes-virus',
             'HPV',
             'HIV',
-            'Influenza-virus'
+            'Corona-virus'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -2333,7 +2333,7 @@ db.questions.save(
             'Herpes-virus',
             'HPV',
             'HIV',
-            'Influenza-virus'
+            'Corona-virus'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2356,12 +2356,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvilken virus kan føre til forkølelsessår?',
+        text: 'Hvilket virus kan føre til forkølelsessår?',
         answers: [
             'Herpes-virus',
             'HPV',
             'HIV',
-            'Influenza-virus'
+            'Corona-virus'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2370,7 +2370,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.13"],
-        text: 'Hvordan bliver man kureret for herpes?',
+        text: 'Hvordan bliver man kureret for en herpes-infektion?',
         answers: [
             'Der er ingen kur',
             'Med antibiotika',
@@ -2426,7 +2426,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.14"],
-        text: 'Hvad vil det side, at være en drag?',
+        text: 'Hvad vil det sige at være en drag?',
         answers: [
             'At være homoseksuel',
             'At være bøsse',
@@ -2440,7 +2440,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["5.14"],
-        text: 'Hvad vil det sige, at være transvestit?',
+        text: 'Hvad vil det sige at være transvestit?',
         answers: [
             'At klæde sig ud i det modsatte køns tøj',
             'At være bøsse',
@@ -2611,9 +2611,9 @@ db.questions.save(
         text: 'Hvad er viagra?',
         answers: [
             'Et kunstigt kønshormon',
-            'Et stof der fremmer sædproduktionen',
-            'Et stof der fremmer mandens testosteronproduktion',
-            'Et stof der giver erektion'
+            'Et stofm der fremmer sædproduktionen',
+            'Et stofm der fremmer mandens testosteronproduktion',
+            'Et stof, der giver erektion'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2625,9 +2625,9 @@ db.questions.save(
         text: 'Hvordan virker viagra?',
         answers: [
             'Det fører mere blod til penis',
-            'Det giver mere testosteron',
+            'Det giver højere testosteronproduktion',
             'Det giver større lyst til sex',
-            'Det hæmmer østrogen'
+            'Det hæmmer østrogenproduktionen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2640,7 +2640,7 @@ db.questions.save(
         answers: [
             'Den første sæd en dreng danner',
             'Den første milliliter sæd, der dannes ved en udløsning',
-            'Sæd der dannes inden udløsningen',
+            'En slags rensevæske (der kan indeholde sædceller), der udskilles fra penis inden udløsning',
             'Væske fra prostata uden sædceller'
         ],
         type: 'multiple_text',

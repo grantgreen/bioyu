@@ -101,7 +101,7 @@ db.questions.save(
         chapters: ["6.2"],
         text: 'Hvor i musklen findes aktin?',
         answers: [
-            'I musklelcellens mitokondrier',
+            'I muskelcellens mitokondrier',
             'I myofibrillerne',
             'I muskelcellens cellemembran',
             'I de motoriske endeplader'
@@ -113,7 +113,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvilket udsagn om muskelkontraktionen er korrekt?',
+        text: 'Hvilket udsagn om muskelkontraktion er korrekt?',
         answers: [
             'Den koster ATP',
             'Den forløber helt af sig selv uden viljens kontrol',
@@ -141,7 +141,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de hvide muskelfibre og kontraktionshastigheden?',
+        text: 'Hvad gælder om de hvide muskelfibre?',
         answers: [
             'De kontraherer sig hurtigt',
             'De kontraherer sig langsomt',
@@ -155,7 +155,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de hvide muskelfibre og deres mitokondrier?',
+        text: 'Hvad gælder om de hvide muskelfibre?',
         answers: [
             'De har ingen mitokondrier',
             'De har mange mitokondrier',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de hvide muskelfibre og antal af kapillærer?',
+        text: 'Hvad gælder om de hvide muskelfibre?',
         answers: [
             'De har mange kapillærer',
             'De har ingen kapillærer',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de hvide muskelfibre og myoglobinindholdet?',
+        text: 'Hvad gælder om de hvide muskelfibre?',
         answers: [
             'De har et lavt myoglobinindhold',
             'De har intet myoglobin',
@@ -197,7 +197,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de hvide muskelfibre og udholdenheden?',
+        text: 'Hvad gælder om de hvide muskelfibre?',
         answers: [
             'De har en lav udholdenhed',
             'De har ingen udholdenhed',
@@ -211,7 +211,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de røde muskelfibre og kontraktionshastigheden?',
+        text: 'Hvad gælder om de røde muskelfibre?',
         answers: [
             'De kontraherer sig hurtigt',
             'De kontraherer sig langsomt',
@@ -225,7 +225,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de røde muskelfibre og deres mitokondrier?',
+        text: 'Hvad gælder om de røde muskelfibre?',
         answers: [
             'De har ingen mitokondrier',
             'De har mange mitokondrier',
@@ -239,7 +239,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de røde muskelfibre og antal af kapillærer?',
+        text: 'Hvad gælder om de røde muskelfibre?',
         answers: [
             'De har mange kapillærer',
             'De har ingen kapillærer',
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de røde muskelfibre og myoglobinindholdet?',
+        text: 'Hvad gælder om de røde muskelfibre?',
         answers: [
             'De har et lavt myoglobinindhold',
             'De har intet myoglobin',
@@ -267,7 +267,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad gælder om de røde muskelfibre og udholdenheden?',
+        text: 'Hvad gælder om de røde muskelfibre?',
         answers: [
             'De har en lav udholdenhed',
             'De har ingen udholdenhed',
@@ -312,7 +312,7 @@ db.questions.save(
         text: 'Hvad forstås ved isometrisk muskelarbejde?',
         answers: [
             'Et muskelarbejde hvor musklen arbejder for at holde en bestemt længde',
-            'Et muskelarbejde hvor musklen ikke forkortes',
+            'Et muskelarbejde hvor musklen forkortes passivt',
             'Et muskelarbejde hvor musklen forkortes aktivt',
             'Et muskelarbejde hvor musklen forlænges aktivt'
         ],
@@ -325,7 +325,7 @@ db.questions.save(
         chapters: ["6.2"],
         text: 'Hvad forstås ved statisk muskelarbejde?',
         answers: [
-            'Et muskelarbejde hvor musklen ikke forkortes',
+            'Et muskelarbejde hvor musklen forkortes passivt',
             'Et muskelarbejde hvor musklen forkortes aktivt',
             'Et muskelarbejde hvor musklen forlænges aktivt',
             'Et muskelarbejde hvor musklen arbejder for at holde en bestemt længde'
@@ -365,7 +365,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad forstås ved en forstuvning af fx foden?',
+        text: 'Hvad forstås ved en forstuvning?',
         answers: [
             'At en eller flere små knogler brækker',
             'At en eller flere af senerne beskadiges',
@@ -379,7 +379,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.2"],
-        text: 'Hvad sker der ved en fibersprængning?',
+        text: 'Hvad forstås ved en fibersprængning?',
         answers: [
             'At en eller flere små knogler brækker',
             'At en af senerne beskadiges',
@@ -397,8 +397,8 @@ db.questions.save(
         answers: [
             'At knoglen brækker',
             'At en af senerne beskadiges',
-            'At der opstår et blåt mærke på grund af stød eller lignende',
-            'At en del af muskelvævet beskadiges'
+            'At der opstår en rift i huden',
+            'At en del af muskelvævet beskadiges ofte med en blødning'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -436,7 +436,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvordan skaffer musklen sig energi ved kreatinfosfat-metoden?',
+        text: 'Hvordan skaffer muskler sig energi ved kreatinfosfat-metoden?',
         answers: [
             'Ved gæring',
             'Ved respiration',
@@ -450,7 +450,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvordan skaffer musklen sig energi ved mælkesyregæringen?',
+        text: 'Hvordan skaffer muskler sig energi ved mælkesyregæringen?',
         answers: [
             'Ved anaerob nedbrydning af glukose',
             'Ved respiration',
@@ -464,7 +464,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvordan skaffer musklen sig energi ved respiration?',
+        text: 'Hvordan skaffer muskler sig energi ved respiration?',
         answers: [
             'Ved gæring af glukose',
             'Ved aerob nedbrydning af glukose eller fedt',
@@ -509,7 +509,7 @@ db.questions.save(
         text: 'Hvad er den vigtigste fordel ved respirationen?',
         answers: [
             'At den leverer meget energi',
-            'At den kan løbe i lang tid',
+            'At den danner mælkesyre',
             'At den er langsom',
             'At den leverer energi øjeblikkeligt'
         ],
@@ -520,7 +520,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvor meget ATP leveres af et molekyle glukose ved mælkesyregæring?',
+        text: 'Hvor meget ATP leveres af et stk. glukose ved mælkesyregæring?',
         answers: [
             '1',
             '2',
@@ -534,7 +534,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvor meget ATP leveres af et molekyle glukose ved respiration?',
+        text: 'Hvor meget ATP leveres af et stk. glukose ved respiration?',
         answers: [
             '1',
             '2',
@@ -551,7 +551,7 @@ db.questions.save(
         text: 'Hvad forstås ved iltdeficitperioden under et arbejde?',
         answers: [
             'Den periode, hvor der ikke bruges ATP',
-            'Den periode, hvor ATP fortrinsvist skaffes fra kreatinfosfat og mælkesyregæring',
+            'Den periode, hvor ATP bl.a. skaffes fra kreatinfosfat og mælkesyregæring',
             'Den periode, hvor ATP udelukkende dannes ved mælkesyregæring',
             'Den periode, hvor ATP udelukkende dannes ved respiration'
         ],
@@ -566,8 +566,8 @@ db.questions.save(
         answers: [
             'Iltdeficit-fasen',
             'ATP-fasen',
-            'Kreatinfosfatfasen',
-            'Iltgældsfasen'
+            'Kreatinfosfat-fasen',
+            'Iltgælds-fasen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -618,11 +618,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvilket udsagn om iltgældsfasen er ikke korrekt?',
+        text: 'Hvilket udsagn om iltgældsfasen er korrekt?',
         answers: [
             'Man arbejder med høj intensitet',
             'Man optager et overskud af ilt',
-            'Man optager mindre ilt end man egentlig har brug for',
+            'Man optager mindre ilt, end man egentlig har brug for',
             'ATP skaffes primært fra kreatinfosfatsystemet'
         ],
         type: 'multiple_text',
@@ -646,7 +646,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvad er RQ-værdien hvis man forbrænder rent kulhydrat?',
+        text: 'Hvad er RQ-værdien, hvis du forbrænder rent kulhydrat?',
         answers: [
             '0,7',
             '0,9',
@@ -660,7 +660,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvad er RQ-værdien hvis man forbrænder rent fedt?',
+        text: 'Hvad er RQ-værdien, hvis du forbrænder rent fedt?',
         answers: [
             '0,7',
             '0,9',
@@ -674,7 +674,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvad sker der med RQ under stigende arbejdsintensitet?',
+        text: 'Hvad sker der med RQ-værdien under stigende arbejdsintensitet?',
         answers: [
             'Den stiger',
             'Den falder',
@@ -688,7 +688,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvad menes med afterburn?',
+        text: 'Hvad menes med begrebet afterburn?',
         answers: [
             'Nedsat forbrænding efter et arbejde',
             'Kulhydratforbrænding',
@@ -800,7 +800,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.3"],
-        text: 'Hvilket udsagn om mælkesyredannelsen under muskelarbejde er ikke korrekt?',
+        text: 'Hvilket udsagn om mælkesyredannelsen under muskelarbejde er forkert?',
         answers: [
             'Mælkesyren dannes ved gæring',
             'Mælkesyregæringen giver 2 ATP pr. glukose',
@@ -842,7 +842,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad dækker begrebet kondition?',
+        text: 'Hvad dækker begrebet "kondition"?',
         answers: [
             'Udholdenhed',
             'Styrke',
@@ -912,7 +912,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad er et normalt kondital for en kvindelig atlet?',
+        text: 'Hvad er et normalt kondital for en kvindelig udholdenhedsatlet?',
         answers: [
             '38',
             '44',
@@ -926,7 +926,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad er et normalt kondital for en mandlig atlet?',
+        text: 'Hvad er et normalt kondital for en mandlig udholdenhedsatlet?',
         answers: [
             '38',
             '44',
@@ -940,7 +940,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen på selve hjertet?',
+        text: 'Hvilken effekt har konditionstræning på selve hjertet?',
         answers: [
             'Ingen direkte effekt',
             'Hjertet bliver større og stærkere',
@@ -954,7 +954,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen på hvilepulsen?',
+        text: 'Hvilken effekt har konditionstræning på hvilepulsen?',
         answers: [
             'Ingen direkte effekt',
             'Den stiger',
@@ -968,7 +968,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen på blodvolumen?',
+        text: 'Hvilken effekt har konditionstræning på blodvolumen?',
         answers: [
             'Ingen direkte effekt',
             'Det stiger',
@@ -982,12 +982,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen på de røde blodlegemer?',
+        text: 'Hvilken effekt har konditionstræning på de røde blodlegemer?',
         answers: [
             'Ingen direkte effekt',
             'Der dannes flere',
             'Der dannes færre',
-            'Der dannes færre men større røde blodlegemer'
+            'Der dannes færre, men større røde blodlegemer'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -996,10 +996,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen på kapillærer i musklerne?',
+        text: 'Hvilken effekt har konditionstræning på kapillærer i musklerne?',
         answers: [
             'Ingen direkte effekt',
-            'Der dannes færre men større kapillærer',
+            'Der dannes færre, men større kapillærer',
             'Der dannes flere',
             'Der dannes færre'
         ],
@@ -1012,7 +1012,7 @@ db.questions.save(
         chapters: ["6.4"],
         text: 'Hvilken effekt har konditionstræning på mitokondrierne i musklerne?',
         answers: [
-            'Der dannes færre men større mitokondrier',
+            'Der dannes færre, men større mitokondrier',
             'Ingen direkte effekt',
             'Der dannes flere',
             'Der dannes færre'
@@ -1027,9 +1027,9 @@ db.questions.save(
         text: 'Hvilken effekt har konditionstræning på myoglobin i musklerne?',
         answers: [
             'Det omdannes til det mere effektive hæmoglobin',
-            'Der dannes mere',
+            'Der dannes mere myoglobin',
             'Ingen direkte effekt',
-            'Der dannes mindre'
+            'Der dannes mindre myglobin'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1038,7 +1038,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvilken effekt har konditionstræningen ikke på åndedrættet?',
+        text: 'Hvilken effekt har konditionstræning ikke på åndedrættet?',
         answers: [
             'Maksimal åndingsdybde øges',
             'Lungerne vokser',
@@ -1070,8 +1070,8 @@ db.questions.save(
         answers: [
             'Dannelse af nye kapillærer',
             'Nedbrydning af kapillærer',
-            'Iltoptagelse',
-            'Iltafgivelse'
+            'Øget iltoptagelse',
+            'Mindsket iltafgivelse'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1112,7 +1112,7 @@ db.questions.save(
         answers: [
             'Hvis konditallet bliver alt for højt hos en mand',
             'Hvis konditallet bliver alt for højt hos en kvinde',
-            'Det lavest mulige kondital, hvis man ikke vil dø for tidligt',
+            'Den nedre grænse for kondital, hvorunder risikoen for tidlig død øges markant',
             'Den laveste puls, der er målt hos en atlet'
         ],
         type: 'multiple_text',
@@ -1122,7 +1122,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad er det kritiske kondital for en mand?',
+        text: 'Hvad er det kritiske kondital for mænd?',
         answers: [
             '19',
             '29',
@@ -1136,7 +1136,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad er det kritiske kondital for en kvinde?',
+        text: 'Hvad er det kritiske kondital for kvinder?',
         answers: [
             '19',
             '29',
@@ -1152,10 +1152,10 @@ db.questions.save(
         chapters: ["6.4"],
         text: 'Hvor meget falder konditallet med stigende alder?',
         answers: [
-            '0,7 pr. år',
-            '1 pr. år',
-            '5 pr. år',
-            '7 pr. år'
+            'Ca. 0,7 pr. år',
+            'Ca. 1 pr. år',
+            'Ca. 5 pr. år',
+            'Ca. 7 pr. år'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1164,7 +1164,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvorfra kommer energien til arbejdet under styrketræning?',
+        text: 'Hvorfra kommer energien til arbejdet primært under styrketræning?',
         answers: [
             'Fra myoglobin',
             'Fra hæmoglobin',
@@ -1178,7 +1178,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.4"],
-        text: 'Hvad menes med hypertrofi af en muskel?',
+        text: 'Hvad menes med begrebet "hypertrofi" ved en muskel?',
         answers: [
             'Kontraktion af musklen',
             'Muskelsvind',
@@ -1197,7 +1197,7 @@ db.questions.save(
             'Ved at træne med få gentagelser med høj belastning',
             'Ved at træne med lav belastning i op til 2 minutters varighed',
             'Ved at træne med 6-10 gentagelser i 2-4 sæt',
-            'Ved at træne med 6-10 gentagelser med middel belastning og 1-3 gentagelser med høj belastning'
+            'Ved at træne med 15-20 gentagelser i 2-4 sæt'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1208,10 +1208,10 @@ db.questions.save(
         chapters: ["6.4"],
         text: 'Hvordan kan man ved træning optimere sin muskeludholdenhed?',
         answers: [
-            'Ved at træne med få gentagelser med høj belastning',
+            'Ved at træne med 1-3 gentagelser med høj belastning',
             'Ved at træne med lav belastning i op til 2 minutters varighed',
             'Ved at træne med 6-10 gentagelser i 2-4 sæt',
-            'Ved at træne med 6-10 gentagelser med middel belastning og 1-3 gentagelser med høj belastning'
+            'Ved at træne med 3-5 gentagelser med middel belastning i 2-4 sæt'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1225,7 +1225,7 @@ db.questions.save(
             'Ved at træne med få gentagelser med høj belastning',
             'Ved at træne med lav belastning i op til 2 minutters varighed',
             'Ved at træne med 6-10 gentagelser i 2-4 sæt',
-            'Ved at træne med 6-10 gentagelser med middel belastning og 1-3 gentagelser med høj belastning'
+            'Ved at træne med 15-20 gentagelser i 2-4 sæt'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1236,7 +1236,7 @@ db.questions.save(
         chapters: ["6.4"],
         text: 'Hvordan kan man ved træning optimere sin fremgang i muskelstyrke?',
         answers: [
-            'Ved at træne med 6-10 gentagelser med middel belastning og 1-3 gentagelser med høj belastning',
+            'Ved både at træne med 6-10 gentagelser med middel belastning og 1-3 gentagelser med høj belastning',
             'Ved at træne med få gentagelser med høj belastning',
             'Ved at træne med lav belastning i op til 2 minutters varighed',
             'Ved at træne med 6-10 gentagelser i 2-4 sæt'
@@ -1614,12 +1614,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["6.5"],
-        text: 'Hvorfor lider mange topatleter indenfor udholdenhedssport af astma?',
+        text: 'Hvorfor lider mange topatleter inden for udholdenhedssport af astma?',
         answers: [
             'Hård udholdenhedstræning gennem mange år slider på lungevævet',
             'De lyver, fordi de gerne vil have adgang til astmapræparater',
             'De lider af astma pga. doping',
-            'Der er ikke mange topatleter indenfor udholdenhedssport, der lider af astma'
+            'Der er ikke mange topatleter inden for udholdenhedssport, der lider af astma'
         ],
         type: 'multiple_text',
         correct_answer: '0'

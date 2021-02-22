@@ -2,7 +2,7 @@
 db.questions.save(
     {
 	chapters: ['15.2'],
-	text: 'Hvordan defineres en population? ',
+	text: 'Hvordan defineres en population?',
         answers: [
 	    'En samling individer af samme art, der lever på et afgrænset område',
 	    'En samling mikroorganismer af samme art, der lever på et afgrænset område',
@@ -46,7 +46,7 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvad forstås ved logistisk vækst for en population?',
         answers: [
-	    'At individantallet i starten fx fordobles, men senere øges med samme antal pr. tidsenhed',
+	    'At individantallet i starten fx fordobles, men herefter sker der en opbremsning, så antallet bliver nogenlunde konstant',
 	    'At individantallet øges med samme antal pr. tidsenhed',
 	    'At individantallet øges med samme faktor pr. tidsenhed',
 	    'At individantallet holdes konstant fra generation til generation'
@@ -61,7 +61,7 @@ db.questions.save(
 	text: 'Hvad forstås ved et områdes bæreevne?',
         answers: [
 	    'Den ligevægt hvor populationen hverken vokser eller mindskes, men er nogenlunde konstant',
-	    'Den populationsstørrelse, hvor antallet af individer er faldende ',
+	    'Den populationsstørrelse, hvor antallet af individer er faldende',
 	    'Den populationsstørrelse, hvor antallet af individer er stigende',
 	    'Den populationsstørrelse der ses, lige før populationen uddør'
 	],
@@ -144,10 +144,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvilke populationer egner sig til bestemmelse ved stikprøvemetoden?',
         answers: [
-	    'Populationer hvor individerne er jævnt fordelt',
-	    'Populationer hvor individerne er ujævnt fordelt',
-	    'Populationer hvor individerne ikke bevæger sig rundt',
-	    'Populationer hvor individerne bevæger sig frit omkring i området'
+	    'Populationer, hvor individerne er jævnt fordelt',
+	    'Populationer, hvor individerne er ujævnt fordelt',
+	    'Populationer, hvor individerne ikke bevæger sig rundt',
+	    'Populationer, hvor individerne bevæger sig frit omkring i området'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -158,10 +158,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvilke populationer egner sig til bestemmelse ved fangst-genfangst metoden?',
         answers: [
-	    'Populationer hvor individerne bevæger sig frit omkring i området',
-	    'Populationer hvor individerne er jævnt fordelt',
-	    'Populationer hvor individerne er ujævnt fordelt',
-	    'Populationer hvor individerne ikke bevæger sig rundt'
+	    'Populationer, hvor individerne bevæger sig frit omkring i området',
+	    'Populationer, hvor individerne er jævnt fordelt',
+	    'Populationer, hvor individerne er ujævnt fordelt',
+	    'Populationer, hvor individerne ikke bevæger sig rundt'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -172,10 +172,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvilke populationer egner sig til bestemmelse ved direkte optælling?',
         answers: [
-	    'Populationer hvor individerne er forholdsvis store og lette af spotte',
-	    'Populationer hvor individerne er ujævnt fordelt',
-	    'Populationer hvor individerne ikke bevæger sig rundt',
-	    'Populationer hvor individerne bevæger sig frit omkring i området'
+	    'Populationer, hvor individerne er forholdsvis store og lette af spotte',
+	    'Populationer, hvor individerne er ujævnt fordelt',
+	    'Populationer, hvor individerne ikke bevæger sig rundt',
+	    'Populationer, hvor individerne bevæger sig frit omkring i området'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -198,7 +198,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.2'],
-	text: 'Hvad kan man også kalde græsning?',
+	text: 'Hvad kan man også kalde begrebet "græsning"?',
         answers: [
 	    'Herbivori',
 	    'Predation',
@@ -256,10 +256,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvad er risikoen ved indavl?',
         answers: [
-	    'Der bliver flere homozygoter og dermed mindre genetisk variation ',
-	    'Der bliver flere heterozygoter og dermed mindre genetisk variation ',
-	    'Der bliver flere homozygoter og dermed større genetisk variation ',
-	    'Der bliver flere heterozygoter og dermed større genetisk variation '
+	    'Der bliver flere homozygoter og dermed mindre genetisk variation',
+	    'Der bliver flere heterozygoter og dermed mindre genetisk variation',
+	    'Der bliver flere homozygoter og dermed større genetisk variation',
+	    'Der bliver flere heterozygoter og dermed større genetisk variation'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -268,7 +268,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.2'],
-	text: 'Hvad forstås ved rewilding?',
+	text: 'Hvad forstås ved begrebet "rewilding"?',
         answers: [
 	    'Genetablering af tidligere økosystemer',
 	    'Herbivori',
@@ -326,7 +326,7 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvor stor en del af Jorden er indrettet til nationalparker?',
         answers: [
-	    '12-13 %',
+	    'Ca. 12-13 %',
 	    'Ca. 1 %',
 	    'Ca. 20 %',
 	    'Ca. 30 %'
@@ -382,10 +382,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvad er en frøbank?',
         answers: [
-	    'Frø der ligger gemt i jorden og venter på ”bedre tider”',
-	    'Plantearter der er forsvundet',
-	    'Arter der har en hurtig reproduktion',
-	    'Arter der har en høj konkurrenceevne'
+	    'Frø, der ligger gemt i jorden og venter på ”bedre tider”',
+	    'Plantearter, der er forsvundet',
+	    'Arter, der har en hurtig reproduktion',
+	    'Arter, der har en høj konkurrenceevne'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -396,10 +396,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvad forstås ved en pionerart?',
         answers: [
-	    'Plantearter der hurtigt spirer frem efter fx en skovbrand',
-	    'Arter der har en hurtig reproduktion',
-	    'Frø der ligger gemt i jorden og venter på bedre tider',
-	    'Arter der har en høj konkurrenceevne'
+	    'Plantearter, der hurtigt spirer frem efter fx en skovbrand',
+	    'Arter, der har en hurtig reproduktion',
+	    'Frø, der ligger gemt i jorden og venter på bedre tider',
+	    'Arter, der har en høj konkurrenceevne'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -422,7 +422,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.2'],
-	text: 'Hvad menes der med, at en art er K-strateg?',
+	text: 'Hvad menes med, at en art er K-strateg?',
         answers: [
 	    'Den har en høj konkurrenceevne',
 	    'Frø der ligger gemt i jorden og venter på bedre tider',
@@ -436,7 +436,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.2'],
-	text: 'Hvad kaldes det sidste stadie i successionen?',
+	text: 'Hvad kaldes det sidste stadium i successionen?',
         answers: [
 	    'Klimakssamfundet',
 	    'R-samfundet',
@@ -452,10 +452,10 @@ db.questions.save(
 	chapters: ['15.2'],
 	text: 'Hvad er karakteristisk for et klimakssamfund?',
         answers: [
-	    'Arter der har en høj konkurrenceevne',
-	    'Frø der ligger gemt i jorden og venter på bedre tider',
+	    'Arter, der har en høj konkurrenceevne',
+	    'Frø, der ligger gemt i jorden og venter på bedre tider',
 	    'Der er en stor frøbank i jorden',
-	    'Arter der har en hurtig reproduktion'
+	    'Arter, der har en hurtig reproduktion'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -503,47 +503,6 @@ db.questions.save(
 	correct_answer: '0'
     });
 
-db.questions.save(
-    {
-	chapters: ['15.2'],
-	text: 'Hvad forstås ved et områdes biodiversitet?',
-        answers: [
-	    'Artsrigdommen i området',
-	    'Den samlede biomasse i området',
-	    'Antal individer i området',
-	    'Den biologiske nedbrydning i området'
-	],
-	type: 'multiple_text',
-	correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-	chapters: ['15.2'],
-	text: 'Hvad kan man også kalde artsrigdommen i et område?',
-        answers: [
-	    'Biodiversiteten',
-	    'Biotopen',
-	    'Biologien',
-	    'Biofilmen'
-	],
-	type: 'multiple_text',
-	correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-	chapters: ['15.2'],
-	text: 'Hvad måler man ved en vegetationsanalyse i et område?',
-        answers: [
-	    'Biodiversiteten af planter i et område',
-	    'Biotopen på stedet',
-	    'Vegetationens tilvækst',
-	    'Hvor meget planteæderne påvirker vegetationen'
-	],
-	type: 'multiple_text',
-	correct_answer: '0'
-    });
 
 db.questions.save(
     {
@@ -620,10 +579,10 @@ db.questions.save(
 	chapters: ['15.3'],
 	text: 'Hvad forstås ved DOM?',
         answers: [
-	    'Dødt organisk materiale',
+	    'Dødt Organisk Materiale',
 	    'Jordbundens bakterier',
 	    'Jordbundens smådyr',
-	    'Humus'
+	    'Døde Orme & Mider'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -639,7 +598,7 @@ db.questions.save(
 	    'Den endelige nedbrydning af DOM til næringssalte',
 	    'Planternes optagelse af jordbundens næringssalte',
 	    'At smådyrene findeler de døde planter og dyr',
-	    'At jorden gødes med for eksempel gylle   '
+	    'At jorden gødes med for eksempel gylle'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -690,9 +649,9 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.3'],
-	text: 'Hvilket udsagn om jord er ikke korrekt?',
+	text: 'Hvilket udsagn om jord er forkert?',
         answers: [
-	    'Jordkolloiderne er positivt ladede',
+	    'Jordkolloider er positivt ladede',
 	    'Der findes flere nedbrydere i god jord end i dårlig jord',
 	    'Morjord er ikke så god som muldjord',
 	    'Muldjord har højere pH-værdi end morjord'
@@ -970,7 +929,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.3'],
-	text: 'Hvor mange regnorme kan der være pr. m2 i en frugtbar muldjord',
+	text: 'Hvor mange regnorme kan der være pr. kvadratmeter i en frugtbar muldjord',
         answers: [
 	    'Ca. 500 g',
 	    'Ca. 50 g',
@@ -1124,7 +1083,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.4'],
-	text: 'Hvordan optager planten de positive ioner fra jordkolloiderne?',
+	text: 'Hvordan optager planten positive ioner fra jordkolloiderne?',
         answers: [
 	    'Ved ionbytning med H+',
 	    'Ved diffusion',
@@ -1196,7 +1155,7 @@ db.questions.save(
 	chapters: ['15.4'],
 	text: 'Ved hvilken proces stiger vandet op i fx et træ?',
         answers: [
-	    'Hårrørsvirkning',
+	    'Hårrørsvirkning/kapillarrørsvirkning',
 	    'Diffusion',
 	    'Osmose',
 	    'Aktiv transport'
@@ -1222,12 +1181,12 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['15.4'],
-	text: 'Hvilket udsagn om vandtransporten op gennem en plante er ikke sandt?',
+	text: 'Hvilket udsagn om vandtransporten op gennem en plante er forkert?',
         answers: [
 	    'Den finder sted i sikarrene',
 	    'Den skyldes hårrørsvirkning',
 	    'Den kræver fordampning fra bladene',
-	    'Vandet kan højst transporteres 110-115 meter op '
+	    'Vandet kan højst transporteres 110-115 meter op i et træ'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1280,10 +1239,10 @@ db.questions.save(
 	chapters: ['15.4'],
 	text: 'Hvad er sikar?',
         answers: [
-	    'De rør i planterne der især transporterer opløste sukkerstoffer ',
-	    'De rør i planterne der især transporterer vand og opløste næringssalte ',
-	    'De rør i planterne der især transporterer ilt i planten ',
-	    'De rør i planterne der især transporterer kuldioxid i planten '
+	    'De rør i planterne der især transporterer opløste sukkerstoffer',
+	    'De rør i planterne der især transporterer vand og opløste næringssalte',
+	    'De rør i planterne der især transporterer ilt i planten',
+	    'De rør i planterne der især transporterer kuldioxid i planten'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1294,10 +1253,10 @@ db.questions.save(
 	chapters: ['15.4'],
 	text: 'Hvad er vedkar?',
         answers: [
-	    'De rør i planterne der især transporterer vand og opløste næringssalte ',
-	    'De rør i planterne der især transporterer opløste sukkerstoffer ',
-	    'De rør i planterne der især transporterer ilt i planten ',
-	    'De rør i planterne der især transporterkuldioxid i planten '
+	    'De rør i planterne der især transporterer vand og opløste næringssalte',
+	    'De rør i planterne der især transporterer opløste sukkerstoffer',
+	    'De rør i planterne der især transporterer ilt i planten',
+	    'De rør i planterne der især transporterkuldioxid i planten'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1380,7 +1339,7 @@ db.questions.save(
         answers: [
 	    'Kvælstof-fiksering',
 	    'Nitrifikation',
-	    'Svovl-fiksering',
+	    'Denitrifikation',
 	    'Fotosyntese'
 	],
 	type: 'multiple_text',
@@ -1409,7 +1368,7 @@ db.questions.save(
 	    'Spaltning af tripelbindingen i N<span style="vertical-align:sub; font-size:58%;">2</span>',
 	    'Spaltning af CO<span style="vertical-align:sub; font-size:58%;">2</span>',
 	    'Spaltning af O<span style="vertical-align:sub; font-size:58%;">2</span>',
-	    'Binding af den fri Ilt, så miljøet bliver iltfrit'
+	    'Binding af den fri ilt, så miljøet bliver iltfrit'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1420,7 +1379,7 @@ db.questions.save(
 	chapters: ['15.4'],
 	text: 'Hvad er funktionen af leg-hæmoglobin?',
         answers: [
-	    'Binding af den fri Ilt, så miljøet bliver iltfrit',
+	    'Binding af den fri ilt, så miljøet bliver iltfrit',
 	    'Spaltning af tripelbindingen i N<span style="vertical-align:sub; font-size:58%;">2</span>',
 	    'Spaltning af CO<span style="vertical-align:sub; font-size:58%;">2</span>',
 	    'Spaltning af O<span style="vertical-align:sub; font-size:58%;">2</span>'
@@ -1448,10 +1407,10 @@ db.questions.save(
 	chapters: ['15.5'],
 	text: 'Hvad forstås ved pesticider?',
         answers: [
-	    'Stoffer der bekæmper skadedyr og ukrudt',
+	    'Stoffer, der bekæmper skadedyr og ukrudt',
 	    'Ukrudtsmidler',
 	    'Gødning',
-	    'Stoffer der ikke biomagnificeres'
+	    'Stoffer, der ikke biomagnificeres'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1478,7 +1437,7 @@ db.questions.save(
         answers: [
 	    'Fordi de flygtige giftstoffer så muligvis kan fordampe til luften',
 	    'Fordi giften så kan sive ned til grundvandet',
-	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse ',
+	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse',
 	    'Fordi luften gavner fotosyntesen'
 	],
 	type: 'multiple_text',
@@ -1492,7 +1451,7 @@ db.questions.save(
         answers: [
 	    'Fordi de muligvis kan nedbryde giften',
 	    'Fordi de flygtige giftstoffer så kan fordampe til luften',
-	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse ',
+	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse',
 	    'Fordi luften gavner fotosyntesen'
 	],
 	type: 'multiple_text',
@@ -1504,7 +1463,7 @@ db.questions.save(
 	chapters: ['15.5'],
 	text: 'Hvordan kan det forbedre en giftgrund, at man planter fx piletræer?',
         answers: [
-	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse ',
+	    'Fordi træer kan fjerne giften og oplagre den i deres biomasse',
 	    'Fordi de flygtige giftstoffer så kan fordampe til luften',
 	    'Fordi de muligvis kan nedbryde giften',
 	    'Fordi luften gavner fotosyntesen'

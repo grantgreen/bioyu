@@ -20,7 +20,7 @@
     </Question>
     <Question name="Hvor længe skal man behandle med is ad gangen ved akut skade?">
       <Answer  text="10-15 minutter"/>
-      <Answer  text="Maksimalt 2 minutter"/>
+      <Answer  text="Indtil det ikke mere gør ondt"/>
       <Answer  text="Ca. en times tid"/>
       <Answer  text="Man må slet ikke behandle med is"/>
     </Question>
@@ -28,7 +28,7 @@
       <Answer  text="Du skal være fysisk aktiv så hurtigt som muligt"/>
       <Answer  text="Du skal tage 2-3 ugers pause uden fysisk aktivitet"/>
       <Answer  text="Du skal behandle med is, indtil skaden er helet"/>
-      <Answer  text="Hvile indtil skaden er helet"/>
+      <Answer  text="Du skal hvile, indtil skaden er helet"/>
     </Question>
     <Question name="Hvad står M for i RICEM?">
       <Answer  text="Mobilisation"/>
@@ -40,7 +40,7 @@
       <Answer  text="Du restituerer dårligere og kan desuden forværre skaden uden at opdage det"/>
       <Answer  text="Det er for dyrt i forhold til virkningen"/>
       <Answer  text="Det virker overhovedet ikke smertelindrende"/>
-      <Answer  text="Fordi smerte er en god ting"/>
+      <Answer  text="Fordi smerte er en god ting (no pain, no gain)"/>
     </Question>
 <Question name="Hvordan kan man med fordel behandle sener efter en skade?">
       <Answer  text="Med tung, langsom styrketræning"/>
@@ -81,8 +81,8 @@
       <Answer  text="Forhold dig i ro de første par timer efter skaden"/>
     </Question>
     <Question name="Hvad er et trælår?">
-      <Answer  text="Muskelfibre der er knust mod en knogle"/>
-      <Answer  text="Muskelfibre der er strakt for meget"/>
+      <Answer  text="Muskelfibre, der er knust mod en knogle"/>
+      <Answer  text="Muskelfibre, der er strakt for meget"/>
       <Answer  text="Et vrid i musklen"/>
       <Answer  text="Det samme som et træben"/>
        </Question>
@@ -95,16 +95,16 @@
       <Answer  text="Sideledbånd"/>
     </Question>
     <Question name="Hvilket udsagn er korrekt?">
-      <Answer  text="Skader på den indvendige menisk er klart hyppigere end på den udvendte"/>
+      <Answer  text="Skader på den indvendige menisk er klart hyppigere end på den udvendige"/>
       <Answer  text="Korsbåndsskader sker for ca. hver 3. håndboldspiller"/>
       <Answer  text="Det bageste korsbånd springer oftest før det forreste"/>
-      <Answer  text="Overrivning af begge korsbånd sker typisk i håndbold og fodbold"/>
+      <Answer  text="Overrivning af begge korsbånd sker meget ofte i håndbold og fodbold"/>
     </Question>
     <Question name="Hvilken del af knæet skades mindst hyppigt?">
       <Answer  text="Udvendig menisk"/>
       <Answer  text="Indvendig menisk"/>
       <Answer  text="Sideledbånd"/>
-      <Answer  text="Korsbån"/>
+      <Answer  text="Korsbånd"/>
     </Question>
     <Question name="Hvor er smerten ved springerknæ placeret?">
       <Answer  text="Lige under knæet ved patellasenen"/>
@@ -132,13 +132,13 @@
       <Answer  text="Forstrækning"/>
       <Answer  text="Knæskade"/>
     </Question>
-    <Question name="Hvor ofte rammer en ledbåndsskade i foden ydersiden?">
+    <Question name="Hvor ofte rammer en ledbåndsskade ydersiden af foden?">
       <Answer  text="Ca. 90 % af tilfældende"/>
       <Answer  text="Ca. halvdelen af tilfældene"/>
       <Answer  text="Ca. 25 % af tilfældene"/>
       <Answer  text="Næsten aldrig"/>
     </Question>
-    <Question name="Hvor ofte rammer en ledbåndsskade i foden indersiden?">
+    <Question name="Hvor ofte rammer en ledbåndsskade indersiden af foden?">
       <Answer  text="Ca. 10 % af tilfældene"/>
       <Answer  text="Ca. 70 % af tilfældene"/>
       <Answer  text="Næsten alle gange"/>
@@ -200,43 +200,37 @@
       <Answer  text="Med is"/>
       <Answer  text="Med lang hvile (6-8 måneder)"/>
     </Question>
-    <Question name="Hvor sidder smerten ved en tennisalbue?">
+    <Question name="Hvor sidder smerten ved en tennis-albue?">
       <Answer  text="Yderst på albuen"/>
       <Answer  text="Inderst på albuen"/>
       <Answer  text="Inde i albuen"/>
       <Answer  text="Lige over albuen"/>
     </Question>
-    <Question name="Hvor sidder smerten ved en golfalbue?">
+    <Question name="Hvor sidder smerten ved en golf-albue?">
       <Answer  text="Inderst på albuen"/>
       <Answer  text="Yderst på albuen"/>
       <Answer  text="Inde i albuen"/>
       <Answer  text="Lige over albuen"/>
     </Question>
-    <Question name="Hvilken aldersgruppe rammes typisk af tennisalbue?">
+    <Question name="Hvilken aldersgruppe rammes typisk af tennis-albue?">
       <Answer  text="Personer over 40 år"/>
       <Answer  text="Børn"/>
       <Answer  text="Unge indtil omkring 25 år"/>
       <Answer  text="Personer over 70 år"/>
     </Question>
-    <Question name="Hvilket tennisslag kan udløse en tennisalbue?">
+    <Question name="Hvilket tennisslag kan udløse en tennis-albue?">
       <Answer  text="Baghånd"/>
       <Answer  text="Forhånd"/>
       <Answer  text="Serv"/>
       <Answer  text="Forhåndsflugtning"/>
     </Question>
-    <Question name="Hvilket råd hjælper ikke ved en tennisalbue?">
+    <Question name="Hvilket råd hjælper ikke ved en tennis-albue?">
       <Answer  text="Kompression og elevation af det skadede område"/>
       <Answer  text="Kuldebehandling med is i begyndelsen"/>
       <Answer  text="Aktiv hvile (aktivitet til smertegrænsen)"/>
       <Answer  text="Anvende strop/albuerem"/>
     </Question>
-    <Question name="Hvor sidder smerten ved en tennisalbue?">
-      <Answer  text="Yderst på albuen"/>
-      <Answer  text="Inderst på albuen"/>
-      <Answer  text="Inde i albuen"/>
-      <Answer  text="Lige over albuen"/>
-    </Question>
-    <Question name="Hvilket kan ikke udløse en golfalbue?">
+    <Question name="Hvilket kan ikke udløse en golf-albue?">
       <Answer  text="Baghåndsslice"/>
       <Answer  text="Kast med en bold"/>
       <Answer  text="Serv i tennis"/>
@@ -249,10 +243,10 @@
       <Answer  text="Fordi musklen er gået i stykker"/>
   </Question>
       <Question name="Hvordan kan muskelkramper forebygges?">
-      <Answer  text="Indtag nok væske og salte, være udhvilet og undgå temposkift, når du er træt"/>
+      <Answer  text="Indtag nok væske og salte, vær udhvilet og undgå temposkift, når du er træt"/>
       <Answer  text="Muskelkramper kan ikke forebygges"/>
-      <Answer  text="Sørge for at strække godt ud, inden aktiviteten begynder"/>
-      <Answer  text="Spise mange kulhydrater, inden aktiviteten begynder"/>
+      <Answer  text="Sørg for at strække godt ud, inden aktiviteten begynder"/>
+      <Answer  text="Spis mange kulhydrater, inden aktiviteten begynder"/>
   </Question>
       <Question name="Hvad er mekanismen bag sidestik (sidesting)?">
       <Answer  text="Mekanismen er ukendt"/>
@@ -260,7 +254,7 @@
       <Answer  text="Det skyldes, at du har drukket for meget væske"/>
       <Answer  text="For hårdt arbejde"/>
   </Question>
-     <Question name="Hvilket udsagn er ikke korrekt?">
+     <Question name="Hvilket udsagn er forkert?">
       <Answer  text="Hypermobilitet er helt ufarligt"/>
       <Answer  text="Hypermobilitet rammer oftest kvinder"/>
       <Answer  text="Hypermobilitet er delvist arvelig"/>
@@ -284,19 +278,13 @@
       <Answer  text="3 uger"/>
       <Answer  text="Få dage"/>
       </Question>
-            <Question name="Hvor længe skal benet typisk være i gips ved et brud?">
-      <Answer  text="3 måneder"/>
-      <Answer  text="Et halvt år"/>
-      <Answer  text="3 uger"/>
-      <Answer  text="Få dage"/>
-      </Question>
-            <Question name="Hvilken berømt formel-1-kører mistede livet pga. et hovedtraume i et løb?">
+    <Question name="Hvilken berømt formel-1-kører mistede livet pga. et hovedtraume under et F1-løb?">
       <Answer  text="Ayrton Senna"/>
       <Answer  text="Alain Prost"/>
       <Answer  text="Michael Schumacher"/>
       <Answer  text="Lewis Hamilton"/>
       </Question>
-      <Question name="Hvilken cykelrytter mistede livet pga. et hovedtraume i et cykelløb?">
+      <Question name="Hvilken cykelrytter mistede livet pga. et hovedtraume under et cykelløb?">
       <Answer  text="Casartelli"/>
       <Answer  text="Simpson"/>
       <Answer  text="Enemark"/>

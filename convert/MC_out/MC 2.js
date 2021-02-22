@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Indånding sker ',
         answers: [
             'Ved en passiv proces',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Udånding sker ',
         answers: [
             'Ved at afslappe ribbensmuskler og mellemgulv',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Vitalkapaciteten er',
         answers: [
             'luftmængder, der indåndes ved hvert åndedrag',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Ved lungernes residualvolumen forstås',
         answers: [
             'Den luftmængde, der står tilbage i lungerne efter en maximal udånding',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Det døde rum er',
         answers: [
             'Luften i alveolerne',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'En vitalkapacitet på 4-5 L er',
         answers: [
             'Meget lav',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Den normale åndingsdybde er ca.',
         answers: [
             '0,5 L',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Den normale åndingsfrekvens er ca.',
         answers: [
             '60 gange i minuttet',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Hvis åndedrætsfrekvensen er 12 og åndedrætsdybden er 0,5 L, så bliver lungeventilationen',
         answers: [
             '60 L/minut',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['2.1', '2.2'],
+        chapters: ['2.2'],
         text: 'Ved maximalt arbejde kan man nå op på en lungeventilation på ',
         answers: [
             '150 L/minut',

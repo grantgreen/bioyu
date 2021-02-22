@@ -8,6 +8,7 @@ var links = {
 		{"caption":"Klimaforandringer 2","link":"https://www.youtube.com/watch?v=Ou1WFBywN4o"},
 		{"caption":"Vandforurening","link":"https://www.youtube.com/watch?v=GNGKsubYJ9U"},
 		{"caption":"Luftforurening","link":"https://www.youtube.com/watch?v=_dTtvtlct9k"},
+		 	{"caption": "Interaktiv klimaside",	 "link": "https://en-roads.climateinteractive.org/scenario.html?p7=2&p10=0.1&v=2.7.29"},
 		,{"color": "#6DC0B4"},
 		{"caption": "Videnskab.dk", "link": "http://www.videnskab.dk"},
 		{"caption": "Aktuel Naturvidenskab","link": "http://aktuelnaturvidenskab.dk"},

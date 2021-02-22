@@ -1,6 +1,6 @@
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Første trin i isoleringen af DNA er',
         answers: [
             'At løsne DNA fra histonerne med proteaser',
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Andet trin i isoleringen af DNA er',
         answers: [
             'At løsne DNA fra histonerne med proteaser',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Tredje trin i isolering af DNA er',
         answers: [
             'At løsne DNA fra histonerne med proteaser',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Fjerde trin i isolering af DNA er',
         answers: [
             'At løsne DNA fra histonerne med proteaser',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvorfor kan proteaser fraspalte histonerne fra DNA?',
         answers: [
             'Fordi de nedbryder DNA',
@@ -70,10 +70,10 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
-        text: 'Hvorfor kan DNA udfældes af NaCl?',
+        chapters: ['23.2'],
+        text: 'Hvorfor kan DNA udfældes med NaCl?',
         answers: [
-            'Fordi pH ændres derved',
+            'Fordi pH-værdien ændres',
             'Fordi Na<span style="vertical-align:super; font-size:58%;">+</span> kan binde sig til fosfatgrupperne',
             'Fordi Cl<span style="vertical-align:super; font-size:58%;">-</span> kan binde sig til fosfatgrupperne',
             'Fordi Na<span style="vertical-align:super; font-size:58%;">+</span> binder sig til histonerne'
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad betyder PCR?',
         answers: [
             'Polymerase DNA',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad forstås ved en DNA-pellet?',
         answers: [
             'En lille klump af DNA',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvorfor anvender man PCR?',
         answers: [
             'For at spalte DNA til mindre stykker',
@@ -126,13 +126,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad forstås ved en primer?',
         answers: [
             'En DNA-polymerase',
             'En DNA-ligase',
             'Et restriktionsenzym, der kan spalte DNA',
-            'Et lille stykke DNA, der er komplementært til starten af det område, der skal opformeres '
+            'Et lille stykke DNA, der er komplementært til starten af det område, der skal opformeres'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -140,13 +140,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvorfor skal DNA opvarmes til 95 grader i begyndelsen af PCR-processen?',
         answers: [
             'For at denaturere DNA til enkeltstrenge',
             'Fordi primerne så kan bindes de rette steder',
             'Fordi DNA-polymerasen så begynder at påsætte nukleotider',
-            'Fordi DNA bundfældes, så det kan renfremstilles '
+            'Fordi DNA bundfældes, så det kan renfremstilles'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -154,8 +154,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
-        text: 'Hvorfor skal DNA afkøles til 50-65 grader senere i PCR-processen',
+        chapters: ['23.2'],
+        text: 'Hvorfor skal DNA afkøles til 50-65 grader senere i PCR-processen?',
         answers: [
             'Fordi DNA så denaturerer til enkeltstrenge',
             'Fordi primerne så kan bindes de rette steder',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad sker der, når DNA opvarmes til 72 grader under PCR-processen?',
         answers: [
             'DNA denaturerer til enkeltstrenge',
@@ -182,12 +182,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad er princippet i en elektroforese?',
         answers: [
             'At DNA-molekyler sorteres efter størrelse, da de mindste vandrer hurtigst',
             'At DNA-molekyler sorteres efter størrelse, da de mindste vandrer langsomst',
-            'DNA-molekyler sorteres efter deres sekvens',
+            'DNA-molekyler sorteres efter deres nukleotidsekvens',
             'DNA-molekylerne adskilles efter deres aminosyresammensætning'
         ],
         type: 'multiple_text',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad kaldes den negative elektrode i elektroforesen?',
         answers: [
             'Katoden',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvorfor vandrer DNA væk fra anoden i elektroforesen?',
         answers: [
             'Fordi anoden er magnetisk',
@@ -224,13 +224,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad afhænger DNA-stykkernes vandringshastighed i elektroforesen mest af?',
         answers: [
             'Af antallet af positive ladninger i DNA',
             'Af antallet af negative ladninger i DNA',
             'Af katodens ladning',
-            'Af stykkernes størrelse'
+            'Af DNA-stykkernes størrelse'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -238,12 +238,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvordan kan DNA-båndene i en elektroforese påvises?',
         answers: [
             'Ved PCR',
             'Ved at tilsætte den rette primer',
-            'Ved fx at tilsætte en radioaktiv isotop som P',
+            'Ved fx at tilsætte et radioaktiv isotop som P',
             'De kan faktisk ses med det blotte øje'
         ],
         type: 'multiple_text',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad forstås ved autoradiografi?',
         answers: [
             'At et radioaktivt stof kan farve en røntgenfilm',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad er karakteristisk for et fluorescerende stof?',
         answers: [
             'At det kan farve en røntgenfilm',
@@ -280,13 +280,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad er en probe?',
         answers: [
             'En FISH-teknik',
             'En PCR-undersøgelse',
             'Et lille enkeltstrenget, ofte fluorescerende DNA-stykke med en specifik nukleotidsekvens',
-            'Et lille farvet DNA-stykke'
+            'Et lille farvet DNA-stykke, der kan bindes til andet DNA og derved gøre det synligt'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad står FISH-teknikken for?',
         answers: [
             'En teknik, hvor man ”fisker” et bestemt DNA-stykke op',
@@ -308,17 +308,23 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['23.1', '23.2'],
+        chapters: ['23.2'],
         text: 'Hvad er den vigtigste anvendelse af FISH-teknikken i genteknologien?',
         answers: [
             'Som en slags probe',
             'Til at påvise kromosommutationer og kromosomtalsmutationer',
-            'Til at undersøge mutationer, hvor en enkelt base er bortfaldet eller tilføjet',
+            'Til at undersøge mutationer, hvor en enkelt base/nukleotid er bortfaldet eller tilføjet',
             'Som DNA-markør'
         ],
         type: 'multiple_text',
         correct_answer: '1'
     });
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -367,7 +373,7 @@ db.questions.save(
         chapters: ['23.3'],
         text: 'Hvad forstås ved dideoxynukleotider?',
         answers: [
-            'RNA- nukleotider',
+            'RNA-nukleotider',
             'DNA-nukleotider',
             'DNA-nukleotider med et ekstra iltatom',
             'DNA-nukleotider der mangler et iltatom'
@@ -439,7 +445,7 @@ db.questions.save(
             'Elektroforese',
             'Sekventering',
             'Klynge-dannelsen',
-            'Klynge-dannelsen'
+            'Databehandling'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -447,12 +453,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.3'],
-        text: 'Hvilke funktion har adaptor-molekylet (NGS) ikke?',
+        text: 'Hvilke funktion har adaptor-molekylet i NGS ikke?',
         answers: [
             'Det er fluorescerende',
-            'Sikrer at DNA kan sætte sig fast på glaspladen',
-            'Sikrer et bindingssted for en primer til senere PCR',
-            'Indeholder en bar-code (stregkode), så man kan nummerere de enkelte DNA-stykker'
+            'Det sikrer, at DNA kan sætte sig fast på glaspladen',
+            'Det sikrer et bindingssted for en primer til senere PCR',
+            'Det indeholder en bar-code (stregkode), så man kan nummerere de enkelte DNA-stykker'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -464,8 +470,8 @@ db.questions.save(
         answers: [
             'Det er det samme som et ”genetisk fingeraftryk”',
             'Det er en sekvensanalyse af hele et individs genom',
-            'Alle mennesker har unikke genetiske DNA-profiler (på nær enæggede tvillinger)',
-            'Et individs nukleotidsekvens i et bestemt område af genomet'
+            'Alle mennesker har unikke genetiske DNA-profiler (pånær enæggede tvillinger)',
+            'Det er et individs nukleotidsekvens i et bestemt område af genomet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -484,6 +490,21 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+db.questions.save(
+    {
+        chapters: ['23.4'],
+        text: 'Hvor kommer restriktionsenzymer fra?',
+        answers: [
+            'Bakterier',
+            'Mennesker',
+            'Planter',
+            'Gopler'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
 
 db.questions.save(
     {
@@ -532,8 +553,8 @@ db.questions.save(
         chapters: ['23.4'],
         text: 'Hvad forstås ved enkelt-locus-metoden?',
         answers: [
-            'En metode hvor man kun undersøger DNA i et gen',
-            'En metode hvor man undersøger DNA i mange gener ',
+            'En metode hvor man kun undersøger DNA fra et gen',
+            'En metode hvor man undersøger DNA fra mange gener',
             'En metode hvor man kun bruger et enkelt restriktionsenzym',
             'En metode hvor man undersøger et VNTR-område'
         ],
@@ -546,10 +567,10 @@ db.questions.save(
         chapters: ['23.4'],
         text: 'Hvad er multi-locus-metoden?',
         answers: [
-            'En metode hvor man kun undersøger DNA i et gen',
-            'En metode hvor man undersøger DNA i mange gener ',
+            'En metode hvor man kun undersøger DNA fra et gen',
+            'En metode hvor man undersøger DNA fra mange gener',
             'En metode hvor man kun bruger et enkelt restriktionsenzym',
-            'En metode hvor man undersøger mange VNTR-område'
+            'En metode hvor man undersøger mange VNTR-områder'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -562,7 +583,7 @@ db.questions.save(
         answers: [
             'DNA der findes hos mange grupper af mennesker',
             'Mange ens DNA-strenge, og ikke kun to som normalt',
-            'En nukleotidsekvens der gentages et antal gange imellem generne',
+            'En nukleotidsekvens der gentages et antal gange mellem de proteinkodende gener',
             'Et SNP-sted'
         ],
         type: 'multiple_text',
@@ -600,12 +621,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.4'],
-        text: 'Hvad menes der med en mikrosatellit i genomet?',
+        text: 'Hvad menes med begrebet mikrosatellit?',
         answers: [
-            'Et område i genomet med få gentagelser af en nukleotidsekvens',
+            'Et område i genomet med få gentagelser af en nukleotidsekvens (2-6 gange)',
             'Et område i genomet med et variabelt antal gentagelser af en nukleotidsekvens',
             'Et område i genomet med et meget stort antal gentagelser af en bestemt nukleotidsekvens',
-            'Det samme som et SNP-område'
+            'Et område i genomet med få gentagelser af en nukleotidsekvens (7-10 gange)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -614,15 +635,15 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.4'],
-        text: 'Hvad menes der med en mini-satellit i genomet?',
+        text: 'Hvad menes med begrebet mini-satellit?',
         answers: [
-            'Et område i genomet med få gentagelser af en nukleotidsekvens',
+            'Et område i genomet med få gentagelser af en nukleotidsekvens (2-6 gange)',
             'Et område i genomet med et variabelt antal gentagelser af en nukleotidsekvens',
             'Et område i genomet med et meget stort antal gentagelser af en bestemt nukleotidsekvens',
-            'Det samme som et SNP-område'
+            'Et område i genomet med få gentagelser af en nukleotidsekvens (7-10 gange)'
         ],
         type: 'multiple_text',
-        correct_answer: '1'
+        correct_answer: '3'
     });
 
 db.questions.save(
@@ -689,7 +710,7 @@ db.questions.save(
             'Det samme som komplementært DNA',
             'DNA fremstillet ud fra bakterie-DNA',
             'DNA fremstillet i laboratoriet ud fra frie nukleotider',
-            'DNA fremstillet ud fra RNA '
+            'DNA fremstillet ud fra RNA'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -709,15 +730,39 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['23.6'],
         text: 'Hvad er en DNA-chip?',
         answers: [
             'En gensplejset kartoffelchip',
-            'Et meget lille stykke repetitivt dNA',
+            'Et meget lille stykke repetitivt DNA',
             'En ret stort stykke repetitivt DNA ',
-            'En lille plade med påhæftede enkeltstrengede DNA-stykker '
+            'En lille plade med påhæftede enkeltstrengede DNA-stykker'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.6'],
+        text: 'Hvad kan man bruge en DNA-chip til?',
+        answers: [
+            'At spise (helst med dip)',
+            'Påvise kromosomantal',
+            'Sekvensbestemme DNA',
+            'Påvise genaktivitet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -758,7 +803,7 @@ db.questions.save(
         answers: [
             'For at finde en mulig kur mod kræft',
             'For at lave monoklonale antistoffer',
-            'For at lave et stort antal forskellige antistoffer ',
+            'For at lave et stort antal forskellige antistoffer',
             'For at se om kræftcellerne på den måde bliver mindre ondartede'
         ],
         type: 'multiple_text',
@@ -813,9 +858,9 @@ db.questions.save(
         text: 'Hvad forstås ved genterapi?',
         answers: [
             'At man fjerner et sygdomsgen med restriktionsenzymer',
-            'At man behandler en genteknologisk sygdom med genteknologi',
+            'At man behandler en genetisk sygdom med genteknologi',
             'At man indsætter et rask gen i et individs kønsceller',
-            'At man fjerner et dårligt gen fra et individs kønsceller '
+            'At man fjerner et dårligt gen fra et individs kønsceller'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -909,9 +954,9 @@ db.questions.save(
         chapters: ['23.6'],
         text: 'Hvilket udsagn om børn med 3 forældre er sandt?',
         answers: [
-            'Barnet har mitokondrier fra en kvinde og de almindelige 23 kromosomer fra en mand og en anden kvinde',
+            'Barnet har mitokondrier fra en kvinde og de almindelige 46 kromosomer fra en mand (23) og en anden kvinde (23)',
             'Barnet har 2 fædre og en mor',
-            'Barnet har mitokondrier fra en mand og de almindelige 23 kromosomer fra en anden mand og en kvinde',
+            'Barnet har mitokondrier fra en mand og de almindelige 46 kromosomer fra en anden mand (23) og en kvinde (23)',
             'Barnet har mitokondrier fra 3 forskellige mennesker'
         ],
         type: 'multiple_text',
@@ -962,11 +1007,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad menes med donoren i gensplejsning?',
+        text: 'Hvad menes med begrebet "donor" ved gensplejsning?',
         answers: [
-            'Den ”bærer” der overfører genet',
-            'Den organisme der får overført et gen',
-            'Den organisme der leverer et gen til en anden',
+            'Den ”bærer”, der overfører genet',
+            'Den organisme, der får overført et gen',
+            'Den organisme, der leverer et gen til en anden',
             'Plasmidet, der overfører genet'
         ],
         type: 'multiple_text',
@@ -976,11 +1021,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad menes med værtsorganismen i gensplejsning?',
+        text: 'Hvad menes med begrebet "værtsorganisme" ved gensplejsning?',
         answers: [
-            'Den ”bærer” der overfører genet',
-            'Den organisme der får overført et gen',
-            'Den organisme der leverer et gen til en anden',
+            'Den ”bærer”, der overfører genet',
+            'Den organisme, der får overført et gen',
+            'Den organisme, der leverer et gen til en anden',
             'Plasmidet, der får indsat et gen'
         ],
         type: 'multiple_text',
@@ -990,11 +1035,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad menes med vektoren i gensplejsning?',
+        text: 'Hvad menes med begrebet "vektor" i gensplejsning?',
         answers: [
-            'Den ”bærer” der overfører genet',
-            'Den organisme der får overført et gen',
-            'Den organisme der leverer et gen til en anden',
+            'Den ”bærer”, der overfører genet',
+            'Den organisme, der får overført et gen',
+            'Den organisme, der leverer et gen til en anden',
             'Plasmidet, der overfører genet'
         ],
         type: 'multiple_text',
@@ -1008,7 +1053,7 @@ db.questions.save(
         answers: [
             'Et bakteriosom',
             'Bakteriekromosomet',
-            'Små ringformede RNA stykker i bakterier',
+            'Små ringformede RNA-stykker i bakterier',
             'Små ringformede DNA-stykker i bakterier'
         ],
         type: 'multiple_text',
@@ -1032,7 +1077,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad menes der med, at genkendelsessekvensen for et restriktionsenzym er palindromisk?',
+        text: 'Hvad menes med, at genkendelsessekvensen for et restriktionsenzym er palindromisk?',
         answers: [
             'At det kan sætte to DNA-stykker sammen',
             'At det kan klippe DNA i mindre stykker',
@@ -1154,6 +1199,36 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+db.questions.save(
+    {
+        chapters: ['23.7'],
+        text: 'Hvad menes med rekombinant DNA-teknik?',
+        answers: [
+            'Gensplejsning',
+            'Sekvensering af et DNA-stykke',
+            'Det samme som elektroforese',
+            'En teknologi til at slukke gener'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.7'],
+        text: 'Hvad menes med begrebet "transformation"?',
+        answers: [
+            'Overførsel af DNA fra donor til vært',
+            'Overførsel af DNA fra donor til vektor',
+            'Overførsel af DNA fra vektor til vært',
+            'Overførsel af DNA fra vært til donor'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
 
 db.questions.save(
     {
@@ -1284,12 +1359,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad er in vitro befrugtning?',
+        text: 'Hvad er "in vitro" befrugtning?',
         answers: [
             'Ægsortering',
             'Fostervandsprøve',
             'Moderkageundersøgelse',
-            'Når zygoten dannes i et reagensglas '
+            'Når zygoten dannes i et reagensglas'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1326,7 +1401,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad mener genetikeren Lee Silver med genRICH?',
+        text: 'Hvad mener genetikeren Lee Silver med begrebet "genRICH"?',
         answers: [
             'Individer med dårlige gener',
             'Individer, der har fået indført nogle gode gener ved gensplejsning',
@@ -1340,7 +1415,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.7'],
-        text: 'Hvad mener genetikeren Lee Silver med naturals?',
+        text: 'Hvad mener genetikeren Lee Silver med begrebet "naturals"?',
         answers: [
             'Individer med dårlige gener',
             'Individer, der har fået indført nogle gode gener ved gensplejsning',
@@ -1365,229 +1440,12 @@ db.questions.save(
         correct_answer: '1'
     });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad er PKU-prøven?',
-        answers: [
-            'En DNA-chip',
-            'En undersøgelse af antallet af mikro- eller minisatellitter hos en nyfødt',
-            'En blodtransfusion på et foster eller et nyfødt barn',
-            'En blodprøve fra et nyfødt barn til genetiske undersøgelser'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvilken sygdom screenes der bl.a. for i PKU-prøven',
-        answers: [
-            'Føllings syge',
-            'Sklerose',
-            'Kræft',
-            'Parkinsons sygdom'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad fejler de personer, der har sygdommen MCADD ?',
-        answers: [
-            'De kan ikke nedbryde peptider og proteiner',
-            'De kan ikke nedbryde polysakkarider',
-            'De kan ikke omdanne fruktose til glukose',
-            'De kan ikke nedbryde mellemlange fedtsyrer'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvorfor kommer MCADD-patienter til at lide af ATP-mangel?',
-        answers: [
-            'Fordi, de har problemer med at nedbryde visse fedtsyrer i mitokondrierne',
-            'Fordi de kommer til at mangle aminosyrer',
-            'Fordi de kommer til at mangle glukose til respirationen i mitokondrierne',
-            'Fordi de kommer til at mangle mitokondrier '
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvordan nedarves sygdommen MCADD?',
-        answers: [
-            'Autosomalt dominant',
-            'Autosomalt recessivt',
-            'X-bundet dominant',
-            'X-bundet recessivt'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad er hyppigheden af MCADD i DK?',
-        answers: [
-            '1:1000',
-            '1:10.000',
-            '1:100.000',
-            '1:200.000'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
 
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad skal patienter med MCADD fjerne fra kosten?',
-        answers: [
-            'Stivelse',
-            'Fruktose',
-            'Fedt',
-            'Protein'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad menes med en aktivitetsmutant?',
-        answers: [
-            'En mutation der medfører, at man bliver sløv og langsom',
-            'En mutation der bevirker, at man får ufleksible led',
-            'En mutation der medfører, at det dannede protein har lavere aktivitet',
-            'En mutation der medfører, at det dannede protein foldes forkert'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad menes der med foldningsmutant?',
-        answers: [
-            'En mutation der medfører, at man bliver sløv og langsom',
-            'En mutation der bevirker, at man får ufleksible led',
-            'En mutation der medfører, at det dannede protein har lavere aktivitet',
-            'En mutation der medfører, at det dannede protein foldes forkert'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad er TaqMan?',
-        answers: [
-            'En genteknologisk metode til at bestemme nukleotidsekvensen i et gen',
-            'En måde at mærke DNA på, så det kan bruges til analyse',
-            'En mutation der medfører, at det dannede protein har lavere aktivitet',
-            'En PCR-baseret metode til at visualisere en mutation i et exon'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Hvad er et kløvnings-assay?',
-        answers: [
-            'En metode, der kan finde nukleotidsekvensen i et gen',
-            'En måde at skære genomet i små stykker på via restriktionsenzymer',
-            'En metode der bruges til gensplejsning',
-            'En analyse af DNA via restriktionsenzymer til påvisning af en mutation'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'DNA-baseret elektroforese kombineret med probe-påvisning af specifikke DNA-sekvenser kaldes',
-        answers: [
-            'Western blotting',
-            'Eastern blotting',
-            'Northern blotting',
-            'Southern blotting'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'RNA-baseret elektroforese kombineret med probe-påvisning af specifikke mRNA-sekvenser kaldes',
-        answers: [
-            'Western blotting',
-            'Eastern blotting',
-            'Southern blotting',
-            'Northern blotting'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'Protein-baseret elektroforese kombineret med antistof-påvisning af specifikke proteiner kaldes',
-        answers: [
-            'Western blotting',
-            'Eastern blotting',
-            'Northern blotting',
-            'Southern blotting'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'En PCR-analyse hvor udgangspunktet er RNA og ikke DNA kaldes',
-        answers: [
-            'PCR-RNA',
-            'q-PCR',
-            'RE-qPCR',
-            'RT-PCR'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
-
-db.questions.save(
-    {
-        chapters: ['23.8'],
-        text: 'MCAD-enzymet er opbygget af ',
-        answers: [
-            '1 subunit',
-            '2 identiske subunits',
-            '3 identiske subunits',
-            '4 identiske subunits'
-        ],
-        type: 'multiple_text',
-        correct_answer: '3'
-    });
 
 db.questions.save(
     {
@@ -1596,7 +1454,7 @@ db.questions.save(
         answers: [
             'Ved hjælp af gener, der koder for enzymer, der kan klippe virus-DNA i stykker',
             'Ved hjælp af deres B-huskeceller',
-            'Ved hjælp af deres immunforsvar',
+            'Ved hjælp af deres immunforsvar (primært hvide blodlegemer)',
             'De har ingen beskyttelse, da de ikke har et egentligt immunforsvar'
         ],
         type: 'multiple_text',
@@ -1664,9 +1522,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.8'],
-        text: 'Hvad kan CRISPR teknikken bl.a. bruges til?',
+        text: 'Hvad kan CRISPR-teknikken bl.a. bruges til?',
         answers: [
-            'Til at slukke uønskede gener ved knock out',
+            'Til at slukke uønskede gener ved "knock out"',
             'Til at fremkalde mutationer',
             'Til at reparere kromosombrud',
             'Til at fremstille enkeltstrenget DNA'
@@ -1677,9 +1535,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['23.8'],
-        text: 'Hvad kan CRISPR teknikken bl.a. bruges til?',
+        text: 'Hvad kan CRISPR-teknikken bl.a. bruges til?',
         answers: [
-            'Til at slukke uønskede gener ved knock out',
+            'Til at indføre nye gener ved "knock in"',
             'Til at fremkalde mutationer',
             'Til at reparere kromosombrud',
             'Til at fremstille enkeltstrenget DNA'
@@ -1687,6 +1545,70 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad står PAM for?',
+        answers: [
+            'Protospacer Adjacent Motif',
+            'Protospacer Adenin Myostatin',
+            'Procaryote Animal Mellow',
+            'Palindrom Autosomalt Motif'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad kaldes det kunstigt fremstillede RNA-molekyle, som bruges til knock-in?',
+        answers: [
+            'gRNA',
+            'PAM',
+            'siRNA',
+            'crRNA'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvilket gen har man anvendt CRISPR-knock out teknikken på?',
+        answers: [
+            'CCR5"',
+            'Insulin',
+            'p53',
+            'HIV'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvad er mest problematisk i forbindelse med CRISPR-knock in teknologien?',
+        answers: [
+            'Mulighed for "off target"',
+            'At teknologien virker dårligt',
+            'At man kan komme til at indsætte et skadeligt gen',
+            'At man kan komme til at indsætte et for godt gen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
 db.questions.save(
     {
         chapters: ['23.8'],
@@ -1694,7 +1616,7 @@ db.questions.save(
         answers: [
             'Et bestemt gen spredes lynhurtigt i populationen og fortrænger vildttypen',
             'Et bestemt gen drives af mutationer, som ændrer det',
-            'Et bestemt gen forsvinder meget hurtigt populationen',
+            'Et bestemt gen forsvinder meget hurtigt ud af populationen',
             'Et særligt gen, som kun findes i én bestemt form'
         ],
         type: 'multiple_text',
@@ -1726,6 +1648,261 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+db.questions.save(
+    {
+        chapters: ['23.8'],
+        text: 'Hvilken sygdom håber man at kunne udryde via CRISPR og gene drive?',
+        answers: [
+            'Malaria',
+            'Diabetes',
+            'Kræft',
+            'Sklerose'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
+
+
+
+
+
+
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad er PKU-prøven?',
+        answers: [
+            'En DNA-chip',
+            'En undersøgelse af antallet af mikro- eller minisatellitter hos en nyfødt',
+            'En blodtransfusion på et foster eller et nyfødt barn',
+            'En blodprøve fra et nyfødt barn til genetiske undersøgelser'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvilken sygdom screenes der bl.a. for i PKU-prøven?',
+        answers: [
+            'Føllings syge',
+            'Sklerose',
+            'Kræft',
+            'Parkinsons sygdom'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad fejler de personer, der har sygdommen MCADD?',
+        answers: [
+            'De kan ikke nedbryde peptider og proteiner',
+            'De kan ikke nedbryde polysakkarider',
+            'De kan ikke omdanne fruktose til glukose',
+            'De kan ikke nedbryde mellemlange fedtsyrer'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvorfor kommer MCADD-patienter til at lide af ATP-mangel?',
+        answers: [
+            'Fordi de har problemer med at nedbryde visse fedtsyrer i mitokondrierne',
+            'Fordi de kommer til at mangle aminosyrer',
+            'Fordi de kommer til at mangle glukose til respirationen i mitokondrierne',
+            'Fordi de kommer til at mangle mitokondrier'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvordan nedarves sygdommen MCADD?',
+        answers: [
+            'Autosomalt dominant',
+            'Autosomalt recessivt',
+            'X-bundet dominant',
+            'X-bundet recessivt'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad er hyppigheden af MCADD i DK?',
+        answers: [
+            '1:1000',
+            '1:10.000',
+            '1:100.000',
+            '1:200.000'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad skal patienter med MCADD fjerne fra kosten?',
+        answers: [
+            'Stivelse',
+            'Fruktose',
+            'Fedt',
+            'Protein'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad menes med en aktivitetsmutant?',
+        answers: [
+            'En mutation der medfører, at man bliver sløv og langsom',
+            'En mutation der bevirker, at man får ufleksible led',
+            'En mutation der medfører, at det dannede protein har lavere aktivitet',
+            'En mutation der medfører, at det dannede protein foldes forkert'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad menes med foldningsmutant?',
+        answers: [
+            'En mutation der medfører, at man bliver sløv og langsom',
+            'En mutation der bevirker, at man får ufleksible led',
+            'En mutation der medfører, at det dannede protein har lavere aktivitet',
+            'En mutation der medfører, at det dannede protein foldes forkert'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad er TaqMan?',
+        answers: [
+            'En genteknologisk metode til at bestemme nukleotidsekvensen i et gen',
+            'En måde at mærke DNA på, så det kan bruges til analyse',
+            'En mutation der medfører, at det dannede protein har lavere aktivitet',
+            'En PCR-baseret metode til at visualisere en mutation i et exon'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Hvad er et kløvnings-assay?',
+        answers: [
+            'En metode, der kan finde nukleotidsekvensen i et gen',
+            'En måde at skære genomet i små stykker på via restriktionsenzymer',
+            'En metode der bruges til gensplejsning',
+            'En analyse af DNA via restriktionsenzymer til påvisning af en mutation'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'DNA-baseret elektroforese kombineret med probe-påvisning af specifikke DNA-sekvenser kaldes',
+        answers: [
+            'Western blotting',
+            'Eastern blotting',
+            'Northern blotting',
+            'Southern blotting'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'RNA-baseret elektroforese kombineret med probe-påvisning af specifikke mRNA-sekvenser kaldes',
+        answers: [
+            'Western blotting',
+            'Eastern blotting',
+            'Southern blotting',
+            'Northern blotting'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'Protein-baseret elektroforese kombineret med antistof-påvisning af specifikke proteiner kaldes',
+        answers: [
+            'Western blotting',
+            'Eastern blotting',
+            'Northern blotting',
+            'Southern blotting'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'En PCR-analyse, hvor udgangspunktet er RNA og ikke DNA, kaldes',
+        answers: [
+            'PCR-RNA',
+            'q-PCR',
+            'RE-qPCR',
+            'RT-PCR'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+db.questions.save(
+    {
+        chapters: ['23.9'],
+        text: 'MCAD-enzymet er opbygget af',
+        answers: [
+            '1 subunit',
+            '2 identiske subunits',
+            '3 identiske subunits',
+            '4 identiske subunits'
+        ],
+        type: 'multiple_text',
+        correct_answer: '3'
+    });
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['23.10'],

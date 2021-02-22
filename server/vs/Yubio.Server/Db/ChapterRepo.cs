@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Common.Logging;
 using MongoDB.Bson;
 using MongoDB.Bson.IO;
 using MongoDB.Bson.Serialization;
@@ -9,6 +10,8 @@ namespace Yubio.Server.Db
 {
     internal static class ChapterRepo
     {
+        private static readonly ILog Logger = LogManager.GetLogger("ChapterRepo");
+
         private const string CollectionName = "contents";
 
         public static IEnumerable<Chapter> GetSubChapters(this IMongoDatabase database)
@@ -21,10 +24,10 @@ namespace Yubio.Server.Db
             }
         }
 
-        public static string AsJson(this ChapterList chapeterList)
+        public static string AsJson(this ChapterList chapterList)
         {
             var jsonWriterSettings = new JsonWriterSettings { OutputMode = JsonOutputMode.Strict };
-            return chapeterList.ToJson(jsonWriterSettings);
+            return chapterList.ToJson(jsonWriterSettings);
         }
     }
 
@@ -57,6 +60,8 @@ namespace Yubio.Server.Db
         {
             this.Chapters = new List<SubChapter>();
         }
+
+        public TileList Tiles { get; set; }
     }
 
     public class SubChapter
@@ -79,5 +84,6 @@ namespace Yubio.Server.Db
         public string SubChapterNumber { get; set; }
 
         public QuestionList Questions { get; set; }
+    
     }
 }

@@ -101,7 +101,7 @@ db.questions.save(
         chapters: ["7.2"],
         text: 'Hvad menes med autosomer?',
         answers: [
-            'De kromosomer der ikke er kønskromosomer',
+            'De kromosomer, der ikke er kønskromosomer',
             'Homologe kromosomer',
             'Kønskromosomer',
             'Karyotyperne'
@@ -201,8 +201,8 @@ db.questions.save(
         answers: [
             'Af 8 kugler af histoner med en DNA-tråd viklet om',
             'Af DNA',
-            'Af protein',
-            'Af histoner'
+            'Af protein med fedt viklet omkring',
+            'Af histoner med proteiner viklet omkring'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -381,9 +381,9 @@ db.questions.save(
         chapters: ["7.4"],
         text: 'Hvad forstås ved et protein-kodende gen?',
         answers: [
-            'Et gen der er opbygget af protein',
-            'Et gen der ikke er proteindannende',
-            'Et gen der er proteindannende',
+            'Et gen, der er opbygget af protein',
+            'Et gen, der ikke er proteindannende',
+            'Et gen ,der er proteindannende',
             'Et RNA-gen'
         ],
         type: 'multiple_text',
@@ -912,7 +912,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.5"],
-        text: 'Hvis den kodende streng er TAT, hvad er den så i skabelonstrengen?',
+        text: 'Hvis den kodende streng er TAT, hvad er koden så i skabelonstrengen?',
         answers: [
             'ATA',
             'TAT',
@@ -926,7 +926,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.5"],
-        text: 'Hvis den kodende streng er TTT, hvad er den så i skabelonstrengen?',
+        text: 'Hvis den kodende streng er TTT, hvad er koden så i skabelonstrengen?',
         answers: [
             'UUU',
             'AAA',
@@ -940,7 +940,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.5"],
-        text: 'Hvis den kodende streng er GGT, hvad er den så i skabelonstrengen?',
+        text: 'Hvis den kodende streng er GGT, hvad er koden så i skabelonstrengen?',
         answers: [
             'GGT',
             'CCA',
@@ -954,7 +954,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.5"],
-        text: 'Hvis den kodende streng er ATG, hvad er den så i skabelonstrengen?',
+        text: 'Hvis den kodende streng er ATG, hvad er koden så i skabelonstrengen?',
         answers: [
             'TAC',
             'UAC',
@@ -968,12 +968,41 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.5"],
+        text: 'Hvis skabelonstrengen er ATG, hvad er koden så på mRNA?',
+        answers: [
+            'TAC',
+            'UAC',
+            'ATG',
+            'GTA'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ["7.5"],
+        text: 'Hvis skabelonstrengen er GAT, hvad er koden så på mRNA?',
+        answers: [
+            'GAT',
+            'CUA',
+            'CTA',
+            'GGU'
+        ],
+        type: 'multiple_text',
+        correct_answer: '1'
+    });
+
+db.questions.save(
+    {
+        chapters: ["7.5"],
         text: 'Hvad forstås ved en transkriptionsfaktor?',
         answers: [
             'Et stof, der hæmmer transkriptionen af DNA',
             'Et stof, der skruer op for et gens aktivitet',
             'Et enzym, der spalter DNA',
-            'Et enzym der fordobler DNA-mængden'
+            'Et enzym, der fordobler DNA-mængden'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1239,7 +1268,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'Et nukleotid tilføjes eller tabes, hvilet helt ændrer det dannede protein'
+            'Et nukleotid tilføjes eller tabes, hvilket helt ændrer det dannede proteins struktur'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1253,7 +1282,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'En nukleotidændring der ikke ændrer det dannede protein'
+            'En nukleotidændring, der ikke ændrer det dannede protein'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1267,7 +1296,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'Et nukleotid tilføjes eller tabes, hvilet helt ændrer det dannede protein'
+            'Et nukleotid tilføjes eller tabes, hvilket helt ændrer det dannede proteins struktur'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1281,7 +1310,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'Et nukleotid tilføjes eller tabes, hvilet helt ændrer det dannede protein'
+            'Et nukleotid tilføjes eller tabes, hvilket helt ændrer det dannede proteins struktur'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1295,7 +1324,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'Et nukleotid tilføjes eller tabes, hvilet helt ændrer det dannede protein'
+            'Et nukleotid tilføjes eller tabes, hvilket helt ændrer det dannede proteins struktur'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1309,7 +1338,7 @@ db.questions.save(
             'Et nukleotid udskiftes med et andet',
             'Et nukleotid falder ud',
             'Et ekstra nukleotid indsættes',
-            'Et nukleotid tilføjes eller tabes, hvilet helt ændrer det dannede protein'
+            'Et nukleotid tilføjes eller tabes, hvilket helt ændrer det dannede proteins struktur'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1335,7 +1364,7 @@ db.questions.save(
         text: 'Hvad forstås ved en translokation?',
         answers: [
             'Et kromosomstykke fordobles',
-            'Et kromosomstykke flyttes til et andet ikke homologt kromosom',
+            'Et kromosomstykke flyttes til et andet ikke-homologt kromosom',
             'To homologe kromosomer adskilles ikke i meiosen',
             'Et kromosomstykke tabes'
         ],
@@ -1390,8 +1419,8 @@ db.questions.save(
         chapters: ["7.7"],
         text: 'Hvad er et autosom?',
         answers: [
-            'Et kromosom der kun findes i et eksemplar',
-            'Et kromosom der ikke er et kønskromosom',
+            'Et kromosom, der kun findes i et eksemplar',
+            'Et kromosom, der ikke er et kønskromosom',
             'Et kønskromosom',
             'Et Y-kromosom'
         ],
@@ -1444,7 +1473,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.7"],
-        text: 'Hvilken karyotype har en person med Klinefelters syndrom syndrom?',
+        text: 'Hvilken karyotype har en person med Klinefelters syndrom?',
         answers: [
             'XXY',
             'X',
@@ -1488,10 +1517,10 @@ db.questions.save(
         chapters: ["7.7"],
         text: 'Hvad er en monosomi?',
         answers: [
-            'En celle der mangler et kønskromosom',
-            'En celle der mangler et autosom',
-            'En celle der mangler et kromosom',
-            'En celle der har et ekstra kromosom'
+            'En celle, der mangler et kønskromosom',
+            'En celle, der mangler et autosom',
+            'En celle, der mangler et kromosom',
+            'En celle, der har et ekstra kromosom'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1518,7 +1547,7 @@ db.questions.save(
         answers: [
             'Nedarvning af et gen på X',
             'Nedarvning af et gen på Y',
-            'Nedarvning af et gen der ikke sidder på et kønskromosom',
+            'Nedarvning af et gen, der ikke sidder på et kønskromosom',
             'Dominant nedarvning'
         ],
         type: 'multiple_text',
@@ -1572,10 +1601,10 @@ db.questions.save(
         chapters: ["7.8"],
         text: 'Hvad forstås ved allele gener?',
         answers: [
-            'Gener der koder for samme arveegenskab',
-            'Gener der sidder på autosomerne',
-            'Gener der sidder på kønskromosomerne',
-            'Gener der er dominante'
+            'Gener, der koder for samme arveegenskab',
+            'Gener, der sidder på autosomerne',
+            'Gener, der sidder på kønskromosomerne',
+            'Gener, der er dominante'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1626,7 +1655,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'Hvad menes der med begrebet fænotype?',
+        text: 'Hvad menes med begrebet fænotype?',
         answers: [
             'Den måde generne kommer til udtryk',
             'De gener man har',
@@ -1684,8 +1713,8 @@ db.questions.save(
         chapters: ["7.8"],
         text: 'Hvad forstås ved et recessivt gen?',
         answers: [
-            'Et gen, der kun skal være til stede i 1 eksemplar for et komme til udtryk',
-            'Et gen, der skal være til stede i 2 eksemplarer for et komme til udtryk',
+            'Et gen, der kun skal være til stede i 1 eksemplar for at komme til udtryk',
+            'Et gen, der skal være til stede i 2 eksemplarer for at komme til udtryk',
             'Et skadeligt gen',
             'Et muteret gen'
         ],
@@ -1698,8 +1727,8 @@ db.questions.save(
         chapters: ["7.8"],
         text: 'Hvad forstås ved et dominerende gen?',
         answers: [
-            'Et gen, der kun skal være til stede i 1 eksemplar for et komme til udtryk',
-            'Et gen, der skal være til stede i 2 eksemplarer for et komme til udtryk',
+            'Et gen, der kun skal være til stede i 1 eksemplar for at komme til udtryk',
+            'Et gen, der skal være til stede i 2 eksemplarer for at komme til udtryk',
             'Et skadeligt gen',
             'Et muteret gen'
         ],
@@ -1724,7 +1753,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'Hvad menes der med P-generationen i et krydsningsskema?',
+        text: 'Hvad menes med P-generationen i et krydsningsskema?',
         answers: [
             'Børnene',
             'Børnebørnene',
@@ -1735,12 +1764,11 @@ db.questions.save(
         correct_answer: '3'
     });
 
-            'Hvad menes der med F'
-            '1'
+            
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'P-generationen i et krydsningsskema?',
+        text: 'Hvad menes der med F<span style="vertical-align:sub; font-size:58%;">1</span>-generationen i et krydsningsskema?',
         answers: [
             'Børnene',
             'Børnebørnene',
@@ -1853,7 +1881,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'Hvor mange alleler findes der i ABO-blodtypesystemet?',
+        text: 'Hvor mange alleler findes i ABO-blodtypesystemet?',
         answers: [
             '1',
             '2',
@@ -1895,7 +1923,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'Hvordan bliver udspaltningsforholdet for fænotyperne ved krydsning mellem to forældre med genotypen Aa?',
+        text: 'Hvordan bliver udspaltningsforholdet i fænotyperne hos børnene ved krydsning mellem to forældre med genotypen Aa?',
         answers: [
             '3:1',
             '9:3:3:1',
@@ -1909,7 +1937,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["7.8"],
-        text: 'Hvordan bliver udspaltningsforholdet for fænotyperne ved krydsning mellem to forældre med genotypen AaBb?',
+        text: 'Hvordan bliver udspaltningsforholdet i fænotyperne hos børnene ved krydsning mellem to forældre med genotypen AaBb?',
         answers: [
             '3:1',
             '9:3:3:1',
@@ -1982,8 +2010,8 @@ db.questions.save(
         text: 'Hvad forstås ved maternel nedarvning?',
         answers: [
             'Gener på moderens X-kromosom',
-            'Gener der kun gives videre til piger',
-            'Gener der findes i moderens mitokondrier',
+            'Gener, der kun gives videre til piger',
+            'Gener, der findes i moderens mitokondrier',
             'Gener på faderens X-kromosom'
         ],
         type: 'multiple_text',
@@ -2037,10 +2065,10 @@ db.questions.save(
         chapters: ["7.8"],
         text: 'Hvad forstås ved polygen nedarvning?',
         answers: [
-            'En egenskab der styres af et gen',
-            'En egenskab der styres af 2 gener',
-            'En egenskab der styres af 3 gen',
-            'En egenskab der styres af flere gener'
+            'En egenskab, der styres af et gen',
+            'En egenskab, der styres af 2 gener',
+            'En egenskab, der styres af 3 gen',
+            'En egenskab, der styres af flere gener'
         ],
         type: 'multiple_text',
         correct_answer: '3'

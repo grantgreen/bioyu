@@ -138,6 +138,13 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ["2.2"],
@@ -159,8 +166,8 @@ db.questions.save(
         answers: [
             'Bronkier',
             'Luftrør',
-            'Spiserøret',
-            'Alveolesækkene'
+            'Spiserør',
+            'Alveolesække'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -284,7 +291,7 @@ db.questions.save(
         text: 'Hvad er alveolesække?',
         answers: [
             'En samling af alveoler',
-            'Kapillærer',
+            'En samling af kapillærer',
             'Hjertets pacemaker',
             'Hjerteklapper'
         ],
@@ -354,7 +361,7 @@ db.questions.save(
         text: 'Hvad sker der med kuldioxid i alveolerne?',
         answers: [
             'Den optages til lungekapillærer',
-            'Den udskilles fra alveolen til luften',
+            'Den udskilles fra alveolen til den atmosfæriske luft',
             'Den nedbrydes',
             'Den optages i mellemgulvet'
         ],
@@ -397,7 +404,7 @@ db.questions.save(
         answers: [
             'Hjertemusklerne',
             'Alveolemusklerne',
-            'Ribbensmusklerne og mellemgulvet',
+            'Ribbensmusklerne og mellemgulvsmusklen',
             'Musklerne i luftrøret'
         ],
         type: 'multiple_text',
@@ -421,7 +428,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.2"],
-        text: 'Hvilket udsagn om en normal udånding er ikke korrekt?',
+        text: 'Hvilket udsagn om en normal udånding er forkert?',
         answers: [
             'Det er en passiv proces',
             'Den kræver ikke energi',
@@ -438,9 +445,9 @@ db.questions.save(
         text: 'Hvad forstås ved det totale lungevolumen?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Den mængde luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
+            'Det volumen luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -452,9 +459,9 @@ db.questions.save(
         text: 'Hvad er det inspiratoriske reservevolumen?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Den mængde luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
+            'Det volumen luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -466,9 +473,9 @@ db.questions.save(
         text: 'Hvad er det ekspiratoriske reservevolumen?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Den mængde luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
+            'Det volumen luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -480,9 +487,9 @@ db.questions.save(
         text: 'Hvad er åndingsdybden?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Den mængde luft, der indåndes og udåndes pr. åndedrag'
+            'Det volumen luft, der indåndes og udåndes pr. åndedrag'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -494,9 +501,9 @@ db.questions.save(
         text: 'Hvad er residualvolumen?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Den mængde luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
+            'Det volumen luft, der altid vil stå tilbage i lungerne og ikke kan pustes ud'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -508,7 +515,7 @@ db.questions.save(
         text: 'Hvad er vitalkapaciteten?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
             'Den maksimale udånding efter en maksimal indånding'
         ],
@@ -519,9 +526,23 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.2"],
-        text: 'Hvor stor er den normale vitalkapacitet?',
+        text: 'Hvor stor er den normale vitalkapacitet for mænd?',
         answers: [
             '4-6 liter',
+            '0,5 liter',
+            '2,5 liter',
+            '7 liter'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ["2.2"],
+        text: 'Hvor stor er den normale vitalkapacitet for kvinder?',
+        answers: [
+            '3-5 liter',
             '0,5 liter',
             '2,5 liter',
             '7 liter'
@@ -536,9 +557,9 @@ db.questions.save(
         text: 'Hvor stor er den normale åndedrætsdybde?',
         answers: [
             '4-6 liter',
-            'ca. 0,5 liter',
-            '2,5 liter',
-            '7 liter'
+            'Ca. 0,5 liter',
+            'Ca. 2,5 liter',
+            'Ca. 1 liter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -550,9 +571,9 @@ db.questions.save(
         text: 'Hvad er åndingsfrekvensen?',
         answers: [
             'Det samlede volumen luft, der kan være i lungerne',
-            'Det volumen, der kan indåndes efter en normal indånding',
+            'Det volumen luft, der kan indåndes efter en normal indånding',
             'Det volumen luft, der kan udåndes efter en normal udånding',
-            'Antal åndedræt pr. minut'
+            'Antal vejrtrækninger pr. minut'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -690,8 +711,8 @@ db.questions.save(
         text: 'Hvad er en vene?',
         answers: [
             'Et af de allermindste blodkar',
-            'Et blodkar der fører fra hjertet',
-            'Et blodkar der fører til hjertet',
+            'Et blodkar der fører blod væk fra hjertet',
+            'Et blodkar der fører blod hen imod hjertet',
             'En alveole'
         ],
         type: 'multiple_text',
@@ -704,8 +725,8 @@ db.questions.save(
         text: 'Hvad er en venole?',
         answers: [
             'Et af de allermindste blodkar',
-            'Et lille blodkar der fører fra hjertet',
-            'Et lille blodkar der fører til hjertet',
+            'Et blodkar der fører blod væk fra hjertet',
+            'Et blodkar der fører blod hen imod hjertet',
             'En alveole'
         ],
         type: 'multiple_text',
@@ -816,8 +837,8 @@ db.questions.save(
         text: 'Hvad er aorta?',
         answers: [
             'Et af de allermindste blodkar',
-            'Et stort blodkar der fører fra venstre hjertekammer',
-            'Et stort blodkar der fører til hjertet',
+            'Et stort blodkar, der fører fra venstre hjertekammer',
+            'Et stort blodkar, der fører til hjertet',
             'En alveole'
         ],
         type: 'multiple_text',
@@ -830,8 +851,8 @@ db.questions.save(
         text: 'Hvad er en arterie?',
         answers: [
             'Et af de allermindste blodkar',
-            'Et blodkar der fører fra hjertet',
-            'Et blodkar der fører til hjertet',
+            'Et blodkar, der fører blod væk fra hjertet',
+            'Et blodkar, der fører blod hen imod hjertet',
             'En alveole'
         ],
         type: 'multiple_text',
@@ -844,8 +865,8 @@ db.questions.save(
         text: 'Hvad er en arteriole?',
         answers: [
             'Et af de allermindste blodkar',
-            'Et lille blodkar der fører fra hjertet',
-            'Et lille blodkar der fører til hjertet',
+            'Et lille blodkar, der fører blod væk fra hjertet',
+            'Et lille blodkar, der fører blod hen imod hjertet',
             'En alveole'
         ],
         type: 'multiple_text',
@@ -872,9 +893,9 @@ db.questions.save(
         text: 'Hvad er hulvenerne?',
         answers: [
             'De mindste vener',
-            'De vener der fører fra lungerne',
-            'De vener der fører til højre forkammer',
-            'Venerne om hjertet'
+            'De vener, der fører fra lungerne',
+            'De vener, der fører til højre forkammer',
+            'Venerne rundt om hjertet'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -886,8 +907,8 @@ db.questions.save(
         text: 'Hvad er lungearterien?',
         answers: [
             'Den mindste arterie',
-            'Den arterie der fører til lungerne',
-            'Den arterie der fører til højre forkammer',
+            'Den arterie, der fører til lungerne',
+            'Den arterie, der fører til højre forkammer',
             'Kransarterien'
         ],
         type: 'multiple_text',
@@ -897,7 +918,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvad forstås ved det lille kredsløb?',
+        text: 'Hvad forstås ved "det lille kredsløb"?',
         answers: [
             'Hjertets eget kredsløb',
             'Kredsløbet i leveren',
@@ -911,7 +932,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvad forstås ved det store kredsløb?',
+        text: 'Hvad forstås ved "det store kredsløb"?',
         answers: [
             'Hjertets eget kredsløb',
             'Kredsløbet i leveren',
@@ -999,7 +1020,7 @@ db.questions.save(
         answers: [
             'Hjertets pacemaker',
             'Kransarterien',
-            'Antal vejrtrækninger pr minut',
+            'Antal vejrtrækninger pr. minut',
             'Antal hjerteslag pr. minut'
         ],
         type: 'multiple_text',
@@ -1081,7 +1102,7 @@ db.questions.save(
         chapters: ["2.3"],
         text: 'Hvad forstås ved kranspulsåren?',
         answers: [
-            'Hjertets eget kredsløb som forsyner hjertemusklen med ilt og næring',
+            'Hjertets eget kredsløb, som forsyner hjertemusklen med ilt og næring',
             'Kroppens største pulsåre',
             'Kroppens hulvene',
             'Hjernens største pulsåre'
@@ -1151,9 +1172,9 @@ db.questions.save(
         chapters: ["2.3"],
         text: 'Hvad forstås ved hæmatokritværdi?',
         answers: [
-            'Mængden af EPO',
-            'Andelen af røde blodlegemer',
-            'Andelen af blodlegemer',
+            'Mængden af EPO i blodet',
+            'Andelen af røde blodlegemer i blodet',
+            'Andelen af blodlegemer i blodet',
             'Konditallet'
         ],
         type: 'multiple_text',
@@ -1193,8 +1214,8 @@ db.questions.save(
         chapters: ["2.3"],
         text: 'Hvad menes med blodets koagulation?',
         answers: [
-            'Systolen',
-            'Diastolen',
+            'Blodets evne til at løbe',
+            'Blodets evne til at sive ud gennem sår',
             'Blodets evne til at størkne',
             'En blodprop i kransarterien'
         ],
@@ -1205,7 +1226,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvad kaldes den fase hvor hjertet slår?',
+        text: 'Hvad kaldes den fase, hvor hjertet slår?',
         answers: [
             'Systolen',
             'Diastolen',
@@ -1219,7 +1240,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvad kaldes den fase hvor hjertet er i hvile?',
+        text: 'Hvad kaldes den fase, hvor hjertet er i hvile?',
         answers: [
             'Systolen',
             'Diastolen',
@@ -1237,8 +1258,8 @@ db.questions.save(
         answers: [
             'Blodtrykket i hvile',
             'Blodtrykket under arbejde',
-            'Den fase hvor hjertet trækker sig sammen',
-            'Den fase hvor hjertet er i hvile'
+            'Den fase, hvor hjertet trækker sig sammen',
+            'Den fase, hvor hjertet er i hvile'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1251,8 +1272,8 @@ db.questions.save(
         answers: [
             'Blodtrykket i hvile',
             'Blodtrykket under arbejde',
-            'Den fase hvor hjertet trækker sig sammen',
-            'Den fase hvor hjertet er i hvile'
+            'Den fase, hvor hjertet trækker sig sammen',
+            'Den fase, hvor hjertet er i hvile'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1261,7 +1282,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvor højt er det normale diastoliske blodtryk?',
+        text: 'Hvor højt er det normale diastoliske blodtryk i hvile (unge mennesker)?',
         answers: [
             'Ca. 200 mm Hg',
             'Ca. 120 mm Hg',
@@ -1275,7 +1296,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.3"],
-        text: 'Hvor højt er det normale systoliske blodtryk?',
+        text: 'Hvor højt er det normale systoliske blodtryk i hvile (unge mennesker)?',
         answers: [
             'Ca. 200 mm Hg',
             'Ca. 120 mm Hg',
@@ -1320,9 +1341,9 @@ db.questions.save(
         text: 'Hvad er veneklappernes funktion?',
         answers: [
             'At fungere som hjertets pacemaker',
-            'At sikre at blodet kan løbe tilbage til hjertet fra fx benene',
-            'At sikre at blodet kun kan løbe fra forkamrene til hjertekamrene',
-            'At sikre at blodet kun kan løbe fra hjertekamrene til forkamrene'
+            'At sikre, at blodet kan løbe tilbage til hjertet fra fx benene',
+            'At sikre, at blodet kun kan løbe fra forkamrene til hjertekamrene',
+            'At sikre, at blodet kun kan løbe fra hjertekamrene til forkamrene'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1333,10 +1354,10 @@ db.questions.save(
         chapters: ["2.4"],
         text: 'Hvad forstås ved lungeventilationen?',
         answers: [
-            'Den mængde luft der løber gennem lungerne pr. minut',
-            'Den mængde blod der løber gennem lungerne pr. minut',
-            'Den mængde luft der løber gennem hjertet pr. minut',
-            'Den mængde blod der løber gennem hjertet pr. minut'
+            'Den mængde luft, der løber gennem lungerne pr. minut',
+            'Den mængde blod, der løber gennem lungerne pr. minut',
+            'Den mængde luft, der løber gennem hjertet pr. minut',
+            'Den mængde blod, der løber gennem hjertet pr. minut'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1375,10 +1396,10 @@ db.questions.save(
         chapters: ["2.4"],
         text: 'Hvad kan lungeventilationen stige til under arbejde?',
         answers: [
-            '100 gange pr. minut',
-            '12 gange pr. minut',
-            '6 liter pr. minut',
-            '150 liter pr. minut'
+            'Ca. 100 gange pr. minut',
+            'Ca. 12 gange pr. minut',
+            'Ca. 6 liter pr. minut',
+            'Ca. 150 liter pr. minut'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1403,10 +1424,10 @@ db.questions.save(
         chapters: ["2.4"],
         text: 'Hvad kan åndedrætsfrekvensen stige til under arbejde?',
         answers: [
-            '100 gange pr. minut',
-            '12 gange pr. minut',
-            '6 liter pr. minut',
-            '150 liter pr. minut'
+            'Ca. 100 gange pr. minut',
+            'Ca. 12 gange pr. minut',
+            'Ca. 6 liter pr. minut',
+            'Ca. 150 liter pr. minut'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1418,8 +1439,8 @@ db.questions.save(
         text: 'Hvad forstås ved hjertets slagvolumen?',
         answers: [
             'Pulsen',
-            'Den mængde blod der pumpes ud fra hjertet pr. minut',
-            'Den mængde blod der pumpes ud fra hjertet pr. slag',
+            'Den mængde blod, der pumpes ud fra hjertet pr. minut',
+            'Den mængde blod, der pumpes ud fra hjertet pr. slag',
             'Antal hjerteslag pr. minut'
         ],
         type: 'multiple_text',
@@ -1432,8 +1453,8 @@ db.questions.save(
         text: 'Hvordan defineres hjertets minutvolumen?',
         answers: [
             'Pulsen',
-            'Den mængde blod der pumpes ud fra hjertet pr. minut',
-            'Den mængde blod der pumpes ud fra hjertet pr. slag',
+            'Den mængde blod, der pumpes ud fra hjertet pr. minut',
+            'Den mængde blod, der pumpes ud fra hjertet pr. slag',
             'Antal hjerteslag pr. minut'
         ],
         type: 'multiple_text',
@@ -1531,7 +1552,7 @@ db.questions.save(
         answers: [
             'Det er det samme som blodkredsløbet',
             'Immunforsvaret',
-            'Et system der leder væske tilbage til blodkredsløbet',
+            'Et system, der leder væske tilbage til blodkredsløbet',
             'Lymfeklapperne og veneklapperne'
         ],
         type: 'multiple_text',
@@ -1544,7 +1565,7 @@ db.questions.save(
         text: 'Hvad er EPO’s funktion?',
         answers: [
             'Det er et steroidhormon',
-            'At danne erythropoitin',
+            'At danne erythropoietin',
             'At få kroppen til at danne flere hvide blodlegemer',
             'At få kroppen til at danne flere røde blodlegemer'
         ],
@@ -1569,7 +1590,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["2.5"],
-        text: 'Hvor dannes erythropoitin?',
+        text: 'Hvor dannes erythropoietin?',
         answers: [
             'I hypofysen',
             'I hjertet',
@@ -1585,10 +1606,10 @@ db.questions.save(
         chapters: ["2.5"],
         text: 'Hvad er højdesyge?',
         answers: [
-            'En sygdom der rammer høje mennesker',
+            'En sygdom, der rammer høje mennesker',
             'Forhøjet blodtryk',
-            'En sygdom der kan indtræffe i bjerge over 2,5 km',
-            'En sygdom der kan ramme dykkere'
+            'En sygdom, der kan indtræffe i bjerge over 2,5 km',
+            'En sygdom, der kan ramme dykkere'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1600,9 +1621,9 @@ db.questions.save(
         text: 'I hvilken højde kan højdesyge indtræde?',
         answers: [
             'I 10 meters dybde',
-            'I bjerge der er over 1 km høje',
-            'I bjerge over 2,5 km',
-            'I bjerge over 10 km'
+            'I bjerge, der er over 1 km høje',
+            'I bjerge, der er over 2,5 km høje',
+            'I bjerge, der er over 10 km høje'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1613,10 +1634,10 @@ db.questions.save(
         chapters: ["2.5"],
         text: 'Hvad forstås ved HAPE?',
         answers: [
-            'En sygdom der rammer høje mennesker',
+            'En sygdom, der rammer høje mennesker',
             'Forhøjet blodtryk',
             'Væskeophobning i lungerne, der kan opstå i høje bjerge',
-            'En sygdom der kan ramme dykkere'
+            'En sygdom, der kan ramme dykkere'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1627,10 +1648,10 @@ db.questions.save(
         chapters: ["2.5"],
         text: 'Hvad forstås ved HACE?',
         answers: [
-            'En sygdom der rammer høje mennesker',
+            'En sygdom, der rammer høje mennesker',
             'Forhøjet blodtryk',
-            'Væskeophobning i hjernen der kan opstå i høje bjerge',
-            'En sygdom der kan ramme dykkere'
+            'Væskeophobning i hjernen, der kan opstå i høje bjerge',
+            'En sygdom, der kan ramme dykkere'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1642,9 +1663,9 @@ db.questions.save(
         text: 'Hvor meget stiger trykket under dykning?',
         answers: [
             'Med 1 atmosfære pr. meter',
-            'Med 1 atmosfærer pr. 10 meter',
-            'Med 1 atmosfærer pr. 100 meter',
-            'Med 1 atmosfærer pr. 200 meter'
+            'Med 1 atmosfære pr. 10 meter',
+            'Med 1 atmosfære pr. 100 meter',
+            'Med 1 atmosfære pr. 200 meter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1655,10 +1676,10 @@ db.questions.save(
         chapters: ["2.5"],
         text: 'Hvad forstås ved dykkerrefleksen?',
         answers: [
-            'En sygdom der rammer høje mennesker',
+            'En sygdom, der rammer høje mennesker',
             'Forhøjet blodtryk',
-            'En sygdom der kan ramme dykkere',
-            'At pulsen falder når man dykker'
+            'En sygdom, der kan ramme dykkere',
+            'At pulsen falder, når man dykker'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1697,7 +1718,7 @@ db.questions.save(
         chapters: ["2.5"],
         text: 'Hvor høj feber kan et menneske maksimalt tåle at have?',
         answers: [
-            '27 grader C',
+            '45 grader C',
             '37 grader C',
             '40 grader C',
             '42 grader C'
@@ -1755,7 +1776,7 @@ db.questions.save(
         answers: [
             'At de små muskler i huden trækker sig sammen',
             'Tør hud',
-            'En svamp der lever på huden',
+            'En svamp, der lever på huden',
             'Fedtet hud'
         ],
         type: 'multiple_text',

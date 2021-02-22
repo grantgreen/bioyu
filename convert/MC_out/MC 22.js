@@ -115,10 +115,10 @@ db.questions.save(
         chapters: [ '22.2'],
         text: 'Hvad forstås ved en dynamisk mutation?',
         answers: [
-            'Tab af mange tripletter i genet',
-            'Indsættelse af mange tripletter i genet',
-            'Udskiftning af mange tripletter',
-            'En mutation, der bliver værre og værre fra generation til generation '
+            'Tab af mange tripletter/kodons i genet',
+            'Indsættelse af mange tripletter/kodons i genet',
+            'Udskiftning af mange tripletter/kodons',
+            'En mutation, der bliver værre og værre fra generation til generation'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -144,7 +144,7 @@ db.questions.save(
         text: 'Hvad menes med en tavs mutation?',
         answers: [
             'En mutation der ikke får proteinmæssig betydning',
-            'En mutation i RNA-mutation',
+            'En mutation i RNA',
             'En mutation i en kropscelle',
             'En mutation, der inaktiverer genet'
         ],
@@ -155,11 +155,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '22.2'],
-        text: 'Hvilket nukleotid i en triplet kan ofte udskiftes uden, at det får følger?',
+        text: 'Hvilket nukleotid i en triplet/kodon kan ofte udskiftes uden, at det får følger?',
         answers: [
             'Ingen',
             'Det første',
-            'Det andet ',
+            'Det andet',
             'Det tredje'
         ],
         type: 'multiple_text',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '22.2'],
-        text: 'Hvilket nukleotid i en triplet kan ikke udskiftes uden, at det får følger?',
+        text: 'Hvilket nukleotid i en triplet/kodon kan ikke udskiftes uden, at det får følger?',
         answers: [
             'Ingen',
             'Det første',
@@ -187,7 +187,7 @@ db.questions.save(
         answers: [
             'En nonsens-mutation, der ikke får nogen betydning',
             'En mutation der bevirker, at en aminosyre udskiftes med en anden',
-            'En mutation, hvor det tredje nukleotid i en triplet udskiftes',
+            'En mutation, hvor det tredje nukleotid i en triplet/kodon udskiftes',
             'En ikke-arvelig mutation i kropscellerne'
         ],
         type: 'multiple_text',
@@ -216,7 +216,7 @@ db.questions.save(
             'En mutation der hæmmer genaktiviteten',
             'En mutation der ændrer en kode for en aminosyre til en stopkode',
             'En mutation hvor der tabes et nukleotid',
-            'En mutation hvor der indsættes et ekstra nukleotid '
+            'En mutation hvor der indsættes et ekstra nukleotid'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -270,7 +270,7 @@ db.questions.save(
         text: 'Hvad forstås ved en frameshift-mutation?',
         answers: [
             'En dynamisk mutation',
-            'En mutation som bevirker, at alle tripletter efter mutationen ændres',
+            'En mutation som bevirker, at alle tripletter/kodons efter mutationen ændres',
             'En substitutionsmutation',
             'En somatisk mutation'
         ],
@@ -297,7 +297,7 @@ db.questions.save(
         chapters: [ '22.2'],
         text: 'Hvordan er arvegangen for Fragilt X-syndrom?',
         answers: [
-            'X-bundet recessivt',
+            'X-bundet recessiv',
             'X-bundet dominant',
             'Autosomal dominant',
             'Autosomal recessiv'
@@ -309,12 +309,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.2'],
-        text: 'Hvad menes der med, at en person har en præmutation for Fragilt X-syndrom?',
+        text: 'Hvad menes med, at en person har en præmutation for Fragilt X-syndrom?',
         answers: [
-            'At man har 6-55 gentagelser af tripletten GCC',
-            'At man har 56-200 gentagelser af tripletten GCC',
-            'At man har over 200 gentagelser af tripletten GCC',
-            'At man har over 200 gentagelser af tripletten GTC'
+            'At man har 6-55 gentagelser af tripletten/kodon GCC',
+            'At man har 56-200 gentagelser af tripletten/kodon GCC',
+            'At man har over 200 gentagelser af tripletten/kodon GCC',
+            'At man har over 200 gentagelser af tripletten/kodon GTC'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -323,12 +323,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '22.2'],
-        text: 'Hvad menes der med, at en person har en fuldmutation for Fragilt X-syndrom?',
+        text: 'Hvad menes med, at en person har en fuldmutation for Fragilt X-syndrom?',
         answers: [
-            'At man har 6-55 gentagelser af tripletten GCC',
-            'At man har 56-200 gentagelser af tripletten GCC',
-            'At man har over 200 gentagelser af tripletten GCC',
-            'At man har 6-39 gentagelser af tripletten GTC'
+            'At man har 6-55 gentagelser af tripletten/kodon GCC',
+            'At man har 56-200 gentagelser af tripletten/kodon GCC',
+            'At man har over 200 gentagelser af tripletten/kodon GCC',
+            'At man har 6-39 gentagelser af tripletten/kodon GTC'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -365,7 +365,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '22.2'],
-        text: 'Hvilken type mutation er årsag til Huntingdons chorea ',
+        text: 'Hvilken type mutation er årsag til sygdommen Huntingdons chorea',
         answers: [
             'En deletion af et eller flere nukleotider',
             'En substitution af et nukleotid',
@@ -384,7 +384,7 @@ db.questions.save(
             'En alvorlig sygdom i nervesystemet',
             'En alvorlig sygdom i hjerte og blodkredsløb',
             'En form for diabetes',
-            'En alvorlig form for blodmangel '
+            'En alvorlig form for blodmangel'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -407,7 +407,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '22.2'],
-        text: 'Hvilken type mutation er årsag til Huntingdons chorea?',
+        text: 'Hvilken type mutation er årsag til sygdommen Huntingdons chorea?',
         answers: [
             'En deletion af et nukleotid',
             'En dynamisk mutation',
@@ -426,7 +426,7 @@ db.questions.save(
             'Ja, kvinder kan',
             'Ja, mænd kan',
             'Nej, da det er en dominant mutation',
-            'ja, da det er en recessiv mutation'
+            'Ja, da det er en recessiv mutation'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -454,7 +454,7 @@ db.questions.save(
             'De er ikke arvelige',
             'De medfører flere eller færre kromosomer',
             'De omfatter triploide organismer',
-            'De kan skyldes fejl i meiosen '
+            'De kan skyldes fejl i meiosen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -491,7 +491,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.3'],
-        text: 'Giv et eksempel på en sygdom, der skyldes en deletion af et kromosomstykke',
+        text: 'Hvilken sygdom skyldes en deletion af et kromosomstykke?',
         answers: [
             'Angelmans syndrom',
             'Downs syndrom',
@@ -564,9 +564,9 @@ db.questions.save(
         text: 'Hvad er årsagen til Angelmans syndrom?',
         answers: [
             'En deletion på kromosom nr. 15, som kommer fra ens mor',
-            'En deletion på kromosom nr.15, som kommer fra ens far',
-            'En deletion på kromosom nr.7, som kommer fra ens mor',
-            'En deletion på kromosom nr.7, som kommer fra ens far '
+            'En deletion på kromosom nr. 15, som kommer fra ens far',
+            'En deletion på kromosom nr. 7, som kommer fra ens mor',
+            'En deletion på kromosom nr. 7, som kommer fra ens far '
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -580,7 +580,7 @@ db.questions.save(
             'At der er et kromosom for meget',
             'At et stykke på et kromosom er fordoblet',
             'At der er for mange kønskromosomer',
-            'At autosomerne findes i det dobbelte antal '
+            'At autosomerne findes i det dobbelte antal'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -608,7 +608,7 @@ db.questions.save(
             'Flere alleler end 2, der bidrager til samme fænotype',
             'Duplikation af et kromosomstykke',
             'Overførsel af et kromosomstykke til et andet kromosom',
-            'Gener, der ikke viser sig i fænotypen '
+            'Gener, der ikke viser sig i fænotypen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -645,7 +645,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.3'],
-        text: 'Hvilket udsagn om inversion er korrekt? ',
+        text: 'Hvilket udsagn om inversion er korrekt?',
         answers: [
             'De giver større fertilitet',
             'De hænger sammen med en øget hyppighed af kræft',
@@ -719,7 +719,7 @@ db.questions.save(
         answers: [
             'Ved et brud på et kromosom',
             'Ved to brud på et kromosom',
-            'Ved overkrydsningen under mitosen ',
+            'Ved overkrydsningen under mitosen',
             'Når det lange DNA-molekyle samles til en ringformet struktur'
         ],
         type: 'multiple_text',
@@ -748,7 +748,7 @@ db.questions.save(
             'Det er et kromosom, der findes i to ens eksemplarer',
             'Det er et kønskromosom',
             'Det er et ringkromosom',
-            'Det er et kromosom med nogle gener i dobbelt dosis, mens andre mangler '
+            'Det er et kromosom med nogle gener i dobbelt dosis, mens andre mangler'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -761,7 +761,7 @@ db.questions.save(
         answers: [
             'Det ses mest hos bakterier som plasmider',
             'Det findes i mitokondrierne',
-            'Det er et almindeligt kromosom, der på grund af brud danner en ring',
+            'Det er et almindeligt kromosom, der på grund af brud danner en ring-struktur',
             'Det er et kromosom, der har nogle gener i dobbelt dosis'
         ],
         type: 'multiple_text',
@@ -789,7 +789,7 @@ db.questions.save(
         answers: [
             'En kromosommutation',
             'Fejl i adskillelsen af kromosomerne i en celledeling',
-            'Tab af et kromosomstykke ',
+            'Tab af et kromosomstykke',
             'Fordobling af et kromosomstykke'
         ],
         type: 'multiple_text',
@@ -869,7 +869,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.4'],
-        text: 'Giv et eksempel på en sygdom, der skyldes en monosomi',
+        text: 'Hvilken sygdom skyldes en monosomi?',
         answers: [
             'Turners syndrom',
             'Klinefelers syndrom',
@@ -899,7 +899,7 @@ db.questions.save(
         chapters: ['22.4'],
         text: 'Hvordan kan en trisomi opstå?',
         answers: [
-            'Ved en duplikation ',
+            'Ved en duplikation',
             'Ved en non-disjunction',
             'Ved en translokation',
             'Ved en deletion'
@@ -911,7 +911,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.4'],
-        text: 'Giv et eksempel på en sygdom hos mennesket, som skyldes en autosomal trisomi',
+        text: 'Hvilken sygdom hos mennesket skyldes en autosomal trisomi?',
         answers: [
             'Turners syndrom',
             'Klinefelters syndrom',
@@ -925,7 +925,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.4'],
-        text: 'Giv et eksempel på en sygdom, der skyldes trisomi i kønskromosomerne',
+        text: 'Hvilken sygdom skyldes en trisomi i kønskromosomerne?',
         answers: [
             'Turners syndrom',
             'Klinefelters syndrom',
@@ -939,7 +939,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.4'],
-        text: 'Hvad er årsagen til Turners syndrom',
+        text: 'Hvad er årsagen til Turners syndrom?',
         answers: [
             'Ingen X-kromosomer',
             'Kun 1 X-kromosom',
@@ -1013,7 +1013,7 @@ db.questions.save(
         answers: [
             'Purinbaserne',
             'Pyrimidinbaserne',
-            'Stoffer der ligner de normale baser, men ikke fungerer i cellen',
+            'Stoffer, der ligner de normale baser, men ikke fungerer i cellen',
             'Uracil i RNA er fx analog med thymin i DNA'
         ],
         type: 'multiple_text',
@@ -1079,7 +1079,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.5'],
-        text: 'Hvorfor kan stråling være mutationsfremkaldende? ',
+        text: 'Hvorfor kan stråling være mutationsfremkaldende?',
         answers: [
             'Fordi den får celledelingen til at forløbe for hurtigt',
             'Fordi den hæmmer celledelingen',
@@ -1110,7 +1110,7 @@ db.questions.save(
         text: 'Hvad forstås ved en thymin-dimer?',
         answers: [
             'To thyminmolekyler, der baseparres med to adeninmolekyler',
-            'To thyminmolekyler der baseparrer sig med hinanden',
+            'To thyminmolekyler, der baseparrer sig med hinanden',
             'To thyminmolekyler, der ikke baseparres',
             'To thyminmolekyler, der tabes '
         ],
@@ -1135,7 +1135,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.5'],
-        text: 'Hvilket udsagn om fysiske mutagener er ikke korrekt?',
+        text: 'Hvilket udsagn om fysiske mutagener er forkert?',
         answers: [
             'De kan ikke fremkalde arvelige mutationer',
             'De kan fremkalde arvelige mutationer',
@@ -1205,7 +1205,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvad er et problem i kræftceller?',
+        text: 'Hvad er et problem med kræftceller?',
         answers: [
             'At de mister evnen til at dele sig',
             'At de ikke kan reparere opståede skader i DNA',
@@ -1219,7 +1219,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvilket udsagn om kræft er ikke korrekt?',
+        text: 'Hvilket udsagn om kræft er forkert?',
         answers: [
             'Kræft skyldes mutationer',
             'Kræft rammer især ældre',
@@ -1275,7 +1275,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvad kan være årsag til stigende hyppighed af hudkræft i Europa?',
+        text: 'Hvad kan være årsag til den stigende hyppighed af hudkræft i Europa?',
         answers: [
             'Rygning',
             'For meget sol',
@@ -1320,9 +1320,9 @@ db.questions.save(
         text: 'Hvad kalder man de gener, der er med til at styre en celles vækst?',
         answers: [
             'Væksthormoner',
-            'Proto-onkogen',
+            'Proto-onkogener',
             'Onkogener',
-            'P53'
+            'P53-gener'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1335,7 +1335,7 @@ db.questions.save(
         answers: [
             'Et kræftgen',
             'Et vækstgen',
-            'P53-gen',
+            'Et p53-gen',
             'Et apoptosegen'
         ],
         type: 'multiple_text',
@@ -1349,7 +1349,7 @@ db.questions.save(
         answers: [
             'Et kræftgen',
             'Et vækstgen',
-            'P53-gen',
+            'Et p53-gen',
             'Et apoptosegen'
         ],
         type: 'multiple_text',
@@ -1373,7 +1373,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvad menes der med apoptose?',
+        text: 'Hvad menes med apoptose?',
         answers: [
             'Første fase i mitosen',
             'En af meiosens faser',
@@ -1474,9 +1474,9 @@ db.questions.save(
         text: 'Hvorfor er de primære svulster ofte de farligste?',
         answers: [
             'Fordi cellerne er mere aggressive i starten',
-            'Fordi de ofte sidder livsvigtige organer',
+            'Fordi de ofte sidder i livsvigtige organer',
             'Fordi de kan danne metastaser',
-            'Fordi de er resistente over for kemoterapi '
+            'Fordi de er resistente over for kemoterapi'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1502,9 +1502,9 @@ db.questions.save(
         text: 'Hvor mange tilfælde af brystkræft diagnosticeres hvert år i DK?',
         answers: [
             'Ca. 750',
-            'Ca. 1.300',
-            'Ca. 4.200',
-            'Ca. 35.000'
+            '1.000-2.000',
+            '4.00-5.000',
+            'Ca. 10.000'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1516,8 +1516,8 @@ db.questions.save(
         text: 'Hvor mange dør hvert år af brystkræft i DK?',
         answers: [
             'Ca. 750',
-            'Ca. 1.300',
-            'Ca. 4.300',
+            '1.000-1.500',
+            '3.000-4.000',
             'Ca. 20.000'
         ],
         type: 'multiple_text',
@@ -1541,12 +1541,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvilket udsagn om brystkræft er ikke korrekt?',
+        text: 'Hvilket udsagn om brystkræft er forkert?',
         answers: [
             'De fleste tilfælde skyldes en medfødt mutation',
             'Brystkræft kan være østrogenafhængig',
             'Mænd kan få brystkræft',
-            'Overvægt og alkohol er en medvirkende faktor '
+            'Overvægt og alkohol er en medvirkende faktor'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1616,7 +1616,7 @@ db.questions.save(
             'Fordi LH stimulerer testosterondannelsen, og testosteron hæmmer kræften',
             'Fordi det stimulerer dannelse af østrogen',
             'Fordi der så udøves negativ feedback på testosteron',
-            'Fordi der så udøves negativ feedback på østrogen '
+            'Fordi der så udøves negativ feedback på østrogen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1630,7 +1630,7 @@ db.questions.save(
             'Fordi det stimulerer dannelse af testosteron',
             'Fordi det stimulerer dannelse af østrogen',
             'Fordi det stimulerer dannelse af progesteron',
-            'Fordi det øger testosteron-koncentrationen, så den negative feedback går i gang '
+            'Fordi det øger testosteron-koncentrationen, så den negative feedback går i gang'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1653,7 +1653,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvad menes at være årsagen til den store forekomst af testikelkræft i Vesten?',
+        text: 'Hvad menes at være årsag til den store forekomst af testikelkræft i Vesten?',
         answers: [
             'Overvægt og alkohol',
             'Den vestlige kost med fast-food og lignende',
@@ -1667,12 +1667,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvilket udsagn om testikelkræft er ikke korrekt?',
+        text: 'Hvilket udsagn om testikelkræft er forkert?',
         answers: [
             'Den skyldes en seksuelt overført virus',
             'Den kan ikke forårsages af klamydia',
             'Den rammer især unge',
-            'Den kan forholdsvis let behandles med operation og kemo'
+            'Den kan forholdsvis let behandles med operation og kemoterapi'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1711,9 +1711,9 @@ db.questions.save(
         chapters: ['22.6'],
         text: 'Hvad står HPV for?',
         answers: [
-            'Herpes virus',
+            'Herpes-virus',
             'Humant virus',
-            'Humant papilloma virus',
+            'Humant papilloma-virus',
             'Humant immundefekt-virus'
         ],
         type: 'multiple_text',
@@ -1737,7 +1737,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvad menes at være årsagen til de mange tilfælde af kræft i tyktarmen i den vestlige verden?',
+        text: 'Hvad menes at være årsag til de mange tilfælde af kræft i tyktarmen i den vestlige verden?',
         answers: [
             'Arvelige forhold',
             'Forskellige typer af virus',
@@ -1770,7 +1770,7 @@ db.questions.save(
             'Kræft i lymfekarrene',
             'Kræft i lymfeknuderne',
             'Kræft der opstår i lymfocytterne (hvide blodlegemer)',
-            'Kræft der opstår i de røde blodlegemer og blodpladerne '
+            'Kræft der opstår i de røde blodlegemer og blodpladerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1877,7 +1877,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvilket udsagn om cytostatika er ikke korrekt?',
+        text: 'Hvilket udsagn om cytostatika er forkert?',
         answers: [
             'Det er det samme som cellegifte',
             'Det rammer især celler i deling',
@@ -1891,7 +1891,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['22.6'],
-        text: 'Hvordan virker kemo-stoffet cisplatin?',
+        text: 'Hvordan virker kemostoffet cisplatin?',
         answers: [
             'Det hæmmer replikationen og transkriptionen af DNA',
             'Det ødelægger DNA-molekylets dobbeltspiral',
@@ -1986,3 +1986,46 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvad forstås ved personlig medicin?',
+        answers: [
+            'Skræddersyet behandling til den enkelte patien',
+            'En behandling som kun en bestemt person må få',
+            'Det at den enkelte patient ejer sin egen behandling',
+            'Noget bestemt medicin mod kræft, som kun gives ved personligt fremmøde'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Hvad forstås ved CAR-T-celleterapi?',
+        answers: [
+            'Modificerede T-celler, der fx kan angribe specifikke kræftantigener',
+            'Modificerede T-celler indlejret i små fedtdråber, der populært kaldes "biler" (CAR)',
+            'Modificerede T-celler, der kan begå selvmord når som helst',
+            'Modificerede T-celler, der kan bruges som antistoffer i kræftbehandlingen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['22.6'],
+        text: 'Mod hvilken kræftform virker tyrosin-kinase-hæmmere?',
+        answers: [
+            'Leukæmi (myeloid)',
+            'Brystkræft',
+            'Modermærkekræft',
+            'Nyrekræft'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+

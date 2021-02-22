@@ -20,7 +20,6 @@ var links = {
 { chapter:'4.4.3',link:'https://www.dropbox.com/s/ou8t0ablby2gbid/4.4.3.mp3?dl=0'},
 { chapter:'4.4.4',link:'https://www.dropbox.com/s/24lldzf69xr6trs/4.4.4.mp3?dl=0'},
 { chapter:'4.4.5',link:'https://www.dropbox.com/s/lb34nniiwf1p8sq/4.4.5%20%282017%29.mp4?dl=0'},
-{ chapter:'4.4.5 (2016)',link:'https://www.dropbox.com/s/be6nbqty4ldzwre/4.4.5.mp3?dl=0'},
 { chapter:'4.4.6',link:'https://www.dropbox.com/s/05pbfkipi7prbyi/4.4.6.mp3?dl=0'},
    ],
 }

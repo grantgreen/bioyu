@@ -74,7 +74,7 @@ db.questions.save(
         text: 'Hvorfor vil primær forurening føre til iltsvind?',
         answers: [
             'Fordi de organiske stoffer bruger ilten',
-            'Fordi nedbrydningen ved respiration kræver ilt',
+            'Fordi nedbrydningen af de organiske stoffer via respiration forbruger ilt',
             'Fordi de organiske stoffer nedbrydes ved anaerob respiration',
             'Fordi de organiske stoffer nedbrydes ved nitratrespiration'
         ],
@@ -158,7 +158,7 @@ db.questions.save(
         text: 'Hvorfor kan en sekundær forurening føre til iltsvind?',
         answers: [
             'Fordi de organiske stoffer bruger ilten',
-            'Fordi der dannes alger, der skal nedbrydes ved respiration ',
+            'Fordi der opblomstrer alger, der senere nedbrydes via respirationen',
             'Fordi næringssaltene nedbrydes ved anaerob respiration',
             'Fordi næringssaltene nedbrydes ved nitratrespiration'
         ],
@@ -202,7 +202,7 @@ db.questions.save(
             'Chile-salpeter',
             'NPK-gødning',
             'Gylle',
-            'Kvælstof der optages ved kvælstoffiksering '
+            'Kvælstof der optages ved kvælstoffiksering'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -271,77 +271,15 @@ db.questions.save(
         answers: [
             'Sigtdybden i vandet',
             'Primærproduktionen',
-            'Sekundærproduktionen i vandet ',
+            'Sekundærproduktionen i vandet',
             'Forureningsgraden ved hjælp af dyrene i vandet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
     });
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvor mange procent af verdens affald udgøres af plastic (mindst)?',
-        answers: [
-            '10 %',
-            '1 %',
-            '50 %',
-            '90 %'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvor meget øges plastikmængden med i havet?',
-        answers: [
-            'Ca. en lastbilfuld pr. minut',
-            'Ca. en lastbilfuld pr. time',
-            'Ca. en lastbilfuld pr. døgn',
-            'Ca. en lastbilfuld pr. uge'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvor stort et areal skønnes plastikforureningen i havet at fylde?',
-        answers: [
-            'Ca. som Afrika',
-            'Ca. som Stillehavet',
-            'Ca. som Danmark',
-            'Ca. som alle verdens lande tilsammen'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvilket land udlever mest plastik?',
-        answers: [
-            'Kina',
-            'Indonesien',
-            'Filippinerne',
-            'Vietnam'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-db.questions.save(
-    {
-        chapters: ['30.2'],
-        text: 'Hvor stammer det meste plastik i havene fra?',
-        answers: [
-            'Dækrester',
-            'Maling',
-            'Tekstiler',
-            'Fodtøj'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
+
+
+
 db.questions.save(
     {
         chapters: ['30.2'],
@@ -401,7 +339,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvilket dyr æder skaller?',
+        text: 'Hvilket dyr kan æde skaller?',
         answers: [
             'Gedder',
             'Makrel',
@@ -457,7 +395,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvilket udsagn om et rent vandløb er ikke korrekt?',
+        text: 'Hvilket udsagn om et rent vandløb er forkert?',
         answers: [
             'Der lever vårfluelarver',
             'Der lever døgnfluelarver',
@@ -499,7 +437,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvad er det mindste iltindhold, der kan være i havet, hvis der skal være iltkrævende organismer? ',
+        text: 'Hvad er det mindste iltindhold, der kan være i havet, hvis der skal være iltkrævende organismer?',
         answers: [
             '0,3 mg/L',
             'under 1 mg/L',
@@ -544,8 +482,8 @@ db.questions.save(
         text: 'Hvorfor kan man restaurere en sø ved at fjerne skidtfisk?',
         answers: [
             'Fordi de forurener søen med deres affaldsstoffer som fx ekskrementer',
-            'Fordi de æder planteplankton',
-            'Fordi de æder dyreplankton',
+            'Fordi de æder planteplankton, som vi gerne vil have flere af',
+            'Fordi de æder dyreplankton, som vi gerne vil have flere af',
             'Fordi de er føde for rovfiskene'
         ],
         type: 'multiple_text',
@@ -583,7 +521,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvilke svovlbakterier kan danne det såkaldte liglagen på havbunden?',
+        text: 'Hvilke svovlbakterier kan danne det såkaldte "liglagen" på havbunden?',
         answers: [
             'De røde svovlbakterier',
             'De grønne svovlbakterier',
@@ -611,7 +549,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvilket udsagn om de hvide svovlbakterier er ikke korrekt?',
+        text: 'Hvilket udsagn om de hvide svovlbakterier er forkert?',
         answers: [
             'De findes i havet',
             'De omdanner svovlbrinte til sulfat',
@@ -670,8 +608,8 @@ db.questions.save(
         answers: [
             'At de ikke egner sig til menneskeføde, da de er for små',
             'At de ikke egner sig til menneskeføde, da de ikke smager godt',
-            'At de æder planteplankton og dermed kan skade søen, de lever i ',
-            'At de æder dyreplankton og dermed kan skade søen, de lever i '
+            'At de æder planteplankton og dermed kan skade søen, de lever i',
+            'At de æder dyreplankton og dermed kan skade søen, de lever i'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -683,7 +621,7 @@ db.questions.save(
         answers: [
             'Hæmoglobin uden Fe&#178;&#8314;',
             'Hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span> er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
-            'Mennesket normale hæmoglobin',
+            'Menneskets normale hæmoglobin',
             'Det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
         ],
         type: 'multiple_text',
@@ -693,10 +631,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvilket udsagn om methæmoglobin er ikke korrekt?',
+        text: 'Hvilket udsagn om methæmoglobin er forkert?',
         answers: [
-            'Det er hæmoglobin der ikke kan binde ilt',
-            'Det er hæmoglobin hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span>  er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
+            'Det er hæmoglobin, der ikke kan binde ilt',
+            'Det er hæmoglobin, hvor Fe<span style="vertical-align:super; font-size:58%;">2+</span> er oxideret til Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
             'Det kan dannes ved for stort indtag af nitrat i drikkevand',
             'Det er det normale hæmoglobin hos nogle dyregrupper som fx røde børsteorme'
         ],
@@ -707,12 +645,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.2'],
-        text: 'Hvad menes der med mekanisk rensning?',
+        text: 'Hvad menes med mekanisk rensning?',
         answers: [
             'Rensning i et biologisk filter',
             'Fjernelse af mikroorganismer ved fx filtrering',
             'Fjernelse af især faste bestanddele i spildevandet',
-            'Fjernelse af næringssalte som nitrat og fosfat fra spildevandet '
+            'Fjernelse af næringssalte som nitrat og fosfat fra spildevandet'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -726,7 +664,7 @@ db.questions.save(
             'Mikroorganismer i et renseanlæg, der sidder på slagger og lignende',
             'Gitre af forskellige tæthed i et renseanlæg',
             'Et filter, der kan tilbageholde spildevandets bakterier',
-            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
+            'Mikroorganismer i et renseanlæg, der lever frit i tankene'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -740,7 +678,7 @@ db.questions.save(
             'Aktive mikroorganismer, der sidder på slagger og lignende',
             'Et effektivt renseanlæg',
             'Et anlæg, der kan tilbageholde spildevandets bakterier',
-            'Mikroorganismer i et renseanlæg, der lever frit i tankene '
+            'Mikroorganismer i et renseanlæg, der lever frit i tankene'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -767,8 +705,8 @@ db.questions.save(
         answers: [
             'Denitrifikationsbakterier',
             'Ammonifikationsbakterier',
-            'Nitritbakterierne',
-            'Nitratbakterierne'
+            'Nitritbakterier',
+            'Nitratbakterier'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -810,7 +748,7 @@ db.questions.save(
             'Ved fældning med Fe<span style="vertical-align:super; font-size:58%;">3+</span>',
             'Ved fældning med Al<span style="vertical-align:super; font-size:58%;">3+</span>',
             'Ved at de optages af bakterier, der senere fjernes',
-            'Ved at det nedbrydes af bakterier '
+            'Ved at det nedbrydes af bakterier'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -850,7 +788,7 @@ db.questions.save(
         text: 'Hvordan kommer der ilt ned i rodzoneanlægget?',
         answers: [
             'Ved sumpplanternes respiration',
-            'Gennem sumpplanternes hule stængeler fra luften',
+            'Fra luften gennem sumpplanternes hule stængler',
             'Ved sumpplanternes fotosyntese',
             'Ved bakteriernes denitrifikation'
         ],
@@ -914,6 +852,97 @@ db.questions.save(
         correct_answer: '2'
     });
 
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvornår blev landbrugspakken vedtaget?',
+        answers: [
+            '2009',
+            '2012',
+            '2015',
+            '2018'
+        ],
+        type: 'multiple_text',
+        correct_answer: '2'
+    });
+
+
+
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor mange procent af verdens affald udgøres af plastic (mindst)?',
+        answers: [
+            '10 %',
+            '1 %',
+            '50 %',
+            '90 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor meget øges plastikmængden med i havet?',
+        answers: [
+            'Ca. en lastbilfuld pr. minut',
+            'Ca. en lastbilfuld pr. time',
+            'Ca. en lastbilfuld pr. døgn',
+            'Ca. en lastbilfuld pr. uge'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor stort et areal skønnes plastikforureningen i havet at fylde?',
+        answers: [
+            'Ca. som Afrika',
+            'Ca. som Stillehavet',
+            'Ca. som Danmark',
+            'Ca. som alle verdens lande tilsammen'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvilket land udleder mest plastik?',
+        answers: [
+            'Kina',
+            'Indonesien',
+            'Filippinerne',
+            'Vietnam'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+db.questions.save(
+    {
+        chapters: ['30.2'],
+        text: 'Hvor stammer det meste plastik i havene fra?',
+        answers: [
+            'Dækrester',
+            'Maling',
+            'Tekstiler',
+            'Fodtøj'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['30.3'],
@@ -931,12 +960,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvilket udsagn om tungmetaller er ikke korrekt?',
+        text: 'Hvilket udsagn om tungmetaller er forkert?',
         answers: [
             'De har en massefylde over 5 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
             'Nogle tungmetaller er nødvendige for levende organismer',
             'De er alle miljøfremmede, giftige stoffer',
-            'Nogle af dem er kræftfremkaldende '
+            'Nogle af dem er kræftfremkaldende'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -959,12 +988,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvorfor er tungmetaller så skadelige for de levende organismer?',
+        text: 'Hvorfor er tungmetaller så skadelige for levende organismer?',
         answers: [
             'De nedbryder enzymerne',
             'Fordi de bindes i knoglerne',
             'Fordi de binder sig til enzymernes aminogrupper',
-            'For de binder sig til enzymernes SH-grupper '
+            'For de binder sig til enzymernes SH-grupper'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -973,12 +1002,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvorfor kan bly hæmme enzymer?',
+        text: 'Hvorfor kan bly (Pb) hæmme enzymer?',
         answers: [
             'Det nedbryder enzymerne',
             'Fordi det biomagnificeres',
             'Fordi det binder sig til enzymernes aminogrupper',
-            'For det binder sig til enzymernes SH-grupper '
+            'For det binder sig til enzymernes SH-grupper'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -987,7 +1016,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvad vil det sige, at et stof biomagnificeres? ',
+        text: 'Hvad vil det sige, at et stof biomagnificeres?',
         answers: [
             'Det bindes til proteinerne',
             'Det bindes til aminosyrernes SH-grupper',
@@ -1017,10 +1046,10 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad forstås ved et pesticid?',
         answers: [
-            'Et stof der dræber gnavere',
-            'Et stof der dræber skadelige organismer',
-            'Et stof der dræber svampe',
-            'Et stof der dræber ukrudt'
+            'Et stof, der dræber gnavere',
+            'Et stof, der dræber skadelige organismer',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber ukrudt'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1031,10 +1060,10 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad er et herbicid?',
         answers: [
-            'Et stof der dræber gnavere',
-            'Et stof der dræber skadelige organismer',
-            'Et stof der dræber svampe',
-            'Et stof der dræber ukrudt'
+            'Et stof, der dræber gnavere',
+            'Et stof, der dræber skadelige organismer',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber ukrudt'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1045,10 +1074,10 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad er et fungicid?',
         answers: [
-            'Et stof der dræber gnavere',
-            'Et stof der dræber skadedyr',
-            'Et stof der dræber svampe',
-            'Et stof der dræber ukrudt'
+            'Et stof, der dræber gnavere',
+            'Et stof, der dræber skadedyr',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber ukrudt'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1059,10 +1088,10 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad er et rodenticid?',
         answers: [
-            'Et stof der dræber gnavere',
-            'Et stof der dræber skadedyr',
-            'Et stof der dræber svampe',
-            'Et stof der dræber ukrudt'
+            'Et stof, der dræber gnavere',
+            'Et stof, der dræber skadedyr',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber ukrudt'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1104,7 +1133,7 @@ db.questions.save(
             'Fordi det hæmmer optagelsen af næringssalte',
             'Fordi det hæmmer optagelsen af CO<span style="vertical-align:sub; font-size:58%;">2</span>',
             'Fordi det hæmmer optagelsen af vand',
-            'Fordi det hæmmer dannelsen af de aromatiske aminosyrer '
+            'Fordi det hæmmer dannelsen af de aromatiske aminosyrer'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1118,7 +1147,7 @@ db.questions.save(
             'Fordi dyr ikke optager CO<span style="vertical-align:sub; font-size:58%;">2</span>',
             'Fordi dyr ikke optager næringssalte',
             'Fordi dyr ikke optager vand fra jorden, men drikker det',
-            'Fordi dyr ikke selv skal danne de aromatiske aminosyrer'
+            'Fordi dyr ikke selv skal danne aromatiske aminosyrer'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1141,7 +1170,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvilket udsagn om DDT er ikke korrekt?',
+        text: 'Hvilket udsagn om DDT er forkert?',
         answers: [
             'Det er et herbicid',
             'Det kan biomagnificeres i fødekæderne',
@@ -1157,8 +1186,8 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad forstås ved LC<span style="vertical-align:sub; font-size:58%;">50</span>?',
         answers: [
-            'Den dosis der vil dræbe 50 % af dyrene',
-            'Den koncentration der vil dræbe 50 % af dyrene',
+            'Den dosis, der vil dræbe 50 % af dyrene',
+            'Den koncentration, der vil dræbe 50 % af dyrene',
             'Den højeste acceptable daglige indtagelse',
             'Den største tolerable daglige indtagelse'
         ],
@@ -1171,8 +1200,8 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad forstås ved LD<span style="vertical-align:sub; font-size:58%;">50</span>?',
         answers: [
-            'Den dosis der vil dræbe 50 % af dyrene',
-            'Den koncentration der vil dræbe 50 % af dyrene',
+            'Den dosis, der vil dræbe 50 % af dyrene',
+            'Den koncentration, der vil dræbe 50 % af dyrene',
             'Den højeste acceptable daglige indtagelse',
             'Den største tolerable daglige indtagelse'
         ],
@@ -1185,8 +1214,8 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad dækker begrebet ADI?',
         answers: [
-            'Den dosis der vil dræbe 50 % af dyrene',
-            'Den koncentration der vil dræbe 50 % af dyrene',
+            'Den dosis, der vil dræbe 50 % af dyrene',
+            'Den koncentration, der vil dræbe 50 % af dyrene',
             'Den højeste acceptable daglige indtagelse',
             'Den største tolerable daglige indtagelse'
         ],
@@ -1199,8 +1228,8 @@ db.questions.save(
         chapters: ['30.3'],
         text: 'Hvad menes med TDI?',
         answers: [
-            'Den dosis der vil dræbe 50 % af dyrene',
-            'Den koncentration der vil dræbe 50 % af dyrene',
+            'Den dosis, der vil dræbe 50 % af dyrene',
+            'Den koncentration, der vil dræbe 50 % af dyrene',
             'Den højeste acceptable daglige indtagelse',
             'Den største tolerable daglige indtagelse'
         ],
@@ -1211,10 +1240,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvad menes med cocktail-effekten?',
+        text: 'Hvad menes med begrebet "cocktail-effekt"?',
         answers: [
             'At to giftige stoffer, der blandes sammen, pludselig ikke er giftige mere (1+1=0).',
-            'At giftige stoffer kun er giftige, når de ikke blandes sammen som en cocktail.',
+            'At giftige stoffer kun er giftige, når de ikke blandes sammen som en cocktail',
             'At alkoholindtagelse i forbindelse med forskellige gifte gør giftene endnu giftigere',
             'At en blanding af gifte i små ugiftige koncentrationer kan være meget giftig (1+1=3)'
         ],
@@ -1228,9 +1257,9 @@ db.questions.save(
         text: 'Hvad vil det sige, at et stof har østrogen effekt?',
         answers: [
             'At det hæmmer østrogen',
-            'At det virker som det mandlige hormon',
-            'At det virker som det hunlige hormon',
-            'At det hæmmer det mandlige hormon'
+            'At det virker som det mandlige kønshormon',
+            'At det virker som det hunlige kønshormon',
+            'At det hæmmer det mandlige kønshormon'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1242,9 +1271,9 @@ db.questions.save(
         text: 'Hvilet udsagn om DDT er korrekt?',
         answers: [
             'Det hæmmer udskillelsen af østrogen',
-            'Det virker som det mandlige hormon ',
-            'Det kan virke som østrogen ',
-            'Det hæmmer det mandlige hormon '
+            'Det virker som det mandlige kønshormon',
+            'Det kan virke som østrogen',
+            'Det hæmmer det mandlige kønshormon'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1256,9 +1285,9 @@ db.questions.save(
         text: 'Hvilket udsagn om PCB er korrekt?',
         answers: [
             'Det hæmmer udskillelsen af østrogen',
-            'Det virker som det mandlige hormon ',
-            'Det kan virke som østrogen ',
-            'Det hæmmer det mandlige hormon '
+            'Det virker som det mandlige kønshormon',
+            'Det kan virke som østrogen',
+            'Det hæmmer det mandlige kønshormon'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1267,12 +1296,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.3'],
-        text: 'Hvad menes der med, at et stof har anti-østrogen effekt?',
+        text: 'Hvad menes med, at et stof har anti-østrogen effekt?',
         answers: [
             'At det hæmmer det hunlige kønshormon',
-            'At det virker som det mandlige hormon',
+            'At det virker som det mandlige kønshormon',
             'At det virker som østrogen',
-            'At det hæmmer det mandlige hormon'
+            'At det hæmmer det mandlige kønshormon'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1284,9 +1313,9 @@ db.questions.save(
         text: 'Hvad betyder det, at et stof har androgen virkning?',
         answers: [
             'At det hæmmer østrogen',
-            'At det virker som det mandlige hormon',
+            'At det virker som det mandlige kønshormon',
             'At det virker som østrogen',
-            'At det hæmmer det mandlige hormon'
+            'At det hæmmer det mandlige kønshormon'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1312,11 +1341,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.4'],
-        text: 'Hvornår indtraf ulykken på atomkraftanlægget i Tjernobyl? ',
+        text: 'Hvornår indtraf ulykken på atomkraftanlægget i Tjernobyl?',
         answers: [
             '1986',
-            '2005',
-            '2011',
+            '1992',
+            '2004',
             '2012'
         ],
         type: 'multiple_text',
@@ -1466,7 +1495,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.4'],
-        text: 'Hvad sker der i en forsuret jordbund? ',
+        text: 'Hvad sker der i en forsuret jordbund?',
         answers: [
             'Negative ioner udvaskes',
             'H<span style="vertical-align:super; font-size:58%;">+</span> forsvinder fra jordkolloiderne',
@@ -1610,8 +1639,8 @@ db.questions.save(
         answers: [
             'Ca. 0,020 %',
             'Ca. 0,028 %',
-            'Ca. 0,041 %',
-            'Ca. 0,400 % '
+            'Ca. 0,035 %',
+            'Over 0,040 %'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1844,7 +1873,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvilket land er Verdens største udleder af CO<span style="vertical-align:sub; font-size:58%;">2</span>?',
+        text: 'Hvilket land er verdens største udleder af CO<span style="vertical-align:sub; font-size:58%;">2</span>?',
         answers: [
             'USA',
             'Kina',
@@ -1858,7 +1887,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvilket land var Verdens største udleder af CO<span style="vertical-align:sub; font-size:58%;">2</span> indtil 2005?',
+        text: 'Hvilket land var verdens største udleder af CO<span style="vertical-align:sub; font-size:58%;">2</span> indtil 2005?',
         answers: [
             'USA',
             'Kina',
@@ -1872,7 +1901,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvor meget er Verdens samlede CO<span style="vertical-align:sub; font-size:58%;">2</span> udledning steget fra 1990 til i dag?',
+        text: 'Hvor meget er verdens samlede CO<span style="vertical-align:sub; font-size:58%;">2</span> udledning steget fra 1990 til i dag?',
         answers: [
             'Ca. 70 %',
             'Ca. 30 %',
@@ -1900,7 +1929,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvilket land har ikke ratificeret Kyoto-aftalen? ',
+        text: 'Hvilket land har ikke ratificeret Kyoto-aftalen?',
         answers: [
             'Indien',
             'Kina',
@@ -1928,7 +1957,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvilket land udleder mest CO<span style="vertical-align:sub; font-size:58%;">2</span> pr. indbygger? ',
+        text: 'Hvilket land udleder mest CO<span style="vertical-align:sub; font-size:58%;">2</span> pr. indbygger?',
         answers: [
             'Indien',
             'Kina',
@@ -1947,7 +1976,7 @@ db.questions.save(
             'Det svinger i takt med sommer og vinter på Jorden',
             'Det svinger i takt med sommer og vinter på den sydlige halvkugle (mindst landmasse)',
             'Det svinger i takt med sommer og vinter på den nordlige halvkugle (mest landmasse)',
-            'Det svinger ikke '
+            'Det svinger ikke'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1956,7 +1985,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvilket udsagn er ikke korrekt? ',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Der findes drivhuseffekt på Jorden',
             'Der findes drivhuseffekt på Venus',
@@ -1998,7 +2027,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.5'],
-        text: 'Hvis al landbaseret is smelter i Verden, hvor meget vil havniveauet så stige?',
+        text: 'Hvis al landbaseret is på Antarktis og Grønland smelter, hvor meget vil havniveauet så stige?',
         answers: [
             '20-25 meter',
             '40-45 meter',
@@ -2006,7 +2035,7 @@ db.questions.save(
             '80-85 meter'
         ],
         type: 'multiple_text',
-        correct_answer: '3'
+        correct_answer: '2'
     });
 
 db.questions.save(
@@ -2132,10 +2161,19 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['30.6'],
-        text: 'Hvilket udsagn om skovrejsning er ikke korrekt?',
+        text: 'Hvilket udsagn om skovrejsning er forkert?',
         answers: [
             'De plantede skove kan optage noget af atmosfærens CO<span style="vertical-align:sub; font-size:58%;">2</span>',
             'De plantede skove kan optage et overskud af næringssalte fra jorden',
@@ -2167,7 +2205,7 @@ db.questions.save(
         answers: [
             'Bæk-lampretten',
             'Pig-smerling',
-            'Skalle',
+            'Skallen',
             'Malermusling'
         ],
         type: 'multiple_text',
@@ -2229,6 +2267,15 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['30.7'],
@@ -2317,7 +2364,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.7'],
-        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som vi køber pr. år?',
+        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som danskerne i gennemsnit køber pr. år?',
         answers: [
             '58.000 L',
             '5.000 L',
@@ -2376,7 +2423,7 @@ db.questions.save(
         text: 'Hvilket land kommer tættest på at få ressourcerne til at slå til, og hvornår vil Earth Overshoot Day ligge?',
         answers: [
             'Indonesien og Earth Overshoot Day vil være den 21. december',
-			'Danmark og Earth Overshoot Day vil være den 21. december',
+			'Danmark og Earth Overshoot Day vil være den 21. oktober',
 			'Kina og Earth Overshoot Day vil være den 29. marts',
 			'Tyskland og Earth Overshoot Day vil være den 29. juli',
         ],
@@ -2401,7 +2448,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.7'],
-        text: 'Hvilket kød er mest klimatungt at producere?',
+        text: 'Hvilken type kød er mest klimatungt at producere?',
         answers: [
             'Oksekød', 
 			'Svinekød',
@@ -2431,7 +2478,7 @@ db.questions.save(
         chapters: ['30.7'],
         text: 'Hvordan har vi i Danmark kunnet opnå vores klimamål?',
         answers: [
-            'Køb af CO<span style="vertical-align:sub; font-size:58%;">2</span>-kvote', 
+            'Køb af CO<span style="vertical-align:sub; font-size:58%;">2</span>-kvoter', 
 			'Nedskæring i kødproduktionen',
 			'Stigning af flypriser',
 			'Mindre fabriksproduktion'
@@ -2443,7 +2490,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.7'],
-        text: 'Hvilket år anslår forskere, at der vil være op mod 200 millioner klimaflygtninge?',
+        text: 'Hvilket år anslår forskerne, at der vil være op mod 200 millioner klimaflygtninge?',
         answers: [
             '2050',
 			'2025',
@@ -2471,7 +2518,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.7'],
-        text: 'Hvem er særligt udsat for naturkatastrofer? ',
+        text: 'Hvem er særligt udsat for naturkatastrofer?',
         answers: [
             'Børn',
 			'Dyr',
@@ -2485,7 +2532,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['30.7'],
-        text: 'Hvad kan især forårsage dårlig hygiejniske forhold?',
+        text: 'Hvad kan især forårsage dårlige hygiejniske forhold?',
         answers: [
             'Oversvømmelser',
 			'Vulkanudbrud',
@@ -2544,9 +2591,9 @@ db.questions.save(
         text: 'Hvad er fordelen ved biokul?',
         answers: [
             'Det er et stabilt materiale, der ikke omsættes til CO<span style="vertical-align:sub; font-size:58%;">2</span>',
-			'Det er med til at mindske det enorme udslip af metan ',
-'Det medfører, at næringsstofferne fra gylle kan blive anvendt på ny',
-'Der er ingen fordel ved biokul, det sætter blot et kæmpe klimaaftryk'
+			'Det er med til at mindske det enorme udslip af metan',
+            'Det medfører, at næringsstofferne fra gylle kan blive anvendt på ny',
+            'Der er ingen fordel ved biokul, det sætter blot et kæmpe klimaaftryk'
         ],
         type: 'multiple_text',
         correct_answer: '0'

@@ -14,7 +14,8 @@ var links = {
 	 "link": "https://www.youtube.com/watch?v=FooW41rlP9A"},
 	{"caption": "Klimaforandringer",
 	 "link": "https://www.youtube.com/watch?v=dph2SVhDFAg"},
-
+	 	{"caption": "Interaktiv klimaside",
+	 "link": "https://en-roads.climateinteractive.org/scenario.html?p7=2&p10=0.1&v=2.7.29"},
 	{"color": "#6DC0B4"},
 
 	{"caption": "Videnskab.dk",

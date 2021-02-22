@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['13.1'],
-        text: 'Hvilken gruppe hører ikke til kulhydraterne',
+        text: 'Hvilken gruppe hører ikke til kulhydraterne?',
         answers: [
             'Monosakkarider',
             'Disakkarider',
@@ -74,7 +74,7 @@ db.questions.save(
         text: 'Hvad forstås ved et oligosakkarid?',
         answers: [
             'Det er en generel betegnelse for et kulhydrat',
-            'Et kulhydrat der består af mellem 3 og 10 monosakkarider',
+            'Et kulhydrat, der består af mellem 3 og 10 monosakkarider',
             'Et kulhydrat, der består af mere end 10 monosakkarider',
             'En heptose'
         ],
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['13.2'],
-        text: 'C=O er en ',
+        text: 'C=O er en',
         answers: [
             'Ketongruppe',
             'Aldehydgruppe',
@@ -297,7 +297,7 @@ db.questions.save(
         chapters: ['13.2'],
         text: 'Glukosemolekylets ringslutning sker mellem følgende C-atomer',
         answers: [
-            'I og 5',
+            '1 og 5',
             '2 og 5',
             '2 og 6',
             '5 og 6'
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['13.2'],
-        text: 'Hvordan ser man om ringsluttet glukose er på alfa-form?',
+        text: 'Hvordan ser man, om ringsluttet glukose er på alfa-form?',
         answers: [
             'Hvis alkoholgruppen på C1 vender opad',
             'Hvis alkoholgruppen på C4 vender opad',
@@ -381,7 +381,7 @@ db.questions.save(
         chapters: ['13.2'],
         text: 'Hvordan påviser man frie aldehydgrupper i en opløsning af monosakkarid?',
         answers: [
-            'Med en jod-jodkalium-prøve',
+            'Med en jod-jodkalium-prøve (IIK)',
             'Med Benedicts prøve',
             'Med methylenblåt',
             'Med formaldehyd'
@@ -504,7 +504,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvordan foregår det, når 2 monosakkarider bindes sammen til et disakkarid?',
         answers: [
             'To alkoholgrupper reagerer med hinanden under vandoptagelse',
@@ -518,8 +518,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvilken type binding kan opstå, når der dannes et disakkarid',
+        chapters: ['13.3'],
+        text: 'Hvilken type binding kan opstå, når der dannes et disakkarid?',
         answers: [
             'En esterbinding',
             'En glykosidbinding',
@@ -532,7 +532,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvilket disakkarid dannes, når to alfa-D-glukose-molekyler sammenkobles?',
         answers: [
             'Mannose',
@@ -546,7 +546,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvordan er laktose opbygget?',
         answers: [
             'Af to alfa-D-glukose',
@@ -560,7 +560,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvordan er sakkarose opbygget?',
         answers: [
             'Af alfa-D-glukose og beta-2-fruktose',
@@ -574,7 +574,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvor dannes laktose?',
         answers: [
             'Kun i planteriget',
@@ -588,7 +588,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvilket disakkarid kan ikke påvises med Benedicts reagens?',
         answers: [
             'Sakkarose',
@@ -602,7 +602,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvad kræves der, for at et kulhydrat kan påvises med Benedicts reagens?',
         answers: [
             'En fri alkoholgruppe',
@@ -616,7 +616,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvad forstås ved laktoseintolerans?',
         answers: [
             'At man er allergisk over for mælk',
@@ -630,8 +630,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvor mange % af befolkningen i Danmark lider af laktoseintolerans? ',
+        chapters: ['13.3'],
+        text: 'Hvor mange % af befolkningen i Danmark lider af laktoseintolerans?',
         answers: [
             'Under 1 %',
             '2-8 %',
@@ -644,8 +644,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvor mange procent af befolkningen ved ækvator lider af laktoseintolerans ?',
+        chapters: ['13.3'],
+        text: 'Hvor mange procent af befolkningen ved ækvator lider af laktoseintolerans?',
         answers: [
             'Under 1 %',
             '2-8 %',
@@ -658,7 +658,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvad er årsagen til, at man får diare, hvis man lider af laktoseintolerans?',
         answers: [
             'Laktose og laktat er osmotisk aktive og trækker vand ind i tyndtarmen',
@@ -672,7 +672,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvor i naturen findes der sakkarose?',
         answers: [
             'I dyrenes muskler',
@@ -686,7 +686,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.3'],
         text: 'Hvad skal planterne bruge glukose til?',
         answers: [
             'Til deres fotosyntese',
@@ -698,37 +698,10 @@ db.questions.save(
         correct_answer: '3'
     });
 
-db.questions.save(
-    {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvor i planterne dannes glukose?',
-        answers: [
-            'I mitokondrierne',
-            'I grønkornene',
-            'I rod og stængel som oplagsnæring',
-            'I vakuolerne i cellernes cytoplasma'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvor i planterne nedbrydes glukose?',
-        answers: [
-            'I mitokondrierne',
-            'I grønkornenes grana',
-            'I grønkornenes stroma',
-            'I vakuolerne i cellernes cytoplasma'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
-
-db.questions.save(
-    {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor i mennesket dannes oligosakkarider ud fra polysakkarider?',
         answers: [
             'I blodet',
@@ -742,7 +715,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Ved hvilken proces kobles monosakkarider sammen til polysakkarider?',
         answers: [
             'Ved en vandoptagelse',
@@ -756,7 +729,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan er amylose opbygget?',
         answers: [
             'Af mange glukose-molekyler bundet sammen med beta-1,4 bindinger, så molekylet ikke forgrenes',
@@ -770,7 +743,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan er amylopektin opbygget?',
         answers: [
             'Af mange glukose-molekyler bundet sammen med beta-1,4 bindinger, så molekylet ikke forgrenes',
@@ -784,12 +757,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan kan man påvise stivelse?',
         answers: [
             'Ved Benedicts prøve',
             'Ved Fehlings prøve',
-            'Ved jod-jodkalium-prøve',
+            'Ved jod-jodkalium-prøve (IIK)',
             'Ved hjælp af methylenblåt'
         ],
         type: 'multiple_text',
@@ -798,7 +771,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvad er princippet i en jod-jod-kalium (IIK) prøve?',
         answers: [
             'At IIK virker oxiderende',
@@ -812,8 +785,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvilket af nedenstående stoffer vil vise en positiv reaktion med jod-jod-kalium?',
+        chapters: ['13.4'],
+        text: 'Hvilket af nedenstående stoffer vil vise en positiv reaktion med jod-jod-kalium (IIK)?',
         answers: [
             'Stivelse',
             'Cellulose',
@@ -826,7 +799,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor i naturen finder man glykogen?',
         answers: [
             'Kun i planteriget',
@@ -840,13 +813,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan er glykogen opbygget?',
         answers: [
-            'Af mange glukose-molekyler bundet sammen med alfa-1,4 bindinger, så molekylet ikke forgrenes',
-            'Af mange glukose-molekyler bundet sammen med beta-1,4 bindinger så molekylet ikke forgrenes',
+            'Af mange glukose-molekyler bundet sammen med alfa-1,4-bindinger, så molekylet ikke forgrenes',
+            'Af mange glukose-molekyler bundet sammen med beta-1,4-bindinger, så molekylet ikke forgrenes',
             'Af mange glukose-molekyler',
-            'Af mange glukose-molekyler bundet sammen i beta-1,4 og beta-1,6 bindinger så molekylet forgrenes'
+            'Af mange glukose-molekyler bundet sammen i beta-1,4- og beta-1,6-bindinger, så molekylet forgrenes'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -854,7 +827,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor i naturen findes cellulose?',
         answers: [
             'Kun i planteriget ',
@@ -868,13 +841,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan er cellulose opbygget?',
         answers: [
-            'Af mange glukose-molekyler bundet sammen med alfa-1,4 bindinger',
+            'Af mange glukose-molekyler bundet sammen med alfa-1,4-bindinger',
             'Af mange glukose-molekyler',
-            'Af mange glukose-molekyler bundet sammen med alfa-1,4 og alfa-1,6 bindinger',
-            'Af mange glukose-molekyler bundet sammen med beta-1,4 og beta-1,6 bindinger '
+            'Af mange glukose-molekyler bundet sammen med alfa-1,4- og alfa-1,6-bindinger',
+            'Af mange glukose-molekyler bundet sammen med beta-1,4- og beta-1,6-bindinger '
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -882,7 +855,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor i planterne findes cellulose?',
         answers: [
             'I grønkornene',
@@ -896,8 +869,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvad forstås der ved stivelse?',
+        chapters: ['13.4'],
+        text: 'Hvad forstås ved stivelse?',
         answers: [
             'Det er det samme som amylose',
             'Det er det samme som amylopektin',
@@ -910,8 +883,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
-        text: 'Hvorfor oplagrer planterne størstedelen af de dannede kulhydrater som stivelse og ikke glukose?',
+        chapters: ['13.4'],
+        text: 'Hvorfor oplagrer planterne størstedelen af de dannede kulhydrater som stivelse og ikke som glukose?',
         answers: [
             'Fordi glukosen bruges til respiration',
             'For at undgå osmotiske problemer',
@@ -924,7 +897,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor i dyrene dannes der stivelse?',
         answers: [
             'I cellemembranerne',
@@ -938,13 +911,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor stort er menneskets glykogenlager i leveren?',
         answers: [
-            '10 g',
-            '100 g',
-            '200 g',
-            '400-500 g'
+            'Ca. 10 g',
+            'Ca. 100 g',
+            'Ca. 200 g',
+            'Ca. 400-500 g'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -952,13 +925,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvor stort er menneskets glykogenlager i musklerne?',
         answers: [
-            '10 g',
-            '100 g',
-            '200 g',
-            '400-500 g'
+            'Ca. 10 g',
+            'Ca. 100 g',
+            'Ca. 200 g',
+            'Ca. 400-500 g'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -966,7 +939,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvilke dyr danner enzymer, der er i stand til at nedbryde cellulose?',
         answers: [
             'Alle dyr',
@@ -980,7 +953,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvilke organismer danner enzymet cellulase?',
         answers: [
             'Alle bakterier',
@@ -994,7 +967,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvad forstås ved symbiose?',
         answers: [
             'Samliv mellem to arter, hvor den ene organisme udnytter den anden',
@@ -1008,7 +981,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvad forstås ved mutualisme?',
         answers: [
             'Samliv mellem to arter, hvor de begge har gavn af det',
@@ -1022,13 +995,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvorfor mener man, at modermælkens ufordøjelige oligosakkarider er så vigtige?',
         answers: [
             'For at tilføre fibre til barnets tarmkanal',
             'Fordi de indeholder mange vitaminer',
             'Fordi de indeholder livsvigtige aminosyrer',
-            'Fordi de giver næring til livsvigtige bakterier i barnets tarmkanal '
+            'Fordi de giver næring til livsvigtige bakterier i barnets tarmkanal'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1036,7 +1009,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['13.3', '13.4'],
+        chapters: ['13.4'],
         text: 'Hvordan er glykoproteinerne opbygget?',
         answers: [
             'Af monosakkarid og protein',

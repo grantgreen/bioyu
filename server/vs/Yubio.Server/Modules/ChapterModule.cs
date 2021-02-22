@@ -40,6 +40,7 @@ namespace Yubio.Server.Modules
                         chapter.ChapterNumber = int.Parse(chapterMatch.Groups["chapter"].Value);
                         chapter.Header = chapterMatch.Groups["header"].Value;
 
+                        chapter.Tiles = db.TileListByChapter(chapter.ChapterNumber.ToString());
                         foreach (var subChapter in chapter.Chapters)
                         {
                             var subChapterMatch = Regex.Match(subChapter.Name,

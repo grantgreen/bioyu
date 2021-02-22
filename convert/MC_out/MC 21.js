@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvor mange gener har mennesket ca.?',
+        text: 'Hvor mange proteinkodende gener har mennesket ca.?',
         answers: [
             '20.000',
             '40.000',
@@ -155,7 +155,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med en karyotype?',
+        text: 'Hvad menes med en karyotype?',
         answers: [
             'Genotype',
             'Fænotype',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med et locus?',
+        text: 'Hvad menes med et locus?',
         answers: [
             'Et gens placering på kromosomet',
             'Et gen',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med loci?',
+        text: 'Hvad menes med loci?',
         answers: [
             'Genernes placeringer på kromosomerne',
             'Generne i en organisme',
@@ -211,7 +211,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med homozygot?',
+        text: 'Hvad menes med homozygot?',
         answers: [
             'Dominante eller vigende gener',
             'En celle med to vigende eller to dominante alleler i samme locus på de to homologe kromosomer',
@@ -225,11 +225,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med heterozygot?',
+        text: 'Hvad menes med heterozygot?',
         answers: [
             'En celle med meget heterokromatin',
             'En celle med et X- og et Y-kromosom',
-            'En celle med forskellige alleler på samme locus på de to homologe kromosomer ',
+            'En celle med forskellige alleler på samme locus på de to homologe kromosomer',
             'Celler med forskellige mutationer'
         ],
         type: 'multiple_text',
@@ -244,7 +244,7 @@ db.questions.save(
             'Den samlede bestand af gener hos et individ',
             'Et individs basesammensætning',
             'Det man ikke direkte kan se på individet',
-            'Det man direkte kan se på individet'
+            'Det man direkte kan se på individet (hvordan generne kommer til udtryk)'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -253,11 +253,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad forstås der ved et individs genotype?',
+        text: 'Hvad forstås ved et individs genotype?',
         answers: [
             'Et individs bestand af gener',
             'Et individs bestand af kromosomer',
-            'Det man direkte kan se på individet',
+            'Det man direkte kan se på individet (hvordan generne kommer til udtryk)',
             'De dominante gener, der kommer til udtryk'
         ],
         type: 'multiple_text',
@@ -267,7 +267,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.1'],
-        text: 'Hvad menes der med et gens positionseffekt?',
+        text: 'Hvad menes med et gens positionseffekt?',
         answers: [
             'Genotypen',
             'Fænotypen',
@@ -295,12 +295,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med et dominant gen?',
+        text: 'Hvad menes med et dominant gen?',
         answers: [
             'Det vigtigste gen ',
             'Det gen, der er flest af i befolkningen',
             'Et gen, der efterhånden vil brede sig i befolkningen',
-            'Et gen, hvor en udgave af genet er nok til, at det viser sig i fænotypen '
+            'Et gen, hvor en enkelt udgave af genet er nok til, at det viser sig i fænotypen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -309,12 +309,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med et recessivt gen?',
+        text: 'Hvad menes med et recessivt gen?',
         answers: [
             'Et mindre vigtigt gen',
             'Det gen, der er færrest af i befolkningen',
             'Et gen, med faldende forekomst i befolkningen',
-            'Et gen, hvor der skal to udgaver til, for at det kommer til udtryk i fænotypen'
+            'Et gen, hvor der skal to udgaver til, før det kommer til udtryk i fænotypen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -351,7 +351,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med, at et individ kan være bærer af et gen?',
+        text: 'Hvad menes med, at et individ kan være bærer af et gen?',
         answers: [
             'At det har sprunget en generation over og kommer fra bedsteforældrene',
             'At en heterozygot har et recessivt gen, som ikke kommer til udtryk',
@@ -365,7 +365,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad er en ren linje?',
+        text: 'Hvad forstås ved en ren linje?',
         answers: [
             'Alle led i slægten bagud',
             'Alle ens forfædre og alle ens efterkommere',
@@ -382,8 +382,8 @@ db.questions.save(
         text: 'Hvad siger Mendels første lov?',
         answers: [
             'At allele gener adskilles i meiosen med lige stor hyppighed i de dannede kønsceller',
-            'At de allele gener udspaltes i forholdet 1: 2',
-            'At ikke alle gener adskilles i meiosen ',
+            'At de allele gener udspaltes i forholdet 1:2',
+            'At ikke alle gener adskilles i meiosen',
             'At der dannes haploide kønsceller hos alle individer'
         ],
         type: 'multiple_text',
@@ -407,7 +407,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med, at kønsceller er haploide?',
+        text: 'Hvad menes med, at kønsceller er haploide?',
         answers: [
             'At de indeholder det halve antal kromosomer i forhold til kropscellerne',
             'At de indeholder det normale kromosomantal for arten',
@@ -421,7 +421,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med, at en zygote er diploid?',
+        text: 'Hvad menes med, at en zygote er diploid?',
         answers: [
             'At den indeholder det halve antal kromosomer i forhold til de normale kropsceller',
             'At den indeholder det dobbelte antal kromosomer i forhold til de normale kropsceller',
@@ -506,11 +506,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med atavisme?',
+        text: 'Hvad menes med atavisme?',
         answers: [
             'Nedarvning af et dominant gen',
             'Nedarvning af et letalt gen, som fører til afkommets død',
-            'Nedarvning af en mutation ',
+            'Nedarvning af en mutation',
             'Et recessivt gen, der er nedarvet fra forfædrene og pludseligt viser sig i fænotypen igen'
         ],
         type: 'multiple_text',
@@ -618,7 +618,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Giv et eksempel på nedarvning med multiple alleler hos mennesket',
+        text: 'Hvilken er et eksempel på nedarvning med multiple alleler hos mennesket?',
         answers: [
             'Multipel sklerose',
             'Rhesusgenet',
@@ -632,7 +632,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med agglutination?',
+        text: 'Hvad menes med agglutination?',
         answers: [
             'Blodets koagulation i et sår',
             'De røde blodlegemers sammenklumpning på grund af antistoffer',
@@ -646,7 +646,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype 0 kan man modtage røde blodlegemer fra blodtype ',
+        text: 'Hvis man har blodtype 0 kan man modtage røde blodlegemer fra blodtype',
         answers: [
             'A eller B',
             'AB',
@@ -660,7 +660,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype 0 kan man give røde blodlegemer til:',
+        text: 'Hvis man har blodtype 0 kan man give røde blodlegemer til',
         answers: [
             'Kun til O',
             'Kun til A eller B',
@@ -674,7 +674,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype A kan man give røde blodlegemer til:',
+        text: 'Hvis man har blodtype A kan man give røde blodlegemer til',
         answers: [
             'A',
             'B',
@@ -688,7 +688,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype A kan man modtage røde blodlegemer fra:',
+        text: 'Hvis man har blodtype A kan man modtage røde blodlegemer fra',
         answers: [
             'B',
             'O',
@@ -702,7 +702,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype AB kan man modtage røde blodlegemer fra:',
+        text: 'Hvis man har blodtype AB kan man modtage røde blodlegemer fra',
         answers: [
             'Kun AB',
             'Kun A',
@@ -716,7 +716,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvis man har blodtype AB kan man give røde blodlegemer til:',
+        text: 'Hvis man har blodtype AB kan man give røde blodlegemer til',
         answers: [
             'AB',
             'O',
@@ -732,7 +732,7 @@ db.questions.save(
         chapters: ['21.2'],
         text: 'Hvorfor kan blodtype O fungere som universaldonor?',
         answers: [
-            'Fordi den ikke har nogen antistoffer',
+            'Fordi den ikke har nogle antistoffer',
             'Fordi den ikke har antigen A',
             'Fordi den ikke har antigen B',
             'Fordi den ikke har nogle antigener'
@@ -758,12 +758,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med letale gener?',
+        text: 'Hvad menes med letale gener?',
         answers: [
             'Livsvigtige gener',
             'Gener på autosomerne',
             'Dødelige gener',
-            'Ekstra gener, som fx generne i mitokondrierne'
+            'Ekstra gener som fx generne i mitokondrierne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -772,7 +772,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Giv et eksempel på et letalt gen hos planter',
+        text: 'Hvilket er et letalt gen hos planter',
         answers: [
             'Genet for karoten-dannelse',
             'Genet for grønne blade',
@@ -786,7 +786,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Giv et eksempel på et letalt gen hos mennesket?',
+        text: 'Hvilket er et letalt gen hos mennesket?',
         answers: [
             'ABO-genet',
             'Genet for dannelse af pepsin',
@@ -800,7 +800,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Giv et eksempel på et letalt gen hos køer',
+        text: 'Hvilket er et letalt gen hos køer',
         answers: [
             'Genet for manglende dannelse af ben',
             'Gen for fordøjelsesenzymerne',
@@ -814,9 +814,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad menes der med en analysekrydsning?',
+        text: 'Hvad menes med en analysekrydsning?',
         answers: [
-            'Krydsning med den dobbelt-recessive',
+            'Krydsning med en dobbelt recessiv',
             'Krydsning med en dobbelt dominant',
             'Krydsning med en homozygot',
             'Krydsning med en heterozygot'
@@ -842,7 +842,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.2'],
-        text: 'Hvad ved man om genotypen, hvis resultatet af en analysekrydsning bliver 50 % homozygot recessivt individer?',
+        text: 'Hvad ved man om genotypen, hvis resultatet af en analysekrydsning bliver 50 % homozygot recessive individer?',
         answers: [
             'At den er AA',
             'At den er aa',
@@ -873,7 +873,7 @@ db.questions.save(
         answers: [
             'Det dominante gen producerer et protein, som gør dig syg',
             'Det dominante gen producerer et protein, som gør dig rask',
-            'Det dominante gen producerer et protein, som gør dig rask',
+            'Det recessive gen producerer et protein, som gør dig rask',
             'Det recessive gen producerer et protein, som gør dig syg'
         ],
         type: 'multiple_text',
@@ -895,7 +895,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med en autosomal to-gens nedarvning?',
+        text: 'Hvad menes med en autosomal to-gens nedarvning?',
         answers: [
             'En krydsning hvor man ser på to allele genpar',
             'En krydsning hvor man ser på to recessive gener',
@@ -909,7 +909,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med en autosomal dihybrid krydsning?',
+        text: 'Hvad menes med en autosomal dihybrid krydsning?',
         answers: [
             'En krydsning hvor man ser på to allele genpar',
             'En krydsning hvor man ser på to recessive gener',
@@ -981,7 +981,7 @@ db.questions.save(
         chapters: ['21.3'],
         text: 'Hvad handler Mendels 2. lov om?',
         answers: [
-            'Om nedarvning af to ikke-koblede genpar ',
+            'Om nedarvning af to ikke-koblede genpar',
             'Om autosomal nedarvning',
             'Om kønsbundet nedarvning',
             'Om nedarvning af to koblede genpar'
@@ -1035,7 +1035,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad bliver det fænotypiske resultat, hvis man krydser AABB med aabb?',
+        text: 'Hvad bliver det fænotypiske resultat, hvis man krydser AABB med aabb (ikke koblede gener)?',
         answers: [
             '1:1:1:1',
             '3:1',
@@ -1105,7 +1105,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med F1- generationen?',
+        text: 'Hvad menes med F1- generationen?',
         answers: [
             'Forældregenerationen',
             'Børnene',
@@ -1119,7 +1119,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med F2-generationen?',
+        text: 'Hvad menes med F2-generationen?',
         answers: [
             'Forældregenerationen',
             'Børnene',
@@ -1161,11 +1161,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med epistasi?',
+        text: 'Hvad menes med epistasi?',
         answers: [
             'Letale gener',
             'Dominante gener',
-            'Gener der undertrykker et andet gen i fænotypen',
+            'Gener der påvirker et andet gen i fænotypen',
             'Autosomale gener'
         ],
         type: 'multiple_text',
@@ -1179,7 +1179,7 @@ db.questions.save(
         answers: [
             'Letale gener',
             'Dominante gener',
-            'Gener der undertrykker et andet gen i fænotypen',
+            'Gener der påvirker et andet gen i fænotypen',
             'Autosomale gener'
         ],
         type: 'multiple_text',
@@ -1189,9 +1189,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med recessiv epistasi?',
+        text: 'Hvad menes med recessiv epistasi?',
         answers: [
-            'At aa giver en bestemt fænotype, uanset hvordan generne B og b er sat sammen',
+            'At aa giver en bestemt fænotype, uanset hvordan B/b-allelerne er sammensat',
             'En letal nedarvning',
             'Kønsbundet nedarvning',
             'Koblede gener, der ikke indvirker på hinanden'
@@ -1203,10 +1203,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.3'],
-        text: 'Hvad menes der med dominant epistasi?',
+        text: 'Hvad menes med dominant epistasi?',
         answers: [
-            'At A giver en bestemt fænotype, uanset hvordan generne B og b er sat sammen',
-            'At aa giver en bestemt fænotype uanset hvordan B og b er sat sammen',
+            'At A giver en bestemt fænotype, uanset hvordan B/b-allelerne er sammensat',
+            'At aa giver en bestemt fænotype uanset hvordan B/b-allelerne er sammensat',
             'En letal nedarvning',
             'Koblede gener, der ikke indvirker på hinanden'
         ],
@@ -1234,7 +1234,7 @@ db.questions.save(
         text: 'Hvilket udsagn om koblede gener og kønscelledannelsen er korrekt?',
         answers: [
             'Koblede gener adskilles altid ved kønscelledannelsen',
-            'Koblede gener følges altid af ved kønscelledannelsen',
+            'Koblede gener følges altid ad ved kønscelledannelsen',
             'Koblede gener følges ad, hvis der ikke sker en overkrydsning',
             'Koblede gener følges altid ad, når der sker en overkrydsning'
         ],
@@ -1276,7 +1276,7 @@ db.questions.save(
         text: 'Hvad forstås ved H<span style="vertical-align:sub; font-size:58%;">0</span>-hypotesen?',
         answers: [
             'En hypotese der antager, at den observerede forskel bare er en tilfældighed',
-            'En hypotese der antager, at den observerede forskel ikke er en tilfældighed',
+            'En hypotese der antager, at den observerede forskel ikke bare er en tilfældighed',
             'Antallet af frihedsgrader',
             'Størrelsen af p-værdien'
         ],
@@ -1290,7 +1290,7 @@ db.questions.save(
         text: 'Hvad forstås ved H1-hypotesen?',
         answers: [
             'En hypotese, der antager, at den observerede forskel bare er en tilfældighed',
-            'En hypotese, der antager, at den observerede forskel ikke er en tilfældighed',
+            'En hypotese, der antager, at den observerede forskel ikke bare er en tilfældighed',
             'Antallet af frihedsgrader',
             'Størrelsen af p-værdien'
         ],
@@ -1301,7 +1301,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.4'],
-        text: 'Hvornår bør man forkaste en H<span style="vertical-align:sub; font-size:58%;">0</span>-hypotese?',
+        text: 'Hvornår bør man (normalt) forkaste en H<span style="vertical-align:sub; font-size:58%;">0</span>-hypotese?',
         answers: [
             'Hvis p-værdien er større end 5 %',
             'Hvis p-værdien er mindre end 5 %',
@@ -1314,7 +1314,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.4'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Afvigelse fra det teoretisk beregnede kan skyldes, at stikprøven er for stor',
 			'Afvigelse fra det teoretisk beregnede kan skyldes et tilfældigt udsving',
@@ -1328,7 +1328,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.4'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Kritiske værdier er meget usandsynlige udfald',
 			'Kritiske værdier er meget høje værdier',
@@ -1341,7 +1341,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.4'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Accepterede værdier er de 95 % mest sandsynlige udfald',
 			'Accepterede værdier er meget høje værdier',
@@ -1383,7 +1383,7 @@ db.questions.save(
         text: 'Hvis man kaster plat eller krone 100 gange og får 55 plat og 45 krone, betyder det så, at',
         answers: [
             'Mønten må være skæv, da det er for skævt et udsving',
-            'Der ikke er noget galt med mønten, det er et tilfældigt udsving',
+            'Der er ikke noget galt med mønten, da det er et tilfældigt udsving',
             'Man har snydt for at få så skævt et udsving',
             'Man er dårlig til at kaste med mønter'
         ],
@@ -1394,10 +1394,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.5'],
-        text: 'Hvad forstås der ved polygen nedarvning?',
+        text: 'Hvad forstås ved polygen nedarvning?',
         answers: [
             'Når der er flere end to gener involveret i en bestemt fænotype',
-            'Når der bliver meget afkom i F1 og F2-generationen',
+            'Når der bliver meget afkom i F1- og F2-generationen',
             'Når der er mange forskellige genotyper i F1-generationen',
             'Når der er mange forskellige fænotyper i F2-generationen'
         ],
@@ -1436,7 +1436,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.5'],
-        text: 'Giv et eksempel på additive gener hos mennesket?',
+        text: 'Hvilken egenskab er styret af additive gener hos mennesket?',
         answers: [
             'Generne i ABO-systemet',
             'Generne i rhesussystemet',
@@ -1525,7 +1525,7 @@ db.questions.save(
             'Den rammer mænd og kvinder med forskellig hyppighed',
             'Den er sjældent Y-bundet',
             'Den er altid recessiv',
-            'Den skyldes gener på kønskromosomerne '
+            'Den skyldes gener på kønskromosomerne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1534,10 +1534,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.6'],
-        text: 'Giv et eksempel på X-bundet nedarvning hos mennesket?',
+        text: 'Hvilken er et eksempel på X-bundet nedarvning hos mennesket?',
         answers: [
-            'Øjenfarven',
-            'ABO-generne',
+            'Øjenfarve',
+            'ABO-systemet',
             'Rød-grøn-farveblindhed',
             'Grøn stær (en øjensygdom)'
         ],
@@ -1548,7 +1548,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.6'],
-        text: 'Giv et eksempel på Y-bundet nedarvning hos mennesket',
+        text: 'Hvilken er et eksempel på Y-bundet nedarvning hos mennesket',
         answers: [
             'Retinitis pigmentosa',
             'Afhængighed af computerspil',
@@ -1634,7 +1634,7 @@ db.questions.save(
         chapters: ['21.6'],
         text: 'Hvad forstås ved Lyon-hypotesen?',
         answers: [
-            'Det er en særlig H',
+            'Det er en særlig hypotese fremsat i den franske by Lyon',
             'Hypotesen om at mænd kun har et X-kromosom',
             'Hypotesen om at mænd kun har et Y-kromosom',
             'En teori om, at det ene af kvindens X-kromosomer undertrykkes og inaktiveres'
@@ -1688,7 +1688,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Hvilken påstand om mitokondrierne er ikke korrekt?',
+        text: 'Hvilken påstand om mitokondrierne er forkert?',
         answers: [
             'De har deres eget DNA',
             'Deres gener koder især for enzymer i respirationen',
@@ -1786,10 +1786,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Giv et eksempel på et gen med ufuldstændig penetrans',
+        text: 'Hvilket er et eksempel på ufuldstændig penetrans',
         answers: [
             'Genet for muskelsvind',
-            'Genet for blodtyperne',
+            'Genet for blodtyperne (ABO)',
             'Genet for dværgvækst',
             'Genet for skøre knogler'
         ],
@@ -1814,7 +1814,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Hvad menes der, når man siger, at et gen er maternelt imprintet?',
+        text: 'Hvad menes, når man siger, at et gen er maternelt imprintet?',
         answers: [
             'At det kun kommer til udtryk, når det arves fra moderen',
             'At det undertrykkes, når det kommer fra moderen',
@@ -1842,7 +1842,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Giv et eksempel på en sygdom, der har noget med maternel imprinting at gøre',
+        text: 'Giv et eksempel på en sygdom, der har med maternel imprinting at gøre',
         answers: [
             'Brystkræft',
             'Downs syndrom',
@@ -1856,7 +1856,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Giv et eksempel på en sygdom, der har noget paternel imprinting at gøre',
+        text: 'Giv et eksempel på en sygdom, der har med paternel imprinting at gøre',
         answers: [
             'Prostatakræft',
             'Prader-Willis syndrom',
@@ -1872,10 +1872,10 @@ db.questions.save(
         chapters: ['21.7', '21.8'],
         text: 'Hvad vil det sige, at en celle er triploid?',
         answers: [
-            'At den har et ekstra sæt kromosomer',
+            'At den har et ekstra sæt kromosomer (3 stk af hver)',
             'At den har tre X-kromosomer',
-            'At den har tre eksemplarer af et af autosomerne',
-            'At den har tre eksemplarer af et af kønskromosomerne'
+            'At den har tre eksemplarer af et af autosomerne (oftest nr. 11)',
+            'At den har tre eksemplarer af et af kønskromosomerne (typisk Y-kromosomet)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1883,7 +1883,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Angelmans syndrom forårsages af et imprintet gen, der medfører sygdom',
             'Angelmans syndrom skyldes en deletion (gen fra mor) samt et imprintet gen (fra far)',
@@ -1896,7 +1896,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Prader-Willis syndrom forårsages af et imprintet gen, der medfører sygdom',
             'Prader-Willis syndrom skyldes en deletion (gen fra far) samt et imprintet gen (fra mor)',
@@ -1914,7 +1914,7 @@ db.questions.save(
             'At den har tre eller flere end tre eksemplarer af X-kromosomerne',
             'At den har tre eller flere kønskromosomer',
             'At den har tre eller flere eksemplarer af et af autosomerne',
-            'At den har tre eller flere sæt kromosomer'
+            'At den har tre eller flere eksemplarer af alle kromosomer'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1984,7 +1984,7 @@ db.questions.save(
             'Et individ med forskellig geno- og fænotyper i cellerne',
             'Et individ der både er han og hun',
             'En hermafrodit',
-            'E individ med for mange kromosomer '
+            'Et individ med for mange kromosomer'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2007,7 +2007,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Hvad menes der med en kimære?',
+        text: 'Hvad menes med en kimære?',
         answers: [
             'En fejlslagen fosterudvikling',
             'En blandingsorganisme mellem to fostre',
@@ -2035,7 +2035,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.7', '21.8'],
-        text: 'Hvad menes der med, at en kimære er tetra-gametisk?',
+        text: 'Hvad menes med, at en kimære er tetra-gametisk?',
         answers: [
             'Den er dannet ud fra fire ægceller',
             'Den kan danne 4 kønsceller ved kønscelledannelsen',
@@ -2053,7 +2053,7 @@ db.questions.save(
         answers: [
             'Om en befolkning vokser eller falder i antal',
             'Om de dominerende gener breder sig i befolkningen',
-            'Genernes hyppighed samt genotypernes fordeling i en befolkning',
+            'Genernes hyppigheder samt genotypernes fordelinger i en befolkning',
             'Om der er indvandring eller udvandring'
         ],
         type: 'multiple_text',
@@ -2067,7 +2067,7 @@ db.questions.save(
         answers: [
             'At den ikke vokser i størrelse',
             'At den ikke aftager i størrelse',
-            'At genernes hyppighed samt genotypernes fordeling er konstant',
+            'At genernes hyppigheder samt genotypernes fordelinger er konstant',
             'At der er den optimale aldersfordeling i populationen'
         ],
         type: 'multiple_text',
@@ -2081,7 +2081,7 @@ db.questions.save(
         answers: [
             'At populationen ikke vokser i størrelse',
             'At populationen ikke aftager i størrelse',
-            'At genernes hyppighed samt fordelingen af genotyper er konstant',
+            'At genernes hyppigheder samt fordelingen af genotyper er konstant',
             'At der er den optimale aldersfordeling i populationen'
         ],
         type: 'multiple_text',
@@ -2095,7 +2095,7 @@ db.questions.save(
         answers: [
             'At der til enhver tid er lige mange hanner og hunner',
             'At alle parrer sig frit med alle',
-            'At der ikke sker ind/ og udvandring',
+            'At der ikke sker ind- og udvandring',
             'At der ikke er nogen selektion'
         ],
         type: 'multiple_text',
@@ -2108,8 +2108,8 @@ db.questions.save(
         text: 'Hvorfor er genetikerne så vilde med enæggede tvillinger?',
         answers: [
             'Fordi de har samme fænotype',
-            'Fordi de har de samme køn',
-            'Fordi de har samme genotype, og måske forskelligt miljø',
+            'Fordi de har det samme køn',
+            'Fordi de har samme genotype og måske forskelligt miljø',
             'Fordi de har haft samme miljø i livmoderen'
         ],
         type: 'multiple_text',
@@ -2208,25 +2208,12 @@ db.questions.save(
             'Histonernes baserækkefølge',
             'Histonernes aminosyresekvens',
             'Hvordan histonerne kan påvirkes af forskellige miljøfaktorer',
-            'Histonernes tripletter og kodons '
+            'Histonernes tripletter og kodons'
         ],
         type: 'multiple_text',
         correct_answer: '2'
     });
 
-db.questions.save(
-    {
-        chapters: ['21.10'],
-        text: 'Hvordan forklarer man, at livsstil som fx kost og motion kan påvirke generne, så man fx bliver syg af kræft?',
-        answers: [
-            'Det kan man heller ikke endnu',
-            'Fordi der er en epigenetisk hukommelse',
-            'Fordi der opstår nye mutationer',
-            'Fordi fx mangel på motion kan nedbryde histonerne'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
 
 db.questions.save(
     {
@@ -2244,7 +2231,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.10'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Epigenetiske ændringer påvirker kun drengebørn',
             'Epigenetiske ændringer kan påvirke senere generationer',
@@ -2257,7 +2244,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['21.10'],
-        text: 'Hvilket udsagn er ikke korrekt?',
+        text: 'Hvilket udsagn er forkert?',
         answers: [
             'Stress-situationer medfører mutationer, der giver epigenetiske ændringer',
             'PTSD hos moderen kan udløse epigenetiske ændringer hos hendes foster',

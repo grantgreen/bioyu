@@ -68,6 +68,10 @@ db.questions.save(
         correct_answer: '2'
     });
 
+
+
+
+
 db.questions.save(
     {
         chapters: ['6.2'],
@@ -127,7 +131,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.2'],
-        text: 'Hvilket hormon er et eksempel på et parakrint hormon? ',
+        text: 'Hvilket hormon er et eksempel på et parakrint hormon?',
         answers: [
             'Interleukin',
             'Insulin',
@@ -151,6 +155,10 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+
+
+
 
 db.questions.save(
     {
@@ -393,7 +401,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.3'],
-        text: 'Hvilket hormon cirkulerer i blodet bundet til transportprotein?',
+        text: 'Hvilket hormon cirkulerer i blodet bundet til transportproteiner?',
         answers: [
             'Adrenalin',
             'Noradrenalin',
@@ -407,7 +415,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.3'],
-        text: 'Hvilket hormon er ikke bundet til transportprotein?',
+        text: 'Hvilket hormon er ikke bundet til transportproteiner i blodet?',
         answers: [
             'Glukagon',
             'Østrogen',
@@ -633,7 +641,7 @@ db.questions.save(
         chapters: ['6.3'],
         text: 'Hvilket formål har hormonet insulin?',
         answers: [
-            'At få cellerne til at optage glukose fra blodet ',
+            'At få cellerne til at optage glukose fra blodet',
             'At få cellerne til at spalte glukose',
             'At få lever og muskler til at afgive glukose til blodet',
             'At danne blodsukker'
@@ -647,7 +655,7 @@ db.questions.save(
         chapters: ['6.3'],
         text: 'Hvilket formål har hormonet glukagon?',
         answers: [
-            'At få cellerne til at optage glukose fra blodet ',
+            'At få cellerne til at optage glukose fra blodet',
             'At få cellerne til at spalte glukose',
             'At få lever og muskler til at afgive glukose til blodet',
             'At sænke blodsukkeret'
@@ -659,11 +667,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.3'],
-        text: 'Hvilket formål har hormonet gastrin? ',
+        text: 'Hvilket formål har hormonet gastrin?',
         answers: [
-            'At få celler i mavesækken til at udskille HCl og pepsin ',
+            'At få celler i mavesækken til at udskille HCl og pepsin',
             'At stimulere sultcentret',
-            'At få bugspytkirtlen til at udskille bugspyt ',
+            'At få bugspytkirtlen til at udskille bugspyt',
             'At stimulere mælkeproduktionen'
         ],
         type: 'multiple_text',
@@ -673,9 +681,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.3'],
-        text: 'Hvilken påstand om dannelsen af testosteron er korrekt? ',
+        text: 'Hvilken påstand om dannelsen af testosteron er korrekt?',
         answers: [
-            'Det dannes ud fra cortisol',
+            'Det dannes ud fra kortisol',
             'Det dannes ud fra østradiol',
             'Det dannes ud fra aldosteron',
             'Det dannes ud fra kolesterol'
@@ -691,12 +699,20 @@ db.questions.save(
         answers: [
             'Det dannes ud fra testosteron',
             'Det dannes ud fra progesteron',
-            'Det dannes ud fra cortisol',
+            'Det dannes ud fra kortisol',
             'Det dannes ud fra kolesterol'
         ],
         type: 'multiple_text',
         correct_answer: '2'
     });
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -719,7 +735,7 @@ db.questions.save(
         answers: [
             'Der dannes ATP, K-kanaler lukkes, Ca-kanaler åbnes, og insulin udskilles',
             'Der dannes ATP, K-kanaler åbnes, Ca-kanaler åbnes, og insulin udskilles ikke',
-            'Der dannes ATP, og Ca-kanaler lukkes, og insulin udskilles ikke.',
+            'Der dannes ATP, og Ca-kanaler lukkes, og insulin udskilles ikke',
             'ATP-dannelsen hæmmes, og glukagon udskilles'
         ],
         type: 'multiple_text',
@@ -929,7 +945,7 @@ db.questions.save(
         answers: [
             'Den nedsætter produktionen af kortisol',
             'Den nedsætter produktionen af ACTH',
-            'Den nedsætter produktionen af TSK',
+            'Den nedsætter produktionen af TSH',
             'Den nedsætter produktionen af FSH'
         ],
         type: 'multiple_text',
@@ -963,6 +979,16 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -1025,10 +1051,10 @@ db.questions.save(
         chapters: ['6.5'],
         text: 'Til hvilken stofgruppe hører steroidhormonerne?',
         answers: [
-            'Til lipiderne',
-            'Til kulhydraterne',
-            'Til glykoproteinerne',
-            'Til lipoproteinerne'
+            'Lipiderne',
+            'Kulhydraterne',
+            'Glykoproteinerne',
+            'Lipoproteinerne'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1061,6 +1087,17 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '3'
     });
+
+
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -1110,7 +1147,7 @@ db.questions.save(
         text: 'Hvad er insulinmolekylets C-kæde?',
         answers: [
             'Det er en af de tre aminosyrekæder, som insulin er opbygget af',
-            'Det er en aminosyrekæde, der fraspaltes proinsulinet, så det bliver til aktivt insulin',
+            'Det er en aminosyrekæde, der fraspaltes pro-insulin, så det bliver til aktivt insulin',
             'En aminosyrekæde, der findes i svineinsulin',
             'Det er de svovlbroer, der forbinder de to aminosyrekæder'
         ],
@@ -1221,10 +1258,10 @@ db.questions.save(
         chapters: ['6.6'],
         text: 'Hvad er kriteriet for hypoglykæmi?',
         answers: [
-            'Under 0,5 mmol/L',
-            'Under 1,5 mmol/L',
-            'Under 2,5 mmol/L',
-            'Under 7 mmol/L'
+            'Blodsukker under 0,5 mmol/L',
+            'Blodsukker under 1,5 mmol/L',
+            'Blodsukker under 2,5 mmol/L',
+            'Blodsukker under 7 mmol/L'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1333,10 +1370,10 @@ db.questions.save(
         chapters: ['6.6'],
         text: 'Hvad er der galt, hvis man lider af myxødem?',
         answers: [
-            'Man dannet for lidt thyroxin',
+            'Man danner for lidt thyroxin',
             'Man danner for meget thyroxin',
-            'Man danner for lidt cortisol',
-            'Man danner for meget cortisol'
+            'Man danner for lidt kortisol',
+            'Man danner for meget kortisol'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1468,6 +1505,17 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['6.7'],
@@ -1544,7 +1592,7 @@ db.questions.save(
         text: 'Hvad forstås ved en testosteron-antagonist?',
         answers: [
             'Det er et stof, der minder om og virker som testosteron',
-            'Det er et stof der bindes til testosterons receptorer uden at sætte en respons i gang',
+            'Det er et stof, der bindes til testosterons receptorer uden at sætte en respons i gang',
             'Det er et stof, der sætter gang i produktionen af testosteron',
             'Det er et stof, der nedsætter produktionen af testosteron'
         ],
@@ -1559,7 +1607,7 @@ db.questions.save(
         answers: [
             'Det bindes til og aktiverer testosteronreceptorerne',
             'Det bindes til testosteronreceptorerne uden at aktivere dem',
-            'Det giver dyrene (og mennesker) mere appetit på kød',
+            'Det giver dyr (og mennesker) mere appetit på kød',
             'Det bruges i industrien til at klistre små kødstykker sammen til fx bøffer'
         ],
         type: 'multiple_text',
@@ -1573,7 +1621,7 @@ db.questions.save(
         answers: [
             'Det bindes til og aktiverer testosteronreceptorerne',
             'Det bindes til testosteronreceptorerne uden at aktivere dem',
-            'Det giver dyrene (og mennesker) mere appetit på kød ',
+            'Det giver dyr (og mennesker) mere appetit på kød',
             'Det bruges i industrien til at klistre små kødstykker sammen til fx bøffer'
         ],
         type: 'multiple_text',
@@ -1587,8 +1635,8 @@ db.questions.save(
         answers: [
             'Fordi det øger konditionen',
             'Fordi det giver en højere hæmatokrit ligesom EPO',
-            'Fordi det giver et større antal mitokondrier og dermed muligheden for at danne mere ATP ',
-            'Fordi det stimulerer proteinsyntesen og dermed dannelsen af muskelprotein '
+            'Fordi det giver et større antal mitokondrier og dermed muligheden for at danne mere ATP',
+            'Fordi det stimulerer proteinsyntesen og dermed dannelsen af muskelprotein'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1597,11 +1645,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.7'],
-        text: 'Hvordan kan østrogenlignende stoffer i de gravides miljø, påvirke fostrenes udvikling?',
+        text: 'Hvordan kan østrogenlignende stoffer i de gravides miljø påvirke fostrenes udvikling?',
         answers: [
             'Fordi fostrene vil danne flere østrogenreceptorer',
-            'For fostrene vil danne færre østrogenreceptorer',
-            'Fordi det hæmmer fostrenes FSH og dermed kønsudviklingen',
+            'Fordi fostrene vil danne færre østrogenreceptorer',
+            'Fordi de hæmmer fostrenes FSH og dermed kønsudviklingen',
             'Fordi de stimulerer fostrenes FSH og dermed kønsudviklingen'
         ],
         type: 'multiple_text',
@@ -1613,7 +1661,7 @@ db.questions.save(
         chapters: ['6.7'],
         text: 'Hvordan kan østrogenlignende stoffer i miljøet føre til nedsat sædkvalitet hos mænd?',
         answers: [
-            'Fordi deres testosteron nedbrydes for hurtigt ',
+            'Fordi deres testosteron nedbrydes for hurtigt',
             'Fordi stofferne virker som gift på levende sædceller, da de hæmmer deres mitokondrier',
             'Fordi stofferne stimulerer hypofysen til at danne FSH, hvilket hæmmer sædcelledannelsen',
             'Fordi stofferne hæmmer hypofysens produktion af FSH og dermed sædcelledannelsen'
@@ -1653,10 +1701,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['6.7'],
-        text: 'Hvad er kryptorkisme? ',
+        text: 'Hvad er kryptorkisme?',
         answers: [
             'For små sædceller',
-            'For små testikler, fx som følge af doping med steroider',
+            'For små testikler fx som følge af doping med steroider',
             'Testikler, der ikke er sunket ned i pungen',
             'Et forstadie til testikelkræft'
         ],

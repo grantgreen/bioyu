@@ -23,6 +23,7 @@ var links = {
 		{"caption":"Gene Drive 2","link":"https://www.youtube.com/watch?v=G1L0G00nCM8"},
 		{"caption":"Gene Drive 3","link":"https://www.youtube.com/watch?v=KgvhUPiDdq8"},
 		{"caption":"Gene Drive 1","link":"https://www.youtube.com/watch?v=OI_OhvOumT0"},
+		{"caption":"Sangersekventering og kapillærelektroforese","link":"https://www.youtube.com/watch?v=wdS3j0TgbjM&ab_channel=BiologywithAnimations"},
 		   ,{"color": "#6DC0B4"},
 		{"caption": "Videnskab.dk", "link": "http://www.videnskab.dk"},
 		{"caption": "Aktuel Naturvidenskab","link": "http://aktuelnaturvidenskab.dk"},

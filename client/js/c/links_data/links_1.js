@@ -83,6 +83,6 @@ var links = {
 	{"caption": "Ebola",
 	 "link": "http://msf.dk/sygdomme/ebola/"},
 	 {"caption":"Evolution hos Pock Rocket mus", "link":"https://www.youtube.com/watch?v=sjeSEngKGrg"},
-
+	{"caption":"Statens Serum Institut","link":"https://www.ssi.dk/"},
     ]
 }

@@ -53,6 +53,7 @@ var links = {
 	{"caption": "Videnskab.dk",
 	 "link": "http://www.videnskab.dk"},
 	{"caption": "Naturstyrelsen",
-	 "link": "http://naturstyrelsen.dk"}
+	 "link": "http://naturstyrelsen.dk"},
+	 {"caption":"Statens Serum Institut","link":"https://www.ssi.dk/"}
     ]
 }

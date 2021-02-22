@@ -48,7 +48,7 @@ db.questions.save(
             'Ribose',
             'Ribosenukleotid',
             'Ribosom-units',
-            'Ribo-nucleic-acid'
+            'Ribo-nucleic acid'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.2'],
-        text: 'Hvilket stof kan også kaldes ribo-nucleic-acid?',
+        text: 'Hvilket stof kan også kaldes ribo-nucleic acid?',
         answers: [
             'Ribose',
             'Ribosefosfat',
@@ -75,7 +75,7 @@ db.questions.save(
         answers: [
             'Adenin',
             'Thymin',
-            'Uracil ',
+            'Uracil',
             'Guanin'
         ],
         type: 'multiple_text',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvad menes der med ”sense-strengen”?',
+        text: 'Hvad menes med ”sense-strengen”?',
         answers: [
             'Den streng, hvor genet sidder',
             'Den ikke-kodende streng',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvad menes der med ”den kodende streng”?',
+        text: 'Hvad menes med ”den kodende streng”?',
         answers: [
             'Den streng, hvor genet er placeret',
             'Den ikke kodende streng',
@@ -197,7 +197,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvad menes der med ”antisense-strengen”?',
+        text: 'Hvad menes med ”antisense-strengen”?',
         answers: [
             'Den streng, hvor genet er placeret',
             'Den ikke-kodende DNA-streng',
@@ -211,7 +211,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvad menes der med ”skabelonstrengen”?',
+        text: 'Hvad menes med ”skabelonstrengen”?',
         answers: [
             'Den streng, hvor genet er placeret',
             'Den ikke-kodende streng',
@@ -256,7 +256,7 @@ db.questions.save(
         text: 'Hvilket udsagn om RNA-polymerase er korrekt?',
         answers: [
             'Der findes ikke RNA-polymerase hos mennesket',
-            'Der findes flere forskellige typer',
+            'Der findes flere forskellige typer RNA-polymeraser',
             'Den sætter nukleotider på RNA i 3 mod 5-retningen',
             'Den virker som startkode for aflæsningen'
         ],
@@ -285,7 +285,7 @@ db.questions.save(
         answers: [
             'Den sætter nukleotider sammen i 5 mod 3-retningen',
             'Den sætter nukleotider på i 3 mod 5-retningen',
-            'Den kan sætte nukleotider på i begge molekylets retninger ',
+            'Den kan sætte nukleotider på i begge molekylets retninger',
             'RNA-polymerasen er et dobbeltstrenget RNA-molekyle'
         ],
         type: 'multiple_text',
@@ -295,7 +295,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvor mange forskellige RNA-nukleotider findes der?',
+        text: 'Hvor mange forskellige RNA-nukleotider findes?',
         answers: [
             '2',
             '3',
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'Hvilket basepar kan der dannes i dobbeltstrenget RNA?',
+        text: 'Hvilket basepar kan dannes i dobbeltstrenget RNA?',
         answers: [
             'A og T',
             'A og U',
@@ -337,7 +337,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.3'],
-        text: 'På sensestrengen i DNA er rækkefølgen:',
+        text: 'På sensestrengen i DNA er rækkefølgen',
         answers: [
             'Startkode, promotor, stopsignal, stopkode',
             'Startkode, promotor, stopkode, stopsignal',
@@ -466,7 +466,7 @@ db.questions.save(
         text: 'Hvilket udsagn om splice-mutationer er korrekt?',
         answers: [
             'De får normalt ingen betydning',
-            'De resulterer i et forkert mRNA, så der dannes et ikke fungerende protein',
+            'De resulterer i et forkert mRNA, så der dannes et ikke-fungerende protein',
             'De resulterer i forkert foldet DNA',
             'De resulterer i et forkert RNA, men det vil normalt ikke have betydning for funktionen'
         ],
@@ -607,7 +607,7 @@ db.questions.save(
         answers: [
             'Small nuclear RNA',
             'Short nuclear RNA',
-            'Semi Nukleotid RNA',
+            'Semi nukleotid RNA',
             'Small number of RNA'
         ],
         type: 'multiple_text',
@@ -717,10 +717,10 @@ db.questions.save(
         chapters: ['20.4'],
         text: 'Hvad forstås ved et kodon?',
         answers: [
-            '1 base, der koder for en aminosyre',
-            '2 baser, der koder for en aminosyre',
-            '3 baser, der koder for en aminosyre',
-            '4 baser, der koder for en aminosyre'
+            '1 base (nukleotid), der koder for en aminosyre',
+            '2 baser (nukleotider), der koder for en aminosyre',
+            '3 baser (nukleotider), der koder for en aminosyre',
+            '4 baser (nukleotider), der koder for en aminosyre'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -743,10 +743,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.4'],
-        text: 'Hvad har Golgi-apparatet i celle med proteindannelsen at gøre?',
+        text: 'Hvad har Golgi-apparatet med proteindannelsen at gøre?',
         answers: [
             'Her kan exons sammenkobles',
-            'Her kan proteiner modificeres, fx ved at fjerne fosfatgrupper og sukkermolekyler',
+            'Her kan proteiner modificeres fx ved at fjerne fosfatgrupper og sukkermolekyler',
             'Her kan aminosyrerne kobles sammen til peptider',
             'Her kan proteiner modificeres fx ved at påsætte fosfatgrupper og sukkermolekyler'
         ],
@@ -790,7 +790,7 @@ db.questions.save(
             'Med tRNA',
             'Med en transferase',
             'Ved aktiv transport',
-            'Ud gennem kerneporerne'
+            'Gennem kerneporerne'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -883,7 +883,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: 'Hvad svarer i mRNA til sensestrengens 5-ATG-3?',
+        text: 'Hvad svarer på mRNA til sensestrengens 5-ATG-3?',
         answers: [
             '5-AUG-3',
             '5-UUG-3',
@@ -897,7 +897,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: 'Hvad svarer i mRNA til antisensestrengens 3-TAC-5',
+        text: 'Hvad svarer på mRNA til antisensestrengens 3-TAC-5',
         answers: [
             '5-AUG-3',
             '3-UUG-5',
@@ -911,7 +911,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: 'Hvis sense-strengen hedder 5-TTG-3, så bliver mRNA?',
+        text: 'Hvis sense-strengen hedder 5-TTG-3, hvad bliver koden så på mRNA?',
         answers: [
             '5-AUG-3',
             '5-UUG-3',
@@ -925,7 +925,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: 'Hvis antisense-strengen hedder 3-AGA-5, så bliver mRNA?',
+        text: 'Hvis antisense-strengen hedder 3-AGA-5, hvad bliver koden så på mRNA?',
         answers: [
             '5-AUG-3',
             '3-UUG-5',
@@ -939,7 +939,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: '5-UUG-3 i mRNA svarer til hvad på sensestrengen?',
+        text: '5-UUG-3 i mRNA svarer til hvilken kode på sensestrengen?',
         answers: [
             '3-TTT-5',
             '5-TTG-3',
@@ -953,7 +953,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: '5-UAG-3 i mRNA svarer til hvad på antisensestrengen?',
+        text: '5-UAG-3 i mRNA svarer til hvilken kode på antisensestrengen?',
         answers: [
             '3-UAG-5',
             '3-ATC-5',
@@ -967,12 +967,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.5'],
-        text: 'Hvorfor starter proteiner tilsyneladende altid med aminosyren methionin?',
+        text: 'Hvorfor begynder proteiner tilsyneladende altid med aminosyren methionin?',
         answers: [
-            'Fordi startkoden på sense-strengen er ATG',
-            'Fordi startkoden på sensestrengen er CCA',
-            'Fordi startkoden på sensestrengen er TTG',
-            'Fordi startkoden på sensestrengen er TAG '
+            'Fordi startkoden på sensestrengen er 5-ATG-3',
+            'Fordi startkoden på sensestrengen er 5-CCA-3',
+            'Fordi startkoden på sensestrengen er 3-TTG-5',
+            'Fordi startkoden på sensestrengen er 3-TAG-5 '
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1026,8 +1026,8 @@ db.questions.save(
         text: 'Hvorfor dannes der ikke insulin i øjets nethinde?',
         answers: [
             'Fordi der ikke er gener for insulindannelse i øjet',
-            'Det gør der også i små mængder',
-            'Insulingenet er nedreguleret i nethinden',
+            'Det gør der også, men i små mængder',
+            'Fordi insulingenet er nedreguleret i nethinden',
             'Fordi insulin nedbrydes af proteaser, så snart det er dannet'
         ],
         type: 'multiple_text',
@@ -1098,7 +1098,7 @@ db.questions.save(
             'RNA-gener, der kan opregulere gener',
             'RNA-gener, der kan nedregulere gener',
             'RNA-gener, der kan nedregulere og opregulere gener',
-            'DNA, der har indvirkning på RNA-dannelsen'
+            'DNA-gener, der har indvirkning på RNA-dannelsen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1149,7 +1149,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.6'],
-        text: 'Hvad menes der med dsRNA?',
+        text: 'Hvad menes med dsRNA?',
         answers: [
             'Dobbeltstrenget RNA',
             'Enkeltstrenget RNA',
@@ -1236,7 +1236,7 @@ db.questions.save(
         text: 'Hvad forstås ved en metylering af et gen?',
         answers: [
             'At der fraspaltes metylgrupper fra DNA',
-            'At der fraspaltes metylgruppr fra RNA',
+            'At der fraspaltes metylgrupper fra RNA',
             'At der påsættes metylgrupper på DNA',
             'At der påsættes metylgrupper på RNA'
         ],
@@ -1266,7 +1266,7 @@ db.questions.save(
             'Fordi proteomet nedbrydes',
             'Fordi mrNA nedbrydes',
             'Fordi tRNA inaktiveres',
-            'Fordi histonerne pakkes tæt om genet, så polymerasen ikke kan bindes '
+            'Fordi histonerne pakkes tæt om genet, så polymerasen ikke kan bindes'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1348,7 +1348,7 @@ db.questions.save(
         text: 'Hvad forstås ved en transkriptionsfaktor?',
         answers: [
             'Et stof, der hæmmer transkriptionen',
-            'Et stof der stimulerer transkriptionen',
+            'Et stof, der stimulerer transkriptionen',
             'Et stof, der hæmmer translationen',
             'Et stof, der stimulerer translationen'
         ],
@@ -1387,12 +1387,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['20.6'],
-        text: 'Hvordan kan et steroidhormon aktivere et gen i cellekernen?',
+        text: 'Hvorfor kan et steroidhormon aktivere et gen i cellekernen?',
         answers: [
             'Fordi det metylerer genet',
             'Fordi det acetylerer genet',
             'Fordi hormon-receptor-komplekset bindes til promotoren',
-            'Fordi hormon-receptorkomplekset hæmmer konsensus-promotoren '
+            'Fordi hormon-receptorkomplekset hæmmer konsensus-promotoren'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1406,7 +1406,7 @@ db.questions.save(
             'Fordi der ikke dannes testosteron i hjernen',
             'Fordi der ikke findes receptorer for testosteron i hjernen',
             'Fordi der ikke findes gener for muskelprotein i hjernen',
-            'Fordi hjernens gener for muskelprotein er ikke har nogen promotor'
+            'Fordi hjernens gener for muskelprotein ikke har nogen promotor'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1445,7 +1445,7 @@ db.questions.save(
         text: 'Hvilket udsagn om DNA-splejsning og livslængde er korrekt?',
         answers: [
             'Der er en sammenhæng mellem god DNA-splejsning gennem livet og et langt liv',
-            'Der er en sammenhæng mellem en dårlig DNA-splejsning gennem livet og et langt liv',
+            'Der er en sammenhæng mellem dårlig DNA-splejsning gennem livet og et langt liv',
             'Der er en sammenhæng mellem god DNA-splejsning gennem livet og et kort liv',
             'Der er ingen sammenhæng'
         ],

@@ -44,7 +44,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.1'],
-	text: 'Hvilket udsagn om de organiske stoffer er ikke korrekt?',
+	text: 'Hvilket udsagn om de organiske stoffer er forkert?',
         answers: [
 	    'De findes ikke i de levende organismer, men kun i det omgivende miljø',
 	    'Kulhydrat er et organisk stof',
@@ -147,10 +147,10 @@ db.questions.save(
 	chapters: ['13.2'],
 	text: 'Hvad forstås ved glykoproteiner?',
         answers: [
-	    'Molekyler der består af kulhydrat og protein',
-	    'Molekyler der kun består af kulhydrater',
-	    'Molekyler der består af kulhydrat og fedt',
-	    'Molekyler der kun består af protein'
+	    'Molekyler, der består af kulhydrat og protein',
+	    'Molekyler, der kun består af kulhydrater',
+	    'Molekyler, der består af kulhydrat og fedt',
+	    'Molekyler, der kun består af protein'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -173,7 +173,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvilket udsagn om fotosyntesen er ikke sandt?',
+	text: 'Hvilket udsagn om fotosyntesen er forkert?',
         answers: [
 	    'Der dannes CO<span style="vertical-align:sub; font-size:58%;">2</span>',
 	    'Der dannes O<span style="vertical-align:sub; font-size:58%;">2</span>',
@@ -428,7 +428,7 @@ db.questions.save(
 	text: 'Hvad forstås ved en aldohexose?',
         answers: [
 	    'Et monosakkarid med 6 C-atomer og en aldehydgruppe',
-	    'Et monosakkarid med 4 C-atomer og en aldehydgruppe ',
+	    'Et monosakkarid med 4 C-atomer og en aldehydgruppe',
 	    'Et monosakkarid med 5 C-atomer og en aldehydgruppe',
 	    'Et monosakkarid med 7 C-atomer og en aldehydgruppe'
 	],
@@ -621,7 +621,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvilket udsagn om laktose er ikke sandt?',
+	text: 'Hvilket udsagn om laktose er forkert?',
         answers: [
 	    'Det findes i søde frugter',
 	    'Det består af galaktose og glukose',
@@ -691,7 +691,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvor mange laktose-intolerante findes der i Danmark?',
+	text: 'Hvor mange laktose-intolerante findes i Danmark?',
         answers: [
 	    '2-8 %',
 	    '0 %',
@@ -705,7 +705,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvor mange laktose-intolerante findes der omkring ækvator?',
+	text: 'Hvor mange laktose-intolerante findes omkring ækvator?',
         answers: [
 	    '75-100 %',
 	    '0 %',
@@ -775,7 +775,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvor meget glykogen findes der i et menneske?',
+	text: 'Hvor meget glykogen findes i et menneske?',
         answers: [
 	    '500-600 g',
 	    'Ca. 100 g',
@@ -789,7 +789,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvor meget glykogen findes der i leveren hos et menneske?',
+	text: 'Hvor meget glykogen findes i leveren hos et menneske?',
         answers: [
 	    'Ca. 100 g',
 	    'Ca. 200 g',
@@ -803,7 +803,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvor meget glykogen findes der i musklerne hos et menneske?',
+	text: 'Hvor meget glykogen findes i musklerne hos et menneske?',
         answers: [
 	    '400-500 g',
 	    '600-700 g',
@@ -845,7 +845,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.2'],
-	text: 'Hvilket udsagn om cellulose er ikke sandt?',
+	text: 'Hvilket udsagn om cellulose er forkert?',
         answers: [
 	    'Det er opbygget af kæder af fruktosemolekyler',
 	    'Det findes i planternes cellevægge',
@@ -1041,7 +1041,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.3'],
-	text: 'Hvilken type af fedt er der mest af i vores fedtdepoter?',
+	text: 'Hvilken type fedt er der mest af i vores fedtdepoter?',
         answers: [
 	    'Triglycerid',
 	    'Peptid',
@@ -1172,7 +1172,7 @@ db.questions.save(
 	    'En fedtsyre med én eller flere dobbeltbindinger',
 	    'En fedtsyre uden dobbeltbindinger',
 	    'En fedtsyre med kun én dobbeltbinding',
-	    'En fedtsyre med flere dobbeltbindinger'
+	    'En fedtsyre med mange dobbeltbindinger'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1185,7 +1185,7 @@ db.questions.save(
         answers: [
 	    'En fedtsyre uden dobbeltbindinger',
 	    'En fedtsyre med én eller flere dobbeltbindinger',
-	    'En fedtsyre med flere dobbeltbindinger',
+	    'En fedtsyre med mange dobbeltbindinger',
 	    'En fedtsyre med kun én dobbeltbinding'
 	],
 	type: 'multiple_text',
@@ -1200,7 +1200,7 @@ db.questions.save(
 	    'En fedtsyre med kun én dobbeltbinding',
 	    'En fedtsyre med én eller flere dobbeltbindinger',
 	    'En fedtsyre uden dobbeltbindinger',
-	    'En fedtsyre med flere dobbeltbindinger'
+	    'En fedtsyre med mange dobbeltbindinger'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'
@@ -1282,7 +1282,7 @@ db.questions.save(
 	text: 'Hvad forstås ved LDL-kolesterol?',
         answers: [
 	    'Det skadelige kolesterol (”lorte-kolesterol”)',
-	    'Det herlige kolesterol',
+	    'Det gode kolesterol ("lækre-kolesterol")',
 	    'En form for triglycerid',
 	    'Blodets kulhydrat'
 	],
@@ -1321,7 +1321,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.3'],
-	text: 'Hvordan regulerer prokaryoter cellemembranens viskositet? ',
+	text: 'Hvordan regulerer prokaryoter cellemembranens viskositet?',
         answers: [
 	    'Ved at variere antallet af umættede fedtsyrer i fosfolipiderne',
 	    'Ved at variere mængden af kolesterol',
@@ -1335,7 +1335,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.3'],
-	text: 'Hvordan regulerer eukaryoter cellemembranens viskositet? ',
+	text: 'Hvordan regulerer eukaryoter cellemembranens viskositet?',
         answers: [
 	    'Ved at variere mængden af kolesterol',
 	    'Ved at variere antallet af umættede fedtsyrer i fosfolipiderne',
@@ -1377,7 +1377,7 @@ db.questions.save(
 db.questions.save(
     {
 	chapters: ['13.4'],
-	text: 'Hvilket udsagn om proteiner er ikke sandt?',
+	text: 'Hvilket udsagn om proteiner er forkert?',
         answers: [
 	    'De indgår i glykogen i musklerne',
 	    'De kan forbrændes i mitokondrierne',
@@ -1631,10 +1631,10 @@ db.questions.save(
 	chapters: ['13.4'],
 	text: 'Hvad vil det sige, at et protein denaturerer?',
         answers: [
-	    'At den sekundære og tertiære struktur forsvinder',
-	    'At peptidbindingerne spaltes',
-	    'At proteinet spaltes af enzymet protease',
-	    'At glykosidbindingerne spaltes'
+	    'At den sekundære og tertiære struktur forsvinder, og proteinet ødelægges',
+	    'At peptidbindingerne spaltes så proteinet ødelægges',
+	    'At proteinet spaltes af enzymet protease og ødelægges',
+	    'At glykosidbindingerne spaltes, og proteinet ødelægges'
 	],
 	type: 'multiple_text',
 	correct_answer: '0'

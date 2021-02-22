@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.1'],
-        text: 'Den kemiske betegnelse for nitrat er ',
+        text: 'Den kemiske betegnelse for nitrat er',
         answers: [
             'NO',
             'NO<span style="vertical-align:sub; font-size:58%;">2</span><span style="vertical-align:super; font-size:58%;">-</span>',
@@ -146,7 +146,7 @@ db.questions.save(
             'DOM ædes af jordens smådyr',
             'DOM omdannes til humus',
             'DOM nedbrydes og mineraliseres',
-            'DOM indgår i fotosyntesen '
+            'DOM indgår i fotosyntesen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -160,7 +160,7 @@ db.questions.save(
             'DOM ædes af jordens smådyr',
             'DOM omdannes til humus',
             'DOM nedbrydes og mineraliseres',
-            'DOM indgår i fotosyntesen '
+            'DOM indgår i fotosyntesen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -510,7 +510,7 @@ db.questions.save(
             'Det kan ikke nedbrydes',
             'Det er hurtigt nedbrydeligt',
             'Det er langsomt nedbrydeligt',
-            'Det kan kun nedbrydes ved lav pH-værdi '
+            'Det kan kun nedbrydes ved lav pH-værdi'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -536,7 +536,7 @@ db.questions.save(
         text: 'Hvorfor vil C/N-forholdet i DOM ændre sig under den bakterielle nedbrydning?',
         answers: [
             'Fordi bakterierne bruger C til fotosyntese',
-            'Fordi bakterierne udskiller C i form af kuldioxid ',
+            'Fordi bakterierne udskiller C i form af kuldioxid',
             'Fordi bakterierne optager N fra materialet',
             'Det er der endnu ingen forklaring på'
         ],
@@ -575,7 +575,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.2'],
-        text: 'Om de fleste svampe gælder, at de er:',
+        text: 'Om de fleste svampe gælder, at de er',
         answers: [
             'Autotrofe',
             'Snyltere',
@@ -608,7 +608,7 @@ db.questions.save(
             'Fordi de hæver pH-værdien',
             'Fordi de sænker pH-værdien',
             'Fordi de giver det organiske materiale en større samlet overflade',
-            'Fordi de er så mange og store, og derfor kan nedbryde mere DOM end bakterierne'
+            'Fordi de er så mange og store og derfor kan nedbryde mere DOM end bakterierne'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -659,7 +659,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Hvordan kommer C-atomerne tilbage til atmosfæren fra de levende organismer? ',
+        text: 'Hvordan kommer C-atomerne tilbage til atmosfæren fra de levende organismer?',
         answers: [
             'Via bakteriernes fotosyntese',
             'Via respirationen og gæringsprocesser',
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Ved en pH-værdi på 8 er fordelingen af C-forbindelser i havet:',
+        text: 'Ved en pH-værdi på 8 er fordelingen af C-forbindelser i havet',
         answers: [
             '1 % CO<span style="vertical-align:sub; font-size:58%;">2</span>, 7 % HCO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>, 92 % CO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>',
             '92 % CO<span style="vertical-align:sub; font-size:58%;">2</span>, 7 % HCO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>, 1 % CO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>',
@@ -729,7 +729,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Ved faldende pH-værdi i havet vil fordelingen af C-forbindelser ændres så:',
+        text: 'Ved faldende pH-værdi i havet vil fordelingen af C-forbindelser ændres, så',
         answers: [
             'Der bliver mindre CO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>',
             'Der bliver mindre HCO<span style="vertical-align:sub; font-size:58%;">3</span><span style="vertical-align:super; font-size:58%;">-</span>',
@@ -855,7 +855,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Om nitrifikation gælder, at:',
+        text: 'Om nitrifikation gælder, at',
         answers: [
             'Den kan forløbe både med og uden ilt',
             'Den er energikrævende',
@@ -942,7 +942,7 @@ db.questions.save(
         text: 'Hvilket udsagn om denitrifikation er korrekt?',
         answers: [
             'Processen er iltkræveende',
-            'Processen danner nitrat ',
+            'Processen danner nitrat',
             'Det er en form for anaerob respiration',
             'Den kan udføres af Nitrobacter'
         ],
@@ -953,7 +953,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Hvilket udsagn om denitrifikation er ikke korrekt?',
+        text: 'Hvilket udsagn om denitrifikation er forkert?',
         answers: [
             'Processen er anaerob',
             'Processen danner N<span style="vertical-align:sub; font-size:58%;">2</span>',
@@ -1053,10 +1053,10 @@ db.questions.save(
         chapters: ['27.3'],
         text: 'Hvilken plantefamilie lever i symbiose med Rhizobium-bakterier?',
         answers: [
-            'Kurvblomst familien',
+            'Kurvblomst-familien',
             'Skærmplante-familien',
-            'Ranunkelfamilien',
-            'Ærteblomstfamilien'
+            'Ranunkel-familien',
+            'Ærteblomst-familien'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1331,7 +1331,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Hvilket organisk stof indeholder ikke fosfor (p)?',
+        text: 'Hvilket organisk stof indeholder ikke fosfor (P)?',
         answers: [
             'DNA',
             'RNA',
@@ -1443,7 +1443,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['27.3'],
-        text: 'Hvor stor en procentdel af verdens vand findes i havene? ',
+        text: 'Hvor stor en procentdel af verdens vand findes i havene?',
         answers: [
             'Ca. 10 %',
             'Ca. 50 %',

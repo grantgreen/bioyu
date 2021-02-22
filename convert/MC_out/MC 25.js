@@ -1,10 +1,10 @@
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvad forstås ved genetisk modificerede mikroorganismer?',
         answers: [
             'At de er tilpasset til deres miljø',
-            'At de er højt udviklede ',
+            'At de er højt udviklede',
             'At de har fået indsat et gen fra en anden organisme',
             'At de kan bruges til produktion i industrien'
         ],
@@ -14,7 +14,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilken vektor kan bruges til overførsel af et gen?',
         answers: [
             'Et enzym',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvad forstås ved en vektor?',
         answers: [
             'Noget der kan transportere fx et gen',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Mikrofiltration er filtration under tryk gennem et filter med følgende porestørrelse',
         answers: [
             'Over 0,1 mikrometer',
@@ -56,8 +56,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
-        text: 'Ultrafiltration er filtration under tryk gennem et filter med følgende porestørrelse ',
+        chapters: ['25.2'],
+        text: 'Ultrafiltration er filtration under tryk gennem et filter med følgende porestørrelse',
         answers: [
             'Over 0,1 mikrometer',
             'Over 0,1 millimeter',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Til hvilken gruppe svampe hører Aspergillus niger?',
         answers: [
             'Gærsvampe',
@@ -84,7 +84,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvorfor er skimmelsvampe så gode til fremstilling af forskellige proteinprodukter?',
         answers: [
             'Fordi de vokser så hurtigt',
@@ -98,7 +98,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilket udsagn om skimmelsvampe er ikke korrekt?',
         answers: [
             'De folder de dannede proteiner på den rette måde',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvordan lever en saprofyt?',
         answers: [
             'Den lever som snylter på andre organismer',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvordan lever en såkaldt rådplante?',
         answers: [
             'Den snylter på andre organismer',
@@ -140,12 +140,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvad forstås ved inducerede mutationer?',
         answers: [
             'Medfødte mutationer',
             'Mutationer opstået ved en tilfældighed senere',
-            'Mutationer fremkaldt fx med stråling',
+            'Mutationer kunstigt fremkaldt fx med stråling',
             'Mutationer i bakterier'
         ],
         type: 'multiple_text',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilken påstand om enzymer er korrekt?',
         answers: [
             'Enzymer hører til polysakkariderne',
@@ -168,8 +168,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
-        text: 'Hvilken påstand om enzymer er ikke korrekt?',
+        chapters: ['25.2'],
+        text: 'Hvilken påstand om enzymer er forkert?',
         answers: [
             'De kan få kemiske processer til at forløbe hurtigere',
             'De kan få kemiske processer til at forløbe ved moderate temperaturer',
@@ -182,7 +182,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke pletter kan fjernes af proteaser?',
         answers: [
             'Pletter af proteiner',
@@ -196,7 +196,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke pletter kan fjernes af lipaser?',
         answers: [
             'Pletter af proteiner',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke pletter kan fjernes af laktaser?',
         answers: [
             'Pletter af proteiner',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke pletter kan fjernes af amylaser?',
         answers: [
             'Pletter af proteiner',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvad forstås ved hydrolaser?',
         answers: [
             'Enzymer der spalter fedt',
@@ -252,8 +252,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
-        text: 'Hvad er der specielt ved enzymet Termamyl ?',
+        chapters: ['25.2'],
+        text: 'Hvad er der specielt ved enzymet Termamyl?',
         answers: [
             'Det er et stivelsesspaltende enzym',
             'Det er en amylase',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvad kaldes bakterier, der kan leve i kolde omgivelser?',
         answers: [
             'Termofile bakterier',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvorfor tilsætter man ofte enzymer som fx glukoseoxidase til tandpasta?',
         answers: [
             'Fordi de virker bakteriedræbende',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer kan bruges i rensevæske til kontaktlinser?',
         answers: [
             'Glukoseoxidaser',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilket organisk stof består bomuld hovedsageligt af?',
         answers: [
             'Cellulose',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilket enzym kan spalte cellulose?',
         answers: [
             'Cellobiose',
@@ -336,7 +336,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilket organisk stof består uld hovedsageligt af?',
         answers: [
             'Cellulose',
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilket organisk stof består silke hovedsageligt af?',
         answers: [
             'Cellulose',
@@ -364,7 +364,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvorfor bruges cellulaser i bomuldsindustrien?',
         answers: [
             'For af fjerne fnuller af stivelse',
@@ -378,7 +378,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer må ikke findes i uldvaskemiddel?',
         answers: [
             'Proteaser',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer må ikke findes i vaskemiddel til silke?',
         answers: [
             'Proteaser',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer bruges i industrien til at gøre uldfibre mere glatte?',
         answers: [
             'Cellulaser',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer bruges i industrien til at gøre silkefibre mere glatte?',
         answers: [
             'Cellulaser',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['25.1', '25.2'],
+        chapters: ['25.2'],
         text: 'Hvilke enzymer bruges i industrien til at gøre bomuldsfibre mere glatte?',
         answers: [
             'Cellulaser',
@@ -445,6 +445,13 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -466,7 +473,7 @@ db.questions.save(
         text: 'Hvad er gærcellernes substrat (hvad lever de af)?',
         answers: [
             'Vin',
-            'Gær ',
+            'Gær',
             'Stivelse og cellulose',
             'Glukose og fruktose'
         ],
@@ -603,7 +610,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.3'],
-        text: 'Hvad menes der med pasteurisering af øllet?',
+        text: 'Hvad menes med pasteurisering af øllet?',
         answers: [
             'Tilsætning af humle',
             'Tilsætning af CO<span style="vertical-align:sub; font-size:58%;">2</span> så øllet bruser',
@@ -1081,12 +1088,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.4'],
-        text: 'Hvad forstås ved functional foods?',
+        text: 'Hvad forstås ved begrebet "functional foods"?',
         answers: [
             'Føde der fungerer godt for alle mennesker',
             'Føde der fremstilles til det enkelte menneske',
             'Føde der er beriget fx med forskellige former for medicin',
-            'Føde som vore forfædre i stenalderen spiste '
+            'Føde som vore forfædre i stenalderen spiste'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1112,7 +1119,7 @@ db.questions.save(
         text: 'Hvilket udsagn om functional food er korrekt?',
         answers: [
             'I DK kan man købe brød beriget med omega-6 fedtsyrer',
-            'I DK kan man køber slik beriget med vitaminer',
+            'I DK kan man købe slik beriget med vitaminer',
             'I Japan er man meget tilbageholdende med at tillade functional foods',
             'I DK kan man købe chokolade beriget med flere typer mineraler'
         ],
@@ -1263,12 +1270,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvad menes der med en anaerob proces?',
+        text: 'Hvad menes med en anaerob proces?',
         answers: [
             'En proces, der forløber uden brug af ilt',
             'En proces, der både kan forløbe med og uden ilt',
             'En proces, der forløber under forbrug af ilt',
-            'En proces der forløber uden ilt og kun kan udføres af bakterier og arkæer'
+            'En proces, der forløber uden ilt og kun kan udføres af bakterier og arkæer'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1347,7 +1354,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvad spaltes fedtstofferne til af enzymerne?',
+        text: 'Hvad spaltes fedtstoffer til af enzymerne?',
         answers: [
             'Nukleinsyrer',
             'Fosfolipider',
@@ -1389,11 +1396,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvad sker der i biogasanlægges trin 2?',
+        text: 'Hvad sker der i biogasanlæggets trin 2?',
         answers: [
             'De store organiske molekyler spaltes af enzymer',
             'Respiration af glukose',
-            'Der sker forskellige gæringsprocesser, som fx danner alkohol og fedtsyrer',
+            'Der sker forskellige gæringsprocesser som fx danner alkohol og fedtsyrer',
             'Metandannelse '
         ],
         type: 'multiple_text',
@@ -1433,8 +1440,8 @@ db.questions.save(
         chapters: ['25.5'],
         text: 'Hvad forstås ved mesofile bakterier?',
         answers: [
-            'Bakterier der elsker høj pH',
-            'Bakterier der elsker lav pH',
+            'Bakterier der elsker høj pH-værdi',
+            'Bakterier der elsker lav pH-værdi',
             'Bakterier der elsker høj temperatur',
             'Bakterier der elsker middel-temperaturer'
         ],
@@ -1473,7 +1480,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvor meget biogas produceres årligt i Lemvig Biogas målt i m<span style="vertical-align:super; font-size:58%;">3</span> metan pr. år?',
+        text: 'Hvor meget biogas produceres årligt i Lemvig Biogas (2012) målt i m<span style="vertical-align:super; font-size:58%;">3</span> metan pr. år?',
         answers: [
             '5.000',
             '15.000',
@@ -1487,7 +1494,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvor stor en del af Lemvigs varmebehov kan dækkes af Lemvig Biogas?',
+        text: 'Hvor stor en del af Lemvigs varmebehov kan dækkes af Lemvig Biogas (2012)?',
         answers: [
             '25 %',
             '50 %',
@@ -1501,11 +1508,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.5'],
-        text: 'Hvor stor en del af Lemvigs el-behov kan dækkes af Lemvig Biogas?',
+        text: 'Hvor stor en del af Lemvigs el-behov kan dækkes af Lemvig Biogas (20212)?',
         answers: [
             '25 %',
             '50 %',
-            '75 5',
+            '75 %',
             '100 %'
         ],
         type: 'multiple_text',
@@ -1531,8 +1538,8 @@ db.questions.save(
         chapters: ['25.6'],
         text: 'Hvorfor er det ofte et problem at få lægemidler transporteret ind i cellerne?',
         answers: [
-            'Fordi lægemidlerne er polære og cellemembraner ikke-polære',
-            'Fordi lægemidlerne er ikke-polære og cellemembranerne er polære',
+            'Fordi lægemidlerne er polære, og cellemembraner er ikke-polære',
+            'Fordi lægemidlerne er ikke-polære, og cellemembranerne er polære',
             'Fordi lægemidlerne og cellemembranerne er ikke-polære',
             'Fordi lægemidlerne og cellemembranerne er polære'
         ],
@@ -1548,7 +1555,7 @@ db.questions.save(
             'En tidlig version af lægemidlet, som kun er afprøvet i reagensglas',
             'Lægemidlet efter at der er udført dyreforsøg med det',
             'Et stof der kobles på lægemidlet for at gøre det ikke-polært',
-            'Et stof der kobles på lægemidlet for at gøre det polært '
+            'Et stof der kobles på lægemidlet for at gøre det polært'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1573,10 +1580,10 @@ db.questions.save(
         chapters: ['25.6'],
         text: 'Hvad vil det sige, at et lægemiddel indtages oralt?',
         answers: [
-            'Som indsprøjtning via en kanyle',
-            'Via endetarmens slimhinder som stikpiller',
-            'Via luftvejene ved inhalation',
-            'Via munden som tabletter'
+            'Det indtages via indsprøjtning med en kanyle',
+            'Det indtages via endetarmens slimhinder som stikpiller',
+            'Det indtages via luftvejene ved inhalation',
+            'Det indtages via munden som tabletter'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1601,10 +1608,10 @@ db.questions.save(
         chapters: ['25.6'],
         text: 'Hvad vil det sige, at et lægemiddel indtages ved injektion?',
         answers: [
-            'Som indsprøjtning via en kanyle',
-            'Via endetarmens slimhinde som stikpiller',
-            'Via luftvejene som inhalation',
-            'Via munden som tabletter'
+            'Det indtages via indsprøjtning med en kanyle',
+            'Det indtages via endetarmens slimhinder som stikpiller',
+            'Det indtages via luftvejene ved inhalation',
+            'Det indtages via munden som tabletter'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1641,12 +1648,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.6'],
-        text: 'Hvad sker der med proteinbaserede lægemidler i tarmkanalen? ',
+        text: 'Hvad sker der med proteinbaserede lægemidler i tarmkanalen?',
         answers: [
             'De nedbrydes i leveren',
             'De nedbrydes i nyrerne',
             'De optages ikke, men passerer ud med afføringen',
-            'De spaltes af tarmkanalens enzymer '
+            'De spaltes af tarmkanalens enzymer'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1708,19 +1715,6 @@ db.questions.save(
         correct_answer: '0'
     });
 
-db.questions.save(
-    {
-        chapters: ['25.6'],
-        text: 'Hvad menes med nanomedicin?',
-        answers: [
-            'Medicin der består af molekyler, der er meget mindre end den traditionelle medicin',
-            'Medicin med en molekylstørrelse mindre end 10',
-            'Medicin med en molekylstørrelse på mere end 10',
-            'DNA-medicin'
-        ],
-        type: 'multiple_text',
-        correct_answer: '2'
-    });
 
 db.questions.save(
     {
@@ -2075,7 +2069,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.6'],
-        text: 'Hvorfor kan stamceller i modsætning til andre celler, blive med at dele sig?',
+        text: 'Hvorfor kan stamceller - i modsætning til andre celler - blive med at dele sig?',
         answers: [
             'Fordi deres DNA og RNA er meget stabilt',
             'Fordi de har en stor produktion af ATP',
@@ -2118,10 +2112,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['25.6'],
-        text: 'Hvordan var SOX17 en vigtig nøglefaktor i omdannelsen af hudceller til stamceller for kønsceller? ',
+        text: 'Hvordan var SOX17 en vigtig nøglefaktor i omdannelsen af hudceller til stamceller for kønsceller?',
         answers: [
             'SOX17 kunne om-programmere eller nulstille hudcellerne',
-            'SOX17 kunne stoppe hudcellerne i mitosen',
+            'SOX17 kunne stoppe hudcellerne i mitosens profase',
             'SOX17 kunne identificere de bedste af hudcellerne, som så kunne gå videre i forsøget',
             'SOX17 kunne få hudcellerne til at dele sig meget hurtigt'
         ],

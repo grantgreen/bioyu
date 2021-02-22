@@ -17,7 +17,7 @@ db.questions.save(
         chapters: [ '18.2'],
         text: 'Hvilken påstand om anabolisme er ikke korrekt?',
         answers: [
-            'Det kræver energi form af ATP',
+            'Det kræver energi i form af ATP',
             'Den giver energi i form af ATP',
             'Fotosyntesen hører under anabolismen',
             'Proteinsyntesen hører under anabolismen'
@@ -47,7 +47,7 @@ db.questions.save(
         answers: [
             'Den kræver energi i form af ATP',
             'Den giver energi i form af ATP',
-            'Fotosyntesen hører inder katabolismen',
+            'Fotosyntesen hører under katabolismen',
             'Proteinsyntesen hører under katabolismen'
         ],
         type: 'multiple_text',
@@ -87,10 +87,10 @@ db.questions.save(
         chapters: [ '18.2'],
         text: 'Hvor meget glukose findes i blodet?',
         answers: [
-            '20 g',
-            '120 g',
-            '160 g',
-            '200 g'
+            'Ca. 20 g',
+            'Ca. 120 g',
+            'Ca. 160 g',
+            'Ca. 200 g'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: [ '18.2'],
-        text: 'Hvor meget glukose kan leveres fra kroppens glykogenlagre pr dag?',
+        text: 'Hvor meget glukose kan leveres fra kroppens glykogenlagre pr. dag?',
         answers: [
             '20 g',
             '120 g',
@@ -144,7 +144,7 @@ db.questions.save(
         text: 'Hvad forstås ved glukoneogenese?',
         answers: [
             'Den aerobe nedbrydning af glukose',
-            'Den aerobe nedbrydning af glukose',
+            'Den anaerobe nedbrydning af glukose',
             'Fotosyntese',
             'Dannelse af glukose ud fra pyruvat'
         ],
@@ -172,7 +172,7 @@ db.questions.save(
         text: 'Hvilken påstand om glukoneogenesen er ikke korrekt?',
         answers: [
             'Den begynder i mitokondrierne',
-            'Den foregår især i cytoplasma',
+            'Den foregår især i cytoplasmaet',
             'Den foregår ud fra pyruvat',
             'Den foregår ud fra fedtsyrer'
         ],
@@ -225,7 +225,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.2'],
-        text: 'Hvor meget ATP koster det at danne et glukosemolekyle ved gluloneogenesen?',
+        text: 'Hvor meget ATP koster det at danne et glukosemolekyle ved glukoneogenesen?',
         answers: [
             '2 ATP',
             '4 ATP',
@@ -258,7 +258,7 @@ db.questions.save(
             'De har ingen cellekerne',
             'De har intet cytoplasma',
             'De skaffer ATP ved gæring',
-            'De lever i 120 dage'
+            'De lever i ca. 120 dage'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -281,7 +281,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvad menes der med, at en organisme er autotrof?',
+        text: 'Hvad menes med, at en organisme er autotrof?',
         answers: [
             'At den kan nedbryde glukose anaerobt',
             'At den kan nedbryde glukose aerobt',
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvad menes der med, at en organisme er fotoautotrof?',
+        text: 'Hvad menes med, at en organisme er fotoautotrof?',
         answers: [
             'At den skaffer energi ved oxidation af uorganiske stoffer',
             'At den skaffer energi ved oxidation af organisk stof som fx glukose',
@@ -435,7 +435,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor i kloroplasterne finder mørkeprocesen sted?',
+        text: 'Hvor i kloroplasterne finder mørkeprocessen sted?',
         answers: [
             'I den ydre membran',
             'I stroma',
@@ -509,7 +509,7 @@ db.questions.save(
         answers: [
             'Fordi der dannes røde og gule pigmenter om efteråret',
             'Fordi klorofyl ændrer farve og bliver gult eller rødt',
-            'Fordi klorofyl trækkes væk fra bladene og de gule og røde pigmenter bliver tilbage',
+            'Fordi klorofyl trækkes væk fra bladene, og de gule og røde pigmenter bliver tilbage',
             'Fordi bladene er ved at nedbrydes/rådne'
         ],
         type: 'multiple_text',
@@ -523,7 +523,7 @@ db.questions.save(
         answers: [
             'Glukose og ilt',
             'Kuldioxid og vand',
-            'ATP, NADPH og Ilt',
+            'ATP, NADPH og ilt',
             'FAD og NAD'
         ],
         type: 'multiple_text',
@@ -566,7 +566,7 @@ db.questions.save(
             'Vand, ADP og NADP',
             'ATP, NADH og ilt',
             'Glukose',
-            'Kuldioxid, ATP, NADP og vand'
+            'Kuldioxid, ATP, NADPH og vand'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -579,7 +579,7 @@ db.questions.save(
         answers: [
             'Der dannes glukose',
             'Der nedbrydes glukose',
-            'Der opfanges en elektron ',
+            'Der opfanges en elektron',
             'Der afgives en elektron'
         ],
         type: 'multiple_text',
@@ -606,7 +606,7 @@ db.questions.save(
         text: 'Hvad er rubisco-enzymets funktion?',
         answers: [
             'Det danner 2 molekyler 3-fosfoglycerat',
-            'Det danner ribulose 1,5 bifosfat',
+            'Det danner ribulose-1,5 bifosfat',
             'Det spalter ribulose',
             'Det danner fruktose-6-fosfat'
         ],
@@ -659,12 +659,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvad forstås ved C4 planter?',
+        text: 'Hvad forstås ved C4-planter?',
         answers: [
-            'Planter der har 4 trin i fotosyntesen',
+            'Planter, der har 4 trin i fotosyntesen',
             'Planter, der har 4 trin i respirationen',
             'Planter, der danner en C4 forbindelse som første trin i fotosyntesen',
-            'Planter, der har 4 lag i deres bladkød (mesofyl) '
+            'Planter, der har 4 lag i deres bladkød (mesofyl)'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -673,12 +673,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvad forstås ved C4 fotosyntese?',
+        text: 'Hvad forstås ved C4-fotosyntese?',
         answers: [
             'En fotosyntese, hvor lysprocessen består at 4 trin',
             'En fotosyntese, hvor der er 4 trin i mørkeprocessen',
             'En fotosyntese, der kører 4 gange så hurtigt som den normale type',
-            'En fotosyntese, hvor der dannes en C4 forbindelse, som første trin i fotosyntesen'
+            'En fotosyntese, hvor der dannes en C4-forbindelse, som første trin i fotosyntesen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -687,7 +687,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor findes der især C4 planter?',
+        text: 'Hvor findes der især C4-planter?',
         answers: [
             'I arktiske egne, hvor der er meget koldt',
             'I egne, hvor der er mangel på lys',
@@ -701,9 +701,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvorfor kaldes den almindelige fotosyntese for C3 fotosyntese?',
+        text: 'Hvorfor kaldes den almindelige fotosyntese for C3-fotosyntese?',
         answers: [
-            'Fordi det første stof der dannes i mørkeprocessen har 3 C-atomer',
+            'Fordi det første stof, der dannes i mørkeprocessen, har 3 C-atomer',
             'Fordi det vigtigste stof i lysprocessen har 3 C-atomer',
             'Fordi der er 3 trin i lysprocessen',
             'Fordi der er 3 trin i mørkeprocessen'
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor meget ATP kræves hos C3 planterne til dannelse af et molekyle glukose?',
+        text: 'Hvor meget ATP kræves hos C3-planterne til dannelse af et molekyle glukose?',
         answers: [
             '2',
             '6',
@@ -729,7 +729,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor meget ATP kræves hos C4 planterne til dannelse af et molekyle glukose?',
+        text: 'Hvor meget ATP kræves hos C4-planterne til dannelse af et molekyle glukose?',
         answers: [
             '2',
             '5',
@@ -748,7 +748,7 @@ db.questions.save(
             'At kuldioxid optages om dagen, men bruges om natten i Calvins cyklus',
             'At ilt optages om dagen, men bruges om natten',
             'At kuldioxid optages om natten, men bruges om dagen i Calvins cyklus',
-            'At ilt optages om natten men bruges om dagen'
+            'At ilt optages om natten, men bruges om dagen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -757,12 +757,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor i Verden findes der planter, der laver CAM-fotosyntese?',
+        text: 'Hvor i verden findes der planter, der laver CAM-fotosyntese?',
         answers: [
             'I meget kolde egne',
             'I kolde og fugtige egne',
             'I varme og tørre egne',
-            'I egne med meget lidt dagslys '
+            'I egne med meget lidt dagslys'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -788,7 +788,7 @@ db.questions.save(
         text: 'Hvad sker der i planternes spalteåbninger?',
         answers: [
             'Her nedbrydes de gamle kloroplaster',
-            'Her nedbrydes de gamloe mitokondrier',
+            'Her nedbrydes de gamle mitokondrier',
             'Her optages kuldioxid og afgives vand',
             'Her optages vand og afgives kuldioxid'
         ],
@@ -799,7 +799,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['18.3'],
-        text: 'Hvor i planterne ligger grønkornene?',
+        text: 'Hvor i planterne findes grønkornene?',
         answers: [
             'I bladkødet',
             'I bladenes sikar',
@@ -812,7 +812,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvilken påstand om dannelse af fedt (triglycerid) er ikke korrekt?',
         answers: [
             'Det kan dannes af planter',
@@ -826,7 +826,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvilken påstand om dannelse af fedtsyrer er korrekt?',
         answers: [
             'De dannes i cellernes cytoplasma',
@@ -840,7 +840,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvad forstås ved lipogenese?',
         answers: [
             'Spaltning af triglycerid til glycerol og fedtsyrer',
@@ -854,8 +854,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvor meget ATP kræves der til dannelse af et molekyle palmitinsyre?',
+        chapters: ['18.4'],
+        text: 'Hvor meget ATP kræves til dannelse af et molekyle palmitinsyre?',
         answers: [
             '1',
             '2',
@@ -868,10 +868,10 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvor i cellen sker dannelsen af fedtsyrer?',
         answers: [
-            'I mitokondrierne ',
+            'I mitokondrierne',
             'I cellemembranen',
             'I cytoplasma',
             'I lysosomerne'
@@ -882,7 +882,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan er et triglyceridmolekyle opbygget?',
         answers: [
             'At et glycerol og tre fedtsyrer',
@@ -896,7 +896,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvor i cellen sker dannelsen af acetyl-CoA?',
         answers: [
             'I cytoplasmaet',
@@ -910,11 +910,11 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvordan kan acetyl-CoA transpoteres genne mitokondriets membran?',
+        chapters: ['18.4'],
+        text: 'Hvordan kan acetyl-CoA transpoteres gennem mitokondriets membran?',
         answers: [
             'Det skal omdannes til citrat, som kan komme ind i mitokondrierne',
-            'Det bindes til først kolesterol',
+            'Det bindes først til kolesterol',
             'Det bindes først til fosfolipider',
             'Det bindes til albumin i blodet'
         ],
@@ -924,7 +924,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvilken påstand om dannelse af glycerol er korrekt?',
         answers: [
             'Det dannes ud fra frie fedtsyrer',
@@ -938,7 +938,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan dannes fedtstoffet kolesterol?',
         answers: [
             'Det kan dannes ud fra acetyl-CoA',
@@ -952,7 +952,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvor i kroppen sker dannelse af kolesterol?',
         answers: [
             'I binyrerne',
@@ -966,7 +966,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvor mange forskellige aminosyrer findes i vores proteiner?',
         answers: [
             '9',
@@ -980,8 +980,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvor mange essentielle aminosyrer findes der?',
+        chapters: ['18.4'],
+        text: 'Hvor mange essentielle aminosyrer findes?',
         answers: [
             '9',
             '20',
@@ -994,8 +994,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvor mange ikke-essentielle aminosyrer findes der?',
+        chapters: ['18.4'],
+        text: 'Hvor mange ikke-essentielle aminosyrer findes?',
         answers: [
             '9',
             '20',
@@ -1008,7 +1008,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan skaffer mennesket sig de essentielle aminosyrer?',
         answers: [
             'Dem danner vi ud fra fedtsyrer',
@@ -1022,13 +1022,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan skaffer mennesket sig de ikke essentielle aminosyrer?',
         answers: [
             'Dem danner vi ud fra fedtsyrer',
             'Kun fra føden',
             'Fra nogle bakterier i tarmkanalen',
-            'Dem danner vi ud fra andre aminosyrer '
+            'Dem danner vi ud fra andre aminosyrer'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1036,7 +1036,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan skaffer planterne sig de 20 aminosyrer?',
         answers: [
             'De danner dem selv',
@@ -1050,13 +1050,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvorfor er plantegiften Roundup så giftig for planterne?',
+        chapters: ['18.4'],
+        text: 'Hvorfor er plantegiften "Roundup" så giftig for planterne?',
         answers: [
             'Fordi den hæmmer deres iltoptagelse',
             'Fordi den ødelægger deres mitokondrier',
             'Fordi den hindrer dannelsen af bestemte aminosyrer',
-            'Fordi den hindrer dannelsen af bestemte fedtsyrer '
+            'Fordi den hindrer dannelsen af bestemte fedtsyrer'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1064,8 +1064,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvorfor er Roundup ikke giftigt for mennesker ?',
+        chapters: ['18.4'],
+        text: 'Hvorfor er "Roundup" ikke giftigt for mennesker?',
         answers: [
             'Fordi vi optager ilt via lungerne',
             'Fordi vores mitokondrier er bygget på en anden måde end planternes',
@@ -1078,7 +1078,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvilke organismer kan indbygge luftens N<span style="vertical-align:sub; font-size:58%;">2</span> i deres aminosyrer?',
         answers: [
             'Nogle bakterier',
@@ -1092,7 +1092,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvordan dannes de ikke-essentielle aminosyrer hos mennesker og dyr?',
         answers: [
             'Dem får vi fra føden',
@@ -1106,8 +1106,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
-        text: 'Hvilket hormon kan dannes ud fra aminosyrer tyrosin?',
+        chapters: ['18.4'],
+        text: 'Hvilket hormon kan dannes ud fra aminosyren tyrosin?',
         answers: [
             'ATP',
             'Thyroxin',
@@ -1120,7 +1120,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Hvilket transmitterstof kan dannes ud fra aminosyren tryptofan?',
         answers: [
             'Acetylkolin',
@@ -1134,7 +1134,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Ud fra hvilken aminosyre dannes hæm-grupper?',
         answers: [
             'Glycin',
@@ -1148,7 +1148,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Ud fra hvilken aminosyre dannes klorofyl?',
         answers: [
             'Glycin',
@@ -1162,7 +1162,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Ud fra hvilken aminosyre dannes cytosin i DNA?',
         answers: [
             'Glycin',
@@ -1176,7 +1176,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Ud fra hvilken aminosyre dannes thymin i DNA?',
         answers: [
             'Glycin',
@@ -1190,7 +1190,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['18.4', '18.5'],
+        chapters: ['18.4'],
         text: 'Ud fra hvilken aminosyre dannes stoffet histamin, der har betydning for allergi?',
         answers: [
             'Tryptofan',

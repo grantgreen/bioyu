@@ -9,4 +9,6 @@ var links = [
 'link':'https://www.dropbox.com/s/fzxajqywo4h0frx/Respiration%20og%20fotosyntese%20hos%20vandpest.pdf?dl=0'},
 {'caption':'Succession',
 'link':'https://www.dropbox.com/s/jil5ljehghdjhkw/Succession.pdf?dl=0'},
+{'caption':'Insekthoteller',
+'link':'https://www.dropbox.com/s/9j9e6yteo46nobo/Insekthoteller.pdf?dl=0'},
 ]

@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.1'],
-        text: 'Hvor på Jorden er artsrigdommen størst? ',
+        text: 'Hvor på Jorden er artsrigdommen størst?',
         answers: [
             'Omkring ækvator',
             'Omkring polerne',
@@ -73,10 +73,10 @@ db.questions.save(
         chapters: ['26.1'],
         text: 'Hvor stor en procentdel udgør havene af Jordens samlede overflade?',
         answers: [
-            'Ca. 90 %',
-            'Ca. 70 %',
-            'Ca. 50 %',
-            'Ca. 30 %'
+            'Ca. 91 %',
+            'Ca. 71 %',
+            'Ca. 51 %',
+            'Ca. 31 %'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.1'],
-        text: 'Hvad forstås ved økosystemets abiotiske del? ',
+        text: 'Hvad forstås ved økosystemets abiotiske del?',
         answers: [
             'Bakterier og andre nedbrydere',
             'Økosystemets levende organismer',
@@ -145,7 +145,7 @@ db.questions.save(
         answers: [
             'Nedbryderne',
             'Planterne',
-            'pH og temperatur',
+            'pH-værdi og temperatur',
             'Dyrene'
         ],
         type: 'multiple_text',
@@ -157,7 +157,7 @@ db.questions.save(
         chapters: ['26.1'],
         text: 'Hvilken af nedenstående hører ikke til de abiotiske faktorer?',
         answers: [
-            'pH og temperatur',
+            'pH-værdi og temperatur',
             'Lysforhold',
             'Næringssalte',
             'Nedbryderne'
@@ -169,12 +169,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.2'],
-        text: 'Hvor meget energi udseender solen på et sekund?',
+        text: 'Hvor meget energi udseender Solen på et sekund?',
         answers: [
-            '0,36 * 10 J',
-            '3,6 * 10 J',
-            '3,6 * 10 J',
-            '0,36 * 10 J'
+            '0,36 * 10^25 J',
+            '3,6 * 10^23 J',
+            '3,6 * 10^30 J',
+            '0,36 * 10^32 J'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.2'],
-        text: 'Hvor stor en del af strålingen fra solen rammer jordoverfladen?',
+        text: 'Hvor stor en del af strålingen fra Solen rammer jordoverfladen?',
         answers: [
             'Ca. 55 %',
             'Ca. 1 %',
@@ -267,7 +267,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.2'],
-        text: 'Hvor stor en del af strålingen fra solen går til planternes fotosyntese?',
+        text: 'Hvor stor en del af strålingen fra Solen går til planternes fotosyntese?',
         answers: [
             'Ca. 55 %',
             'Ca. 0,5 %',
@@ -311,10 +311,10 @@ db.questions.save(
         chapters: ['26.2'],
         text: 'Hvor meget energi bindes i fotosyntesen målt i kJ/m<span style="vertical-align:super; font-size:58%;">2</span>/år?',
         answers: [
-            '1,7 kJ/m',
-            '17 kJ/m',
-            '34.000 kJ/m',
-            '54.000 kJ/m'
+            '1,7',
+            '17',
+            '34.000',
+            '54.000'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -328,7 +328,7 @@ db.questions.save(
             'Ved fotosyntesen opbygger planterne glukose',
             'Ved fotosyntesen opbygger planterne fedtstoffer',
             'Fotosyntesen foregår i mitokondrierne',
-            'Fotosyntesen kan udføres af visse dyr '
+            'Fotosyntesen kan udføres af visse dyr'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -384,7 +384,7 @@ db.questions.save(
             'At den er aerob',
             'At den er anaerob',
             'At den lever af organisk stof',
-            'At den selv danner sit organisk stof'
+            'At den selv danner sit organiske stof'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -465,10 +465,10 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvad forstås ved planternes bruttoproduktion?',
         answers: [
-            'Den totale produktion ved fotosyntesen',
-            'Den totale produktion minus respirationen',
-            'Planternes respiration',
-            'Planternes produktion plus planternes fotosyntese'
+            'Den totale produktion af glukose ved fotosyntesen',
+            'Den totale produktion af glukose minus respirationen',
+            'Planternes respiration a glukose',
+            'Planternes produktion af glukose plus planternes fotosyntese'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -523,7 +523,7 @@ db.questions.save(
         answers: [
             'Den kaldes også bruttoprimærproduktionen',
             'Den kaldes også sekundærproduktionen',
-            'Det er den totale fotosyntese minus respiration',
+            'Det er den totale produktion ved fotosyntesen minus respirationstabet',
             'Det er det samme som tilvæksten minus respiration'
         ],
         type: 'multiple_text',
@@ -535,10 +535,10 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvilken sammenhæng mellem BPP, NPP og R er korrekt?',
         answers: [
-            'BPP=NPP+R',
-            'NPP=BPP+R',
-            'NPP-R=BPP',
-            'NBP=R=BPP'
+            'BPP = NPP + R',
+            'NPP = BPP + R',
+            'NPP - R = BPP',
+            'NPP = R = BPP'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -617,7 +617,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.3'],
-        text: 'Ved iltmetoden: Hvad foregår i lysflasken?',
+        text: 'Hvad foregår i lysflasken ved iltmetoden?',
         answers: [
             'Kun respiration',
             'Kun fotosyntese',
@@ -631,7 +631,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.3'],
-        text: 'Ved iltmetoden: Hvad foregår i mørkeflasken?',
+        text: 'Hvad foregår i mørkeflasken vd iltmetoden?',
         answers: [
             'Kun respiration',
             'Kun fotosyntese',
@@ -703,7 +703,7 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvorfor er NPP i de tropiske have lav?',
         answers: [
-            'På grund af en lav pH',
+            'På grund af en lav pH-værdi',
             'På grund af for mange osmotisk aktive stoffer',
             'På grund af for høj temperatur',
             'På grund af mangel på næringssalte'
@@ -731,7 +731,7 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvad forstås ved sekundærproduktionen?',
         answers: [
-            'Planterns produktion',
+            'Planternes produktion',
             'Nedbrydernes produktion',
             'Dyrenes respiration',
             'Dyrenes produktion'
@@ -759,10 +759,10 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvilket udsagn om sammenhængen mellem konsumeret føde, assimileret føde og ekskrementer er korrekt?',
         answers: [
-            'K=A+E',
-            'K=A-E',
-            'A=K+E',
-            'K+A=E'
+            'K = A + E',
+            'K = A - E',
+            'A = K + E',
+            'K + A = E'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -774,7 +774,7 @@ db.questions.save(
         text: 'Hvad forstås ved assimileret føde?',
         answers: [
             'Den konsumerede føde',
-            'Den del af føden, der optages',
+            'Den del af føden, der optages i blodet',
             'Den del af føden, der går til ekskrementer',
             'Den del af føden, der går til respiration'
         ],
@@ -815,10 +815,10 @@ db.questions.save(
         chapters: ['26.3'],
         text: 'Hvilket udsagn om den assimilerede føde (A) er korrekt?',
         answers: [
-            'A=R+U+P',
-            'A=U+P-R',
-            'A=P-U-R',
-            'A=P+U-R'
+            'A = R + U + P',
+            'A = U + P - R',
+            'A = P - U - R',
+            'A = P + U - R'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -844,12 +844,12 @@ db.questions.save(
         text: 'Hvor stor en procentdel af den assimilerede energi går hos insekterne til respiration?',
         answers: [
             'Ca. 10 %',
-            'Ca. 50 %',
-            'Ca. 60 %',
+            'Ca. 60-90 %',
+            'Ca. 30-60 %',
             '96-99 %'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '1'
     });
 
 db.questions.save(
@@ -893,6 +893,12 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '2'
     });
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -944,7 +950,7 @@ db.questions.save(
             'Okse',
             'Kanin',
             'Ged',
-            'Ræv'
+            'Ulv'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1023,7 +1029,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.4'],
-        text: 'Hvad forstås ved en omnivor? ',
+        text: 'Hvad forstås ved en omnivor?',
         answers: [
             'Et byttedyr',
             'En nedbryder',
@@ -1040,7 +1046,7 @@ db.questions.save(
         text: 'Ved en sekundærkonsument forstås',
         answers: [
             'En planteæder',
-            'En herbivor ',
+            'En herbivor',
             'En carnivor',
             'Et altædende dyr'
         ],
@@ -1069,7 +1075,7 @@ db.questions.save(
         answers: [
             'En snylter',
             'En parasit',
-            'En der nedbryder DOM',
+            'En der nedbryder DOM (dødt organisk materiale)',
             'Et rovdyr'
         ],
         type: 'multiple_text',
@@ -1191,7 +1197,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.4'],
-        text: 'Hvad menes der med trofisk effektivitet?',
+        text: 'Hvad menes med trofisk effektivitet?',
         answers: [
             'Hvor stor en procentdel af energien på et trin i fødekæden, der respireres',
             'Hvor stor en procentdel af energien på et trin i fødekæden, der går til nedbryderne',
@@ -1278,7 +1284,7 @@ db.questions.save(
         text: 'Hvad skal det nederste trin i en biomassepyramide repræsentere?',
         answers: [
             'Vægten af planterne',
-            'Vægten af planteædere',
+            'Vægten af planteæderne',
             'Antallet af planter',
             'Vægten af kødædere af første orden'
         ],
@@ -1345,9 +1351,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.4'],
-        text: 'Hvilket udsagn om en parasitpyramide er ikke korrekt?',
+        text: 'Hvilket udsagn om en parasitpyramide er forkert?',
         answers: [
-            'Den starter med en plante ',
+            'Den starter med en plante',
             'Den starter med en organisme med parasitter',
             'Den ligner ofte en omvendt pyramide',
             'Der vil være et respirationstab fra hvert trin'
@@ -1445,7 +1451,7 @@ db.questions.save(
         chapters: ['26.5'],
         text: 'Hvilket udsagn om habitat og niche er korrekt?',
         answers: [
-            'De er begge udtryk for en organismes levested ',
+            'De er begge udtryk for en organismes levested',
             'Nichen er en funktion, og habitaten er et sted',
             'Nichen er et sted, og habitaten er en funktion',
             'Der er flere forskellige habitater i samme niche'
@@ -1462,7 +1468,7 @@ db.questions.save(
             'Nitrat kan være en begrænsende faktor for plantevækst',
             'Liebigs minimumslov handler om begrænsende faktorer',
             'Lys kan være en begrænsende faktor for plantevæksten',
-            'Der kan aldrig være for meget sollys til planterne '
+            'Der kan aldrig være for meget sollys til planterne'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1474,7 +1480,7 @@ db.questions.save(
         text: 'Ved lineær vækst af en population forstås',
         answers: [
             'Antallet af individer stiger med samme antal pr. tid',
-            'Antallet af individer fordobles pr. generation ',
+            'Antallet af individer fordobles pr. generation',
             'Antallet af individer er konstant fra generation til generation',
             'I starten fordobles individantallet pr. generation, senere indstiller der sig en ligevægt'
         ],
@@ -1488,7 +1494,7 @@ db.questions.save(
         text: 'Ved eksponentiel vækst af en population forstås',
         answers: [
             'Antallet af individer stiger med samme antal pr. tid',
-            'Antallet af individer fordobles pr. generation ',
+            'Antallet af individer fordobles pr. generation',
             'Antallet af individer er konstant fra generation til generation',
             'I starten fordobles individantallet pr. generation, senere indstiller der sig en ligevægt'
         ],
@@ -1502,7 +1508,7 @@ db.questions.save(
         text: 'Ved logistisk vækst for en population forstås',
         answers: [
             'Antallet af individer stiger med samme antal pr. tid',
-            'Antallet af individer fordobles pr. generation ',
+            'Antallet af individer fordobles pr. generation',
             'Antallet af individer er konstant fra generation til generation',
             'I starten fordobles individantallet pr. generation, senere indstiller der sig en ligevægt'
         ],
@@ -1541,7 +1547,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.5'],
-        text: 'Stikprøvemetoden: 1. dag mærkes 20 dyr, 2. dag fanges 16 dyr, hvoraf 4 er mærkede. Hvor stor er så populationen?',
+        text: 'Stikprøvemetoden: 1. dag mærkes 20 dyr, 2. dag fanges 16 dyr, hvoraf 4 er mærkede. Hvor stor er populationen?',
         answers: [
             '20',
             '40',
@@ -1671,7 +1677,7 @@ db.questions.save(
         answers: [
             'At leve som snylter på andre dyr',
             'At leve sammen med et andet dyr til begges fordel',
-            'At imitere andre dyr',
+            'At imitere (efterligne) andre dyr',
             'At spise meget små organismer'
         ],
         type: 'multiple_text',
@@ -1713,7 +1719,7 @@ db.questions.save(
         answers: [
             'At den kan leve på mange forskellige dyr',
             'At den er uskadelig for værten',
-            'At den kun snylter på andre parasitteer',
+            'At den kun snylter på andre parasitter',
             'At den er sygdomsvoldende'
         ],
         type: 'multiple_text',
@@ -1742,7 +1748,7 @@ db.questions.save(
             'Et dyr der skader andre dyr',
             'Et rovdyr',
             'En parasit på et andet dyr',
-            'Dyr der skader menneskets høstudbytte'
+            'Et dyr der skader menneskets høstudbytte'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1753,10 +1759,10 @@ db.questions.save(
         chapters: ['26.5'],
         text: 'Hvad forstås ved et pesticid?',
         answers: [
-            'Et stof, der kan dræbe forskellige typer af skadelige organismer ',
-            'Et stof der kan dræbe svampe',
-            'Et stof der kan dræbe ukrudt',
-            'Et stof der kan dræbe små gnavere'
+            'Et stof, der kan dræbe forskellige typer af skadelige organismer',
+            'Et stof, der kan dræbe svampe',
+            'Et stof, der kan dræbe ukrudt',
+            'Et stof, der kan dræbe små gnavere'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1768,9 +1774,9 @@ db.questions.save(
         text: 'Hvad forstås ved et fungicid?',
         answers: [
             'Et stof, der kan dræbe forskellige typer af skadelige organismer ',
-            'Et stof der kan dræbe svampe',
-            'Et stof der kan dræbe ukrudt',
-            'Et stof der kan dræbe små gnavere'
+            'Et stof, der kan dræbe svampe',
+            'Et stof, der kan dræbe ukrudt',
+            'Et stof, der kan dræbe små gnavere'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1782,9 +1788,9 @@ db.questions.save(
         text: 'Hvad forstås ved et herbicid?',
         answers: [
             'Et stof, der kan dræbe forskellige typer af skadelige organismer ',
-            'Et stof der kan dræbe svampe',
-            'Et stof der kan dræbe ukrudt',
-            'Et stof der kan dræbe små gnavere'
+            'Et stof, der kan dræbe svampe',
+            'Et stof, der kan dræbe ukrudt',
+            'Et stof, der kan dræbe små gnavere'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1881,7 +1887,7 @@ db.questions.save(
         answers: [
             'At pionerarterne kommer',
             'Succession på et helt ny-opdukket område',
-            'Succession på et område, der lige er ryddet, fx efter en skovbrand',
+            'Succession på et område, der lige er ryddet fx efter en skovbrand',
             'En succession hvor der kun findes primærproducenter'
         ],
         type: 'multiple_text',
@@ -1895,7 +1901,7 @@ db.questions.save(
         answers: [
             'At pionerarterne kommer',
             'Succession på et helt nyt område',
-            'Succession på et område, der lige er ryddet, fx efter en skovbrand',
+            'Succession på et område, der lige er ryddet fx efter en skovbrand',
             'En succession hvor der kun findes primærproducenter'
         ],
         type: 'multiple_text',
@@ -2002,6 +2008,208 @@ db.questions.save(
 
 db.questions.save(
     {
+        chapters: ['26.5'],
+        text: 'Hvad forstås ved biodiversitet?',
+        answers: [
+            'Antallet af forskellige arter på et bestemt område',
+            'Antallet af en bestemt art på et bestemt område',
+            'Det samlede antal organismer på et bestemt område',
+            'Antallet af nedbrydere på et bestemt område'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvor mange dyre- og plantearter regner man med, at der er på Jorden?',
+        answers: [
+            'Ca. 15 millioner',
+            'Ca. 1 million',
+            'Ca. 50 millioner',
+            'Op mod 100 millioner'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvor mange dyre- og plantearter er beskrevet af videnskaben?',
+        answers: [
+            'Ca. 10 %',
+            'Ca. 20 %',
+            'Ca. 30 %',
+            'Ca. 40 %'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvorfor er artsfordelingen ikke symmetrisk omkring ækvator?',
+        answers: [
+            'Fordi den nordlige halvkugle indeholder mere landmasse og dermed flere arter end den sydlige',
+            'Pga. Jordens hældning',
+            'Fordi den nordlige halvkugle indeholder mere hav og dermed flere arter end den sydlige',
+            'Der ER en symmetrisk artsfordeling omkring ækvator'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvad er et hot spot?',
+        answers: [
+            'Et område med særlig høj biodiversitet',
+            'Et meget varmt område',
+            'Et område med meget varmetolerante arter',
+            'Et område med lav biodiversitet'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvor mange hot spots er der i verden?',
+        answers: [
+            '25',
+            '10',
+            '15',
+            '20'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvilket er ikke et hot spot?',
+        answers: [
+            'Australien',
+            'Middelhavet',
+            'Californien',
+            'Caribien'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvor stort et område af Amazonas forsvinder årligt?',
+        answers: [
+            'Et område på størrelse med Belgien',
+            'Et område på størrelse med Kina',
+            'Et område på størrelse med Sjælland',
+            'Et område på størrelse med Frankrig'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvilket lokalt tiltag gavner ikke biodiversiteten?',
+        answers: [
+            'Luge ukrudt',
+            'Insekthoteller',
+            'Plante et træ',
+            'Lad haven gro til'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvad betyder det, at en plante er en karakterplante?',
+        answers: [
+            'At den dominerer et bestemt område',
+            'At den er særlig sund',
+            'At den er særlig høj',
+            'At den øger biodiversiteten i et område'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvor mange ikke-hjemmehørende arter findes i Danmark?',
+        answers: [
+            'Ca. 2.500',
+            'Ca. 500',
+            'Ca. 5.000',
+            'Mere end 10.000'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvilken er en invasiv plante?',
+        answers: [
+            'Kæmpe bjørneklo',
+            'Bøgetræet',
+            'Mælkebøtten',
+            'Ligusterhækken'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['26.5'],
+        text: 'Hvilket er et invasivt dyr?',
+        answers: [
+            'Mårhund',
+            'Mink',
+            'Hund',
+            'Rotte'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.questions.save(
+    {
         chapters: ['26.6'],
         text: 'Hvad er en ideel flokstørrelse for hunløver?',
         answers: [
@@ -2031,7 +2239,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.6'],
-        text: 'Hvad vil det sige, at et dyr fouragerer et sted?',
+        text: 'Hvad vil det sige, at et dyr "fouragerer" et sted?',
         answers: [
             'At de parrer sig der',
             'At de finder føde der',
@@ -2059,7 +2267,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.6'],
-        text: 'Hvad menes der med, at pattedyr er promiskuøse?',
+        text: 'Hvad menes med, at pattedyr er promiskuøse?',
         answers: [
             'At de får meget afkom',
             'At de er r-strateger',
@@ -2073,7 +2281,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['26.6'],
-        text: 'Hvad menes der med, at dyrene i en art er monogame?',
+        text: 'Hvad menes med, at dyrene i en art er monogame?',
         answers: [
             'At de får meget lidt afkom',
             'At de er r-strateger',

@@ -48,7 +48,7 @@ db.questions.save(
             '1 individ',
             '8 individer',
             '70 individer',
-            'Flere millioner individer '
+            'Flere millioner individer'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -104,7 +104,7 @@ db.questions.save(
             'En celle med 2 eksemplarer af hvert kromosom',
             'En celle med et eksemplar af hvert kromosom',
             'En celle, der er ved at dele sig',
-            'En celle, der er ved at smelte sammen med en anden celle, fx ved befrugtningen'
+            'En celle, der er ved at smelte sammen med en anden celle fx ved befrugtningen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -211,7 +211,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.1'],
-        text: 'SRY-genet ligger på følgende kromosom',
+        text: 'SRY-genet sidder på følgende kromosom',
         answers: [
             'Nr. 1',
             'Nr. 22',
@@ -243,7 +243,7 @@ db.questions.save(
         answers: [
             'Dextrin-fosfat',
             'Dihydroxyacetonefosfat',
-            'Deoxyribo-nucleic-acid',
+            'Deoxyribo-nucleic acid',
             'Ribo-nucleic acid'
         ],
         type: 'multiple_text',
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.2'],
-        text: 'Hvilket molekyle kan også kaldes deoxyribo-nucleic-acid?',
+        text: 'Hvilket molekyle kan også kaldes deoxyribo-nucleic acid?',
         answers: [
             'DNA',
             'ATP',
@@ -367,9 +367,9 @@ db.questions.save(
         chapters: ['19.3'],
         text: 'Hvorfor kan DNA så let bindes til histonerne?',
         answers: [
-            'Fordi DNA er positivt, og histonerne negativt ladet',
+            'Fordi DNA er positivt ladet, og histonerne er negativt ladet',
             'Fordi der let dannes kovalente bindinger',
-            'Fordi DNA er negativt, og histonerne er positivt ladet',
+            'Fordi DNA er negativt ladet, og histonerne er positivt ladet',
             'Fordi der er enzymer, der binder dem sammen'
         ],
         type: 'multiple_text',
@@ -561,7 +561,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.3'],
-        text: 'Hvad menes der med, at de to strenge i DNA-molekylet er antiparallelle?',
+        text: 'Hvad menes med, at de to strenge i DNA-molekylet er antiparallelle?',
         answers: [
             'De snor sig som en spiral',
             'De er bundet sammen i en dobbeltspiral',
@@ -593,7 +593,7 @@ db.questions.save(
         answers: [
             'Fra deoxyribosen',
             'Fra fosfatgruppen',
-            'Fra en hydrogenbinding ',
+            'Fra en hydrogenbinding',
             'Fra en af baserne'
         ],
         type: 'multiple_text',
@@ -621,7 +621,7 @@ db.questions.save(
         answers: [
             'I interfasen',
             'I profasen',
-            'I metafasen ',
+            'I metafasen',
             'I anafasen'
         ],
         type: 'multiple_text',
@@ -631,10 +631,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.4'],
-        text: 'Hvad forstås ved kromatider?',
+        text: 'Hvad forstås ved søster-kromatider?',
         answers: [
             'Det er det samme som kromosomer',
-            'De to halvdele i et kromosom',
+            'De to halvdele i et fordoblet kromosom',
             'Kromosomernes centromerer',
             'Tentrådene, der trækker i kromosomhalvdelene i mitosen'
         ],
@@ -743,7 +743,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.4'],
-        text: 'Hvor mange nukleotider kan DNA-polymerasen sætte på pr. sekund?',
+        text: 'Hvor mange nukleotider kan DNA-polymerasen påsætte pr. sekund?',
         answers: [
             '10-20',
             '40-50',
@@ -844,7 +844,7 @@ db.questions.save(
         chapters: ['19.5'],
         text: 'Hvad sker der i interfasen?',
         answers: [
-            'Kromosomerne deles midt over til to kromatider',
+            'Kromosomerne deles midt over til to søster-kromatider',
             'DNA-replikation',
             'RNA-replikation',
             'Translation'
@@ -858,8 +858,8 @@ db.questions.save(
         chapters: ['19.5'],
         text: 'Hvad sker der i profasen?',
         answers: [
-            'Kernehylster forsvinder, og tentråde dannes',
-            'Kernehylster og tentråde forsvinder',
+            'Kernehylsteret forsvinder, og tentråde dannes',
+            'Kernehylsteret og tentråde forsvinder',
             'DNA-replikation',
             'Kromosomerne bliver utydelige'
         ],
@@ -886,7 +886,7 @@ db.questions.save(
         chapters: ['19.5'],
         text: 'Hvad sker der i anafasen?',
         answers: [
-            'Kromatiderne rykkes fra hinanden',
+            'Søster-kromatiderne rykkes fra hinanden',
             'Kromosomernes centromerer placerer sig i cellens midtplan',
             'Kernehylsteret gendannes',
             'Centromeret forsvinder'
@@ -900,10 +900,10 @@ db.questions.save(
         chapters: ['19.5'],
         text: 'Hvad sker der i telofasen?',
         answers: [
-            'Kromatiderne rykkes fra hinanden',
+            'Søster-kromatiderne rykkes fra hinanden',
             'Kernehylster gendannes om de nye kromosomer',
             'Kromosomerne rulles sammen og bliver mere kompakte',
-            'Kromatiderne rykkes fra hinanden'
+            'Søster-kromatiderne rykkes fra hinanden'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1013,7 +1013,7 @@ db.questions.save(
         text: 'Hvad sker der i meiosens anden deling?',
         answers: [
             'Kromosomantallet halveres',
-            'Kromatiderne adskilles og bevæger sig til hver sin celle',
+            'Søster-kromatiderne adskilles og bevæger sig til hver sin celle',
             'Kromatidantallet fordobles',
             'Der sker overkrydsninger'
         ],
@@ -1071,7 +1071,7 @@ db.questions.save(
             'I profasen',
             'I anafasen',
             'I telofasen ',
-            'Der sker ingen overkrydsninger'
+            'Der sker ingen overkrydsninger i mitosen'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1080,7 +1080,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.6'],
-        text: 'Hvad mener der med, at kønsceller er haploide?',
+        text: 'Hvad menes med, at kønsceller er haploide?',
         answers: [
             'At der kun er et X-kromosom eller et Y-kromosom',
             'At der er to kønskromosomer',
@@ -1094,7 +1094,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.6'],
-        text: 'Hvad mener man med, at en celle er diploid?',
+        text: 'Hvad menes med, at en celle er diploid?',
         answers: [
             'At den har det dobbelte antal kromosomer',
             'At den har det halve antal kromosomer',
@@ -1110,7 +1110,7 @@ db.questions.save(
         chapters: ['19.6'],
         text: 'Hvad forstås ved overkrydsning?',
         answers: [
-            'At kromatiderne i mitosen bevæger sig til hver sin ende af cellen',
+            'At søster-kromatiderne i mitosen bevæger sig til hver sin ende af cellen',
             'At tentrådene krydses, når de trækker sig sammen',
             'At de homologe kromosomer udveksler gener i profasen i meiosens første deling',
             'At de ikke-homologe kromosomer udveksler gener i profasen i meiosens første deling'
@@ -1154,7 +1154,7 @@ db.questions.save(
         answers: [
             'Rækkefølgen af proteiner i DNA',
             'Rækkefølgen af aminosyrer i de dannede proteiner',
-            'Rækkefølgen af nukleotider i DNA ',
+            'Rækkefølgen af nukleotider i DNA',
             'Rækkefølgen af aminosyrer i DNA'
         ],
         type: 'multiple_text',
@@ -1192,7 +1192,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.7'],
-        text: 'Hvor mange aminosyrer kan der være i et protein, hvis gen har 300 kodende nukleotider?',
+        text: 'Hvor mange aminosyrer kan der være i et protein, hvis genet består af 300 kodende nukleotider?',
         answers: [
             '100',
             '300',
@@ -1206,10 +1206,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.7'],
-        text: 'Hvor mange aminosyrer kan der være i et protein, hvis gen har 300 kodende nukleotider, hvor der også er en startkode og en stopkode?',
+        text: 'Hvor mange aminosyrer kan der være i et protein, hvis genet består af 300 kodende nukleotider, hvoraf der også indgår en startkode og en stopkode?',
         answers: [
             '98',
-            '100',
+            '102',
             '300',
             '900'
         ],
@@ -1224,8 +1224,8 @@ db.questions.save(
         answers: [
             'De proteinkodende områder i de proteinkodende gener',
             'De ikke-kodende områder i de proteinkodende gener',
-            'De ikke proteinkodende gener',
-            'De proteinkodende områder i de ikke proteinkodende gener'
+            'De ikke-proteinkodende gener',
+            'De proteinkodende områder i de ikke-proteinkodende gener'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1238,7 +1238,7 @@ db.questions.save(
         answers: [
             'De proteinkodende områder i de proteinkodende gener',
             'De ikke-kodende områder i de proteinkodende gener',
-            'De ikke proteinkodende gener',
+            'De ikke-proteinkodende gener',
             'De proteinkodende områder i de ikke-proteinkodende gener'
         ],
         type: 'multiple_text',
@@ -1276,12 +1276,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.7'],
-        text: 'Hvad ligger der i de store intergenetiske områder hos mennesket?',
+        text: 'Hvad indeholder de store intergenetiske områder hos mennesket?',
         answers: [
             'Ikke noget, som man kender betydningen af',
-            'Koder for vigtige proteiner i fx respirationen',
-            'Koder for forskellige typer af RNA, samt repetitivt DNA',
-            'Introns '
+            'De koder for vigtige proteiner i fx respirationen',
+            'De koder for forskellige typer af RNA, samt repetitivt DNA',
+            'De består af introns'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1295,7 +1295,7 @@ db.questions.save(
             'DNA med flere gentagelser af den samme nukleotidsekvens',
             'RNA med flere gentagelser af den samme nukleotidsekvens',
             'Gener for dannelse af forskellige former for RNA',
-            'Nogle nukleotidsekvenser, der findes i mitokondriernes DNA '
+            'Nogle nukleotidsekvenser, der findes i mitokondriernes DNA'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1360,7 +1360,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['19.7'],
-        text: 'Hvordan kan man afgøre, om DNA i en prøve stammer fra menneske (eller menneskeaber)?',
+        text: 'Hvordan kan man afgøre, om DNA i en prøve stammer fra mennesker (eller menneskeaber)?',
         answers: [
             'Ved at undersøge telomerernes længde',
             'Hvis der påvises Alu-elementer, er prøven fra mennesker eller menneskeaber',

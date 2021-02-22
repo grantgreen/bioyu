@@ -4,7 +4,7 @@ db.questions.save(
         text: 'Hvor mange kromosomer er der i menneskets celler?',
         answers: [
             '22',
-            'X og Y',
+            '2 - X og Y',
             '44',
             '46'
         ],
@@ -17,10 +17,10 @@ db.questions.save(
         chapters: ["8.2"],
         text: 'Hvilket udsagn om DNA er korrekt?',
         answers: [
-            'Alle et menneskets celler indeholder samme DNA',
+            'Alle menneskeceller indeholder samme DNA',
             'Der er stor variation i DNA fra celle til celle i et individ',
             'Planteceller indeholder ikke DNA',
-            'Det meste at DNA ligger i cellernes mitokondrier og grønkorn'
+            'Det meste DNA ligger i cellernes mitokondrier og grønkorn'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.2"],
-        text: 'Hvilket udsagn om elektroforesen af DNA-stykker er korrekt?',
+        text: 'Hvilket udsagn om elektroforese af DNA-stykker er korrekt?',
         answers: [
             'De vandrer mod den negative pol',
             'De store og tungeste stykker vandrer længst',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.2"],
-        text: 'Hvad vil det sige, at et stof er flourescerende?',
+        text: 'Hvad vil det sige, at et stof er fluorescerende?',
         answers: [
             'At det er blevet farvet',
             'At det er magnetisk',
@@ -242,7 +242,7 @@ db.questions.save(
         text: 'Hvad laver man ved RFLP-metoden?',
         answers: [
             'Opformerer DNA',
-            'Et genetiske fingeraftryk',
+            'Et genetisk fingeraftryk',
             'Opklipper plasmider',
             'Isolerer DNA'
         ],
@@ -255,10 +255,10 @@ db.questions.save(
         chapters: ["8.3"],
         text: 'Hvad og hvordan klipper et restriktionsenzym?',
         answers: [
-            'DNA efter en bestemt nukleotidsekvens',
-            'Virus efter en bestemt nukleotidsekvens',
-            'Protein efter en bestemt nukleotidsekvens',
-            'Aminosyrer efter en bestemt nukleotidsekvens'
+            'Det klipper DNA efter en bestemt nukleotidsekvens',
+            'Det klipper virus efter en bestemt nukleotidsekvens',
+            'Det klipper protein efter en bestemt nukleotidsekvens',
+            'Det klipper aminosyrer efter en bestemt nukleotidsekvens'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -285,7 +285,7 @@ db.questions.save(
         answers: [
             'Et kulhydrat',
             'En elektroforese',
-            'Et sted hvor DNA kun varierer med én base',
+            'Et sted, hvor DNA kun varierer med én base',
             'Et restriktionsenzym'
         ],
         type: 'multiple_text',
@@ -306,29 +306,16 @@ db.questions.save(
         correct_answer: '0'
     });
 
-db.questions.save(
-    {
-        chapters: ["8.3"],
-        text: 'Hvilket udsagn om genetisk fingeraftryk er ikke korrekt?',
-        answers: [
-            'Det kan bruges i retssager ligesom fingeraftryk',
-            'Ingen mennesker har identisk genetisk fingeraftryk',
-            'Enæggede tvillinger har identisk genetisk fingeraftryk',
-            'Det er ikke koblet sammen med det almindelige fingeraftryk”'
-        ],
-        type: 'multiple_text',
-        correct_answer: '1'
-    });
 
 db.questions.save(
     {
         chapters: ["8.3"],
-        text: 'Hvordan klipper restriktionsenzymet EcoRI i DNA?',
+        text: 'Hvilket udsagn er korrekt mht. EcoRI?',
         answers: [
             'Det klipper ikke i DNA',
             'Det kan kun klippe i plasmider',
             'Det klipper i RNA og ikke i DNA',
-            'Det klipper efter AATT'
+            'Det klipper DNA over i sekvensen 5-GAATTC-3'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -337,12 +324,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.3"],
-        text: 'Hvilket udsagn om genetisk fingeraftryk er korrekt?',
+        text: 'Hvilket udsagn om genetiske fingeraftryk er korrekt?',
         answers: [
             'Det er det samme som en genetisk profil',
-            'Ingen mennesker har identisk genetisk fingeraftryk',
-            'Tvillinger har identisk genetisk fingeraftryk',
-            'Mennesker med samme genetisk fingeraftryk har samme fingeraftryk (på fingrene)'
+            'Ingen mennesker har identiske genetiske fingeraftryk',
+            'Tvillinger har identiske genetiske fingeraftryk',
+            'Mennesker med samme genetiske fingeraftryk har samme fingeraftryk (på fingrene)'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -365,11 +352,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.4"],
-        text: 'Hvad menes med donor i en gensplejsning?',
+        text: 'Hvad menes med begrebet "donor" i gensplejsning?',
         answers: [
-            'Den organisme der giver DNA til en anden',
-            'Den organisme der modtager DNA fra en anden',
-            'Det redskab, der overfører DNA mellem to organismer',
+            'Den organisme, der giver DNA til en anden',
+            'Den organisme, der modtager DNA fra en anden',
+            'Det "redskab", der overfører DNA mellem to organismer',
             'Resistensgenerne'
         ],
         type: 'multiple_text',
@@ -379,11 +366,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.4"],
-        text: 'Hvad menes med en vektor i en gensplejsning?',
+        text: 'Hvad menes med begrebet "vektor" i en gensplejsning?',
         answers: [
-            'Den organisme der giver DNA til en anden',
-            'Den organisme der modtager DNA fra en anden',
-            'Det redskab, der overfører DNA mellem to organismer',
+            'Den organisme, der giver DNA til en anden',
+            'Den organisme, der modtager DNA fra en anden',
+            'Det "redskab", der overfører DNA mellem to organismer',
             'Resistensgenerne'
         ],
         type: 'multiple_text',
@@ -393,11 +380,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.4"],
-        text: 'Hvad menes med værtscelle i en gensplejsning?',
+        text: 'Hvad menes med begrebet "værtscelle" i en gensplejsning?',
         answers: [
-            'Den organisme der giver DNA til en anden',
-            'Den organisme der modtager DNA fra en anden',
-            'Det redskab, der overfører DNA mellem to organismer',
+            'Den organisme, der giver DNA til en anden',
+            'Den organisme, der modtager DNA fra en anden',
+            'Det "redskab", der overfører DNA mellem to organismer',
             'Resistensgenerne'
         ],
         type: 'multiple_text',
@@ -439,7 +426,7 @@ db.questions.save(
         answers: [
             'For at kunne genkende DNA-stykkerne',
             'For at få mere DNA at arbejde med',
-            'For at gøre DNA flourescerende',
+            'For at gøre DNA fluorescerende',
             'For at spalte de store stykker DNA til mindre stykker'
         ],
         type: 'multiple_text',
@@ -521,8 +508,8 @@ db.questions.save(
         chapters: ["8.4"],
         text: 'Hvad menes med tetracyklinresistens?',
         answers: [
-            'Et plasmid',
-            'Et restriktionsenzym',
+            'Et bestemt plasmid',
+            'Et bestemt restriktionsenzym',
             'At en bakterie kan tåle tetracyklin',
             'At en bakterie dræbes af tetracyklin'
         ],
@@ -536,7 +523,7 @@ db.questions.save(
         text: 'Hvorfor anvendes ofte et markørgen under gensplejsning?',
         answers: [
             'For at minimere risikoen ved gensplejsningen',
-            'For ar kunne vide, om gensplejsningen er lykkedes',
+            'For at kunne vide, om gensplejsningen er lykkedes',
             'For at kunne gøre gensplejsningen reversibel',
             'For at sikre, at man kun klipper i det rette gen'
         ],
@@ -609,7 +596,7 @@ db.questions.save(
             'Fordi den har mange kromosomer',
             'Fordi den har mere DNA end de fleste andre organismer',
             'Fordi den er god til at udskille de dannede enzymer',
-            'Fordi den er prokaryot'
+            'Fordi den er en prokaryot'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -620,10 +607,10 @@ db.questions.save(
         chapters: ["8.5"],
         text: 'Hvilken type enzymer bruges i denim-produktionen?',
         answers: [
-            'Enzymer der kan nedbryde bomuld',
-            'Enzymer der kan nedbryde uld',
-            'Enzymer der kan nedbryde protein',
-            'Enzymer der kan nedbryde bakterier'
+            'Enzymer, der kan nedbryde bomuld',
+            'Enzymer, der kan nedbryde uld',
+            'Enzymer, der kan nedbryde protein',
+            'Enzymer, der kan nedbryde bakterier'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -634,10 +621,10 @@ db.questions.save(
         chapters: ["8.5"],
         text: 'Hvilken type bakterier bruges i tandpasta?',
         answers: [
-            'Enzymer der kan nedbryde bomuld',
-            'Enzymer der kan nedbryde uld',
-            'Enzymer der kan nedbryde protein',
-            'Enzymer der kan nedbryde bakterier'
+            'Enzymer, der kan nedbryde bomuld',
+            'Enzymer, der kan nedbryde uld',
+            'Enzymer, der kan nedbryde protein',
+            'Enzymer, der kan nedbryde bakterier'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -648,10 +635,10 @@ db.questions.save(
         chapters: ["8.5"],
         text: 'Hvilken type bakterier bruges i vaskemidler?',
         answers: [
-            'Enzymer der kan nedbryde bomuld',
-            'Enzymer der kan nedbryde uld',
-            'Enzymer der kan nedbryde protein',
-            'Enzymer der kan nedbryde bakterier'
+            'Enzymer, der kan nedbryde bomuld',
+            'Enzymer, der kan nedbryde uld',
+            'Enzymer, der kan nedbryde protein',
+            'Enzymer, der kan nedbryde bakterier'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -690,10 +677,10 @@ db.questions.save(
         chapters: ["8.5"],
         text: 'Hvorfor er surmælksprodukter sure?',
         answers: [
-            'Fordi bakterierne danner smørsyre',
-            'Fordi bakterierne danner mælkesyre',
-            'Fordi bakterierne danner saltsyre',
-            'Fordi bakterierne danner eddikesyre'
+            'Fordi, bakterierne danner smørsyre',
+            'Fordi, bakterierne danner mælkesyre',
+            'Fordi, bakterierne danner saltsyre',
+            'Fordi, bakterierne danner eddikesyre'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -732,10 +719,10 @@ db.questions.save(
         chapters: ["8.5"],
         text: 'Hvor høj en alkoholprocent kan man opnå ved naturlig gæring af fx frugtsaft?',
         answers: [
-            '3',
-            '10',
-            '13',
-            '23'
+            'Ca. 3 %',
+            'Ca. 10 %',
+            'Ca. 13 %',
+            'Ca. 23 %'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -800,7 +787,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvad menes med fase 1 i udviklingen af et nyt lægemiddel?',
+        text: 'Hvad menes med "fase 1" i udviklingen af et nyt lægemiddel?',
         answers: [
             'At et virksomt stof findes',
             'At der laves forsøg med celler i laboratoriet',
@@ -814,7 +801,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvad menes med fase 2 i udviklingen af et nyt lægemiddel?',
+        text: 'Hvad menes med "fase 2" i udviklingen af et nyt lægemiddel?',
         answers: [
             'At et virksomt stof findes',
             'At der laves forsøg med celler i laboratoriet',
@@ -872,9 +859,9 @@ db.questions.save(
         chapters: ["8.6"],
         text: 'Hvad forstås ved en ”prodrug”?',
         answers: [
-            'En prodel der sættes på et medicinsk stof',
-            'Et stof der endnu ikke er godkendt til mennesker',
-            'Et stof der endnu kun er godkendt til dyreforsøg',
+            'En prodel, der sættes på et medicinsk stof',
+            'Et stof, der endnu ikke er godkendt til mennesker',
+            'Et stof, der endnu kun er godkendt til dyreforsøg',
             'Et aktivt stof med en påsat gruppe, der skal lette optagelsen i kroppen'
         ],
         type: 'multiple_text',
@@ -898,7 +885,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvilket udsagn om insulin er ikke korrekt?',
+        text: 'Hvilket udsagn om insulin er forkert?',
         answers: [
             'Det dannes i bugspytkirtlen',
             'Det er et protein',
@@ -957,9 +944,9 @@ db.questions.save(
         text: 'Hvad forstås ved nanomedicin?',
         answers: [
             'DNA-medicin',
-            'Medicin med særlig store molekyler',
+            'Medicin med særligt store molekyler',
             'Medicin lavet ved gensplejsning',
-            'Medicin der kan indtages som tabletter eller stikpiller'
+            'Medicin, der kan indtages som tabletter eller stikpiller'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -987,7 +974,7 @@ db.questions.save(
             'En form for nanomedicin',
             'Zygoter',
             'Umodne celler med stor delingsevne',
-            'Celler der har mistet delingsevnen'
+            'Celler, der har mistet delingsevnen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1001,7 +988,7 @@ db.questions.save(
             'Befrugtede ægceller',
             'Stamceller fra meget tidlige fostre',
             'Stamceller fra fx navlestrengsblod',
-            'Stamceller der kan udtages fra voksne gennem hele livet'
+            'Stamceller, der kan udtages fra voksne gennem hele livet'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1015,7 +1002,7 @@ db.questions.save(
             'Befrugtede ægceller',
             'Stamceller fra meget tidlige fostre',
             'Stamceller fra fx navlestrengsblod',
-            'Stamceller der kan udtages fra voksne gennem hele livet'
+            'Stamceller, der kan udtages fra voksne gennem hele livet'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1029,7 +1016,7 @@ db.questions.save(
             'Befrugtede ægceller',
             'Stamceller fra meget tidlige fostre',
             'Stamceller fra fx navlestrengsblod',
-            'Stamceller der kan udtages fra voksne gennem hele livet'
+            'Stamceller, der kan udtages fra voksne gennem hele livet'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1043,7 +1030,7 @@ db.questions.save(
             'Befrugtede ægceller',
             'Stamceller fra meget tidlige fostre',
             'Stamceller fra fx navlestrengsblod',
-            'Stamceller der kan udtages fra voksne gennem hele livet'
+            'Stamceller, der kan udtages fra voksne gennem hele livet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1057,7 +1044,7 @@ db.questions.save(
             'Befrugtede ægceller',
             'Stamceller fra meget tidlige fostre',
             'Stamceller fra fx navlestrengsblod',
-            'Stamceller der kun kan udvikles til en bestemt celletype hos personen, de er taget fra'
+            'Stamceller, der kun kan udvikles til en bestemt celletype hos personen, de er taget fra'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1150,7 +1137,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvad menes med genterapi?',
+        text: 'Hvad menes med begrebet "genterapi"?',
         answers: [
             'Behandling med nanomedicin',
             'Behandling med stamceller',
@@ -1262,7 +1249,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvilket udsagn om enæggede tvillinger er ikke korrekt?',
+        text: 'Hvilket udsagn om enæggede tvillinger er forkert?',
         answers: [
             'De ligner hinanden',
             'De har samme køn',
@@ -1290,7 +1277,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["8.6"],
-        text: 'Hvilket udsagn om toæggede tvillinger er ikke korrekt?',
+        text: 'Hvilket udsagn om toæggede tvillinger er forkert?',
         answers: [
             'De har altid samme køn',
             'De kan have samme køn',
@@ -1321,7 +1308,7 @@ db.questions.save(
         text: 'Hvorfor hedder Dolly egentlig Dolly?',
         answers: [
             'Fordi forskerens datter hed Dolly',
-            'Fordi det var klonet af moderfårets brystvæv, og Dolly Parton har store bryster!',
+            'Fordi det var klonet af moderfårets brystvæv, og sangeren Dolly Parton har store bryster!',
             'Fordi forskerens mor hed Dolly Parton',
             'Fordi forskerens kæreste hed Dolly'
         ],

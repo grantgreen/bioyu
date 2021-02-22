@@ -1,7 +1,7 @@
 db.questions.save(
     {
         chapters: ['14.1'],
-        text: 'Hvor stor en procentdel udgør fedtet i gennemsnit af vores kropsmasse?',
+        text: 'Hvor stor en procentdel udgør fedt i gennemsnit af vores kropsmasse?',
         answers: [
             'Ca. 10 %',
             'Ca. 15 %',
@@ -15,7 +15,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.1'],
-        text: 'Fedt bruges også som byggesten i vores krop. Hvor?',
+        text: 'Hvor bruges fedt som byggesten i vores krop?',
         answers: [
             'I musklerne',
             'I led og sener',
@@ -85,7 +85,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.1'],
-        text: 'Hvilket grundstof findes ikke fedt?',
+        text: 'Hvilket grundstof findes ikke i fedt?',
         answers: [
             'Kvælstof',
             'Ilt',
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvilken gruppe sidder altid på fedtsyrers C1 ?',
+        text: 'Hvilken gruppe sidder altid på fedtsyrers C1?',
         answers: [
             'En karboxylsyregruppe',
             'En metylgruppe',
@@ -141,7 +141,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvilken gruppe sidder altid på fedtsyrers sidste kulstofatom (længst væk fra C1 ?)',
+        text: 'Hvilken gruppe sidder altid på fedtsyrers sidste kulstofatom (længst væk fra C1?)',
         answers: [
             'En karboxylsyregruppe',
             'En metylgruppe',
@@ -239,7 +239,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvad ved man om palmitinsyre, når den skrives som C16:0 ?',
+        text: 'Hvad ved man om palmitinsyre, når den skrives som C16:0?',
         answers: [
             'At der er 16 dobbeltbindinger',
             'At der er 16 C-atomer og dobbeltbindinger',
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvad ved man om olisesyre, når den skrives som 9-C18:1 ?',
+        text: 'Hvad ved man om olisesyre, når den skrives som 9-C18:1?',
         answers: [
             'At den har 9 C-atomer og 18 dobbeltbindinger',
             'At den har 18 C-atomer og 9 dobbeltbindinger',
@@ -393,7 +393,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvad ved man om arakidonsyre, når den skrives som 5, 8, 11, 14 – C20:4',
+        text: 'Hvad ved man om arakidonsyre, når den skrives som 5, 8, 11, 14 – C20:4?',
         answers: [
             'At der er 4 C-atomer og 5, 8, 11 eller 14 dobbeltbindinger',
             'At der er 20 C-atomer og 4 dobbeltbindinger ved C5, C8, C11 og C14',
@@ -407,7 +407,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.2'],
-        text: 'Hvilken fedtsyre kan skrives som 9 – C18:1 ?',
+        text: 'Hvilken fedtsyre kan skrives som 9 – C18:1?',
         answers: [
             'Palmitinsyre',
             'Oliesyre',
@@ -440,7 +440,7 @@ db.questions.save(
             'En fedtsyre, der findes overalt',
             'En fedtsyre, som vi selv kan danne',
             'En fedtsyre, som vi ikke selv kan danne',
-            'De fedtsyrer, der er særlig vigtige i de forskellige proceller i kroppen '
+            'De fedtsyrer, der er særlig vigtige i de forskellige processer i kroppen'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -454,7 +454,7 @@ db.questions.save(
             'At der sidder en dobbeltbinding ved C3',
             'At der er 3 dobbeltbindinger',
             'At den har 3 C-atomer',
-            'At der sidder en dobbeltbinding ved det tredjesidste C-atom '
+            'At der sidder en dobbeltbinding ved det tredjesidste C-atom'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -608,7 +608,7 @@ db.questions.save(
             'Et fedtstof med kun monoumættede fedtsyrer',
             'Et fedtstof med mindst en monoumættet fedtsyre',
             'Et triglycerid med kun en dobbeltbinding',
-            'Et triglycerid med kun en fedtsyre '
+            'Et triglycerid med kun en fedtsyre'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -734,7 +734,7 @@ db.questions.save(
             'Porøse celler',
             'Fedtceller',
             'Celler, der er særligt gode til at forbrænde fedt',
-            'Celler der generelt har en høj forbrænding'
+            'Celler, der generelt har en høj forbrænding'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -818,7 +818,7 @@ db.questions.save(
             'Der er ikke glycerol i fosfolipider',
             'Der er tre glycerol i fosfolipider',
             'Der er et glycerol samt to fedtsyrer og en fosforsyre i fosfolipider',
-            'Der er et glycerol, ingen fedtsyrer men en fosfosforsyre i fosfolipider'
+            'Der er et glycerol, ingen fedtsyrer men en fosforsyre i fosfolipider'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -841,7 +841,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.3'],
-        text: 'Hvilke dele af fosfolipidmolekylet er ikke polært? ',
+        text: 'Hvilke dele af fosfolipidmolekylet er ikke polært?',
         answers: [
             'Glycerol',
             'Fosfatgruppen',
@@ -900,7 +900,7 @@ db.questions.save(
         text: 'Hvad er forskellen på kernemembranen og mitokondriemembranen?',
         answers: [
             'Der er ingen forskel, de er bygget på samme måde',
-            'Kernemembranen består i modsætning til cellemembranen af fosfolipider ',
+            'Kernemembranen består i modsætning til cellemembranen af fosfolipider',
             'Kernemembranen er bygget som en dobbelt cellemembran',
             'Kernemembranen er bygget af fire cellemembraner'
         ],
@@ -941,9 +941,9 @@ db.questions.save(
         chapters: ['14.3'],
         text: 'Hvilket udsagn om prostaglandiner er ikke korrekt?',
         answers: [
-            'Det er nogle signalstoffer der har betydning for hormoners frigivelse ',
+            'Det er nogle signalstoffer, der har betydning for hormoners frigivelse',
             'Det er nogle signalstoffer, der har betydning for betændelsesreaktioner',
-            'Det er nogle signalstoffer, der kan hæmmes af stoffet aspirin ',
+            'Det er nogle signalstoffer, der kan hæmmes af stoffet aspirin',
             'Det er nogle signalstoffer, der kan fremmes af stoffet acetylsalicylsyre'
         ],
         type: 'multiple_text',
@@ -967,7 +967,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['14.3'],
-        text: 'Hvor findes der spingolipider?',
+        text: 'Hvor findes spingolipider?',
         answers: [
             'I prostaglandinerne',
             'I cellevæggen',
@@ -984,9 +984,9 @@ db.questions.save(
         text: 'Hvad menes der med ”cellemembranens viskositet”?',
         answers: [
             'Det siger noget om, hvor mange ionkanaler der findes i membranen',
-            'Membranens tykkelse',
-            'Membranens fasthed',
-            'Membranens gennemtrængelighed'
+            'Det siger noget om membranens tykkelse',
+            'Det siger noget om membranens fasthed',
+            'Det siger noget om membranens gennemtrængelighed'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1000,7 +1000,7 @@ db.questions.save(
             'En gonadestruktur',
             'En gonanstruktur',
             'En sphingolipid-struktur',
-            'En Conan-struktur'
+            'En conan-struktur'
         ],
         type: 'multiple_text',
         correct_answer: '1'

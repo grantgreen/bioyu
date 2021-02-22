@@ -113,5 +113,6 @@ var links = {
 
 	{"caption": "Forældre og fødsel",
 	 "link": "http://www.fogf.dk"},
+	 {"caption":"Statens Serum Institut","link":"https://www.ssi.dk/"},
 	]
 }

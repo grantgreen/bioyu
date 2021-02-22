@@ -73,7 +73,7 @@ db.questions.save(
         chapters: ['28.2'],
         text: 'Hvad menes med mineralisering?',
         answers: [
-            'At omdanner organisk materiale til næringssalte',
+            'At omdanne organisk materiale til næringssalte',
             'At findele det organiske materiale',
             'At øge jordtemperaturen og pH-værdien',
             'At tilføre jorden ilt'
@@ -101,10 +101,10 @@ db.questions.save(
         chapters: ['28.2'],
         text: 'Hvilket udsagn om jord er korrekt?',
         answers: [
-            'Jorden består især af humus',
-            'Jorden består af positivt ladede lerpartikler',
-            'Jorden er sammensat af organiske og uorganiske bestanddele',
-            'Jordens humuskolloider er positivt ladede'
+            'Jord består især af humus',
+            'Jord består af positivt ladede lerpartikler',
+            'Jord er sammensat af organiske og uorganiske bestanddele',
+            'Jords humuskolloider er positivt ladede'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -113,12 +113,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvilket udsagn om jord er ikke korrekt?',
+        text: 'Hvilket udsagn om jord er forkert?',
         answers: [
-            'Jorden indeholder humus',
-            'Jorden indeholder negativt ladede lerpartikler',
-            'Jorden er sammensat af organiske og uorganiske bestanddele',
-            'Jordens humuskolloider er positivt ladede'
+            'Jord indeholder humus',
+            'Jord indeholder negativt ladede lerpartikler',
+            'Jord er sammensat af organiske og uorganiske bestanddele',
+            'Jords humuskolloider er positivt ladede'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvad består jordens uorganiske mineralpartikler af?',
+        text: 'Hvad består jords uorganiske mineralpartikler af?',
         answers: [
             'Ler og sand',
             'Humus',
@@ -258,7 +258,7 @@ db.questions.save(
             'Fordi de er negativt ladede',
             'Fordi de er så små',
             'Fordi de har en meget ru overflade',
-            'Fordi de ikke har nogen elektrisk ladning selv '
+            'Fordi de ikke har nogen elektrisk ladning selv'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -272,7 +272,7 @@ db.questions.save(
             'Fordi de er negativt ladede',
             'Fordi de er så små',
             'Fordi de har en meget ru overflade',
-            'Fordi de ikke har nogen elektrisk ladning selv '
+            'Fordi de ikke har nogen elektrisk ladning selv'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -286,7 +286,7 @@ db.questions.save(
             'De er positivt ladede og derfor frastøder de positive ioner',
             'Regnormene laver gange i dem',
             'På grund af deres ladning bindes de sammen til større klumper',
-            'De udtørrer jorden, fx efter en regnbyge'
+            'De udtørrer jorden fx efter en regnbyge'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -309,11 +309,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvorfor er jorden sort?',
+        text: 'Hvorfor er jord sort?',
         answers: [
             'Fordi lerpartiklerne er sorte',
             'Fordi humus er sort',
-            'Fordi jorden reflekterer lyset',
+            'Fordi jord reflekterer lyset',
             'Fordi de talrige bakterier og smådyr er sorte'
         ],
         type: 'multiple_text',
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvad er halveringstiden for humus i jorden? ',
+        text: 'Hvad er halveringstiden for humus i jord?',
         answers: [
             'Ca. 1 år',
             'Ca. 2 år',
@@ -351,7 +351,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvilket udsagn om morjord er ikke korrekt?',
+        text: 'Hvilket udsagn om morjord er forkert?',
         answers: [
             'Der er en tydelig lagdeling',
             'Der er generelt en lav pH-værdi',
@@ -369,7 +369,7 @@ db.questions.save(
         answers: [
             'Vandmangel',
             'For høj pH-værdi',
-            'Iltmangel og derfor langsom nedbrydning ',
+            'Iltmangel og derfor langsom nedbrydning',
             'Mangel på humus'
         ],
         type: 'multiple_text',
@@ -379,12 +379,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvad kaldes det øverste lag i morjorden?',
+        text: 'Hvad kaldes det øverste lag i morjord?',
         answers: [
-            'Mineraljorden',
+            'Mineraljord',
             'Blegesand',
             'Al-lag',
-            'Førne-laget'
+            'Førne-lag'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -421,12 +421,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvilket lag ligger under førnen i morjorden?',
+        text: 'Hvilket lag ligger under førnen i morjord?',
         answers: [
             'Blegesandet',
             'Al-laget',
             'Mor-laget',
-            'Humuslaget'
+            'Humus-laget'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -435,7 +435,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvilket lag ligger under humuslaget i morjorden?',
+        text: 'Hvilket lag ligger under humuslaget i morjord?',
         answers: [
             'Blegesandet',
             'Al-laget',
@@ -449,7 +449,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvad er blegesand',
+        text: 'Hvad er blegesand?',
         answers: [
             'Sand med opløst humus',
             'Udvasket sand',
@@ -463,12 +463,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.2'],
-        text: 'Hvad består al-laget i morjorden af?',
+        text: 'Hvad består al-laget i morjord af?',
         answers: [
             'Sand med opløst humus',
             'Udvasket sand',
             'Sand med udfældede næringssalte',
-            'Mineraljorden'
+            'Mineraljord'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -550,7 +550,7 @@ db.questions.save(
         text: 'Hvorfor er det især svampe, der er nedbrydere i morjord?',
         answers: [
             'På grund af den lave pH-værdi',
-            'På grund af al-laget i morjorden ',
+            'På grund af al-laget i morjorden',
             'Fordi de kan klare sig i den tørre jord',
             'På grund af det tykke førnelag'
         ],
@@ -608,7 +608,7 @@ db.questions.save(
             'I retning mod mulddannelse',
             'I retning mod en mere iltfattig jord',
             'I retning mod lavere pH-værdi',
-            'I retning mod færre bakterier, da de spises af regnormene'
+            'I retning mod færre bakterier, da de ædes af regnorme'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -664,7 +664,7 @@ db.questions.save(
             'Fordi jorden er for hård',
             'På grund af al-laget',
             'På grund af blegesandet',
-            'Fordi der er for få bakterier som de kan æde'
+            'Fordi der er for få bakterier, som de kan æde'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -678,7 +678,7 @@ db.questions.save(
             'Fordi de mange bakterier bruger ilten',
             'Fordi mikrosvampene bruger al ilten',
             'Fordi der ikke er regnorme til at grave gange',
-            'På grund af denitrifikation '
+            'På grund af denitrifikation'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -692,7 +692,7 @@ db.questions.save(
             'Fordi der ikke er så meget førne, der skal nedbrydes',
             'Fordi der ikke er så mange mikrosvampe i jorden',
             'Fordi regnorme graver gange i jorden',
-            'Fordi der en relativ lav pH-værdi '
+            'Fordi der en relativ lav pH-værdi'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -704,7 +704,7 @@ db.questions.save(
         text: 'Hvad lever regnorme af?',
         answers: [
             'Af jordens mikrodyr',
-            'At jordens bakterier ',
+            'At jordens bakterier',
             'Af det nedfaldne plantemateriale',
             'Af førnen'
         ],
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvad menes der med, at planter er autotrofe?',
+        text: 'Hvad menes med, at planter er autotrofe?',
         answers: [
             'At de kan danne organisk stof ved fotosyntese',
             'At de kan udføre respiration',
@@ -762,7 +762,7 @@ db.questions.save(
             'Alle planter',
             'Rødalger, grønalger og de højere planter',
             'Brunalger og gulalger',
-            'Cyanobakterierne'
+            'Cyanobakterier'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -869,7 +869,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvilken plante hører ikke til de dækfrøede?',
+        text: 'Hvilke(n) hører ikke til de dækfrøede?',
         answers: [
             'Græsser',
             'Nåletræer',
@@ -897,7 +897,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvilken påstand om mossernes gametofyt er ikke korrekt?',
+        text: 'Hvilken påstand om mossernes gametofyt er forkert?',
         answers: [
             'Den er haploid',
             'Det er den grønne del af mosplanten',
@@ -967,12 +967,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvilket udsagn om frøplanternes haploide generation er korrekt?',
+        text: 'Hvilket udsagn om frøplanters haploide generation er korrekt?',
         answers: [
             'Det er selve planten',
             'Det er en lille struktur med 3 eller 8 celler',
             'Det er frøene',
-            'Der er ingen haploid generation hos frøplanterne '
+            'Der er ingen haploid generation hos frøplanter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -981,12 +981,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvilket udsagn om frøplanternes diploide generation er korrekt?',
+        text: 'Hvilket udsagn om frøplanters diploide generation er korrekt?',
         answers: [
             'Det er selve planten',
             'Det er en lille struktur med 3 eller 8 celler',
             'Det er frøene',
-            'Der er ingen diploid generation hos frøplanterne '
+            'Der er ingen diploid generation hos frøplanter'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -995,12 +995,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvilket udsagn om frøplanternes gametofyt er korrekt?',
+        text: 'Hvilket udsagn om frøplanters gametofyt er korrekt?',
         answers: [
             'Det er selve planten',
             'Det er en lille struktur med 3 eller 8 celler',
             'Det er frøene',
-            'Der er ingen gametofyt hos frøplanterne '
+            'Der er ingen gametofyt hos frøplanter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1040,8 +1040,8 @@ db.questions.save(
         text: 'Hvorfor kaldes de dækfrøede planter for dækfrøede?',
         answers: [
             'Fordi frøene er dækket af frugtblade',
-            'Fordi frøene er dækket af støvbladene',
-            'Fordi frøene er dækket af bægerbladene',
+            'Fordi frøene er dækket af støvblade',
+            'Fordi frøene er dækket af bægerblade',
             'Fordi frøene er dækket af griffelen'
         ],
         type: 'multiple_text',
@@ -1065,7 +1065,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvad bruges rodhårene til?',
+        text: 'Hvad bruges rodhår til?',
         answers: [
             'Til at fastholde roden i jorden',
             'Til at beskytte roden mod fordampning',
@@ -1109,7 +1109,7 @@ db.questions.save(
         chapters: ['28.3'],
         text: 'Hvad er forskellen på en stængel fra en enkimbladet og en tokimbladet plante set i tværsnit?',
         answers: [
-            'Enkimbladede stængler er kantede og ikke trinde som hos tokimbladede',
+            'Enkimbladede stængler er kantede og ikke runde som hos tokimbladede',
             'Enkimbladede stængler er hule og ikke massive som hos tokimbladede',
             'Enkimbladede stængler er glatte og ikke hårede som hos tokimbladede',
             'Enkimbladede stængler har spredte ledningsstrenge, ikke en kreds som hos tokimbladede'
@@ -1233,11 +1233,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvorfor er planter i stand til at bevæge sig mod lyset?',
+        text: 'Hvorfor er planter i stand til at bevæge sig i retning mod lyset?',
         answers: [
             'Fordi de har en speciel form for plantemuskelvæv',
-            'Fordi cellerne, der vender væk fra lyset, strækker sig ',
-            'Fordi cellerne, der vender hen mod lyset, strækker sig ',
+            'Fordi cellerne, der vender væk fra lyset, strækker sig',
+            'Fordi cellerne, der vender hen mod lyset, strækker sig',
             'Fordi de danner plantehormonet thyroxin'
         ],
         type: 'multiple_text',
@@ -1265,7 +1265,7 @@ db.questions.save(
         answers: [
             'Fotosyntese',
             'Kemosyntese',
-            'At en plante vokser mod lyset',
+            'At en plante vokser i retning mod lyset',
             'At en plante vokser opad, og roden vokser nedad'
         ],
         type: 'multiple_text',
@@ -1279,7 +1279,7 @@ db.questions.save(
         answers: [
             'At afgive ilt',
             'At optage ilt',
-            'At optage vand',
+            'At afgive kuldioxid',
             'At optage kuldioxid'
         ],
         type: 'multiple_text',
@@ -1333,7 +1333,7 @@ db.questions.save(
         chapters: ['28.3'],
         text: 'Hvordan kan man se, om et blad er et lysblad?',
         answers: [
-            'Hvis det har en lys grøn farve',
+            'Hvis det har en lys, grøn farve',
             'Hvis det er tyndt med kun et lag palisadeceller',
             'Hvis det er tykt med flere lag palisadeceller',
             'Hvis det har spalteåbningerne på oversiden'
@@ -1347,7 +1347,7 @@ db.questions.save(
         chapters: ['28.3'],
         text: 'Hvordan kan man se, om et blad er et skyggeblad?',
         answers: [
-            'Hvis det har en mørk grøn farve',
+            'Hvis det har en mørk, grøn farve',
             'Hvis det er tyndt med kun et lag palisadeceller',
             'Hvis det er tykt med flere lag palisadeceller',
             'Hvis det har spalteåbningerne på oversiden'
@@ -1431,7 +1431,7 @@ db.questions.save(
         chapters: ['28.3'],
         text: 'Hvad forstås ved støvblade?',
         answers: [
-            'Den hunlige del af blomsten der opfanger pollen',
+            'Den hunlige del af blomsten, der opfanger pollen',
             'De blade der beskytter blomsten mod støv',
             'Støvtråd og støvknap - altså blomstens hanlige organer',
             'Blosterblade'
@@ -1485,7 +1485,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvad består blomsterplanternes hanlige haploide del af?',
+        text: 'Hvad består blomsterplanternes hanlige, haploide del af?',
         answers: [
             'Frugtknuden',
             'To sædceller og en vegetativ celle',
@@ -1499,7 +1499,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvor mange sædceller dannes der ved støvkornets spiring?',
+        text: 'Hvor mange sædceller dannes ved støvkornets spiring?',
         answers: [
             '1',
             '3',
@@ -1513,11 +1513,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.3'],
-        text: 'Hvad består blomsterplanternes hunlige haploide del af?',
+        text: 'Hvad består blomsterplanternes hunlige, haploide del af?',
         answers: [
             'Frugtknuden',
             'To sædceller og en vegetativ celle',
-            'De 8 celler i kimsækken ',
+            'De 8 celler i kimsækken',
             'Støvbladene'
         ],
         type: 'multiple_text',
@@ -1597,7 +1597,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvilket grundstof hører ikke til planternes mikronæringsstoffer?',
+        text: 'Hvilket grundstof hører ikke til planters mikronæringsstoffer?',
         answers: [
             'N',
             'Fe',
@@ -1611,7 +1611,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvilket grundstof er ikke et makronæringsstof for planterne?',
+        text: 'Hvilket grundstof er ikke et makronæringsstof for planter?',
         answers: [
             'Zn',
             'P',
@@ -1695,11 +1695,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvordan optages vandet af planterne?',
+        text: 'Hvordan optager planter vand?',
         answers: [
             'Ved aktiv transport',
             'Gennem spalteåbningerne på bladene',
-            'Ved osmose samtidig med at ioner optages ved aktiv transport',
+            'Ved osmose samtidig med, at ioner optages ved aktiv transport',
             'Ved almindelig diffusion'
         ],
         type: 'multiple_text',
@@ -1714,7 +1714,7 @@ db.questions.save(
             'I alle celler der har mitokondrier',
             'I sikarrene',
             'I vedkarrene',
-            'I alle celler der har kloroplaster '
+            'I alle celler der har kloroplaster'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1725,10 +1725,10 @@ db.questions.save(
         chapters: ['28.4'],
         text: 'Hvordan kommer kuldioxid ind i planterne?',
         answers: [
-            'Gennem spalteåbningerne',
-            'Gennem rodhårene',
+            'Gennem spalteåbninger',
+            'Gennem rodhår',
             'Gennem overhuden',
-            'Gennem palisadevævet og svampvævet '
+            'Gennem palisadevæv og svampvæv'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1742,7 +1742,7 @@ db.questions.save(
             'I spalteåbningerne',
             'I rodhårene',
             'I overhuden',
-            'I palisadevævet og svampvævet '
+            'I palisadevævet og svampvævet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1751,7 +1751,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvordan skaffer planterne energi til deres livsprocesser?',
+        text: 'Hvordan skaffer planter energi til deres livsprocesser?',
         answers: [
             'Ved fotosyntese',
             'Ved kemosyntese',
@@ -1779,7 +1779,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvilken gavn har planterne af jordens mikroorganismer?',
+        text: 'Hvilken gavn har planter af jordens mikroorganismer?',
         answers: [
             'De tilfører ilt til planterne',
             'De fjerner nogle af jordens næringssalte',
@@ -1863,7 +1863,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvad forstås ved et mycelium? ',
+        text: 'Hvad forstås ved et mycelium?',
         answers: [
             'En svamp',
             'En gærsvamp',
@@ -1877,7 +1877,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvilken proces foregår der i ærteplanternes rodknolde?',
+        text: 'Hvilken proces foregår i ærteplanters rodknolde?',
         answers: [
             'Nitrifikation',
             'Kvælstoffiksering',
@@ -1905,7 +1905,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.4'],
-        text: 'Hvordan dannes proteinet leg-hæmoglobin? ',
+        text: 'Hvordan dannes proteinet leg-hæmoglobin?',
         answers: [
             'Af gener fra ærteplanten',
             'Af gener fra Rhizobium',
@@ -1924,7 +1924,7 @@ db.questions.save(
             'At jorden renses for organisk materiale',
             'At jordens renses for tungmetaller',
             'At næringssalte fjernes med nedbøren',
-            'At lerpartikler fjernes fra jorden med nedbøren '
+            'At lerpartikler fjernes fra jorden med nedbøren'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1933,7 +1933,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.5'],
-        text: 'Hvilket udsagn om udvaskning er ikke korrekt?',
+        text: 'Hvilket udsagn om udvaskning er forkert?',
         answers: [
             'Den sker især i sur jord',
             'Den sker især i sandet jord',
@@ -1977,7 +1977,7 @@ db.questions.save(
         chapters: ['28.5'],
         text: 'Hvad forstås ved tungmetaller?',
         answers: [
-            'Grundstoffer med en massefylde over 6 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
+            'Grundstoffer med en massefylde over 5 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
             'Grundstoffer med en massefylde over 10 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
             'Grundstoffer med en massefylde over 15 g/cm<span style="vertical-align:super; font-size:58%;">3</span>',
             'Giftige metaller'
@@ -1994,7 +1994,7 @@ db.questions.save(
             'Bly',
             'Kviksølv',
             'Cadmium',
-            'Kalum'
+            'Kalium'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2003,7 +2003,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.5'],
-        text: 'Hvilke udsagn om tungmetaller er ikke korrekt?',
+        text: 'Hvilke udsagn om tungmetaller er forkert?',
         answers: [
             'De er alle farlige',
             'De kan hæmme vigtige enzymer',
@@ -2017,7 +2017,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['28.5'],
-        text: 'Hvilket udsagn om metylkviksølv er ikke korrekt?',
+        text: 'Hvilket udsagn om metylkviksølv er forkert?',
         answers: [
             'Det kan biomagnificeres',
             'Det kan bindes til organismernes fedtvæv',

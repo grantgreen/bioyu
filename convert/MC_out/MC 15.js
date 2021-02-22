@@ -73,7 +73,7 @@ db.questions.save(
         chapters: ['15.1'],
         text: 'I hvilken form udskilles kvælstoffet fra proteinerne fra kroppen?',
         answers: [
-            'Som frit kvælstof N',
+            'Som frit kvælstof',
             'Som ammoniak',
             'Som urinstof',
             'Som urinsyre'
@@ -90,7 +90,7 @@ db.questions.save(
             'Ca. 1 %',
             '10-15 %',
             'Ca. 25 %',
-            'Ca. 60 %'
+            '50-60 %'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -99,7 +99,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.1'],
-        text: 'Hvor i cellen forbrændes proteinerne (aminosyrerne) ?',
+        text: 'Hvor i cellen forbrændes proteinerne (aminosyrerne)?',
         answers: [
             'I lysosomerne',
             'I kloroplasterne ',
@@ -141,7 +141,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvad forstås ved en aminosyres alfa-atom?',
+        text: 'Hvad forstås ved en aminosyres alfa-C-atom?',
         answers: [
             'Det C-atom, hvor aminogruppen og syregruppen sidder på',
             'C-atomet lige efter det, hvor aminogruppen sidder på',
@@ -155,7 +155,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'I hvilken aminosyre er radikalet et hydrogenatom ',
+        text: 'I hvilken aminosyre er radikalet et hydrogenatom?',
         answers: [
             'Valin',
             'Lysin',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvilken aminosyre får vi, hvis radikalet er en metylgruppe?',
+        text: 'Hvilken aminosyre har en metylgruppe som radikal?',
         answers: [
             'Glycin',
             'Serin',
@@ -256,8 +256,8 @@ db.questions.save(
         text: 'Hvad forstås ved essentielle aminosyrer?',
         answers: [
             'De aminosyrer, der bruges flest af i vores celler',
-            'De aminosyrer vi ikke selv kan danne',
-            'De aminosyrer vi selv kan danne',
+            'De aminosyrer, vi ikke selv kan danne',
+            'De aminosyrer, vi selv kan danne',
             'De aminosyrer, der kun kan skaffes fra plantekost'
         ],
         type: 'multiple_text',
@@ -267,7 +267,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvor mange ikke-essentielle aminosyrer findes der hos mennesket?',
+        text: 'Hvor mange ikke-essentielle aminosyrer findes hos mennesket?',
         answers: [
             '8',
             '11',
@@ -281,7 +281,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvor mange essentielle aminosyrer findes der hos mennesket?',
+        text: 'Hvor mange essentielle aminosyrer findes hos mennesket?',
         answers: [
             '9',
             '12',
@@ -295,7 +295,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvilket udsagn om de ikke-essentielle aminosyrer er ikke korrekt?',
+        text: 'Hvilket udsagn om de ikke-essentielle aminosyrer er forkert?',
         answers: [
             'Det er dem, der skal bruges mest af i cellerne',
             'Det er dem, vi ikke selv kan danne',
@@ -309,7 +309,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.2'],
-        text: 'Hvordan kan man kende aminosyren L-alanin ',
+        text: 'Hvordan kan man kende aminosyren L-alanin?',
         answers: [
             'I L-alanin sidder aminogruppen på beta-kulstofatomet',
             'I L-alanin sider aminogruppen til venstre, når karboxylsyregruppen tegnes øverst',
@@ -328,7 +328,7 @@ db.questions.save(
             'Fordi alfa-C-atomet er asymmetrisk',
             'Fordi alfa-C-atomet ikke er asymmetrisk ',
             'Fordi D-formen findes hos de essentielle aminosyrer',
-            'Fordi L-formen findes hos de essentielle aminosyrer '
+            'Fordi L-formen findes hos de essentielle aminosyrer'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -468,7 +468,7 @@ db.questions.save(
             'Fordi de største vil vandre længst i det elektriske felt',
             'Fordi de mindste vil vandre længst i det elektriske felt',
             'Fordi dem med flest karboxylsyregrupper vil vandre mod den positive pol',
-            'Fordi de vil have forskellige isoelektriske punkter og her vil de ikke vandre'
+            'Fordi de vil have forskellige isoelektriske punkter, og her vil de ikke vandre'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -547,7 +547,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.3'],
-        text: 'Hvad forstås ved et proteins sekundærstruktur',
+        text: 'Hvad forstås ved et proteins sekundærstruktur?',
         answers: [
             'Antallet af aminosyrer i proteinet',
             'Rækkefølgen af aminosyrer i proteinet',
@@ -593,7 +593,7 @@ db.questions.save(
         answers: [
             'Antallet af aminosyrer med tre aminogrupper i proteinet',
             'Antallet af aminosyrer med tre karboxylsyregrupper i proteinet',
-            'Den overordnede foldning af proteinet på baggrund af dets sekundære struktur',
+            'Den overordnede foldning af proteinet på baggrund af dets sekundære strukturer',
             'Om det er foldet i alfa-helix eller beta-foldeblad'
         ],
         type: 'multiple_text',
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.3'],
-        text: 'Hvordan er enzymet spytamylase opbygget? ',
+        text: 'Hvordan er enzymet spytamylase opbygget?',
         answers: [
             'Af alfa-helixer',
             'Af beta-foldebladsstrukturer',
@@ -748,7 +748,7 @@ db.questions.save(
             'Det sted på enzymet, hvor der er flest essentielle aminosyrer',
             'Det sted på enzymet, hvor der kan sidde flest substratmolekyler',
             'Det sted på enzymet, hvor der sidder flest kulhydratenheder',
-            'Det sted på enzymet, hvor substratet kan bindes '
+            'Det sted på enzymet, hvor substratet kan bindes'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -804,7 +804,7 @@ db.questions.save(
             'At det findes i den fejlfoldede form',
             'At det findes i den normale form',
             'At det er fyldt med amylose',
-            'At det fungerer som enzymet amylase '
+            'At det fungerer som enzymet amylase'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -832,7 +832,7 @@ db.questions.save(
             'Den pH-værdi, hvor proteinets nettoladning er nul',
             'Den pH værdi, hvor den elektriske ladning er størst',
             'Den pH-værdi, hvor proteinet reagerer basisk',
-            'Den pH-værdi, hvor proteinet reagerer surt '
+            'Den pH-værdi, hvor proteinet reagerer surt'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -855,7 +855,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['15.3'],
-        text: 'Hvordan vil man kunne adskille proteiner ved hjælp af elektroforese ?',
+        text: 'Hvordan vil man kunne adskille proteiner ved hjælp af elektroforese?',
         answers: [
             'De fordeler sig i gelen - hvor amfoliner laver en pH-gradient - efter deres isoelektriske punkt',
             'De fordeler sig i gelen efter størrelse, så de mindste kommer længst',

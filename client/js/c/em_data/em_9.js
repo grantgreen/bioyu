@@ -17,4 +17,6 @@ var links = [
 'link':'https://www.dropbox.com/s/ig4wtsyt9ho6brx/Vanddyrs%20tilpasninger.pdf?dl=0'},
 {'caption':'Øko-race',
 'link':'https://www.dropbox.com/s/pngh7rmar03sj20/%C3%98ko-race.pdf?dl=0'},
+{'caption':'Insekthoteller',
+'link':'https://www.dropbox.com/s/9j9e6yteo46nobo/Insekthoteller.pdf?dl=0'},
 ]

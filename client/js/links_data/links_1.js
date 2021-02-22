@@ -10,7 +10,8 @@ var links = {
 	 "link": "http://www.videnskab.dk"},
 
 	{"caption": "Aktuel Naturvidenskab",
-	 "link": "http://aktuelnaturvidenskab.dk"}
+	 "link": "http://aktuelnaturvidenskab.dk"},
+	 {"caption":"Statens Serum Institut","link":"https://www.ssi.dk/"},
 
     ]
 }

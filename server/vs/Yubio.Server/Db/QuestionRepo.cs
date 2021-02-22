@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Common.Logging;
 using MongoDB.Bson;
 using MongoDB.Bson.IO;
 using MongoDB.Bson.Serialization;
@@ -11,10 +12,13 @@ namespace Yubio.Server.Db
 {
     internal static class QuestionRepo
     {
+        private static readonly ILog Logger = LogManager.GetLogger("QuestionRepo");
+
         private const string CollectionName = "questions";
         public static IEnumerable<Question> QuestionsBySubChapter(this IMongoDatabase database, string subChapter)
         {
             var collection = database.GetCollection<BsonDocument>(CollectionName);
+
             var filter = Builders<BsonDocument>.Filter.Eq("chapters", subChapter);
             foreach (var n in collection.Find(filter).ToList())
             {
@@ -74,6 +78,7 @@ namespace Yubio.Server.Db
         }
     }
 
+   
     public class Question
     {
         [BsonId]
@@ -86,12 +91,13 @@ namespace Yubio.Server.Db
         public string Text { get; set; }
         [BsonElement("type")]
         public string Type { get; set; }
-        [BsonElement("correct_answer")]
+        [BsonElement("correct_answer"), BsonDefaultValue(0), BsonIgnoreIfNull]
         public int Correct { get; set; }
         public Question()
         {
             this.Answers = new List<string>();
             this.Chapters = new List<string>();
+            this.Correct = 0;
         }
 
 

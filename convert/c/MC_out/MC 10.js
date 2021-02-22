@@ -34,7 +34,7 @@ db.questions.save(
             'Nitratforurening',
             'Primær forurening',
             'Sekundær forurening',
-            'vandforurening'
+            'Vandforurening'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Hvorfor kan søens bundplanter dø på grund af sekundær forurening?',
+        text: 'Hvorfor kan søens bundplanter dø som følge af sekundær forurening?',
         answers: [
             'Fordi der kommer mange alger, der bortskygger dem',
             'Fordi bakterierne dør og skal nedbrydes',
@@ -229,7 +229,7 @@ db.questions.save(
         answers: [
             'Iltindholdet på 5 dage',
             'Fotosyntesen på 5 dage',
-	    'BI<span style="vertical-align:sub; font-size:58%;">5</span>',
+	        'BI<span style="vertical-align:sub; font-size:58%;">5</span>',
             'Respirationen',
         ],
         type: 'multiple_text',
@@ -268,7 +268,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'En BI<span style="vertical-align:sub; font-size:58%;">5</span>-værdi på 1-2 mg ilt pr. liter er tegn på, at vandet er:',
+        text: 'En BI<span style="vertical-align:sub; font-size:58%;">5</span>-værdi på 1-2 mg ilt pr. liter er tegn på, at vandet er',
         answers: [
             'Rent',
             'Moderat forurenet',
@@ -282,7 +282,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'En BI<span style="vertical-align:sub; font-size:58%;">5</span>-værdi på 20-25 mg ilt pr. liter er tegn på, at vandet er:',
+        text: 'En BI<span style="vertical-align:sub; font-size:58%;">5</span>-værdi på 20-25 mg ilt pr. liter er tegn på, at vandet er',
         answers: [
             'Rent',
             'Moderat forurenet',
@@ -297,7 +297,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Slørvingenymfer i et vandløb tyder på:',
+        text: 'Slørvingenymfer i et vandløb tyder på',
         answers: [
             'Rent vand',
             'Moderat forurenet vand',
@@ -312,7 +312,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Røde børsteorme i vandløb tyder på:',
+        text: 'Røde børsteorme i vandløb tyder på',
         answers: [
             'Rent vand',
             'Moderat forurenet vand',
@@ -412,10 +412,10 @@ db.questions.save(
         chapters: ["10.2"],
         text: 'Hvad forstås ved et pesticid?',
         answers: [
-            'Et stof der dræber organismer',
-            'Et stof der dræber planter',
-            'Et stof der dræber svampe',
-            'Et stof der dræber insekter'
+            'Et stof, der dræber organismer',
+            'Et stof, der dræber planter',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber insekter'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -426,10 +426,10 @@ db.questions.save(
         chapters: ["10.2"],
         text: 'Hvad er et herbicid?',
         answers: [
-            'Et stof der dræber organismer',
-            'Et stof der dræber planter',
-            'Et stof der dræber svampe',
-            'Et stof der dræber insekter'
+            'Et stof, der dræber organismer',
+            'Et stof, der dræber planter',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber insekter'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -440,10 +440,10 @@ db.questions.save(
         chapters: ["10.2"],
         text: 'Hvad er et fungicid?',
         answers: [
-            'Et stof der dræber organismer',
-            'Et stof der dræber planter',
-            'Et stof der dræber svampe',
-            'Et stof der dræber insekter'
+            'Et stof, der dræber organismer',
+            'Et stof, der dræber planter',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber insekter'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -455,10 +455,10 @@ db.questions.save(
         chapters: ["10.2"],
         text: 'Hvad er et insekticid?',
         answers: [
-            'Et stof der dræber organismer',
-            'Et stof der dræber planter',
-            'Et stof der dræber svampe',
-            'Et stof der dræber insekter'
+            'Et stof, der dræber organismer',
+            'Et stof, der dræber planter',
+            'Et stof, der dræber svampe',
+            'Et stof, der dræber insekter'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -495,7 +495,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Hvilken påstand om Roundup er ikke korrekt?',
+        text: 'Hvilken påstand om Roundup er forkert?',
         answers: [
             'Det indeholder glyfosat',
             'Det er et herbicid',
@@ -513,7 +513,7 @@ db.questions.save(
         answers: [
             'Kviksølv',
             'Herbicid',
-            'Glyfosat',
+            'Glyphosat',
             'Nitrat'
         ],
         type: 'multiple_text',
@@ -621,7 +621,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Hvad menes der med, at et stof har en androgen virkning?',
+        text: 'Hvad menes med, at et stof har en androgen virkning?',
         answers: [
             'At det er antagonist til østrogen',
             'At det kan bindes til østrogenreceptorerne',
@@ -707,8 +707,8 @@ db.questions.save(
         chapters: ["10.2"],
         text: 'Hvad forstås ved DOM i en sø?',
         answers: [
-            'Nitrat og fosfat-forurening',
-            'Dødt organisk materiale der skal nedbrydes',
+            'Nitrat- og fosfat-forurening',
+            'Dødt organisk materiale, der skal nedbrydes',
             'Iltmangel i søen',
             'Sigtdybden'
         ],
@@ -738,7 +738,7 @@ db.questions.save(
             'Rovfisk som fx gedder',
             'Topkonsumenter',
             'Dyreplankton',
-            'Fisk der spiser søens dyreplankton'
+            'Fisk, der spiser søens dyreplankton'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1065,7 +1065,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.2"],
-        text: 'Hvilket land udlever mest plastik?',
+        text: 'Hvilket land udleder mest plastik?',
         answers: [
             'Kina',
             'Indonesien',
@@ -1105,12 +1105,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.3"],
-        text: 'Hvad forstås ved en recipient, når man taler om spildevand?',
+        text: 'Hvad forstås ved en "recipient", når man taler om spildevand?',
         answers: [
             'Kilden til forureningen',
             'Renseanlægget',
             'Sandfanget',
-            'Der hvor spildevandet udledes'
+            'Der, hvor spildevandet udledes'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1163,8 +1163,8 @@ db.questions.save(
         chapters: ["10.3"],
         text: 'Hvad forstås ved et biologisk filter?',
         answers: [
-            'Et anlæg hvor mikroorganismerne sidder fast på sten eller lignende',
-            'Et anlæg hvor mikroorganismerne flyder frit i vandet',
+            'Et anlæg, hvor mikroorganismerne sidder fast på sten eller lignende',
+            'Et anlæg, hvor mikroorganismerne flyder frit i vandet',
             'En rist ved indløbet til renseanlægget',
             'En rist ved udløbet fra renseanlægget'
         ],
@@ -1177,8 +1177,8 @@ db.questions.save(
         chapters: ["10.3"],
         text: 'Hvad forstås ved et aktivt slamanlæg?',
         answers: [
-            'Et anlæg hvor mikroorganismerne sidder fast på sten eller lignende',
-            'Et anlæg hvor mikroorganismerne flyder frit i vandet',
+            'Et anlæg, hvor mikroorganismerne sidder fast på sten eller lignende',
+            'Et anlæg, hvor mikroorganismerne flyder frit i vandet',
             'En rist ved indløbet til renseanlægget',
             'En rist ved udløbet fra renseanlægget'
         ],
@@ -1245,7 +1245,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.3"],
-        text: 'Hvad kan Life Straw?',
+        text: 'Hvad kan "Life Straw"?',
         answers: [
             'Gøre vandet klart',
             'Fjerne organisk stof fra vand',
@@ -1276,7 +1276,7 @@ db.questions.save(
         text: 'Hvornår blev vandmiljøplan 2 vedtaget?',
         answers: [
             '1987',
-            '2003',
+            '1998',
             '2008',
             '2013'
         ],
@@ -1287,15 +1287,15 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.3"],
-        text: 'Hvornår blev vandmiljøplan 2 vedtaget?',
+        text: 'Hvornår blev vandmiljøplan 3 vedtaget?',
         answers: [
             '1987',
-            '2003',
-            '2008',
-            '2013'
+            '2004',
+            '2010',
+            '2016'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '1'
     });
 
 db.questions.save(
@@ -1399,7 +1399,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.4"],
-        text: 'Hvad er årsagen til den surere nedbør?',
+        text: 'Hvad er årsagen til den sure nedbør?',
         answers: [
             'Uorganiske næringssalte i overfladevand',
             'Organiske stoffer i vandet',
@@ -1600,7 +1600,7 @@ db.questions.save(
             'Termometre',
             'Vandmålere',
             'Som drivmiddel i spraydåser',
-            'Til saltning af på vejene'
+            'Til saltning af vejene'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1623,7 +1623,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.5"],
-        text: 'Hvorfor er Jordens ozonlag så vigtigt?',
+        text: 'Hvorfor er Jordens ozonlag vigtigt?',
         answers: [
             'Fordi det øger drivhuseffekten meget',
             'Fordi det formindsker drivhuseffekten',
@@ -1667,10 +1667,10 @@ db.questions.save(
         chapters: ["10.5"],
         text: 'Hvor meget er middeltemperaturen i Danmark steget siden 1870?',
         answers: [
-            '0,5 grader',
-            '1,5 grader',
-            '2,5 grader',
-            '4,5 grader'
+            'Ca. 0,5 grader',
+            'Ca. 1,5 grader',
+            'Ca. 2,5 grader',
+            'Ca. 4,5 grader'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1693,7 +1693,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.5"],
-        text: 'Hvad er det, man undertiden kalder Jordens Tredje Pol?',
+        text: 'Hvad er det, man undertiden kalder "Jordens Tredje Pol"?',
         answers: [
             'Sahara',
             'Stillehavet',
@@ -1735,7 +1735,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.5"],
-        text: 'Hvorfor er Verdens store koralrev ved at uddø?',
+        text: 'Hvorfor er verdens store koralrev ved at uddø?',
         answers: [
             'På grund af høj pH-værdi',
             'På grund af for mange koralædende fisk',
@@ -1781,6 +1781,7 @@ db.questions.save(
         answers: [
             'Den er reduceret med ca. 8 %',
             'Den er reduceret med ca. 32 %',
+            'Den er steget med ca. 32 %',
             'Den er steget med ca. 8 %',
         ],
         type: 'multiple_text',
@@ -1798,7 +1799,7 @@ db.questions.save(
             'At landene forpligter sig til at reducere udslip af ozon'
         ],
         type: 'multiple_text',
-        correct_answer: '1'
+        correct_answer: '0'
     });
 
 db.questions.save(
@@ -1907,7 +1908,7 @@ db.questions.save(
         answers: [
             '1979',
             '1989',
-            '2099',
+            '1999',
             '2009'
         ],
         type: 'multiple_text',
@@ -2106,7 +2107,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["10.7"],
-        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som vi køber pr. år?',
+        text: 'Hvor mange liter vand går der til at fremstille de 16 kg tøj, som danskerne køber pr. år?',
         answers: [
             '58.000 L',
             '5.000 L',
@@ -2131,3 +2132,227 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvad er Earth Overshoot Day?',
+        answers: [
+            'Den dag, verdens befolkning har brugt de ressourcer, der kan gendannes på et år',
+            'Den dag, hvor der er masser af ressourcer i overskud',
+            'Den dag, verdens befolkning har brugt de ressourcer, der kan gendannes på to år',
+            'Den dag, hvor verdens befolkning deler de ressourcer, der kan gendannes på et år',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvornår havde vi brug for to hele jordkloder for at levere ressourcer nok til vores levevis?',
+        answers: [
+            '1. august 2018 og 3. august 2017',
+            '3. august 2018 og 1. august 2017',
+            '1. september 2018 og 3. juni 2018',
+            '29.juli 2019 og 3. august 2020',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilken plads placerede Danmark sig på over verdens lande, der forbruger mest (2019)?',
+        answers: [
+            'En 7. plads',
+            'En 4. plads',
+            'En 18. plads',
+            'En 29. plads'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilket land kommer tættest på at få ressourcerne til at slå til, og hvornår vil Earth Overshoot Day ligge?',
+        answers: [
+            'Indonesien og Earth Overshoot Day vil være den 21. december',
+            'Danmark og Earth Overshoot Day vil være den 21. oktober',
+            'Kina og Earth Overshoot Day vil være den 29. marts',
+            'Tyskland og Earth Overshoot Day vil være den 29. juli',
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvad er gennemsnitsdanskerens udledning af CO<span style="vertical-align:sub; font-size:58%;">2</span> i tons?',
+        answers: [
+            '17 tons',
+            '15 tons',
+            '11 tons',
+            '30 tons'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilken type kød er mest klimatungt at producere?',
+        answers: [
+            'Oksekød', 
+            'Svinekød',
+            'Fisk',
+            'Kylling'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvad var skyld i mere end 10 % af Danmarks samlede klimabelastning?',
+        answers: [
+            'Flyrejser',
+            'Tøjproduktion',
+            'Kødproduktion',
+            'Bilers udledning af CO<span style="vertical-align:sub; font-size:58%;">2</span>'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvordan har vi i Danmark kunnet opnå vores klimamål?',
+        answers: [
+            'Køb af CO<span style="vertical-align:sub; font-size:58%;">2</span>-kvoter', 
+            'Nedskæring i kødproduktionen',
+            'Stigning af flypriser',
+            'Mindre fabriksproduktion'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilket år anslår forskerne, at der vil være op mod 200 millioner klimaflygtninge?',
+        answers: [
+            '2050',
+            '2025',
+            '2040',
+            '2065'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Ifølge hvem havde Kina, Indien og Filippinerne flest klimaflygtninge?',
+        answers: [
+            'IDMC',
+            'WHO',
+            'FN',
+            'Nato'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvem er særligt udsat for naturkatastrofer?',
+        answers: [
+            'Børn',
+            'Dyr',
+            'Unge',
+            'Gamle'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvad kan især forårsage dårlige hygiejniske forhold?',
+        answers: [
+            'Oversvømmelser',
+            'Vulkanudbrud',
+            'Bombeangreb',
+            'Jordskælv'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });     
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilke tre parametre giver samlet et kæmpe klimaaftryk?',
+        answers: [
+            'Stigende befolkningsantal, velstand og levealder',
+            'Stigende forbrug af mad, drikke og offentlig transport',
+            'Stigende forbrug af mad, drikke og ikke miljøvenlige biler',
+            'Stigende forbrug af offentlig transport, ikke miljøvenlige biler og cykler'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvilket udsagn er mest korrekt vedr. ansvaret for klimaet?',
+        answers: [
+            'Vi har alle et fælles ansvar for klimaet',
+            'Det er EU, der har det primære ansvar',
+            'Det er kineserne, der har det primære ansvar',
+            'Det er flyselskaberne, der har det primære ansvar'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });     
+
+db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvordan skal klimakrisen løses?',
+        answers: [
+            'Ved hjælp af teknologiske løsninger', 
+            'Ved at vi alle stopper med at flyve',
+            'Ved at vi reducerer vores forbrug af landbrugsarbejde',
+            'Ved hjælp af naturvidenskabelige løsninger'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    }); 
+
+    db.questions.save(
+    {
+        chapters: ['10.7'],
+        text: 'Hvad er fordelen ved biokul?',
+        answers: [
+            'Det er et stabilt materiale, der ikke omsættes til CO<span style="vertical-align:sub; font-size:58%;">2</span>',
+            'Det er med til at mindske det enorme udslip af metan',
+            'Det medfører, at næringsstofferne fra gylle kan blive anvendt på ny',
+            'Der er ingen fordel ved biokul, det sætter blot et kæmpe klimaaftryk'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });         

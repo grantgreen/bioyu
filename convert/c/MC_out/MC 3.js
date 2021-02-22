@@ -31,8 +31,8 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad er enheden for energi?',
         answers: [
-            'Kg',
-            'Km',
+            'kg',
+            'km',
             'kJ',
             'mm'
         ],
@@ -103,7 +103,7 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad er sammenhængen mellem kcal og kJ?',
 	answers: [
-            '1 kcal = 1 KJ',
+            '1 kcal = 1 kJ',
             '1 kcal = 4,186 kJ',
             '1 kJ = 4,186 kcal',
             '1 kJ = 0,418 kcal'
@@ -187,10 +187,10 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvor meget energi bruges af en mand på 70 kg til hvilestofskiftet pr døgn?',
         answers: [
-            '1kJ',
-            '4 kJ',
-            '6.700 kJ',
-            '15.000 kJ'
+            'Ca. 1 kJ',
+            'Ca. 4 kJ',
+            'Ca. 6.700 kJ',
+            'Ca. 15.000 kJ'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -201,10 +201,10 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvor meget energi kan en cykelrytter bruge pr. døgn?',
         answers: [
-            '1kJ',
-            '4 kJ',
-            '6.700 kJ',
-            '30.000 kJ'
+            'Ca. 1 kJ',
+            'Ca. 4 kJ',
+            'Ca. 6.700 kJ',
+            'Ca. 30.000 kJ'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -245,7 +245,7 @@ db.questions.save(
         answers: [
             '15-20 % (af energien)',
             '50-60 % (af energien)',
-            '26-30 % (af energien)',
+            'Maksimalt 30 % (af energien)',
             '10 % (af energien)'
         ],
         type: 'multiple_text',
@@ -272,7 +272,7 @@ db.questions.save(
         text: 'Hvad menes med, at man er i energibalance?',
         answers: [
             'At man har en god døgnrytme',
-            'At man sover i ca. 8 timer pr nat',
+            'At man sover i ca. 8 timer pr. nat',
             'At man bruger samme mængde energi, som man indtager',
             'At man bruger energi svarende til hvilestofskiftet'
         ],
@@ -297,12 +297,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvorfor anbefales det, at skære ned på salt?',
+        text: 'Hvorfor anbefales det at skære ned på salt?',
         answers: [
-            'Da det kan give overvægt',
-            'Da det kan føre til vægttab',
-            'Da det kan give for lavt blodtryk',
-            'Da det kan give for højt blodtryk'
+            'Det kan give overvægt',
+            'Det kan føre til vægttab',
+            'Det kan give for lavt blodsukker',
+            'Det kan give for højt blodtryk'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -327,10 +327,10 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad forstås ved et organisk stof?',
         answers: [
-            'Et stof der indgår i levende organismer som byggesten',
-            'Et stof der indeholder grundstoffet S',
-            'Et stof der indeholder grundstoffet N',
-            'Et stof der gavner fordøjelsen'
+            'Et stof, der indgår i levende organismer som byggesten',
+            'Et stof, der indeholder grundstoffet S',
+            'Et stof, der indeholder grundstoffet N',
+            'Et stof, der gavner fordøjelsen'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -607,8 +607,8 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad forstås ved umættede fedtsyrer?',
         answers: [
-            'Fedt der giver en god mæthed',
-            'Fedt der ikke giver mæthed',
+            'Fedt, der giver en god mæthed',
+            'Fedt, der ikke giver mæthed',
             'Fedtsyrer med dobbeltbindinger mellem C-atomer',
             'Fedtsyrer uden dobbeltbindinger mellem C-atomer'
         ],
@@ -621,8 +621,8 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad forstås ved mættede fedtsyrer?',
         answers: [
-            'Fedt der giver en god mæthed',
-            'Fedt der ikke giver mæthed',
+            'Fedt, der giver en god mæthed',
+            'Fedt, der ikke giver mæthed',
             'Fedtsyrer med dobbeltbindinger mellem C-atomer',
             'Fedtsyrer uden dobbeltbindinger mellem C-atomer'
         ],
@@ -675,7 +675,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'I hvilket fødemiddel findes der meget protein?',
+        text: 'Hvilket fødemiddel indeholder meget protein?',
         answers: [
             'Kød',
             'Brød',
@@ -703,7 +703,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvad er proteinerne opbygget af?',
+        text: 'Hvad er proteiner opbygget af?',
         answers: [
             'Aminosyrer',
             'Glukose',
@@ -731,7 +731,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvor mange forskellige aminosyrer findes der?',
+        text: 'Hvor mange forskellige aminosyrer findes der i vores proteiner?',
         answers: [
             '20',
             '9',
@@ -809,7 +809,7 @@ db.questions.save(
             'R'
         ],
         type: 'multiple_text',
-        correct_answer: '3'
+        correct_answer: '2'
     });
 
 db.questions.save(
@@ -829,7 +829,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvad er et poly-peptid?',
+        text: 'Hvad er et polypeptid?',
         answers: [
             'En aminosyre med 2 syregrupper',
             'En aminosyre med 2 aminogrupper',
@@ -941,11 +941,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvilket udsagn om D-vitamin er ikke korrekt?',
+        text: 'Hvilket udsagn om D-vitamin er forkert?',
         answers: [
-            'Det findes i mælk og smør',
+            'Det findes i mælk og æg',
             'Det er vandopløseligt',
-            'Det er fedtopløseligt',
+            'Det er vigtigt for knoglevæv',
             'Det kan dannes i huden'
         ],
         type: 'multiple_text',
@@ -1028,8 +1028,8 @@ db.questions.save(
         text: 'Hvilket fødemiddel indeholder mest D-vitamin?',
         answers: [
             'Citroner og appelsner',
+            'Nødder',
             'Mælk',
-            'Smør',
             'Kød'
         ],
         type: 'multiple_text',
@@ -1042,7 +1042,7 @@ db.questions.save(
         text: 'Hvilket fødemiddel indeholder meget A-vitamin?',
         answers: [
             'Citroner og appelsener',
-            'Mælk',
+            'Nødder',
             'Smør',
             'Kød'
         ],
@@ -1058,7 +1058,7 @@ db.questions.save(
             'Ca. 10 %',
             'Ca. 20 %',
             '50-70 %',
-            'ca. 90 %'
+            'Ca. 90 %'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1085,8 +1085,8 @@ db.questions.save(
         answers: [
             '2,5-3 L',
             '1,5-2 L',
-            '10 L',
-            '15 L'
+            'Ca. 10 L',
+            'Ca. 15 L'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -1095,7 +1095,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvor meget vand bør man drikke i døgnet i vores klima?',
+        text: 'Hvor meget vand bør man drikke i døgnet (i vores klima)?',
         answers: [
             '2,5-3 L',
             '1,5-2 L',
@@ -1181,7 +1181,7 @@ db.questions.save(
         chapters: ["3.2"],
         text: 'Hvad er kreatin?',
         answers: [
-            'Et stof der er på dopinglisten',
+            'Et stof, der er på dopinglisten',
             'Et sukkerstof',
             'En form for druesukker',
             'Et stof, der giver lynhurtig energi til musklerne'
@@ -1193,7 +1193,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvilket udsagn om kreatin er ikke korrekt?',
+        text: 'Hvilket udsagn om kreatin er forkert?',
         answers: [
             'Det virker i musklerne',
             'Det er på dopinglisten',
@@ -1263,7 +1263,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.2"],
-        text: 'Hvilket udsagn om koffein er ikke korrekt?',
+        text: 'Hvilket udsagn om koffein er forkert?',
         answers: [
             'Det virker opkvikkende',
             'Det findes i kaffe',
@@ -1307,10 +1307,10 @@ db.questions.save(
         chapters: ["3.3"],
         text: 'Hvad forstås ved enzymets substrat?',
         answers: [
-            'Det der kommer ud af reaktionen',
+            'Det, der kommer ud af reaktionen',
             'Det stof enzymet virker på',
-            'Et stof der aktiverer enzymet',
-            'Et stof der hæmmer enzymet'
+            'Et stof, der aktiverer enzymet',
+            'Et stof, der hæmmer enzymet'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1321,9 +1321,9 @@ db.questions.save(
         chapters: ["3.3"],
         text: 'Hvad er enzymets aktive sted?',
         answers: [
-            'Det sted hvor substratet bindes',
-            'Det stof enzymet virker på',
-            'Det stof der aktiverer enzymet',
+            'Det sted, hvor substratet bindes',
+            'Det stof, enzymet virker på',
+            'Det stof, der aktiverer enzymet',
             'Det sted i kroppen, hvor enzymet virker'
         ],
         type: 'multiple_text',
@@ -1336,9 +1336,9 @@ db.questions.save(
         text: 'Hvad er et enzyms optimumtemperatur?',
         answers: [
             'Enzymets aktive sted',
-            'Den temperatur hvor enzymet virker bedst',
-            'Den temperatur hvor enzymet begynder at koge',
-            'Den temperatur hvor enzymet begynder at fryse til is'
+            'Den temperatur, hvor enzymet virker bedst',
+            'Den temperatur, hvor enzymet begynder at koge',
+            'Den temperatur, hvor enzymet begynder at fryse til is'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1406,9 +1406,9 @@ db.questions.save(
         text: 'Hvad forstås ved et enzyms pH-optimum?',
         answers: [
             'Enzymets aktive sted',
-            'Den pH-værdi hvor enzymet fungerer bedst',
-            'Den pH hvor enzymet begynder at koge',
-            'Den pH enzymet begynder at fryse til is'
+            'Den pH-værdi, hvor enzymet fungerer bedst',
+            'Den pH-værdi, hvor enzymet begynder at koge',
+            'Den pH-værdi, enzymet begynder at fryse til is'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1461,10 +1461,10 @@ db.questions.save(
         chapters: ["3.3"],
         text: 'Hvor meget spyt producerer et menneske pr. døgn?',
         answers: [
-            '0,5 L',
-            '1,5 L',
-            '5 L',
-            '10 L'
+            'Ca. 0,5 L',
+            'Ca. 1,5 L',
+            'Ca. 5 L',
+            'Ca. 10 L'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -1475,8 +1475,8 @@ db.questions.save(
         chapters: ["3.3"],
         text: 'Hvad hedder det enzym, der findes i spyttet?',
         answers: [
-            'Pepsin',
-            'Laktase',
+            'Spyt-pepsin',
+            'Spyt-laktase',
             'Spyt-peptidase',
             'Spyt-amylase'
         ],
@@ -1489,10 +1489,10 @@ db.questions.save(
         chapters: ["3.3"],
         text: 'Hvad er spytamylase?',
         answers: [
-            'Et enzym der spalter protein',
-            'Et enzym der spalter fedt',
-            'Et enzym der spalter amylase',
-            'Et enzym der spalter stivelse'
+            'Et enzym, der spalter protein',
+            'Et enzym, der spalter fedt',
+            'Et enzym, der spalter amylase',
+            'Et enzym, der spalter stivelse'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1575,7 +1575,7 @@ db.questions.save(
         answers: [
             'Et fedtstof',
             'Et kulhydrat',
-            'Et enzym der spalter fedt',
+            'Et enzym ,der spalter fedt',
             'En del af galden'
         ],
         type: 'multiple_text',
@@ -1617,7 +1617,7 @@ db.questions.save(
         answers: [
             'Spiserøret',
             'Tolvfingertarmen',
-            'Leveren',
+            'Endetarmen',
             'Tyktarmen'
         ],
         type: 'multiple_text',
@@ -1744,7 +1744,7 @@ db.questions.save(
             'Kapillærer i tyndtarmen',
             'Enzymer i tyndtarmen',
             'Udposninger på tyndtarmens indre',
-            'Udposninger på leveren'
+            'Udposninger på tyktarmens indre'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1865,12 +1865,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.3"],
-        text: 'Hvilket udsagn om coli-bakterier er ikke korrekt?',
+        text: 'Hvilket udsagn om colibakterier er forkert?',
         answers: [
             'De lever i tyktarmen',
-            'De er sygdomsfremkaldende',
+            'De kan være sygdomsfremkaldende',
             'De er meget farlige',
-            'Coli-bakterier i mad er altid tegn på forurening med afføring'
+            'Colibakterier i mad er tegn på forurening med afføring'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -1982,7 +1982,7 @@ db.questions.save(
             'Taljeomkreds',
             'Hofteomkreds',
             'BMI',
-            'Taljemål/hofteomkreds'
+            'Taljeomkreds/hofteomkreds'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2051,8 +2051,8 @@ db.questions.save(
         answers: [
             'Mmol kolesterol/L',
             '120/70',
-            'Max iltoptagelse/minut/kg',
-            'Min iltoptagelse/minut/kg'
+            'Maksimal iltoptagelse/minut/kg',
+            'Minimal iltoptagelse/minut/kg'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2065,7 +2065,7 @@ db.questions.save(
         answers: [
             '29',
             '30-40',
-            '35',
+            '55',
             '40-50'
         ],
         type: 'multiple_text',
@@ -2079,7 +2079,7 @@ db.questions.save(
         answers: [
             '29',
             '30-40',
-            '35',
+            '55',
             '40-50'
         ],
         type: 'multiple_text',
@@ -2092,9 +2092,9 @@ db.questions.save(
         text: 'Hvad er det kritisk lave kondital for kvinder?',
         answers: [
             '29',
-            '30-40',
-            '35',
-            '40-50'
+            '39',
+            '49',
+            '19'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2105,13 +2105,13 @@ db.questions.save(
         chapters: ["3.4"],
         text: 'Hvad er det kritisk lave kondital for mænd?',
         answers: [
-            '29',
-            '30-40',
+            '25',
             '35',
-            '40-50'
+            '45',
+            '55'
         ],
         type: 'multiple_text',
-        correct_answer: '2'
+        correct_answer: '1'
     });
 
 db.questions.save(
@@ -2163,8 +2163,8 @@ db.questions.save(
         answers: [
             'At fordøje stivelse',
             'At fordøje fedt',
-            'At optage glukose fra blodet til cellerne',
-            'At afgive glukose fra cellerne til blodet'
+            'At få celler til at optage glukose fra blodet',
+            'At få celler til at afgive glukose til blodet'
         ],
         type: 'multiple_text',
         correct_answer: '2'
@@ -2191,7 +2191,7 @@ db.questions.save(
         answers: [
             'I fedtvævet',
             'I det brune fedtvæv',
-            'I muskler og leveren',
+            'I muskler og lever',
             'I nervevævet'
         ],
         type: 'multiple_text',
@@ -2261,8 +2261,8 @@ db.questions.save(
         answers: [
             'At fordøje stivelse',
             'At fordøje fedt',
-            'At optage glukose fra blodet til cellerne',
-            'At afgive glukose fra cellerne til blodet'
+            'At få cellerne til at optage glukose fra blodet',
+            'At få celler til at afgive glukose til blodet'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -2315,7 +2315,7 @@ db.questions.save(
         chapters: ["3.4"],
         text: 'Hvorfor kan insulin ikke indtages gennem munden?',
         answers: [
-            'Fordi det smager meget ubehageligt',
+            'Fordi det smager meget grimt',
             'Fordi det vil skade mundens slimhinde',
             'Fordi spyttets enzymer vil spalte det til aminosyrer',
             'Fordi enzymer i fordøjelseskanalen vil spalte det til aminosyrer'
@@ -2330,9 +2330,9 @@ db.questions.save(
         text: 'Hvad forstås ved insulinchok?',
         answers: [
             'At sukkersyge kan fremkaldes af chok',
-            'At man får for meget insulin og for lavt blodsukker',
-            'At man får for lidt insulin og for højt blodsukker',
-            'At man får for meget insulin og for højt blodsukker'
+            'At man får for meget insulin og dermed for lavt blodsukker',
+            'At man får for lidt insulin og dermed for højt blodsukker',
+            'At man får for meget insulin og dermed for højt blodsukker'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -2443,8 +2443,8 @@ db.questions.save(
         answers: [
             'Man tager på, hvis man har for højt stofskifte',
             'Man taber sig, hvis man har for højt stofskifte',
-            'Det kan skyldes hormonforstyrrelser i skjoldbruskirtlen',
-            'Det kan behandles medicinsk'
+            'Højt stofskifte kan skyldes hormonforstyrrelser i skjoldbruskirtlen',
+            'Højt stofskifte kan behandles medicinsk'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2457,8 +2457,8 @@ db.questions.save(
         answers: [
             'Man tager på, hvis man har for lavt stofskifte',
             'Man taber sig, hvis man har for lavt stofskifte',
-            'Det kan skyldes hormonforstyrrelser i skjoldbruskirtlen',
-            'Det kan behandles medicinsk'
+            'Lavt stofskifte kan skyldes hormonforstyrrelser i skjoldbruskirtlen',
+            'Lavt stofskifte kan behandles medicinsk'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -2467,7 +2467,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ["3.4"],
-        text: 'Hvad forstås ved en gastric by-pass?',
+        text: 'Hvad forstås ved en gastric bypass?',
         answers: [
             'En sultekur',
             'En fedtsugning',
@@ -2755,7 +2755,7 @@ db.questions.save(
             'Man bør generelt spise glutenfrie produkter',
             'Gluten er et protein',
             'Gluten findes i fx havre og byg',
-            'Ca. 1% af befolkningen lider af gluten-intolerans'
+            'Ca. 1 % af befolkningen lider af gluten-intolerans'
         ],
         type: 'multiple_text',
         correct_answer: '0'

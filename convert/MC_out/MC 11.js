@@ -29,7 +29,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.1'],
-        text: 'Hvor går hæmatokritgrænsen for maksimalt tilladt værdi?',
+        text: 'Hvor går hæmatokritgrænsen for maksimalt tilladt værdi (mænd)?',
         answers: [
             '70 %',
             '60 %',
@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.1'],
-        text: 'Hvor høj var Bjarne Riis hæmatokrit i Tour de France i 1996',
+        text: 'Hvor høj var Bjarne Riis hæmatokrit i Tour de France i 1996?',
         answers: [
             'Knap 50 %',
             'Knap 60 %',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvorfor kan kreatin virke præstationsfremmende?',
         answers: [
             'Fordi det primært virker muskelopbyggende',
@@ -126,8 +126,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Virker kreatin præstationsfremmende hos alle? ',
+        chapters: ['11.3'],
+        text: 'Virker kreatin præstationsfremmende hos alle?',
         answers: [
             'Ja ',
             'Kun hos veltrænede personer',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilke fødemidler indeholder kreatin?',
         answers: [
             'Kød',
@@ -154,8 +154,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvad er grunden til, at kreatin ikke kan komme på dopinglisten?',
+        chapters: ['11.3'],
+        text: 'Hvad er grunden til, at kreatin ikke er på dopinglisten?',
         answers: [
             'Fordi det kun virker på en lille procentdel af befolkningen',
             'Fordi man vil få det, hvis man spiser kød',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad er grunden til, at væksthormon kan bruges til doping?',
         answers: [
             'Det udsætter trætheden',
@@ -182,8 +182,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'EPO dannes naturligt i ',
+        chapters: ['11.3'],
+        text: 'EPO dannes naturligt i',
         answers: [
             'Hypofysen',
             'Binyrerne',
@@ -196,8 +196,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvad kalder man også hormonet erytropoietin ?',
+        chapters: ['11.3'],
+        text: 'Hvad kalder man også hormonet erytropoietin?',
         answers: [
             'Væksthormon',
             'Human growth hormone',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilken type hormon hører EPO til?',
         answers: [
             'Aminosyrehormon',
@@ -224,7 +224,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvorfor kan EPO virke som doping?',
         answers: [
             'Det øger blodmængden',
@@ -238,8 +238,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvilken form for idræt har især gavn af EPO',
+        chapters: ['11.3'],
+        text: 'Hvilken form for idræt har især gavn af EPO?',
         answers: [
             'Alle former har lige meget gavn af EPO',
             'Især sprint og lignende kraftpræstationer',
@@ -252,8 +252,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvor meget kan man øge sin maximale iltoptagelse med EPO',
+        chapters: ['11.3'],
+        text: 'Hvor meget kan man øge sin maximale iltoptagelse med EPO?',
         answers: [
             '3-4 %',
             '6-8 %',
@@ -266,8 +266,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvor meget kan man øge sit kondital med EPO',
+        chapters: ['11.3'],
+        text: 'Hvor meget kan man øge sit kondital med EPO?',
         answers: [
             '3-4 %',
             '6-8 %',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvor meget kan den submaksimale arbejdsevne øges ved brug af EPO?',
         answers: [
             '3-4 %',
@@ -294,8 +294,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvorfor kan det være farligt at dope sig med EPO',
+        chapters: ['11.3'],
+        text: 'Hvorfor kan det være farligt at dope sig med EPO?',
         answers: [
             'Blodet kan blive for tyndt, så der kan opstå blødninger overalt',
             'EPO kan omdannes til stoffer, der minder om kønshormonerne',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad er en naturlig hæmatokritværdi for mænd?',
         answers: [
             '38-43 %',
@@ -322,7 +322,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad er en naturlig hæmatokritværdi for kvinder?',
         answers: [
             '20-25 %',
@@ -336,10 +336,10 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvornår og under hvilke omstændigheder er hæmatokritværdien lavest?',
         answers: [
-            'Når man lige har drukket en liter vand ',
+            'Når man lige har drukket en liter vand',
             'Når man lige har tisset',
             'Når man lige har trænet',
             'Når man lige har svedt meget'
@@ -350,7 +350,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilken påstand om hæmatokritværdien er ikke korrekt?',
         answers: [
             'Værdien er højest hos personer, der lever i høje bjerge',
@@ -364,8 +364,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvad er definitionen på hæmatokrit?',
+        chapters: ['11.3'],
+        text: 'Hvad er definitionen på hæmatokritværdi?',
         answers: [
             'Den procentdel, som de røde blodlegemer udgør i blodet',
             'Den procentdel, som blodlegemerne udgør i blodet',
@@ -378,12 +378,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad forstås ved bloddoping?',
         answers: [
             'Det at man bruger EPO',
             'Det at man tager hormonet erytropoietin',
-            'Det at man tappes for blod, og senere får indsprøjtet de røde blodlegemer igen',
+            'Det at man tappes for blod og senere får indsprøjtet de røde blodlegemer igen',
             'Det at man får en transfusion med sit eget blodplasma'
         ],
         type: 'multiple_text',
@@ -392,7 +392,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilken påstand om bloddoping er korrekt?',
         answers: [
             'Der skal tappes mindst tre liter blod over en længere periode til brug ved bloddoping',
@@ -406,7 +406,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad forstås ved anabolske steroider?',
         answers: [
             'Et kosttilskud',
@@ -420,7 +420,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvorfor kaldes de anabolske steroider for androgene steroider?',
         answers: [
             'Fordi de virker som testosteron',
@@ -434,7 +434,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilke sportsgrene vil have gavn af doping med anabolske steroider?',
         answers: [
             'Alle',
@@ -448,7 +448,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilken påstand om testosteron er ikke korrekt?',
         answers: [
             'Det stimulerer muskelcellerne til at danne mere aktin, myosin, troponin og tropomyosin',
@@ -462,13 +462,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvordan virker de anabolske steroider på cellelært niveau?',
         answers: [
-            'Det aktiverer bestemte gener',
-            'Det nedbryder steroidhormoner',
+            'De aktiverer bestemte gener',
+            'De nedbryder steroidhormoner',
             'De øger muskelcellernes ATP-produktion',
-            'Det kan ikke komme ind igennem cellemembranen, så virkningen ligger uden for cellen, fx i blodet'
+            'De kan ikke komme ind igennem cellemembranen, så virkningen ligger uden for cellen, fx i blodet'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -476,8 +476,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
-        text: 'Hvad forstås ved et placebopræparat?',
+        chapters: ['11.3'],
+        text: 'Hvad forstås ved et placebo-præparat?',
         answers: [
             'Et stof, der virker ligesom en kendt type medicin',
             'Et stof, der skal erstatte en anden form for medicin',
@@ -490,7 +490,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvad er grunden til stigning i muskelmasse, når man tager steroider?',
         answers: [
             'Der dannes flere muskelceller',
@@ -504,13 +504,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilket udsagn om bivirkningerne ved brug af anabolske steroider hos mænd er ikke korrekt?',
         answers: [
             'Det kan føre til skaldethed',
             'Det kan give bumser',
-            'Det kan give bryster',
-            'Det kan give en lysere og mere pibende stemme'
+            'Det kan give bryster (tævepatter)',
+            'Det kan give en dybere og mere brummende stemme'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -518,7 +518,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['11.3.1', '11.3.2', '11.3.3', '11.3.4'],
+        chapters: ['11.3'],
         text: 'Hvilket udsagn om bivirkningen ved brug af anabolske steroider hos kvinder er ikke korrekt?',
         answers: [
             'Det kan give hårtab',
@@ -529,6 +529,16 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '2'
     });
+
+
+
+
+
+
+
+
+
+
 
 db.questions.save(
     {
@@ -575,7 +585,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvad er ikke en bivirkning ved overdreven brug af væksthormon hos voksne',
+        text: 'Hvad er ikke en bivirkning ved overdreven brug af væksthormon hos voksne?',
         answers: [
             'Man forøger måske risikoen for kræft og diabetes',
             'Man får for høj fedtprocent',
@@ -591,10 +601,10 @@ db.questions.save(
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
         text: 'Til hvilken type hormon hører væksthormon?',
         answers: [
-            'Aminosyrehormon',
-            'Peptidhormon',
-            'Proteinhormon',
-            'Steroidhormon'
+            'Aminosyrehormoner',
+            'Peptidhormoner',
+            'Proteinhormoner',
+            'Steroidhormoner'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -633,7 +643,7 @@ db.questions.save(
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
         text: 'Hvordan påvirker betablokkere maksimalpulsen?',
         answers: [
-            'Den påvirkes ikke ',
+            'Den påvirkes ikke',
             'Den sætter maksimalpulsen op',
             'Den sætter maksimalpulsen ned',
             'De enkelte pulsslag bliver kraftigere, men ikke hyppigere '
@@ -659,11 +669,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvilke sportsgrene kan have gavn af doping med betablokkere',
+        text: 'Hvilke sportsgrene kan have gavn af doping med betablokkere?',
         answers: [
             'Alle',
-            'Mest udholdenhedsport, som fx maratonløb',
-            'Kun sportsgrene, der kræver stor muskelkraft dom fx sprint',
+            'Mest udholdenhedsport som fx maratonløb',
+            'Kun sportsgrene, der kræver stor muskelkraft som fx sprint',
             'Kun præcisionssport som fx skydning'
         ],
         type: 'multiple_text',
@@ -678,7 +688,7 @@ db.questions.save(
             'Det øger opmærksomhedsniveauet',
             'Det sætter pulsen ned',
             'Det sætter blodtrykket ned',
-            'Det giver en øget hurtighed, fx ved løb'
+            'Det giver en øget hurtighed fx ved løb'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -691,8 +701,8 @@ db.questions.save(
         answers: [
             'De påvirkes ikke',
             'Begge stiger',
-            'Pulsen stiger og blodtrykket falder',
-            'Pulsen falder og blodtrykket stiger'
+            'Pulsen stiger, og blodtrykket falder',
+            'Pulsen falder, og blodtrykket stiger'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -701,7 +711,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvordan påvirkes blodsukker samt de frie fedtsyrer i blodet af amfetamin?',
+        text: 'Hvordan påvirkes blodsukkeret samt de frie fedtsyrer i blodet af amfetamin?',
         answers: [
             'De påvirkes ikke',
             'Begge stiger',
@@ -818,7 +828,7 @@ db.questions.save(
             'Et stof, der hæmmer svedproduktionen',
             'At stof, der nedsætter kroppens egen produktion af fx testosteron eller EPO',
             'Et stof, der hæmmer urinproduktionen',
-            'Et stof, der skal skjule et dopingmisbrug '
+            'Et stof, der skal skjule et dopingmisbrug'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -869,7 +879,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvilken påstand om bagepulver og fosfat er korrekt',
+        text: 'Hvilken påstand om bagepulver og fosfat er korrekt?',
         answers: [
             'De er begge på dopinglisten',
             'Fosfat er på dopinglisten',
@@ -883,7 +893,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvad forstås der ved AIS-kvinder?',
+        text: 'Hvad forstås ved AIS-kvinder?',
         answers: [
             'Personer med XY-kromosombesætning, der ser ud som kvinder',
             'Normale kvinder (med XX-kromosombesætning) der danner for meget testosteron',
@@ -925,10 +935,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['11.3.5', '11.3.6', '11.3.7', '11.3.8', '11.3.9', '11.3.10', '11.3.11', '11.3.12', '11.3.13', '11.3.14', '11.3.15', '11.3.16'],
-        text: 'Hvordan mener man, at placebopræparater kan virke',
+        text: 'Hvordan mener man, at placebopræparater kan virke?',
         answers: [
             'De er præstationsfremmende fx ved at stimulere muskelvækst',
-            'Deres virkning er psykisk betonet ',
+            'Deres virkning er psykisk betonet',
             'De virker ikke',
             'De hæmmer personens immunsystem'
         ],
@@ -970,7 +980,7 @@ db.questions.save(
         text: 'Hvilken effekt har myostatin på muskeldannelsen?',
         answers: [
             'Ingen kendt effekt',
-            'Det øger tilvæksten af musklerne',
+            'Det øger væksten af musklerne',
             'Det hæmmer muskelvæksten',
             'Det øger dannelsen af fedt og glykogen i musklerne'
         ],
@@ -1065,10 +1075,10 @@ db.questions.save(
         chapters: ['11.4'],
         text: 'Hvad forstås ved et blodpas for cykelryttere?',
         answers: [
-            'At deres hæmatokrit ikke må overstige 50 %',
-            'Et papir, hvor deres normale værdier for fx hæmatokrit står anført',
+            'At deres hæmatokritværdi ikke må overstige 50 %',
+            'Et papir, hvor deres normale værdier for fx hæmatokritværdi står anført',
             'Et papir, hvor tidligere dopingdomme står anført',
-            'Et papir, der siger, hvor de skal befinde sig de næste tre måneder'
+            'Et papir, der fortæller, hvor de befinder sig de næste tre måneder'
         ],
         type: 'multiple_text',
         correct_answer: '1'

@@ -13,7 +13,6 @@ var links = {
 
     "15.6": [
     { chapter:"15.6", link:"https://www.dropbox.com/s/iattplncb50it8j/15.6%20%282018%29.mp4?dl=0"},
-        {chapter:"15.6 (2017)", link:"https://www.dropbox.com/s/v1zkf40qnlj7g84/15.6.mp4?dl=0"}
     
     ],
   }

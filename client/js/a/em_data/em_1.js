@@ -13,4 +13,6 @@ var links = [
 'link':'https://www.dropbox.com/s/dwkqliylukppj36/Mikroskopi%20af%20plante%20og%20dyreceller.pdf?dl=0'},
 {'caption':'Osmose og kartoffelceller',
 'link':'https://www.dropbox.com/s/e5agpigdvr6xwyo/Osmose%20og%20kartoffelceller.pdf?dl=0'},
+{'caption':'Kan man hæmme bakterievækst med hvidløg?',
+'link':'https://www.dropbox.com/s/mfb1rz8bd2cfi4h/Kan%20man%20h%C3%A6mme%20bakteriev%C3%A6kst%20med%20hvidl%C3%B8g%3F.pdf?dl=0'},
 ]

@@ -6,7 +6,6 @@ var links = {
 { chapter:'6.2',link:'https://www.dropbox.com/s/6gzc4ehykkl7i00/6.2.mp3?dl=0'},
 { chapter:'6.2.1',link:'https://www.dropbox.com/s/ef7z6p83zyrfoc4/6.2.1.mp3?dl=0'},
 { chapter:'6.2.2',link:'https://www.dropbox.com/s/ftrf50vnzh4ghgc/6.2.2%20%282017%29.mp4?dl=0'},
-{ chapter:'6.2.2 (2016)',link:'https://www.dropbox.com/s/7r26glxjy54awas/6.2.2.mp3?dl=0'},
    ],
    '6.3':[
 { chapter:'6.3',link:'https://www.dropbox.com/s/77d548p0gppduj5/6.3.mp3?dl=0'},
@@ -22,7 +21,6 @@ var links = {
    '6.5':[
 { chapter:'6.5',link:'https://www.dropbox.com/s/aagmtruzb5zicn7/6.5.mp3?dl=0'},
 { chapter:'6.5.1',link:'https://www.dropbox.com/s/e7tw6eqexswbszw/6.5.1%20%282017%29.mp4?dl=0'},
-{ chapter:'6.5.1 (2016)',link:'https://www.dropbox.com/s/swg3xx36dumtl41/6.5.1.mp3?dl=0'},
 { chapter:'6.5.2',link:'https://www.dropbox.com/s/qa084m2zmtyk1gg/6.5.2.mp3?dl=0'},
    ],
 }

@@ -1,6 +1,6 @@
 <Chapters>
   <Chapter header="8.2">
-    <Question name="Hvad forstår man præcist med begrebet lungeventilation?">
+    <Question name="Hvad forstår man ved lungeventilation?">
       <Answer  text="Hvor mange liter luft man ventilerer på et minut"/>
       <Answer  text="Hvor mange gange man trækker vejret på et minut"/>
       <Answer  text="Hvor meget man trækker vejret"/>
@@ -12,13 +12,13 @@
       <Answer  text="Åndingsfrekvensen pr. minut ∙ minutvolumen"/>
       <Answer  text="Åndedrætsdybden ∙ slagvolumen"/>
 </Question>
-    <Question name="Hvad forstår man præcist med åndedrætsdybden?">
+    <Question name="Hvad forstår man ved åndedrætsdybden?">
       <Answer  text="Hvor mange liter luft man indånder pr. åndedrag"/>
       <Answer  text="Hvor mange gange man trækker vejret på et minut"/>
       <Answer  text="Hvor meget man trækker vejret pr. minut"/>
       <Answer  text="Hvor langt (målt i cm) der er fra munden til bunden af lungerne"/>
 </Question>
-    <Question name="Hvad forstår man ved åndingsfrekvensen?">
+    <Question name="Hvad forstår man ved åndingsfrekvens?">
       <Answer  text="Antallet af vejrtækninger pr. minut"/>
       <Answer  text="Hvor mange gange man åbner munden"/>
       <Answer  text="Hvor meget luft man ventilerer pr. minut"/>
@@ -42,7 +42,7 @@
       <Answer  text="5-7 liter luft"/>
       <Answer  text="2-4 liter luft"/>
 </Question>
-    <Question name="Hvad forstår man ved begrebet det døde rum?">
+    <Question name="Hvad forstår man ved begrebet 'det døde rum'?">
       <Answer  text="Et område der ikke medvirker til udvekslingen af ilt og kuldioxid i blodet"/>
       <Answer  text="Det rum der er lige under tungen"/>
       <Answer  text="Det rum lige før luftrøret, som medfører døden, hvis det blokeres"/>
@@ -57,13 +57,13 @@
     <Question name="Hvad er lungeventilationen normalt i hvile?">
       <Answer  text="5-6 liter luft/minut"/>
       <Answer  text="3-5 liter luft/minut"/>
-      <Answer  text="7-10 liter luft(minut"/>
+      <Answer  text="7-10 liter luft/minut"/>
       <Answer  text="1-2 liter luft/minut"/>
 </Question>
     <Question name="Hvor stor kan lungeventilationen nemt blive hos veltrænede mænd?">
       <Answer  text="150 liter luft/minut"/>
       <Answer  text="100 liter luft/minut"/>
-      <Answer  text="50 liter luft(minut"/>
+      <Answer  text="50 liter luft/minut"/>
       <Answer  text="125 liter luft/minut"/>
 </Question>
     <Question name="Hvor stor kan lungeventilationen nemt blive hos veltrænede kvinder?">
@@ -94,7 +94,7 @@
       <Answer  text="En lille blodåre ude ved musklen hvor udvekslingen af ilt og kuldioxid foregår"/>
       <Answer  text="Den store blodåre som leder blodet fra hjertet og videre ud i kroppen"/>
       <Answer  text="Det center hvor respirationen foregår"/>
-      <Answer  text="Den blodåre som leder blodet imod fra musklerne mod hjertet"/>
+      <Answer  text="Den blodåre som leder blodet fra musklerne mod hjertet"/>
 </Question>
     <Question name="Hvad er myoglobin?">
       <Answer  text="Det molekyle som ilt binder sig til i musklen"/>
@@ -157,7 +157,7 @@
       <Answer  text="En blodåre, der løber mod hjertet"/>
 </Question>
 <Question name="Hvad er en vene?">
-      <Answer  text="En blodåre, der løber mod fra hjertet"/>
+      <Answer  text="En blodåre, der løber mod hjertet"/>
       <Answer  text="En blodåre, hvor blodet ikke er iltet"/>
       <Answer  text="En blodåre, hvor blodet er iltet"/>
       <Answer  text="En blodåre, der løber væk fra hjertet"/>
@@ -192,11 +192,11 @@
       <Answer  text="Et kemisk signal"/>
       <Answer  text="Påvirkning af hormoner"/>
 </Question>
-    <Question name="Hvad den naturlige frekvens af hjerteimpulsen?">
-      <Answer  text="70 slag/min"/>
-      <Answer  text="50 slag/min"/>
-      <Answer  text="90 slag/min"/>
-      <Answer  text="30 slag/min"/>
+    <Question name="Hvad er den naturlige frekvens af hjerteimpulsen?">
+      <Answer  text="Ca. 70 slag/min"/>
+      <Answer  text="Ca. 50 slag/min"/>
+      <Answer  text="Ca. 90 slag/min"/>
+      <Answer  text="Ca. 30 slag/min"/>
 </Question>
     <Question name="Hvor mange gange slår hjertet ca. i et normalt menneskeliv?">
       <Answer  text="3 milliarder gange"/>
@@ -210,13 +210,13 @@
       <Answer  text="Triastolen"/>
       <Answer  text="Læderstolen"/>
 </Question>
-    <Question name="Hvad kalder man den fase hvor hjertet er afslappet?">
+    <Question name="Hvad kalder man den fase, hvor hjertet er afslappet?">
       <Answer  text="Diastolen"/>
       <Answer  text="Systolen"/>
       <Answer  text="Triastolen"/>
       <Answer  text="Læderstolen"/>
 </Question>
-    <Question name="Hvad er blodtrykket for en normal person i liggende hvile?">
+    <Question name="Hvad er blodtrykket for en normal (ung) person i liggende hvile?">
       <Answer  text="120 over 80"/>
       <Answer  text="60 over 80"/>
       <Answer  text="150 over 120"/>
@@ -225,7 +225,7 @@
     <Question name="Hvad forstår man ved veneklapper?">
       <Answer  text="Små klapper i venerne der sikrer, at blodet kun kan løbe mod hjertet"/>
       <Answer  text="At der i blodårerne er klapper, som kun iltfattigt blod kan passere"/>
-      <Answer  text="At der er et højt tryk i venerne, som sikrer at blodet løber mod hjertet"/>
+      <Answer  text="At der er et højt tryk i venerne, som sikrer, at blodet løber mod hjertet"/>
       <Answer  text="At venerne hele tiden klapper sig sammen og slappes af, så blodet presses mod hjertet"/>
 </Question>
     <Question name="Hvad forstår man ved venepumpen?">
@@ -235,22 +235,22 @@
       <Answer  text="At det iltfattige blod reagerer med et hormon, som får tilført energi nok til, at blodet kan løbe mod hjertet"/>
 </Question>
     <Question name="Hvordan er minutvolumen (Q) defineret">
-      <Answer  text="Slagvolumen (SV) ∙ pulsen"/>
-      <Answer  text="Pulsen ∙ åndedrætsdybden"/>
-      <Answer  text="Åndingsfrekvensen ∙ minutvolumen"/>
-      <Answer  text="Åndedrætsdybden ∙ slagvolumen"/>
+      <Answer  text="Slagvolumen (SV) ∙ puls"/>
+      <Answer  text="Puls ∙ åndedrætsdybde"/>
+      <Answer  text="Åndingsfrekvens ∙ minutvolumen"/>
+      <Answer  text="Åndedrætsdybde ∙ slagvolumen"/>
 </Question>
     <Question name="I hvilket af følgende tilfælde er slagvolumen mindst?">
       <Answer  text="Stående i hvilende tilstand"/>
-      <Answer  text="liggende i hvilende tilstand"/>
+      <Answer  text="Liggende i hvilende tilstand"/>
       <Answer  text="Ved moderat arbejde"/>
       <Answer  text="Ved maksimalt arbejde"/>
 </Question>
     <Question name="Hvilken formel forbinder man med Ficks princip?">
       <Answer  text="Iltoptagelse = Q ∙ a-v-difference"/>
       <Answer  text="Pulsen = Q ∙ a-v-difference"/>
-      <Answer  text="Q = Pulsen ∙ Iltoptagelsen"/>
-      <Answer  text="Iltoptagelse = Pulsen ∙ a-v-difference"/>
+      <Answer  text="Q = pulsen ∙ iltoptagelsen"/>
+      <Answer  text="Iltoptagelse = pulsen ∙ a-v-difference"/>
 </Question>
 </Chapter>
   <Chapter header="8.3">
@@ -260,7 +260,7 @@
       <Answer  text="En trampolineffekt"/>
       <Answer  text="Et iltholdigt molekyle"/>
 </Question>
-    <Question name="Hvor langt tid rækker ATP mængden i en muskelcelle?">
+    <Question name="Hvor langt tid rækker ATP-mængden i en muskelcelle?">
       <Answer  text="I ca. 1 sekund"/>
       <Answer  text="I ca. 10 sekunder"/>
       <Answer  text="I ca. 1 minut"/>
@@ -270,7 +270,7 @@
       <Answer  text="I cytoplasmaet"/>
       <Answer  text="I cellekernen"/>
       <Answer  text="I cellemembranen"/>
-      <Answer  text="I blodet "/>
+      <Answer  text="I blodet"/>
 </Question>
     <Question name="Hvilke af følgende forbinder man IKKE med glykolysen?">
       <Answer  text="Hæmoglobin"/>
@@ -281,16 +281,16 @@
     <Question name="Hvilke af følgende forbinder man IKKE med Krebs´ cyklus?">
       <Answer  text="Fedtsyrer"/>
       <Answer  text="Pyruvat"/>
-      <Answer  text="Acetyl - CoA"/>
+      <Answer  text="Acetyl-CoA"/>
       <Answer  text="H-atomer"/>
 </Question>
-    <Question name="Hvor mange ATP molekyler får man ved aerob nedbrydning af 1 stk. glukose">
+    <Question name="Hvor mange ATP-molekyler får man ved aerob nedbrydning af 1 stk. glukose">
       <Answer  text="30"/>
       <Answer  text="2"/>
       <Answer  text="15"/>
       <Answer  text="45"/>
 </Question>
-    <Question name="Hvor mange ATP molekyler får man ved anaerob nedbrydning af 1 stk. glukose">
+    <Question name="Hvor mange ATP-molekyler får man ved anaerob nedbrydning af 1 stk. glukose">
       <Answer  text="2"/>
       <Answer  text="30"/>
       <Answer  text="15"/>
@@ -300,13 +300,13 @@
       <Answer  text="38 kJ/g"/>
       <Answer  text="17 kJ/g"/>
       <Answer  text="58 kJ/g"/>
-      <Answer  text="5 kJ/g "/>
+      <Answer  text="5 kJ/g"/>
 </Question>
     <Question name="Hvor meget energi indeholder kulhydrat?">
       <Answer  text="17 kJ/g"/>
       <Answer  text="38 kJ/g"/>
       <Answer  text="28 kJ/g"/>
-      <Answer  text="9 kJ/g "/>
+      <Answer  text="9 kJ/g"/>
 </Question>
     <Question name="Hvor meget energi indeholder protein?">
       <Answer  text="17 kJ/g"/>
@@ -329,8 +329,8 @@
     <Question name="Hvad er ligningen for den respiratoriske kvotient (RQ)?">
       <Answer  text="RQ = kuldioxidproduktion / iltforbrug"/>
       <Answer  text="RQ = kuldioxidproduktion ∙ iltforbrug"/>
-      <Answer  text="RQ = Slagvolumen ∙ iltforbrug"/>
-      <Answer  text="RQ = Minutvolumen /  kuldioxidproduktion"/>
+      <Answer  text="RQ = slagvolumen ∙ iltforbrug"/>
+      <Answer  text="RQ = minutvolumen / kuldioxidproduktion"/>
 </Question>
     <Question name="Hvad er den respiratoriske kvotient (RQ) ved ren kulhydratforbrænding?">
       <Answer  text="1"/>
@@ -360,7 +360,7 @@
       <Answer  text="At man ved en given submaksimal belastning forbrænder mest fedt"/>
       <Answer  text="At man kun kan forbrænde fedt, hvis man træner ved en vis belastning"/>
       <Answer  text="At man forbrænder fedt, når man når et specielt tidsinterval i sin træning"/>
-      <Answer  text="At man forbrænder fedt ved maksimal arbejde"/>
+      <Answer  text="At man forbrænder fedt ved maksimalt arbejde"/>
 </Question>
     <Question name="Hvad forstår man ved afterburn?">
       <Answer  text="Når man udfører et fysisk arbejde, vil der i timerne efter arbejdets ophør være et øget stofskifte"/>
@@ -369,14 +369,14 @@
       <Answer  text="I slutningen af et fysisk arbejde vil man være meget varm, og derfor bruger man meget energi"/>
 </Question>
     <Question name="Ved hvilken hastighed bliver det mere energiøkonomisk at løbe end at gå?">
-      <Answer  text="ca. 9 km/t"/>
-      <Answer  text="ca. 7 km/t"/>
-      <Answer  text="ca. 11 km/t "/>
-      <Answer  text="ca. 5 km/t"/>
+      <Answer  text="Ca. 9 km/t"/>
+      <Answer  text="Ca. 7 km/t"/>
+      <Answer  text="Ca. 11 km/t "/>
+      <Answer  text="Ca. 5 km/t"/>
 </Question>
 </Chapter>
   <Chapter header="8.4">
-    <Question name="Hvilken slags knogler forbinder man IKKE med de 3 hovedgrupper?">
+    <Question name="Hvilke slags knogler forbinder man IKKE med de 3 hovedgrupper?">
       <Answer  text="Runde knogler"/>
       <Answer  text="Flade knogler"/>
       <Answer  text="Uregelmæssige knogler"/>
@@ -438,19 +438,19 @@
 </Question>
     <Question name="Hvilken af følgende er IKKE et ægte led?">
       <Answer  text="Leddet mellem hofteben og korsben"/>
-      <Answer  text="Leddet mellem lårben og skinnebenet"/>
+      <Answer  text="Leddet mellem lårben og skinneben"/>
       <Answer  text="Leddet mellem hvirvelsøjlernes ledtappe"/>
-      <Answer  text="Leddet mellem lårbenet og hofteskålen"/>
+      <Answer  text="Leddet mellem lårben og hofteskål"/>
 </Question>
     <Question name="Hvilken af følgende er et kugleled?">
-      <Answer  text="Leddet mellem lårbenet og hofteskålen"/>
-      <Answer  text="Leddet mellem lårbenet og skinnebenet"/>
+      <Answer  text="Leddet mellem lårben og hofteskål"/>
+      <Answer  text="Leddet mellem lårben og skinneben"/>
       <Answer  text="Leddet mellem hvirvelsøjlernes ledtappe"/>
       <Answer  text="Leddet mellem overarm og underarmsknoglerne"/>
 </Question>
     <Question name="Hvilken af følgende er et drejeled?">
-      <Answer  text="Leddet mellem albuben og spoleben"/>
-      <Answer  text="Leddet mellem lårbenet og skinnebenet"/>
+      <Answer  text="Leddet mellem albueben og spoleben"/>
+      <Answer  text="Leddet mellem lårben og skinneben"/>
       <Answer  text="Leddet mellem hvirvelsøjlernes ledtappe"/>
       <Answer  text="Leddet mellem overarm og underarmsknoglerne"/>
 </Question>
@@ -461,7 +461,7 @@
       <Answer  text="Leddet mellem overarm og underarmsknoglerne"/>
 </Question>
     <Question name="Hvilken af følgende er et glidelled?">
-      <Answer  text="Leddet mellem hvirvelsøjlernes ledtap"/>
+      <Answer  text="Leddet mellem hvirvelsøjlernes ledtappe"/>
       <Answer  text="Leddet mellem albueben/spoleben og underarmsknoglerne"/>
       <Answer  text="Leddet mellem lårben og skinneben"/>
       <Answer  text="Leddet mellem overarm og underarmsknoglerne"/>
@@ -480,9 +480,9 @@
 </Question>
     <Question name="Hvilken af følgende muskler findes IKKE i armene?">
       <Answer  text="Skræddermusklen"/>
-      <Answer  text="Den tohobede armbøjer"/>
+      <Answer  text="Den tohovedede armbøjer"/>
       <Answer  text="Deltamusklen"/>
-      <Answer  text="Den trehovede armstrækker"/>
+      <Answer  text="Den trehovedede armstrækker"/>
 </Question>
     <Question name="Hvad er den latinske betegnelse for kappemusklen?">
       <Answer  text="Trapezius"/>
@@ -529,10 +529,10 @@
       <Answer  text="Tropomyosinen"/>
 </Question>
     <Question name="Hvor mange muskelfibre har et gennemsnitlig neuron kontakt til?">
-      <Answer  text="600"/>
-      <Answer  text="6"/>
-      <Answer  text="60.000"/>
-      <Answer  text="6 millioner"/>
+      <Answer  text="Ca. 600"/>
+      <Answer  text="Ca. 6"/>
+      <Answer  text="Ca. 60.000"/>
+      <Answer  text="Ca. 6 millioner"/>
 </Question>
     <Question name="Hvor mange muskelfibre har et neuron i låret kontakt til?">
       <Answer  text="Op til 3000"/>
@@ -588,7 +588,7 @@
       <Answer  text="Orienteringsløb"/>
       <Answer  text="Cykelløb"/>
 </Question>
-    <Question name="I hvilken, af følgende længder af sarkomerlængden, er man stærkest?">
+    <Question name="I hvilken af følgende sarkomerlængder, er man stærkest?">
       <Answer  text="Når sarkormerlængden er i midterposition (ca. 2 μm)"/>
       <Answer  text="Når sarkormerlængden er størst (ca. 4 μm)"/>
       <Answer  text="Når sarkormerlængden er mindst (ca. 1 μm)"/>
@@ -618,19 +618,25 @@
       <Answer  text="Akut Meget Smerte"/>
       <Answer  text="Alt for Meget Smerte"/>  
 </Question>
-    <Question name="Hvilket fysiologisk forhold mener man, der er grund til muskelømhed i dagene efter hård muskeltræning?">
+    <Question name="Hvilket fysiologisk forhold mener man, der er grund til muskelømhed (DOMS) i dagene efter hård muskeltræning?">
       <Answer  text="Ødelagte strukturer i musklerne"/>
       <Answer  text="Ophobet mælkesyre i musklerne"/>
       <Answer  text="Iltmangel i musklerne"/>
       <Answer  text="Væskeophobning i musklerne"/>     
 </Question>
-    <Question name="Hvor meget svagere er kvinder i gennemsnit i overkroppen end mænd?">
+    <Question name="Hvilket fysiologisk forhold mener man, der er grund til muskelømhed (AMS) lige efter hård muskeltræning?">
+       <Answer  text="Væskeophobning i musklerne"/>  
+      <Answer  text="Ødelagte strukturer i musklerne"/>
+      <Answer  text="Ophobet mælkesyre i musklerne"/>
+      <Answer  text="Iltmangel i musklerne"/>
+</Question>
+    <Question name="Hvor meget svagere end mænd er kvinder i gennemsnit i overkroppen?">
       <Answer  text="40-60 % svagere"/>
       <Answer  text="10-20 % svagere"/>
       <Answer  text="20-40 % svagere"/>
       <Answer  text="30-40 % svagere"/>     
 </Question>
-    <Question name="Hvor meget svagere er kvinder i gennemsnit i benmuskultauren end mænd?">
+    <Question name="Hvor meget svagere end mænd er kvinder i gennemsnit i benmuskultauren?">
       <Answer  text="25-30 % svagere"/>
       <Answer  text="10-20 % svagere"/>
       <Answer  text="15-25 % svagere"/>
@@ -696,19 +702,19 @@
       <Answer  text="Onset of Blood Lactate Accumulation"/>
       <Answer  text="Onset of Blood Lactate Acid"/>
       <Answer  text="Onset of Bicarbonate Acid"/>
-      <Answer  text="Oncet of bicarnobate Acculation"/>    
+      <Answer  text="Oncet of Bicarnobate Acculation"/>    
 </Question>
        <Question name="Hvad kendetegner den anaerobe tærskel?">
       <Answer  text="Den intensitet, hvor mælkesyreophobningen overstiger 1 mM i forhold til hvileniveau"/>
       <Answer  text="Det tidspunkt, hvor der ophobes mælkesyre"/>
       <Answer  text="Det tidspunkt, hvor kroppen går over på anaerob forbrænding"/>
-      <Answer  text="Halvdelen af mælkesyren er forbrændt"/>    
+      <Answer  text="Det tidspunkt, hvor halvdelen af mælkesyren er forbrændt"/>    
 </Question>
  <Question name="Hvad kendetegner OBLA?">
       <Answer  text="Når laktatkoncentrationen i blodet overstiger 4 mM"/>
       <Answer  text="Når laktatkoncentrationen i blodet overstiger 1 mM"/>
       <Answer  text="Det tidspunkt, hvor arbejdet må ophøre"/>
-      <Answer  text="Den intensitet hvor den anaerobe energidannelse er større end den aerobe"/> 
+      <Answer  text="Den intensitet, hvor den anaerobe energidannelse er større end den aerobe"/> 
 </Question>
     <Question name="Hvad betyder kontinuerlig træning?">
       <Answer  text="At man løber længere distancer uden pauser"/>
@@ -725,7 +731,7 @@
     <Question name="Hvilke af følgende parametre kan bruges til at finde den rette træningsintensitet i kontinuerlig træning?">
       <Answer  text="Den anaerobe tærskel og OBLA"/>
       <Answer  text="Hvilepuls både liggende og stående"/>
-      <Answer  text="Åndedrætsfrekvensen og højde"/>
+      <Answer  text="Åndedrætsfrekvens og højde"/>
       <Answer  text="Blodvolumen og hæmatokritværdi"/> 
 </Question>
     <Question name="Hvad betyder intervaltræning?">
@@ -735,8 +741,8 @@
       <Answer  text="At man spurter maksimalt så langt, man kan"/>  
 </Question>
     <Question name="Hvilken af følgende varierer man IKKE ved intervaltræning?">
-      <Answer  text="Belastningen i forhold til 1 RM"/>
-      <Answer  text="Varigheden"/>
+      <Answer  text="Belastningen i forhold til 1-RM"/>
+      <Answer  text="Varigheden af aktiviteten"/>
       <Answer  text="Pausernes længde"/>
       <Answer  text="Antallet af intervaller"/>  
 </Question>
@@ -744,7 +750,7 @@
       <Answer  text="High Intensity Interval Training"/>
       <Answer  text="Hurtig Intensiv Induktions Træning"/>
       <Answer  text="Hård Interval Induktions Træning"/>
-      <Answer  text="Hard Interval Induction Training"/>  
+      <Answer  text="Hard Interval Intensity Training"/>  
 </Question>
     <Question name="Hvor mange ugentlige træninger skal man have i den opbyggende fase for at få en fremgang?">
       <Answer  text="2-4"/>
@@ -752,7 +758,7 @@
       <Answer  text="4-6"/>
       <Answer  text="7"/>  
 </Question>
-    <Question name="Hvor mange ugentlige træninger skal man have i vedligeholdelsesfasen for at opretteholde sin form?">
+    <Question name="Hvor mange ugentlige træninger skal man have i vedligeholdelsesfasen for at opretholde sin form?">
       <Answer  text="1-2"/>
       <Answer  text="2-4"/>
       <Answer  text="4-6"/>
@@ -818,7 +824,7 @@
       <Answer  text="Volleyball"/>
       <Answer  text="Fodbold"/>
       <Answer  text="Dans"/>
-      <Answer  text="Højdespring"/>
+      <Answer  text="Kajak"/>
 </Question>
     <Question name="Hvilken af følgende idrætsgrene kræver især stor spændstighed?">
       <Answer  text="Højdespring"/>
@@ -827,12 +833,12 @@
       <Answer  text="Volleyball"/>
 </Question>
     <Question name="Hvordan angiver man ofte belastningen indenfor styrketræning?">
-      <Answer  text="Som % af 1 RM"/>
+      <Answer  text="Som % af 1-RM"/>
       <Answer  text="Som % af maksimale antal gentagelser"/>
       <Answer  text="Som % af maksimalpulsen"/>
       <Answer  text="Som % af maksimal iltoptagelseshastighed"/>
 </Question>
-      <Question name="Hvad dækker forkortelsen 1 RM?">
+      <Question name="Hvad dækker forkortelsen 1-RM?">
       <Answer  text="One Repetition Maximum"/>
       <Answer  text="One Repetition Minimum"/>
       <Answer  text="One Repetition Muscle"/>
@@ -844,7 +850,7 @@
       <Answer  text="Maksimal styrke"/>
       <Answer  text="Spændstighed"/>
 </Question>
-      <Question name="Hvad træner man primært i springtræning?">
+      <Question name="Hvad træner man primært ved springtræning?">
       <Answer  text="Spændstighed"/>
       <Answer  text="Eksplosivitet"/>
       <Answer  text="Maksimal styrke"/>
@@ -856,17 +862,12 @@
       <Answer  text="3-5"/>
       <Answer  text="Mere end 15"/>
 </Question>
-      <Question name="Hvor mange repetitioner anbefaler man, hvis man vil opnå større muskelstyrke?">
-      <Answer  text="2-6"/>
-      <Answer  text="1-2"/>
-      <Answer  text="8-12"/>
+      <Question name="Hvor mange repetitioner anbefaler man, hvis man vil stimulere nervesystemets evne til at aktivere musklerne?">
+      <Answer  text="1-5"/>
+      <Answer  text="6-12"/>
+      <Answer  text="12-15"/>
       <Answer  text="Over 15"/>
-</Question>
-      <Question name="Hvor mange repetitioner anbefaler man, hvis man vil opnå eksplosiv muskelstyrke?">
-      <Answer  text="2-3"/>
-      <Answer  text="1-2"/>
-      <Answer  text="8-12"/>
-      <Answer  text="Over 15"/>
+
 </Question>
       <Question name="Hvor mange sæt anbefaler man, hvis man vil opnå større muskler (hypertrofi)?">
       <Answer  text="3-5"/>
@@ -874,49 +875,19 @@
       <Answer  text="4-6"/>
       <Answer  text="20-30"/>
 </Question>
-      <Question name="Hvor mange repetitioner anbefaler man, hvis man vil opnå større muskelstyrke?">
-      <Answer  text="3-5"/>
-      <Answer  text="1-2"/>
-      <Answer  text="8-12"/>
-      <Answer  text="20-30"/>
-</Question>
-      <Question name="Hvor mange repetitioner anbefaler man, hvis man vil opnå eksplosiv muskelstyrke?">
-      <Answer  text="3-5"/>
-      <Answer  text="1-2"/>
-      <Answer  text="8-12"/>
-      <Answer  text="20-30"/>
-</Question>
-     <Question name="Ved hvilken intensitet anbefaler man, at man skal arbejde, hvis man vil opnå større muskler (hypertrofi)?">
-      <Answer  text="Lav-moderat"/>
-      <Answer  text="Moderat"/>
-      <Answer  text="Høj"/>
-      <Answer  text="Meget høj"/>
-</Question>
-     <Question name="Ved hvilken intensitet anbefaler man, at man skal arbejde, hvis man vil opnå større muskelstyrke?">
-      <Answer  text="Moderat"/>
-      <Answer  text="Lav-moderat"/>
-      <Answer  text="Høj"/>
-      <Answer  text="Meget høj"/>
-</Question>
-     <Question name="Ved hvilken intensitet anbefaler man, at man skal arbejde, hvis man vil opnå eksplosiv muskelstyrke?">
-      <Answer  text="Høj"/>
-      <Answer  text="Lav-moderat"/>
-      <Answer  text="Moderat"/>
-      <Answer  text="Meget høj"/>
-</Question>
      <Question name="Når man starter med at styrketræne, opnår man en hurtig fremgang. Hvor stor en del af det tilskrives fremgang i nervesystemet?">
       <Answer  text="90 %"/>
       <Answer  text="80 %"/>
       <Answer  text="70 %"/>
       <Answer  text="60 %"/>
 </Question>
-     <Question name="Hvor stor en del af vores muskelfibre er i utrænede tilstand i stand til at blive aktiveret ved maksimalt arbejde?">
+     <Question name="Hvor stor en andel af vores muskelfibre er i utrænet tilstand i stand til at blive aktiveret ved maksimalt arbejde?">
       <Answer  text="2/3 af vores muskelfibre"/>
       <Answer  text="1/3 af vores muskelfibre"/>
       <Answer  text="3/4 af vores muskelfibre"/>
       <Answer  text="4/5 af vores muskelfibre"/>
 </Question>
-     <Question name="Hvor stor en del af vores muskelfibre er i trænet tilstand i stand til at blive aktivere ved maksimalt arbejde?">
+     <Question name="Hvor stor en andel af vores muskelfibre er i trænet tilstand i stand til at blive aktiveret ved maksimalt arbejde?">
       <Answer  text="80 % af vores muskelfibre"/>
       <Answer  text="70 % af vores muskelfibre"/>
       <Answer  text="3/4 af vores muskelfibre"/>
@@ -935,7 +906,7 @@
       <Answer  text="Større lagre af ATP"/>
 </Question>
      <Question name="Hvad er okklusionstræning?">
-      <Answer  text="Træning hvor du hæmmer blodtilførslen til den arbejdende muskel"/>
+      <Answer  text="Træning, hvor du hæmmer blodtilførslen til den arbejdende muskel"/>
       <Answer  text="Træning med mange gentagelser og mindre belastning"/>
       <Answer  text="Træning med helkropsøvelser med stor belastning"/>
       <Answer  text="Træning med stropper, så man samtidig træner core"/>
@@ -966,13 +937,13 @@
 </Question>
 </Chapter>
  <Chapter header="8.8">
-    <Question name="Hvilken af følgende forhold er IKKE en af de former mennesket afgiver varme?">
+    <Question name="Hvilken af følgende forhold er IKKE en af de former, mennesket afgiver varme?">
       <Answer  text="Divertion"/>
       <Answer  text="Konduktion"/>
       <Answer  text="Konvektion"/>
       <Answer  text="Varmestråling"/>
 </Question>    
-    <Question name="Hvilken af følgende forhold er IKKE en af de former mennesket afgiver varme?">
+    <Question name="Hvilken af følgende forhold er IKKE en af de former, mennesket afgiver varme?">
       <Answer  text="Konvergens"/>
       <Answer  text="Konduktion"/>
       <Answer  text="Fordampning"/>
@@ -1034,14 +1005,14 @@
             </Question>
     <Question name="Hvad er formålet med gåsehud, når man fryser?">
       <Answer  text="Man rejser pelsen, da de rejste hår danner et grænselag af stillestående luft og dermed holdes bedre på varmen"/>
-      <Answer  text="En gang havde man pels - men på mennesker har det ingen betydning"/>
+      <Answer  text="En gang havde man pels - men på mennesker har det ingen betydning mere"/>
       <Answer  text="Det er for at advare andre om, at det er koldt"/>
       <Answer  text="Nervesystemet reagerer på gåsehud og sender dermed mere blod til området"/>    
             </Question>
     <Question name="Hvad er formålet med ufrivillige kulderystelser i muskulaturen, når man fryser?">
       <Answer  text="Dermed skabes varme, da muskler skaber varme, når de arbejder"/>
       <Answer  text="For at nervesytemet skal registrere, at musklerne er kolde"/>
-      <Answer  text="Det er for at advare andre om, at det er koldt "/>
+      <Answer  text="Det er for at advare andre om, at det er koldt"/>
       <Answer  text="For at musklerne ikke skal gå i stykker, hvis de bliver for kolde"/>    
           </Question>
     <Question name="Hvad hed den første (hvide) mand, der besteg Mount Everest?">
@@ -1056,7 +1027,7 @@
       <Answer  text="7.848 meter "/>
       <Answer  text="10.848 meter"/>    
 </Question>
-    <Question name="Hvor meget mindre ilt er der i en liter luft på toppen af Mount Everest end ved vandoverfladen?">
+    <Question name="Hvor meget mindre ilt er der i en liter luft på toppen af Mount Everest end ved havoverfladen?">
       <Answer  text="Ca 3 gange mindre ilt i en liter luft"/>
       <Answer  text="Ca 6 gange mindre ilt i en liter luft "/>
       <Answer  text="Ca 4 gange mindre ilt i en liter luft "/>
@@ -1075,16 +1046,16 @@
       <Answer  text="Ca. -10 °C"/>    
 </Question>
     <Question name="Hvad sker der med trykket for hver 10 meter, man dykker ned under havoverfladen?">
-      <Answer  text="Trykket stiger med 1 ATM = 760 mmHg"/>
-      <Answer  text="Trykket falder med 1 ATM = 760 mmHg "/>
-      <Answer  text="Trykket stiger med 2 ATM = 1520 mmHg "/>
-      <Answer  text="Trykket falder med 1 ATM = 760 mmHg"/>    
+      <Answer  text="Trykket stiger med 1 atm. = 760 mmHg"/>
+      <Answer  text="Trykket falder med 1 atm. = 760 mmHg "/>
+      <Answer  text="Trykket stiger med 2 atm. = 1520 mmHg "/>
+      <Answer  text="Trykket falder med 1 atm. = 760 mmHg"/>    
 </Question>
     <Question name="Hvad er trykket, hvis man dykker 20 meter ned under havoverfladen?">
-      <Answer  text="Trykket er 3 ATM = 2280 mmHg"/>
-      <Answer  text="Trykket er 2 ATM = 1520 mmHg "/>
-      <Answer  text="Trykket er 1 ATM = 760 mmHg "/>
-      <Answer  text="Trykket er 4 ATM = 3040 mmHg"/>    
+      <Answer  text="Trykket er 3 atm. = 2280 mmHg"/>
+      <Answer  text="Trykket er 2 atm. = 1520 mmHg "/>
+      <Answer  text="Trykket er 1 atm. = 760 mmHg "/>
+      <Answer  text="Trykket er 4 atm. = 3040 mmHg"/>    
 </Question>
     <Question name="Hvis man har 10 liter luft i lungerne, hvor meget vil luften så fylde, når man dykker 20 meter ned under havoverfladen?">
       <Answer  text="3,33 liter luft"/>

@@ -25,7 +25,7 @@
       <Answer  text="Man kan håndtere hverdagen"/>
     </Question>
     <Question name="Hvilken har intet med livslængde og livskvalitet at gøre?">
-      <Answer  text="Tidligt på pension, så alderdommen kan nydes"/>
+      <Answer  text="Tidligt på pension, så alderdommen kan bruges fornuftigt"/>
       <Answer  text="Livslang fysisk aktivitet"/>
       <Answer  text="Spiser nogenlunde sundt og ikke for meget"/>
       <Answer  text="Tilhørsel til et fællesskab"/>
@@ -62,7 +62,7 @@
       <Answer  text="10-15 år"/>
       <Answer  text="15-20 år"/>
     </Question>
-    <Question name="Alkohol afkorter i gennemsnit livet med">
+    <Question name="Alkoholmisbrug afkorter i gennemsnit livet med">
       <Answer  text="Ca. 5 år"/>
       <Answer  text="Alkohol påvirker ikke livslængden"/>
       <Answer  text="Ca. 3 år"/>
@@ -86,7 +86,7 @@
       <Answer  text="Ca. 16.000"/>
       <Answer  text="Ca. 22.000 år"/>
        </Question>
-    <Question name="Hvor mange dør årligt i DK for tidligt pga. alkohol">
+    <Question name="Hvor mange dør årligt i DK for tidligt pga. alkoholmisbrug">
       <Answer  text="Ca. 3.000"/>
       <Answer  text="Ca. 7.000"/>
       <Answer  text="Ca. 11.000"/>
@@ -130,9 +130,9 @@
    </Question>
       <Question name="Hvad anbefaler sundhedsstyrelsen til gravide?">
       <Answer  text="At de slet ikke drikker alkohol"/>
-      <Answer  text="At de maksimalt drikker 5 genstande om ugen"/>
+      <Answer  text="At de maksimalt drikker 3 genstande om ugen"/>
+      <Answer  text="At de maksimalt drikker 7 genstande om ugen"/>
       <Answer  text="At de maksimalt drikker 14 genstande om ugen"/>
-      <Answer  text="At de maksimalt drikker 21 genstande om ugen"/>
    </Question>
       <Question name="Hvor drikker de unge mest?">
       <Answer  text="På gymnasierne"/>
@@ -152,7 +152,7 @@
       <Answer  text="Jo bedre uddannelse, jo større risiko for usund livsstil"/>
       <Answer  text="Jo bedte uddannelse, jo mindre risiko for usund livsstil"/>
    </Question>
-<Question name="Hvor mange søvnfaser findes der?">
+<Question name="Hvor mange søvnfaser findes?">
       <Answer  text="5"/>
       <Answer  text="4"/>
       <Answer  text="3"/>
@@ -220,7 +220,7 @@
         </Question>
 </Chapter>
   <Chapter header="1.3">
-    <Question name="Hvilket udsagn er ikke korrekt?">
+    <Question name="Hvilket udsagn er forkert?">
       <Answer  text="Vi er gennemsnitligt i dårligere form end tidligere"/>
       <Answer  text="Der er kommet flere i dårlig form"/>
       <Answer  text="Der er kommet flere i god form"/>
@@ -269,9 +269,9 @@
       <Answer  text="41"/>
     </Question>
     <Question name="Hvor meget falder konditallet pr. år - alt andet lige?">
-      <Answer  text="0,5"/>
-      <Answer  text="2"/>
-      <Answer  text="5"/>
+      <Answer  text="Ca. 0,5"/>
+      <Answer  text="Ca. 2"/>
+      <Answer  text="Ca. 5"/>
       <Answer  text="Konditallet er uafhængigt af alderen"/>
     </Question>
     <Question name="Hvor længe skal en fysisk aktivitet vare for at tælle med i aktivitetsregnskabet?">

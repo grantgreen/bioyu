@@ -54,5 +54,6 @@ var links = {
 	{"caption": "Netdoktor.dk","link": "http://www.netdoktor.dk"},
 	{"caption": "Sundhed.dk","link": "http://www.sundhed.dk"},
 	{"caption": "Motion-online.dk","link": "http://www.motion-online.dk"},
+	{"caption":"Statens Serum Institut","link":"https://www.ssi.dk/"},
 ]
 }

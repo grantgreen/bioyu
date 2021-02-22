@@ -1,7 +1,7 @@
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilket stof i kosten hører ikke til de energigivende stoffer',
+        chapters: ['3.2'],
+        text: 'Hvilket stof i kosten hører ikke til de energigivende stoffer?',
         answers: [
             'Mineraler',
             'Kulhydrater',
@@ -14,8 +14,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Maltose er et ',
+        chapters: ['3.2'],
+        text: 'Maltose er et',
         answers: [
             'Polysakkarid',
             'Monosakkarid',
@@ -28,7 +28,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Amylose er et',
         answers: [
             'Polysakkarid',
@@ -42,7 +42,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Glukose og fruktose findes i stor mængde i',
         answers: [
             'Brød',
@@ -56,7 +56,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Disakkaridet laktose findes i',
         answers: [
             'Frugt',
@@ -70,7 +70,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Almindelige fedtstoffer er opbygget af',
         answers: [
             'Fedtsyrer',
@@ -84,8 +84,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Fedtstoffer i føden kommer især fra ',
+        chapters: ['3.2'],
+        text: 'Fedtstoffer i føden kommer især fra',
         answers: [  
             'Kød og mælkeprodukter',
             'Slik og sukker',
@@ -98,8 +98,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om fedtstoffer er korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om fedtstoffer er korrekt?',
         answers: [
             'Alle fedtstoffer er usunde',
             'De vegetabilske fedtstoffer er de sundeste',
@@ -112,7 +112,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'RQ-værdien ved ren kulhydratforbrænding er',
         answers: [
             '1',
@@ -126,7 +126,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'RQ-værdien ved ren fedtforbrænding er',
         answers: [
             '1',
@@ -140,7 +140,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'RQ-værdien ved forbrænding af en normal blandet kost er ca.',
         answers: [
             '1',
@@ -154,7 +154,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'En fedtsyre med dobbeltbindinger kaldes',
         answers: [
             'En umættet fedtsyre',
@@ -168,7 +168,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'I proteinerne er aminosyrerne bundet sammen med',
         answers: [
             'Esterbindinger',
@@ -182,13 +182,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om aminosyrer er ikke korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om aminosyrer er ikke korrekt?',
         answers: [
             'Aminosyrer indeholder altid N-atomer',
             'Aminosyrer indeholder altid S-atomer',
             'Aminosyrer indeholder C-atomer',
-            'Aminosyrer indeholder O-atomer '
+            'Aminosyrer indeholder O-atomer'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -196,8 +196,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om proteiner er korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om proteiner er korrekt?',
         answers: [
             'De bruges primært til byggesten',
             'De er den vigtigste energikilde',
@@ -210,7 +210,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Ved essentielle aminosyrer forstås',
         answers: [
             'Aminosyrer, der er vigtige i kroppen',
@@ -224,8 +224,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om aminosyrer er ikke korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om aminosyrer er ikke korrekt?',
         answers: [
             'Aminosyrer indeholder NH<span style="vertical-align:sub; font-size:58%;">2</span>-grupper',
             'Aminosyrer indeholder COOH-grupper',
@@ -238,7 +238,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Energibehovet for en voksen ligger dagligt på ca.',
         answers: [
             '4.000 kJ',
@@ -252,7 +252,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilestofskiftet er på ca.',
         answers: [
             '10 kJ/kg/time',
@@ -266,7 +266,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvor meget energi er der i 1 g fedt?',
         answers: [
             '38 kJ',
@@ -280,7 +280,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvor meget energi er der i 1 g kulhydrat?',
         answers: [
             '38 kJ',
@@ -294,7 +294,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Energiindholdet i 1 g protein er',
         answers: [
             'Større end i 1 g kulhydrat',
@@ -308,7 +308,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Menneskets kulhydratlagre er på ca. 500 g og befinder sig især i',
         answers: [
             'Blodet',
@@ -320,24 +320,12 @@ db.questions.save(
         correct_answer: '2'
     });
 
-db.questions.save(
-    {
-        chapters: ['3.1', '3.2'],
-        text: 'Nogle mener, at fedmeepidemien skyldes, at vi indtager for mange kulhydrater. Forklaringen skulle være at',
-        answers: [
-            'Kulhydrater øger insulinmængden, hvilket får blodsukkeret til at falde, så man bliver sulten',
-            'Kulhydrater øger insulinmængden, hvilket får blodsukkeret til at stige, så man bliver mæt',
-            'Kulhydraterne kan let omdannes til fedt',
-            'Der er flere kJ i kulhydrater, end der er i protein og fedt'
-        ],
-        type: 'multiple_text',
-        correct_answer: '0'
-    });
+
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om mineralet jern er ikke korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om mineralet jern er ikke korrekt?',
         answers: [
             'Jern indgår i hæmoglobin',
             'Jern er vigtigt for ilttransporten i blodet',
@@ -350,7 +338,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om mineralet fosfat er ikke korrekt?',
         answers: [
             'Vi får rigelige mængder fosfat via drikkevandet',
@@ -364,7 +352,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om vitaminer er korrekt?',
         answers: [
             'A og D-vitaminer er fedtopløselige',
@@ -378,7 +366,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om C-vitamin er ikke korrekt?',
         answers: [
             'C-vitamin findes fx i frugter',
@@ -392,7 +380,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om B<span style="vertical-align:sub; font-size:58%;">12</span> vitamin er ikke korrekt?',
         answers: [
             'Mangel på dette vitamin kan give blodmangel',
@@ -406,7 +394,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om K-vitamin er ikke korrekt?',
         answers: [
             'Det dannes af bakterier i tyktarmen',
@@ -420,7 +408,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilket vitamin findes ikke i plantekost?',
         answers: [
             'K-vitamin',
@@ -434,7 +422,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om kostfibre er ikke korrekt?',
         answers: [
             'De består af fx cellulose og pektin',
@@ -448,7 +436,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om kostfibre er ikke korrekt?',
         answers: [
             'De medfører mindre bakterievækst i tyktarmen',
@@ -462,11 +450,11 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvis man drikker meget vand (8-10 L i døgnet) kan der ske følgende',
+        chapters: ['3.2'],
+        text: 'Hvis man drikker meget vand (8-10 L i døgnet), kan der ske følgende',
         answers: [
             'Cellerne kan skrumpe på grund af osmose',
-            'Cellernes nettoafgivelse af vand stiger ',
+            'Cellernes nettoafgivelse af vand stiger',
             'Man kan faktisk ikke få for meget vand',
             'Man udvasker sine salte (kan medføre døden)'
         ],
@@ -476,7 +464,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvor i kroppen sker alkoholnedbrydningen?',
         answers: [
             'I nyrerne',
@@ -490,13 +478,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvor meget alkohol er der i en genstand?',
         answers: [
-            '0,1 g',
-            '12 g',
-            '7 g',
-            '4,6 g'
+            'Ca. 0,1 g',
+            'Ca. 12 g',
+            'Ca. 7 g',
+            'Ca. 4,6 g'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -504,13 +492,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvor meget alkohol kan et menneske på 70 kg nedbryde pr time?',
         answers: [
-            '0,1 g',
-            '7g',
-            '12 g',
-            '4,6 g'
+            'Ca. 0,1 g',
+            'Ca. 7 g',
+            'Ca. 12 g',
+            'Ca. 4,6 g'
         ],
         type: 'multiple_text',
         correct_answer: '1'
@@ -518,8 +506,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvorfor bliver en kvinde på 70 kg mere fuld end mand på 70 kg, hvis de indtager samme mængde alkohol?',
+        chapters: ['3.2'],
+        text: 'Hvorfor bliver en kvinde på 70 kg mere fuld end en mand på 70 kg, hvis de indtager samme mængde alkohol?',
         answers: [
             'Fordi kvinders lever har færre alkoholnedbrydende enzymer',
             'Fordi kvinders lever er mindre end mænds',
@@ -532,7 +520,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om alkohol er korrekt?',
         answers: [
             'Det kan gøre cellemembranerne mere flydende og dermed ændre membranernes funktion',
@@ -546,7 +534,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'For meget alkohol feder, fordi',
         answers: [
             'Det øger fedtoptagelsen',
@@ -560,7 +548,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om kost og styrketræning er korrekt?',
         answers: [
             'Når man styrketræner, bør man altid indtage ekstra protein til muskelopbygning',
@@ -574,13 +562,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand er ikke korrekt?',
         answers: [
             'Langsomt nedbrydeligt protein fra fx kød eller fisk er det bedste tilskud efter træning',
             'Hurtigt nedbrydeligt protein fra fx mælk er det bedste tilskud efter træning',
             'Protein fra kakaomælk optages hurtigere end protein fra almindelig mælk',
-            'Kvinder optager proteiner bedst, hvis de kommer fra kakaomælk end fra almindelig mælk'
+            'Kvinder har et lidt lavere proteinkrav end mænd'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -588,11 +576,11 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvad er kreatin?',
         answers: [
-            'Et stof, der findes i slankemedicin',
-            'Et stof, der dannes i bugspytkirtlen, og som stimulerer proteinoptagelsen fra kosten',
+            'Et stof der findes i slankemedicin',
+            'Et stof der dannes i bugspytkirtlen, og som stimulerer proteinoptagelsen fra kosten',
             'Et stof der findes i fx kød, og som giver en hurtig dannelse af ATP',
             'Et protein der findes i hud og hår'
         ],
@@ -602,7 +590,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Hvilken påstand om styrketræning er korrekt?',
         answers: [
             'Det er vigtigt at indtage vitaminer før eller efter hård styrketræning',
@@ -616,8 +604,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om kost og konditionstræning er ikke korrekt?',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om kost og konditionstræning er korrekt?',
         answers: [
             'Når man konditionstræner, har man brug for ekstra meget protein',
             'Der forbrændes forholdsvis mere kulhydrat end fedt, når man træner hårdt',
@@ -630,7 +618,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Om sportsdrikke gælder',
         answers: [
             'De skal have et kulhydratindhold på 4-8 %, ellers hæmmes mavetømningen',
@@ -644,7 +632,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Om koffein og sport gælder',
         answers: [
             'Koffein er på dopinglisten og er derfor forbudt',
@@ -658,12 +646,12 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Om kreatintilskud og konditionstræning gælder',
         answers: [
             'Kreatin øger konditionen',
             'Man bliver langsommere af kreatin',
-            'Kreatin kan give en vægtøgning på 5-7 kg og kan derfor faktisk give lavere kondition ',
+            'Kreatin kan give en vægtøgning på helt op mod 5-7 kg og kan derfor faktisk give lavere kondition ',
             'Kreatin har overhovedet ingen effekt på konditionen'
         ],
         type: 'multiple_text',
@@ -672,8 +660,8 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
-        text: 'Hvilken påstand om appetit og sult er ikke korrekt',
+        chapters: ['3.2'],
+        text: 'Hvilken påstand om appetit og sult er ikke korrekt?',
         answers: [
             'Appetitten reguleres fra et center i hypothalamus',
             'Øget koncentration af fedt og glukose i blodet hæmmer mæthedscentret i hypothalamus',
@@ -686,13 +674,13 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Man ved nu, at appetitten reguleres af hormonerne ghrelin og leptin. Hvordan sker denne regulering?',
         answers: [
             'Begge hormoner stimulerer sultcentret',
             'Begge hormoner stimulerer mæthedscentret',
             'Begge hormoner dannes i mavesækken',
-            'Leptin, som dannes i fedtcellerne stimulerer mæthedscentret'
+            'Leptin stimulerer mæthedscentret, mens ghrelin stimulerer sultcentret'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -700,7 +688,7 @@ db.questions.save(
 
 db.questions.save(
     {
-        chapters: ['3.1', '3.2'],
+        chapters: ['3.2'],
         text: 'Mangel på søvn kan føre til overvægt. Det skyldes sandsynligvis',
         answers: [
             'Øget dannelse af ghrelin, som stimulerer sultcentret',
@@ -712,22 +700,6 @@ db.questions.save(
         correct_answer: '0'
     });
 
-
-
-
-db.questions.save(
-    {
-        chapters: ['3.2'],
-        text: '',
-        answers: [
-            '',
-            '',
-            '',
-            ''
-        ],
-        type: 'multiple_text',
-        correct_answer: ''
-    });
 
 
 db.questions.save(
@@ -759,10 +731,19 @@ db.questions.save(
         correct_answer: '0'
     });
 
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken kirtel hører ikke med til fordøjelseskanalens kirtler',
+        text: 'Hvilken kirtel hører ikke med til fordøjelseskanalens kirtler?',
         answers: [
             'Leveren',
             'Bugspytkirtlen',
@@ -804,7 +785,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om peristaltik er korrekt',
+        text: 'Hvilken påstand om peristaltik er korrekt?',
         answers: [
             'Transporten kan gå begge veje i hele fordøjelseskanalen',
             'Transporten kan kun gå den ene vej, altså fremad mod endetarmen',
@@ -818,7 +799,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'På tungens smagsløg kan følgende smagskategorier registres ',
+        text: 'På tungens smagsløg kan følgende smagskategorier registres',
         answers: [
             'Sødt, surt, salt, bittert',
             'Sødt, salt og surt (resten skyldes en kombination af de tre)',
@@ -888,7 +869,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilket enzym findes i mavesækken',
+        text: 'Hvilket enzym findes i mavesækken?',
         answers: [
             'Gastrin',
             'Pepsin',
@@ -902,7 +883,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om mavesækkens lave pH-værdi er ikke korrekt',
+        text: 'Hvilken påstand om mavesækkens lave pH-værdi er ikke korrekt?',
         answers: [
             'Den lave pH-værdi kan dræbe bakterier',
             'Den lave pH-værdi aktiverer pepsinogen til pepsin',
@@ -958,7 +939,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om mavesaften er korrekt',
+        text: 'Hvilken påstand om mavesaften er korrekt?',
         answers: [
             'Den dannes i leveren og bugspytkirtlen',
             'Den har en høj pH-værdi',
@@ -972,7 +953,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Mavesår opstår på grund af ',
+        text: 'Mavesår opstår på grund af',
         answers: [
             'Stress',
             'Infektion med colibakterier',
@@ -1059,8 +1040,8 @@ db.questions.save(
         text: 'Hormonet sekretin har følgende funktion',
         answers: [
             'Det gør mavesaften sur',
-            'Det stimulerer bugspytkirtlen til af udskille HCO',
-            'Det stimulerer tolvfingertarmen til at danne HCO',
+            'Det stimulerer bugspytkirtlen til af udskille bikarbonat',
+            'Det stimulerer tolvfingertarmen til at danne bikarbonat',
             'Det hæmmer galdeproduktionen'
         ],
         type: 'multiple_text',
@@ -1154,7 +1135,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om optagelse af glukose og galaktose i tyndtarmen er korrekt',
+        text: 'Hvilken påstand om optagelse af glukose og galaktose i tyndtarmen er korrekt?',
         answers: [
             'De optages ved sekundær aktiv transport',
             'De optages ved diffusion',
@@ -1168,9 +1149,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om optagelse af fruktose er korrekt',
+        text: 'Hvilken påstand om optagelse af fruktose er korrekt?',
         answers: [
-            'Det optages ved sekundær aktiv transport ',
+            'Det optages ved sekundær aktiv transport',
             'Det optages ved diffusion',
             'Det optages ved faciliteret diffusion',
             'Det optages af miceller'
@@ -1182,7 +1163,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om optagelse af aminosyrer og dipeptider er korrekt',
+        text: 'Hvilken påstand om optagelse af aminosyrer og dipeptider er korrekt?',
         answers: [
             'De optages ikke i tyndtarmen',
             'De optages sammen med fedtstofferne',
@@ -1196,10 +1177,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Hvilken påstand om optagelse af de korte fedtsyrer er korrekt',
+        text: 'Hvilken påstand om optagelse af de korte fedtsyrer er korrekt?',
         answers: [
             'De optages allerede i mavesækken',
-            'De transporteres i kylomikrons',
+            'De transporteres i kylomikroner',
             'De optages ved aktiv transport',
             'De optages ved diffusion'
         ],
@@ -1256,7 +1237,7 @@ db.questions.save(
         answers: [
             'En optagelse af de fordøjede næringsstoffer',
             'En optagelse af vand og salte',
-            'En optagelse af de Coli-bakterier, der lever i tyktarmen',
+            'En optagelse af de Colibakterier, der lever i tyktarmen',
             'En optagelse af kylomikroner'
         ],
         type: 'multiple_text',
@@ -1266,7 +1247,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.3'],
-        text: 'Ved tarmflora forstås følgende',
+        text: 'Ved tarmflora forstås',
         answers: [
             'Kostfibrene, der jo stammer fra plantekost',
             'De bakterier, der lever i tyktarmen',
@@ -1291,10 +1272,23 @@ db.questions.save(
         correct_answer: '2'
     });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'En person på 1,80 meter, der vejer 76 kg har følgende BMI',
+        text: 'En person på 1,80 meter, der vejer 76 kg, har følgende BMI',
         answers: [
             '23,5',
             '26,5',
@@ -1322,12 +1316,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Hvad er en normal fedtprocent hos en kvinde?',
+        text: 'Hvad er en normal fedtprocent hos en 20-årig kvinde?',
         answers: [
             '10-18',
             '35-40',
             '5-10',
-            '18-25'
+            '18-30'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1336,7 +1330,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Hvad er en normal fedtprocent hos en mand',
+        text: 'Hvad er en normal fedtprocent hos en 20-årig mand?',
         answers: [
             '10-18',
             '35-40',
@@ -1350,7 +1344,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Et talje-hofte-ratio (THR) for en kvinde bør være ',
+        text: 'Et talje-hofte-ratio (THR) for en kvinde bør være',
         answers: [
             'Over 1',
             'Under 1',
@@ -1378,10 +1372,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Ved konditallet forstås den maximale iltoptagelse ',
+        text: 'Ved konditallet forstås den maximale iltoptagelse',
         answers: [
-            'Pr. time/kg',
-            'Pr. minut/kg',
+            'Pr. time pr. kg',
+            'Pr. minut pr. kg',
             'Pr. minut ',
             'Pr. kg'
         ],
@@ -1420,7 +1414,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'En gennemsnitlig gymnasiepige har et kondital på ca. ',
+        text: 'En gennemsnitlig gymnasiepige har et kondital på ca.',
         answers: [
             '20-30',
             '30-40',
@@ -1434,7 +1428,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'En gennemsnitlig gymnasiedreng har et kondital på ca. ',
+        text: 'En gennemsnitlig gymnasiedreng har et kondital på ca.',
         answers: [
             '20-30',
             '30-40',
@@ -1462,7 +1456,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Det er især følgende kolesteroltype, der er farlig:',
+        text: 'Det er især følgende kolesteroltype, der er farlig',
         answers: [
             'Totalkolesterol',
             'HDL',
@@ -1476,7 +1470,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.4'],
-        text: 'Hvordan kan forhøjet kolesterolmængde behandles',
+        text: 'Hvordan kan forhøjet kolesterolmængde behandles?',
         answers: [
             'Kun medicinsk med de såkaldte statiner',
             'Det kan ikke behandles, da det skyldes en mutation',
@@ -1487,15 +1481,24 @@ db.questions.save(
         correct_answer: '3'
     });
 
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['3.5'],
         text: 'Hvor meget kan man tage på om året, hvis man hver dag spiser 10 g fedt for meget?',
         answers: [
-            '0,4 kg',
-            '1 kg',
-            '2 kg',
-            '4 kg'
+            'Ca. 0,4 kg',
+            'Ca. 1 kg',
+            'Ca. 2 kg',
+            'Ca. 4 kg'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1506,10 +1509,10 @@ db.questions.save(
         chapters: ['3.5'],
         text: 'Hvor meget kan man tage på om året, hvis man hver dag indtager 380 kJ for meget?',
         answers: [
-            '0,4 kg',
-            '1 kg',
-            '2 kg',
-            '4 kg'
+            'Ca. 0,4 kg',
+            'Ca. 1 kg',
+            'Ca. 2 kg',
+            'Ca. 4 kg'
         ],
         type: 'multiple_text',
         correct_answer: '3'
@@ -1644,7 +1647,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.5'],
-        text: 'Glykæmisk indeks (GI) er et mål for:',
+        text: 'Glykæmisk indeks (GI) er et mål for',
         answers: [
             'Hvor hurtigt en fødevare får blodsukkeret til at stige ',
             'Hvor meget kulhydrat, der er i en fødevare',
@@ -1756,7 +1759,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.5'],
-        text: 'Om glykæmisk indeks (GI) og slankekure gælder:',
+        text: 'Om glykæmisk indeks (GI) og slankekure gælder',
         answers: [
             'Fødevarer med høj glykæmisk indeks bør undgås',
             'Man bør undgå fødevarer med lavt glykæmisk indeks',
@@ -1814,7 +1817,7 @@ db.questions.save(
         chapters: ['3.5'],
         text: 'Hvad sker der, når en anoreksipatient udvikler lanugo?',
         answers: [
-            'Maven bliver tyk på grund af ødemer',
+            'Maven bliver tyk på grund af ødemer (væskeophobning)',
             'Vægten falder drastisk',
             'Der indtræder en form for koma',
             'Der dannes en slags pels'
@@ -1982,7 +1985,7 @@ db.questions.save(
         chapters: ['3.5'],
         text: 'Hvorfor kan man få diarre af laktoseintolerans?',
         answers: [
-            'Fordi mælkesukker irriterer tarmslimhinden ',
+            'Fordi mælkesukker irriterer tarmslimhinden',
             'Fordi mælken kan indeholde nogle bestemte bakterier',
             'Fordi laktosen ophobes i tyndtarmen og virker osmotisk aktivt',
             'Fordi allergi kan give diarre'
@@ -2035,10 +2038,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.5'],
-        text: 'Hvor stor er forskellen i middellevetiden mellem mænd med laveste og højeste indkomst i 2009?',
+        text: 'Hvor stor er forskellen i middellevetiden mellem mænd med laveste og højeste indkomst i 2015?',
         answers: [
             '5,5 år',
-            '9,9 år',
+            '9,6 år',
             '4,4 år',
             '10,0 år'
         ],
@@ -2048,9 +2051,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['3.5'],
-        text: 'Hvad var kvinders middellevetid for de højeste indkomstgrupper i 2009?',
+        text: 'Hvad var kvinders middellevetid for de højeste indkomstgrupper i 2015?',
         answers: [
-            '84,3 år',
+            '86,1 år',
             '78,6 år',
             '79,2 år',
             '80,1 år'
@@ -2058,6 +2061,21 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+db.questions.save(
+    {
+        chapters: ['3.5'],
+        text: 'Hvad var mænds middellevetid for de højeste indkomstgrupper i 2015?',
+        answers: [
+            '83,3 år',
+            '78,6 år',
+            '79,2 år',
+            '80,1 år'
+        ],
+        type: 'multiple_text',
+        correct_answer: '0'
+    });
+
 db.questions.save(
     {
         chapters: ['3.5'],
@@ -2076,7 +2094,7 @@ db.questions.save(
         chapters: ['3.5'],
         text: 'Hvilken dansk kornsort indeholder ikke gluten?',
         answers: [
-            'Ingen',
+            'Alle indeholder gluten',
             'Hvede',
             'Rug',
             'Byg'
@@ -2102,10 +2120,10 @@ db.questions.save(
         chapters: ['3.5'],
         text: 'Hvad forstås ved cøliaki?',
         answers: [
-            'En autoimmun tarmsygdom, fremkaldt af gluten',
+            'En autoimmun tarmsygdom fremkaldt af gluten',
             'En form for autisme',
             'En form for ADHD fremkaldt af gluten',
-            'En tilstand, hvor mennesket har vænnet sig til at spise gluten'
+            'En tilstand hvor mennesket har vænnet sig til at spise gluten'
         ],
         type: 'multiple_text',
         correct_answer: '0'
@@ -2267,10 +2285,23 @@ db.questions.save(
         type: 'multiple_text',
         correct_answer: '0'
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
 db.questions.save(
     {
         chapters: ['3.6'],
-        text: 'Hvad forstås ved mavesår',
+        text: 'Hvad forstås ved mavesår?',
         answers: [
             'Et sår et eller andet sted i tarmkanalen',
             'Et sår der oftest sidder i mavesækken',
