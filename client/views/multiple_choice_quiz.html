@@ -14,7 +14,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
 
-	<script type="text/javascript" >
+  <script type="text/javascript" >
+   function handleClick(myRadio) {
+		
+		};
 	    (function($) {
         $(document).ready(function () {
 
@@ -24,19 +27,25 @@
 				var numberOfQuestions = "!!count!";
         var chapter ="!!subchapter!";
         var questions ="!!question_id!";
-				var name ="!!quiz_id!";
+		var name ="!!quiz_id!";
+        if( name == "undefined" || name == "")
+        {
+          alert("Testen skal indeholde et navn");
+          return;
+        }
 				var desc = "!!description_id!";
         var timer = "!!timer_id!";
-        var highScore = "!!high_score!" == "show";
+        var highScore = "!!high_score!" == "on";
         var timeout = isNaN(timer) ? 0 :parseInt(timer); 
+        var hideTimer ="!!hideTimer!" == "on";
         if( questions == "undefined")
         {
-          addQuiz("a", name, desc, chapter, numberOfQuestions,timeout,highScore, function(link)
+          addQuiz("a", name, desc, chapter, numberOfQuestions,timeout,highScore,hideTimer, function(link)
           {
             var linkContainer = $('#linkContainer');
             var resultContainer = $('#resultContainer');
-            quizLink = "http://yubio.dk/questionnaire_quiz.html?id="+link;
-            resultLink = quizLink+"&showHighScore=true";
+            quizLink = "http://yubio.dk/questionnaire_quiz.html?id=" + link;
+            resultLink = quizLink + "&showHighScore=true";
             var linkText = "<a href=http://yubio.dk/questionnaire_quiz.html?id="+link+">Link til test for den/dem, der skal deltage (fx elever)</p>";
               linkContainer.html(linkText);
               resultContainer.html("<a href="+resultLink+">Link til resultater for den/dem, der skal kunne se resultaterne (fx en lærer)</p>");
@@ -44,7 +53,7 @@
        }
        else
        {
-        addQuizByQuestions("a", name, desc, questions, 0,timeout,highScore, function(link)
+        addQuizByQuestions("a", name, desc, questions, 0,timeout,highScore,hideTimer, function(link)
           {
             //&showHighScore=true
             var linkContainer = $('#linkContainer');
@@ -59,7 +68,7 @@
 
 			}
 			else{
-				loadQuiz("idc",id,function(quiz)
+				loadQuiz("a",id,function(quiz)
 				{
 
 				})
@@ -115,20 +124,24 @@
       <div class="col-md-12" id="altColumn">
        <div class="row" style="text-align:center; margin-top: 30px">
 		<span id="info" style="font-size: 30pt">Testen kan findes på nedenstående link</span>
-		<div class="row" style="text-align:center; margin-top: 20px" id="linkContainer">
+		<div class="row" style="text-align:center; margin-top: 20px" id="resultContainer">
 
     </div>
     <div>
-      <button class="yubioBtn" onclick="CopyLink()">Kopier link</button>
+      <input type="checkbox" id="copyTeacherLink" name="quizmode" onclick="CopyResultLink();" checked />
+      <label class="button" for="copyTeacherLink">Kopier link</label>
+      <!-- <button class="yubioBtn" onclick="CopyLink()">Kopier link</button> -->
     </div>
       </div>
 <br/>
 <br/>
-      <div class="row" style="text-align:center; margin-top: 20px" id="resultContainer">
+      <div class="row" style="text-align:center; margin-top: 20px" id="linkContainer">
 
       </div>
       <div>
-        <button class="yubioBtn" onclick="CopyResultLink()">Kopier link</button>
+        <!-- <button class="yubioBtn" onclick="CopyResultLink()">Kopier link</button> -->
+        <input type="checkbox" id="copyStudentLink" name="quizmode" onclick="CopyLink();" checked />
+      <label class="button" for="copyStudentLink">Kopier link</label>
       </div>
         </div>
   

@@ -232,7 +232,7 @@ var initMCGame = function(chapters, topic, bookType) {
     });
 
     $('#startButton').click(function() {
-	$('#mcForm').prop("action", (bookType ? bookType : "") + "/questionnaire.html");
+	$('#mcForm').prop("action", (bookType != "/a" ? bookType : "") + "/questionnaire.html");
     });
 
     var imageLib = "../images";

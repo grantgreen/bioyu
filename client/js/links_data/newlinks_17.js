@@ -16,6 +16,7 @@ var links = {
 	{"caption":"Krebs’ cyklus 2","link":"https://www.youtube.com/watch?v=_cXVleFtzeE"},
 	{"caption":"Elektrontransportkæden","link":"https://www.youtube.com/watch?v=xbJ0nbzt5Kw"},
 	{"caption":"Dannelsen af ATP","link":"https://www.youtube.com/watch?v=3y1dO4nNaKY"},
+	{"caption":"ATP-dannelse som en hybridbil","link":"https://www.youtube.com/watch?v=8Y_FdjI2v4I"},
 	,{"color": "#6DC0B4"},
 	{"caption": "Videnskab.dk", "link": "http://www.videnskab.dk"},
 	{"caption": "Aktuel Naturvidenskab","link": "http://aktuelnaturvidenskab.dk"},

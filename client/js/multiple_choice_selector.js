@@ -53,19 +53,19 @@ var initializeTOC = function(chapter, topic, bookType) {
 
     var backButton = imgButton("mainBack", "javascript:history.back()", imageLib + '/icons/yubio_back_icon.svg');
     var mainTopic = imgButton("mainTopic", "multiple_choice_selector.html?topic=multiple_choice", imageLib + '/icons/yubio_multiple_choice_icon.svg');
-    var mainUCPhysiology = textButton("mainUCPhysiology", "questionnaire.html?chapters=" + ucPhy + "&count=10&stopwatch=true&level=UCP", "<br />Ultimate<br />Choice<br />Fysiologi", colors[5], "70X80");
+    // var mainUCPhysiology = textButton("mainUCPhysiology", "questionnaire.html?chapters=" + ucPhy + "&count=10&stopwatch=true&level=UCP", "<br />Ultimate<br />Choice<br />Fysiologi", colors[5], "70X80");
 
-    if(!bookType) {
-	var mainUCBiochemistry = textButton("mainUCBiochemistry", "questionnaire.html?chapters=13-18&count=10&stopwatch=true&level=UCB", "<br />Ultimate<br />Choice<br />Biokemi", colors[5], "70X80");
-    }
-    else if(bookType == "/b") {
-	var mainUCBiochemistry = textButton("mainUCBiochemistry", "questionnaire.html?chapters=13|14&count=10&stopwatch=true&level=UCB", "<br />Ultimate<br />Choice<br />Biokemi", colors[5], "70X80");
-    }
-    var mainUCGenetics = textButton("mainUCGenetics", "questionnaire.html?chapters=" + ucGen + "&count=10&stopwatch=true&level=UCG", "<br />Ultimate<br />Choice<br />Genetik", colors[5], "70X80");
+    // if(!bookType) {
+	// var mainUCBiochemistry = textButton("mainUCBiochemistry", "questionnaire.html?chapters=13-18&count=10&stopwatch=true&level=UCB", "<br />Ultimate<br />Choice<br />Biokemi", colors[5], "70X80");
+    // }
+    // else if(bookType == "/b") {
+	// var mainUCBiochemistry = textButton("mainUCBiochemistry", "questionnaire.html?chapters=13|14&count=10&stopwatch=true&level=UCB", "<br />Ultimate<br />Choice<br />Biokemi", colors[5], "70X80");
+    // }
+    // var mainUCGenetics = textButton("mainUCGenetics", "questionnaire.html?chapters=" + ucGen + "&count=10&stopwatch=true&level=UCG", "<br />Ultimate<br />Choice<br />Genetik", colors[5], "70X80");
 
-    var mainUCEcology = textButton("mainUCEcology", "questionnaire.html?chapters=" + ucEco + "&count=10&stopwatch=true&level=UCE", "<br />Ultimate<br />Choice<br />Økologi", colors[5], "70X80");
+    // var mainUCEcology = textButton("mainUCEcology", "questionnaire.html?chapters=" + ucEco + "&count=10&stopwatch=true&level=UCE", "<br />Ultimate<br />Choice<br />Økologi", colors[5], "70X80");
 
-    var mainUC = textButton("mainUC", "questionnaire.html?chapters=" + uc + "&count=10&stopwatch=true&level=UC", "<br />Ultimate<br />Choice", colors[5], "70X80");
+    // var mainUC = textButton("mainUC", "questionnaire.html?chapters=" + uc + "&count=10&stopwatch=true&level=UC", "<br />Ultimate<br />Choice", colors[5], "70X80");
 
     var mainTopic = imgButton("mainYubio", "index_tiles.html", imageLib + '/yubio_logo_pure.svg');
 }

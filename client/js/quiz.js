@@ -28,13 +28,24 @@ var initHighScoreView = function( bookType, response)
 	$('#info').hide();
 	loadQuizScores(bookType,quiz["_id"].$oid,function(result)
 	{
-		showHighScores(0,result,bookType,quiz.questions.length);
+		showHighScores(0,result,bookType,quiz.questions.length,quiz.timeout);
 		$('#collapseGame').collapse();
 		$('#collapseResult').collapse();
 		$('#headingGame').hide();
 		$('#scoresContainer').show();
 			$('#resultContainer').show();
 			$('headingResult').show();
+			$('#ResetHighScoreButton').show();
+			$('#ResetHighScoreButton').click(function() 
+			{
+				if(confirm("Er du sikker på du vil slette alle resultater"))
+				{
+					alert("OK");
+					clearQuizScores(bookType,quiz["_id"].$oid,function(result){
+						location.reload();
+					});
+				}
+			});
 	});
 }
 var initView = function ( bookType, response, showHighScore) 
@@ -58,7 +69,7 @@ var initView = function ( bookType, response, showHighScore)
 
 	$('#timer').hide();
 	$('#main').hide();
-
+	$('#ResetHighScoreButton').hide();
 	if(quiz.public_score || showHighScore)
 	{
 		$('#highScoreButton').show();
@@ -73,7 +84,7 @@ var initView = function ( bookType, response, showHighScore)
 		
 		loadQuizScores(bookType,quiz["_id"].$oid,function(result)
 		{
-			showHighScores(0,result,bookType,quiz.questions.length);
+			showHighScores(0,result,bookType,quiz.questions.length,quiz.timeout);
 			$('#main').show();
 		});
 	});
@@ -259,7 +270,7 @@ var getCorrectAnswerCount = function(bookType) {
 					currentPlayer = playerName;
 					loadQuizScores(bookType,quiz["_id"].$oid,function(result)
 					{
-						showHighScores(0,result,"idc", questions.length);
+						showHighScores(0,result,"idc", questions.length,quiz.timeout);
 					});
 				});
 		}, gameType, bookType);
@@ -319,12 +330,7 @@ var saveScore = function(scoreData, bookType, callback) {
 	callback("Request failed: " + textStatus, null);
     });
 }
-
-var showResultDialog = function(score, userName, schoolName, bookType, callback) {
-    var scoresContainer = $('#scoresContainer');
-
-    var resultContainer = $('#resultContainer');
-    var getScore = function(percentCorrect) {
+var calculateGrade = function(percentCorrect) {
 	if(percentCorrect >= 95) return "12";
 	if(percentCorrect >= 80) return "10";
 	if(percentCorrect >= 65) return "7";
@@ -333,6 +339,11 @@ var showResultDialog = function(score, userName, schoolName, bookType, callback)
 	if(percentCorrect >= 10) return "00";
 	return "-3";
     }
+var showResultDialog = function(score, userName, schoolName, bookType, callback) {
+    var scoresContainer = $('#scoresContainer');
+
+    var resultContainer = $('#resultContainer');
+   
 
     var resultText = '';
    
@@ -340,7 +351,7 @@ var showResultDialog = function(score, userName, schoolName, bookType, callback)
     resultText += '<p>Du har svaret korrekt på ' + score + ' ud af ' + questions.length + ' spørgsmål!</p>';
 
     var percentCorrect = (100 * score / questions.length) >> 0;
-	resultText += '<p>Karakter: ' + getScore(percentCorrect)  + ' (' + percentCorrect + '%)</p>';
+	resultText += '<p>Karakter: ' + calculateGrade(percentCorrect)  + ' (' + percentCorrect + '%)</p>';
 	if( countDown != null)
     {
 		resultText += '<p>Det tog ' + answerTime + 'sek.</p>';
@@ -530,6 +541,18 @@ var loadQuestionnaire = function(pGameId, bookType) {
 	alert( "Request failed: " + textStatus );
     });
 }
+
+var clearQuizScores=function(bookId,quizId,callback)
+{
+	$.ajax({
+		url:"http://test.yubio.dk/clear_score/"+bookId+"/"+quizId,
+		}).done(function( scores ) {
+					callback(scores);
+					return;
+		}).fail(function(jqXHR, textStatus) {
+		alert( "Request failed: " + textStatus );
+		});
+}
 var loadQuizScores = function(bookId, quizId, callback)
 {
 	$.ajax({
@@ -646,7 +669,7 @@ var showNameEntry = function (callback, type, bookType) {
 }
 
 
-var showHighScores = function (err, result, localScore, totalQuestions) {
+var showHighScores = function (err, result, localScore, totalQuestions, show_time) {
     var padZero = function (value) {
         return ("0" + value).slice(-2);
     }
@@ -666,8 +689,12 @@ var showHighScores = function (err, result, localScore, totalQuestions) {
     header.append($('<th style="padding: 0.2em 1em; text-align: center">Placering</th>'));
     header.append($('<th style="padding: 0.2em 1em; text-align: center">Navn</th>'));
     // header.append($('<th style="padding: 0.2em 1em; text-align: center">Skole</th>'));
-    header.append($('<th style="padding: 0.2em 1em; text-align: center">Rigtige</th>'));
-    header.append($('<th style="padding: 0.2em 1em; text-align: center">Tid</th>'));
+	header.append($('<th style="padding: 0.2em 1em; text-align: center">Rigtige</th>'));
+	header.append($('<th style="padding: 0.2em 1em; text-align: center">Karakter</th>'));
+	if(show_time)
+    {
+		header.append($('<th style="padding: 0.2em 1em; text-align: center">Tid</th>'));
+	}
     header.append($('<th style="padding: 0.2em 1em; text-align: center">Dato</th>'));
     headerContainer.append(header);
     myHighScoreTable.append(headerContainer);
@@ -715,8 +742,12 @@ var showHighScores = function (err, result, localScore, totalQuestions) {
         entry.append($('<td style="padding: 0.2em 1em; text-align: left">' + res.name + '</td>'));
         // entry.append($('<td style="padding: 0.2em 1em; text-align: left ">' + res.school + '</td>'));
          var percentCorrect = (100 * res.grade / totalQuestions) >> 0;
-        entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + res.grade + ' ('+percentCorrect+'%) </td>'));
-        entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + res.time + 's</td>'));
+		entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + res.grade + ' ('+percentCorrect+'%) </td>'));
+		entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + calculateGrade(percentCorrect) +' </td>'));
+		if(show_time)
+		{
+        	entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + res.time + 's</td>'));
+		}
         var date = new Date(res.date);
         var dateString = padZero(date.getDate()) + "." + padZero(date.getMonth() + 1) + "." + date.getFullYear();// + "-" + padZero(date.getHours()) + ":" + padZero(date.getMinutes());
         entry.append($('<td style="padding: 0.2em 1em; text-align: center">' + dateString + '</td>'));

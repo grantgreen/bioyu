@@ -332,6 +332,7 @@
 				var parentRandomChapter = $('#chaptersRandom');
 				var subChapter = $('#subchapters');
 				questions = JSON.parse(q);
+				questions.chapters.sort((a, b) => (a.ChapterNumber > b.ChapterNumber) ? 1 : -1);
 				var subchapter = "";
 				for (var i = 0; i < questions.chapters.length; i++) {
 					AddChapterButton(questions.chapters[i], questions.chapters[i].ChapterNumber == chapterNo);

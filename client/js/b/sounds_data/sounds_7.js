@@ -33,6 +33,7 @@ var links = {
 { chapter:'7.6.3',link:'https://www.dropbox.com/s/18ayncleeg52aaf/7.6.3.mp3?dl=0'},
    ],
    '7.7':[
+      { chapter:'7.7',link:'https://www.dropbox.com/s/c3jdtt43xrkc96b/7.7.m4a?dl=0'},
 { chapter:'7.7.1',link:'https://www.dropbox.com/s/0623tkv67pb86gw/7.7.1.mp3?dl=0'},
 { chapter:'7.7.2',link:'https://www.dropbox.com/s/jda0uhyas5cq6h7/7.7.2.mp3?dl=0'},
    ],

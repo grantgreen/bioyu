@@ -13,33 +13,66 @@ var chap_20_26_color = "#6BC2B8";
 var chap_30_33_color = "#EC641C";
 
 var getChapterList = function(topic, bookType) {
-    $.ajax({
-	url: (bookType ? bookType : "") + "/getChapterList.json"
-    }).done(function( chapterList ) {
-	var colorIndex = (Math.random() * 6) >> 0;
+    getQuestions("idc",function(c)
+    {
+        	var colorIndex = (Math.random() * 6) >> 0;
 	var color = colors[colorIndex];
-      var r = /\d+/;
-	for(var i = 0; i < chapterList.length; i++) {		    	    
-  var index = parseInt(chapterList[i].match(r));
-        var chapter = index;
-        if(chapter >= 1 && chapter <=9)
+            var chapters = JSON.parse(c);
+            for(var i = 0; i < chapters.chapters.length; i++) 
             {
-             color = chap_1_7_color;
-         var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+                if( chapters.chapters[i].Tiles.tiles.length >0 )   
+                {
+                    // var contentButton = textButton("column1", 'multiple_choice.html?topic=multiple_choice&chapters=' + (chapters.chapters[i].ChapterNumber),chapters.chapters[i].ChapterNumber + '<br />' +chapters.chapters[i].Header , color, "100X140",25);    
+                    var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (chapters.chapters[i].ChapterNumber), chapters.chapters[i].ChapterNumber+'<br />' + chapters.chapters[i].Header, color, "90X140");
+                }
+            }
+    });
+
+
+//     $.ajax({
+// 	url: (bookType ? bookType : "") + "/getChapterList.json"
+//     }).done(function( chapterList ) {
+// 	var colorIndex = (Math.random() * 6) >> 0;
+// 	var color = colors[colorIndex];
+//       var r = /\d+/;
+// 	for(var i = 0; i < chapterList.length; i++) {		    	    
+//   var index = parseInt(chapterList[i].match(r));
+//         var chapter = index;
+//         // if(chapter >= 1 && chapter <=9)
+//             {
+//              color = chap_1_7_color;
+//          var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
          
-             //continue;
-         }
-        if(chapter >=10 && chapter <= 16) { color = chap_10_16_color; }
-        if( chapter >= 20 && chapter <= 26){ color = chap_20_26_color;}
-        if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}
+//              //continue;
+//          }
+//         // if(chapter >=10 && chapter <= 16) { color = chap_10_16_color; }
+//         // if( chapter >= 20 && chapter <= 26){ color = chap_20_26_color;}
+//         // if( chapter >= 30 && chapter <= 33){ color = chap_30_33_color}
 	    
-         //var contentButton = textButton("column1", 'tiles_game_mode_coming.html?topic=' + topic + '&color='+color+'&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
-	}
+
+//         // var colorIndex = (Math.random() * 6) >> 0;
+//         // var color = colors[colorIndex];
+//         // for(var i = 0; i < chapterList.length; i++) {		    	    
+//         //     var contentButton = textButton("column1", 'tiles_game_mode.html?topic=' + topic + '&chapters=' + (i+1), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+//         // }
+//          //var contentButton = textButton("column1", 'tiles_game_mode_coming.html?topic=' + topic + '&color='+color+'&chapters=' + (index), '<br />' + chapterList[i].replace(': ', '<br />').replace('Kapitel', ''), color, "90X140");
+// 	}
 	
-    }).fail(function(jqXHR, textStatus) {
-	alert( "Request failed: " + textStatus );
-    });;
+//     }).fail(function(jqXHR, textStatus) {
+// 	alert( "Request failed: " + textStatus );
+//     });;
 };
+var getQuestions = function(bookId, callback)
+{
+    $.ajax({
+        url:"http://test.yubio.dk/getchapter/"+bookId+"?populate=true"
+        }).done(function( questions ) {
+                    callback(questions );
+                    return;
+        }).fail(function(jqXHR, textStatus) {
+        alert( "Request failed: " + textStatus );
+        });
+}
 
 var intdiv = function(numerator, denominator) {
     return (numerator / denominator) >> 0;

@@ -81,7 +81,7 @@ namespace Yubio.Server.Modules
             Get("/clear_score/{bookid}/{id}", delegate (dynamic o)
             {
                 var args = this.Bind<IdArgs>();
-                Logger.Debug($"Getting scores for {args.Id}, book id {args.BookId}");
+                Logger.Debug($"Clearing scores for {args.Id}, book id {args.BookId}");
                 var dbDemo = this.Client.GetDatabase(args.BookId.BookToDatabase());
                 foreach (var score in dbDemo.ScoresByQuizId(new ObjectId(args.Id)))
                 {
@@ -101,7 +101,7 @@ namespace Yubio.Server.Modules
                 {
                     response.AppendLine(quiz.Id.ToString());
                 }
-                return found == null ? "NOT FOUND" : response.ToString();
+                return response.ToString();
             });
 
         }

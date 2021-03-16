@@ -60,7 +60,7 @@
 		function show_all_chapters_clicked(checkboxElem){
 			for (var j = 0; j < questions.chapters.length; j++) {
 				var sc = questions.chapters[j].ChapterNumber;
-
+				if(sc >= 1000){continue;}
 				if (checkboxElem.id == "random_switcher") {
 					var id = "random_chapters_id_" + sc;
 
@@ -332,12 +332,14 @@
 				var parentRandomChapter = $('#chaptersRandom');
 				var subChapter = $('#subchapters');
 				questions = JSON.parse(q);
+				questions.chapters.sort((a, b) => (a.ChapterNumber > b.ChapterNumber) ? 1 : -1);
 				var subchapter = "";
 				for (var i = 0; i < questions.chapters.length; i++) {
+					if( questions.chapters[i].sub.length == 0){continue;}
 					AddChapterButton(questions.chapters[i], questions.chapters[i].ChapterNumber == chapterNo);
 
 					for (var j = 0; j < questions.chapters[i].sub.length; j++) {
-						if (questions.chapters[i].sub[j].name == "Resume") { continue; }
+						if (questions.chapters[i].sub[j].name == "Resume" ) { continue; }
 
 						subchapter = questions.chapters[i].sub[j].SubChapterNumber;
 						AddSubChapterButtonToRandom(questions.chapters[i].sub[j], questions.chapters[i].sub[j].ChapterNumber != chapterNo);

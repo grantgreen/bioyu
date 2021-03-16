@@ -174,10 +174,10 @@ function updateKondital(){
     var min = Math.floor(seconds/60);
     var sec = Math.floor(seconds %60);
     kondiTal = 0.0572*seconds+10.9;
-    var dist = (speed/3.6)*seconds;
+    var dist = (speed*0.2778)*seconds;
     document.getElementById('kondital').innerHTML = kondiTal.toFixed(1);
     document.getElementById('time').innerHTML = "Tid "+n(min)+":" +n(sec.toFixed(0));
-    document.getElementById('distance').innerHTML = "Distance "+ dist.toFixed(0) + " meter";
+    //document.getElementById('distance').innerHTML = "Distance "+ dist.toFixed(0) + " meter";
     evaluateGirlsHealth(); 
         evaluateBoysHealth();
 }
@@ -208,6 +208,7 @@ function evaluate(){
     document.getElementById('niveau').innerHTML = "Niveau "+level.niveau;    
     document.getElementById('niveau1').innerHTML = "Niveau "+level.niveau;    
     document.getElementById('speed').innerHTML = "Hastighed "+speed+" km/t"; 
+    document.getElementById('distance').innerHTML = "Distance "+ level.distance + " meter";
     if( debug)
     {
         document.getElementById('time-drift').innerHTML = "("+n(min)+":" +n(sec.toFixed(0))+ ", diff: "+diff.toFixed(01)+")";

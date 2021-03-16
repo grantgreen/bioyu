@@ -69,9 +69,9 @@ var initializePage = function(chapter, topic, bookType) {
 
     var imageLib =  "../images";
 
-     var backButton = imgButton("mainBack", "javascript:history.back()", 'images/icons/yubio_back_icon.svg');
-    var mainTopic = imgButton("mainTopic", "videos.html", 'images/icons/yubio_video_icon.svg');
-    var mainTopic = imgButton("mainYubio", "index_tiles.html", 'images/yubio_logo_pure.svg');
+     var backButton = imgButton("mainBack", "javascript:history.back()", imageLib+'/icons/yubio_back_icon.svg');
+    var mainTopic = imgButton("mainTopic", "videos.html", imageLib+'/icons/yubio_video_icon.svg');
+    var mainTopic = imgButton("mainYubio", "index_tiles.html", imageLib+'/yubio_logo_pure.svg');
 
 
     fetch();
