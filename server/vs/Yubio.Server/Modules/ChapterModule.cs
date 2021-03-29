@@ -36,7 +36,7 @@ namespace Yubio.Server.Modules
 
                     foreach (var chapter in filteredQuestions)
                     {
-                        var chapterMatch = Regex.Match(chapter.Name, @"Kapitel (?<chapter>\d*):\s*(?<header>[\w\s-&]*)");
+                        var chapterMatch = Regex.Match(chapter.Name, @"Kapitel (?<chapter>\d*):\s*(?<header>[\w\s-&\,]*)");
                         chapter.ChapterNumber = int.Parse(chapterMatch.Groups["chapter"].Value);
                         chapter.Header = chapterMatch.Groups["header"].Value;
 
@@ -44,7 +44,7 @@ namespace Yubio.Server.Modules
                         foreach (var subChapter in chapter.Chapters)
                         {
                             var subChapterMatch = Regex.Match(subChapter.Name,
-                                @"(?<chapter>\d+([,\.]\d+)?)\s*(?<header>[\w\s-&]*)");
+                                @"(?<chapter>\d+([,\.]\d+)?)\s*(?<header>[\w\s-&\,]*)");
                             subChapter.Header = subChapterMatch.Groups["header"].Value;
                             subChapter.ChapterNumber = chapter.ChapterNumber;
                             subChapter.SubChapterNumber = subChapterMatch.Groups["chapter"].Value;

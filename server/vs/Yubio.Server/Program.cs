@@ -15,6 +15,8 @@ namespace Yubio.Server
 
         static void Main(string[] args)
         {
+            var m1 = Regex.Match("Kapitel 1: Liv, evolution og celler",
+                @"Kapitel (?<chapter>\d*):\s*(?<header>[\w\s-&\,]*)");
             var m = Regex.Match("Kapitel 8: Udvidet fyiologi træningslære", @"(?<chapter>\d+([,\.]\d+)?)\s*(?<header>[\w\s-]*)");
             var quizMaster = new QuizMaster();
             try

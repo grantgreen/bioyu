@@ -26,17 +26,7 @@
 
     <script type="text/javascript">
 		$(document).ready(function () {
-        var url = window.location.href.split('/');
-        initFigGame("!!chapter!", "!!topic!", url[3]);
-        var d= new Date();
-        if( d.getMonth()>=7)
-        {
-            document.getElementById("figureLegend").innerHTML = "Vælg figure ("+d.getFullYear()+")";
-        }
-        else
-        {
-            document.getElementById("figureLegend").innerHTML = "Vælg figure ("+(d.getFullYear()-1)+")";
-        }
+        initFigGame("!!chapter!", "!!topic!", "c");
       });
 	</script>
 
@@ -128,7 +118,7 @@
                                 <form action="figgame.html" method="get" id="figForm">
                                     <br />
                                     <fieldset id="figures">
-                                        <legend id="figureLegend">Vælg figur (2019)</legend>
+                                        <legend>Vælg figur (2019)</legend>
                                     </fieldset>
                                     <br />
 
