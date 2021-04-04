@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 using Common.Logging;
 using MongoDB.Bson;
@@ -29,6 +30,13 @@ namespace Yubio.Server.Modules
             public int Grade { get; set; }
             public string BookId { get; set; }
             public string QuizId { get; set; }
+        }
+
+        class LegacyArgs
+        {
+            public string BookId { get; set; }
+            public string Discipline { get; set; }
+            public string Part { get; set; }
         }
 
         public ScoreModule()
@@ -85,7 +93,7 @@ namespace Yubio.Server.Modules
                 var dbDemo = this.Client.GetDatabase(args.BookId.BookToDatabase());
                 foreach (var score in dbDemo.ScoresByQuizId(new ObjectId(args.Id)))
                 {
-                    dbDemo.DeleteScore(score);            
+                    dbDemo.DeleteScore(score);
                 }
 
                 return "OK";
@@ -102,6 +110,92 @@ namespace Yubio.Server.Modules
                     response.AppendLine(quiz.Id.ToString());
                 }
                 return response.ToString();
+            });
+
+            Get("/get_all_legacy_scores/{bookid}/{discipline}/{part}", delegate (dynamic o)
+            {
+                try
+                {
+                    var args = this.Bind<LegacyArgs>();
+                    var database = Client.GetDatabase(args.BookId.BookToDatabase());
+                    if (args.Discipline == "figgame")
+                    {
+                        var found = database.FindAllLegacyScores().Where(d => d.Discipline == args.Discipline
+                                                                            && d.Part == args.Part + ".svg");
+                        var response = new StringBuilder();
+                        foreach (var quiz in found)
+                        {
+                            response.AppendLine(string.Format($"{quiz.User}, {quiz.School}. {quiz.Id.ToString()}"));
+                        }
+                        return response.ToString();
+                    }
+                    else
+                    {
+                        var found = database.FindAllLegacyScores().Where(d => d.Discipline == args.Discipline
+                                                                              && d.Part == args.Part);
+                        var response = new StringBuilder();
+                        foreach (var quiz in found)
+                        {
+                            response.AppendLine(string.Format($"{quiz.User}, {quiz.School}. {quiz.Id.ToString()}"));
+                        }
+                        return response.ToString();
+                    }
+
+
+
+                }
+                catch (Exception exception)
+                {
+                    Logger.Error(exception);
+                    return exception.Message;
+                }
+            });
+
+            Get("/delete_all_legacy_scores/{bookid}/{discipline}/{part}", delegate (dynamic o)
+            {
+                try
+                {
+                    var args = this.Bind<LegacyArgs>();
+                    var database = Client.GetDatabase(args.BookId.BookToDatabase());
+                    if (args.Discipline == "figgame")
+                    {
+                        var found = database.FindAllLegacyScores().Where(d => d.Discipline == args.Discipline
+                                                                              && d.Part == args.Part + ".svg");
+                        var response = new StringBuilder();
+                        foreach (var quiz in found)
+                        {
+                            var deleted = database.DeleteLegacyScore(quiz);
+                            if (!deleted)
+                            {
+                                Logger.Error($"Unable to delete {quiz.User}");
+                            }
+                        }
+                        return response.ToString();
+                    }
+                    else
+                    {
+                        var found = database.FindAllLegacyScores().Where(d => d.Discipline == args.Discipline
+                                                                              && d.Part == args.Part);
+                        var response = new StringBuilder();
+                        foreach (var quiz in found)
+                        {
+                            var deleted = database.DeleteLegacyScore(quiz);
+                            if (!deleted)
+                            {
+                                Logger.Error($"Unable to delete {quiz.User}");
+                            }
+                        }
+                        return response.ToString();
+                    }
+
+
+
+                }
+                catch (Exception exception)
+                {
+                    Logger.Error(exception);
+                    return exception.Message;
+                }
             });
 
         }

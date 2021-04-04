@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Db\ChapterRepo.cs" />
+    <Compile Include="Db\LegacyScoreRepo.cs" />
     <Compile Include="Db\QuestionRepo.cs" />
     <Compile Include="Db\QuizRepo.cs" />
     <Compile Include="Db\RepoExtensions.cs" />
