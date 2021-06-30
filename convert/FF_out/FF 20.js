@@ -60,7 +60,7 @@ db.tiles_game.save(
         matches: [
             'Startkode',
             'Stopkode',
-            '64 forskellige tripletter',
+            '64 forskellige tripletter/kodons',
             'Sensestreng-koder',
             'Antisensestreng-koder',
             'mRNA-koder'

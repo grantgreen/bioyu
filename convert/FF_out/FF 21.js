@@ -41,6 +41,7 @@ db.tiles_game.save(
             'Hypotetisk deduktiv metode',
             'Falsificering',
             'Chi-i-anden-test',
+            'Binomial-test',
             'T-test',
             'Frihedsgrader'
         ]
@@ -83,6 +84,7 @@ db.tiles_game.save(
             'Hardy-Weinberg-ligevægt',
             'p + q = 1',
             'Genfrekvenser',
+            'Allelfrekvenser',
             'p² + q² + 2pq = 1',
             'Genetisk ligevægt'
         ]
@@ -95,8 +97,9 @@ db.tiles_game.save(
         matches: [
             'Genotype',
             'Fænotype',
-            'allel',
+            'Allel',
             'Loci',
+            'Locus',
             'Krydsningsskema',
             'Parentalgeneration',
             'Filialgeneration'

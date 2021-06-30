@@ -1,7 +1,7 @@
 db.questions.save(
     {
         chapters: ['2.1'],
- 	text: 'Hvor meget ilt indeholder indåndingsluften',
+ 	text: 'Hvor meget ilt indeholder indåndingsluften?',
 	answers: [
 		'Ca. 21 %',
 		'Ca. 33 %',
@@ -15,7 +15,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.1'],
- 	text: 'Hvad dannes, når glukose forbrændes i respirationen',
+ 	text: 'Hvad dannes, når glukose forbrændes i respirationen?',
 	answers: [
 		'Kuldioxid og vand',
 		'Fedt og protein',
@@ -29,7 +29,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.1'],
- 	text: 'Hvad er hovedpointen med respirationen',
+ 	text: 'Hvad er hovedpointen med respirationen?',
 	answers: [
 		'At danne energi i form af ATP',
 		'At forbrænde ilt',
@@ -43,7 +43,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvilke muskler udgør vores åndedrætsmuskler',
+ 	text: 'Hvilke muskler udgør vores åndedrætsmuskler?',
 	answers: [
 		'Ribbensmuskler og mellemgulvsmuskel',
 		'Brystmuskler og skuldermuskler',
@@ -57,7 +57,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvilken rækkefølge er korrekt fra munden af',
+ 	text: 'Hvilken rækkefølge er korrekt fra munden af?',
 	answers: [
 		'Luftrør, bronkier, alveoler',
 		'Luftrør, alveoler, bronkier',
@@ -71,7 +71,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvor stor er alveolernes samlede overflade',
+ 	text: 'Hvor stor er alveolernes samlede overflade i et voksent menneske?',
 	answers: [
 		'Ca. 100 kvadratmeter',
 		'Ca. 1.000 kvadratmeter',
@@ -85,7 +85,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Lungeventilationen angiver',
+ 	text: 'Hvad er lungeventilationen?',
 	answers: [
 		'Hvor mange liter luft vi får ned i lungerne pr. minut',
 		'Hvor mange liter luft vi indånder pr. åndedrag',
@@ -99,12 +99,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Lungeventilationen kan beregnes som',
+ 	text: 'Hvordan beregnes lungeventilationen?',
 	answers: [
 		'Antal vejrtrækninger pr. minut gange åndingsdybde',
-		'Antal vejrtrækninger pr. minut divideret med åndingsdybden',
-		'Antal vejrtrækninger i timen gange åndingsdybden',
-		'Åndingsdybden plus antal vejrtrækninger pr. minut',
+		'Antal vejrtrækninger pr. minut divideret med åndingsdybde',
+		'Antal vejrtrækninger i timen gange åndingsdybde',
+		'Åndingsdybde plus antal vejrtrækninger pr. minut',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -113,7 +113,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal lungeventilation i hvile',
+ 	text: 'Hvad er en normal lungeventilation i hvile?',
 	answers: [
 		'Ca. 5-7 liter/min',
 		'Ca. 1 liter/min',
@@ -127,7 +127,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal lungeventilation under maksimalt arbejde',
+ 	text: 'Hvad er en normal lungeventilation under maksimalt arbejde?',
 	answers: [
 		'Over 100 liter/min',
 		'Ca. 5-7 liter/min',
@@ -169,7 +169,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal åndingsdybde i hvile',
+ 	text: 'Hvad er en normal åndingsdybde i hvile?',
 	answers: [
 		'Ca. 0,5 liter/stk.',
 		'Ca. 2 liter/stk.',
@@ -183,7 +183,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal åndingsdybde under maksimalt arbejde',
+ 	text: 'Hvad er en normal åndingsdybde under maksimalt arbejde?',
 	answers: [
 		'Ca. 1-2 liter/stk.',
 		'Ca. 0,5 liter/stk.',
@@ -197,10 +197,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er hovedproblemet med astma',
+ 	text: 'Hvad er hovedproblemet med astma?',
 	answers: [
 		'Det er svært at ånde ud',
-		'Det er svært at inde ind',
+		'Det er svært at ånde ind',
 		'Det er svært at tale',
 		'Det er svært at gå',
 	],
@@ -211,7 +211,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad kaldes de mindste blodkar i kroppen',
+ 	text: 'Hvad kaldes de mindste blodkar i kroppen?',
 	answers: [
 		'Kapillærer',
 		'Arterioler',
@@ -225,7 +225,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad sker der i lungekapillærerne',
+ 	text: 'Hvad sker der i lungekapillærerne?',
 	answers: [
 		'Optagelse af ilt og afgivelse af kuldioxid',
 		'Optagelse af kuldioxid og afgivelse af ilt',
@@ -239,7 +239,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad binder ilt i blodet',
+ 	text: 'Hvad binder ilt i blodet?',
 	answers: [
 		'Hæmoglobin i de røde blodlegemer',
 		'Glukose i de røde blodlegemer',
@@ -253,7 +253,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Blodkredsløbet består af',
+ 	text: 'Blodkredsløbet består af?',
 	answers: [
 		'Det store kredsløb og det lille kredsløb',
 		'Vener, arterier og alveoler',
@@ -281,7 +281,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad forstås ved pulsen',
+ 	text: 'Hvad forstås ved pulsen?',
 	answers: [
 		'Når hjertet trækker sig sammen',
 		'Når hjertet er afslappet',
@@ -295,10 +295,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er minutvolumen',
+ 	text: 'Hvad er minutvolumen?',
 	answers: [
 		'Mængden af blod gennem hjertet pr. minut',
-		'Mængden af blod gennem hjertet pr. timer',
+		'Mængden af blod gennem hjertet pr. time',
 		'Mængden af blod i kroppen',
 		'Mængden af blod i kroppens arterier',
 	],
@@ -309,7 +309,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Minutvolumen kan beregnes som',
+ 	text: 'Hvordan beregnes minutvolumen?',
 	answers: [
 		'Puls gange slagvolumen',
 		'Puls divideret med slagvolumen',
@@ -323,7 +323,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'En normal minutvolumen i hvile er',
+ 	text: 'Hvad er en normal minutvolumen i hvile?',
 	answers: [
 		'Ca. 4-6 liter/min',
 		'Ca. 0,5 liter/min',
@@ -337,7 +337,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'En normal minutvolumen under maksimalt arbejde er',
+ 	text: 'Hvad er en normal minutvolumen under maksimalt arbejde?',
 	answers: [
 		'Ca. 20-25 liter/min',
 		'Ca. 0,5 liter/min',
@@ -379,7 +379,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal hvilepuls',
+ 	text: 'Hvad er en normal hvilepuls?',
 	answers: [
 		'Ca. 50-70 slag/min',
 		'Ca. 20-30 slag/min',
@@ -393,7 +393,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvis din hvilepuls er faldet, så tyder det på',
+ 	text: 'Hvis din hvilepuls er faldet, hvad tyder det så på?',
 	answers: [
 		'At du er kommet i bedre form',
 		'At du er blevet ældre',
@@ -407,7 +407,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvilket udsagn er ikke korrekt om en, der er kommet i bedre form',
+ 	text: 'Hvilket udsagn er forkert om en, der er kommet i bedre form?',
 	answers: [
 		'Makspulsen er steget',
 		'Hvilepulsen er faldet',
@@ -421,7 +421,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvor meget blod indeholder en typisk menneskekrop',
+ 	text: 'Hvor meget blod indeholder en typisk menneskekrop?',
 	answers: [
 		'4-6 liter',
 		'1-2 liter',
@@ -435,7 +435,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Blod indeholder ikke',
+ 	text: 'Hvad indeholder blod ikke?',
 	answers: [
 		'Luft',
 		'Ilt',
@@ -449,9 +449,9 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad indeholder plasma ikke',
+ 	text: 'Hvad indeholder plasma ikke?',
 	answers: [
-		'Røde blodlegemerr',
+		'Røde blodlegemer',
 		'Vand',
 		'Hormoner',
 		'Glukose',
@@ -463,11 +463,11 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er hæmatokritværdien',
+ 	text: 'Hvad er hæmatokritværdien?',
 	answers: [
 		'Andelen af røde blodlegemer i blodet',
 		'Andelen af plasma i blodet',
-		'Røde og hvide blodlegemer',
+		'Mængden af røde og hvide blodlegemer',
 		'Andelen af hvide blodlegemer i blodet',
 	],
 	type: 'multiple_text',
@@ -477,7 +477,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er en normal hæmatokritværdi',
+ 	text: 'Hvad er en normal hæmatokritværdi?',
 	answers: [
 		'Ca. 38-45 %',
 		'Under 38 %',
@@ -491,7 +491,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad sker der med hæmatokritværdien, hvis du kommer i bedre form',
+ 	text: 'Hvad sker der med hæmatokritværdien, hvis du kommer i bedre form?',
 	answers: [
 		'Den falder',
 		'Den stiger',
@@ -505,7 +505,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvilken effekt kommer ikke af bedre kondition',
+ 	text: 'Hvilken effekt kommer ikke af bedre kondition?',
 	answers: [
 		'Højere makspuls',
 		'Lavere blodtryk',
@@ -519,7 +519,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvor sidder åndedrætscentret',
+ 	text: 'Hvor sidder åndedrætscentret?',
 	answers: [
 		'I den forlængede rygmarv',
 		'I musklerne',
@@ -533,7 +533,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvad er den primære grund til, at man får lyst til at trække vejret',
+ 	text: 'Hvad er den primære grund til, at man får lyst til at trække vejret?',
 	answers: [
 		'Stigning i kuldioxid i blodet',
 		'Fald i ilt i blodet',
@@ -547,12 +547,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvor skal blodet primært hen, når vi arbejder',
+ 	text: 'Hvor skal blodet primært hen, når vi arbejder?',
 	answers: [
 		'Muskler og hud',
 		'Muskler og tarme',
 		'Hud og tarme',
-		'Indre organer',
+		'Indre organer og muskler',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -561,7 +561,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvilket udsagn er ikke korrekt',
+ 	text: 'Hvilket udsagn er forkert?',
 	answers: [
 		'Under arbejde ledes mere blod til hjernen',
 		'Under arbejde ledes mere blod til huden',
@@ -575,7 +575,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.2'],
- 	text: 'Hvorfor skal der blod til huden under arbejde',
+ 	text: 'Hvorfor skal der blod til huden under arbejde?',
 	answers: [
 		'For at afgive varme i form af sved',
 		'For at få huden til at rødme',
@@ -589,7 +589,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken er ikke en overordnet muskeltype i vores krop',
+ 	text: 'Hvilken er ikke en overordnet muskeltype i vores krop?',
 	answers: [
 		'Åndedrætsmuskulatur',
 		'Hjertemuskulatur',
@@ -603,7 +603,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvordan er en muskel forbundet til en knogle',
+ 	text: 'Hvordan er en muskel forbundet til en knogle?',
 	answers: [
 		'Via sener',
 		'Via muskelfibre',
@@ -617,7 +617,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilket udsagn er ikke korrekt om et led',
+ 	text: 'Hvilket udsagn er ikke korrekt om et led?',
 	answers: [
 		'Det indeholder muskler',
 		'Mindst to knogler mødes',
@@ -631,12 +631,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilket type led er skulderen og hoften',
+ 	text: 'Hvilket type led er skulderen og hoften?',
 	answers: [
 		'Kugleled',
 		'Hængselsled',
 		'Almindeligt led',
-		'Der er ikke noget led de',
+		'Der er ikke noget led',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -645,7 +645,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvad kaldes en muskelcelle også',
+ 	text: 'Hvad kaldes en muskelcelle også?',
 	answers: [
 		'Muskelfiber',
 		'Muskel',
@@ -659,7 +659,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvad findes ikke i en muskelfiber',
+ 	text: 'Hvad findes ikke i en muskelfiber?',
 	answers: [
 		'Hæmoglobin',
 		'Aktin',
@@ -673,7 +673,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvis den tohovedede armbøjer kontraheres, hvad sker der så primært',
+ 	text: 'Hvis den tohovedede armbøjer kontraheres, hvad sker der så primært?',
 	answers: [
 		'Albuen bøjes',
 		'Albuen strækkes',
@@ -687,7 +687,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvis den trehovedede armstrækker kontraheres, hvad sker der så primært',
+ 	text: 'Hvis den trehovedede armstrækker kontraheres, hvad sker der så primært?',
 	answers: [
 		'Albuen strækkes',
 		'Albuen bøjes',
@@ -701,7 +701,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilke typer muskelfibre findes ikke',
+ 	text: 'Hvilke typer muskelfibre findes ikke?',
 	answers: [
 		'Type III',
 		'Type I',
@@ -715,7 +715,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Type I-fibre er bedst til',
+ 	text: 'Hvad er type I-fibre bedst til?',
 	answers: [
 		'Udholdende arbejde',
 		'Eksplosivt arbejde',
@@ -729,7 +729,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Type II-fibre er bedst til',
+ 	text: 'Hvad er type II-fibre bedst til?',
 	answers: [
 		'Eksplosivt arbejde',
 		'Udholdende arbejde',
@@ -743,7 +743,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilke typer muskelarbejde findes',
+ 	text: 'Hvilke typer muskelarbejde findes?',
 	answers: [
 		'Koncentrisk, excentrisk, statisk',
 		'Koncentrisk, isocentrisk, statisk',
@@ -757,7 +757,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken type muskel findes ikke',
+ 	text: 'Hvilken type muskel findes ikke?',
 	answers: [
 		'Bandagist',
 		'Agonist',
@@ -771,7 +771,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Når man udfører et squat, hvilke typer muskelarbejder udfører forreste lårmuskel så',
+ 	text: 'Når man udfører et squat, hvilke typer muskelarbejder udfører forreste lårmuskel så?',
 	answers: [
 		'Først excentrisk, så koncentrisk',
 		'Først koncentrisk, så statisk',
@@ -785,7 +785,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvad gør synergisten',
+ 	text: 'Hvad gør synergisten?',
 	answers: [
 		'Hjælper agonisten',
 		'Modvirker antagonisten',
@@ -799,7 +799,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken knogle sidder ikke i armen',
+ 	text: 'Hvilken knogle sidder ikke i armen?',
 	answers: [
 		'Femur',
 		'Humerus',
@@ -813,7 +813,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken knogle sidder ikke i benet',
+ 	text: 'Hvilken knogle sidder ikke i benet?',
 	answers: [
 		'Humerus',
 		'Femur',
@@ -827,7 +827,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken knogle sidder ikke i armen',
+ 	text: 'Hvilken knogle sidder ikke i armen?',
 	answers: [
 		'Lægben',
 		'Overarmsben',
@@ -841,7 +841,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken knogle sidder ikke i benet',
+ 	text: 'Hvilken knogle sidder ikke i benet?',
 	answers: [
 		'Spoleben',
 		'Lægben',
@@ -855,7 +855,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken muskel er ikke en rygmuskel',
+ 	text: 'Hvilken muskel er ikke en rygmuskel?',
 	answers: [
 		'Den lige mavemuskel',
 		'Den brede rygmuskel',
@@ -869,12 +869,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.3'],
- 	text: 'Hvilken muskel er ikke en armmuskel',
+ 	text: 'Hvilken muskel er ikke en armmuskel?',
 	answers: [
 		'Skræddermusklen',
 		'Biceps brachii',
 		'Den trehovedede armstrækker',
-		'Bracioradialis',
+		'Brachioradialis',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -883,7 +883,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvad er der ikke i maden, vi spiser',
+ 	text: 'Hvad er der ikke i maden, vi spiser?',
 	answers: [
 		'Ilt',
 		'Kulhydrat',
@@ -897,7 +897,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken bruges ikke som energikilde i kroppen',
+ 	text: 'Hvilken bruges ikke som energikilde i kroppen?',
 	answers: [
 		'Vitaminer',
 		'Kulhydrater',
@@ -911,7 +911,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvis man er i energibalance, hvad gælder så',
+ 	text: 'Hvis man er i energibalance, hvad gælder så?',
 	answers: [
 		'Energiforbruget er lig med energiindtaget',
 		'Energiforbruget overstiger energiindtaget',
@@ -925,12 +925,12 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvis man tager på i vægt, hvad gælder så',
+ 	text: 'Hvis man tager på i vægt, hvad gælder så?',
 	answers: [
 		'Energiindtaget overstiger energiforbruget',
 		'Energiforbruget overstiger energiindtaget',
 		'Energiindtaget er det samme som energiforbruget',
-		'Du spiser for meget',
+		'Man er i energibalance',
 	],
 	type: 'multiple_text',
  	correct_answer: '0'
@@ -939,7 +939,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvis du arbejder intenst, så kommer det meste af energien fra',
+ 	text: 'Hvis du arbejder intenst, hvor kommer det meste af energien så fra?',
 	answers: [
 		'Kulhydrater',
 		'Fedt',
@@ -953,10 +953,10 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Intenst arbejde er slankende fordi',
+ 	text: 'Hvorfor er intenst arbejde slankende?',
 	answers: [
 		'Det giver en øget afterburn',
-		'Du forbrænder flere kulhydrater under arbejdet',
+		'Du forbrænder flere proteiner under arbejdet',
 		'Du forbrænder mere fedt under arbejdet',
 		'Blodtrykket stiger under arbejdet',
 	],
@@ -967,7 +967,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvor meget protein kan kroppen maksimalt håndtere pr. døgn',
+ 	text: 'Hvor meget protein kan kroppen maksimalt håndtere pr. døgn?',
 	answers: [
 		'Ca. 1,65 g/kg du vejer',
 		'Ca. 2,5 g/kg du vejer',
@@ -981,7 +981,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvordan indtager man protein optimalt',
+ 	text: 'Hvordan indtager man protein optimalt?',
 	answers: [
 		'Ved at spise 20-25 g ved 4-5 måltider fordelt på dagen',
 		'Ved at indtage alle proteiner på en gang når som helst på dagen',
@@ -995,7 +995,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvorfor er proteiner fra ”rigtig mad” at foretrække',
+ 	text: 'Hvorfor er proteiner fra ”rigtig mad” at foretrække?',
 	answers: [
 		'Fordi den også indeholder mikronæringsstoffer (vitaminer og mineraler)',
 		'Fordi den er billigere',
@@ -1009,7 +1009,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvorfor er det klogt at indtage kulhydrater, når man træner meget',
+ 	text: 'Hvorfor er det klogt at indtage kulhydrater, når man træner meget?',
 	answers: [
 		'Fordi så sparer kroppen på proteinforbrændingen under selve træningen',
 		'Fordi kulhydrater indgår i muskelopbygningen',
@@ -1023,7 +1023,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvor lang tid skal man være aktiv før sportsdrik er relevant',
+ 	text: 'Hvor lang tid skal man være aktiv, før sportsdrik er relevant at indtage?',
 	answers: [
 		'Mere end 1,5 time',
 		'I ca. en halv time',
@@ -1037,7 +1037,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'På hvilken måde kan der ikke dannes ATP',
+ 	text: 'På hvilken måde kan der ikke dannes ATP?',
 	answers: [
 		'Anaerobt ud fra fedt',
 		'Anaerobt ud fra kulhydrat',
@@ -1051,7 +1051,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken mekanisme er den hurtigste til at skaffe ATP i kroppen',
+ 	text: 'Hvilken mekanisme er den hurtigste til at skaffe ATP i kroppen?',
 	answers: [
 		'Spaltning af kreatinfosfat',
 		'Mælkesyregæring',
@@ -1065,7 +1065,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken mekanisme danner mest ATP pr. g brændstof',
+ 	text: 'Hvilken mekanisme danner mest ATP pr. g brændstof?',
 	answers: [
 		'Respiration af kulhydrat',
 		'Mælkesyregæring',
@@ -1079,7 +1079,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken proces dominerer ved kortvarigt, eksplosivt arbejde',
+ 	text: 'Hvilken proces dominerer ved kortvarigt, eksplosivt arbejde?',
 	answers: [
 		'Spaltning af kreatinfosfat',
 		'Mælkesyregæring',
@@ -1093,7 +1093,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken proces dominerer ved hårdt arbejde a 1-2 minutters varighed',
+ 	text: 'Hvilken proces dominerer ved hårdt arbejde a 1-2 minutters varighed?',
 	answers: [
 		'Mælkesyregæring',
 		'Spaltning af kreatinfosfat',
@@ -1107,7 +1107,7 @@ db.questions.save(
 db.questions.save(
     {
         chapters: ['2.4'],
- 	text: 'Hvilken proces dominerer ved langvarigt arbejde med moderat intensitet',
+ 	text: 'Hvilken proces dominerer ved langvarigt arbejde med moderat intensitet?',
 	answers: [
 		'Respiration af kulhydrat',
 		'Spaltning af kreatinfosfat',

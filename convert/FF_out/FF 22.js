@@ -20,6 +20,7 @@ db.tiles_game.save(
         category: "Kromosommutationer",
         matches: [
             'Deletion (stor)',
+            'Insertion (stor)',
             'Duplikation',
             'Inversion',
             'Translokation',

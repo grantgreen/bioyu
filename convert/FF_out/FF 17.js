@@ -1,7 +1,7 @@
 db.tiles_game.save(
     {
         chapter: 17,
-        category: "Opbygningen af ATP",
+        category: "Dele af ATP-molekylet",
         matches: [
             'Adenin',
             'Ribose',
@@ -12,7 +12,7 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 17,
-        category: "Overordnede trin i aerob kulhydratnedbrydning",
+        category: "Trin i aerob kulhydratnedbrydning",
         matches: [
             'Glykolyse',
             'Oxidativ decarboxylering',

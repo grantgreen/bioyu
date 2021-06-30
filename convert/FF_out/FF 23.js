@@ -16,8 +16,8 @@ db.tiles_game.save(
         chapter: 23,
         category: "Metoder til DNA-profiler",
         matches: [
-            'RFLP-metoden',
-            'Repetitivt DNA-metoden',
+            'RFLP-metode',
+            'Repetitivt DNA-metode',
             'PCR-baseret metode'
         ]
     });
@@ -25,13 +25,14 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 23,
-        category: "Gensplejsning",
+        category: "Traditionel gensplejsning",
         matches: [
             'Plasmider med resistensgener',
             'Vektor',
             'Værtscelle',
             'Donor-DNA',
             'GMO',
+            'Transformation',
             'Transgen organisme',
             'Restriktionsenzymer og ligaseenzymer',
             'Markørgen',
@@ -126,9 +127,9 @@ db.tiles_game.save(
         category: "Bioetik",
         matches: [
             'Etisk råd',
-            'pligt-etiker',
-            'nytte-etiker',
-            'natur-etiker'
+            'Pligt-etiker',
+            'Nytte-etiker',
+            'Natur-etiker'
         ]
     });
 db.tiles_game.save(

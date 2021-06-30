@@ -121,6 +121,7 @@ namespace Yubio.Server
         private static readonly List<string> KeyWords = new List<string>()
         {
             "yubio","youbio","skadhede","Selchau","Lytzen","Meinicke"
+            //"Biologiens ABc","Biologiens FG"
         };
         private static bool HasYubio(string response)
         {

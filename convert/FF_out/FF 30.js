@@ -3,8 +3,8 @@ db.tiles_game.save(
         chapter: 30,
         category: "Typer af vandforurening",
         matches: [
-            'Primær ',
-            'Sekundær ',
+            'Primær',
+            'Sekundær',
             'Organisk',
             'Eutrofiering'
         ]
@@ -67,7 +67,7 @@ db.tiles_game.save(
         category: "Pesticider",
         matches: [
             'DDT',
-            'Round Up',
+            'Roundup',
             'Klorerede kulbrinter'
         ]
     });
@@ -90,8 +90,8 @@ db.tiles_game.save(
         category: "Dyrenes strategier mod iltsvind",
         matches: [
             'Fisk søger opad',
-            'Nedsætte stofskiftet',
-            'Nedsætte svømmehastighed',
+            'Nedsættelse af stofskiftet',
+            'Nedsættelse af svømmehastighed',
             'Søstjerner ”står på tæer”'
         ]
     });
@@ -167,7 +167,7 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 30,
-        category: "Effekter af kuldioxidstigning",
+        category: "Klimaforandringer",
         matches: [
             'Landis smelter',
             'Havis smelter',
@@ -183,7 +183,7 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 30,
-        category: "Største kuldioxid-udledere (pr. land)",
+        category: "Store kuldioxid-udledere (pr. land)",
         matches: [
             'Kina',
             'USA',
@@ -197,7 +197,7 @@ db.tiles_game.save(
 db.tiles_game.save(
     {
         chapter: 30,
-        category: "Største kuldioxid-udledere (pr. indbygger)",
+        category: "Store kuldioxid-udledere (pr. indbygger)",
         matches: [
             'Nederlandske Antiller',
             'Trinidad og Tobago',
@@ -213,6 +213,7 @@ db.tiles_game.save(
         category: "Tiltag mod global opvarmning",
         matches: [
             'Kyoto-protokollen',
+            'Paris-aftalen',
             'Vedvarende energi',
             'Kør med kollektiv trafik',
             'Plant et træ',
@@ -220,17 +221,37 @@ db.tiles_game.save(
             'Skru ned for varmen'
         ]
     });
+
+
 db.tiles_game.save(
     {
         chapter: 30,
         category: "Bæredygtighed",
         matches: [
             'Genbrug',
-            'Kvoter',
+            'Fangstkvoter',
             'Bæredygtigt landbrug',
-            'Køb-og- smid-væk- kultur',
+            'Earth Overshoot Day',
+            'Klimalov',
+            'Klimaflygtninge',
         ]
     });
+
+
+db.tiles_game.save(
+    {
+        chapter: 30,
+        category: "Naturgenopretning",
+        matches: [
+            'Genoprettelse af Skjern Å',
+            'LIFE-programmet',
+            'Odense Å',
+            'Varde Å',
+        ]
+    });
+
+
+
 db.tiles_game.save(
     {
         chapter: 30,

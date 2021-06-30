@@ -63,15 +63,16 @@ db.tiles_game.save(
         chapter: 19,
         category: "Proteinkodende gener",
         matches: [
-            'RNA-gener (En lille del)',
-            'Tripletter',
+            'RNA-gener (lille andel)',
+            'Tripletter/kodons',
             'Stopkode',
             'Startkode',
             'Promotor',
             'Terminator',
             'Stopsignal',
-            'mRNA'
-        ]
+            'Introns',
+            'Exons',
+                    ]
     });
 
 db.tiles_game.save(
@@ -79,7 +80,7 @@ db.tiles_game.save(
         chapter: 19,
         category: "Intergenetiske områder",
         matches: [
-            'RNA-gener (størstedelen)',
+            'RNA-gener (stor andel)',
             'Repetitivt DNA',
             'VNTR',
             'Monorepeats',

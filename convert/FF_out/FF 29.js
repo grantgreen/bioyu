@@ -161,7 +161,7 @@ db.tiles_game.save(
             'Bøg',
             'Eg',
             'Birk',
-            'Ær ',
+            'Ær',
             'Ask'
         ]
     });

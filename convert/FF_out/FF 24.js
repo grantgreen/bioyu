@@ -40,8 +40,7 @@ db.tiles_game.save(
             'Neandertalere',
             'H. ergaster',
             'H. floresiensis',
-            'Out of Africa'
-        ]
+                ]
     });
 
 db.tiles_game.save(
@@ -55,7 +54,8 @@ db.tiles_game.save(
             'Scoresystem',
             'Fylogenetisk stamtræ',
             'Afstandsmatrix',
-            'BLAST'
+            'BLAST',
+            'BLASTP'
         ]
     });
 
