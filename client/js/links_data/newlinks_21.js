@@ -1,7 +1,5 @@
 var links = {
     "21": [
-			{"caption": "Blodtyper og bloddonation",
-			"link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter11/animation__cytotoxic__type_ii_hypersensitivity_.html"},
 			{"caption": "Chi<span style=\"vertical-align:super; font-size:58%;\">2</span> test","link": "http://www.youtube.com/watch?v=WXPBoFDqNVk"},
 			{"caption": "Test for farveblindhed","link": "http://www.youtube.com/watch?v=yEIM4jmK1F0"},
 			{"caption": "Analyse af stamtræer 1", "link": "http://www.youtube.com/watch?v=HbIHjsn5cHo"},

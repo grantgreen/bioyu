@@ -90,6 +90,9 @@ namespace Yubio.Server.Db
         [BsonElement("public_score")]
         public bool PublicHighScore { get; set; }
 
+        [BsonElement("random_questions")]
+        public bool RandomQuestions { get; set; }
+
         [BsonElement("hide_watch")]
         public bool HideWatch { get; set; }
     }

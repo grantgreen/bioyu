@@ -21,9 +21,6 @@ var links = {
 	{"caption": "Fødenet",
 	 "link": "https://www.youtube.com/watch?v=MGODmyXkkPU"},
 
-	{"caption": "Ulves påvirkning af økosystemet",
-	 "link": "http://themetapicture.com/when-they-brought-these-wolves/"},
-
 	{"color": "#6DC0B4"},
 
 	{"caption": "Videnskab.dk",
@@ -35,7 +32,7 @@ var links = {
 	{"caption": "Dansk Skovforening",
 	 "link": "http://www.skovforeningen.dk"},
 	{"caption": "Naturstyrelsen",
-	 "link": "http://naturstyrelsen.dk/#{\"x\":671157,\"y\":6240022,\"zoom\":2}"},
+	 "link": "http://naturstyrelsen.dk/"},
 	{"caption": "Danske Vandløb",
 	 "link": "http://www.danskevandloeb.dk"},
 	{"caption": "Fiskearter",

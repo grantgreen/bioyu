@@ -11,12 +11,6 @@ var links = {
 {"caption": "Mikrobielle sygdomme", "link": "https://www.youtube.com/watch?v=1PLBmUVYYeg"},
 {"caption": "Naturlig selektion", "link": "https://www.youtube.com/watch?v=aTftyFboC_M"},
 
-{"caption": "Antibiotika", "link": "http://blausen.com/da/video/antibiotika/"},
-{"caption": "Antiviral medicin", "link": "http://blausen.com/da/video/medicin-mod-virus/"},
-{"caption": "Miltbrand", "link": "http://blausen.com/da/video/miltbrand/"},
-{"caption": "Pølseforgiftning", "link": "http://blausen.com/da/video/pølseforgiftning-botulisme/"},
-
-
 	{"caption": "Størrelsesforhold 1",
 	 "link": "http://learn.genetics.utah.edu/content/cells/scale/"},
 	{"caption": "Størrelsesforhold 2",
@@ -43,19 +37,10 @@ var links = {
 	{"caption": "Evolution og intelligent design",
 	 "link": "https://www.youtube.com/watch?v=7HZzGXnYL5I&t=11&ab_channel=ChristopherHitchslap"},
 
-	{"caption": "Diffusion",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter3/animation__how_diffusion_works.html"},
-
-	{"caption": "Faciliteret diffusion",
- 	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter3/animation__how_facilitated_diffusion_works.html"},
-
 	{"caption": "Live osmose",
 	 "link": "https://www.youtube.com/watch?v=rMtaqq2bmFU"},
-	{"caption": "Osmose 1",
+	{"caption": "Osmose",
 	 "link": "http://staff.concord.org/~btinker/workbench_web/models/osmosis.swf"},
-	{"caption": "Osmose 2",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter3/animation__how_osmosis_works.html"},
-
 
 	{"color": "#6DC0B4"},
 

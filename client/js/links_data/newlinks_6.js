@@ -1,25 +1,7 @@
 var links = {
 	"6": 
 	[
-		{"caption": "Hormoner",	"link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter10/animation__hormonal_communication.html"},
-	   {"caption": "Positiv og negativ feedback","link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter1/animation__positive_and_negative_feedback__quiz_1_.html"},
-	   {"caption": "Diabetes 2", "link": "http://blausen.com/da/video/diabetes/"},
-   {"caption": "Diabetesmedicin",  "link": "http://blausen.com/da/video/diabetesmedicin/"},
-   
-   {"caption": "Hormonbehandling",
-   "link": "http://blausen.com/da/video/hormonbehandling/"},
-   
-   {"caption": "Insulinbehandling",
-   "link": "http://blausen.com/da/video/insulinbehandling/"},
-   
-   {"caption": "Kortiko-steroider",
-   "link": "http://blausen.com/da/video/kortikosteroider/"},
-   
-   {"caption": "Stofskiftemedicin",
-   "link": "http://blausen.com/da/video/stofskiftemedicin/"},
-   
-	   {"caption": "Diabetes 1",
-		"link": "https://www.sundhed.dk/borger/sygdomme-a-aa/hormoner-og-stofskifte/illustrationer/animationer/diabetes/"},
+	   {"caption": "Diabetes 1","link": "https://www.sundhed.dk/borger/sygdomme-a-aa/hormoner-og-stofskifte/illustrationer/animationer/diabetes/"},
    {"caption":"Hormonsystemet 1","link":"https://www.youtube.com/watch?v=eWHH9je2zG4"},
    {"caption":"Hormonsystemet 2","link":"https://www.youtube.com/watch?v=SCV_m91mN-Q"},
 	,{"color": "#6DC0B4"},

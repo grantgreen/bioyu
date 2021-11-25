@@ -1,0 +1,1 @@
+mongo yubio initdb.js

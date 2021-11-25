@@ -590,15 +590,13 @@ var runQuiz = function(bookId, response) {
   
     $('#timer').show();
     $('#timer').css('fontFamily', 'digital, verdana');
-    // if(isExpired(o)) return;
-
  
     try { 
-	// questions = o.documents;
-
-	// questions = shuffleArray(questions);
 	 questions = quiz["questions"];
-	 
+	 id(quiz.random_questions)
+	 {
+		 questions = shuffleArray(questions);
+	 }
 	//alert(o.responseText);
         for (var i = 0, len = questions.length; i < len; ++i) {
 	    questions[i] = {

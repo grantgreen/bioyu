@@ -5,29 +5,7 @@ var links = {
 {"caption": "Fra mund til mave", "link": "https://www.youtube.com/watch?v=fR3NxCR9z2U"},
 {"caption": "Kost og energi", "link": "https://www.youtube.com/watch?v=fR3NxCR9z2U"},
 
-{"caption": "Blindtarmsbetændelse", "link": "http://blausen.com/da/video/blindtarmsbetændelse/"},
-{"caption": "Diabetes", "link": "http://blausen.com/da/video/diabetes/"},
-{"caption": "Diabetesmedicin", "link": "http://blausen.com/da/video/diabetesmedicin/"},
-{"caption": "Enzymer i fordøjelsen", "link": "http://blausen.com/da/video/enzymer/"},
-{"caption": "Fedtsugning", "link": "http://blausen.com/da/video/fedtsugning-af-fedt-pa-maven/"},
-{"caption": "Fordøjelse", "link": "http://blausen.com/da/video/fordjelse/"},
-{"caption": "Gastric bypass", "link": "http://blausen.com/da/video/gastrisk-bypass/"},
-{"caption": "Halsbrand", "link": "http://blausen.com/da/video/halsbrand-reflukssygdom/"},
-{"caption": "Højt kolesteroltal", "link": "http://blausen.com/da/video/hjt-kolesterol-hyperlipidmi/"},
-{"caption": "Insulinbehandling", "link": "http://blausen.com/da/video/insulinbehandling/"},
-{"caption": "Kræft i mavesækken", "link": "http://blausen.com/da/video/krft-i-maveskken/"},
-{"caption": "Rygestop", "link": "http://blausen.com/da/video/rygeophr/"},
-{"caption": "Vitaminer og mineraler", "link": "http://blausen.com/da/video/vitaminer-og-mineraler/"},
-
-	{"caption": "Fordøjelsen 1",
-	 "link": "http://highered.mheducation.com/sites/0072495855/student_view0/chapter26/animation__organs_of_digestion.html"},
-	{"caption": "Fordøjelsen 2",
-	 "link": "http://kitses.com/animation/swfs/digestion.swf"},
 	{"caption": "Fordøjelsen 3", "link": "https://www.youtube.com/watch?v=s06XzaKqELk"},
-	{"caption": "Diabetes og blodsukker 1",
-	 "link": "http://highered.mheducation.com/sites/0072495855/student_view0/chapter20/animation__blood_sugar_regulation_in_diabetics.html"},
-	{"caption": "Diabetes og blodsukker 2",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter11/animation__blood_sugar_regulation_in_diabetics.html"},
 	{"caption": "Fedme og helbredsproblemer",
 	 "link": "http://www.hhmi.org/biointeractive/obesity-related-health-problems"},
 	{"caption": "Fedt og fedtfordøjelse og energioplagring",
@@ -35,17 +13,14 @@ var links = {
 	{"caption": "BMI",
 	 "link": "http://www.hhmi.org/biointeractive/body-mass-index-bmi"},
 
-	{"caption": "Kalorier i en sandwich",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter17/animation__calories_in_a_sandwich.html"},
-
-	{"caption": "Fordøjelseskanalen",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter16/animation__organs_of_digestion.html"},
 	{"caption": "Fordøjelseskanalen 2", "link": "https://www.youtube.com/watch?v=yIoTRGfcMqM"},
 
-	{"caption": "Hvordan enzymer virker",
-	 "link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter2/animation__how_enzymes_work.html"},
-
-
+	 {"caption": "Kan mad være sundt eller usundt?",
+	 "link": "https://altomkost.dk/fakta/myterommad/sundtogusundt/"},
+	 {"caption": "Skal du droppe kulhydrater?",
+	 "link": "https://altomkost.dk/fakta/myterommad/feder-kulhydrater/"},
+	 {"caption": "Fedtforherligelse eller fedtforskrækkelse",
+	 "link": "https://altomkost.dk/fakta/myterommad/feder-kulhydrater/"},
 	{"color": "#6DC0B4"},
 
 	{"caption": "Danskernes sundhed",
@@ -73,6 +48,7 @@ var links = {
 	{"caption": "Aktuel Naturvidenskab",
 	 "link": "http://aktuelnaturvidenskab.dk"},
 	{"caption": "Alt om kost",
-	 "link": "http://altomkost.dk/raad-og-anbefalinger/de-officielle-kostraad/"}
+	 "link": "http://altomkost.dk/raad-og-anbefalinger/de-officielle-kostraad/"},
+	 
     ]
 }

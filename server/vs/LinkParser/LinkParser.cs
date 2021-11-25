@@ -5,15 +5,13 @@ using System.Net;
 using System.Text.RegularExpressions;
 using Common.Logging;
 using Google.Apis.Services;
-using Google.Apis.Sheets.v4;
 using Google.Apis.YouTube.v3;
 using Nancy.Json.Simple;
 
-namespace Yubio.Server
+namespace LinkParser
 {
     internal class VideoLinksParser
     {
-
         public static IEnumerable<VideoLink> Parse(string fileName)
         {
             var lines = File.ReadAllLines(fileName);
@@ -21,7 +19,7 @@ namespace Yubio.Server
             {
                 var split = line.Split(new string[] { "," }, StringSplitOptions.None);
                 if (split.Length != 3) { continue; }
-                    
+
                 yield return new VideoLink(split[0], split[1], split[2]);
             }
         }
@@ -60,64 +58,61 @@ namespace Yubio.Server
         private static readonly Regex UrlRegex = new Regex(@"(ht|f)tp(s?)\:\/\/[0-9a-åA-Å]([-.\w]*[0-9a-åA-Å])*(:(0-9)*)*(\/?)([a-åA-Å0-9\-\.\?\,\'\/\\\+&%\$#_]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
 
-        public static IEnumerable<Link> ResolveDeadLinks(bool onlyYoutube = false)
+        public static IEnumerable<Link> ResolveDeadLinks(string url,string book, int chapter, bool onlyYoutube = false)
         {
             int NumberOfChapters = 30;
-            for (int i = 1; i <= NumberOfChapters; i++)
+
+            //var url = string.Format($"http://yubio.dk/js/links_data/newlinks_{i}.js");
+            var response = GetResponse(url);
+            if (!string.IsNullOrEmpty(response))
             {
-                var url = string.Format($"http://yubio.dk/js/links_data/newlinks_{i}.js");
-                var response = GetReponse(url);
-                if (!string.IsNullOrEmpty(response))
+                var regeex = Regex.Matches(response, "{.*}");
+                foreach (Match match in regeex)
                 {
-                    var regeex = Regex.Matches(response, "{.*}");
-                    foreach (Match match in regeex)
+                    var f = SimpleJson.DeserializeObject<JsonLink>(match.Value);
+                    if (string.IsNullOrEmpty(f.caption)) { continue; }
+
+                    Logger.Debug($"Checking  {f.link}");
+                    if (f.link.Contains("youtube"))
                     {
-                        var f = SimpleJson.DeserializeObject<JsonLink>(match.Value);
-                        if (string.IsNullOrEmpty(f.caption)) { continue; }
-
-                        Logger.Debug($"Checking  {f.link}");
-                        if (f.link.Contains("youtube"))
+                        var valid = IsYouTubeValid(f.link);
+                        if (!valid)
                         {
-                            var valid = IsYouTubeValid(f.link);
-                            if (!valid)
+                            Logger.Debug($"Checking {f.link} FAILED");
+                            yield return new Link()
                             {
-                                Logger.Debug($"Checking {f.link} FAILED");
-                                yield return new Link()
-                                {
-                                    Book = "a",
-                                    Url = f.link,
-                                    Caption = f.caption,
-                                    Chapter = i
-                                };
-
-                            }
-                            else
-                            {
-                                Logger.Debug($"Checking {f.link} OK");
-                            }
+                                Book = book,
+                                Url = f.link,
+                                Caption = f.caption,
+                                Chapter = chapter
+                            };
                         }
-                        else if (!onlyYoutube)
+                        else
                         {
-                            var valid = IsValidURL(f.link);
-                            if (!valid)
-                            {
-                                Logger.Debug($"Checking {f.link} FAILED");
-                                yield return new Link()
-                                {
-                                    Book = "a",
-                                    Url = f.link,
-                                    Caption = f.caption,
-                                    Chapter = i
-                                };
-
-                            }
-                            else
-                            {
-                                Logger.Debug($"Checking {f.link} OK");
-                            }
+                            Logger.Debug($"Checking {f.link} OK");
                         }
-
                     }
+                    else if (!onlyYoutube)
+                    {
+                        var valid = IsValidURL(f.link);
+                        if (!valid)
+                        {
+                            Logger.Debug($"Checking {f.link} FAILED");
+                            yield return new Link()
+                            {
+                                Book = book,
+                                Url = f.link,
+                                Caption = f.caption,
+                                Chapter = chapter
+                            };
+
+                        }
+                        else
+                        {
+                            Logger.Debug($"Checking {f.link} OK");
+                        }
+                    }
+
                 }
             }
         }
@@ -147,7 +142,7 @@ namespace Yubio.Server
                 return false;
             }
         }
-        public static string GetReponse(string url)
+        public static string GetResponse(string url)
         {
             try
             {

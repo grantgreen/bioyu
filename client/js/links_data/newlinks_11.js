@@ -1,7 +1,6 @@
 var links = {
     "11": [
 	{"caption": "Eksperter debatterer doping","link": "http://www.youtube.com/watch?v=aTjpgidjgWE"},
-
 	{"color": "#6DC0B4"},
 	{"caption": "Videnskab.dk", "link": "http://www.videnskab.dk"},
 	{"caption": "Aktuel Naturvidenskab","link": "http://aktuelnaturvidenskab.dk"},

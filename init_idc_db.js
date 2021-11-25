@@ -636,7 +636,7 @@ db.contents.save(
             "name": "12.7 Drejebog", "sub": []
         },
         {
-            "name": "12.4 Hormonregulering",
+            "name": "12.8 Hormonregulering",
             "sub": []
         },
        {
@@ -830,7 +830,53 @@ db.contents.save(
        }
         ]
     });
-
+    db.contents.save(
+        {
+            "name": "Kapitel 17:  Five-a-side Håndbold",
+            "sub": [
+            {
+                "name": "17.1 Håndboldens historie",
+                "sub": [],
+                "hasQuestions": false
+            },
+            {
+                "name": "17.2 Regler, ide & organisering",
+                "sub": [
+                    "17.2.1 Håndbold generelt",  
+                    "17.2.2 Five-a-side Håndbold",  
+                ]
+            },
+            {
+                "name": "17.3 Øvelser",
+                "sub": [
+                  "17.3.1 Fokus på opvarmning (A)",
+                  "17.3.2 Fokus på teknik (B)",
+                  "17.3.3 Fokus på taktik (C)",
+                  "17.3.3 Spilvarianter (D)",
+                ]
+            },
+            {
+                "name": "17.4 Eksempel på Five-a-side Håndboldforløb", "sub": []
+            },
+            {
+                "name": "17.5 Evaluering", "sub": []
+            },
+            {
+                "name": "17.6 Bevæg dig for livet", "sub": []
+            },
+            {
+                "name": "17.7 Drejebog",
+                "sub": []
+            },
+           {
+               "name": "Resume",
+               "sub": [],
+                   "hasMC":false,
+                "hasFF":false,
+                  "color":"#5E6BAF"
+           }
+            ]
+        });
 db.contents.save(
     {
         "name": "Kapitel 20: Træningsprojekt",

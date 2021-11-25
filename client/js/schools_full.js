@@ -1,18 +1,8 @@
 var schools = {
 "Gymnasier": [
 {
-"name":"Aalborg City Gymnasium",
-"hasIdc":"false",
-"hasBio":"true"
-},
-{
-"name":"Aalborg Katedralskole",
-"hasIdc":"true",
-"hasBio":"false"
-},
-{
 "name":"Aalborghus Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -31,19 +21,9 @@ var schools = {
 "hasBio":"false"
 },
 {
-"name":"Akademisk Studenterkursus",
-"hasIdc":"false",
-"hasBio":"true"
-},
-{
 "name":"Allerød Gymnasium",
 "hasIdc":"false",
 "hasBio":"true"
-},
-{
-"name":"Allikelund Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
 },
 {
 "name":"Alssundgymnasiet Sønderborg",
@@ -62,17 +42,17 @@ var schools = {
 },
 {
 "name":"Borupgaard Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
 "name":"Borupgaard Gymnasium",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Borupgaard Gymnasium",
-"hasIdc":"trueGentofte HF",
+"hasIdc":"false",
 "hasBio":"true"
 },
 {
@@ -106,17 +86,12 @@ var schools = {
 "hasBio":"false"
 },
 {
-"name":"Det Kristne GYmnasium",
+"name":"Det Kristne Gymnasium",
 "hasIdc":"undefined",
 "hasBio":"false"
 },
 {
-"name":"Dronninglund Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"Egaa Gymnasium",
+"name":"Egå Gymnasium",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -131,8 +106,13 @@ var schools = {
 "hasBio":"false"
 },
 {
+"name":"EUC Syd",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
 "name":"Faaborg Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -142,7 +122,7 @@ var schools = {
 },
 {
 "name":"Favrskov Gymnasium",
-"hasIdc":"truesla",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -163,12 +143,7 @@ var schools = {
 {
 "name":"Frederikshavn Gymnasium & HF",
 "hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"Frederikssund Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Gefion Gymnasium",
@@ -192,13 +167,13 @@ var schools = {
 },
 {
 "name":"Greve Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
+"hasIdc":"false",
+"hasBio":"true"
 },
 {
 "name":"Greve Gymnasium",
-"hasIdc":"false",
-"hasBio":"true"
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"GUX -Sisimiut",
@@ -208,22 +183,12 @@ var schools = {
 {
 "name":"Haderslev Katedralskole",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Haderslev Katedralskole",
-"hasIdc":"false",
-"hasBio":"true"
-},
-{
-"name":"Hasseris Gymnasium",
 "hasIdc":"true",
 "hasBio":"false"
-},
-{
-"name":"HC Ørsted Gymnasium",
-"hasIdc":"false",
-"hasBio":"true"
 },
 {
 "name":"Helsingør Gymnasium",
@@ -237,13 +202,13 @@ var schools = {
 },
 {
 "name":"Herlufsholm",
-"hasIdc":"false",
-"hasBio":"true"
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"Herlufsholm",
-"hasIdc":"true",
-"hasBio":"false"
+"hasIdc":"false",
+"hasBio":"true"
 },
 {
 "name":"Herning Gymnasium",
@@ -251,17 +216,12 @@ var schools = {
 "hasBio":"false"
 },
 {
-"name":"HF & VUC Fyn",
+"name":"Herning HF & VUC",
 "hasIdc":"true",
 "hasBio":"false"
 },
 {
-"name":"HF & VUC Kbh. Syd",
-"hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"HF & VUC Klar",
+"name":"Herningsholm Erhvervsskole & Gymnasier",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -272,6 +232,11 @@ var schools = {
 },
 {
 "name":"Hillerød Handelsgymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Hjørring Gymnasium",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -306,6 +271,31 @@ var schools = {
 "hasBio":"false"
 },
 {
+"name":"IBC",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Ikast-Brande Gymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Ingrid Jespersens Gymnasieskole",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Kalundborg Gymnasium & HF",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Kold College",
+"hasIdc":"false",
+"hasBio":"true"
+},
+{
 "name":"Kold College",
 "hasIdc":"true",
 "hasBio":"true"
@@ -331,18 +321,23 @@ var schools = {
 "hasBio":"true"
 },
 {
-"name":"Københavns Åbne Gymnasium",
+"name":"Københavns Idrætsefterskole",
 "hasIdc":"true",
 "hasBio":"false"
 },
 {
-"name":"Køge Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"Køge Gymnasium",
+"name":"Københavns Private Gymnasium",
 "hasIdc":"false",
+"hasBio":"true"
+},
+{
+"name":"Køge Gymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Køge Gymnasium",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -372,13 +367,18 @@ var schools = {
 },
 {
 "name":"Marie Kruses Skole",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
 "name":"Marselisborg Gymnasium",
 "hasIdc":"true",
 "hasBio":"true"
+},
+{
+"name":"Mercantec",
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"Middelfart Gymnasium",
@@ -393,21 +393,16 @@ var schools = {
 {
 "name":"Morsø Gymnasium",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Mulernes Legatskole",
 "hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"Munkensdam Gymnasium",
-"hasIdc":"false",
 "hasBio":"true"
 },
 {
-"name":"N. Zahles Skole",
-"hasIdc":"false",
+"name":"Munkensdam Gymnasium",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -426,9 +421,19 @@ var schools = {
 "hasBio":"false"
 },
 {
+"name":"Nyborg Gymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
 "name":"Nykøbing Katedralskole",
 "hasIdc":"true",
 "hasBio":"true"
+},
+{
+"name":"Næstved Gymnasium & HF",
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"Nørre Gymnasium",
@@ -436,7 +441,7 @@ var schools = {
 "hasBio":"true"
 },
 {
-"name":"Nørresundby Gymnasium & HF",
+"name":"Nørrebro Gymnasium",
 "hasIdc":"false",
 "hasBio":"true"
 },
@@ -444,6 +449,11 @@ var schools = {
 "name":"Nørresundby Gymnasium & HF",
 "hasIdc":"true",
 "hasBio":"false"
+},
+{
+"name":"Nørresundby Gymnasium & HF",
+"hasIdc":"true",
+"hasBio":"true"
 },
 {
 "name":"Odense Katedralskole",
@@ -467,13 +477,13 @@ var schools = {
 },
 {
 "name":"Randers Statsskole",
-"hasIdc":"false",
-"hasBio":"true"
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"Randers Statsskole",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Ribe Katedralskole",
@@ -482,7 +492,7 @@ var schools = {
 },
 {
 "name":"Ribe Katedralskole",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -492,6 +502,16 @@ var schools = {
 },
 {
 "name":"Risskov Gymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Rosborg Gymnasium & HF",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Roskilde Gymnasium",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -507,7 +527,7 @@ var schools = {
 },
 {
 "name":"Rybners",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -533,15 +553,10 @@ var schools = {
 {
 "name":"Sankt Annæ Gymnasium",
 "hasIdc":"true",
-"hasBio":"true"
-},
-{
-"name":"Sct. Knuds Gymnasium",
-"hasIdc":"true",
 "hasBio":"false"
 },
 {
-"name":"SCU",
+"name":"Sct. Knuds Gymnasium",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -562,13 +577,13 @@ var schools = {
 },
 {
 "name":"Skive Tekniske Skole",
-"hasIdc":"false",
-"hasBio":"true"
+"hasIdc":"true",
+"hasBio":"false"
 },
 {
 "name":"Skive Tekniske Skole",
-"hasIdc":"true",
-"hasBio":"false"
+"hasIdc":"false",
+"hasBio":"true"
 },
 {
 "name":"Slagelse Gymnasium",
@@ -581,6 +596,11 @@ var schools = {
 "hasBio":"false"
 },
 {
+"name":"Struer Statsgymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
 "name":"Student Media ApS",
 "hasIdc":"false",
 "hasBio":"true"
@@ -588,17 +608,17 @@ var schools = {
 {
 "name":"Støvring Gymnasium",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
+},
+{
+"name":"Sydkystens Gymnasium",
+"hasIdc":"false",
+"hasBio":"true"
 },
 {
 "name":"Sønderborg Statsskole",
 "hasIdc":"true",
 "hasBio":"false"
-},
-{
-"name":"Taastrup Gymnasium",
-"hasIdc":"false",
-"hasBio":"true"
 },
 {
 "name":"Teknisk Gymnasium Silkeborg",
@@ -607,7 +627,7 @@ var schools = {
 },
 {
 "name":"Thisted Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -617,18 +637,18 @@ var schools = {
 },
 {
 "name":"Tornbjerg Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Tornbjerg Gymnasium",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
 "name":"Tornbjerg Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
-},
-{
-"name":"Tornbjerg Gymnasium",
-"hasIdc":"true",
-"hasBio":"false"
+"hasIdc":"false",
+"hasBio":"true"
 },
 {
 "name":"Tårnby Gymnasium",
@@ -637,7 +657,7 @@ var schools = {
 },
 {
 "name":"Tønder Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -662,13 +682,8 @@ var schools = {
 },
 {
 "name":"Vejlefjordskolen",
-"hasIdc":"false",
-"hasBio":"true"
-},
-{
-"name":"Vestegnen HF & VUC",
 "hasIdc":"true",
-"hasBio":"false"
+"hasBio":"true"
 },
 {
 "name":"Vesthimmerlands Gymnasium & HF",
@@ -676,7 +691,7 @@ var schools = {
 "hasBio":"true"
 },
 {
-"name":"Vestjysk Gymnasium Tarm",
+"name":"Viborg Gymnasium & HF",
 "hasIdc":"true",
 "hasBio":"false"
 },
@@ -692,7 +707,7 @@ var schools = {
 },
 {
 "name":"Virum Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 {
@@ -711,6 +726,16 @@ var schools = {
 "hasBio":"false"
 },
 {
+"name":"Århus Akademi",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
+"name":"Århus Statsgymnasium",
+"hasIdc":"true",
+"hasBio":"false"
+},
+{
 "name":"Øregård Gymnasium",
 "hasIdc":"true",
 "hasBio":"true"
@@ -722,7 +747,7 @@ var schools = {
 },
 {
 "name":"Ørestad Gymnasium",
-"hasIdc":"false",
+"hasIdc":"true",
 "hasBio":"true"
 },
 ],

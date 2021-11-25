@@ -35,7 +35,7 @@ var fetch = function(topic) {
 		}).done(function( chapterList ) {
 		var linksContainer = $('#linksContainer');
 		var header = $('<h2></h2>');
-		header.html("Videos (flere følger)");
+		header.html("Animationer (flere følger)");
 		linksContainer.append(header);
 		var body = $('<div></div>');
 	linksContainer.append(body);

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Common.Logging;
@@ -15,14 +16,7 @@ namespace Yubio.Server
 
         static void Main(string[] args)
         {
-            //LectioScheduler scheduler = new LectioScheduler();
-            //Console.ReadLine();
-
-
-
-            var m1 = Regex.Match("Kapitel 1: Liv, evolution og celler",
-                @"Kapitel (?<chapter>\d*):\s*(?<header>[\w\s-&\,]*)");
-            var m = Regex.Match("Kapitel 8: Udvidet fyiologi træningslære", @"(?<chapter>\d+([,\.]\d+)?)\s*(?<header>[\w\s-]*)");
+            var dead = LinkParser.ResolveDeadLinks().ToList();
             var quizMaster = new QuizMaster();
             try
             {

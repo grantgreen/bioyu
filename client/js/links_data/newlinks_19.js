@@ -2,11 +2,7 @@ var links = {
     "19": [
 
 		{"caption": "DNAs pakning i kromosomerne","link": "http://www.youtube.com/watch?v=9kQpYdCnU14"},
-	   {"caption": "DNA 1",	"link": "http://highered.mheducation.com/sites/dl/free/0072835125/126997/animation12.html"},
-	   {"caption": "DNA 2", "link": "http://www.hhmi.org/biointeractive/chemical-structure-dna"},
-	   {"caption": "Cellecyklus 1","link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter3/animation__control_of_the_cell_cycle.html"},
-	   {"caption": "Cellecyklus 2",	"link": "http://highered.mheducation.com/sites/0072943696/student_view0/chapter3/animation__how_the_cell_cycle_works.html"},
-	   {"caption": "Mitose og cytokinese","link": "http://highered.mcgraw-hill.com/sites/0072495855/student_view0/chapter2/animation__mitosis_and_cytokinesis.html"},
+	   {"caption": "DNA 1", "link": "http://www.hhmi.org/biointeractive/chemical-structure-dna"},
 	   {"caption": "Meiose 1","link": "http://www.youtube.com/watch?v=D1_-mQS_FZ0&feature=related"},
 	   {"caption": "Mitose og meiose","link": "https://www.youtube.com/watch?v=Ba9LXKH2ztU"},
 	   {"caption": "Mitose 1","link": "http://www.youtube.com/watch?v=VlN7K1-9QB0"},

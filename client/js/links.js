@@ -88,7 +88,7 @@ var getChapter = function(chapterNo, topic, bookType) {
 	var linksContainer = $('#linksContainer');
 
 	var chapterLinks = links[chapterNo];
-	
+	var spliced = spliceLinks(chapterLinks);
 	var header = $('<h2></h2>');
 	header.html(chapter.name);
 	linksContainer.append(header);
@@ -97,12 +97,11 @@ var getChapter = function(chapterNo, topic, bookType) {
 	linksContainer.append(body);
 
 	var color = "#EA661E";
-	if(chapterLinks) {
-	    for(var i in chapterLinks) {
-		var chapterLink = chapterLinks[i];
+	if(spliced) {
+	    for(var i in spliced) {
+		var chapterLink = spliced[i];
 		if(chapterLink.color) {
 		    color = chapterLink.color;
-		    continue;
 		}
 		
 		var paragraph = $('<p></p>');		

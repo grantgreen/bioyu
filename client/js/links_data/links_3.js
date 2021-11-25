@@ -28,6 +28,12 @@ var links = {
 	 "link": "http://aktuelnaturvidenskab.dk"},
 
 	{"caption": "Alt om kost",
-	 "link": "http://altomkost.dk/raad-og-anbefalinger/de-officielle-kostraad/"}
+	 "link": "http://altomkost.dk/raad-og-anbefalinger/de-officielle-kostraad/"},
+	 {"caption": "Kan mad være sundt eller usundt?",
+	 "link": "https://altomkost.dk/fakta/myterommad/sundtogusundt/"},
+	 {"caption": "Skal du droppe kulhydrater?",
+	 "link": "https://altomkost.dk/fakta/myterommad/feder-kulhydrater/"},
+	 {"caption": "Fedtforherligelse eller fedtforskrækkelse",
+	 "link": "https://altomkost.dk/fakta/myterommad/feder-kulhydrater/"},
     ]
 }

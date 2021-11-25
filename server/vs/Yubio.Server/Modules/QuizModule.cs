@@ -34,6 +34,7 @@ namespace Yubio.Server.Modules
             public int Timeout { get; set; }
             public bool PublicHighScore { get; set; }
             public bool HideWatch { get; set; }
+            public bool IsRandom { get; set; }
         }
 
         public QuizModule()
@@ -70,7 +71,8 @@ namespace Yubio.Server.Modules
                     CreationTime = DateTime.Now,
                     Timeout = args.Timeout,
                     PublicHighScore = args.PublicHighScore,
-                    HideWatch = args.HideWatch
+                    HideWatch = args.HideWatch,
+                    RandomQuestions = args.IsRandom
                 };
                 dbDemo.InsertQuiz(quiz);
                 var found = dbDemo.QuizById(quiz.Id);
@@ -102,7 +104,8 @@ namespace Yubio.Server.Modules
                     CreationTime = DateTime.Now,
                     Timeout = args.Timeout,
                     PublicHighScore = args.PublicHighScore,
-                    HideWatch = args.HideWatch
+                    HideWatch = args.HideWatch,
+                    RandomQuestions = args.IsRandom
                 };
                 dbDemo.InsertQuiz(quiz);
                 var found = dbDemo.QuizById(quiz.Id);
